@@ -1,6 +1,10 @@
 # Welcome
 
-Welcome to your wiki! This is the default page we've installed for your convenience. Go ahead and edit it.
+Welcome to OIDF FAPI wiki! 
+
+## Meeting Notes
+
+* [FAPI WG Informal Meeting Notes (2016-08-02)]
 
 ## Wiki features
 
