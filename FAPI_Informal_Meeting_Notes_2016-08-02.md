@@ -1,5 +1,5 @@
-FAPI WG Informal Meeting Note (2016-08-02)
-=====================================
+FAPI WG Informal Meeting Notes (2016-08-02)
+============================================
 Date & Time: 2016-08-02 23:00 UTC - 00:10 UTC
 Location: GoToMeeting 
 Attendees: Nat, Nov, Edmund
