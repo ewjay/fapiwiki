@@ -1,4 +1,3 @@
-
 #Financial Services – Financial API
 
 ## Warning 
@@ -82,15 +81,19 @@ TLS – Transport Layer Security
 
 ## 5. Read Only Cases
 
-### 5.1 Obtaining Access Token
+### 5.1 Introduction
 
-### 5.2 Using Access Token
+### 5.2 Obtaining Access Token
+
+### 5.3 Using Access Token
 
 ## 6. Write Access Cases
 
-### 6.1 Obtaining Access Token
+### 6.1 Introduction
 
-### 6.2 Using Access Token
+### 6.2 Obtaining Access Token
+
+### 6.3 Using Access Token
 
 ## 7. Resource APIs
 
