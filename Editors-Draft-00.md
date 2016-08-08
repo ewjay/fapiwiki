@@ -95,6 +95,8 @@ For the purpose of this standard, the terms defined in RFC6749, RFC6750, RFC7636
 
 API – Application Programming Interface
 
+FAPI - Financial API
+
 FI – Financial Institution
 
 HTTP – Hyper Text Transfer Protocol
@@ -106,6 +108,12 @@ TLS – Transport Layer Security
 ## 5. Getting Tokens
 
 ### 5.1 Introduction
+
+The OIDF Financial API (FAPI) is a REST API that provides JSON data representing accounts and transactions related data. These APIs are protected by the OAuth 2.0 Authorization Framework that consists of [RFC6749], [RFC6750], ..., and other specifications. 
+
+These API accesses have several levels of risks associated to it. Read only access is generally speaking associated with lower financial risk than the write access. As such, the characteristics required to the tokens are also different. 
+
+In the following subclauses, the method to obtain tokens are explained separately. 
 
 ### 5.2 Read Only Access
 
