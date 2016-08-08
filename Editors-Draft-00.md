@@ -145,7 +145,16 @@ The Authorization Server
 
 ### 5.3 Write Access
 
-    Editor's Note: We have choice of Token Binding or POP. 
+    Editor's Note: We have choice of Token Binding or POP? 
+
+In addition to the provisions stated in the Read Access case, the systems that implements FAPI shall satisfy the following provisions: 
+
+* Each message shall be source authenticated; 
+* Each message shall be tamper evident; 
+* Each message shall be transmitted through encrypted channel or shall be encrypted otherwise; 
+* Each message shall be replay detectable; 
+* The Client shall include the intended interaction endpoints identifiers in the request; 
+* The Server shall attest that the endpoints in the Client intension is legitimate and return errors otherwise; 
 
 ## 6. Using Tokens
 
