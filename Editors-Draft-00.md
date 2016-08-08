@@ -79,25 +79,27 @@ REST – Representational State Transfer
 
 TLS – Transport Layer Security
 
-## 5. Read Only Cases
+## 5. Getting Tokens
 
 ### 5.1 Introduction
 
-### 5.2 Obtaining Access Token
+### 5.2 Read Only Access
 
-### 5.3 Using Access Token
+### 5.3 Write Access
 
-## 6. Write Access Cases
+## 6. Using Tokens
 
 ### 6.1 Introduction
 
-### 6.2 Obtaining Access Token
+### 6.2 Read Only Access
 
-### 6.3 Using Access Token
+### 6.3 Write Access
 
 ## 7. Resource APIs
 
 ## 8. Security Considerations
+
+### 8.1 TLS Considerations
 
 ## 9. Privacy Considerations
 
