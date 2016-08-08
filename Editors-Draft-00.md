@@ -75,6 +75,8 @@ RFC 5246 - The Transport Layer Security (TLS) Protocol Version 1.2
 
 RFC 6125 - Representation and Verification of Domain-Based Application Service Identity within Internet Public Key Infrastructure Using X.509 (PKIX) Certificates in the Context of Transport Layer Security (TLS)
 
+BCP NAPPS - [OAuth 2.0 for Native Apps](https://tools.ietf.org/html/draft-ietf-oauth-native-apps-03)
+
 OpenID Connect Core 1.0 incorporating errata set 1
 
 OpenID Connect Discovery 1.0 incorporating errata set 1
@@ -95,6 +97,8 @@ For the purpose of this standard, the terms defined in RFC6749, RFC6750, RFC7636
 
 API – Application Programming Interface
 
+CSRF - Cross Site Request Forgery 
+
 FAPI - Financial API
 
 FI – Financial Institution
@@ -109,7 +113,7 @@ TLS – Transport Layer Security
 
 ### 5.1 Introduction
 
-The OIDF Financial API (FAPI) is a REST API that provides JSON data representing accounts and transactions related data. These APIs are protected by the OAuth 2.0 Authorization Framework that consists of [RFC6749], [RFC6750], ..., and other specifications. 
+The OIDF Financial API (FAPI) is a REST API that provides JSON data representing accounts and transactions related data. These APIs are protected by the OAuth 2.0 Authorization Framework that consists of [RFC6749], [RFC6750], [RFC7636], ..., and other specifications. 
 
 These API accesses have several levels of risks associated to it. Read only access is generally speaking associated with lower financial risk than the write access. As such, the characteristics required to the tokens are also different. 
 
@@ -117,7 +121,31 @@ In the following subclauses, the method to obtain tokens are explained separatel
 
 ### 5.2 Read Only Access
 
+Read Only Access typically is the lower risk scenario compared to the Write access, so the protection level can also be lower. However, since the FAPI would provide potentially sensitive information, it requires more protection level than a basic [RFC6749] requires. 
+
+As a profile of The OAuth 2.0 Authorization Framework, this specification mandates the following to the Read Only API of the FAPI. 
+
+The Client 
+
+* shall use the RFC7636 with S256 as the code challenge method;  
+* shall use separate and distinct Redirect URI for each Authorization Server that it talks to; 
+* shall store the Redirect URI value in the User-Agent session and compare it with the Redirect URI that the Authorization Response was received at, where, if the URIs do not match, the Client shall terminate the process with error; 
+* shall adhere to the best practice stated by [BCP NAPPS](https://tools.ietf.org/html/draft-ietf-oauth-native-apps-03); and 
+* shall implement an effective CSRF protection. 
+
+The Authorization Server 
+
+* shall support RFC7636 with S265 as the code challenge method; 
+* shall require exact match to the Redirect URI; 
+* shall implement user authentication at LoA 2 or more; 
+* shall issue a client secret longer than xxxxxx bytes; and 
+* ... 
+
+    Editor's Note: Requiring similar mechanism to PKCE to the Refresh and Access Token a good idea? 
+
 ### 5.3 Write Access
+
+    Editor's Note: We have choice of Token Binding or POP. 
 
 ## 6. Using Tokens
 
