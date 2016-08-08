@@ -27,9 +27,16 @@ Attention is drawn to the possibility that some of the elements of this document
 
 
 ##Introduction
-**// TODO**
 
-* Write Introduction
+In many cases, Fintech services such as aggregation services uses screen scraping and stores user passwords. This model is both brittle and insecure. To cope with the brittleness, it should utilize an API model with structured data and to cope with insecurity, it should utilize a token model such as OAuth [RFC6749, RFC6750].
+
+This working group aims to rectify the situation by developing a REST/JSON model protected by OAuth. Specifically, the FAPI WG aims to provide JSON data schemas, security and privacy recommendations and protocols to:
+
+* enable applications to utilize the data stored in the financial account,
+* enable applications to interact with the financial account, and
+* enable users to control the security and privacy settings.
+
+Both commercial and investment banking account as well as insurance, and credit card accounts are to be considered.
 
 
 
@@ -38,6 +45,23 @@ Attention is drawn to the possibility that some of the elements of this document
 ## 1. Scope
 **// TODO**
 
+The goal of FAPI is to provide JSON data schemas, security and privacy recommendations and protocols to:
+
+* enable applications to utilize the data stored in the financial account,
+* enable applications to interact with the financial account, and
+* enable users to control the security and privacy settings.
+
+Both commercial and investment banking account as well as insurance, and credit card accounts are to be considered.
+
+The group will define
+
+* security profiles for OpenID Connect and OAuth,
+* JSON format to represent account related data, e.g., Account Representation, Transactions, Current Status,
+* REST API for the accounts,Purchase history of commerce site, and Receipt Data
+
+Out of scope:
+
+* Web Payment (will refer the W3C Web Payment WG product if needed.)
 * Write Scope
 
 ## 2. Normative references
