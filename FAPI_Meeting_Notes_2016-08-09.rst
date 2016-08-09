@@ -110,8 +110,9 @@ assigned to Anoop.
 
 AOB
 ========
-* Next Call: Wed Aug 17, 2pm UTC (7am PDT, 11pm JST)
 
- 
+Next Call
+----------
+* Wed Aug 17, 2pm UTC (7am PDT, 11pm JST)
 
 
