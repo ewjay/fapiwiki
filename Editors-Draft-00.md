@@ -176,6 +176,6 @@ In addition to the provisions stated in the Read Access case, the systems that i
 
 ## 10. Acknowledgement
 
-## 11. References
+## 11. Bibliography 
 
 ## Annex A Financial Data API Level 1 (Normative) 
