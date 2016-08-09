@@ -123,6 +123,8 @@ In the following subclauses, the method to obtain tokens are explained separatel
 
 ### 5.2 Read Only Access
 
+#### 5.2.1 Public Client
+
 Read Only Access typically is the lower risk scenario compared to the Write access, so the protection level can also be lower. However, since the FAPI would provide potentially sensitive information, it requires more protection level than a basic [RFC6749] requires. 
 
 As a profile of The OAuth 2.0 Authorization Framework, this specification mandates the following to the Read Only API of the FAPI. 
@@ -145,9 +147,13 @@ The Authorization Server
 
     Editor's Note: Requiring similar mechanism to PKCE to the Refresh and Access Token a good idea? 
 
+#### 5.2.2 Confidential Client
+
 ### 5.3 Write Access
 
     Editor's Note: We have choice of Token Binding or POP? 
+
+####　5.3.1 Public Client
 
 In addition to the provisions stated in the Read Access case, the systems that implements FAPI shall satisfy the following provisions: 
 
@@ -157,6 +163,8 @@ In addition to the provisions stated in the Read Access case, the systems that i
 * Each message shall be replay detectable; 
 * The Client shall include the intended interaction endpoints identifiers in the request; 
 * The Server shall attest that the endpoints in the Client intension is legitimate and return errors otherwise; 
+
+#### 5.3.2 Confidential Client
 
 ## 6. Using Tokens
 
