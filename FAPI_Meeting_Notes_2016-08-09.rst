@@ -1,11 +1,11 @@
 ============================================
 FAPI WG Informal Meeting Notes (2016-08-09)
 ============================================
-Date & Time: 2016-08-09 23:00 UTC (16:00 PDT) - 00:10 UTC
+Date & Time: 2016-08-09 23:00 UTC (16:00 PDT) - 23:59 UTC
 
-Location: GoToMeeting 
+Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
-Attendees: 
+Attendees: Nat, Anoop, (Abel Rojas as guest), Edmund, Henrik
 
 .. sectnum::
    :suffix: .
@@ -65,26 +65,53 @@ Fee Structure::
 
 Should we seek to be a member (under SME) or try to establish a liaison? 
 
-    Discuss whether we should be a member or request a liaison relationship. 
+    ASK: Discuss whether we should be a member or request a liaison relationship. 
+
+* Nat to draft liaison request
+* Anoop to follow up with Intuit UK Team
+* Henrik to follow up with Danish Bank, who is a member of OBDG
 
 ISO TC68
 ----------------
 
 ISO TC68 will have a meeting this November. We probably should send a liaison request. 
 
-    To Mandate Nat to develop a liaison request. 
+    ASK: To Mandate Nat to develop a liaison request. 
 
+Action::
 
+    Nat to draft liaison request
 
 New & Open Issues
 ======================
 In the call, participants discussed the following issues 
 listed in the [issue tracker](https://bitbucket.org/openid/fapi/issues)
 
+Since we were short of time, we have gone through only the following issues: 
+
 * issue #2: Accounts: Total Pages and Page does not make sense
-* issue #4: Remove MessageFormat and references to it
+
+    It is not meant to be physical page but "memory page". Some companies have hundreds of accounts 
+    and need "pagination". 
+    Assigned to Anoop. Anoop is going to send the example so that we can make a better "description" 
+
 * issue #7: Add "Open Data" data set
+
+    There is no such thing in DDA. We need to create our own. 
+    David Tonge's group in UK is creating this. We need to get more info on it. 
+    At the same time, we should gather more data on each countries so that we can come up with a sensible one. 
+    Assigned to Anoop. 
+
 * issue #8: Should hard coded paths be avoided
+
+    It is desirable not to constrain the path. DDA's path is just an example and implementations are free to 
+    create their own path as long as they adhere to the functional requirements. 
+    We will write in the main text that the paths in Annex A are only examples. 
+    Assigned to Nat. 
+
+Working Group members are asked to go through the rest of issues and put comments in the tracker / discuss on the email list. 
+
+* issue #4: Remove MessageFormat and references to it
 * issue #10: Internationalization of strings
 * issue #11: OAuth Profile should mandate RFC7636 (PKCE) for code flow
 * issue #12: OAuth Profile should mandate per AS redirect URI for Clients with session comparison
@@ -101,18 +128,21 @@ listed in the [issue tracker](https://bitbucket.org/openid/fapi/issues)
 * issue #23: How do I find AccountID to use in transfer?
 
 The previous discussion results are recorded in each issue tickets. 
-As far as the terminology is concerned, it was prevalent among the callers 
-that OAuth term should be used instead of creating something else. 
 
 Some of the issue was related to the ambiguity etc. of 
 the DDA spec that we are basing on. These (#17, #20, #22) was 
-assigned to Anoop. 
+assigned to Anoop, and Anoop will follow up. 
+
+Action: 
+    WG members to follow up with the issues. Anoop to send notes especially on (#17, #20, #22). 
 
 AOB
 ========
 
 Next Call
 ----------
-* Wed Aug 17, 2pm UTC (7am PDT, 11pm JST)
+* Wed Aug 17, 2pm UTC (4pm Denmark, 7am PDT, 11pm JST)
 
+    Anoop will not be able to join this call, but he will send notes before it so that the group can discuss it. 
 
+Meeting was adjourned at 23:59 UTC. 
