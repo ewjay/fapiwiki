@@ -12,6 +12,15 @@ Attendees: Nat, Anoop, (Abel Rojas as guest), Edmund, Henrik
 
 .. contents:: Agenda
 
+Roll Call
+=============
+Each attendee introduced themselves. 
+Abel Rojas is from Mexico City and was observing as guest. 
+Nat explained that to be a member, one has to sign the IPR Contribution Agreement. 
+
+Adoption of the Agenda
+=========================
+The agenda was adopted unanimously as previously distributed. 
 
 Document Restructuring
 ============================
@@ -44,8 +53,12 @@ Financial Services – Financial API::
 
 Note that the section structures are according to the ISO Directive Part 2. 
 
-    Discuss whether the proposed structure is adequate, and give mandate 
+    ASK: Discuss whether the proposed structure is adequate, and give mandate 
     to editors to come up with a new WD. 
+
+::
+
+    The callers agreed to adopt the new structure and gave mandate to editors to act on it. 
 
 External Org Relationships
 =============================
@@ -67,9 +80,18 @@ Should we seek to be a member (under SME) or try to establish a liaison?
 
     ASK: Discuss whether we should be a member or request a liaison relationship. 
 
-* Nat to draft liaison request
-* Anoop to follow up with Intuit UK Team
-* Henrik to follow up with Danish Bank, who is a member of OBDG
+Anoop shared the information from Intuit's UK team on this. 
+He is concerned that we will end-up with multiple standards, where some of them are local. 
+Nat pointed out that we should at least be able to come together on the security aspect and should strive 
+to get the unified API. 
+Callers agreed that it would be good to try to open a liaison channel. 
+At the same time, each member should try to get the communication going. 
+
+Action::
+
+    * Nat to draft liaison request
+    * Anoop to follow up with Intuit UK Team
+    * Henrik to follow up with Danish Bank, who is a member of OBDG
 
 ISO TC68
 ----------------
@@ -78,9 +100,18 @@ ISO TC68 will have a meeting this November. We probably should send a liaison re
 
     ASK: To Mandate Nat to develop a liaison request. 
 
+Nat explained what is ISO TC68 and why it is valuable to submit the finished specs to ISO 
+in relationship with WTO TBT treaty. While OpenID Process is WTO TBT treaty compliant and 
+should count as an international standard, in many countries, they are not aware of OIDF 
+standard and getting it published as ISO standard with ISO number is valuable in these 
+cases. 
+
 Action::
 
     Nat to draft liaison request
+
+Nat further explained the liaison process, that it has to go through the liaison committee 
+which is composed of Board EC and WG Chairs so that it can be sent as OIDF and not as a WG. 
 
 New & Open Issues
 ======================
@@ -134,6 +165,7 @@ the DDA spec that we are basing on. These (#17, #20, #22) was
 assigned to Anoop, and Anoop will follow up. 
 
 Action: 
+
     WG members to follow up with the issues. Anoop to send notes especially on (#17, #20, #22). 
 
 AOB
