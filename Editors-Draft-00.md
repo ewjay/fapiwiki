@@ -1,4 +1,4 @@
-#Financial Services – Financial API
+#Financial Services – Financial API - Part 1: Read Only APIs
 
 ## Warning
 
@@ -40,12 +40,11 @@ Both commercial and investment banking account as well as insurance, and credit 
 
 
 
-#**Financial Services – Financial API**
+#**Financial Services – Financial API - Part 1: Read Only APIs **
 
 [TOC]
 
 ## 1. Scope
-**// TODO**
 
 The goal of FAPI is to provide JSON data schemas, security and privacy recommendations and protocols to:
 
@@ -55,16 +54,13 @@ The goal of FAPI is to provide JSON data schemas, security and privacy recommend
 
 Both commercial and investment banking account as well as insurance, and credit card accounts are to be considered.
 
-The group will define
+This document defines 
 
-* security profiles for OpenID Connect and OAuth,
-* JSON format to represent account related data, e.g., Account Representation, Transactions, Current Status,
-* REST API for the accounts,Purchase history of commerce site, and Receipt Data
+* security profiles for and OAuth and OpenID Connect; 
+* JSON format to represent account related data, e.g., Account Representation, Transactions, Current Status; 
+* REST API for the accounts, Purchase history of commerce site, and Receipt Data
 
-Out of scope:
-
-* Web Payment (will refer the W3C Web Payment WG product if needed.)
-* Write Scope
+for a read only access. 
 
 ## 2. Normative references
 The following referenced documents are indispensable for the application of this document. For dated references, only the edition cited applied. For undated references, the latest edition of the referenced document (including any amendments) applies.
@@ -81,17 +77,11 @@ RFC 6125 - Representation and Verification of Domain-Based Application Service I
 
 BCP NAPPS - [OAuth 2.0 for Native Apps](https://tools.ietf.org/html/draft-ietf-oauth-native-apps-03)
 
-OpenID Connect Core 1.0 incorporating errata set 1
+OIDC OpenID Connect Core 1.0 incorporating errata set 1
 
-OpenID Connect Discovery 1.0 incorporating errata set 1
+OIDD OpenID Connect Discovery 1.0 incorporating errata set 1
 
-OAuth 2.0 Multiple Response Type Encoding Practices
-
-Open Financial Exchange 2.2
-
-“HTML 4.01 Specification,” World Wide Web Consortium Recommendation REC-html401-19991224, December 1999
-
-
+OIDM OAuth 2.0 Multiple Response Type Encoding Practices
 
 ## 3. Terms and definitions
 For the purpose of this standard, the terms defined in RFC6749, RFC6750, RFC7636, OpenID Connect Core applies.
@@ -124,7 +114,7 @@ These API accesses have several levels of risks associated to it. Read only acce
 In the following subclauses, the method to obtain tokens are explained separately.
 
 
-### 5.2 Read Only Access
+### 5.2 Read Only Access Provisions
 
 Read Only Access typically is the lower risk scenario compared to the Write access, so the protection level can also be lower. However, since the FAPI would provide potentially sensitive information, it requires more protection level than a basic [RFC6749] requires.
 
@@ -193,24 +183,6 @@ In addition to the provision to the Public Client, the Confidential Client
 * shall authentciate with client secret to access the Token Endpoint as in Section 4.1.3 of OAuth 2.0 [RFC6749]; 
 
 
-
-### 5.3 Write Access
-
-    Editor's Note: We have choice of Token Binding or POP?
-
-####　5.3.1 Public Client
-
-In addition to the provisions stated in the Read Access case, the systems that implements FAPI shall satisfy the following provisions:
-
-* Each message shall be source authenticated;
-* Each message shall be tamper evident;
-* Each message shall be transmitted through encrypted channel or shall be encrypted otherwise;
-* Each message shall be replay detectable;
-* The Client shall include the intended interaction endpoints identifiers in the request;
-* The Server shall attest that the endpoints in the Client intension is legitimate and return errors otherwise;
-
-#### 5.3.2 Confidential Client
-
 ## 6. Using Tokens
 
 ### 6.1 Introduction
@@ -226,8 +198,6 @@ The FAPI Endpoints MUST accept Access Tokens as OAuth 2.0 Bearer Token Usage [RF
 The FAPI Endpoint SHOULD support the use of Cross Origin Resource Sharing (CORS) [CORS] and or other methods as appropriate to enable Java Script Clients to access the endpoint.
 
 ### 6.2 Read Only Access
-
-### 6.3 Write Access
 
 ## 7. Resource APIs
 
@@ -251,6 +221,12 @@ Residual data is data that is no longer being used, for example if an account ha
 ## 11. Acknowledgement
 
 ## 12. Bibliography
+
+* Open Financial Exchange 2.2
+* “HTML 4.01 Specification,” World Wide Web Consortium Recommendation REC-html401-19991224, December 1999
+
+
+
 
 ## Annex A Financial Data API Level 1 (Normative)
 
