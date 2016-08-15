@@ -123,63 +123,6 @@ These API accesses have several levels of risks associated to it. Read only acce
 
 In the following subclauses, the method to obtain tokens are explained separately.
 
-## 5.2 Access Overview
-Financial API uses the OpenID Connect 1.0 protocol for authentication and authorization.
-
-The Financial API client needs the following information to successfully interact with a Financial API server:
-
-1. OpenID Authorization Server
-    1. Authorization endpoint, e.g. https://oauth.example.com/authorization
-    2. Client identifier, e.g. intuit.com
-    3. Requested scope ("accounts", "customer", "images", "transfer", "transactions")
-    4. Client Redirection Endpoint, e.g. https://oauth.intuit.com/client
-    5. Token Endpoint, e.g. https://oauth.example.com/token
-    6. Client Authentication Method and Client credentials (JWT or shared secret)
-    7. Optional client authentication certificate
-    8. Authorization Server Certifying Authority public key chain
-2. Financial API Service (OAuth resource server)
-    1. Endpoint, e.g. https://data.example.com
-    2. Client authorization (Bearer or MAC token)
-    3. (Optional) Client authentication certificate. Use mutual authentication for access by the client agents in addition to the refresh or access token.
-    4. Resource Server Certifying Authority public key chain. Client will need to make sure server SSL certificate CA is in their trust store.
-
-The full details of how a Financial API client obtain an OAuth Access Token are covered in Section 3.1.2 of OpenID Connect Core 1.0. The following steps summarize the method on how to obtain an access token from a Financial Institution Authorization Server and its usage.
-
-1. The end user starts a Client application on the web or on a device.
-2. The client application authenticates the end user.
-3. The client application prompts the end user for information regarding the Financial Institution.
-4. The client application may optionally perform discovery via OpenID Connect Discovery 1.0 to otain the Financial Institution's authorization, token, and resource endpoints if they are unknown.
-5. The client constructs an Authorization request to the Financial Institution's Authorization Endpoint.
-6. The client redirects the end user to the Authorization Endpoint with the request parameters.
-7. The Authorization Server authenticates the end user and obtains authorization from the end user for the client application.
-8. The Authorization Server sends the authorization response back to the client's *redirect\_uri* endpoint.
-9. The client validates the response.
-10. The client extracts the authorization code.
-11. The authorization code is submitted to Authorization Server's Token Endpoint to get an Access Token.
-12. Use the Access Token to access protected Financial API endpoints.
-13. Store the Refresh Token for fetching a new Access Token once the current Access Token expires.
-
-
-### 5.2.1 Financial API Scopes
-The Financial API allows access to the user's private financial information while the user is offline. To obtain consent and authorization for an access token and refresh token that can be used while the user is offline, the authorization request shall contain the `openid` and `offline_access` values in the `scope` parameter. A refresh token will be returned in the authorization response that can be exchanged for an access token as described in Section 12 of OpenID Connect Core 1.0.
-
-The Financial API client application shall include a list of desired scopes when requesting an Access Token. The following scopes are defined for Financial API data service:
-
-| Resource       | Allowed Actions                                              | Scope          |
-|----------------|--------------------------------------------------------------|----------------------|
-| Account        | Read only Access to summary account information              | FinancialInformation |
-| Customer       | Read only Access to customer information, including PII      | FinancialInformation |
-| Image          | Read only Access to transaction images (checks and receipts) | FinancialInformation |
-| Statement      | Read only Access to statement image                          | FinancialInformation |
-| Transaction    | Read only Access to transaction information                  | FinancialInformation |
-| Transfer       | Transfer of money between accounts                           | Transfer             |
-
-The Financial API server will return the list of allowed scopes with the issued Access Token in the authorization server.
-
-The Financial API server may limit the scopes for the purpose of not implementing certain APIs.
-
-The Financial API server may also present scopes in the access confirmation page after end-user login to have them determine each account(s) access for the requesting application.
-
 
 ### 5.2 Read Only Access
 
@@ -187,27 +130,69 @@ Read Only Access typically is the lower risk scenario compared to the Write acce
 
 As a profile of The OAuth 2.0 Authorization Framework, this specification mandates the following to the Read Only API of the FAPI.
 
-#### 5.2.1 Public Client
-
-The Client
-
-* shall use the RFC7636 with S256 as the code challenge method;
-* shall use separate and distinct Redirect URI for each Authorization Server that it talks to;
-* shall store the Redirect URI value in the User-Agent session and compare it with the Redirect URI that the Authorization Response was received at, where, if the URIs do not match, the Client shall terminate the process with error;
-* shall adhere to the best practice stated by [BCP NAPPS](https://tools.ietf.org/html/draft-ietf-oauth-native-apps-03); and
-* shall implement an effective CSRF protection.
+#### 5.2.1 Authorization Server 
 
 The Authorization Server
 
+* shall support both public and confidential clients; 
+* shall provide client secret longer than 12 characters; 
 * shall support RFC7636 with S265 as the code challenge method;
-* shall require exact match to the Redirect URI;
-* shall implement user authentication at LoA 2 or more;
-* shall issue a client secret longer than xxxxxx bytes; and
-* ...
+* shall require Redirect URIs to be pre-registered; 
+* shall required `redirect_uri` parameter in the authorization request; 
+* shall require the value of `redirect_uri` to exactly match one of the pre-registered Redirect URI;  
+* shall require user authentication at LoA 2 as defined in [X.1254] or more; 
+* shall require explicit consent by the user to authorized the requested scope if it has not been previously authorized; and 
+* shall verify that the Authorization Code has not been previously used if possible.  
+
+    NOTE: Section 4.1.3 of [RFC6749] does not say anything about the `code` reuse, but this document is putting limitation on it as per Section 3.1.3.2 of [OIDC]. 
+
+    NOTE: If replay identification of the authorization code is not possible, it is desirable to make the validity period of the authorization code very short. 
+
+Further, if it wishes to provide the authenticated user's identifier to the client in the token response, the authorization server 
+
+* shall support the authentication request as in Section 3.1.2.1 of [OIDC]; 
+* shall perform the authentication request verification as in Section 3.1.2.2 of [OIDC]; 
+* shall authenticate the user as in Section 3.1.2.2 and 3.1.2.3 of [OIDC]; 
+* shall provide the authentication response as in Section 3.1.2.4 and 3.1.2.5 of [OIDC] depending on the outcome of the authentication; 
+* shall perform the token request verification as in Section 3.1.3.2 of [OIDC]; and 
+* shall issue an ID Token in the token response when `openid` was included in the requested `scope` 
+  as in Section 3.1.3.3 of [OIDC] with its `sub` value equal to the value of the `CustomerId` 
+  of the `Cusotmer` object corresponding to the authenticated user 
+  and optional `acr` value in ID Token. 
+
+    NOTE: [DDA] returns a parameter called `user_id` in the token response. 
+    The value of `user_id` is identical to the value of `CustomerId` member of the `Customer` object. 
 
     Editor's Note: Requiring similar mechanism to PKCE to the Refresh and Access Token a good idea?
 
-#### 5.2.2 Confidential Client
+    Editor's Note 2: If `user_id` is indeed required in the token response of DDA, then, we should require OIDC. 
+
+#### 5.2.2 Public Client
+
+A Public Client
+
+* shall suport [RFC7636]; 
+* shall use the [RFC7636] with S256 as the code challenge method;
+* shall use separate and distinct Redirect URI for each Authorization Server that it talks to;
+* shall store the Redirect URI value in the User-Agent session and compare it with the Redirect URI that the Authorization Response was received at, where, if the URIs do not match, the Client shall terminate the process with error;
+* shall adhere to the best practice stated by [BCP NAPPS](https://tools.ietf.org/html/draft-ietf-oauth-native-apps-03); and 
+* shall implement an effective CSRF protection. 
+
+Further, if it wishes to obtain a persistent identifier of the authenticated user, it 
+
+* shall include `openid` in the `scope` value; and 
+* shall include `nonce` parameter defined in Section 3.1.2.1 of [OIDC] in the authentication request.  
+
+    NOTE: Adherance to [RFC7636] means that the token request includes `code_verifier` parameter in the request. 
+
+
+#### 5.2.3 Confidential Client
+
+In addition to the provision to the Public Client, the Confidential Client 
+
+* shall authentciate with client secret to access the Token Endpoint as in Section 4.1.3 of OAuth 2.0 [RFC6749]; 
+
+
 
 #### 5.2.3 Authorization Endpoint
 The Authorization Endpoint is used in the same manner defined in Section 3.1.2 of OpenID Connect 1.0, with the exception of the differences specified in this section.
@@ -220,7 +205,7 @@ Authentication Requests are made as defined in Section 3.1.2.1, except that thes
 * *redirect_uri* REQUIRED. The value shall be unique for each Authorization Server for public clients.
 * *state* REQUIRED.
 * *nonce* REQUIRED.
-* *prompt* REQUIRED. The value shall contain the values `prompt` and `consent` to request that Authorization Server perform user authentication and obtain explicit authorization for the client to read financial data.
+* *prompt* REQUIRED. The value shall contain `consent` to request that Authorization Server perform user authentication and obtain explicit authorization for the client to read financial data.
 * *acr_values* REQUIRED. The value shall be set to values that indicate an authentication context of LOA 2 or higher.
 
 Public clients shall use RFC7636 - Proof Key for Code Exchange by OAuth Public Clients to mitigate authorization code interception. As such, a public client shall follow the protocol as defined in RFC7636. The public client shall create a Code Verifier. A Code Challenge shall be created using *S256* as the method. The following paremeters are added to the authentication request:
@@ -325,3 +310,66 @@ Residual data is data that is no longer being used, for example if an account ha
 ## 12. Bibliography
 
 ## Annex A Financial Data API Level 1 (Normative)
+
+
+## Parking Lot
+
+     Do we need these? Is it not just repeating what is in OAuth or OpenID Connect? 
+
+## 5.2 Access Overview
+Financial API uses the OpenID Connect 1.0 protocol for authentication and authorization.
+
+The Financial API client needs the following information to successfully interact with a Financial API server:
+
+1. OpenID Authorization Server
+    1. Authorization endpoint, e.g. https://oauth.example.com/authorization
+    2. Client identifier, e.g. intuit.com
+    3. Requested scope ("accounts", "customer", "images", "transfer", "transactions")
+    4. Client Redirection Endpoint, e.g. https://oauth.intuit.com/client
+    5. Token Endpoint, e.g. https://oauth.example.com/token
+    6. Client Authentication Method and Client credentials (JWT or shared secret)
+    7. Optional client authentication certificate
+    8. Authorization Server Certifying Authority public key chain
+2. Financial API Service (OAuth resource server)
+    1. Endpoint, e.g. https://data.example.com
+    2. Client authorization (Bearer or MAC token)
+    3. (Optional) Client authentication certificate. Use mutual authentication for access by the client agents in addition to the refresh or access token.
+    4. Resource Server Certifying Authority public key chain. Client will need to make sure server SSL certificate CA is in their trust store.
+
+The full details of how a Financial API client obtain an OAuth Access Token are covered in Section 3.1.2 of OpenID Connect Core 1.0. The following steps summarize the method on how to obtain an access token from a Financial Institution Authorization Server and its usage.
+
+1. The end user starts a Client application on the web or on a device.
+2. The client application authenticates the end user.
+3. The client application prompts the end user for information regarding the Financial Institution.
+4. The client application may optionally perform discovery via OpenID Connect Discovery 1.0 to otain the Financial Institution's authorization, token, and resource endpoints if they are unknown.
+5. The client constructs an Authorization request to the Financial Institution's Authorization Endpoint.
+6. The client redirects the end user to the Authorization Endpoint with the request parameters.
+7. The Authorization Server authenticates the end user and obtains authorization from the end user for the client application.
+8. The Authorization Server sends the authorization response back to the client's *redirect\_uri* endpoint.
+9. The client validates the response.
+10. The client extracts the authorization code.
+11. The authorization code is submitted to Authorization Server's Token Endpoint to get an Access Token.
+12. Use the Access Token to access protected Financial API endpoints.
+13. Store the Refresh Token for fetching a new Access Token once the current Access Token expires.
+
+
+### 5.2.1 Financial API Scopes
+The Financial API allows access to the user's private financial information while the user is offline. To obtain consent and authorization for an access token and refresh token that can be used while the user is offline, the authorization request shall contain the `openid` and `offline_access` values in the `scope` parameter. A refresh token will be returned in the authorization response that can be exchanged for an access token as described in Section 12 of OpenID Connect Core 1.0.
+
+The Financial API client application shall include a list of desired scopes when requesting an Access Token. The following scopes are defined for Financial API data service:
+
+| Resource       | Allowed Actions                                              | Scope          |
+|----------------|--------------------------------------------------------------|----------------------|
+| Account        | Read only Access to summary account information              | FinancialInformation |
+| Customer       | Read only Access to customer information, including PII      | FinancialInformation |
+| Image          | Read only Access to transaction images (checks and receipts) | FinancialInformation |
+| Statement      | Read only Access to statement image                          | FinancialInformation |
+| Transaction    | Read only Access to transaction information                  | FinancialInformation |
+| Transfer       | Transfer of money between accounts                           | Transfer             |
+
+The Financial API server will return the list of allowed scopes with the issued Access Token in the authorization server.
+
+The Financial API server may limit the scopes for the purpose of not implementing certain APIs.
+
+The Financial API server may also present scopes in the access confirmation page after end-user login to have them determine each account(s) access for the requesting application.
+
