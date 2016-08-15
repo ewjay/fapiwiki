@@ -116,7 +116,20 @@ In the following subclauses, the method to obtain tokens are explained separatel
 
 ### 5.2 Read Only Access Provisions
 
-Read Only Access typically is the lower risk scenario compared to the Write access, so the protection level can also be lower. However, since the FAPI would provide potentially sensitive information, it requires more protection level than a basic [RFC6749] requires.
+Read Only Access typically is the lower risk scenario compared to the Write access, so the protection level can also be lower. However, since the FAPI would provide potentially sensitive information, it requires more protection level than a basic [RFC6749] requires. 
+
+To request the authorization to acess the protected resource in question, the client uses the OAuth scope values defined in table 1. 
+
+| Resource       | Allowed Actions                                              | Scope value          |
+|----------------|--------------------------------------------------------------|----------------------|
+| Account        | Read only Access to summary account information              | FinancialInformation |
+| Customer       | Read only Access to customer information, including PII      | FinancialInformation |
+| Image          | Read only Access to transaction images (checks and receipts) | FinancialInformation |
+| Statement      | Read only Access to statement image                          | FinancialInformation |
+| Transaction    | Read only Access to transaction information                  | FinancialInformation |
+| Transfer       | Transfer of money between accounts                           | Transfer             |
+
+Table 1 - Financial API Scopes
 
 As a profile of The OAuth 2.0 Authorization Framework, this specification mandates the following to the Read Only API of the FAPI.
 
@@ -131,12 +144,16 @@ The Authorization Server
 * shall required `redirect_uri` parameter in the authorization request; 
 * shall require the value of `redirect_uri` to exactly match one of the pre-registered Redirect URI;  
 * shall require user authentication at LoA 2 as defined in [X.1254] or more; 
-* shall require explicit consent by the user to authorized the requested scope if it has not been previously authorized; and 
-* shall verify that the Authorization Code has not been previously used if possible.  
+* shall require explicit consent by the user to authorized the requested scope if it has not been previously authorized;  
+* shall verify that the Authorization Code has not been previously used if possible; 
+* shall return the token response as defined in 4.1.4 of [RFC6749]; and 
+* shall return the list of allowed scopes with the issued access token.  
 
-    NOTE: Section 4.1.3 of [RFC6749] does not say anything about the `code` reuse, but this document is putting limitation on it as per Section 3.1.3.2 of [OIDC]. 
+    **NOTE**: The Financial API server may limit the scopes for the purpose of not implementing certain APIs.
 
-    NOTE: If replay identification of the authorization code is not possible, it is desirable to make the validity period of the authorization code very short. 
+    **NOTE**: Section 4.1.3 of [RFC6749] does not say anything about the `code` reuse, but this document is putting limitation on it as per Section 3.1.3.2 of [OIDC]. 
+
+    **NOTE**: If replay identification of the authorization code is not possible, it is desirable to make the validity period of the authorization code very short. 
 
 Further, if it wishes to provide the authenticated user's identifier to the client in the token response, the authorization server 
 
@@ -156,6 +173,7 @@ Further, if it wishes to provide the authenticated user's identifier to the clie
     Editor's Note: Requiring similar mechanism to PKCE to the Refresh and Access Token a good idea?
 
     Editor's Note 2: If `user_id` is indeed required in the token response of DDA, then, we should require OIDC. 
+
 
 #### 5.2.2 Public Client
 
@@ -319,23 +337,4 @@ Residual data is data that is no longer being used, for example if an account ha
 
 
 
-### 5.2.1 Financial API Scopes
-The Financial API allows access to the user's private financial information while the user is offline. To obtain consent and authorization for an access token and refresh token that can be used while the user is offline, the authorization request shall contain the `openid` and `offline_access` values in the `scope` parameter. A refresh token will be returned in the authorization response that can be exchanged for an access token as described in Section 12 of OpenID Connect Core 1.0.
-
-The Financial API client application shall include a list of desired scopes when requesting an Access Token. The following scopes are defined for Financial API data service:
-
-| Resource       | Allowed Actions                                              | Scope          |
-|----------------|--------------------------------------------------------------|----------------------|
-| Account        | Read only Access to summary account information              | FinancialInformation |
-| Customer       | Read only Access to customer information, including PII      | FinancialInformation |
-| Image          | Read only Access to transaction images (checks and receipts) | FinancialInformation |
-| Statement      | Read only Access to statement image                          | FinancialInformation |
-| Transaction    | Read only Access to transaction information                  | FinancialInformation |
-| Transfer       | Transfer of money between accounts                           | Transfer             |
-
-The Financial API server will return the list of allowed scopes with the issued Access Token in the authorization server.
-
-The Financial API server may limit the scopes for the purpose of not implementing certain APIs.
-
-The Financial API server may also present scopes in the access confirmation page after end-user login to have them determine each account(s) access for the requesting application.
 
