@@ -600,25 +600,32 @@ Content-Type: application/json; charset=utf-8
  
 ### 7.x Capability (protected) 
 
+## 8. Security Considerations
 
-
-
-
-## 8. Data Model
-
-## 8. Message Serializations
-
-Messages are serialized using one of the methods as described in section 13 of OpenID Connect 1.0.
-
-## 9. Security Considerations
-
-### 9.1 TLS Considerations
+### 8.1 TLS Considerations
 Since confidential information is being exchanged, all interactions shall be encrypted with TLS/SSL (HTTPS) in accordance with the recommendations in RFC 7525. TLS version 1.2 or later shall be used for all communications.
 
-## 10. Privacy Considerations
+## 9. Privacy Considerations
 
-### 10.1 Residual Data
-Residual data is data that is no longer being used, for example if an account has been closed. Clients should delete residual data from their systems within 180 days.
+### 9.x Privacy by design
+
+* Privacy impact analysis (PIA) should be performed in the initial phase of the system planning. 
+* For PIA, use of ISO/IEC 29134 Privacy impact analysis - Guidelines is recommended. 
+* The provider should establish a management system to help respect privacy of the cusotmer. 
+
+Stakeholders should follow the privacy principles of ISO/IEC 29100. In particular: 
+
+1. Consent and Choice
+2. Purpose legitimacy and specification
+3. Collection limitation
+4. Data (access) limitation
+5. Use, retention, and data disclosure limitation: Where the data is no longer being used, clients should delete such data from their system within 180 days except for the cases it needs to retain due to the legal restrictions; 
+6. Accuracy and quality
+7. Openness, transparency and notice
+8. Individual participation and access
+9. Accountability
+10. Information security
+11. Privacy compliance
 
 
 ## 11. Acknowledgement
