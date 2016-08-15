@@ -526,10 +526,79 @@ Content-Type: application/pdf
 Binary data
 ```
 
-### 7.8 Transaction (protected) 
-### 7.9 Transfer (protected) 
-### 7.10 Statement (protected) 
-### 7.11 Capability (protected) 
+### 7.x Transactions (protected)
+
+Gets a list of transactions for the given account.
+
+```
+POST /account/transactions HTTP/1.1
+Host: example.com
+Accept: application/json
+Authorization: Bearer w0mcJylzCn-AfvuGdqkty2-KP48=
+Content-Type: application/x-www-form-urlencoded
+
+accountId=1357902468&startTime=2015-01-01Z&endTime=2015-02-01Z&page=1
+```
+
+Response example. 
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+{
+  "_links": {
+       "self": { "href": "/accounts/transactions?accountId=1357902468&startTime=2015-01-01Z&endTime=2015-02-01Z&page=1" },
+       "transaction": {
+          "href": "/transaction{?accountId,transactionId}",
+          "Authorize":"Bearer {access_token}",
+          "Method":"POST", 
+          "templated":true}, 
+       "transactionImages": {
+          "href": "/transaction/images/{?accountId,transactionId}",
+          "Authorize":"Bearer {access_token}",
+          "Method":"POST", 
+          "templated":true}, 
+  }, 
+  "Transactions" : {
+    "Total" : "1",
+    "TotalPages" : "1",
+    "Page" : "1",
+    "DepositTransaction" : [
+      {
+        "AccountId" : "1357902468",
+        "TransactionId" : "111222333444555",
+        "TransactionTimestamp" : "2015-02-01Z",
+        "Description" : "Transfer",
+        "Status" : "POSTED",
+        "Amount" : -50.00,
+        "TransactionType" : "TRANSFER",
+        "Payee" : "3216540987",
+      }, 
+      {
+        "AccountId" : "1357902468",
+        "TransactionId" : "111222333444588",
+        "TransactionTimestamp" : "2015-02-01Z",
+        "Description" : "Transfer",
+        "Status" : "POSTED",
+        "Amount" : 150.00,
+        "TransactionType" : "TRANSFER",
+        "Payee" : "3216540987",
+      }
+    ]
+  }
+}
+```
+
+### 7.x Transaction (protected) 
+
+
+
+### 7.x Transaction Images (protected)
+
+
+### 7.x Transfer (protected) 
+ 
+### 7.x Capability (protected) 
 
 
 
