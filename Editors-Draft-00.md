@@ -298,7 +298,7 @@ This document defines the following protected resources:
 
 ### 7.4 Protected resources 
 
-#### 7.4.1 Customer (protected) 
+#### 7.4.1 Customer  
 
 A **customer** is an OAuth protected resouce that represents the customer in question. 
 It is represented as a URI from which the client can GET the JSON representation. 
@@ -338,7 +338,7 @@ Content-Type: application/json; charset=utf-8
 
   **NOTE**: It is similar to the UserInfo endpoint of [OIDC]. 
 
-#### 7.4.2. Account Descriptor List (protected) 
+#### 7.4.2. Account Descriptor List 
 
 An account descriptor list is an OAuth protected resouce that represents the list of account descriptors, the metadata about the account, associated with the provided access token, which is related to the customer in question. 
 
@@ -388,7 +388,7 @@ Content-Type: application/json; charset=utf-8
 
      Editor's Note:  /me/accountDescriptorList might look more REST like. 
 
-#### 7.4.3 Account (protected)
+#### 7.4.3 Account 
 
 An **account** is an OAuth protected resouce that represents the account of the customer in question. 
 It is represented as a URI from which the client can obtain the JSON representation. 
@@ -453,7 +453,7 @@ which may expose the accountId through referrer and history.
      Editor's Note:  GET /me/accounts/{accountId} might look more REST like. 
      It can be specified with HAL in the accountDescritorList. 
 
-#### 7.4.4 Statements (protected) 
+#### 7.4.4 Statements 
 
 Gets a list of statements for the given account.
 
@@ -503,7 +503,7 @@ Content-Type: application/json; charset=utf-8
 
     Editor's Note: Is StatementId unique to the org or to the AccountId? 
 
-#### 7.4.5 Statement (protected)
+#### 7.4.5 Statement 
 
 Gets an image of an account statement. Can be one of the following formats:
 
@@ -530,7 +530,7 @@ Content-Type: application/pdf
 Binary data
 ```
 
-#### 7.4.6 Transactions (protected)
+#### 7.4.6 Transactions 
 
 Gets a list of transactions for the given account.
 
@@ -593,21 +593,42 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-#### 7.4.7 Transaction (protected) 
+#### 7.4.7 Transaction  
 
 
 
-#### 7.4.8 Transaction Images (protected)
+#### 7.4.8 Transaction Images 
 
 
-#### 7.4.9 Transfer (protected) 
+#### 7.4.9 Transfer 
  
-#### 7.4.10 Capability (protected) 
+#### 7.4.10 Capability 
 
 ## 8. Security Considerations
 
 ### 8.1 TLS Considerations
-Since confidential information is being exchanged, all interactions shall be encrypted with TLS/SSL (HTTPS) in accordance with the recommendations in RFC 7525. TLS version 1.2 or later shall be used for all communications.
+Since confidential information is being exchanged, all interactions shall be encrypted with TLS/SSL (HTTPS) in accordance with the recommendations in [RFC7525]. TLS version 1.2 or later shall be used for all communications.
+
+### 8.2 Message source authentication fialure
+
+Authorization request and response are not authenticated. 
+
+### 8.3 Message interity protection fialure
+
+Authorization request and response tamparing and parameter injection
+
+### 8.4 Message containment failure
+
+#### 8.4.1 Authorization request and response
+
+#### 8.4.2 Token request and response
+
+May leak from logs. 
+
+#### 8.4.3 Resource request and response
+
+May leak from referrer. 
+
 
 ## 9. Privacy Considerations
 
