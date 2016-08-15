@@ -40,3 +40,64 @@ The full details of how a Financial API client obtain an OAuth Access Token are 
 12. Use the Access Token to access protected Financial API endpoints.
 13. Store the Refresh Token for fetching a new Access Token once the current Access Token expires.
 
+
+
+
+
+
+#### 5.2.3 Authorization Endpoint
+The Authorization Endpoint is used in the same manner defined in Section 3.1.2 of OpenID Connect 1.0, with the exception of the differences specified in this section.
+
+#### 5.2.3.1 Authentication Request
+Authentication Requests are made as defined in Section 3.1.2.1, except that these Authentication Request parameters are used as follows:
+
+* *response_type* REQUIRED. The value shall be set to `code`(Code Flow) or `code id_token`(Hybrid Flow). It is RECOMMENDED to use the value `code id_token` (Hybrid Flow) as defined in [OAuth 2.0 Multiple Response Type Encoding Practices]. This ensures that the Authorization Code correlates to the end user and the current session at the Financial Institution's Authorization Server provided that ID Token validation and authorization code validation are performed as described in section 3.3.2.9 and 3.3.2.10 of OpenID Connect 1.0.
+* *scope* REQUIRED. The value shall be contain the values `openid` and `offline_access`. This allows the client to obtain authorization for an access token that can be used while the user is offline.
+* *redirect_uri* REQUIRED. The value shall be unique for each Authorization Server for public clients.
+* *state* REQUIRED.
+* *nonce* REQUIRED.
+* *prompt* REQUIRED. The value shall contain `consent` to request that Authorization Server perform user authentication and obtain explicit authorization for the client to read financial data.
+* *acr_values* REQUIRED. The value shall be set to values that indicate an authentication context of LOA 2 or higher.
+
+Public clients shall use RFC7636 - Proof Key for Code Exchange by OAuth Public Clients to mitigate authorization code interception. As such, a public client shall follow the protocol as defined in RFC7636. The public client shall create a Code Verifier. A Code Challenge shall be created using *S256* as the method. The following paremeters are added to the authentication request:
+
+* *code_challenge* REQUIRED. The code challenge.
+* *code_challenge_method* REQUIRED. The value shall be `S256`.
+
+#### 5.2.3.2 Authentication Request Validation
+The Authentication Request is validated in the same manner as for the Authorization Code Flow, as defined in Section 3.1.2.2 of OpenID Connect 1.0.
+
+If the Authentication Request contains a *code_challenge* value and the *code_challenge_method* parameter value is not set to *S256*, an error is returned as defined in 4.4.1 of RFC7636.
+
+#### 5.2.3.2 Successful Authentication Response
+
+Authentication Responses are made in the same manner as for the Code Flow, as defined in Section 3.1.2.5 or Hybrid Flow as defined in 3.3.2.5 of OpenID Connect 1.0.
+
+If the Authentication Request contains a *code_challenge* value, the Authorization Server shall follow section 4.4 of RFC7636 for associating an Authorization Code with a Code Challenge value.
+
+#### 5.2.3.3 Authentication Response Validation
+Authentication Responses are validated in the same manner as for the Code Flow, as defined in Section 3.1.2.7 or Hybrid Flow as defined in 3.3.2.8 of OpenID Connect 1.0.
+
+#### 5.2.3.4 Token Endpoint
+
+The Token Endpoint is used in the same manner as for the Authorization Code Flow, as defined in Section 3.1.3 of OpenID Connect 1.0, with the exception of the differences specified in this section.
+
+For public clients, the following parameters are added to the Token request:
+
+* *code_verifier*. REQUiRED. The Code Verifier generated in the Authentication Request.
+
+
+#### 5.2.3.5 Token Request Validation
+
+Token Requests are validated in as defined in Section 3.1.3.2 of OpenID Connect 1.0 except for the differences specified in this section.
+
+If the Authorization Code has a Code Challenge and Code Challenge Method associated with it, the Authorization Server validates the *code_verifier* value as according to 4.6 of RFC7636.
+
+
+#### 5.2.3.6 Token Response
+
+Token Responses are made in the same manner as for the Authorization Code Flow, as defined in Section 3.1.3.3. of OpenID Connect 1.0.
+
+#### 5.2.3.7 Token Response Validation
+When using the Hybrid Flow, Token Responses are validated in the same manner as for the Authorization Code Flow, as defined in Section 3.1.3.5 of OpenID Connect 1.0.
+
