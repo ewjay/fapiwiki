@@ -231,7 +231,7 @@ The client supporting this document
 Further, the client 
 
 * can optionally supply the `sub` value associated with the customer with the `DDA-CustomerId` request header, e.g., `DDA-CustomerId: a237cb74-61c9-4319-9fc5-ff5812778d6b`; 
-* can optionally supply the last time the customer logged into the client in the `DDA-CustomerLastLoggedTime` header where the value is supllied as ** w3c date **; and 
+* can optionally supply the last time the customer logged into the client in the `DDA-CustomerLastLoggedTime` header where the value is supllied as ** w3c date **, e.g., `DDA-CustomerLastLoggedTime: Tue, 11 Sep 2012 19:43:31 UTC`; and 
 * can supply the customer’s IP address if this data is available or applicable in the `DDA-CustomerIPAdress` header, e.g., `DDA-CustomerIPAdress: 198.51.100.119`; and 
 * may send the `DDA-InteractionId` request header to the server to help correlate log entries between client
 and server, e.g., `DDA-InteractionId: c770aef3-6784-41f7-8e0e-ff5f97bddb3a`. 
