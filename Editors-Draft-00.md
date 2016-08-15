@@ -165,7 +165,7 @@ The Financial API allows access to the user's private financial information whil
 
 The Financial API client application shall include a list of desired scopes when requesting an Access Token. The following scopes are defined for Financial API data service:
 
-| Primary Entity | Allowed Actions                                              | Token Scope          |
+| Resource       | Allowed Actions                                              | Token Scope          |
 |----------------|--------------------------------------------------------------|----------------------|
 | Account        | Read only Access to summary account information              | FinancialInformation |
 | Customer       | Read only Access to customer information, including PII      | FinancialInformation |
