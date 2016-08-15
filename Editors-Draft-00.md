@@ -334,7 +334,7 @@ Content-Type: application/json; charset=utf-8
 
   **NOTE**: It is similar to the UserInfo endpoint of [OIDC]. 
 
-### Account Descriptor List (protected) 
+### 7.x Account Descriptor List (protected) 
 
 An account descriptor list is an OAuth protected resouce that represents the list of account descriptors, the metadata about the account, associated with the provided access token, which is related to the customer in question. 
 
@@ -384,7 +384,7 @@ Content-Type: application/json; charset=utf-8
 
      Editor's Note:  /me/accountDescriptorList might look more REST like. 
 
-### Account (protected)
+### 7.x Account (protected)
 
 An **account** is an OAuth protected resouce that represents the account of the customer in question. 
 It is represented as a URI from which the client can obtain the JSON representation. 
@@ -416,11 +416,6 @@ Content-Type: application/json; charset=utf-8
 {
   "_links": {
        "self": { "href": "/accounts/?accountId=1357902468" },
-       "statement": {
-          "href": "/statement/{?accountId,statementId}",
-          "Authorize":"Bearer {access_token}",
-          "Method":"POST", 
-          "templated":true},
        "statements": {
           "href": "/statements{?accountId,startTime,endTime}",
           "Authorize":"Bearer {access_token}",
@@ -453,6 +448,83 @@ which may expose the accountId through referrer and history.
 
      Editor's Note:  GET /me/accounts/{accountId} might look more REST like. 
      It can be specified with HAL in the accountDescritorList. 
+
+### 7.x Statements (protected) 
+
+Gets a list of statements for the given account.
+
+```
+POST /account/statements HTTP/1.1
+Host: example.com
+Accept: application/json
+Authorization: Bearer w0mcJylzCn-AfvuGdqkty2-KP48=
+Content-Type: application/x-www-form-urlencoded
+
+accountId=1357902468&startTime=2015-01-01Z&endTime=2015-02-01Z&page=1
+```
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+{
+  "_links": {
+       "self": { "href": "/accounts/statements?accountId=1357902468" },
+       "statement": {
+          "href": "/statement/{?accountId,statementId}",
+          "Authorize":"Bearer {access_token}",
+          "Method":"POST", 
+          "templated":true}
+  }, 
+  "Statements" : {
+    "Total" : "1",
+    "TotalPages" : "1",
+    "Page" : "1",
+    "Statement" : [
+      {
+        "AccountId" : "1357902468",
+        "StatementId" : "ST875376081768363584636",
+        "StatementDate" : "2015-01-01Z",
+        "Description" : "Statement for 2015-01-01",
+      },
+      {
+        "AccountId" : "1357902468",
+        "StatementId" : "ST962558772885635484949",
+        "StatementDate" : "2015-02-01Z",
+        "Description" : "Statement for 2015-02-01",
+      }
+    ]
+  }
+}
+```
+
+    Editor's Note: Is StatementId unique to the org or to the AccountId? 
+
+### 7.x Statement (protected)
+
+Gets an image of an account statement. Can be one of the following formats:
+
+* application/pdf
+* image/gif
+* image/jpeg
+* image/png
+* image/tiff
+
+```
+POST /account/statement HTTP/1.1
+Host: example.com
+Accept: application/pdf
+Authorization: Bearer w0mcJylzCn-AfvuGdqkty2-KP48=
+Content-Type: application/x-www-form-urlencoded
+
+accountId=1&statementId=1
+```
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+
+Binary data
+```
 
 ### 7.8 Transaction (protected) 
 ### 7.9 Transfer (protected) 
