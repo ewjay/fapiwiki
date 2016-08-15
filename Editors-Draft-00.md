@@ -160,12 +160,12 @@ The full details of how a Financial API client obtain an OAuth Access Token are 
 13. Store the Refresh Token for fetching a new Access Token once the current Access Token expires.
 
 
-### 5.2.1 Token Scope
-The Financial API allows access to the user's private financial information while the user is offline. To obtain consent and authorization for an access token that  can be used while the user is offline, the authorization request shall contain the *openid* and *offline\_access* values in the *scope* parameter. A refresh token will be returned in the authorization response that can be exchanged for an access token as described in Section 12 of OpenID Connect Core 1.0.
+### 5.2.1 Financial API Scopes
+The Financial API allows access to the user's private financial information while the user is offline. To obtain consent and authorization for an access token and refresh token that can be used while the user is offline, the authorization request shall contain the `openid` and `offline_access` values in the `scope` parameter. A refresh token will be returned in the authorization response that can be exchanged for an access token as described in Section 12 of OpenID Connect Core 1.0.
 
 The Financial API client application shall include a list of desired scopes when requesting an Access Token. The following scopes are defined for Financial API data service:
 
-| Resource       | Allowed Actions                                              | Token Scope          |
+| Resource       | Allowed Actions                                              | Scope          |
 |----------------|--------------------------------------------------------------|----------------------|
 | Account        | Read only Access to summary account information              | FinancialInformation |
 | Customer       | Read only Access to customer information, including PII      | FinancialInformation |
