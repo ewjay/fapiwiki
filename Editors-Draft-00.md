@@ -183,23 +183,110 @@ In addition to the provision to the Public Client, the Confidential Client
 * shall authentciate with client secret to access the Token Endpoint as in Section 4.1.3 of OAuth 2.0 [RFC6749]; 
 
 
-## 6. Using Tokens
+## 6. Accessing Protected Resources (Using tokens)
 
 ### 6.1 Introduction
 
-The FAPI endpoints are OAuth 2.0 protected resource endpoints that return various financial information for the resource owner assoicated with the submitted Acccess Token.
+The FAPI endpoints are OAuth 2.0 protected resource endpoints that return various financial information for the resource owner assoicated with the submitted Acccess Token. 
 
-Communication with the FAPI Endpoint MUST utilize TLS 1.2 or later.
+### 6.2 Read only access provisions 
 
-The FAPI Endpoints MUST support the use of the HTTP GET and HTTP POST methods defined in RFC 2616 [RFC2616].
+#### 6.2.1 Protected resources provisions
 
-The FAPI Endpoints MUST accept Access Tokens as OAuth 2.0 Bearer Token Usage [RFC6750].
+The protected resources supporting this document 
 
-The FAPI Endpoint SHOULD support the use of Cross Origin Resource Sharing (CORS) [CORS] and or other methods as appropriate to enable Java Script Clients to access the endpoint.
+* shall mandate TLS 1.2 as defined in [RFC5246] or later with the usage following the best practice in [RFC7525]; 
+* shall support the use of the HTTP GET and HTTP POST methods defined in RFC2616 [RFC2616]; 
+* shall accept access tokens in the HTTP header as in Section 2.1 of OAuth 2.0 Bearer Token Usage [RFC6750];  
+* shall verify that the access token is not expired nor revoked; 
+* shall verify that the scope associated with the access token authorizes the reading of the resource it is representing; 
+* shall identify the associated user to the access token;  
+* shall only return the resource identified by the combination of the user implicit in the access and the granted scope and otherwise return errors as in section 3.1 of [RFC6750]; 
+* shall encode the response in UTF-8; // DDA allows client to ask for charset but restricting may be better for interoperability
+* shall send the `Content-type` HTTP header `Content-Type: application/json; charset=UTF-8`;  
+* shall send the server date in HTTP date header as in section 14.18 of [RFC2616];  
+* shall send the `DDA-InteractionId` with the value set to the one received from the client in the `DDA-InteractionId` request header or a unique value created by the server if there was no corresponding request header to track the interaction, e.g., `DDA-InteractionId: c770aef3-6784-41f7-8e0e-ff5f97bddb3a`; and 
+* shall log the value of `DDA-InteractionId` in the log entry. 
 
-### 6.2 Read Only Access
+
+    NOTE: While this document does not specify the exact method to find out the user associated with the 
+    access token and the granted scope, the protected resource can use OAuth Token Introspection [RFC7662]. 
+
+Further, it 
+ 
+* should support the use of Cross Origin Resource Sharing (CORS) [CORS] and or other methods as appropriate to enable Java Script Clients to access the endpoint; 
+
+### 6.2.2 Client provisions
+
+The client supporting this document 
+
+* shall use TLS 1.2 as defined in [RFC5246] or later with the usage following the best practice in [RFC7525]; 
+* shall send access tokens in the HTTP header as in Section 2.1 of OAuth 2.0 Bearer Token Usage [RFC6750];   
+* shall send `User-Agent` header that identifies the client, e.g., `User-Agent: Intuit/1.2.3 Mint/4.3.1`; and 
+* shall send `DDA-FinancialId` whose value is the unique identifier of the desired financial institution to interact assigned by the service beureau where the API is provided by a service bureau which uses the same end point for multiple institutions. 
+
+    **NOTE**: Conceptually, the value of the DDA-FinancialID corresponds to `iss` in the ID Token 
+    but is not required to be an https URI. It often is the routing number of the FI. 
+
+Further, the client 
+
+* can optionally supply the `sub` value associated with the customer with the `DDA-CustomerId` request header, e.g., `DDA-CustomerId: a237cb74-61c9-4319-9fc5-ff5812778d6b`; 
+* can optionally supply the last time the customer logged into the client in the `DDA-CustomerLastLoggedTime` header where the value is supllied as ** w3c date **; and 
+* can supply the customer’s IP address if this data is available or applicable in the `DDA-CustomerIPAdress` header, e.g., `DDA-CustomerIPAdress: 198.51.100.119`; and 
+* may send the `DDA-InteractionId` request header to the server to help correlate log entries between client
+and server, e.g., `DDA-InteractionId: c770aef3-6784-41f7-8e0e-ff5f97bddb3a`. 
+
+
+### 6.2.3 Open access resource provisions
+
+
 
 ## 7. Resource APIs
+
+### 7.1 Introduction
+
+This document specifies resources in two categories: 
+
+* open acess resources; 
+* protected resources; 
+
+Open access resources does not require authorization to read them out. 
+This document defines the following open acess resources: 
+
+* Branch location
+* ATM location
+* Offered products list
+* Offered product
+
+Protected resources require the access token as defined above to read them out. 
+This document defines the following protected resources: 
+
+* customer; 
+* account; 
+* transaction; 
+* transfer; 
+* statement; 
+* capability; 
+
+### 7.2 Branch location
+
+### 7.3 ATM location
+
+### 7.4 Offered products list
+
+### 7.5 Offered product
+
+### 7.6 Customer
+
+### 7.7 Account
+### 7.8 Transaction
+### 7.9 Transfer
+### 7.10 Statement
+### 7.11 Capability
+
+
+
+
 
 ## 8. Data Model
 
@@ -224,7 +311,7 @@ Residual data is data that is no longer being used, for example if an account ha
 
 * Open Financial Exchange 2.2
 * “HTML 4.01 Specification,” World Wide Web Consortium Recommendation REC-html401-19991224, December 1999
-
+* [RFC7662] OAuth 2.0 Token Introspection
 
 
 
