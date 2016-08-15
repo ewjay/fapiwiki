@@ -286,15 +286,19 @@ This document defines the following protected resources:
 * statement; 
 * capability; 
 
-### 7.2 Branch location (open access)
+### 7.2 Endpoint Descovery
 
-### 7.3 ATM location (open access)
+### 7.3 Open access resources
 
-### 7.4 Offered products list (open access)
+### 7.3.1 ATM location 
 
-### 7.5 Offered product (open access)
+### 7.3.2 Offered products list 
 
-### 7.6 Customer (protected) 
+### 7.3.3 Offered product 
+
+### 7.4 Protected resources 
+
+### 7.4.1 Customer (protected) 
 
 A **customer** is an OAuth protected resouce that represents the customer in question. 
 It is represented as a URI from which the client can GET the JSON representation. 
@@ -334,7 +338,7 @@ Content-Type: application/json; charset=utf-8
 
   **NOTE**: It is similar to the UserInfo endpoint of [OIDC]. 
 
-### 7.x Account Descriptor List (protected) 
+### 7.4.2. Account Descriptor List (protected) 
 
 An account descriptor list is an OAuth protected resouce that represents the list of account descriptors, the metadata about the account, associated with the provided access token, which is related to the customer in question. 
 
@@ -384,7 +388,7 @@ Content-Type: application/json; charset=utf-8
 
      Editor's Note:  /me/accountDescriptorList might look more REST like. 
 
-### 7.x Account (protected)
+### 7.4.3 Account (protected)
 
 An **account** is an OAuth protected resouce that represents the account of the customer in question. 
 It is represented as a URI from which the client can obtain the JSON representation. 
@@ -449,7 +453,7 @@ which may expose the accountId through referrer and history.
      Editor's Note:  GET /me/accounts/{accountId} might look more REST like. 
      It can be specified with HAL in the accountDescritorList. 
 
-### 7.x Statements (protected) 
+### 7.4.4 Statements (protected) 
 
 Gets a list of statements for the given account.
 
@@ -499,7 +503,7 @@ Content-Type: application/json; charset=utf-8
 
     Editor's Note: Is StatementId unique to the org or to the AccountId? 
 
-### 7.x Statement (protected)
+### 7.4.5 Statement (protected)
 
 Gets an image of an account statement. Can be one of the following formats:
 
@@ -526,7 +530,7 @@ Content-Type: application/pdf
 Binary data
 ```
 
-### 7.x Transactions (protected)
+### 7.4.6 Transactions (protected)
 
 Gets a list of transactions for the given account.
 
@@ -589,16 +593,16 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-### 7.x Transaction (protected) 
+### 7.4.7 Transaction (protected) 
 
 
 
-### 7.x Transaction Images (protected)
+### 7.4.8 Transaction Images (protected)
 
 
-### 7.x Transfer (protected) 
+### 7.4.9 Transfer (protected) 
  
-### 7.x Capability (protected) 
+### 7.4.10 Capability (protected) 
 
 ## 8. Security Considerations
 
