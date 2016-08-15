@@ -286,7 +286,76 @@ This document defines the following protected resources:
 * statement; 
 * capability; 
 
-### 7.2 Endpoint Descovery
+### 7.2 Endpoint Discovery
+
+This document defines a mechanism for discovering the various resources endpoints for requesting the user's financial data.
+Building upon the discovery mechanism described in OpenID Connect Discovery 1.0, this document defines the following parameters to the OpenID Discovery response:
+
+| Parameter         | Type  | Description                                                                                |
+|-------------------|-------|--------------------------------------------------------------------------------------------|
+| `fapi` *optional* | Array | JSON object containing a collection of the API resources endpoints and their URL locations |
+
+The `fapi` parameter contains the following parameters:
+
+| Parameter                              | Type   | Description                                                                        |
+|----------------------------------------|--------|------------------------------------------------------------------------------------|
+| account\_endpoint *optional*              | String | URL for getting account information                                                |
+| statement\_endpoint *optional*            | String | URL for retrieving a statement document                                            |
+| statement\_list\_endpoint *optional*       | String | URL for getting list of statements                                                 |
+| transaction\_document\_endpoint *optional* | String | URL for getting a transaction document                                             |
+| transaction\_list\_endpoint *optional*     | String | URL for getting list of transactions                                               |
+| account\_list\_endpoint *optional*         | String | URL for getting list of accounts                                                   |
+| account\_details\_endpoint *optional*      | String | URL for getting account information (details & transactions) for the current token |
+|  availability_endpoint *optional*        | String | URL for getting information about this API's availability                          |
+| capability\_endpoint *optional*           | String | URL for getting informtion about this API's capabilities                           |
+| customer\_endpoint *optional*             | String | URL for getting about the customer within the authorization scope                  |
+| transfer_endpoint *optional*             | String | URL for creating a transfer between accounts                                       |
+| transfer\_status\_endpoint *optional*      | String | URL for getting the status of a transfer between accounts                          |
+
+    Editor's note:
+    An example should be added.
+
+Following is a non-normative example of the discovery request.
+
+```
+GET /.well-known/openid-configuration HTTP/1.1
+Host: example.com
+Accept: application/json
+Accept-Charset: UTF-8
+```
+
+Following is a non-normative example of the resource response.
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+{
+ 	"issuer": "https://example.com",
+ 	"authorization_endpoint": "https://example.com/connect/authorize",
+ 	"token_endpoint": "https://example.com/connect/token",
+ 	"jwks_uri": "https://example.com/jwks.json",
+ 	"scopes_supported": ["openid", "profile", "email", "address",
+ 		"phone", "offline_access"
+ 	],
+ 	"response_types_supported": ["code", "code id_token", "id_token", "token id_token"],
+ 	"subject_types_supported": ["pairwise"],
+ 	"id_token_signing_alg_values_supported": ["RS256", "ES256", "HS256"],
+ 	"fapi" : {
+ 	    "account_endpoint" : "https://example.com/account",
+ 	    "statement_endpoint" : "https://example.com/account/statement",
+ 	    "statement_list_endpoint" : "https://example.com/account/statements",
+ 	    "transaction_document_endpoint" : "https://example.com/account/transaction/image",
+ 	    "transaction_list_endpoint" : "https://example.com/account/transactions",
+ 	    "account_list_endpoint" : "https://example.com/accountlist",
+ 	    "account_details_endpoint" : "https://example.com/accountdetail",
+ 	    "availability_endpoint" : "https://example.com/availability",
+ 	    "capability_endpoint" : "https://example.com/capability",
+ 	    "customer_endpoint" : "https://example.com/customer",
+ 	    "transfer_endpoint" : "https://example.com/transfer",
+ 	    "transfer_status_endpoint" : "https://example.com/transfer/status",
+ 	}
+}
+```
 
 ### 7.3 Open access resources
 
