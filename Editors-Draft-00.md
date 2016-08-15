@@ -296,7 +296,7 @@ This document defines the following protected resources:
 
 ### 7.6 Customer (protected) 
 
-Customer is an OAuth protected resouce that represents the customer in question. 
+A **customer** is an OAuth protected resouce that represents the customer in question. 
 It is represented as a URI from which the client can GET the JSON representation. 
 The client is only allowed to obtain the data within the granted scope. 
 
@@ -326,15 +326,133 @@ Content-Type: application/json; charset=utf-8
       "last": "Smith",
       "company": "Acme"
     },
-    "taxId": "144-27-7471"
+    "taxId": "144-27-7471",
+    "CusotmerID": a237cb74-61c9-4319-9fc5-ff5812778d6b
   }
 }
 ```
 
-    **NOTE**: It is similar to the UserInfo endpoint of [OIDC]. 
+  **NOTE**: It is similar to the UserInfo endpoint of [OIDC]. 
 
-### 7.7 Account (protected) 
+### Account Descriptor List (protected) 
 
+An account descriptor list is an OAuth protected resouce that represents the list of account descriptors, the metadata about the account, associated with the provided access token, which is related to the customer in question. 
+
+The detail of this object is defined in Appendix A as a swagger. 
+
+Following is a non-normative example of the resource request. 
+
+```
+GET /accountDescriptorList HTTP/1.1
+Host: example.com
+Accept: application/json
+Authorization: Bearer w0mcJylzCn-AfvuGdqkty2-KP48=
+```
+
+Following is a non-normative example of the resource response. 
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+{
+  "_links": {
+       "self": { "href": "/accountDescriptorList" },
+       "account": {
+          "href": "/accounts/{?accountId}",
+          "Authorize":"Bearer {access_token}",
+          "Method":"POST", 
+          "templated":true}
+  }, 
+  "AccountDescriptorList" : [
+    {
+      "AccountId" : "1357902468",
+      "AccountType" : "SAVINGS",
+      "DisplayName" : "Savings Account",
+      "Status" : "OPEN",
+      "Description" : "Savings Account",
+    },
+    {
+      "AccountId" : "3216540987",
+      "AccountType" : "CHECKING",
+      "DisplayName" : "Checking Account",
+      "Status" : "OPEN",
+      "Description" : "Checking Account",
+    }
+  ]
+}
+```
+
+     Editor's Note:  /me/accountDescriptorList might look more REST like. 
+
+### Account (protected)
+
+An **account** is an OAuth protected resouce that represents the account of the customer in question. 
+It is represented as a URI from which the client can obtain the JSON representation. 
+It may be HAL+ enhanced. 
+The client is only allowed to obtain the data within the granted scope. 
+It has an identifier unique to the issueing organization called `accountId`.  
+
+Since the access token only identifies the customer and the customer might have multiple accounts, account identifier, `accountId`, which is provided in the account descriptor needs to be provided. 
+
+The detail of this object is defined in Appendix A as a swagger.  
+
+Following is a non-normative example of the resource request. 
+
+```
+POST /account HTTP/1.1
+Host: example.com
+Accept: application/json
+Authorization: Bearer w0mcJylzCn-AfvuGdqkty2-KP48=
+Content-Type: application/x-www-form-urlencoded
+
+accountId=1357902468
+```
+
+Following is a non-normative example of the resource request. 
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+{
+  "_links": {
+       "self": { "href": "/accounts/?accountId=1357902468" },
+       "statement": {
+          "href": "/statement/{?accountId,statementId}",
+          "Authorize":"Bearer {access_token}",
+          "Method":"POST", 
+          "templated":true},
+       "statements": {
+          "href": "/statements{?accountId,startTime,endTime}",
+          "Authorize":"Bearer {access_token}",
+          "Method":"POST", 
+          "templated":true},
+       "transactions": {
+          "href": "/account/transactions"},
+  }, 
+  "DepositAccount" : {
+    "AccountId" : "1357902468",
+    "AccountType" : "SAVINGS",
+    "DisplayName" : "Savings Account",
+    "Status" : "OPEN",
+    "Description" : "Savings Account",
+    "ParentAccountId" : "2468135790",
+    "Nickname" : "My Savings Account A",
+    "AccountNumber" : "4561237890",
+    "InterestRate" : 3.0,
+    "InterestRateType" : "FIXED",
+    "MicrNumber" : "9753108642",
+    "BalanceAsOf" : "2015-01-01Z",
+    "CurrentBalance" : 1000.00,
+  }
+}
+```
+
+While GET is more REST like, in the above example, POST is used   
+so that the accountId is not exposed as a path / query, 
+which may expose the accountId through referrer and history. 
+
+     Editor's Note:  GET /me/accounts/{accountId} might look more REST like. 
+     It can be specified with HAL in the accountDescritorList. 
 
 ### 7.8 Transaction (protected) 
 ### 7.9 Transfer (protected) 
