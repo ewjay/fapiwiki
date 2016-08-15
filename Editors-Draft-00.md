@@ -286,21 +286,60 @@ This document defines the following protected resources:
 * statement; 
 * capability; 
 
-### 7.2 Branch location
+### 7.2 Branch location (open access)
 
-### 7.3 ATM location
+### 7.3 ATM location (open access)
 
-### 7.4 Offered products list
+### 7.4 Offered products list (open access)
 
-### 7.5 Offered product
+### 7.5 Offered product (open access)
 
-### 7.6 Customer
+### 7.6 Customer (protected) 
 
-### 7.7 Account
-### 7.8 Transaction
-### 7.9 Transfer
-### 7.10 Statement
-### 7.11 Capability
+Customer is an OAuth protected resouce that represents the customer in question. 
+It is represented as a URI from which the client can GET the JSON representation. 
+The client is only allowed to obtain the data within the granted scope. 
+
+The detail of this object is defined in Appendix A as a swagger.  
+
+Following is a non-normative example of the resource request. 
+
+```
+GET /customer HTTP/1.1
+Host: example.com
+Accept: application/json
+Authorization: Bearer w0mcJylzCn-AfvuGdqkty2-KP48=
+User-Agent: Intuit/1.2.3 Mint/4.3.1
+Accept-Charset: UTF-8
+```
+
+Following is a non-normative example of the resource response. 
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+{
+  "Customer": {
+    "name": {
+      "first": "Michael",
+      "middle": "J",
+      "last": "Smith",
+      "company": "Acme"
+    },
+    "taxId": "144-27-7471"
+  }
+}
+```
+
+    **NOTE**: It is similar to the UserInfo endpoint of [OIDC]. 
+
+### 7.7 Account (protected) 
+
+
+### 7.8 Transaction (protected) 
+### 7.9 Transfer (protected) 
+### 7.10 Statement (protected) 
+### 7.11 Capability (protected) 
 
 
 
