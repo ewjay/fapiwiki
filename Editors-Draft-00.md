@@ -215,18 +215,18 @@ The Authorization Endpoint is used in the same manner defined in Section 3.1.2 o
 #### 5.2.3.1 Authentication Request
 Authentication Requests are made as defined in Section 3.1.2.1, except that these Authentication Request parameters are used as follows:
 
-* *response_type* REQUIRED. The value shall be set to *code*(Code Flow). However, itt is RECOMMENDED to use the value *code id_token*(Hybrid Flow) as defined in [OAuth 2.0 Multiple Response Type Encoding Practices]. This ensures that the Authorization Code correlates to the end user and the current session at the Financial Institution's Authorization Server provided that ID Token validation and authorization code validation are performed as described in section 3.3.2.9 and 3.3.2.10 of OpenID Connect 1.0.
-* *scope* REQUIRED. The value shall be contain the values 'openid' and *offline_access*. This allows the client to obtain authorization for an access token that can be used while the user is offline.
+* *response_type* REQUIRED. The value shall be set to `code`(Code Flow) or `code id_token`(Hybrid Flow). It is RECOMMENDED to use the value `code id_token` (Hybrid Flow) as defined in [OAuth 2.0 Multiple Response Type Encoding Practices]. This ensures that the Authorization Code correlates to the end user and the current session at the Financial Institution's Authorization Server provided that ID Token validation and authorization code validation are performed as described in section 3.3.2.9 and 3.3.2.10 of OpenID Connect 1.0.
+* *scope* REQUIRED. The value shall be contain the values `openid` and `offline_access`. This allows the client to obtain authorization for an access token that can be used while the user is offline.
 * *redirect_uri* REQUIRED. The value shall be unique for each Authorization Server for public clients.
 * *state* REQUIRED.
 * *nonce* REQUIRED.
-* *prompt* REQUIRED. The value shall contain the values *prompt* and *consent* to request that Authorization Server perform user authentication and obtain explicit authorization for the client to read financial data.
+* *prompt* REQUIRED. The value shall contain the values `prompt` and `consent` to request that Authorization Server perform user authentication and obtain explicit authorization for the client to read financial data.
 * *acr_values* REQUIRED. The value shall be set to values that indicate an authentication context of LOA 2 or higher.
 
 Public clients shall use RFC7636 - Proof Key for Code Exchange by OAuth Public Clients to mitigate authorization code interception. As such, a public client shall follow the protocol as defined in RFC7636. The public client shall create a Code Verifier. A Code Challenge shall be created using *S256* as the method. The following paremeters are added to the authentication request:
 
 * *code_challenge* REQUIRED. The code challenge.
-* *code_challenge_method* REQUIRED. The value shall be *S256*.
+* *code_challenge_method* REQUIRED. The value shall be `S256`.
 
 #### 5.2.3.2 Authentication Request Validation
 The Authentication Request is validated in the same manner as for the Authorization Code Flow, as defined in Section 3.1.2.2 of OpenID Connect 1.0.
