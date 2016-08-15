@@ -101,3 +101,33 @@ Token Responses are made in the same manner as for the Authorization Code Flow, 
 #### 5.2.3.7 Token Response Validation
 When using the Hybrid Flow, Token Responses are validated in the same manner as for the Authorization Code Flow, as defined in Section 3.1.3.5 of OpenID Connect 1.0.
 
+
+
+### 5.3 Write Access
+
+    Editor's Note: We have choice of Token Binding or POP?
+
+####　5.3.1 Public Client
+
+In addition to the provisions stated in the Read Access case, the systems that implements FAPI shall satisfy the following provisions:
+
+* Each message shall be source authenticated;
+* Each message shall be tamper evident;
+* Each message shall be transmitted through encrypted channel or shall be encrypted otherwise;
+* Each message shall be replay detectable;
+* The Client shall include the intended interaction endpoints identifiers in the request;
+* The Server shall attest that the endpoints in the Client intension is legitimate and return errors otherwise;
+
+#### 5.3.2 Confidential Client
+
+### 5.2.1 Financial API Scopes
+The Financial API allows access to the user's private financial information while the user is offline. To obtain consent and authorization for an access token and refresh token that can be used while the user is offline, the authorization request shall contain the `openid` and `offline_access` values in the `scope` parameter. A refresh token will be returned in the authorization response that can be exchanged for an access token as described in Section 12 of OpenID Connect Core 1.0.
+
+
+
+
+## 8. Data Model
+
+## 8. Message Serializations
+
+Messages are serialized using one of the methods as described in section 13 of OpenID Connect 1.0.
