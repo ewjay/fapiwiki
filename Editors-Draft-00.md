@@ -607,11 +607,13 @@ Since confidential information is being exchanged, all interactions shall be enc
 
 ## 9. Privacy Considerations
 
-### 9.x Privacy by design
+### 9.1 Privacy by design
 
 * Privacy impact analysis (PIA) should be performed in the initial phase of the system planning. 
 * For PIA, use of ISO/IEC 29134 Privacy impact analysis - Guidelines is recommended. 
 * The provider should establish a management system to help respect privacy of the cusotmer. 
+
+### 9.2 Adhering to privacy principles
 
 Stakeholders should follow the privacy principles of ISO/IEC 29100. In particular: 
 
@@ -619,7 +621,10 @@ Stakeholders should follow the privacy principles of ISO/IEC 29100. In particula
 2. Purpose legitimacy and specification
 3. Collection limitation
 4. Data (access) limitation
-5. Use, retention, and data disclosure limitation: Where the data is no longer being used, clients should delete such data from their system within 180 days except for the cases it needs to retain due to the legal restrictions; 
+5. Use, retention, and data disclosure limitation:
+    1. Use limitation:   
+    1. Retention limitation: Where the data is no longer being used, clients should delete such data from their system within 180 days except for the cases it needs to retain due to the legal restrictions; 
+    1. Data disclosure limitation: 
 6. Accuracy and quality
 7. Openness, transparency and notice
 8. Individual participation and access
