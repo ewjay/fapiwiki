@@ -54,7 +54,7 @@ Report from Henrik, if there was any progress.
 
 X9
 ------------
-Paul Grassi will talk about a possible liaison with X9 [3] 
+Paul Grassi will talk about a possible liaison with X9 [4] 
 
 [4] X9 Financial Industry Standards <http://x9.org/>. 
 
