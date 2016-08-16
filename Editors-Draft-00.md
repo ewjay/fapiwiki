@@ -376,7 +376,7 @@ returns the array of country information which has the following
 members: 
 
 * Name: Country name;
-* Code: ISO 3166 Alpha-2 code;
+* Code: ISO 3166-1 Alpha-3 code;
 * Geocoding: Boolean that represents whether the geocoding is available for the country or not. 
 
 Request example: 
@@ -392,21 +392,23 @@ Response example:
 ```
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
+
 {
-  "Countries": {
-    "Country": [
+  "_links": {
+       "self": { "href": "/countries" }
+  },
+  "Countries":  [
       {
         "Name": "Japan",
-        "Code": "JP",
+        "Code": "JPN",
         "Geocoding": FALSE
       },
       {
         "Name": "United States of America",
-        "Code": "US",
+        "Code": "USA",
         "Geocoding": FALSE
       }
-    }
-  }
+   ]
 }
 ```
 
@@ -415,14 +417,61 @@ Content-Type: application/json; charset=utf-8
 
 ATM provinces represents country subdivisions such as states, provinces, prefectures etc. that have ATM locations. 
 
-```
+Request example: 
 
 ```
+GET /atms/provinces?code=CAN HTTP/1.1
+Host: example.com
+Accept: application/json
+```
 
+Response example: 
 
-#### 7.3.2 Offered products list 
+```
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
 
-#### 7.3.3 Offered product
+{
+  "_links": {
+       "self": { "href": "/atms/provinces?code=CAN" }
+  },
+  "CountrySubdivisions":  [
+    {
+      "Name": "ALBERTA",
+      "Code": "AB"
+     },
+    {
+      "Name": "BRITISH COLUMBIA",
+      "Code": "BC"
+    }
+  ]
+}
+```
+
+##### 7.3.1.4 ATM Locations
+
+ATM locations represents the Geolocation of the ATMs. 
+It takes Country, Province, City, latitude, and longitude as parameter. 
+
+Details are defined in Swagger format in Appendix A. 
+
+Request example: 
+
+```
+```
+
+Response example: 
+
+```
+```
+
+#### 7.3.2 Offered products 
+
+##### 7.3.2.1 Introduction
+
+##### 7.3.2.2 Offered product list 
+
+##### 7.3.2.3 Offered product
 
 #### 7.3.4 Availability
 
