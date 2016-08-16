@@ -444,9 +444,14 @@ Content-Type: application/json; charset=utf-8
 
 #### 7.4.1 Customer  
 
-A **customer** is an OAuth protected resouce that represents the customer in question. 
+A **customer** is an OAuth protected resouce that represents the customer referred to by the access token presented. 
 It is represented as a URI from which the client can GET the JSON representation. 
 The client is only allowed to obtain the data within the granted scope. 
+
+    Editor's Note: The DDA seems to be quite particular not to use customerId 
+    but the "surrogate identity (identifier)", which is the access token. 
+    However, the token endpoint returns cusotmer_id and this is represented in 
+    the HTTP header all the time. Need to find out what it is trying to achieve. 
 
 The detail of this object is defined in Appendix A as a swagger.  
 
