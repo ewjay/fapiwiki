@@ -38,6 +38,7 @@ liaison relationship with the implementation entity [2].
     ASK: Do we agree to establish the liaison with it? 
 
 [1] <http://lists.openid.net/pipermail/openid-specs-fapi/2016-August/000036.html>
+
 [2] Implementation Entity: <http://www.paymentsuk.org.uk/policy/payments-CMA-remedy-phase1/temporary>
 
 TC68
