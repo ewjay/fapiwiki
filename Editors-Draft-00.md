@@ -287,6 +287,7 @@ This document defines the following protected resources:
 * transfer;
 * transfer status;
 * statement; 
+* etc. 
 
 ### 7.2 Endpoint Discovery
 
@@ -361,7 +362,63 @@ Content-Type: application/json; charset=utf-8
 
 ### 7.3 Open access resources
 
-#### 7.3.1 ATM location 
+#### 7.3.1 ATM locations
+
+##### 7.3.1.1 Introduction
+
+ATM locations APIs has ... 
+
+##### 7.3.1.2 ATM countries
+
+ATM countries are the resource that represents the list of countries
+that the ATM are located. The API does not take any parameters and 
+returns the array of country information which has the following 
+members: 
+
+* Name: Country name;
+* Code: ISO 3166 Alpha-2 code;
+* Geocoding: Boolean that represents whether the geocoding is available for the country or not. 
+
+Request example: 
+
+```
+GET /countris HTTP/1.1
+Host: example.com
+Accept: application/json
+```
+
+Response example: 
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+{
+  "Countries": {
+    "Country": [
+      {
+        "Name": "Japan",
+        "Code": "JP",
+        "Geocoding": FALSE
+      },
+      {
+        "Name": "United States of America",
+        "Code": "US",
+        "Geocoding": FALSE
+      }
+    }
+  }
+}
+```
+
+
+##### 7.3.1.3 ATM provinces
+
+ATM provinces represents country subdivisions such as states, provinces, prefectures etc. that have ATM locations. 
+
+```
+
+```
+
 
 #### 7.3.2 Offered products list 
 
