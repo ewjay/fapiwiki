@@ -511,7 +511,7 @@ Content-Type: application/json; charset=utf-8
   "_links": {
        "self": { "href": "/accountDescriptorList" },
        "account": {
-          "href": "/accounts/{?accountId}",
+          "href": "/accounts{?accountId}",
           "Authorize":"Bearer {access_token}",
           "Method":"POST", 
           "templated":true}
@@ -598,9 +598,6 @@ Content-Type: application/json; charset=utf-8
 While GET is more REST like, in the above example, POST is used   
 so that the accountId is not exposed as a path / query, 
 which may expose the accountId through referrer and history. 
-
-     Editor's Note:  GET /me/accounts/{accountId} might look more REST like. 
-     It can be specified with HAL in the accountDescritorList. 
 
 #### 7.4.4 Statements 
 
