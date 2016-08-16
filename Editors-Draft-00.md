@@ -275,6 +275,8 @@ This document defines the following open acess resources:
 * ATM location
 * Offered products list
 * Offered product
+* API service availability
+* API service capability
 
 Protected resources require the access token as defined above to read them out. 
 This document defines the following protected resources: 
@@ -282,9 +284,9 @@ This document defines the following protected resources:
 * customer; 
 * account; 
 * transaction; 
-* transfer; 
+* transfer;
+* transfer status;
 * statement; 
-* capability; 
 
 ### 7.2 Endpoint Discovery
 
@@ -363,7 +365,80 @@ Content-Type: application/json; charset=utf-8
 
 #### 7.3.2 Offered products list 
 
-#### 7.3.3 Offered product 
+#### 7.3.3 Offered product
+
+#### 7.3.4 Availability
+
+Gets the availability of the API service.
+
+Following is a non-normative example of availability request.
+
+```
+GET /availability HTTP/1.1
+Host: example.com
+Accept: application/json
+```
+
+Following is a non-normative example of the availability response.
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+{
+  "_links": {
+       "self": { "href": "/availability" }
+  },
+  "Availability" : {
+    "CurrentStatus" : "Operational",
+    "CurrentStatusDesc" : "All systems working with no problems",
+    "PlannedAvailability" : [
+      {
+        "Status" : "Maintenance",
+        "StatusShortDesc" : "Monthly Maintenance Downtime",
+        "StatusStartDate" : "2015-01-01T03:00:00.000Z",
+        "StatusEndDate" : "2015-01-01T04:00:00.000Z",
+      },
+      {
+        "Status" : "Maintenance",
+        "StatusShortDesc" : "Monthly Maintenance Downtime",
+        "StatusStartDate" : "2015-02-01T03:00:00.000Z",
+        "StatusEndDate" : "2015-02-01T04:00:00.000Z",
+      },
+    ],
+  }
+}
+```
+
+#### 7.3.5 Capability
+
+Gets the capabilities and supported features of the API service.
+
+Following is a non-normative example of capability request.
+
+```
+GET /capability HTTP/1.1
+Host: example.com
+Accept: application/json
+```
+
+Following is a non-normative example of the capability response.
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+{
+  "_links": {
+       "self": { "href": "/capability" }
+  },
+  "Capability": {
+    "allowedConnections": 10,
+    "supportsCustomer": true,
+    "supportsAccounts": true,
+    "supportsTransactions": true,
+    "supportsImage": true,
+  }
+}
+```
 
 ### 7.4 Protected resources 
 
@@ -771,84 +846,6 @@ Content-Type: application/json; charset=utf-8
   }
 }
 ```
-
-
-#### 7.4.10 Availability
-
-Gets the availability of the API service.
-
-Following is a non-normative example of availability request.
-
-```
-GET /availability HTTP/1.1
-Host: example.com
-Accept: application/json
-```
-
-Following is a non-normative example of the availability response.
-
-```
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-{
-  "_links": {
-       "self": { "href": "/availability" }
-  },
-  "Availability" : {
-    "CurrentStatus" : "Operational",
-    "CurrentStatusDesc" : "All systems working with no problems",
-    "PlannedAvailability" : [
-      {
-        "Status" : "Maintenance",
-        "StatusShortDesc" : "Monthly Maintenance Downtime",
-        "StatusStartDate" : "2015-01-01T03:00:00.000Z",
-        "StatusEndDate" : "2015-01-01T04:00:00.000Z",
-      },
-      {
-        "Status" : "Maintenance",
-        "StatusShortDesc" : "Monthly Maintenance Downtime",
-        "StatusStartDate" : "2015-02-01T03:00:00.000Z",
-        "StatusEndDate" : "2015-02-01T04:00:00.000Z",
-      },
-    ],
-  }
-}
-```
-
-
-
-#### 7.4.11 Capability
-
-Gets the capabilities and supported features of the API service.
-
-Following is a non-normative example of capability request.
-
-```
-GET /capability HTTP/1.1
-Host: example.com
-Accept: application/json
-```
-
-Following is a non-normative example of the capability response.
-
-```
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
-{
-  "_links": {
-       "self": { "href": "/capability" }
-  },
-  "Capability": {
-    "allowedConnections": 10,
-    "supportsCustomer": true,
-    "supportsAccounts": true,
-    "supportsTransactions": true,
-    "supportsImage": true,
-  }
-}
-```
-
-
 
 ## 8. Security Considerations
 
