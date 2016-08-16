@@ -65,26 +65,38 @@ for a read only access.
 ## 2. Normative references
 The following referenced documents are indispensable for the application of this document. For dated references, only the edition cited applied. For undated references, the latest edition of the referenced document (including any amendments) applies.
 
-RFC 6749 - The OAuth 2.0 Authorization Framework
+[RFC2616] -  Hypertext Transfer Protocol -- HTTP/1.1
+[RFC2616]: https://tools.ietf.org/html/rfc2616
 
-RFC 7636 - Proof Key for Code Exchange by OAuth Public Clients
+[RFC6749] - The OAuth 2.0 Authorization Framework
+[RFC6749]: https://tools.ietf.org/html/rfc6749
 
-RFC 5246 - The Transport Layer Security (TLS) Protocol Version 1.2
+[RFC6750] - The OAuth 2.0 Authorization Framework: Bearer Token Usage
+[RFC6750]: https://tools.ietf.org/html/rfc6750
 
-RFC 7525 - Recommendations for Secure Use of Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)
+[RFC7636] - Proof Key for Code Exchange by OAuth Public Clients
+[RFC7636]: https://tools.ietf.org/html/rfc7636
 
-RFC 6125 - Representation and Verification of Domain-Based Application Service Identity within Internet Public Key Infrastructure Using X.509 (PKIX) Certificates in the Context of Transport Layer Security (TLS)
+[RFC5246] - The Transport Layer Security (TLS) Protocol Version 1.2
+[RFC5246]: https://tools.ietf.org/html/rfc5246
+
+[RFC7525] - Recommendations for Secure Use of Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)
+[RFC7525]: https://tools.ietf.org/html/rfc7525
+
+[RFC6125][] - Representation and Verification of Domain-Based Application Service Identity within Internet Public Key Infrastructure Using X.509 (PKIX) Certificates in the Context of Transport Layer Security (TLS)
+[RFC6125]: https://tools.ietf.org/html/rfc6125
 
 BCP NAPPS - [OAuth 2.0 for Native Apps](https://tools.ietf.org/html/draft-ietf-oauth-native-apps-03)
 
-OIDC OpenID Connect Core 1.0 incorporating errata set 1
+[OIDC][] OpenID Connect Core 1.0 incorporating errata set 1
+[OIDC]: http://openid.net/specs/openid-connect-core-1_0.html
 
 OIDD OpenID Connect Discovery 1.0 incorporating errata set 1
 
 OIDM OAuth 2.0 Multiple Response Type Encoding Practices
 
 ## 3. Terms and definitions
-For the purpose of this standard, the terms defined in RFC6749, RFC6750, RFC7636, OpenID Connect Core applies.
+For the purpose of this standard, the terms defined in [RFC6749], [RFC6750], [RFC7636], [OpenID Connect Core][OIDC] applies.
 
 
 ## 4. Symbols and Abbreviated terms
@@ -139,7 +151,7 @@ The Authorization Server
 
 * shall support both public and confidential clients; 
 * shall provide client secret longer than 12 characters; 
-* shall support RFC7636 with S265 as the code challenge method;
+* shall support [RFC7636] with `S265` as the code challenge method;
 * shall require Redirect URIs to be pre-registered; 
 * shall required `redirect_uri` parameter in the authorization request; 
 * shall require the value of `redirect_uri` to exactly match one of the pre-registered Redirect URI;  
