@@ -1014,13 +1014,14 @@ Stakeholders should follow the privacy principles of ISO/IEC 29100. In particula
 
 ## 11. Acknowledgement
 
+(Fill in the names) 
+
 ## 12. Bibliography
 
-* Open Financial Exchange 2.2
-* “HTML 4.01 Specification,” World Wide Web Consortium Recommendation REC-html401-19991224, December 1999
+* [OFX2.2] Open Financial Exchange 2.2
+* [HTML4.01] “HTML 4.01 Specification,” World Wide Web Consortium Recommendation REC-html401-19991224, December 1999
 * [RFC7662] OAuth 2.0 Token Introspection
-
-
+* [DDA] Durable Data API, (2015), FS-ISAC
 
 ## Annex A Financial Data API Level 1 (Normative)
 
