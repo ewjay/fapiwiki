@@ -472,6 +472,9 @@ Following is a non-normative example of the resource response.
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 {
+  "_links": {
+       "self": { "href": "/customer" }
+  },
   "Customer": {
     "name": {
       "first": "Michael",
