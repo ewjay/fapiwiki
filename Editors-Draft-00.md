@@ -181,7 +181,7 @@ Further, if it wishes to provide the authenticated user's identifier to the clie
 * shall perform the token request verification as in Section 3.1.3.2 of [OIDC]; and 
 * shall issue an ID Token in the token response when `openid` was included in the requested `scope` 
   as in Section 3.1.3.3 of [OIDC] with its `sub` value equal to the value of the `CustomerId` 
-  of the `Cusotmer` object corresponding to the authenticated user 
+  of the `Customer` object corresponding to the authenticated user
   and optional `acr` value in ID Token. 
 
     NOTE: [DDA] returns a parameter called `user_id` in the token response. 
@@ -196,7 +196,7 @@ Further, if it wishes to provide the authenticated user's identifier to the clie
 
 A Public Client
 
-* shall suport [RFC7636]; 
+* shall support [RFC7636];
 * shall use the [RFC7636] with `S256` as the code challenge method;
 * shall use separate and distinct Redirect URI for each Authorization Server that it talks to;
 * shall store the Redirect URI value in the User-Agent session and compare it with the Redirect URI that the Authorization Response was received at, where, if the URIs do not match, the Client shall terminate the process with error;
@@ -208,7 +208,7 @@ Further, if it wishes to obtain a persistent identifier of the authenticated use
 * shall include `openid` in the `scope` value; and 
 * shall include `nonce` parameter defined in Section 3.1.2.1 of [OIDC] in the authentication request.  
 
-    NOTE: Adherance to [RFC7636] means that the token request includes `code_verifier` parameter in the request. 
+    NOTE: Adherence to [RFC7636] means that the token request includes `code_verifier` parameter in the request.
 
 
 #### 5.2.3 Confidential Client
@@ -282,11 +282,11 @@ and server, e.g., `DDA-InteractionId: c770aef3-6784-41f7-8e0e-ff5f97bddb3a`.
 
 This document specifies resources in two categories: 
 
-* open acess resources; 
+* open access resources;
 * protected resources; 
 
 Open access resources does not require authorization to read them out. 
-This document defines the following open acess resources: 
+This document defines the following open access resources:
 
 * Branch location
 * ATM location
@@ -317,7 +317,7 @@ This document defines a mechanism for discovering the various resources endpoint
 * server metadata document; 
 * Enhanced HAL; 
 
-Server metadata document builds upon the discovery mechanism described in OpenID Connect Discovery 1.0. This document defines the parameters defined in Table x to the OpenID Discovery response. 
+Server metadata document builds upon the discovery mechanism described in OpenID Connect Discovery 1.0. This document defines the parameters defined in Table 2 to the OpenID Discovery response.
 
 In case of using HAL, JSON describing the link is returned as a part of the resource being returned. 
 
@@ -335,7 +335,7 @@ The `fapi` parameter contains the following parameters:
 | transaction | transaction\_document\_endpoint *optional* | String | URL for getting a transaction document                                             |
 | transactions| transaction\_list\_endpoint *optional*     | String | URL for getting list of transactions                                               |
 | accountlist | account\_list\_endpoint *optional*         | String | URL for getting list of accounts                                                   |
-| accountd | account\_details\_endpoint *optional*      | String | URL for getting account information (details & transactions) for the current token |
+| accountdetails | account\_details\_endpoint *optional*      | String | URL for getting account information (details & transactions) for the current token |
 | availability |  availability_endpoint *optional*        | String | URL for getting information about this API's availability                          |
 | capability | capability\_endpoint *optional*           | String | URL for getting informtion about this API's capabilities                           |
 | customer | customer\_endpoint *optional*             | String | URL for getting about the customer within the authorization scope                  |
@@ -411,7 +411,7 @@ members:
 Request example: 
 
 ```
-GET /countris HTTP/1.1
+GET /countries HTTP/1.1
 Host: example.com
 Accept: application/json
 ```
@@ -504,7 +504,7 @@ Response example:
 
 #### 7.3.4 Availability
 
-Gets the availability of the API service.
+**Availability** represents the availability of the API service.
 
 Following is a non-normative example of availability request.
 
@@ -546,7 +546,7 @@ Content-Type: application/json; charset=utf-8
 
 #### 7.3.5 Capability
 
-Gets the capabilities and supported features of the API service.
+**Capability** represents the capabilities and supported features of the API service.
 
 Following is a non-normative example of capability request.
 
@@ -579,7 +579,7 @@ Content-Type: application/json; charset=utf-8
 
 #### 7.4.1 Customer  
 
-A **customer** is an OAuth protected resouce that represents the customer referred to by the access token presented. 
+A **customer** is an OAuth protected resource that represents the customer referred to by the access token presented.
 It is represented as a URI from which the client can GET the JSON representation. 
 The client is only allowed to obtain the data within the granted scope. 
 
@@ -627,7 +627,7 @@ Content-Type: application/json; charset=utf-8
 
 #### 7.4.2. Account Descriptor List 
 
-An account descriptor list is an OAuth protected resouce that represents the list of account descriptors, the metadata about the account, associated with the provided access token, which is related to the customer in question. 
+An account descriptor list is an OAuth protected resource that represents the list of account descriptors, the metadata about the account, associated with the provided access token, which is related to the customer in question.
 
 The detail of this object is defined in Appendix A as a swagger. 
 
@@ -677,11 +677,11 @@ Content-Type: application/json; charset=utf-8
 
 #### 7.4.3 Account 
 
-An **account** is an OAuth protected resouce that represents the account of the customer in question. 
+An **account** is an OAuth protected resource that represents the account of the customer in question.
 It is represented as a URI from which the client can obtain the JSON representation. 
 It may be HAL+ enhanced. 
 The client is only allowed to obtain the data within the granted scope. 
-It has an identifier unique to the issueing organization called `accountId`.  
+It has an identifier unique to the issuing organization called `accountId`.
 
 Since the access token only identifies the customer and the customer might have multiple accounts, account identifier, `accountId`, which is provided in the account descriptor needs to be provided. 
 
@@ -789,7 +789,7 @@ Content-Type: application/json; charset=utf-8
 
 #### 7.4.5 Statement 
 
-Gets an image of an account statement. Can be one of the following formats:
+A **statement** represents an image of an account statement. It can be one of the following formats:
 
 * application/pdf
 * image/gif
@@ -816,7 +816,7 @@ Binary data
 
 #### 7.4.6 Transactions 
 
-Gets a list of transactions for the given account.
+**Transactions** represents a list of transactions for the given account.
 
 ```
 POST /account/transactions HTTP/1.1
@@ -877,9 +877,9 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-#### 7.4.7 Transaction Images
+#### 7.4.7 Transaction Image
 
-Gets an image of a transaction such as a scanned check or deposit/withdrawal slip. Can be one of the following formats:
+A **transaction image** represents an image of a transaction such as a scanned check or deposit/withdrawal slip. It can be one of the following formats:
 
 * application/pdf
 * image/gif
@@ -907,7 +907,7 @@ Binary data
 
 #### 7.4.8 Transfer
 
-Performs a transfer of assets from one account to another.
+A **transfer** represents a transfer of assets from one account to another.
 
 Following is a non-normative example of the transfer request.
 
@@ -955,7 +955,7 @@ Content-Type: application/json; charset=utf-8
 
 #### 7.4.9 Transfer status
 
-Gets the status of a transfer request.
+A **transfer status** represents the status of a transfer request.
 
 Following is a non-normative example of the transfer request.
 
