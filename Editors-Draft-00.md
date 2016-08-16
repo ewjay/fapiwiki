@@ -83,17 +83,22 @@ The following referenced documents are indispensable for the application of this
 [RFC7525] - Recommendations for Secure Use of Transport Layer Security (TLS) and Datagram Transport Layer Security (DTLS)
 [RFC7525]: https://tools.ietf.org/html/rfc7525
 
-[RFC6125][] - Representation and Verification of Domain-Based Application Service Identity within Internet Public Key Infrastructure Using X.509 (PKIX) Certificates in the Context of Transport Layer Security (TLS)
+[RFC6125] - Representation and Verification of Domain-Based Application Service Identity within Internet Public Key Infrastructure Using X.509 (PKIX) Certificates in the Context of Transport Layer Security (TLS)
 [RFC6125]: https://tools.ietf.org/html/rfc6125
 
 BCP NAPPS - [OAuth 2.0 for Native Apps](https://tools.ietf.org/html/draft-ietf-oauth-native-apps-03)
 
-[OIDC][] OpenID Connect Core 1.0 incorporating errata set 1
+[OIDC] - OpenID Connect Core 1.0 incorporating errata set 1
 [OIDC]: http://openid.net/specs/openid-connect-core-1_0.html
 
-OIDD OpenID Connect Discovery 1.0 incorporating errata set 1
+[OIDD] -  OpenID Connect Discovery 1.0 incorporating errata set 1
+[OIDD]: http://openid.net/specs/openid-connect-discovery-1_0.html
 
-OIDM OAuth 2.0 Multiple Response Type Encoding Practices
+[OIDM] -  OAuth 2.0 Multiple Response Type Encoding Practices
+[OIDM]: http://openid.net/specs/oauth-v2-multiple-response-types-1_0.html
+
+[X.1254] - Entity authentication assurance framework  
+[X.1254]: https://www.itu.int/rec/T-REC-X.1254
 
 ## 3. Terms and definitions
 For the purpose of this standard, the terms defined in [RFC6749], [RFC6750], [RFC7636], [OpenID Connect Core][OIDC] applies.
@@ -101,25 +106,25 @@ For the purpose of this standard, the terms defined in [RFC6749], [RFC6750], [RF
 
 ## 4. Symbols and Abbreviated terms
 
-API – Application Programming Interface
+**API** – Application Programming Interface
 
-CSRF - Cross Site Request Forgery
+**CSRF** - Cross Site Request Forgery
 
-FAPI - Financial API
+**FAPI** - Financial API
 
-FI – Financial Institution
+**FI** – Financial Institution
 
-HTTP – Hyper Text Transfer Protocol
+**HTTP** – Hyper Text Transfer Protocol
 
-REST – Representational State Transfer
+**REST** – Representational State Transfer
 
-TLS – Transport Layer Security
+**TLS** – Transport Layer Security
 
 ## 5. Getting Tokens
 
 ### 5.1 Introduction
 
-The OIDF Financial API (FAPI) is a REST API that provides JSON data representing accounts and transactions related data. These APIs are protected by the OAuth 2.0 Authorization Framework that consists of [RFC6749], [RFC6750], [RFC7636], ..., and other specifications.
+The OIDF Financial API (FAPI) is a REST API that provides JSON data representing accounts and transactions related data. These APIs are protected by the OAuth 2.0 Authorization Framework that consists of [RFC6749], [RFC6750], [RFC7636], and other specifications.
 
 These API accesses have several levels of risks associated to it. Read only access is generally speaking associated with lower financial risk than the write access. As such, the characteristics required to the tokens are also different.
 
@@ -192,7 +197,7 @@ Further, if it wishes to provide the authenticated user's identifier to the clie
 A Public Client
 
 * shall suport [RFC7636]; 
-* shall use the [RFC7636] with S256 as the code challenge method;
+* shall use the [RFC7636] with `S256` as the code challenge method;
 * shall use separate and distinct Redirect URI for each Authorization Server that it talks to;
 * shall store the Redirect URI value in the User-Agent session and compare it with the Redirect URI that the Authorization Response was received at, where, if the URIs do not match, the Client shall terminate the process with error;
 * shall adhere to the best practice stated by [BCP NAPPS](https://tools.ietf.org/html/draft-ietf-oauth-native-apps-03); and 
@@ -210,7 +215,7 @@ Further, if it wishes to obtain a persistent identifier of the authenticated use
 
 In addition to the provision to the Public Client, the Confidential Client 
 
-* shall authentciate with client secret to access the Token Endpoint as in Section 4.1.3 of OAuth 2.0 [RFC6749]; 
+* shall authenticate the client with client secret to access the Token Endpoint as in Section 4.1.3 of [RFC6749]; 
 
 
 ## 6. Accessing Protected Resources (Using tokens)
@@ -226,7 +231,7 @@ The FAPI endpoints are OAuth 2.0 protected resource endpoints that return variou
 The protected resources supporting this document 
 
 * shall mandate TLS 1.2 as defined in [RFC5246] or later with the usage following the best practice in [RFC7525]; 
-* shall support the use of the HTTP GET and HTTP POST methods defined in RFC2616 [RFC2616]; 
+* shall support the use of the HTTP GET and HTTP POST methods defined in [RFC2616]; 
 * shall accept access tokens in the HTTP header as in Section 2.1 of OAuth 2.0 Bearer Token Usage [RFC6750];  
 * shall verify that the access token is not expired nor revoked; 
 * shall verify that the scope associated with the access token authorizes the reading of the resource it is representing; 
