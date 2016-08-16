@@ -662,16 +662,193 @@ Content-Type: application/json; charset=utf-8
 }
 ```
 
-#### 7.4.7 Transaction  
+#### 7.4.7 Transaction Images
+
+Gets an image of a transaction such as a scanned check or deposit/withdrawal slip. Can be one of the following formats:
+
+* application/pdf
+* image/gif
+* image/jpeg
+* image/png
+* image/tiff
+
+```
+POST /account/transaction/image HTTP/1.1
+Host: example.com
+Accept: application/pdf
+Authorization: Bearer w0mcJylzCn-AfvuGdqkty2-KP48=
+Content-Type: application/x-www-form-urlencoded
+
+accountId=1&imageId=101&startTime=2015-01-01Z&endTime=2015-02-01Z
+```
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/pdf
+
+Binary data
+```
+
+
+#### 7.4.8 Transfer
+
+Performs a transfer of assets from one account to another.
+
+Following is a non-normative example of the transfer request.
+
+```
+POST /transfer HTTP/1.1
+Host: example.com
+Accept: application/json
+Authorization: Bearer w0mcJylzCn-AfvuGdqkty2-KP48=
+Content-Type: application/json
+
+{
+  "Transfer" : {
+    "TransferId" : "111222333444555",
+    "FromAccountId" : "1357902468",
+    "ToAccountId" : "3216540987",
+    "Amount" : 50.00,
+    "Memo" : "For Check #1234",
+  }
+}
+```
+
+Following is a non-normative example of the transfer response.
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+{
+  "_links": {
+       "self": { "href": "/transfer" },
+       "transferStatus": {
+          "href": "/transfer/status{?transferId}",
+          "Authorize":"Bearer {access_token}",
+          "Method":"POST",
+          "templated":true}
+  },
+  "TransferStatus": {
+    "TransferId" : "111222333444555",
+    "ReferenceId" : "8453935582",
+    "Status" : "PENDING",
+    "TransferDate" : "2015-02-01Z",
+  }
+}
+```
+
+
+#### 7.4.9 Transfer status
+
+Gets the status of a transfer request.
+
+Following is a non-normative example of the transfer request.
+
+```
+POST /transfer/status HTTP/1.1
+Host: example.com
+Accept: application/json
+Authorization: Bearer w0mcJylzCn-AfvuGdqkty2-KP48=
+Content-Type: application/json
+
+transferId=111222333444555
+```
+
+Following is a non-normative example of the transfer status response.
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+{
+  "_links": {
+       "self": { "href": "/transfer/status" }
+  },
+  "TransferStatus": {
+    "TransferId" : "111222333444555",
+    "ReferenceId" : "8453935582",
+    "Status" : "SUCCESS",
+    "TransferDate" : "2015-02-01Z",
+  }
+}
+```
+
+
+#### 7.4.10 Availability
+
+Gets the availability of the API service.
+
+Following is a non-normative example of availability request.
+
+```
+GET /availability HTTP/1.1
+Host: example.com
+Accept: application/json
+```
+
+Following is a non-normative example of the availability response.
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+{
+  "_links": {
+       "self": { "href": "/availability" }
+  },
+  "Availability" : {
+    "CurrentStatus" : "Operational",
+    "CurrentStatusDesc" : "All systems working with no problems",
+    "PlannedAvailability" : [
+      {
+        "Status" : "Maintenance",
+        "StatusShortDesc" : "Monthly Maintenance Downtime",
+        "StatusStartDate" : "2015-01-01T03:00:00.000Z",
+        "StatusEndDate" : "2015-01-01T04:00:00.000Z",
+      },
+      {
+        "Status" : "Maintenance",
+        "StatusShortDesc" : "Monthly Maintenance Downtime",
+        "StatusStartDate" : "2015-02-01T03:00:00.000Z",
+        "StatusEndDate" : "2015-02-01T04:00:00.000Z",
+      },
+    ],
+  }
+}
+```
 
 
 
-#### 7.4.8 Transaction Images 
+#### 7.4.11 Capability
+
+Gets the capabilities and supported features of the API service.
+
+Following is a non-normative example of capability request.
+
+```
+GET /capability HTTP/1.1
+Host: example.com
+Accept: application/json
+```
+
+Following is a non-normative example of the capability response.
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+{
+  "_links": {
+       "self": { "href": "/capability" }
+  },
+  "Capability": {
+    "allowedConnections": 10,
+    "supportsCustomer": true,
+    "supportsAccounts": true,
+    "supportsTransactions": true,
+    "supportsImage": true,
+  }
+}
+```
 
 
-#### 7.4.9 Transfer 
- 
-#### 7.4.10 Capability 
 
 ## 8. Security Considerations
 
