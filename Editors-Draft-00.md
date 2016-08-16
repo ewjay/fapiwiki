@@ -277,6 +277,7 @@ This document defines the following open acess resources:
 * Offered product
 * API service availability
 * API service capability
+* etc. 
 
 Protected resources require the access token as defined above to read them out. 
 This document defines the following protected resources: 
