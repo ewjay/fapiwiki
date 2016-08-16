@@ -1,5 +1,5 @@
 ============================================
-FAPI WG Meeting Agenda (2016-08-17)
+FAPI WG Meeting Notes (2016-08-17)
 ============================================
 Date & Time: 2016-08-17 14:00 UTC (07:00 PDT, 16:00 Denmark, 23:00 JST) 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
@@ -30,7 +30,7 @@ Note that the section structures are according to the ISO Directive Part 2.
 External Org Relationships
 =============================
 
-UK Open Groups 
+UK Groups 
 ------------------------------------
 Dave reported via email [1] that we may want to establish 
 liaison relationship with the implementation entity [2]. 
@@ -68,4 +68,4 @@ AOB
 
 Next Call
 ----------
-
+* 2016-08-23 23:00 UTC (16:00 PDT, 01:00+1d Denmark, 08:00+1d JST) 
