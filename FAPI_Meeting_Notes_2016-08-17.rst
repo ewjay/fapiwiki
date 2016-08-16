@@ -37,17 +37,25 @@ liaison relationship with the implementation entity [2].
 
     ASK: Do we agree to establish the liaison with it? 
 
-[1] http://lists.openid.net/pipermail/openid-specs-fapi/2016-August/000036.html
-[2] Implementation Entity: http://www.paymentsuk.org.uk/policy/payments-CMA-remedy-phase1/temporary
+[1] <http://lists.openid.net/pipermail/openid-specs-fapi/2016-August/000036.html>
+[2] Implementation Entity: <http://www.paymentsuk.org.uk/policy/payments-CMA-remedy-phase1/temporary>
 
 TC68
 -----
 Nat will report the talk with the TC68 people in Japan. 
 
+[3] ISO/TC 68 Financial Services <http://www.iso.org/iso/iso_technical_committee?commid=49650>
+
 Danish Bank
 ------------
 Henrik was asked to follow up with Danish Bank, who is a member of OBDG last week. 
 Report from Henrik, if there was any progress. 
+
+X9
+------------
+Paul Grassi will talk about a possible liaison with X9 [3] 
+
+[4] X9 Financial Industry Standards <http://x9.org/>. 
 
 Other action items
 --------------------
