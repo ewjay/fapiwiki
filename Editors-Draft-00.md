@@ -292,8 +292,17 @@ This document defines the following protected resources:
 
 ### 7.2 Endpoint Discovery
 
-This document defines a mechanism for discovering the various resources endpoints for requesting the user's financial data.
-Building upon the discovery mechanism described in OpenID Connect Discovery 1.0, this document defines the following parameters to the OpenID Discovery response:
+    Editor's Note: In the following, we are currently citing OpenID Connect Discovery but
+    once OAuth Server Metadata is done, it should be changed to it. 
+
+This document defines a mechanism for discovering the various resources endpoints for requesting the user's financial data. It defines two ways of doing it i.e., 
+
+* server metadata document; 
+* Enhanced HAL; 
+
+Server metadata document builds upon the discovery mechanism described in OpenID Connect Discovery 1.0. This document defines the parameters defined in Table x to the OpenID Discovery response. 
+
+In case of using HAL, JSON describing the link is returned as a part of the resource being returned. 
 
 | Parameter         | Type  | Description                                                                                |
 |-------------------|-------|--------------------------------------------------------------------------------------------|
@@ -301,20 +310,22 @@ Building upon the discovery mechanism described in OpenID Connect Discovery 1.0,
 
 The `fapi` parameter contains the following parameters:
 
-| Parameter                              | Type   | Description                                                                        |
-|----------------------------------------|--------|------------------------------------------------------------------------------------|
-| account\_endpoint *optional*              | String | URL for getting account information                                                |
-| statement\_endpoint *optional*            | String | URL for retrieving a statement document                                            |
-| statement\_list\_endpoint *optional*       | String | URL for getting list of statements                                                 |
-| transaction\_document\_endpoint *optional* | String | URL for getting a transaction document                                             |
-| transaction\_list\_endpoint *optional*     | String | URL for getting list of transactions                                               |
-| account\_list\_endpoint *optional*         | String | URL for getting list of accounts                                                   |
-| account\_details\_endpoint *optional*      | String | URL for getting account information (details & transactions) for the current token |
-|  availability_endpoint *optional*        | String | URL for getting information about this API's availability                          |
-| capability\_endpoint *optional*           | String | URL for getting informtion about this API's capabilities                           |
-| customer\_endpoint *optional*             | String | URL for getting about the customer within the authorization scope                  |
-| transfer_endpoint *optional*             | String | URL for creating a transfer between accounts                                       |
-| transfer\_status\_endpoint *optional*      | String | URL for getting the status of a transfer between accounts                          |
+|  Rel     | Parameter                              | Type   | Description                                                                        |
+|----------|----------------------------------------|--------|------------------------------------------------------------------------------------|
+| account  | account\_endpoint *optional*              | String | URL for getting account information                                                |
+| statement| statement\_endpoint *optional*            | String | URL for retrieving a statement document                                            |
+| statementlist | statement\_list\_endpoint *optional*       | String | URL for getting list of statements                                                 |
+| transaction | transaction\_document\_endpoint *optional* | String | URL for getting a transaction document                                             |
+| transactions| transaction\_list\_endpoint *optional*     | String | URL for getting list of transactions                                               |
+| accountlist | account\_list\_endpoint *optional*         | String | URL for getting list of accounts                                                   |
+| accountd | account\_details\_endpoint *optional*      | String | URL for getting account information (details & transactions) for the current token |
+| availability |  availability_endpoint *optional*        | String | URL for getting information about this API's availability                          |
+| capability | capability\_endpoint *optional*           | String | URL for getting informtion about this API's capabilities                           |
+| customer | customer\_endpoint *optional*             | String | URL for getting about the customer within the authorization scope                  |
+| transfer | transfer_endpoint *optional*             | String | URL for creating a transfer between accounts                                       |
+| transferstatus | transfer\_status\_endpoint *optional*      | String | URL for getting the status of a transfer between accounts                          |
+
+Table 2 -- Link relations and the JSON parameters. 
 
     Editor's note:
     An example should be added.
