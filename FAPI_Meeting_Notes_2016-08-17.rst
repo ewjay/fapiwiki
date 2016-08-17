@@ -2,10 +2,12 @@
 FAPI WG Meeting Notes (2016-08-17)
 ============================================
 Date & Time: 2016-08-17 14:00 UTC (07:00 PDT, 16:00 Denmark, 23:00 JST) 
+
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
 .. sectnum::
    :suffix: .
+
 
 .. contents:: Agenda
 
