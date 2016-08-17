@@ -449,7 +449,7 @@ ATM provinces represents country subdivisions such as states, provinces, prefect
 Request example: 
 
 ```
-GET /atms/provinces?code=CAN HTTP/1.1
+GET /atms/provinces?country=CAN HTTP/1.1
 Host: example.com
 Accept: application/json
 ```
@@ -462,7 +462,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "_links": {
-       "self": { "href": "/atms/provinces?code=CAN" }
+       "self": { "href": "/atms/provinces?country=CAN" }
   },
   "CountrySubdivisions":  [
     {
@@ -487,11 +487,35 @@ Details are defined in Swagger format in Appendix A.
 Request example: 
 
 ```
+GET /atms?country=CAN&province=BC HTTP/1.1
+Host: example.com
+Accept: application/json
 ```
 
 Response example: 
 
 ```
+{
+  "atms":[
+    {
+      "id":"24242-3b13",
+      "name":"RMD01",
+      "address":{
+        "line_1":" 1221 Granville St",
+        "line_2":"",
+        "line_3":"",
+        "city":"Vancouver",
+        "province":"BC",
+        "postcode":"V6Z 1M6",
+        "country":"CAN"
+      },
+     "location":{
+        "latitude":49.2634,
+        "longitude":-123.1241
+      }
+    }
+  ]
+}
 ```
 
 #### 7.3.2 Offered products 
