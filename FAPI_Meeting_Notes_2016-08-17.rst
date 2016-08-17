@@ -161,7 +161,7 @@ Nat went over recently updated issues. Specifically, #13, #23, #17, #20, #22, #1
 
 Action:: 
 
-     All members were asked to review these issues. 
+     All members were asked to review issues on the tracker and comment if necessary. 
 
 Error report coding (Sascha)
 ----------------------------------
