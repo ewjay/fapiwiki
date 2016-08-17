@@ -47,16 +47,16 @@ Nat will report the talk with the TC68 people in Japan.
 
 [3] ISO/TC 68 Financial Services <http://www.iso.org/iso/iso_technical_committee?commid=49650>
 
-Danish Bank
-------------
-Henrik was asked to follow up with Danish Bank, who is a member of OBDG last week. 
-Report from Henrik, if there was any progress. 
-
 X9
 ------------
 Paul Grassi will talk about a possible liaison with X9 [4] 
 
 [4] X9 Financial Industry Standards <http://x9.org/>. 
+
+Danish Bank
+------------
+Henrik was asked to follow up with Danish Bank, who is a member of OBDG last week. 
+Report from Henrik, if there was any progress. 
 
 Other action items
 --------------------
@@ -67,6 +67,8 @@ Other action items
 
 New & Open Issues
 ======================
+
+* Error report coding (Sascha)
 
 Action: 
 
