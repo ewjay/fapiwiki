@@ -22,12 +22,19 @@ Adoption of the Agenda
 
 Result of Document Restructuring -- Editor's Draft 00
 ===========================================================
-Nat and Edmund are working on the restructuring of the Working Draft. 
+Nat explained about the restructuring of the Working Draft clause by clause. 
 Current state can be seen at: https://bitbucket.org/openid/fapi/wiki/Editors-Draft-00
 
 Note that the section structures are according to the ISO Directive Part 2. 
 
     ASK: Please start reviewing the document and file bugs/proposals in the issue tracker. 
+
+Sascha asked about the security of public client. 
+Nat pointed out that it is covered in the requirements in 5.2.2. 
+
+John pointed out that BCP NAPPS does not cover device attestation. 
+
+Action:: 
 
     Add line about device attestation to 5.2.2.
 
