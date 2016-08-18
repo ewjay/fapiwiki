@@ -522,7 +522,53 @@ Response example:
 
 ##### 7.3.2.1 Introduction
 
-##### 7.3.2.2 Offered product list 
+##### 7.3.2.2 Offered product list
+
+Offered product list represents the products and services offered by a financial institution.
+
+Details are defined in Swagger format in Appendix A.
+
+Request example:
+
+```
+GET /products HTTP/1.1
+Host: example.com
+Accept: application/json
+```
+
+Response example:
+
+```
+{
+  "Products": [{
+    "Code": "BPC05001161",
+    "Name": "Premiere Savings Account",
+    "Category": "Savings",
+    "Family": "Banking",
+    "SuperFamily": "Financial",
+    "MoreInfUrl": "https:example.com/products/BPC05001161",
+    "Meta": {
+        "License": {
+          "Id": "Copyright2016",
+          "Name": "Copyright"
+        }
+    }
+    }, {
+    "Code": "BCP11118372",
+    "Name": "Retirement Account",
+    "Category": "Retirement",
+    "Family": "Investing",
+    "SuperFamily": "Financial",
+    "MoreInfoUrl": "https://example.com/products/BCP11118372",
+    "Meta": {
+        "License": {
+          "Id": "Copyright2016",
+          "Name": "Copyright"
+        }
+    }
+  }]
+}
+```
 
 ##### 7.3.2.3 Offered product
 
