@@ -46,21 +46,15 @@ Both commercial and investment banking account as well as insurance, and credit 
 
 ## 1. Scope
 
-The goal of FAPI is to provide JSON data schemas, security and privacy recommendations and protocols to:
+This document specifies the method of 
 
-* enable applications to utilize the data stored in the financial account,
-* enable applications to interact with the financial account, and
-* enable users to control the security and privacy settings.
+* applications to obtain the OAuth tokens in an appropriately secure manner for the financial data access; 
+* application to utilize OpenID Connect to identify the cusotmer; 
+* representing financial data in JSON format; 
+* using the tokens to intract with the REST endpoints that provides financial data; and
+* enabling users to control the security and privacy settings.
 
-Both commercial and investment banking account as well as insurance, and credit card accounts are to be considered.
-
-This document defines 
-
-* security profiles for and OAuth and OpenID Connect; 
-* JSON format to represent account related data, e.g., Account Representation, Transactions, Current Status; 
-* REST API for the accounts, Purchase history of commerce site, and Receipt Data
-
-for a read only access. 
+This document is applicable to both commercial and investment banking account as well as insurance, and credit card accounts are to be considered.
 
 ## 2. Normative references
 The following referenced documents are indispensable for the application of this document. For dated references, only the edition cited applied. For undated references, the latest edition of the referenced document (including any amendments) applies.
