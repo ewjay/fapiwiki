@@ -547,12 +547,6 @@ Response example:
     "Family": "Banking",
     "SuperFamily": "Financial",
     "MoreInfUrl": "https:example.com/products/BPC05001161",
-    "Meta": {
-        "License": {
-          "Id": "Copyright2016",
-          "Name": "Copyright"
-        }
-    }
     }, {
     "Code": "BCP11118372",
     "Name": "Retirement Account",
@@ -560,12 +554,6 @@ Response example:
     "Family": "Investing",
     "SuperFamily": "Financial",
     "MoreInfoUrl": "https://example.com/products/BCP11118372",
-    "Meta": {
-        "License": {
-          "Id": "Copyright2016",
-          "Name": "Copyright"
-        }
-    }
   }]
 }
 ```
