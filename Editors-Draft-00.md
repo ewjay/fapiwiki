@@ -326,18 +326,18 @@ The `fapi` parameter contains the following parameters:
 
 |  Rel     | Parameter                              | Type   | Description                                                                        |
 |----------|----------------------------------------|--------|------------------------------------------------------------------------------------|
-| account  | account\_endpoint *optional*              | String | URL for getting account information                                                |
-| statement| statement\_endpoint *optional*            | String | URL for retrieving a statement document                                            |
-| statementlist | statement\_list\_endpoint *optional*       | String | URL for getting list of statements                                                 |
-| transaction | transaction\_document\_endpoint *optional* | String | URL for getting a transaction document                                             |
-| transactions| transaction\_list\_endpoint *optional*     | String | URL for getting list of transactions                                               |
-| accountlist | account\_list\_endpoint *optional*         | String | URL for getting list of accounts                                                   |
-| accountdetails | account\_details\_endpoint *optional*      | String | URL for getting account information (details & transactions) for the current token |
-| availability |  availability_endpoint *optional*        | String | URL for getting information about this API's availability                          |
-| capability | capability\_endpoint *optional*           | String | URL for getting informtion about this API's capabilities                           |
-| customer | customer\_endpoint *optional*             | String | URL for getting about the customer within the authorization scope                  |
-| transfer | transfer_endpoint *optional*             | String | URL for creating a transfer between accounts                                       |
-| transferstatus | transfer\_status\_endpoint *optional*      | String | URL for getting the status of a transfer between accounts                          |
+| fapi.account  | account *optional*              | String | URL for getting account information                                                |
+| fapi.accountlist | accountlist *optional*         | String | URL for getting list of accounts                                                   |
+| fapi.accountdetails | accountdetails *optional*      | String | URL for getting account information (details & transactions) for the current token |
+| fapi.statement| statement *optional*            | String | URL for retrieving a statement document                                            |
+| fapi.statementlist | statementlist *optional*       | String | URL for getting list of statements                                                 |
+| fapi.transaction | transaction *optional* | String | URL for getting a transaction document                                             |
+| fapi.transactionlist| transactionlist *optional*     | String | URL for getting list of transactions                                               |
+| fapi.availability |  availability *optional*        | String | URL for getting information about this API's availability                          |
+| fapi.capability | capability *optional*           | String | URL for getting informtion about this API's capabilities                           |
+| fapi.customer | customer *optional*             | String | URL for getting about the customer within the authorization scope                  |
+| fapi.transfer | transfer *optional*             | String | URL for creating a transfer between accounts                                       |
+| fapi.transferstatus | transferstatus *optional*      | String | URL for getting the status of a transfer between accounts                          |
 
 Table 2 -- Link relations and the JSON parameters. 
 
@@ -370,18 +370,18 @@ Content-Type: application/json; charset=utf-8
  	"subject_types_supported": ["pairwise"],
  	"id_token_signing_alg_values_supported": ["RS256", "ES256", "HS256"],
  	"fapi" : {
- 	    "account_endpoint" : "https://example.com/account",
- 	    "statement_endpoint" : "https://example.com/account/statement",
- 	    "statement_list_endpoint" : "https://example.com/account/statements",
- 	    "transaction_document_endpoint" : "https://example.com/account/transaction/image",
- 	    "transaction_list_endpoint" : "https://example.com/account/transactions",
- 	    "account_list_endpoint" : "https://example.com/accountlist",
- 	    "account_details_endpoint" : "https://example.com/accountdetail",
- 	    "availability_endpoint" : "https://example.com/availability",
- 	    "capability_endpoint" : "https://example.com/capability",
- 	    "customer_endpoint" : "https://example.com/customer",
- 	    "transfer_endpoint" : "https://example.com/transfer",
- 	    "transfer_status_endpoint" : "https://example.com/transfer/status",
+ 	    "account" : "https://example.com/account",
+ 	    "statement" : "https://example.com/account/statement",
+ 	    "statementlist" : "https://example.com/account/statements",
+ 	    "transaction" : "https://example.com/account/transaction/image",
+ 	    "transactionlist" : "https://example.com/account/transactions",
+ 	    "accountlist" : "https://example.com/accountlist",
+ 	    "accountdetails" : "https://example.com/accountdetail",
+ 	    "availability" : "https://example.com/availability",
+ 	    "capability" : "https://example.com/capability",
+ 	    "customer" : "https://example.com/customer",
+ 	    "transfer" : "https://example.com/transfer",
+ 	    "transferstatus" : "https://example.com/transfer/status",
  	}
 }
 ```
