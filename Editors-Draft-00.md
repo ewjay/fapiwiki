@@ -23,8 +23,12 @@ The main task of working group is to prepare Implementers Draft and Final Draft.
 
 Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. OIDF shall not be held responsible for identifying any or all such patent rights.
 
- Financial API consists of the following parts, under the general title Financial Services — Financial API:
+Financial API consists of the following parts, under the general title Financial Services — Financial API:
 
+* Part 1: Read Only APIs
+* Part 2: Read and write APIs
+
+This part is intended to be used with [RFC6749], [RFC6750], [RFC6736], and [OIDC]. 
 
 ##Introduction
 
