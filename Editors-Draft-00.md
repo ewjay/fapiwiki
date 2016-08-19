@@ -142,7 +142,6 @@ To request the authorization to acess the protected resource in question, the cl
 | Image          | Read only Access to transaction images (checks and receipts) | FinancialInformation |
 | Statement      | Read only Access to statement image                          | FinancialInformation |
 | Transaction    | Read only Access to transaction information                  | FinancialInformation |
-| Transfer       | Transfer of money between accounts                           | Transfer             |
 
 Table 1 - Financial API Scopes
 
