@@ -703,7 +703,7 @@ Content-Type: application/json; charset=utf-8
 {
   "_links": {
        "self": { "href": "/accountDescriptorList" },
-       "account": {
+       "fapi.account": {
           "href": "/accounts{?accountId}",
           "Authorize":"Bearer {access_token}",
           "Method":"POST", 
@@ -762,12 +762,12 @@ Content-Type: application/json; charset=utf-8
 {
   "_links": {
        "self": { "href": "/accounts/?accountId=1357902468" },
-       "statements": {
+       "fapi.statements": {
           "href": "/statements{?accountId,startTime,endTime}",
           "Authorize":"Bearer {access_token}",
           "Method":"POST", 
           "templated":true},
-       "transactions": {
+       "fapi.transactions": {
           "href": "/account/transactions"},
   }, 
   "DepositAccount" : {
@@ -812,7 +812,7 @@ Content-Type: application/json; charset=utf-8
 {
   "_links": {
        "self": { "href": "/accounts/statements?accountId=1357902468" },
-       "statement": {
+       "fapi.statement": {
           "href": "/statement/{?accountId,statementId}",
           "Authorize":"Bearer {access_token}",
           "Method":"POST", 
@@ -891,12 +891,12 @@ Content-Type: application/json; charset=utf-8
 {
   "_links": {
        "self": { "href": "/accounts/transactions?accountId=1357902468&startTime=2015-01-01Z&endTime=2015-02-01Z&page=1" },
-       "transaction": {
+       "fapi.transaction": {
           "href": "/transaction{?accountId,transactionId}",
           "Authorize":"Bearer {access_token}",
           "Method":"POST", 
           "templated":true}, 
-       "transactionImages": {
+       "fapi.transactionImages": {
           "href": "/transaction/images/{?accountId,transactionId}",
           "Authorize":"Bearer {access_token}",
           "Method":"POST", 
@@ -992,7 +992,7 @@ Content-Type: application/json; charset=utf-8
 {
   "_links": {
        "self": { "href": "/transfer" },
-       "transferStatus": {
+       "fapi.transferstatus": {
           "href": "/transfer/status{?transferId}",
           "Authorize":"Bearer {access_token}",
           "Method":"POST",
