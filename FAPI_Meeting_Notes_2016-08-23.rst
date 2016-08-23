@@ -11,6 +11,8 @@ Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
 .. contents:: Agenda
 
+The meeting was called to order at 23:05 UTC. 
+
 Roll Call
 =============
 * Bjorn, Nat, Edmund, Henrik, Sascha, John
@@ -18,10 +20,10 @@ Roll Call
 
 Adoption of the Agenda
 =========================
-* adopted. 
+* Agenda was adopted unanimously.  
 
-Updated Notes (2016-08-17)
-===============================
+Updates on Meeting Notes (2016-08-17) (Henrik)
+===================================================
 Henrik has sent text to update the section 4.4 of the last meeting note. 
 * Danish bank was changed to Dansk bank as it is confusing: it is a proper noun. 
 * Links to English documents etc. are also given. 
@@ -100,12 +102,18 @@ Action::
 
 AOB
 ========
-* Sascha asked if there is a meeting (sync opportunities with other WGs) before IIW. 
-    * John pointed out that there is one being worked out and John plans to be there. 
-    * Unfortunately, Nat nor Tony can be there as it collides with ISO meetings. 
-* John asked if there is a Pre-IETF meeting as well. 
-    * We could conceptually. 
-    * OIDF used to have a room in a pre-conference day. 
+
+Coming up events
+---------------------
+Sascha asked if there is a meeting (sync opportunities with other WGs) before IIW. 
+
+* John pointed out that there is one being worked out and John plans to be there. 
+* Unfortunately, Nat nor Tony can be there as it collides with ISO meetings. 
+
+John asked if there is a Pre-IETF meeting as well. 
+
+* We could conceptually. 
+* OIDF used to have a room in a pre-conference day. 
 
 Action::
 
@@ -115,3 +123,5 @@ Action::
 Next Call
 ----------
 * 2016-08-31 14:00 UTC (07:00 PDT, 16:00 Denmark, 23:00 JST) 
+
+The meeting adjourned at 23:25 UTC. 
