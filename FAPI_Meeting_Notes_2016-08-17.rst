@@ -115,22 +115,19 @@ Action::
     * Paul will make introduction to Janet. 
     * Nat to follow up from there. 
 
-Danish Bank
-------------
-Henrik is still waiting the response from Danish Bank, who is a member of OBDG. 
+4.4.   Danske Bank
+------------------------
+Henrik is still waiting the response from Danske Bank, who is a member of OBDG.
 
-Henrik then described the p2p, p2b payments in Denmark. 
+Henrik then described the p2p, p2b payments in Denmark.
 
-Currently banks use Mastercard, Visa etc. for the purpose of p2p and p2b payment and is costing them a lot. 
-Due to the financial authority's regulation, the amount possible to send are limited. 
-Use of National eID will raise the limit. 
+Danske Bank Mobilepay makes embedded use of Mastercard, Visa etc. for the purpose of p2p and p2b payment and it is costing them a lot in card handling fees. Hence they look forward to PSD2 account access. Mobilepay accounts that have not been validated using the Danish eID (NemID) are subject to transfer limitations determined by the banking authority. Once a user account has been validated by NemID these limits are increased.
 
-Danish banks wants to address these issues and for it, they need to find common API for direct payment. 
-e.g., Mobile Pay that everybody would be able to, and that meets the PSD2 requirements. 
+Some information in english on Danske Bank's Mobilepay is here:
+    * http://mobilepay.dk/da-dk/Pages/The-story-in-English.aspx 
+    * https://github.com/DanskeBank/MobilePay-AppSwitch-SDK
 
-Action::
-
-    Henrik will send some English documentations around it. 
+All the remaining 71 Danish bank corporations (i.e. everyone EXCEPT Danske Bank) have jointly developed an API for accessing user accounts at each other and market this solution under the common brand SWIPP. But it has been significantly outperformed by Mobilepay in terms of both users and transactions.
 
 Other action items
 --------------------
