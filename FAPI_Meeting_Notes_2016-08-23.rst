@@ -13,51 +13,72 @@ Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
 Roll Call
 =============
-* 
+* Bjorn, Nat, Edmund, Henrik, Sascha, John
+* Regrets from Anoop due to some health issue. WGs sends "get well soon" to him. 
 
 Adoption of the Agenda
 =========================
 * adopted. 
 
+Updated Notes (2016-08-17)
+===============================
+Henrik has sent text to update the section 4.4 of the last meeting note. 
+* Danish bank was changed to Dansk bank as it is confusing: it is a proper noun. 
+* Links to English documents etc. are also given. 
+
+WG members were encouraged to read the updated section 
+as it includes interesting information about Danish situation. 
+
 Error report coding (Sascha)
 ================================
-Unfortunately, Sascha had to drop off just before getting to this topic, 
-so we will cover it as the first item if Sascha is available. 
+Sascha reported he has just started writing the text 
+for Error report coding, which would 
+possibly be a new Clause 8. 
 
-Editor's Draft 00
+According to his survey, developers 
+do not want to give errors to customers, but still needs to 
+know what error has happened where so they prefer to 
+use error code and API ID. 
+This will helps debugging, especially on libraries. 
+
+Nat asked Sascha to keep updating the issue #26, 
+and make a pull request. 
+
+Action:: 
+
+    * Sascha to draft text, update the issue #26, make a pull request. 
+
+Editor's Draft 00 (Nat)
 =========================
 
 If nothing blocking happens, it is going to be uploaded in the main repo as the 1st WD. 
 
     ASK: Please start reviewing the document and file bugs/proposals in the issue tracker. 
 
-Action:: 
+Action::
 
-    Add line about device attestation to 5.2.2.
-
-Could John craft a sentence for it? 
+    John to add a line about device attestation to both 5.2.1 and 5.2.2.
 
 
-External Org Relationships
-=============================
+External Org Relationships (Nat)
+================================
 
 UK Groups 
 ------------------------------------
+* Waiting Dave to come back from his vacation. 
+* Asked Don to follow up already. 
+* Dansk Bank: Henrik got a couple of wrong redirects but now is close to getting to the correct person. Will see. 
 
 TC68
 -----
 Nat contacted Janet. Details being worked out. 
+Apparently we have to send liaison request to each subcommittees rather than just sending one to the TC. 
+As TC68 is re-organizing its subcommittees, it is a bit tricky but will do. 
 
 X9
 ------------
-Same as TC68. 
+Same contact as TC68. Following up with the process now. 
 
-Danish Bank
-------------
-
-Action::
-
-    Henrik will send some English documentations around it. 
 
 Other action items
 --------------------
@@ -70,15 +91,26 @@ New & Open Issues
 ======================
 * No new issues. 
 
-* Questions on DDA-Cusotmer-ID. 
-
 Action:: 
 
-     All members were asked to review issues on the tracker and comment if necessary. 
-
+     * All members were asked to review issues on the tracker and comment if necessary. 
+          * Sascha and John will review as named reviewer. 
+          * Others please review as well. 
+     * Questions on DDA-Cusotmer-ID. 
 
 AOB
 ========
+* Sascha asked if there is a meeting (sync opportunities with other WGs) before IIW. 
+    * John pointed out that there is one being worked out and John plans to be there. 
+    * Unfortunately, Nat nor Tony can be there as it collides with ISO meetings. 
+* John asked if there is a Pre-IETF meeting as well. 
+    * We could conceptually. 
+    * OIDF used to have a room in a pre-conference day. 
+
+Action::
+
+    * Nat will check with Marketing committee. 
+    * Develop a presentation for the occasion (not assigned yet.)
 
 Next Call
 ----------
