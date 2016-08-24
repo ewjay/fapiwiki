@@ -1,6 +1,6 @@
 # Welcome
 
-Welcome to OIDF FAPI wiki! 
+Welcome to the Official OIDF FAPI WG wiki! 
 
 ## Meeting Notes
 
