@@ -2,11 +2,6 @@
 Financial API (FAPI) Work Group Meeting Notes (2016-06-06)
 ==============================================================
 
-.. sectnum::
-   :suffix: .
-
-.. contents:: Agenda
-
 DATE: 2016-06-06 9:06AM - 9:50AM CDT 
 
 LOCATION: New Orleans Marriott 3rd floor + GoToMeeting. 
@@ -34,18 +29,47 @@ Attendees::
  	* Mike Leszcz - OIDF & OIX
 
 
+.. sectnum::
+   :suffix: .
+
+.. contents:: Agenda
+
 Nat Sakimura called the meeting to order at 9:06AM CST. 
 
 This was the inaugural OpenID Foundation Financial API (FAPI) Working
 Group meeting. 
 
 NOTE WELL – IPR AGREEMENT
+==========================
 
-Reason for the IPR Agreement - to make sure that the end specification
+Note well:: 
+
+    NOTICE: An OpenID IPR contribution agreement is not
+    mandatory in order to participate in this workshop. If
+    participants provide feedback, they (on behalf of
+    themselves and any organization they represent) are
+    deemed to agree that: Attendee gives the OIDF the right
+    to use their feedback and comments. Attendee grants to
+    the OpenID Foundation a perpetual, irrevocable, nonexclusive,
+    royalty-free, worldwide license, with the
+    right to directly and indirectly sublicense, to use,
+    copy, license, publish, and distribute and exploit the
+    Feedback in any way, and to prepare derivative works
+    that are based on or incorporate all or part of the
+    Feedback for the purpose of developing and promoting
+    OpenID Foundation specifications and enabling the
+    implementation of the same. Also, by giving Feedback,
+    attendee warrants that they have rights to provide this
+    feedback. Please note that feedback is not treated as
+    confidential and that OpenID Foundation is not required
+    to incorporate feedback into any version of an OIDF
+    specification.
+
+Nat explained the reason for having the IPR Agreement - to make sure that the end specification
 is completely open and not encumbered by patent protected contributions.
 
 
-ADOPTION OF CHARTER
+ADOPTION OF THE CHARTER
 =========================
 * Charter link- openid.net/wg/fapi
 * Nat reviewed the draft Charter.
@@ -57,9 +81,11 @@ The working group will schedule face-to-face meetings when convenient
 adjacent to other industry events.
 
 Nat opened the call to solicit any changes to the draft FAPI WG
-Charter
+Charter. There was none proposed. 
 
-Charter was adopted unanimously. 
+::
+
+    Charter was adopted unanimously. 
 
 SELECTION OF CHAIR
 =====================
@@ -68,15 +94,17 @@ Nat Sakimura is the acting working group chair.
 Tony Nadalin from Microsoft and Anoop Saxena from Inuit have indicated
 interest in being a co-chairs. 
 
-The FAPI Working Group unanimously selected Nat Sakimura (NRI), Tony
-Nadalin (Microsoft) and Anoop Saxena (Intuit) as co-chairs of the FAPI
-Working Group. 
+The FAPI Working Group unanimously selected::
+
+    Nat Sakimura (NRI), 
+    Tony Nadalin (Microsoft), and 
+    Anoop Saxena (Intuit) as co-chairs of the FAPI WG. 
 
 MEETING SCHEDULE
 =====================
 Global participation creates meeting scheduling issues. 
 
-Alternating working group call schedule: 
+Alternating working group call schedule was proposed: 
 
 * (2) calls a month.
 * (1) US/AsiaPac time and (1) US/EU time.
@@ -84,7 +112,8 @@ Alternating working group call schedule:
 The FAPI Working Group meeting schedule to be posted to the working
 group webpage. 
 
-Exact schedule is to be worked out in the mailing list. 
+Action:: 
+    Exact schedule is to be worked out in the mailing list. 
 
 SPEC DEVELOPMENT STRATEGY
 ==============================
@@ -92,39 +121,37 @@ SPEC DEVELOPMENT STRATEGY
 Roadmap
 ------------
 
-	* Nat proposed that the WG should consider the UK Open Banking Standard
-(OBS) schedule as it relates to the FAPI WG spec development. The
-release dates proposed by OBS are: 
+Nat proposed that the WG should consider the UK Open Banking Standard (OBS) schedule as it relates to the FAPI WG spec development. The release dates proposed by OBS are: 
 
- 	* Release 1 - January 2017
- 	* Release 2 - March 2017
- 	* Release 3 - March 2018
- 	* Release 4 - March 2019
- 	* FAPI WG should beat the deadline enough to be adopted there.
+* Release 1 - January 2017
+* Release 2 - March 2017
+* Release 3 - March 2018
+* Release 4 - March 2019
+
+Action:: 
+
+    FAPI WG should beat the deadline enough to be adopted there.
 
 Spec Format
 -----------------
-* The Open Banking Standard suggests HAL, Swagger, and RAML.
+The Open Banking Standard suggests HAL, Swagger, and RAML.
 
-* Nat recommended HAL for defining the interaction between endpoints,
-  and Swagger for defining the interaction to an endpoint, for now. 
-    * Swagger: http://swagger.io 
-    * HAL: http://stateless.co/hal_specification.html 
-    * While historically we have been using IETF language, since we need
-      to consider this to be submit to ISO/TC68 at a later date, it would be
-      better to use ISO language described at http://isotc.iso.org/livelink/livelink?func=ll&objId=4230456&objAction=browse&sort=subtype
+Nat recommended HAL for defining the interaction between endpoints,
+and Swagger for defining the interaction to an endpoint, for now. 
+
+* Swagger: http://swagger.io 
+* HAL: http://stateless.co/hal_specification.html
 
 Spec Language
 ------------------
-
 Nat suggested that as the FAPI WG may wish to submit the spec to ISO/TC 68 as: 
 
 * ISO/TC68 is the maintainer of ISO 20022 Payment message catalogue.
  	* https://www.iso20022.org 
 
-the WG may want to use ISO language (shall, should, may, etc.) 
-as defined by the ISO Directive Part 2 
-rather than the IETF language ( RFC 2119 ). 
+While historically we have been using IETF language, since we need
+to consider this to be submit to ISO/TC68 at a later date, it would be
+better to use ISO language described at http://isotc.iso.org/livelink/livelink?func=ll&objId=4230456&objAction=browse&sort=subtype
 
 WG unanimously agreed on it. 
 
