@@ -54,6 +54,8 @@ Other action items
 Working Draft 01
 ===================
 
+* `WD1 Financial Services – Financial API - Part 1: Read Only APIs <https://bitbucket.org/openid/fapi/src/ec8fde27efc98db7e9cd3e2a7c9d3afcd5aba01c/Financial_API_WD_001.md?at=master&fileviewer=file-view-default>`_
+
 WD Structure (Nat)
 ----------------------
 Open Data (Nat --> Dave)
