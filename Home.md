@@ -9,6 +9,7 @@ Welcome to the Official OIDF FAPI WG wiki!
 * [[FAPI_Meeting_Notes_2016-08-09]]
 * [[FAPI_Meeting_Notes_2016-08-17]]
 * [[FAPI_Meeting_Notes_2016-08-23]]
+* [[FAPI_Meeting_Notes_2016-08-31]]
 
 ## Pre-working draft copy (Editor's Draft)
 
