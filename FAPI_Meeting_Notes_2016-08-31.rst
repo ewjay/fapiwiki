@@ -15,8 +15,8 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 =============
-* 
-* Regrets from  
+* Nat, Dave, Edmund, Sascha, ...
+* Regrets from Luis 
 
 Adoption of the Agenda
 =========================
