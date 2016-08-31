@@ -15,35 +15,71 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 =============
-* Nat, Dave, Edmund, Sascha, ...
-* Regrets from Luis 
+* Nat Sakimura, Dave Tonge, Brian J. Costello, Sascha Preibisch, Anton Tabrosky, Henrik Biering, Tony Nadalin ...
+* Regrets from Luis Saiz
 
 Adoption of the Agenda
 =========================
-* 
+* Agenda was adopted unchanged. 
 
 
 Error report coding (Sascha)
 ================================
-
+* Sacha reported the error report coding scheme using numbers. 
+* The draft is available to see in the repo as a new branch: issues/26
+* Dave asked if there is structure, and Sascha replied that it is using CA scheme and yes. 
 
 External Org Relationships 
 =============================
 
 UK Groups (Dave)
 ------------------------------------
+OBDG early stage
+Legal mandates implementation entity by CMA. 
+Open and common API standards. 
+Started to have meetings - stakeholder steering meeting next week. 
+
+Dave to be liaison officer to it. 
+
+Dansk Bank - Norther Ireland. Contacted Vice president of the bank. 
+
+Dave was elected as the liaison officer to the Implementation entity. 
+He will lead crafting the liaison letter, working with Board's liaison committee. 
+
+action:: 
+
+    Dave to craft the liaison letter and send it to LC via Nat. 
+     
 
 EBA (Dave)
 -------------------
+Draft regulatory technical standards - API access required not by screen scraping. 
+They have not mandated a specific standard, though ref. ISO 20022. 
+
+WG should respond to EBA Consultation. 
+
+Yodlee data.gov.uk Fintech . Responsible screen scraping should not be prohibited as a fall back. 
+
+Probably no need to mention screen scraping in the response. 
+
+EBA text confusing authentication and authorization. 
+Clarification good. 
+
+Deadline: Oct. 14. 
+
+Need team to write response:: 
+
+    Leader: 
 
 TC68 (Nat)
----------------
+------------
 
 X9 (Nat)
 ------------
 
 Dansk Bank (Henrik)
 ----------------------------
+* Will wait until LS in place. 
 
 Other action items
 --------------------
@@ -58,8 +94,12 @@ Working Draft 01
 
 WD Structure (Nat)
 ----------------------
+
 Open Data (Nat --> Dave)
 ------------------------------
+
+Maybe need to look at W3C web credential specs? 
+
 
 New & Open Issues (Nat)
 =========================
