@@ -125,14 +125,22 @@ It was also pointed out that maybe we need to look at W3C web credential specs.
 
 New & Open Issues (Nat)
 =========================
-*  
+* issue #28 - International names for retirement savings account names
+
+Dave presented the issue. The WG agreed to the needs. 
+Nat commented that at the end of the day, we probably need to 
+have country specific instruments but it would be good to have 
+the "class" that encompasses them. 
 
 Action:: 
 
+
+     * Concrete proposal to fix #28 needed. 
      * All members were asked to review issues on the tracker and comment if necessary. 
           * Sascha and John will review as named reviewer. 
           * Others please review as well. 
      * Questions on DDA-Cusotmer-ID. 
+
 
 AOB
 ========
