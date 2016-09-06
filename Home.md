@@ -2,6 +2,10 @@
 
 Welcome to the Official OIDF FAPI WG wiki! 
 
+## Current Working Draft
+
+* 1st WD for Part 1: Read Only APIs
+
 ## Meeting Notes
 
 * [[FAPI_Meeting_Notes_2016-06-06]] <--- **Inauguration Meeting of the FAPI WG** 
@@ -10,6 +14,7 @@ Welcome to the Official OIDF FAPI WG wiki!
 * [[FAPI_Meeting_Notes_2016-08-17]]
 * [[FAPI_Meeting_Notes_2016-08-23]]
 * [[FAPI_Meeting_Notes_2016-08-31]]
+* [[FAPI_Meeting_Notes_2016-09-06]]
 
 ## Pre-working draft copy (Editor's Draft)
 
