@@ -15,15 +15,12 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 =============
-* 
+* Present: John, Nat, Edmund, Brian
+* Regrets: Sascha
 
 Adoption of the Agenda
 =========================
 * Agenda was adopted unchanged. 
-
-
-Error report coding (Sascha)
-================================
 
 External Org Relationships 
 =============================
@@ -36,6 +33,7 @@ EBA (Dave)
 
 TC68, X9 (Nat)
 ----------------
+* 
 
 Other action items
 --------------------
@@ -50,13 +48,13 @@ Working Draft 01
 
 Open Data and DDA
 ------------------------------
+* Why DDA? 
 
 New & Open Issues (Nat)
 =========================
 * No new issues
 
 Action:: 
-
 
      * Concrete proposal to fix #28 needed. 
      * All members were asked to review issues on the tracker and comment if necessary. 
@@ -78,12 +76,19 @@ Pre-IETF
 
 AOB
 ========
+* Federal Reserve of Minesota govners active : fintech , agregation, non-depository charter OCC 
+* internal position developping. 
+* W3C web authenticataion wg. 
+* FDIC subcommittee tech. 
+* prudential regulation - level safety soundness stability. 
+* OCC published report on innovation (june) perhaps this one. 
+
 
 
 
 Next Call
 ----------
-* 2016-09-13 4:00 UTC
+* 2016-09-13 14:00 UTC
       (07:00 PDT, 16:00 Denmark, 23:00 JST)
 
 The meeting adjourned at  UTC
