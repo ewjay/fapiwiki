@@ -21,7 +21,8 @@ Roll Call
 Adoption of the Agenda
 =========================
 * As Sascha sent regrets, and it is a late night shift for Europe, 
-  we decided to skip Error coding and detailed Europe related updates. 
+  we decided to skip Error coding and detailed Europe related updates 
+  and adopted the agenda as above. 
 
 External Org Relationships 
 =============================
