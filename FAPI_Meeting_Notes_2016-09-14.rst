@@ -32,9 +32,11 @@ UK Implementation Entity (Dave)
 * Payments UK technical people. Talked about expertiese that FAPI wg can offer. received greatfully. 
 * Another meeting: for Data, more on higher level, at the type of data required for OB. 
 * Informally accepted the liaison request. 
-* Time.
+* Time is important. Maybe we can split the security section and make it reference-able. 
 
-Split up the security section and expedite it? 
+Action:: 
+
+    Nat to send proposal for the split to the list. 
 
 
 Federal Reserve of Minnesota (John)
@@ -46,9 +48,6 @@ EBA Consultation (Dave)
 ----------------------------
 * Dave sent a draft just before the call. 
 
-X9 (Paul?)
-----------------
-* 
 
 Actions::
     
@@ -57,16 +56,22 @@ Actions::
 
 Branch issue/26 Error messages (Sascha)
 =============================================
+Sascha reported the current state of the issue/26 branch. 
+It now has two chapters. People are encouraged to read it and give feedback. 
 
 Working Draft 01
 ===================
 
 * `WD1 Financial Services – Financial API - Part 1: Read Only APIs <https://bitbucket.org/openid/fapi/src/ec8fde27efc98db7e9cd3e2a7c9d3afcd5aba01c/Financial_API_WD_001.md?at=master&fileviewer=file-view-default>`_   
 
-Review Results (John, Brian)
+Review Results (John)
 --------------------------------
-* John mainly on section 5 and 6
-* Brian
+* John mainly on section 5 and 6: Not yet done. He will try to do it today and send it to the list. 
+* See also #16 below. 
+
+Action:: 
+
+    John to review and send the result to the list. 
 
 
 Issues 
@@ -74,20 +79,31 @@ Issues
 
 #7 Open Data (Dave)
 --------------------
+* issue #7
+
+Dave is going through the schema and taxonomy to see if it can be generalized. 
+It will be done in conjunction with #28. 
 
 #16 Client Authentication -- Do we need TLS mutual authentication? (Nat)
 ---------------------------------------------------------------------------
-* Mutual Auth TLS profile
-* Client auth JWT (secret, private key). 
+* issue #16
+* Mutual Auth TLS profile not defined anywhere for token endpoint. We probably need to do ourselves. 
+* Client auth JWT (secret, private key) can also be used, so it is either of them. 
+* We probably should not allow Basic auth. 
+* John volunteered to craft text. 
+
+Action:: 
+
+    John to come up with the additional text to be applied and do a pull request. 
 
 
 #28 International names for retirement savings account names (Dave/Nat)
 -----------------------------------------------------------------------------
-* looking through taxonomy 
+* issue #28
+* Dave is looking through taxonomy and it should be solved together with Open Data. 
 
 Action:: 
 
-     * Concrete proposal to fix #28 needed. 
      * All members were asked to review issues on the tracker and comment if necessary. 
           * Sascha and John will review as named reviewer. 
           * Others please review as well. 
@@ -97,8 +113,8 @@ Events
 =============
 Pre-IIW (John)
 ----------------
-* Oct. 
-* Location fixed. 
+* Location fixed. We will have time allocated. Likely to be 20 min. 
+* Sascha is in the process of preparing a presentation. It should be ready for review in two weeks. 
 
 Action::
 
@@ -106,6 +122,12 @@ Action::
 
 Pre-IETF (Nat)
 -----------------
+* Nat is yet to call his colleagues in Korea. He will try to do it tomorrow. 
+
+Action::
+
+    * Nat will get in touch with them and get back to the list. 
+
 
 AOB
 ========
