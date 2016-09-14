@@ -11,29 +11,40 @@ Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
 .. contents:: Agenda
 
-The meeting was called to order at 23:05 UTC. 
+The meeting was called to order at 14:05 UTC. 
 
 Roll Call
 =============
-* Present: 
-* Regrets: 
+* Present: Bjorn, Nat, Dave, Henrik, Sascha, Anton, John, Nov
 
 Adoption of the Agenda
 =========================
-* 
+* Adopted as is. 
 
 External Org Relationships 
 =============================
 
 UK Implementation Entity (Dave)
 -------------------------------
-* 
+* Attended stakeholder meeting. Not technical but road map, as liaison. 
+* CMA Implementation trustee. should happen in next couple of weeks. 
+* Hard deadline of Jan 2018 for top 9 banks in UK, as in PSD2. 
+* Payments UK technical people. Talked about expertiese that FAPI wg can offer. received greatfully. 
+* Another meeting: for Data, more on higher level, at the type of data required for OB. 
+* Informally accepted the liaison request. 
+* Time.
+
+Split up the security section and expedite it? 
+
 
 Federal Reserve of Minnesota (John)
 ---------------------------------------
+* Doing research part of ANSI group. Paul Grassi. Encouraged to join here. 
+* 
 
-ECB Consultation (Dave)
+EBA Consultation (Dave)
 ----------------------------
+* Dave sent a draft just before the call. 
 
 X9 (Paul?)
 ----------------
@@ -66,10 +77,13 @@ Issues
 
 #16 Client Authentication -- Do we need TLS mutual authentication? (Nat)
 ---------------------------------------------------------------------------
+* Mutual Auth TLS profile
+* Client auth JWT (secret, private key). 
+
 
 #28 International names for retirement savings account names (Dave/Nat)
 -----------------------------------------------------------------------------
-
+* looking through taxonomy 
 
 Action:: 
 
@@ -83,22 +97,23 @@ Events
 =============
 Pre-IIW (John)
 ----------------
- 
+* Oct. 
+* Location fixed. 
 
 Action::
 
-    * Develop a presentation for the occasion (Lead by Sascha)
+    * Develop a presentation for the occasion (Lead by Sascha) in two weeks. 
 
 Pre-IETF (Nat)
 -----------------
 
 AOB
 ========
-
+none. 
 
 Next Call
 ----------
 * 2016-09-20 23:00 UTC
      (16:00 PDT, 01:00+1d Denmark, 08:00+1d JST) 
 
-The meeting adjourned at ______ UTC
+The meeting adjourned at 14:50 UTC
