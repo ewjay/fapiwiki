@@ -17,6 +17,7 @@ Roll Call
 =============
 * Present: 
 * Regrets: Sascha
+* Guest: 
 
 Adoption of the Agenda
 =========================
@@ -41,6 +42,7 @@ Actions::
     
     * Nat to draft liaison requests
     * Anoop to follow up with Intuit UK Team (Next week) 
+
 
 Working Draft 01
 ===================
