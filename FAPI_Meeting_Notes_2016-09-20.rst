@@ -34,7 +34,7 @@ Federal Reserve of Minnesota (John)
 
 EBA Consultation (Dave)
 ----------------------------
-* Dave sent a draft just before the call. 
+* Dave has started the draft at https://docs.google.com/document/d/1V3q1avS1zO2n2YaB-Y2Z1Vf6j-DrE7OwiISRuRpvs24/edit
 
 
 Actions::
@@ -62,12 +62,14 @@ Issues
 #29 Draft Split (Nat)
 --------------------
 * issue #29
+* Per the result of the Atlantic call last week, the split of the draft is suggested as recorded in #29. 
 
 #16 Client Authentication (John)
 ----------------------------------------
 * issue #16
 * Mutual Auth TLS profile not defined anywhere for token endpoint. We probably need to do ourselves. 
 * Client auth JWT (secret, private key) can also be used, so it is either of them. 
+   * Nat has suggested a text for this bit on #16. 
 * We probably should not allow Basic auth. 
 * John volunteered to craft text. 
 
@@ -88,12 +90,22 @@ Action::
           * Others please review as well. 
      * Questions on DDA-Cusotmer-ID. 
 
+#30 Hanging Paragraph in 5.2 (Nat)
+-----------------------------------
+* issue #30 : Editorial
+* disposition suggested in the ticket. 
+
+#31 5.2 - te - More fine grained scope needed
+------------------------------------------------
+* issue #31 : technical
+* Currently we have only one scope `FinancialInformation`. Perhaps we need more fine grained ones? 
+
 Events
 =============
 Pre-IIW (John)
 ----------------
 * Location fixed. We will have time allocated. Likely to be 20 min. 
-* Sascha is in the process of preparing a presentation. It should be ready for review in two weeks. 
+* Sascha is in the process of preparing a presentation. It should be ready for review next week. 
 
 Action::
 
@@ -101,7 +113,7 @@ Action::
 
 Pre-IETF (Nat)
 -----------------
-* Nat is yet to call his colleagues in Korea. He will try to do it tomorrow. 
+* Not yet. 
 
 Action::
 
@@ -110,7 +122,10 @@ Action::
 
 AOB
 ========
-none. 
+
+InvestmentAccout questions
+------------------------------
+* NRI's team is reviewing it, and feels that it may need a bit of refactoring. Will report on the analysis next week. 
 
 Next Call
 ----------
