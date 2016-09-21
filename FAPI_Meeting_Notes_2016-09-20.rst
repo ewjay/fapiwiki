@@ -15,34 +15,45 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 =============
-* Present: 
+* Present: Nat, John, Dave, Edmund, Henrik, Anoop, Ryan
 * Regrets: Sascha
-* Guest: 
+* Guest: Eric Plaad. 
 
 Adoption of the Agenda
 =========================
-* 
+* OIX added. 
 
 External Org Relationships 
 =============================
 
 UK Implementation Entity (Dave)
 -------------------------------
-
-Federal Reserve of Minnesota (John)
----------------------------------------
-* Doing research part of ANSI group. Paul Grassi. Encouraged to join here. 
+* http://fdata.org.uk/ : main voice of fintech community. IE is top 9 banks. 
+* meeting yesterday. WG on security, standard, data, infrastructure. 
+* presented. Continue to update the 
+* Cabinet Office and eIDAS. 
 
 EBA Consultation (Dave)
 ----------------------------
 * Dave has started the draft at https://docs.google.com/document/d/1V3q1avS1zO2n2YaB-Y2Z1Vf6j-DrE7OwiISRuRpvs24/edit
+* 
+
+Federal Reserve of Minnesota (John)
+---------------------------------------
+* Doing research part of ANSI group. Paul Grassi. Encouraged to join here. 
 
 
 Actions::
     
     * Nat to draft liaison requests
     * Anoop to follow up with Intuit UK Team (Next week) 
-
+    
+OFX (Anoop)
+-------------
+* Can we update OFX
+* chase bank 6 months
+* token can be any token. 
+* http://ofx.net/downloads.html
 
 Working Draft 01
 ===================
@@ -101,13 +112,16 @@ Action::
 ------------------------------------------------
 * issue #31 : technical
 * Currently we have only one scope `FinancialInformation`. Perhaps we need more fine grained ones? 
+* balance and transactions are different. 
 
 Events
 =============
 Pre-IIW (John)
 ----------------
-* Location fixed. We will have time allocated. Likely to be 20 min. 
+* Location fixed (VM Ware). We will have time allocated. Likely to be 20 min. 
 * Sascha is in the process of preparing a presentation. It should be ready for review next week. 
+* John will see Don tomorrow to ask for the est. of time. 
+
 
 Action::
 
@@ -128,6 +142,12 @@ AOB
 InvestmentAccout questions
 ------------------------------
 * NRI's team is reviewing it, and feels that it may need a bit of refactoring. Will report on the analysis next week. 
+
+New use cases in implementing DDAs. 
+
+Banks want to pull data from 3rd party systems. 
+What happens one of the system is down. 
+Temporarly error. 
 
 Next Call
 ----------
