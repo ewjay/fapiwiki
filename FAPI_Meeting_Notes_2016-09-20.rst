@@ -192,17 +192,13 @@ AOB
 
 How to communicate back the partial errors to the client (Anoop) 
 -------------------------------------------------------------------
-While implementing DDA, Anoop et al. came across a new use case. 
-Sometimes, when banks are returning data, some of the sub-system 
-may not be available temporarily and results in partial results. 
-For example, the Bank's credit card system may be on maintenance mode 
-and the bank may not be able to return data on credit card 
-while it can return everything else. It is just a temporary error. 
-We have not defined anything on this. 
-Bank needs to communicate it back to the client. e.g., 
-yesterday I returned 5 accounts but today I am returning only 3. 
-Hoever do note delete the 2 as it is only temporarily unavailable. 
-When we come back, I might be able to return them. 
+While implementing DDA, Anoop et al. came across a new use case.
+
+Sometimes, when banks are returning data, some of the sub-system may not be available temporarily and results in partial results. 
+
+For example, the Bank's credit card system may be on maintenance mode and the bank may not be able to return data on credit card while it can return everything else. It is just a temporary error. 
+
+We have not defined anything on this. Bank needs to communicate it back to the client. e.g., yesterday I returned 5 accounts but today I am returning only 3. However do not delete the 2 as it is only temporarily unavailable. When we come back, I might be able to return them.
 
 Anoop can come up with suggested text. 
 
