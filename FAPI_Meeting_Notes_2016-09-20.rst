@@ -216,4 +216,4 @@ Next Call
 * 2016-09-28 14:00 UTC
     (07:00 PDT, 15:00 UK, 16:00 Denmark, 23:00 JST)
 
-The meeting adjourned at  UTC
+The meeting adjourned at 23:55 UTC.
