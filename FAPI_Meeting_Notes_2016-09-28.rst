@@ -15,28 +15,34 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 =============
-* Present: 
+* Present: Nat, Dave, Sascha, Anton
 * Regrets: Anoop, John
-* Guest: 
 
 Adoption of the Agenda (Nat)
 ===============================
-* 
+* Added Branch issue/26
 
 Pacific Call Report (Nat)
 ===============================
+* Nat briefly explained the outcome of the last week's Pacific call 
+  which is recorded at [[FAPI_Meeting_Notes_2016-09-20]]
 
 External Org Relationships 
 =============================
 
 UK Implementation Entity (Dave)
 -------------------------------
-
+* They have not appointed IE trustee yet. 
+* Also, Security WG, Data WG, which are in the formation. 
+* Because of it, they cannot yet formalize the relationship but they are working towards it. 
+* Dave expects that it will be done in next week or two. 
 
 EBA Consultation (Dave)
 ----------------------------
 * Dave has started the draft at https://docs.google.com/document/d/1V3q1avS1zO2n2YaB-Y2Z1Vf6j-DrE7OwiISRuRpvs24/edit
-
+* Nearly done the first draft
+* Q7 and Q4
+* Dave will send the draft and questions to the WG at the close of the day UK. 
 
 Action:: 
 
@@ -46,22 +52,41 @@ Action::
     
 OFX (Nat)
 --------------------
-
+* Nat reported to the group that OFX and OIDF started to hold quasi-regular meeting to discuss their alignment. 
+* Nat told them that it would be good at least to have the same OAuth profile. 
+* Dave pointed out that even if the data schemas are different, having the uniform Authorization and security 
+  profile is worthwhile and that is one of the reason for the split of the drafts. 
+* Don, the ED of OIDF, will have the F2F meeting with them on Oct. 28. 
 
 FIGO API (Anton)
 -------------------
-* http://docs.figo.io/
- 
+* FIGO is a German based fintech company offering banking services provider. 
+* Offers APIs for certain banking activities, account overview, transaction history, etc. 
+* API documentation: http://docs.figo.io/
+* The group discussed on whether we should start talking to them. 
+* Nat, as an expert, expressed that it is better to involve relevant parties so it would be good to talk to them. 
+  There are other parties that we also want to talk to, such as Open Banking Project. 
+* The group decided to take it to the list to find out how we should approach it. 
 
 Working Draft 01
 ===================
 
 * `WD1 Financial Services – Financial API - Part 1: Read Only APIs <https://bitbucket.org/openid/fapi/src/ec8fde27efc98db7e9cd3e2a7c9d3afcd5aba01c/Financial_API_WD_001.md?at=master&fileviewer=file-view-default>`_   
 
-Review Results (Nat)
+Security Review Results (Nat)
 --------------------------------
-* issue #33
+* John and Nat had a call earlier today to discuss about section 5 and 6. 
+* The result is recorded in issue #33. 
+* Nat briefly explained the result. 
+* Sascha pointed out that 15 seconds for the `code` validity could be too short for some clients, especially mobile, 
+  that he things 60 seconds are more appropriate. 
+* Sascha is going to add comments to the ticket. 
 
+
+Branch Issue/26 (Sascha)
+------------------------------
+* Error code section is more-or-less complete and Sascha created the pull request, 
+  which Nat accepted and merged to the master. 
 
 Issues 
 =========================
@@ -69,26 +94,26 @@ Issues
 #32: How to communicate back the partial errors to the client (Nat)
 ----------------------------------------------------------------------------
 # issue #32
+* Sascha pointed out that it is not "error". It is the normal case, and 
+  it should be handled accordingly. He will update the ticket with his comments. 
 
 #28 International names for retirement savings account names (Dave/Nat)
 -----------------------------------------------------------------------------
 * issue #28
-* Dave pointed out that this is a tricky area where we have to cover vast array of products. 
-   * e.g., while trying to come up with a strawman Dave started wondering whether it would make sense to have 
-     interest in a single field as they now seem to depends on the account balance. 
-* Nat pointed out that it is easier with the concrete account data as it can talk about the "currently applicable interest rate" but when it comes to "open data", it would be difficult. 
-* NRI's team is also looking through the investment account data and they started feeling that some refactoring is needed. 
-* Nat wanted to have a separate call for DDA-Customer-ID with Anoop. 
+* no update this week as Dave was busy preparing for EBA consultation and Nat's 
+  team member fell sick and could not update him yesterday. 
 
-#30 Hanging Paragraph in 5.2 (Nat)
------------------------------------
-* issue #30 : Editorial
-* disposition suggested in the ticket. 
 
 #31 5.2 - te - More fine grained scope needed (Nat)
 ----------------------------------------------------
-* issue #31 : technical
+* issue #31 
 
+Callers discussed it briefly on it. 
+Sacha pointed out that users would certainly want to know whether the client is doing read only or write. 
+Callers agreed. 
+Dave pointed out that some people say that the scope should be URI while they use just strings. 
+Nat pointed out that strings are fine, and the problem with the scope is its unstructured nature. 
+People agreed to update the issue ticket with their comments/ideas. 
 
 Events
 =============
@@ -104,21 +129,14 @@ Action::
 
 Pre-IETF (Nat)
 -----------------
-* Not yet. 
-
-Action::
-
-    * Nat will get in touch with them and get back to the list. 
-
+* Nat has just started contacting them. Still working on what is possible. 
 
 AOB
 ========
 
-
-
 Next Call
 ----------
-* 2016-09-28 14:00 UTC
-    (07:00 PDT, 15:00 UK, 16:00 Denmark, 23:00 JST)
+* 2016-10-04 23:00 UTC
+    (16:00 PDT, 00:00+1 UK, 01:00+1 Denmark, 08:00+1 JST)
 
-The meeting adjourned at 23:55 UTC.
+The meeting adjourned at 14:59 UTC.
