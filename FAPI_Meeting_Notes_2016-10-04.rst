@@ -64,30 +64,26 @@ Issues
 #7 Add "Open Data" data set (Dave/Anoop)
 ----------------------------------------------
 * issue #7
-* Dave suggested to consider normalising the `Category`, `Family`, 
-  and `SuperFamily` with the `AccountType` and `AssetClass` from the DDA.
-
-
-#22 Replace `user_id` in DDA with `id_token` and put a NOTE (Nat/Anoop)
--------------------------------------------------------------------------
-* issue #22
+* Anoop asked for some use cases. Nat agreed to add some to the ticket. 
+* Also, Nat pointed out that the current draft already has some, e.g., ATMs. 
 
 #32: How to communicate back the partial errors to the client (Nat)
 ----------------------------------------------------------------------------
 # issue #32
-* Sascha pointed out that it is not "error". It is the normal case, and 
-  it should be handled accordingly. He will update the ticket with his comments. 
-
-#28 International names for retirement savings account names (Dave/Nat)
------------------------------------------------------------------------------
-* issue #28
-* no update this week as Dave was busy preparing for EBA consultation and Nat's 
-  team member fell sick and could not update him yesterday. 
+* Anoop added a suggested solution. 
+* Edmund will check if it can be expressed in Swagger. 
 
 
 #31 5.2 - te - More fine grained scope needed (Nat)
 ----------------------------------------------------
 * issue #31 
+* CRUD x Resource seems to be a good way to go. 
+
+#33: John's Security Section Review Result (Nat)
+---------------------------------------------------
+* issue #33
+* WG agreed that `code` validity to be 60 seconds. 
+* If `code` is PKCE bound, that limit is not needed. 
 
 Events
 =============
