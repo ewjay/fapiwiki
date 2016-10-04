@@ -15,8 +15,8 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 =============
-* Present: Nat, Dave, Sascha, Anton
-* Regrets: Anoop, John, Henrik
+* Present: John, Nat, Edmund, Eric, Bjorn
+* Regrets: Dave, Anton, Sascha
 
 Adoption of the Agenda (Nat)
 ===============================
@@ -29,6 +29,9 @@ Atlantic Call Report (Nat)
 
 External Org Relationships 
 =============================
+
+X9 (Nat)
+---------
 
 UK Implementation Entity (Dave)
 -------------------------------
