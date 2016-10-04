@@ -20,7 +20,7 @@ Roll Call
 
 Adoption of the Agenda (Nat)
 ===============================
-* Added Branch issue/26
+* 
 
 Atlantic Call Report (Nat)
 ===============================
