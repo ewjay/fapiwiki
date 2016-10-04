@@ -15,7 +15,7 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 =============
-* Present: John, Nat, Edmund, Eric, Bjorn
+* Present: John, Nat, Edmund, Eric, Bjorn, Henrik, Anoop
 * Regrets: Dave, Anton, Sascha
 
 Adoption of the Agenda (Nat)
@@ -32,13 +32,11 @@ External Org Relationships
 
 X9 (Nat)
 ---------
+* We re
 
 UK Implementation Entity (Dave)
 -------------------------------
-* They have not appointed IE trustee yet. 
-* Also, Security WG, Data WG, which are in the formation. 
-* Because of it, they cannot yet formalize the relationship but they are working towards it. 
-* Dave expects that it will be done in next week or two. 
+* 
 
 EBA Consultation (Dave)
 ----------------------------
@@ -69,12 +67,6 @@ Issues
 * Dave suggested to consider normalising the `Category`, `Family`, 
   and `SuperFamily` with the `AccountType` and `AssetClass` from the DDA.
 
-#20 Surrogate Identifier (Nat/Anoop)
---------------------------------------------
-* issue #20
-* Surrogate identifier is `user_id`, which is a user identifier 
-  but not user account number etc. It is `sub` in ID Token. 
-* Suggests closing this ticket and continue tracking with #22. 
 
 #22 Replace `user_id` in DDA with `id_token` and put a NOTE (Nat/Anoop)
 -------------------------------------------------------------------------
@@ -101,17 +93,12 @@ Events
 =============
 Pre-IIW (John)
 ----------------
-* Location fixed (VM Ware). We will have time allocated. Likely to be 20 min. 
-* Sascha is in the process of preparing a presentation. It should be ready for review next week. 
-* John will see Don tomorrow to ask for the est. of time and agenda. 
-
-Action::
-
-    * Develop a presentation for the occasion (Lead by Sascha) in two weeks. 
+* Sascha is developing a presentation and will be able to send the draft by the weekend.
+* WG is asked to review it ASAP once received it.  
 
 Pre-IETF (Nat)
 -----------------
-* Nat has just started contacting them. Still working on what is possible. 
+* Nat is going to create a ticket. Please add what you would like to talk about in it. 
 
 AOB
 ========
