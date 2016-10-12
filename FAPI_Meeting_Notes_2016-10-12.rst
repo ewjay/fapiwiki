@@ -15,12 +15,13 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 =============
-* Present: 
-* Regrets: 
+* Present: Dave, Nat, Sascha, Henrik, Anton, John
+* Regrets: Anoop
 
 Adoption of the Agenda (Nat)
 ===============================
-* 
+* Pre-IIW switched from John to Sascha for IIW presentation review. 
+* API Days added. 
 
 Pacific Call Report (Nat)
 ===============================
@@ -32,18 +33,21 @@ External Org Relationships
 
 EBA Consultation (Dave)
 ----------------------------
-* Draft resposne at https://docs.google.com/document/d/1V3q1avS1zO2n2YaB-Y2Z1Vf6j-DrE7OwiISRuRpvs24/edit
-
+* Draft response at https://docs.google.com/document/d/1V3q1avS1zO2n2YaB-Y2Z1Vf6j-DrE7OwiISRuRpvs24/edit
+* 
 
 UK Implementation Entity (Dave)
 -------------------------------
-* 
+* They have appointed trustee but not yet announced. 
 
 Others
 ----------------
-* OFX
-* FIGO: http://docs.figo.io/
+* OFX: 
+* FIGO: http://docs.figo.io/ (Anton) 
+  * Anton to get in touch with FIGO. 
 * Apigee: https://openbank.apigee.com/home
+  * Dave will get in touch with Apigee, who is in the API Days conference today. 
+  * Nat and John will try to get in touch with them as well. 
 
 
 Working Draft 01
@@ -54,6 +58,9 @@ Working Draft 01
 Client Certs Authentication Draft (John)
 --------------------------------------------
 * issue #16: Client Authentication -- Do we need TLS mutual authentication?
+* https://datatracker.ietf.org/doc/draft-campbell-oauth-tls-client-auth/
+* Registering the discovery endpoint probably is a good reason for it to get it done. 
+* Please comment. 
 
 2nd WD Roadmap (Nat)
 ------------------------------
@@ -69,19 +76,22 @@ Issues
 #32: How to communicate back the partial errors to the client (Nat)
 ----------------------------------------------------------------------------
 * issue #32
+* Sascha explained his rationale for not returning errors but just explanation. 
+* We need the lists of AccountStatus Codes. 
 
 #31 5.2 - te - More fine grained scope needed (Nat)
 ----------------------------------------------------
 * issue #31 
+* Scopes to be moved to the API sections. 
 
 #12: redirect URI for Clients with session comparison (Sascha)
 -------------------------------------------------------------------------
 * issue #12
-
+* Closing the ticket. 
 
 Events
 =============
-Pre-IIW (John)
+Pre-IIW (Sascha)
 ----------------
 * Location fixed (VM Ware). We will have time allocated. Likely to be 20 min. 
 * Sascha is in the process of preparing a presentation. It should be ready for review next week. 
@@ -94,6 +104,13 @@ Action::
 Pre-IETF (Nat)
 -----------------
 * Nat has just started contacting them. Still working on what is possible. 
+* John will ask for the room. 
+* Good idea to run by Mike to ask to other WGs. 
+
+API Days (Dave)
+-------------------
+* API Days: Main one in Paris in December 13, 14: http://www.apidays.io/
+* We need to find somebody to be there to present.  
 
 AOB
 ========
@@ -105,4 +122,4 @@ Next Call
 
 * No call for the week of Oct. 24 as it collides with IIW and ISO. 
 
-The meeting adjourned at _____ UTC.
+The meeting adjourned at 14:50 UTC.
