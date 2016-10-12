@@ -62,9 +62,15 @@ Client Certs Authentication Draft (John)
 * Registering the discovery endpoint probably is a good reason for it to get it done. 
 * Please comment. 
 
+Action::
+
+    * WG members please comment. 
+
 2nd WD Roadmap (Nat)
 ------------------------------
 * issue #29: Splitting WD1 further
+* Nat explained that now we have all the changes needed for the 2nd WD, we are going to make one. 
+  It should be ready in couple of weeks. 
 
 Issues 
 =========================
@@ -97,20 +103,29 @@ Pre-IIW (Sascha)
 * Sascha reviewed IIW presentation. It is the current slide deck + progress, e.g., outreach, and draft status.  
 * Nat pointed out that it would be good idea to add a slide on the 2nd WD draft parts structure as well. 
 
-Action::
-
-    * Develop a presentation for the occasion (Lead by Sascha) in two weeks. 
-
 Pre-IETF (Nat)
 -----------------
 * Looks like only John and Nat will be there so it will not be a WG meeting but just the introduction of the work to Korean audience. 
 * John will ask for the room. 
 * Good idea to run by Mike to ask to other WGs. Maybe FastFed wants to do the same. 
 
+Action::
+
+    * John: request a room. 
+    * Nat: ask LC if they want to present if the room is granted. 
+
 API Days (Dave)
 -------------------
 * API Days: Main one in Paris in December 13, 14: http://www.apidays.io/
-* We need to find somebody to be there to present.  
+* The organizer will be at IIW. 
+* There currently is a FUD that "OAuth is no good for financial APIs", so 
+  we need to find somebody to be there to present. 
+
+Action::
+
+    * Dave to make introduction to the organizer of API Days, who is going to be in IIW, with Sascha and John. 
+    * Identify the presenter. 
+    * Develop a presentation. 
 
 AOB
 ========
