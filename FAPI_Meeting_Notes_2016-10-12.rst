@@ -94,8 +94,8 @@ Events
 Pre-IIW (Sascha)
 ----------------
 * Location fixed (VM Ware). We will have time allocated. Likely to be 20 min. 
-* Sascha is in the process of preparing a presentation. It should be ready for review next week. 
-* John will see Don tomorrow to ask for the est. of time and agenda. 
+* Sascha reviewed IIW presentation. It is the current slide deck + progress, e.g., outreach, and draft status.  
+* Nat pointed out that it would be good idea to add a slide on the 2nd WD draft parts structure as well. 
 
 Action::
 
@@ -103,9 +103,9 @@ Action::
 
 Pre-IETF (Nat)
 -----------------
-* Nat has just started contacting them. Still working on what is possible. 
+* Looks like only John and Nat will be there so it will not be a WG meeting but just the introduction of the work to Korean audience. 
 * John will ask for the room. 
-* Good idea to run by Mike to ask to other WGs. 
+* Good idea to run by Mike to ask to other WGs. Maybe FastFed wants to do the same. 
 
 API Days (Dave)
 -------------------
