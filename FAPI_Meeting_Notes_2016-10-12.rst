@@ -44,11 +44,14 @@ Others
 ----------------
 * OFX: 
 * FIGO: http://docs.figo.io/ (Anton) 
-  * Anton to get in touch with FIGO. 
 * Apigee: https://openbank.apigee.com/home
-  * Dave will get in touch with Apigee, who is in the API Days conference today. 
-  * Nat and John will try to get in touch with them as well. 
 
+
+Action::
+
+    * Anton to get in touch with FIGO. 
+    * Dave will get in touch with Apigee, who is in the API Days conference today. 
+    * Nat and John will try to get in touch with Apigee as well. 
 
 Working Draft 01
 ===================
