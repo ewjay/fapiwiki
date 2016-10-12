@@ -32,23 +32,8 @@ External Org Relationships
 
 X9 (Nat)
 ---------
-* We re
+* The relationship has been established. Nat and Paul is now on their mailing list. 
 
-UK Implementation Entity (Dave)
--------------------------------
-* 
-
-EBA Consultation (Dave)
-----------------------------
-* Dave has started the draft at https://docs.google.com/document/d/1V3q1avS1zO2n2YaB-Y2Z1Vf6j-DrE7OwiISRuRpvs24/edit
-* Nearly done the first draft
-* Q7 and Q4
-* Dave will send the draft and questions to the WG at the close of the day UK. 
-
-Action:: 
-
-    WG members are invited for collaborative editing. 
-    Dave to send out the final draft to the WG for review when it is ready. 
 
 Working Draft 01
 ===================
