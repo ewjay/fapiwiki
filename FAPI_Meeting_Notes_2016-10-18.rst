@@ -15,30 +15,42 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 =============
-* Present: 
-* Regrets: 
+* Present: John, Nat, Anoop, Edmund, Henrik, Sascha, Brian C. 
+* Regrets: Dave, 
 
 Adoption of the Agenda (Nat)
 ===============================
-* 
+* Added **Pre-IIW Presentation (Sascha) 
 
 Atlantic Call Report (Nat)
 ===============================
-* Nat briefly explained the outcome of the last week's Atlantic call 
-  which is recorded at [[FAPI_Meeting_Notes_2016-10-04]]
+* Please refer to [[FAPI_Meeting_Notes_2016-10-12]]
+* There is API Days in Paris on 13, 14 December. The organizer will be in IIW so we may want to connect with him. 
+    * Dave is supposed to introduce him to John and Sascha
+    * There currently is a FUD that "OAuth is no good for financial APIs", so we need to find somebody to be there to present.
 
 External Org Relationships 
 =============================
 
 UK Implementation Entity (Dave)
 -------------------------------
-* They have appointed trustee but not yet announced. 
+There has been an update from the UK Implementation Entity:
+http://www.paymentsuk.org.uk/sites/default/files/Implementation%20Entity%20Steering%20Group%20-%20Oct%202016%20Update%20to%20CMA.pdf
+
+Key points from a FAPI perspective:
+ - The trustee has been appointed
+ - Working groups and advisory boards are being convened
+ - There is a push to ensure the API standards developed comply with PSD2 (and the RTS)
+
+I haven't had any more specific feedback apart from the general communication linked above.
+
+I hope to have more information before the call next week. 
 
 Others
 ----------------
-* OFX: 
+* OFX: Anoop to follow up for the meeting on Friday after. 
 * FIGO: http://docs.figo.io/ (Anton) 
-* Apigee: https://openbank.apigee.com/home
+* Apigee: https://openbank.apigee.com/home : Got email introduction from Dave. Not heard back yet. 
 
 
 Action::
@@ -88,16 +100,18 @@ Issues
 
 Events
 =============
+Pre-IIW Presentation Review (Sascha)
+-------------------------------------
+
 Pre-IIW (John)
 ----------------
 * https://www.eventbrite.com/e/openid-foundation-workshop-tickets-27312519481
-* Now sold out. 
-* Sascha is developing a presentation and will be able to send the draft by the weekend.
-* WG is asked to review it ASAP once received it.  
+* Now sold out (130). Expect 50 - 100 people. 
+* Will check if there is remote access / webinar. 
 
 Pre-IETF (Nat)
 -----------------
-* Room Assignment? 
+* John has made a room request. Waiting for the response. 
 
 AOB
 ========
