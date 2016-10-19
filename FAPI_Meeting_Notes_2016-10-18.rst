@@ -48,15 +48,30 @@ I hope to have more information before the call next week.
 
 Others
 ----------------
-* OFX: Anoop to follow up for the meeting on Friday after. 
-* FIGO: http://docs.figo.io/ (Anton) 
+* OFX (): Anoop to follow up for the meeting on Friday after. 
+* FIGO (Anton): http://docs.figo.io/  
 * Apigee: https://openbank.apigee.com/home : Got email introduction from Dave. Not heard back yet. 
+* DDA (Brian C./Anoop): 
+
+OFX (Anoop)
+-------------
+* Anoop and Don will have meeting on the Friday the week after. Anoop will follow up on the details with Don. 
+
+Apigee (Nat)
+-------------
+* Dave made an introduction to Nat over email. 
+* Nat responded to it but is yet to hear back. 
+
+FS-ISAC (Brian C./Anoop)
+--------------------------
+* Aggregation work group has re-convened but there is no firm direction yet. 
+* Brian will introduce the progress of this group. 
+
 
 
 Action::
 
     * Anton to get in touch with FIGO. 
-    * Dave will get in touch with Apigee, who is in the API Days conference today. 
     * Nat and John will try to get in touch with Apigee as well. 
 
 
@@ -67,41 +82,30 @@ Working Draft 01
 
 Restructuring (Nat)
 ----------------------
-* 5 parts decomposition (Security Profile for Read Only, Security Profile for Read Write, 
-  Open Data API, Read Only API, Read Write API.) 
-* Nat also suggested that we may want to separate out the Data APIs into e.g., industries. 
-* Anoop pointed out that such decomposition might not be easy since a bank may have to return 
-  all the account types and transactions anyways. There are two options: 
-  1. Get the list of accounts and then do another call to get the transactions; 
-  2. Get the list of accounts with transactions, where a flag is set in the accounts list. 
-* Anoop will send the details by creating a new ticket. 
+* No new progress as both Nat and Edmund was busy working on the ISO meeting preparation. 
+* Hopefully we can show the progress in the next call. 
 
 Issues 
 =========================
-
-#7 Add "Open Data" data set (Nat/Anoop)
-----------------------------------------------
-* issue #7
-* Anoop asked for the examples use of such. 
-* Nat pointed out that there are example schema in 
-  the section 7.3 of the current spec. (though without Swagger representation), 
-  and explained the use case that the user searches for the closest 
-  ATM from the banking app. 
 
 #32: How to communicate back the partial errors to the client (Anoop)
 -----------------------------------------------------------------------
 # issue #32
 * Anoop added a suggested solution. 
-* Edmund will check if it can be expressed in Swagger. 
 
-#31 5.2 - te - More fine grained scope needed (Nat)
-----------------------------------------------------
-* issue #31 
+Action::
+
+    * Edmund to check how to express it in Swagger. 
 
 Events
 =============
 Pre-IIW Presentation Review (Sascha)
 -------------------------------------
+* We went over the Slides. Couple of points were made. 
+    * Should be updated with #33. 
+    * Should add some names for the external org (EU EBA, UK IE, US X9, etc.)
+    * DDA-InteractionId should be changed to x-fapi-requestid
+* Sascha will send the slides out to the list once these changes are applied. 
 
 Pre-IIW (John)
 ----------------
