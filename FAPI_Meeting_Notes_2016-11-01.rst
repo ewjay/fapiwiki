@@ -16,7 +16,7 @@ The meeting was called to order at 14:05 UTC.
 Roll Call
 =============
 * Present: Nat, John, Edmund, Eric, Bjorn
-* Regrets: Sascha
+* Regrets: Anoop, Sascha
 
 Adoption of the Agenda (Nat)
 ===============================
