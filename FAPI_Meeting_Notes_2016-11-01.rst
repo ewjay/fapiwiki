@@ -43,12 +43,6 @@ Fidor (Sascha)
 -------------------
 * Sascha contacted Fidor but I have not heard back yet.
 
-Others
-----------
-* Figo (Anton)
-* OFX (Anoop)
-* UK Implementation Entity (Dave) 
-
 Apigee (Nat)
 -------------
 * Just got connected with Saravanakmuar at LinkedIn. 
@@ -63,6 +57,13 @@ ISO/TC68 & X9 (Nat)
 * X9 : Established
 * ISO/TC68 : Todo
 
+Others
+----------
+We skipped the following as we had no updates. 
+
+* Figo (Anton)
+* OFX (Anoop)
+* UK Implementation Entity (Dave) 
 
 Working Draft 02
 ===================
