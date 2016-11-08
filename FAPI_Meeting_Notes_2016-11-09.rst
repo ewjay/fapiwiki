@@ -69,10 +69,6 @@ Issues
 
 Events
 =============
-Pre-IIW & IIW (Sascha/John)
--------------------------------------
-* It went pretty well. 
-* Big topic in IIW was "Sovereign Identity"
 
 Pre-IETF (Nat/John)
 --------------------
