@@ -15,7 +15,7 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 =============
-* Present: Anton, Nat, Bjorn, Dave
+* Present: Anton, Nat, Bjorn, Dave, John
 * Regrets: Sascha, Henrik
 
 Adoption of the Agenda (Nat)
@@ -39,13 +39,26 @@ API Days (Nat)
     * Should contact Sascha to see if he knows the CA guy. 
 * The organizers: Fabnoble and OAuth.io: We should try to access them in any case. 
 
-Others
-----------
-We skipped the following as we had no updates. 
+* Copy DOn. 
 
-* Figo (Anton)
-* OFX (Anoop)
-* UK Implementation Entity (Dave) 
+UK Implementation Entity (Dave)
+-------------------------------
+* Data workstream
+
+Figo (Anton)
+----------------
+* Contacted by email, presented WG. They are interested in our work to see how we can align. 
+* Answered their question and waiting for the feedback. 
+
+
+Apigee (Nat)
+-------------
+* Dave made an introduction to Nat over email. 
+* 
+
+EBA
+------
+https://www.eba.europa.eu/regulation-and-policy/payment-services-and-electronic-money/regulatory-technical-standards-on-strong-customer-authentication-and-secure-communication-under-psd2
 
 Working Draft 02
 ===================
@@ -72,18 +85,19 @@ Events
 
 Pre-IETF (Nat/John)
 --------------------
-* John has made a room request. Waiting for the response. It is only two weeks away, so we probably will not have. 
-* Nat has a conflict on Wednesday so he probably cannot attend OAuth WG meeting. 
-* We have to see who is going to be there. 
-    * John will be there Saturday to Saturday. 
-    * William probably will not be there. etc. 
+* Karen will give us answer on the room allocation today but it is probably too late for organizing a workshop. 
+* We could still have a meeting there though. 
 
 AOB
 ========
 
-Next Call. Shift as DST ended? 
+Change of Atlantic Call timing 
 -------------------------------
-* The default time is 2016-11-09 14:00 UTC (06:00 PT, 15:00 UK, 16:00 Denmark, 23:00 JST)
-  as we are pegged to UTC, but all the callers were open for shifting it 1 hour later. 
-* We will continue the discussion in the list. 
+* The WG decided to move the call time one hour later (from UTC perspective) to match the end of the end of the daylight saving time in Europe and the US. 
+   * Next Atlantic call will be 2016-11-23 15:00 UTC. 
+
+Next Call (Pacific)
+--------------------------
+* 2016-11-16 23:00 UTC
+    (16:00 PDT, 23:00 UK, 01:00+1 Denmark, 09:00+1 JST)
 
