@@ -34,12 +34,16 @@ API Days (Nat)
 * There are two tracks that are of interest to us. 
     * The STATE OF API SECURITY : OAUTH, JSON WEB TOKENS, OPEN ID Connect, UMA; 
     * BANKING APIS and PSD2 (Payment Service Delivery)
-* If we want to do both, we have to have two persons. 
-    * We should find out who is going to be doing OAuth, JWT, OpenID Connect and UMA. 
-    * Should contact Sascha to see if he knows the CA guy. 
-* The organizers: Fabnoble and OAuth.io: We should try to access them in any case. 
+* Sascha is trying to get in touch with the CA guy. 
+* Dave has introduced Don to one of the organizer. Don said he may be available for the meeting. 
 
-* Copy DOn. 
+* We should submit the proposal through their web site. 
+
+Action::
+
+    * Nat to draft the proposals. 
+    * Copy Don on them. 
+
 
 UK Implementation Entity (Dave)
 -------------------------------
