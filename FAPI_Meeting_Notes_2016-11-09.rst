@@ -43,42 +43,49 @@ API Days (Nat)
 
 UK Implementation Entity (Dave)
 -------------------------------
-* Data workstream
+* Dave has joined the Data work stream. Their scope is very wide. They are currently a closed group but Dave will give the FAPI WG information as soon as it becomes available. 
+* Dave also is requesting to join the security WG. He expects to join them either directly through their invitation or through FDATA. It would be really good if we can coordinate our draft with them. 
 
 Figo (Anton)
 ----------------
-* Contacted by email, presented WG. They are interested in our work to see how we can align. 
-* Answered their question and waiting for the feedback. 
-
+* Anton contacted them by email and presented WG. They are interested in our work to see how we can align. 
+* Anton has provided answers to their question and waiting for the feedback. 
 
 Apigee (Nat)
 -------------
-* Dave made an introduction to Nat over email. 
-* 
+* Dave made an introduction to Nat over email and they have contacted us back. 
+* They are willing to work with us. The contact person, Saravanakumar Rajagopal, will introduce their chief architect, Greg Brail, to us shortly. 
 
-EBA
-------
-https://www.eba.europa.eu/regulation-and-policy/payment-services-and-electronic-money/regulatory-technical-standards-on-strong-customer-authentication-and-secure-communication-under-psd2
+EBA (Dave)
+-------------
+* EBA comments were published at: https://www.eba.europa.eu/regulation-and-policy/payment-services-and-electronic-money/regulatory-technical-standards-on-strong-customer-authentication-and-secure-communication-under-psd2
+* Dave got a comment on it that s/he was pleased see our comment. 
 
 Working Draft 02
 ===================
 
-Restructuring (Nat/Edmund)
+Restructuring (Nat)
 ----------------------------
-* 
+* Restructured document is available at: the repo as
+    * Financial_API_WD_001.md Financial API - Part 1: Read Only API Security Profile
+    * Financial_API_WD_002.md Financial API - Part 2: Read and Write API Security Profile
+    * Financial_API_WD_003.md Financial API - Part 3: Open Data API
+    * Financial_API_WD_004.md Financial API - Part 4: Protected Data API and Schema - Read only
+    * Financial_API_WD_005.md Financial API - Part 5: Protected Data API and Schema - Read and Write
+
+* Part 1 is the most complete one and we need the close review by the WG. 
+* Once that is ready, then we can move the Part 1 towards the Implementors draft vote. 
+* For implementor's vote, we need to have 45 days review period, which can be concurrent with 
+  the announcement of the vote. 
+* NOTE: For the final vote, we need two or more interoperable implementations to support the spec. 
+
+Dave asked about the appearance of "DDA" as it may be confusing. 
+Since Anoop agreed to remove those references, we are going to remove it per #34. 
 
 Issues 
 =========================
 
-#32: How to communicate back the partial errors to the client (Sascha/Edmund)
-------------------------------------------------------------------------------
-# issue #32
-* Edmund reported that it could be done in Swagger as well using optional field etc. 
-* Sascha still needs to close the ticket. 
-
-#new: rename the HTTP header DDA-... To x-fapi- (Sascha)
--------------------------------------------------------------
-* Still to be created. 
+* No new issues. 
 
 Events
 =============
