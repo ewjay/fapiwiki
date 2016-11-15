@@ -110,5 +110,5 @@ Change of Atlantic Call timing
 Next Call (Pacific)
 --------------------------
 * 2016-11-16 23:00 UTC
-    (16:00 PDT, 23:00 UK, 00:00+1 Denmark, 09:00+1 JST)
+    (15:00 PDT, 23:00 UK, 00:00+1 Denmark, 08:00+1 JST)
 
