@@ -68,10 +68,7 @@ Issues
 Events
 =============
 
-Pre-IETF (Nat/John)
---------------------
-* Karen will give us answer on the room allocation today but it is probably too late for organizing a workshop. 
-* We could still have a meeting there though. 
+
 
 AOB
 ========
