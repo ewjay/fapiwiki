@@ -15,8 +15,8 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 =============
-* Present: Anton, Nat, Bjorn, Dave, John
-* Regrets: Sascha, Henrik
+* Present: Anton, Nat, Henrik, Lars Markull, 
+* Regrets: Dave, Bjorn, John 
 
 Adoption of the Agenda (Nat)
 ===============================
@@ -31,22 +31,22 @@ External Org Relationships
 API Days (Nat)
 -------------------
 * http://www.apidays.io/
+* Sascha received the note that FAPI could have 20 minutes during a PSD2 talk of one of my company members. That would be on the 13th of December. 
 
-
-UK Implementation Entity (Dave)
--------------------------------
-
-Figo (Anton)
-----------------
+Figo (Anton/Lars)
+------------------
 * Anton contacted them by email and presented WG. They are interested in our work to see how we can align. 
 * Anton has provided answers to their question and waiting for the feedback. 
+* B2C company. 2014 - pivoted from B2C to B2B, providing APIs to Fintech and banks and Financial service providers. 
+* Accepts data from finanical accounts and provide it through APIs, wheere costomer uses it for scoring, etc. 
+  Deutche bank. 
+* Funding round today to expand. 
 
-Apigee (Nat)
--------------
+Danish Bank (Henrik)
+---------------------
+* Danish banks have some interesting development regarding PSD2. Henrik will report about it when more details become available. 
 
-EBA (Dave)
--------------
-* 
+
 
 Working Draft 02
 ===================
@@ -59,6 +59,7 @@ Working Draft 02
 
 Last call on Part 1: Read Only API Security Profile
 -----------------------------------------------------
+* The participants agreed that we should do the last call for a week or two. Members should file issues if they are found and they will be fixed. 
 
 Issues 
 =========================
@@ -67,7 +68,7 @@ Issues
 
 Events
 =============
-
+* API Days. 
 
 
 AOB
