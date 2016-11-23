@@ -1,7 +1,7 @@
 ============================================
 FAPI WG Meeting Notes (2016-11-23)
 ============================================
-Date & Time: 2016-11-23 15:00 UTC
+Date & Time: 2016-11-23 15:00 UTC - 15:20 UTC
 (07:00 PDT, 15:00 UK, 16:00 Denmark, 00:00+1 JST)
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
@@ -15,23 +15,16 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 =============
-* Present: Anton, Nat, Henrik, Lars Markull, 
+* Present: Anton, Nat, Henrik
 * Regrets: Dave, Bjorn, John 
+* Guest: Lars Markull (FIGO)
 
 Adoption of the Agenda (Nat)
 ===============================
-* 
-
-Approval of the minutes
-=========================
-* [[FAPI_Meeting_Notes_2016-11-09]] . 
+* Adopted with modification. 
 
 External Org Relationships 
 =============================
-API Days (Nat)
--------------------
-* http://www.apidays.io/
-* Sascha received the note that FAPI could have 20 minutes during a PSD2 talk of one of my company members. That would be on the 13th of December. 
 
 Figo (Anton/Lars)
 ------------------
@@ -45,8 +38,6 @@ Figo (Anton/Lars)
 Danish Bank (Henrik)
 ---------------------
 * Danish banks have some interesting development regarding PSD2. Henrik will report about it when more details become available. 
-
-
 
 Working Draft 02
 ===================
@@ -68,7 +59,10 @@ Issues
 
 Events
 =============
-* API Days. 
+API Days (Nat)
+-------------------
+* http://www.apidays.io/
+* Sascha received the note that FAPI could have 20 minutes during a PSD2 talk of one of my company members. That would be on the 13th of December. 
 
 
 AOB
