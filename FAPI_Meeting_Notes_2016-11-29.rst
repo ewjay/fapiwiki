@@ -32,8 +32,8 @@ Working Draft 02
     * Financial_API_WD_004.md Financial API - Part 4: Protected Data API and Schema - Read only
     * Financial_API_WD_005.md Financial API - Part 5: Protected Data API and Schema - Read and Write
 
-Last call on Part 1: Read Only API Security Profile
------------------------------------------------------
+Last call on Part 1: Read Only API Security Profile (Nat)
+------------------------------------------------------------
 * The participants agreed that we should do the last call for a week or two. Members should file issues if they are found and they will be fixed. 
 
 Issues 
