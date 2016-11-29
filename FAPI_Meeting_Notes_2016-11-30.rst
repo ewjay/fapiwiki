@@ -34,6 +34,8 @@ Working Draft 02
 
 Last call on Part 1: Read Only API Security Profile (Nat)
 ------------------------------------------------------------
+* `Part 1: Read Only API Security Profile <https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md>`_
+    * https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md
 * The participants agreed that we should do the last call for a week or two. Members should file issues if they are found and they will be fixed. 
 
 Issues 
