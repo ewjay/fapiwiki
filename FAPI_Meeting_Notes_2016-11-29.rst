@@ -39,7 +39,14 @@ Last call on Part 1: Read Only API Security Profile
 Issues 
 =========================
 
-* No new issues. 
+#32: How to communicate back the partial errors to the client (Sascha)
+-----------------------------------------------------------------------
+
+#12: OAuth Profile should mandate per AS redirect URI for Clients with session comparison (Nat)
+------------------------------------------------------------------------------------------------
+
+#16: Client Authentication -- Do we need TLS mutual authentication? (John)
+----------------------------------------------------------------------------
 
 Events
 =============
@@ -47,7 +54,8 @@ Events
 API Days (Nat)
 -------------------
 * http://www.apidays.io/
-* Sascha received the note that FAPI could have 20 minutes during a PSD2 talk of one of my company members. That would be on the 13th of December. 
+* Sascha received the note that FAPI could have 20 minutes during a PSD2 talk of one of my company members. That would be on the 13th of December <-- Now 14th according to the schedule? 
+* Nat is in touch with CA team. Need to develop slides. 
 
 
 AOB
