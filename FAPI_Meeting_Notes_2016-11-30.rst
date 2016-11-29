@@ -48,6 +48,17 @@ Issues
 #16: Client Authentication -- Do we need TLS mutual authentication? (John)
 ----------------------------------------------------------------------------
 
+#39: 2nd WD Part 1 6.2.1 -- Comments about DDA remains (Nat)
+--------------------------------------------------------------
+
+#40: 2nd WD: Part 1: 6.2.1: Constraint on the InteractionId string unclear (Nat)
+---------------------------------------------------------------------------------
+
+#41: WD2Part1:6.2.2 Add the description of "service bureau" as a Note as well (Nat)
+---------------------------------------------------------------------------------------
+
+
+
 Events
 =============
 
