@@ -16,7 +16,7 @@ The meeting was called to order at 14:05 UTC.
 Roll Call
 =============
 * Present: 
-* Regrets: 
+* Regrets: Sascha
 * Guest: 
 
 Adoption of the Agenda (Nat)
@@ -69,6 +69,9 @@ API Days (Nat)
 * http://www.apidays.io/
 * Sascha received the note that FAPI could have 20 minutes during a PSD2 talk of one of my company members. That would be on the 13th of December <-- Now 14th according to the schedule? 
 * Nat is in touch with CA team. Need to develop slides. 
+
+CA World Report (Sascha via Nat)
+---------------------------------
 
 
 AOB
