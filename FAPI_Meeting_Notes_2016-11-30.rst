@@ -15,13 +15,13 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 =============
-* Present: 
+* Present: John, Nat, Anoop, Tony, Edmund, Henrik
 * Regrets: Sascha
 * Guest: 
 
 Adoption of the Agenda (Nat)
 ===============================
-* 
+* Adopted. 
 
 Working Draft 02
 ===================
@@ -55,10 +55,11 @@ Issues
 
 #40: 2nd WD: Part 1: 6.2.1: Constraint on the InteractionId string unclear (Nat)
 ---------------------------------------------------------------------------------
+Either UUID or GUID should be ok. 
 
 #41: WD2Part1:6.2.2 Add the description of "service bureau" as a Note as well (Nat)
 ---------------------------------------------------------------------------------------
-
+No change needed. 
 
 
 Events
@@ -73,6 +74,9 @@ API Days (Nat)
 CA World Report (Sascha via Nat)
 ---------------------------------
 
+Cloud Identity Summit Chicago (John)
+---------------------------------------
+* Should put together what we can do there as a track. 
 
 AOB
 ========
