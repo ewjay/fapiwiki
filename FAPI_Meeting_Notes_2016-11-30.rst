@@ -87,6 +87,6 @@ Change of Pacific Call time? (Nat)
 
 Next Call (Pacific)
 --------------------------
-* 2016-12-07 15:00 UTC - 15:20 UTC
+* 2016-12-07 15:00 UTC 
     (07:00 PDT, 15:00 UK, 16:00 Denmark, 00:00+1 JST)
 
