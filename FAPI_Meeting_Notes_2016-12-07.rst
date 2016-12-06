@@ -1,8 +1,8 @@
 ============================================
-FAPI WG Meeting Notes (2016-11-30)
+FAPI WG Meeting Notes (2016-12-07)
 ============================================
-Date & Time: 2016-11-30 23:00 UTC
-    (16:00 PDT, 00:00 UK, 01:00+1 Denmark, 09:00+1 JST)
+Date & Time: 2016-12-07 15:00 UTC 
+    (07:00 PDT, 15:00 UK, 16:00 Denmark, 00:00+1 JST)
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
 .. sectnum::
@@ -11,17 +11,17 @@ Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
 .. contents:: Agenda
 
-The meeting was called to order at 14:05 UTC. 
+The meeting was called to order at 15:05 UTC. 
 
 Roll Call
 =============
-* Present: John, Nat, Anoop, Tony, Edmund, Henrik
-* Regrets: Sascha
+* Present: 
+* Regrets: 
 * Guest: 
 
 Adoption of the Agenda (Nat)
 ===============================
-* Adopted. 
+* 
 
 Working Draft 02
 ===================
@@ -35,32 +35,23 @@ Working Draft 02
 Last call on Part 1: Read Only API Security Profile (Nat)
 ------------------------------------------------------------
 * `Part 1: Read Only API Security Profile <https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md>`_
-    * https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md
-* The participants agreed that we should do the last call for a week or two. Members should file issues if they are found and they will be fixed. 
+    * https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md 
 
 Issues 
 =========================
 
 #32: How to communicate back the partial errors to the client (Sascha)
 -----------------------------------------------------------------------
-
-#12: OAuth Profile should mandate per AS redirect URI for Clients with session comparison (Nat)
-------------------------------------------------------------------------------------------------
-
-#16: Client Authentication -- Do we need TLS mutual authentication? (John)
-----------------------------------------------------------------------------
+* #32
 
 #39: 2nd WD Part 1 6.2.1 -- Comments about DDA remains (Nat)
 --------------------------------------------------------------
+* #39
 
 #40: 2nd WD: Part 1: 6.2.1: Constraint on the InteractionId string unclear (Nat)
 ---------------------------------------------------------------------------------
-Either UUID or GUID should be ok. 
-
-#41: WD2Part1:6.2.2 Add the description of "service bureau" as a Note as well (Nat)
----------------------------------------------------------------------------------------
-No change needed. 
-
+* #40
+* Mandates UUID.  
 
 Events
 =============
@@ -68,25 +59,46 @@ Events
 API Days (Nat)
 -------------------
 * http://www.apidays.io/
-* Sascha received the note that FAPI could have 20 minutes during a PSD2 talk of one of my company members. That would be on the 13th of December <-- Now 14th according to the schedule? 
-* Nat is in touch with CA team. Need to develop slides. 
+* Dec 13 & 14 @ Paris. Nat got a ticket to Paris now. 
+* Two talk sessions: 
+    * one in CA session (workshop on the 13th?)
+    * one in Banking API session (25 min. ) on the afternoon of the 14th. 
+* The one on the 13th will elaborate on Sascha's presentation @ OIDF WS this October. 
+* The one on the 14th will elaborate more on the security aspects of the OAuth/OpenID/JWS/JWT as previously submit in this list. 
+    * Will talk about Part 1. 
+    * Will talk about Part 2's direction. 
+    * Any other ideas? 
 
-CA World Report (Sascha via Nat)
+CA World Report (Sascha)
 ---------------------------------
 
 Cloud Identity Summit Chicago (John)
 ---------------------------------------
 * Should put together what we can do there as a track. 
 
+Digital Finance World 2017 (Nat)
+-----------------------------------
+* https://digitalfinance.world/
+* KuppingerColes event. 
+* Mainly on Blockchain and Distributed Ledger so not so sure... 
+
+External Orgs
+==================
+
+Implementation Entity (Dave)
+-------------------------------
+
+ISO/TC68 (Nat)
+-----------------
+* On hold now for other priorities. Will resume in the new year. 
+
+Others
+---------
+
 AOB
 ========
-
-Change of Pacific Call time? (Nat)
------------------------------------
-* one hour earlier
-
 Next Call (Pacific)
 --------------------------
-* 2016-12-07 15:00 UTC - 15:20 UTC
-    (07:00 PDT, 15:00 UK, 16:00 Denmark, 00:00+1 JST)
+* 2016-11-30 22:00 UTC
+    (15:00 PDT, 23:00 UK, 00:00 Denmark, 08:00+1 JST)
 
