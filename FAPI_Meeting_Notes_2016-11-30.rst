@@ -3,7 +3,11 @@ FAPI WG Meeting Notes (2016-11-30)
 ============================================
 Date & Time: 2016-11-30 23:00 UTC
     (16:00 PDT, 00:00 UK, 01:00+1 Denmark, 09:00+1 JST)
+
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
+
+
+
 
 .. sectnum::
    :suffix: .
