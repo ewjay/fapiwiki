@@ -157,6 +157,13 @@ Others
 
 AOB
 ========
+shall v.s MUST (Sascha/Nat)
+------------------------------
+* Sascha asked for the clarification on the strength of 'shall' v.s. 'must'. 
+  He wanted to be clear that those 'shall' needs to be adheared to and is not optional. 
+* Nat explained that the language is defined in ISO/IEC Directive Part 2 and 
+  'shall' is a requirement -- it is not optional and it really is a formal way of saying 'must'. 
+
 Next Call (Pacific)
 --------------------------
 * 2016-12-14 23:00 UTC
