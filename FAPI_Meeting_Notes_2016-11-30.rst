@@ -43,23 +43,33 @@ Issues
 
 #32: How to communicate back the partial errors to the client (Sascha)
 -----------------------------------------------------------------------
+* #32
+* Sascha sent a written note that now he is ready to start on it. 
 
 #12: OAuth Profile should mandate per AS redirect URI for Clients with session comparison (Nat)
 ------------------------------------------------------------------------------------------------
+* #12
+* The issue has been resolved for sometime and Nat will close the ticket. 
 
 #16: Client Authentication -- Do we need TLS mutual authentication? (John)
 ----------------------------------------------------------------------------
+* #16
+* There is a draft now in IETF. 
 
 #39: 2nd WD Part 1 6.2.1 -- Comments about DDA remains (Nat)
 --------------------------------------------------------------
+* #39
+* Editorial error. Will remove. 
 
 #40: 2nd WD: Part 1: 6.2.1: Constraint on the InteractionId string unclear (Nat)
 ---------------------------------------------------------------------------------
-Either UUID or GUID should be ok. 
+* #40
+* Callers agreed that it should be UUID. 
 
 #41: WD2Part1:6.2.2 Add the description of "service bureau" as a Note as well (Nat)
 ---------------------------------------------------------------------------------------
-No change needed. 
+* #41
+* Callers agreed that it is clear enough that no change is needed. 
 
 
 Events
@@ -73,6 +83,7 @@ API Days (Nat)
 
 CA World Report (Sascha via Nat)
 ---------------------------------
+* Nat reported on behalf of Sascha that Banking customers had strong interest in FAPI work. 
 
 Cloud Identity Summit Chicago (John)
 ---------------------------------------
@@ -83,7 +94,8 @@ AOB
 
 Change of Pacific Call time? (Nat)
 -----------------------------------
-* one hour earlier
+* Callers agreed to make it one hour earlier so that it would be slightly easier for 
+  Atlantic call participants to join if they so choose. 
 
 Next Call (Pacific)
 --------------------------
