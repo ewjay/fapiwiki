@@ -8,6 +8,21 @@ Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 .. sectnum::
    :suffix: .
 
+ Roll Call
+  Adoption of the Agenda (Anoop)
+Working Draft 02
+3.1.   Part 1: Read Only API Security Profile (Nat)
+3.2.   Part 2: Read Write API Security Profile
+4.   Issues (Nat)
+5.   Events
+5.1.   API Days (Nat)
+6.   External Orgs
+6.1.   Others
+7.   AOB
+7.1.   Next Call (Atlantic)
+
+
+
 
 .. contents:: Agenda
 
@@ -15,7 +30,7 @@ The meeting was called to order at _____ UTC.
 
 Roll Call
 =============
-* Present: 
+* Present: Brian, Edmund, Sascha, Henrik and Anoop
 * Regrets: Anton
 * Guest:  
 
@@ -28,6 +43,8 @@ Working Draft 02
 
     * Financial_API_WD_001.md Financial API - Part 1: Read Only API Security Profile
     * Financial_API_WD_002.md Financial API - Part 2: Read and Write API Security Profile
+https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_002.md?fileviewer=file-view-default
+
     * Financial_API_WD_003.md Financial API - Part 3: Open Data API
     * Financial_API_WD_004.md Financial API - Part 4: Protected Data API and Schema - Read only
     * Financial_API_WD_005.md Financial API - Part 5: Protected Data API and Schema - Read and Write
