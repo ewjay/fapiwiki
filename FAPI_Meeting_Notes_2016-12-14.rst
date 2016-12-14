@@ -30,7 +30,7 @@ The meeting was called to order at _____ UTC.
 
 Roll Call
 =============
-* Present: Brian, Edmund, Sascha, Henrik and Anoop
+* Present: Brian, Edmund, Sascha, Henrik, Anthony and Anoop
 * Regrets: Anton
 * Guest:  
 
@@ -43,8 +43,6 @@ Working Draft 02
 
     * Financial_API_WD_001.md Financial API - Part 1: Read Only API Security Profile
     * Financial_API_WD_002.md Financial API - Part 2: Read and Write API Security Profile
-https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_002.md?fileviewer=file-view-default
-
     * Financial_API_WD_003.md Financial API - Part 3: Open Data API
     * Financial_API_WD_004.md Financial API - Part 4: Protected Data API and Schema - Read only
     * Financial_API_WD_005.md Financial API - Part 5: Protected Data API and Schema - Read and Write
@@ -56,11 +54,17 @@ Part 1: Read Only API Security Profile (Nat)
 
 Part 2: Read Write API Security Profile 
 ------------------------------------------------------
+* Not yet stated 
 
 Issues (Nat)
 =========================
 
 * https://bitbucket.org/openid/fapi/issues?status=new&status=open
+
+* #47 is closed by Sascha 
+* #32 Sascha will update
+* #49 Anoop to update comments sent via email to ticket
+* #40 Per Ed, we can close it as #47 is resolved.
 
 Events
 =============
@@ -83,7 +87,7 @@ API Days (Nat)
 
 External Orgs
 ==================
-
+* Brian suggested to bring FAPI & OpenId to FS-ISAC consortium. Anoop to connect with Nat.
 Others
 ---------
 * 
