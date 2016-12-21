@@ -15,16 +15,18 @@ The meeting was called to order at 15:05 UTC.
 
 Roll Call
 =============
-* Present: 
-* Regrets: 
+* Present: Dave, Sascha, Nat, Henrik, John
+* Regrets: Anton (as it is the last day for him at DT) <-- Thanks from the WG. 
 * Guest: 
 
 Adoption of the Agenda (Nat)
 ===============================
-* 
+* Adopted. 
 
 Implementer's draft Part 1 (Nat)
 ==================================
+* Public review has been started. 
+* Details can be found at: http://openid.net/2016/12/19/public-review-period-for-financial-api-part-1-read-only-api-security-profile-started/
 
 Working Draft 02
 ===================
@@ -35,15 +37,20 @@ Working Draft 02
     * Financial_API_WD_004.md Financial API - Part 4: Protected Data API and Schema - Read only
     * Financial_API_WD_005.md Financial API - Part 5: Protected Data API and Schema - Read and Write
 
-Part 2 (Nat)
+Part 2: Read write security profile (Nat)
 ------------------------------------------------------------
-* `Part 2: Read Only API Security Profile <https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md>`_
+* `Part 2: Read & Write API Security Profile <https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md>`_
     * https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_002.md 
+
+* There were long discussion around the various forms of attack esp. the session hijacking, lead by John. 
+* Nat also pointed out that he outlined some of the security issues that needs to be addressed in his Paris speach: http://www.slideshare.net/nat_sakimura/financial-grade-oauth-openid-connect
+* Dave pointed out that UK Open Banking IE needs it at the latest by May so we need to execute quite quickly. 
+* Nat volunteered to take the first crack at it so that WG members can start filing the issues and giving pull requests. 
 
 
 Issues (Nat)
 =========================
-
+* Several new editorial issues have been filed for Part 1. Since they are all editorial, they can be applied before the vote. 
 
 Events
 =============
@@ -70,23 +77,33 @@ External Orgs
 
 Implementation Entity (Dave)
 -------------------------------
-
+* Dave sent the current status report in http://lists.openid.net/pipermail/openid-specs-fapi/2016-December/000212.html
+* IE is still dealing with governance process and still closed. 
+* For open data schema, they are using ISO 20022 dictionary and converting it into JSON. 
+* HSBC (one of the 9 banks involved with the IE) has launched their beta
+   API for open data: https://developer.hsbc.com/swagger-index.html
+* It may help connecting with Berkeley, who is very much involved in OIX, our sister organization. 
 
 ISO/TC68 (Nat)
 -----------------
 * On hold now for other priorities. Will resume in the new year. 
 
-Others
----------
-* Nat will be talking to 
+X9 (Nat)
+--------------
+* For now, Nat is put as the liaison officer for X9, but he would like Paul to take over. 
+
 
 AOB
 ========
 
-
 Next Call (Pacific)
 --------------------------
-* 2016-12-28 23:00 UTC ???
+* 2016-12-27 23:00 UTC 
     (15:00 PDT, 23:00 UK, 00:00 Denmark, 08:00+1 JST)
+** PLEASE NOTE THE NEW TIME: It is one hour earlier. 
+
+Cancelling Jan. 4 Call (Atlantic)
+----------------------------------
+* Due to Japanese new years holiday. 
 
 
