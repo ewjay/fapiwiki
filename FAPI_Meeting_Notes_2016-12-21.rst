@@ -1,5 +1,5 @@
 ============================================
-FAPI WG Meeting Notes (2016-12-14)
+FAPI WG Meeting Notes (2016-12-21)
 ============================================
 Date & Time: 2016-12-21 15:00 UTC 
     (07:00 PDT, 15:00 UK, 16:00 Denmark, 00:00+1 JST)
@@ -37,13 +37,13 @@ Working Draft 02
     * Financial_API_WD_004.md Financial API - Part 4: Protected Data API and Schema - Read only
     * Financial_API_WD_005.md Financial API - Part 5: Protected Data API and Schema - Read and Write
 
-Part 2: Read write security profile (Nat)
+Part 2: Read & Write API Security Profile (Nat)
 ------------------------------------------------------------
 * `Part 2: Read & Write API Security Profile <https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md>`_
     * https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_002.md 
 
 * There were long discussion around the various forms of attack esp. the session hijacking, lead by John. 
-* Nat also pointed out that he outlined some of the security issues that needs to be addressed in his Paris speach: http://www.slideshare.net/nat_sakimura/financial-grade-oauth-openid-connect
+* Nat also pointed out that he outlined some of the security issues that needs to be addressed in his Paris presentation: http://www.slideshare.net/nat_sakimura/financial-grade-oauth-openid-connect
 * Dave pointed out that UK Open Banking IE needs it at the latest by May so we need to execute quite quickly. 
 * Nat volunteered to take the first crack at it so that WG members can start filing the issues and giving pull requests. 
 
