@@ -15,7 +15,7 @@ The meeting was called to order at 15:05 UTC.
 
 Roll Call
 =============
-* Present: 
+* Present: John, Nat, Tony, Nat
 * Regrets: 
 * Guest: 
 
@@ -42,10 +42,13 @@ Part 2: Read & Write API Security Profile (Nat)
 * `Part 2: Read & Write API Security Profile <https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md>`_
     * https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_002.md 
 
-
+* Nat has started to add previously identified requirements onto the drafts. 
+* For request objects, it is currently referring the section 6 of OIDC, but if OAuth JAR emerges as RFC, we should use it instead. 
 
 Issues (Nat)
 =========================
+
+* On Dec. 21, bunch of editorial issues against Part 1 were filed. They should be applied against the draft before voting. 
 
 Events
 =============
@@ -57,8 +60,26 @@ Digital Finance World 2017 (Nat)
 * Mainly on Blockchain and Distributed Ledger so not so sure... 
 * WG members are asked to evaluate the needs for it. 
 
+---> We probably do not need to do it. 
+
+CIS (John/Nat)
+----------------------
+* Submission deadline is on Jan 6. 
+* It may be worthwhile in proposing financial services track, including: 
+    * FAPI
+    * OFX
+    * PSD2 & UK OBS
+    * etc. 
+
 External Orgs
 ==================
+
+FS-ISAC DDA (Anoop)
+--------------------
+* DDA group is now closed to fintech companies. We should request a formal relationship. Anoop and Nat will work on it offline. 
+* It seems to be a good idea to follow up with individual banks etc. as well. 
+    * Nat will follow up with Bob Blakley at Citi. 
+    * Tony will follow up with EMV. 
 
 ISO/TC68 (Nat)
 -----------------
@@ -67,7 +88,7 @@ ISO/TC68 (Nat)
 X9 (Nat)
 --------------
 * For now, Nat is put as the liaison officer for X9, but he would like Paul to take over. 
-
+* Intuit has a team working on standardization and Anoop will follow up with them in the new year. 
 
 AOB
 ========
