@@ -16,13 +16,13 @@ The meeting was called to order at ________ UTC.
 
 Roll Call
 =============
-* Present: 
-* Regrets: 
+* Present: Nat, Dave, Bjorn, John
+* Regrets: Henrik
 * Guest: 
 
 Adoption of the Agenda (Nat)
 ===============================
-* 
+* Adopt. 
 
 
 External Orgs
@@ -30,6 +30,22 @@ External Orgs
 
 UK OBIE (Dave)
 ----------------
+* Re-branding as: Open Banking Service
+* Data dictionary: a lot of work on Open Product data - on schema level. ISO 20022 schema. 
+* Moving to transactional data
+* HSBC API as example. https://developer.hsbc.com/
+* Dave is now on security work group. 
+* Creating certificate authority and online registry. Registration and accreditation process. 
+* Not much publicly released info. 
+
+* They are meeting with various vendors this week. 
+
+* PSD2 type of issues - match the scope with PSD2. 
+* EBA consultation on accreditation. Competent authority. FCA in UK. Details on registry is not clear. 
+
+* Service catalogue 
+
+* Modrna WG decided to use software statement as it can put constraint. 
 
 JP Fintech Association (Nat)
 -----------------------------
@@ -97,4 +113,4 @@ AOB
 Next Call (Pacific)
 --------------------------
 * 2017-01-24 23:00 UTC
-(15:00 PDT, 23:00 UK, 00:00 Denmark, 08:00+1 JST)
+    (15:00 PDT, 23:00 UK, 00:00 Denmark, 08:00+1 JST)
