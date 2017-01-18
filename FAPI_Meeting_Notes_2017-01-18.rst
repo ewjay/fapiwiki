@@ -1,7 +1,7 @@
 ============================================
-FAPI WG Meeting Notes (2017-01-17)
+FAPI WG Meeting Notes (2017-01-18)
 ============================================
-Date & Time: 2017-01-17 15:00 UTC
+Date & Time: 2017-01-18 15:00 UTC
     (07:00 PDT, 15:00 UK, 16:00 Denmark, 00:00+1 JST)
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
