@@ -73,6 +73,9 @@ FS-ISAC DDA (Anoop)
 OFX (Anoop/Brian)
 ------------------
 
+EMV (Tony)
+-----------
+
 JP Fintech Association (Nat)
 -----------------------------
 
@@ -89,6 +92,6 @@ AOB
 
 Next Call (Atlantic)
 --------------------------
-* 2016-12-07 15:00 UTC
+* 2017-01-31 15:00 UTC
     (07:00 PDT, 15:00 UK, 16:00 Denmark, 00:00+1 JST)
 ** PLEASE NOTE THE NEW TIME: It is one hour earlier.
