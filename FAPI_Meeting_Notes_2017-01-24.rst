@@ -24,8 +24,8 @@ Adoption of the Agenda (Nat)
 ===============================
 * Adopted. 
 
-Implementer's draft Part 1 (Nat)
-==================================
+Implementer's draft Part 1 voting preparation (Nat)
+====================================================
 * Voting announcement has been made. 
 * Details can be found at: http://openid.net/2017/01/20/notice-of-vote-for-implementers-draft-of-financial-api-part-1-read-only-api-security-profile/
 * Please prepare for voting: 
