@@ -16,13 +16,15 @@ The meeting was called to order at 15:05 UTC.
 
 Roll Call
 =============
-* Present: 
-* Regrets: 
+* Present: Nat, Anoop, Edmund, Henrik
+* Regrets: Tony, John, Sascha
 * Guest: 
 
 Adoption of the Agenda (Nat)
 ===============================
-* Adopted. 
+* Adopted ammended: 
+    * Skipping Events as we are missing John. 
+    * New use case discussion added. 
 
 Implementer's draft Part 1 voting preparation (Nat)
 ====================================================
@@ -40,24 +42,24 @@ Working Drafts
     * Financial_API_WD_004.md Financial API - Part 4: Protected Data API and Schema - Read only
     * Financial_API_WD_005.md Financial API - Part 5: Protected Data API and Schema - Read and Write
 
-Part 2: Read & Write API Security Profile (Nat)
+Part 1: Read Only API Security Profile (Nat & Edmund)
+-------------------------------------------------------------
+* Edmund applied all the editorial bug fixes collected during the review period. 
+* Edmund is also working on the Pandoc HTML template and .docx template so that 
+  it will look more like OIDF specs for HTML and ISO specs for .docx. 
+
+Part 2: Read & Write API Security Profile (Nat & Edmund)
 ------------------------------------------------------------
 * `Part 2: Read & Write API Security Profile <https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md>`_
     * https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_002.md 
 
 * Nat has started to add previously identified requirements onto the drafts. 
-* For request objects, it is currently referring the section 6 of OIDC, but if OAuth JAR emerges as RFC, we should use it instead. Nat is currently working on SECDIR comments in IETF for OAuth JAR. 
+* For request objects, it is currently referring the section 6 of OIDC, but if OAuth JAR emerges as RFC, we should use it instead. Nat is currently working on SECDIR comments in IETF for OAuth JAR and will be discussed at IESG on Feb. 3. 
 
 Issues (Nat)
 =========================
 
-*  
-
-Events
-=============
-
-CIS (John)
-----------------------
+* No new issues. 
 
 
 External Orgs
@@ -65,16 +67,15 @@ External Orgs
 
 FS-ISAC DDA (Anoop)
 --------------------
-* DDA group is now closed to fintech companies. We should request a formal relationship. Anoop and Nat will work on it offline. 
-* It seems to be a good idea to follow up with individual banks etc. as well. 
+* For sometime, banks were meeting within themselves to work out the charter. Now they are reconvening the working group and intuit is going to provide the status and advise on how to plug-in OpenID. 
+
     * Nat will follow up with Bob Blakley at Citi. 
+         * Citi participant at DDA: Clint Stephan, Security Group. 
     * Tony will follow up with EMV. 
 
 OFX (Anoop/Brian)
 ------------------
-
-EMV (Tony)
------------
+* 
 
 JP Fintech Association (Nat)
 -----------------------------
@@ -83,9 +84,15 @@ ISO/TC68 (Nat)
 -----------------
 * On hold now for other priorities. Will resume in the new year. 
 
-X9 (Anoop/Nat)
---------------
-* Intuit has a team working on standardization and Anoop will follow up with them in the new year. 
+New Use Cases Discussion (Anoop) 
+==========================================
+* Some use-cases where OAuth has shortcomings were identified. 
+
+#. Left-out session problems
+#. Adding two accounts from the same bank to a Fintech software
+ 
+Nat is going to try to document them by the EOD tomorrow based on 
+Anoop's description and post it to the list after Anoop's review. 
 
 AOB
 ========
@@ -94,4 +101,5 @@ Next Call (Atlantic)
 --------------------------
 * 2017-01-31 15:00 UTC
     (07:00 PDT, 15:00 UK, 16:00 Denmark, 00:00+1 JST)
-** PLEASE NOTE THE NEW TIME: It is one hour earlier.
+
+The meeting adjourned at 23:59 UTC.
