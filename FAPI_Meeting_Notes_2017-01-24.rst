@@ -73,16 +73,15 @@ FS-ISAC DDA (Anoop)
          * Citi participant at DDA: Clint Stephan, Security Group. 
     * Tony will follow up with EMV. 
 
-OFX (Anoop/Brian)
+OFX (Anoop)
 ------------------
-* 
+* As FS-ISAC started moving along, OFX should also be aligned with them. 
 
-JP Fintech Association (Nat)
+JP Banking Association (Nat)
 -----------------------------
-
-ISO/TC68 (Nat)
------------------
-* On hold now for other priorities. Will resume in the new year. 
+* Nat and JP Fintech Association visited the JP Banking Association. 
+* JP Banking association is in the process of creation of their API recommendations. The secretariat believes that it should adopt a standard created by experts so adopting FAPI Part 1 and Part 2 seems to be the course. 
+* For the data schema part, they were pessimistic on the possibility of them being able to come up with a single schema, let alone adopting DDA etc., but Fintech Association advised that they should at least try to. From the point of view of a fintehc company operating worldwide, each countries creating their own schema means they have to prepare for over 200 schemas and that is bad enough. If each countries start to have multiple schemas, that will multiply the "badness". 
 
 New Use Cases Discussion (Anoop) 
 ==========================================
