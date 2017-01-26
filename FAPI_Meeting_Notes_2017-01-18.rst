@@ -12,7 +12,7 @@ Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
 .. contents:: Agenda
 
-The meeting was called to order at ________ UTC. 
+The meeting was called to order at 15:05 UTC. 
 
 Roll Call
 =============
@@ -30,10 +30,12 @@ External Orgs
 
 UK OBIE (Dave)
 ----------------
-* Re-branding as: Open Banking Service
+* Re-branding as Open Banking Service
 * Data dictionary: a lot of work on Open Product data - on schema level. ISO 20022 schema. 
 * Moving to transactional data
-* HSBC API as example. https://developer.hsbc.com/
+* Dave is getting confirmation for joining the security WG. Nothing suggests that using FAPI profile would not be impossible. Only the discussion to this date is the establishment of a new certificate authority and the registry and nothing firm have been decided on the OAuth side. Thus, hopefully, they can adopt ours. 
+
+* HSBC API as an example. https://developer.hsbc.com/
 * Dave is now on security work group. 
 * Creating certificate authority and online registry. Registration and accreditation process. 
 * Not much publicly released info. 
