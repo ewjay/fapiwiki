@@ -43,6 +43,7 @@ UK OBIE (Dave)
 * Service catalog: discovery API. 
 * John pointed out that we should stick with OpenID Connect discovery as much as possible. GSMA tried to centralize it but it was a complete failure and they are now having to re-work everything using Connect's distributed discovery capability and client registration. GSMA's centralized approach collapsed pretty quickly under its own weight.
 * GSMA is now trying to use the software statement for client registration. The advantage of the software statement is that it can include constrained registration information whereas the certificate can only provide who they are. For references, see Modrna list and draft specs. 
+* Timewise, for transactional APIs, they are aiming to provide an alpha API at the end of May, beta by the end of July, then testing phase follows. It is a very demanding schedule. Under PSD2, while it starts in January 2018, the technical standards does not apply at least a year but in UK OBS, January 2018 is seen as a hard deadline where Banks will have financial consequences if they do not have it ready. 60 people are now employed (funded by banks) by the IE so they will probably deliver it. The concern is that it is not going to be very well thought about specs. 
 
 JP Fintech Association (Nat)
 -----------------------------
@@ -112,18 +113,24 @@ From the server side, it looks exactly the same.
 
 So, this ticket probably is invalid. 
 
-New draft is being worked out. 
+As far as the token binding spec is concerned, a new draft is being worked out which should go to WGLC and go to IESG subsequently. 
 
-Dave asked the timelines. John replied that the authors are creating another draft and that will go to WGLC and go to IESG. 
+Dave also asked about the legacy platform supports. 
 
-Crome, IE, iOS, Android (Chronet library) supports them. They can go back to quite old versions of iOS and Android, though you have to include the Chronet HTTP library. 
+John pointed out that Chrome, IE, iOS, Android (Chronet library) supports them. Chronet library can go back to quite old versions of iOS and Android, though you have to include the Chronet HTTP library. There is a plan to include the supports in AppAuth. 
 
-
+Nat pointed out that we probably need to do a hands-on or something and provide it throght Youtbe etc. so that developers will be able to take advantage of it. Perhaps we can try to do it in conjunction with EIC. 
 
 #61: Fund Availability API
 ----------------------------
 * issue #61
 * Part 4
+
+In PSD2, PISP asks AISP whether the fund is available for the payment and the answer will be yes or no. 
+Nat asked Dave if there is something envisioned already for this functionality. 
+
+Dave pointed out that it is definitely within the scope where IE is working on but cannot remember off the top of his head. 
+
 
 Others
 ----------
@@ -133,12 +140,14 @@ Events
 
 CIS (John)
 ----------------------
+* Submission was closed on Jan. 6 and FAPI did not submit anything but presumably there will be OpenID Foundation track so we can do something there. 
 
-Others
------------
-* EIC
-
-AOB
+EIC
+---------------
+* Need to start thinking about what we can do --> homework for everyone. 
+* Perhaps some kind of hands on for token binding. 
+ 
+OB
 ========
 
 Next Call (Pacific)
