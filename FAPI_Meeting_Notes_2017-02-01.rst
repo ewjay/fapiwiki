@@ -12,7 +12,7 @@ Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
 .. contents:: Agenda
 
-The meeting was called to order at ______ UTC. 
+The meeting was called to order at 15:10 UTC. 
 
 Roll Call
 =============
