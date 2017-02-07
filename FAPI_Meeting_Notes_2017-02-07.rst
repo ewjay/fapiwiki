@@ -16,15 +16,15 @@ The meeting was called to order at 15:05 UTC.
 
 Roll Call
 =============
-* Present: 
-* Regrets: 
+* Present: Nat, John, Edmund, Henrik, Bjorn
+* Regrets: Sascha, Tony, Anoop
 * Guest: 
 
 Adoption of the Agenda (Nat)
 ===============================
 * 
 
-Implementer's draft Part 1 voting preparation (Nat)
+Implementer's draft Part 1 voting (Nat)
 ====================================================
 * Please vote at https://openid.net/foundation/members/polls/106
 
@@ -46,19 +46,28 @@ Part 2: Read & Write API Security Profile (Nat & Edmund)
 ------------------------------------------------------------
 * `Part 2: Read & Write API Security Profile <https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md>`_
     * https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_002.md 
+* Content-wise, it should be complete though substantial editing is still needed to get in in shape as a spec. 
+* WG please review it now. 
 
 Issues (Nat)
 =========================
-* No new issues. 
+* #71: (ed) The heading level of 6.2.3 is wrong
+
 
 External Orgs
 ==================
 
-UK OBS (Dave)
-----------------
+UK OBS (Dave/John)
+--------------------
+* Feedback from UK OBS. They started talk about 
+* 
+
+ -- 8:29
 
 Denmark Banking Association(s) (Henrik)
 ------------------------------------------
+* Danish Implementation of PSD2 public consultation
+* 
 
 FS-ISAC DDA (Anoop)
 --------------------
@@ -77,6 +86,6 @@ AOB
 Next Call (Atlantic)
 --------------------------
 * 2017-02-13 15:00 UTC
-    (07:00 PDT, 15:00 UK, 16:00 Denmark, 00:00+1 JST)
+    (07:00 PST, 15:00 UK, 16:00 Denmark, 00:00+1 JST)
 
-The meeting adjourned at 23:59 UTC.
+The meeting adjourned at 23:45 UTC.
