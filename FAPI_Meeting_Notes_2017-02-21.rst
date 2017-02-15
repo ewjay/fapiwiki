@@ -1,8 +1,8 @@
 ============================================
-FAPI WG Meeting Notes (2017-02-15)
+FAPI WG Meeting Notes (2017-02-21)
 ============================================
-Date & Time: 2017-02-15 15:00 UTC
-    (07:00 PDT, 15:00 UK, 16:00 Denmark, 00:00+1 JST)
+Date & Time: 2017-02-21 23:00 UTC
+    (15:00 PDT, 23:00 UK, 00:00 Denmark, 08:00+1 JST)
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
@@ -17,7 +17,7 @@ The meeting was called to order at 15:10 UTC.
 Roll Call
 =============
 * Present: 
-* Regrets: 
+* Regrets: Dave
 * Guest: 
 
 Adoption of the Agenda (Nat)
@@ -80,7 +80,6 @@ AOB
 
 Next Call (Pacific)
 --------------------------
-* 2017-02-21 23:00 UTC
-    (15:00 PDT, 23:00 UK, 00:00 Denmark, 08:00+1 JST)
+* 2017-03-01 15:00 UTC
 
 The meeting adjourned at ______ UTC.
