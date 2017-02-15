@@ -85,7 +85,7 @@ AOB
 
 Next Call (Atlantic)
 --------------------------
-* 2017-02-13 15:00 UTC
+* 2017-02-15 15:00 UTC
     (07:00 PST, 15:00 UK, 16:00 Denmark, 00:00+1 JST)
 
 The meeting adjourned at 23:45 UTC.
