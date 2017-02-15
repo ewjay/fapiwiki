@@ -55,18 +55,23 @@ Part 5: Protected Data API and Schema - Read and Write
 External Orgs
 ==================
 
+FS-ISAC DDA (Anoop)
+-------------------------
+
 UK OBS (Nat on behalf of Dave)
 ---------------------------------
 
-Denmark Banking Association(s) (Henrik)
+DK Banking Association(s) (Henrik)
 ------------------------------------------
+
+JP Banking Association (Nat)
+-----------------------------------
 
 Others
 ------------
 * UK OBS (Dave)
 * FS-ISAC DDA (Anoop)
 * OFX (Anoop)
-* JP Banking Association (Nat)
 * ISO/TC68
 * Figo
 
