@@ -16,7 +16,7 @@ The meeting was called to order at 15:10 UTC.
 
 Roll Call
 =============
-* Present: 
+* Present: John, Nat, Sascha, Anoop, Edmund, Henrik
 * Regrets: Dave
 * Guest: 
 
@@ -24,18 +24,19 @@ Adoption of the Agenda (Nat)
 ===============================
 * 
 
-Implementer's draft Part 1 voting preparation (Nat)
-====================================================
-* Went through with 48 votes. Only 1 objection. 
-
-Working Drafts
-===================
-
+Implementer's draft  (Nat)
+========================================
 Part 1: Read Only API Security Profile (Nat)
 -------------------------------------------------------------
 
 * `Part 1: Read Only API Security Profile <https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md>`_
     * https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md 
+
+* Went through with 50 votes. Only 1 objection. 
+* Now need implementations - NRI's STAR system is nearly compatible yet not quite. 
+
+Working Drafts
+===================
 
 Part 2: Read & Write API Security Profile (Nat & Edmund)
 ------------------------------------------------------------
@@ -43,7 +44,7 @@ Part 2: Read & Write API Security Profile (Nat & Edmund)
     * https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_002.md 
 
 What shall we token bind? 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~]
 
 Examples? 
 ~~~~~~~~~~
