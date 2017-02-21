@@ -90,8 +90,8 @@ Others
 AOB
 ========
 
-Next Call (Pacific)
+Next Call (Atlantic)
 --------------------------
-* 2017-03-01 15:00 UTC
+
 
 The meeting adjourned at ______ UTC.
