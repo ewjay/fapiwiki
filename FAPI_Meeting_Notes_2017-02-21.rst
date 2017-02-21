@@ -42,6 +42,18 @@ Part 2: Read & Write API Security Profile (Nat & Edmund)
 * `Part 2: Read & Write API Security Profile <https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_002.md>`_
     * https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_002.md 
 
+What shall we token bind? 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Examples? 
+~~~~~~~~~~
+
+Authentication Requirement
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Always Request Object? 
+~~~~~~~~~~~~~~~~~~~~~~~~
+
 Part 3: Open Data API
 ----------------------------
 
