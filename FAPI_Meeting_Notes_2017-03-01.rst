@@ -29,6 +29,8 @@ External Orgs
 
 UK OBS (Dave)
 ---------------
+Status Report
+~~~~~~~~~~~~~~~
 * Technical WS two full days every week. 
 * OAuth 2.0 and FAPI draft in wide circulation. 
 * Got connect with Pam Dingle, who is also involved. 
@@ -56,7 +58,14 @@ Highest Priority
 
 DK Banking Association(s) (Henrik)
 ------------------------------------------
-* No news. 
+* Denmark Banks are worried on the conflict between Danish privacy law and PSD2 that would potentially not allow the use of payment data for other purposes. 
+* Dansk Bank wants to copy and use the UK standards. 
+* Henrik will meet with him later today and share FAPI info. He will update the group subsequently. 
+
+RTS
+~~~~
+* RTS should also be sent to FAPI. 
+* Dave volunteered to send the summary of RTS changes to the list. 
 
 
 Others
