@@ -55,6 +55,10 @@ Highest Priority
 * Dave pointed out that what OBS is looking at TLS mutual auth is to establish the not-fully-open api channel and does not have to be tied back to the application layer. 
 * Brian informed the group that he just received the declassified requirement document from OBS. It will be circulated later. 
 
+Needs for marketing
+~~~~~~~~~~~~~~~~~~~~
+* There seems to be a misconception that FAPI is built on top of OpenID Connect or FAPI is about federated authentication. 
+* OpenID just is a name of a standardization organization, just like "ISO" and nothing more. It does not mean that specs OpenID Foundation creates are based on OpenID Connect etc. OpenID Connect is a spec called "Connect" which is developed under "OpenID", just like "ISO 20022" is a spec called "20022" which is developed under "ISO". 
 
 DK Banking Association(s) (Henrik)
 ------------------------------------------
