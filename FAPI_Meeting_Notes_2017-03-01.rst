@@ -78,10 +78,19 @@ Others
 
 iGov Presentation (John)
 ============================
-* VoT
+* Discussing VoT and asked Justin to produce a draft but it is still very early. 
 
 Modrna Presentation (John)
 ============================
+* Modrna is looking at various ways to establish communication and obtaining consents of users out of band. 
+* Banks in some jurisdictions are quite keen on it while it is not in the UK.
+* Use cases
+    * User calling into a call center and customer identity is verified through push notification to phones. 
+    * Credit card transaction at shop. Getting notification on the phone to confirm the transaction. 
+    * As a second channel to mitigate the man-in-the-browser. 
+* Modrna is defining claims to go into request object for these purposes.  
+
+[31:00]
 
 Implementer's draft  (Nat)
 ========================================
