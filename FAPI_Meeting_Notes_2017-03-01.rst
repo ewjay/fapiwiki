@@ -22,13 +22,37 @@ Roll Call
 
 Adoption of the Agenda (Nat)
 ===============================
-*
+* Adopted as is. 
 
 External Orgs
 ==================
 
 UK OBS (Dave)
 ---------------
+* Technical WS two full days every week. 
+* OAuth 2.0 and FAPI draft in wide circulation. 
+* Got connect with Pam Dingle, who is also involved. 
+* Dignified, restrained, absolute Panic. 
+* Everything has to be agreed by April. 
+* They are less interested in something that is not in product within 6 months. 
+* If FAPI accommodates some of the short term goals, it would be better. 
+* Read-Write between institutions are priority. Users accessing with mobile phones not a priority. 
+* Banks are comfortable with mutual client auth. More naive PoP as well. 
+* Dave being involved in legal tech side under the CMA order, he can probably pull together the single payment initiation use cases so that FAPI can attest and vendors can implement. 
+
+Liaison status
+~~~~~~~~~~~~~~~~~
+* Formal liaison status progress needs to be checked so that we can share the materials under NDA just like we do with ISO and ITU-T. 
+* John suggested to focus on the request to get their requirements so that we can make sure that FAPI meets their requirements. 
+* Under PSD2, they have obligation to adopt international standards so FAPI would have good standing there. 
+
+Highest Priority
+~~~~~~~~~~~~~~~~~~
+* John pointed out that we do not have mutual TLS bound access tokens and there is nothing written down. It needs to be there. 
+* Nat pointed out such a draft needs to be blessed in some fashion for them to embrace, e.g., being working group draft in IETF OAuth WG or somewhere else. Although it is more desirable to do it in IETF, in the initial phase, we might have to do it within FAPI. 
+* Dave pointed out that what OBS is looking at TLS mutual auth is to establish the not-fully-open api channel and does not have to be tied back to the application layer. 
+* Brian informed the group that he just received the declassified requirement document from OBS. It will be circulated later. 
+
 
 DK Banking Association(s) (Henrik)
 ------------------------------------------
