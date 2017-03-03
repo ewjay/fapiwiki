@@ -16,7 +16,7 @@ The meeting was called to order at 15:10 UTC.
 
 Roll Call
 =============
-* Present: 
+* Present: Nat, Tom, Dave, Brian, John, Henrik, Bjorn
 * Regrets:
 * Guest: 
 
@@ -45,6 +45,7 @@ Others
 
 iGov Presentation (John)
 ============================
+* VoT
 
 Modrna Presentation (John)
 ============================
