@@ -109,4 +109,4 @@ Next Call (Atlantic)
   Nat is unable to make it. Perhaps John or Dave to set up a call. 
 * Consider twice a week call until UK requirements are met? 
 
-The meeting adjourned at ????? UTC.
+The meeting adjourned at 23:58 UTC.
