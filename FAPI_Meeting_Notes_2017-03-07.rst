@@ -46,6 +46,8 @@ UK OBS (Nat/John)
 Others
 ------------
 
+Followings were not discussed. 
+
 * OFX (Anoop)
 * ISO/TC68
 * Figo
