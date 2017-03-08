@@ -64,6 +64,7 @@ Not mandating public client support
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * Change SHALL to SHOULD. 
 * Make PKCE conditional. 
+* Nat to make the changes today. 
 
 Part 2: Read & Write API Security Profile (Nat & Edmund)
 ------------------------------------------------------------
