@@ -15,13 +15,41 @@ The meeting was called to order at 15:10 UTC.
 
 Roll Call
 =============
-* Present: 
+* Present: Nat, Tom, Brian, Edmund, John, Henrik. 
 * Regrets:
 * Guest: 
 
 Adoption of the Agenda (Nat)
 ===============================
-* 
+* Added FS-ISAC
+* Moved External Orgs as the first item. 
+
+
+External Orgs
+==================
+
+FS-ISAC DDA (Brian)
+----------------------
+* FS-ISAC had a call. Feedback on DDA 2.0 that extends to tax, qtip, etc. 
+* Banks are also interested in the consent flow. 
+
+* Banks supporting DDA: Wells Fargo, Fidelity, Citi, 
+* OFX: Chase
+
+
+UK OBS (Nat/John)
+------------------
+* Need to come up with some spec in one to two weeks. 
+* The solution needs to be implementable by the major vendors. 
+* Bunch of change requests to be discussed in WD section of the agenda. 
+
+Others
+------------
+
+* OFX (Anoop)
+* ISO/TC68
+* Figo
+* JP Banking Association (Nat)
 
 Drafts
 ===================
@@ -32,7 +60,8 @@ Part 1: Read Only API Security Profile (Nat)
 
 Not mandating public client support
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+* Change SHALL to SHOULD. 
+* Make PKCE conditional. 
 
 Part 2: Read & Write API Security Profile (Nat & Edmund)
 ------------------------------------------------------------
@@ -41,36 +70,32 @@ Part 2: Read & Write API Security Profile (Nat & Edmund)
 
 PoP other than Token Binding
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* WG decided to mandate PoP but allow two different methods: 
+    * Token Binding
+    * Sender constraint via Client Cert. 
 
+* Client cert sender constraint should allow following verification methods: 
+    * jku
+    * x5u
+    * x5t
+    * dn <-- needs to be defined. All the others are defined in RFC8700. 
+
+* Nat will come up with a draft and send it over to the list, and post it to IETF on Friday. 
 
 
 Part 3: Open Data API
 ----------------------------
-* 
+* N/A
 
 Part 4: Protected Data API and Schema - Read only (Sascha)
 ---------------------------------------------------------------
-* 
+* N/A
 
 Part 5: Protected Data API and Schema - Read and Write
 ----------------------------------------------------------------
-* This seems to be a priority but ... 
-
-External Orgs
-==================
-
-UK OBS (Dave)
----------------
-
-Others
-------------
-* FS-ISAC DDA (Anoop)
-* OFX (Anoop)
-* ISO/TC68
-* Figo
-* JP Banking Association (Nat)
-
-
+* This seems to be a priority. 
+* Passing payment info in request object to have the user consent. 
+* Gather example schema in the document so that we can abstract them later. 
 
 AOB
 ========
@@ -79,5 +104,6 @@ Next Call (Atlantic)
 --------------------------
 * Next call is Atlantic shift and is in next week. 
   Nat is unable to make it. Perhaps John or Dave to set up a call. 
+* Consider twice a week call until UK requirements are met? 
 
 The meeting adjourned at ????? UTC.
