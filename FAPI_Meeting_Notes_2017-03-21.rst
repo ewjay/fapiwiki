@@ -75,9 +75,11 @@ External Orgs
 
 UK OBS (Dave, John)
 -------------------------
+* Not recorded
 
 Others
 ------------
+* IETF is wanting another chair for OAuth WG, who knows the administrative process. 
 
 AOB
 ===========
