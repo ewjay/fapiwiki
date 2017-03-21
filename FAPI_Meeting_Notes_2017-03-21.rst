@@ -60,12 +60,15 @@ Other issues in Bitbucket
 
 Part 3: Open Data API
 ----------------------
+* Skipped
 
 Part 4: Protected Data API and Schema - Read only
 --------------------------------------------------------
+* Skipped
 
 Part 5: Protected Data API and Schema - Read and Write
 -----------------------------------------------------------
+* Skipped
 
 External Orgs
 ================
