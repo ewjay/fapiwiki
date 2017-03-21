@@ -1,14 +1,7 @@
-Date & Time: 2017-03-15 14:00 UTC
-Location: GoToMeeting https://global.gotomeeting.com/join/321819862
-
-
-
-
-
 ============================================
-FAPI WG Meeting Notes (2017-03-07)
+FAPI WG Meeting Notes (2017-03-15)
 ============================================
-Date & Time: 2017-03-07 23:00 UTC
+Date & Time: 2017-03-15 15:00 UTC
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
