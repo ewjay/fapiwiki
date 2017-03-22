@@ -1,7 +1,10 @@
 ============================================
 FAPI WG Meeting Notes (2017-03-21)
 ============================================
-Date & Time: 2017-03-21 23:00 UTC
+Date & Time: 2017-03-21 22:00 UTC
+
+* The call started one hour earlier as the calendar entry was pegged to US time rather than UTC. 
+    * More discussion about it in AOB. 
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
