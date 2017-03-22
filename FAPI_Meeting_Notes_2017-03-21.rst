@@ -57,7 +57,7 @@ Other issues in Bitbucket
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * #77, #78: Edmund created a branch for discussion. It is capturing the good practice for authentication protocols. 
-* Lengthy discussion followed. While this method leaks less information to attackers, for the know attacks, enforcing JWT client authentication seems adequate. For FAPI purposes, we probably do not need it while it would make a good discussion point in the July OAuth Security workshop in Zurich. 
+    * Lengthy discussion followed. While this method leaks less information to attackers, for the know attacks, enforcing JWT client authentication seems adequate. For FAPI purposes, we probably do not need it while it would make a good discussion point in the July OAuth Security workshop in Zurich. 
     * The difference in the security characteristics for including client intent in the authorization request or not is whether Authorization Server can detect badly configured client or not. 
 
 
