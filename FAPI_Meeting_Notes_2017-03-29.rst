@@ -41,10 +41,10 @@ JPoP @ IETF report (Nat)
 * Then, the client just sends the access token like bearer token but over the client cert authenticated channel. 
 * Upon receipt of it, the resource gets SSL_CLIENT_CERT and calculates x5t#s256 and compares it with the x5t#s256 that is associated with the access token. 
 * We could have done it with SSL_CLIENT_M_SERIAL and SSL_CLIENT_I_DN but this will not be applicable when self issued certificates are to be used e.g., the mobile applications. x5t#s256 will be more robust. 
-* Would we get a push back from OBS that we do not use DN? 
+* Q. Would we get a push back from OBS that we do not use DN? 
 
 Issues 
-=========
+========
 * #72, #73, #74, #75, #79, #80, #81, #82, #83
 
 External Orgs
