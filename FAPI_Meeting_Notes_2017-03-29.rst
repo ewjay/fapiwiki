@@ -26,6 +26,7 @@ Adoption of the Agenda (Nat)
 
 JPoP @ IETF report (Nat)
 ==========================
+* issue #75
 * Reviewed in the Monday session. 
 * Great desire to do only one way. 
 * AdHoc F2F among people interested on Tuesday
