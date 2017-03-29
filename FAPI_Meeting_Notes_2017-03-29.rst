@@ -3,9 +3,6 @@ FAPI WG Meeting Notes (2017-03-29)
 ============================================
 Date & Time: 2017-03-29 14:00 UTC
 
-* The call started one hour earlier as the calendar entry was pegged to US time rather than UTC. 
-    * More discussion about it in AOB. 
-
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
 .. sectnum:: 
@@ -19,74 +16,49 @@ The meeting was called to order at 15:10 UTC.
 
 Roll Call
 ===========
-* Attending: John, Nat, Edmund, Tom, Henrik, Joseph
-* Regrets: Tony, ANoop, Sascha
+* Attending: 
+* Regrets: 
 
 
 Adoption of the Agenda (Nat)
 ==================================
-* Adopted as presented. 
+* 
 
-Drafts
-==========
+JPoP @ IETF report (Nat)
+==========================
+* Reviewed in the Monday session. 
+* Great desire to do only one way. 
+* AdHoc F2F among people interested on Tuesday
+* Just go with x5t#s256 cnf method
+    * This means we do not need Signature Method anymore. 
+* Merge with X.509 client authentication draft
+    * Brian Campbell is working on it right now to be reviewed in Friday session. 
+* Basically, what the token endpoint would be doing is: 
+    * Get the content of SSL_CLIENT_CERT, which is a PEM version of the client cert. 
+    * Convert it to DER and take sha256. 
+    * Associate it with the access token. (Format is proprietary to the authorization server and the resource) 
+    * Return the access token. 
+* Then, the client just sends the access token like bearer token but over the client cert authenticated channel. 
+* Upon receipt of it, the resource gets SSL_CLIENT_CERT and calculates x5t#s256 and compares it with the x5t#s256 that is associated with the access token. 
+* We could have done it with SSL_CLIENT_M_SERIAL and SSL_CLIENT_I_DN but this will not be applicable when self issued certificates are to be used e.g., the mobile applications. x5t#s256 will be more robust. 
+* Would we get a push back from OBS that we do not use DN? 
 
-Part 1: Read Only API Security Profile
----------------------------------------------
-
-Issue #76 - Can vs May
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-* Accepted changes. 
-
-Part 2: Read & Write API Security Profile
--------------------------------------------------
-
-PoP other than Token Binding - https://tools.ietf.org/html/draft-sakimura-oauth-jpop-01
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* We need both raw and artifact version of JPOP token
-* Artifact version needs to be introspected. 
-* Need new claim "jty": JPOP / JPOPA (for artifact)
-* Resources discovery: abstract resource identifier. 
-* AT needs to include `aud`. 
-* Resource server returns the header that includes Resoruce server metada URI. 
-* Resource server metadata format needs to be defined. Mike had one in the past. 
-    * https://tools.ietf.org/html/draft-jones-oauth-resource-metadata-01
-        * it uses .well-known, which is not good. 
-* Security consideration on TLS binding on the server side if the server has access to TLS info. 
-
-Other issues in Bitbucket
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* #77, #78: Edmund created a branch for discussion. It is capturing the good practice for authentication protocols. 
-    * Lengthy discussion followed. While this method leaks less information to attackers, for the know attacks, enforcing JWT client authentication seems adequate. For FAPI purposes, we probably do not need it while it would make a good discussion point in the July OAuth Security workshop in Zurich. 
-    * The difference in the security characteristics for including client intent in the authorization request or not is whether Authorization Server can detect badly configured client or not. 
-
-
-Part 3: Open Data API
-----------------------
-* Skipped
-
-Part 4: Protected Data API and Schema - Read only
---------------------------------------------------------
-* Skipped
-
-Part 5: Protected Data API and Schema - Read and Write
------------------------------------------------------------
-* Skipped
+Issues 
+=========
+* #72, #73, #74, #75, #79, #80, #81, #82, #83
 
 External Orgs
 ================
 
-UK OBS (Dave, John)
+UK OBS (Dave)
 -------------------------
-* Not recorded
+* 
 
 Others
 ------------
-* IETF is wanting another chair for OAuth WG, who knows the administrative process. 
+* 
 
 AOB
 ===========
-Next Call (Atlantic)
+Next Call (Pacific)
 -----------------------
-* Question was raised whether we want to peg the time to UTC or to move around with Daylight saving time. 
-* Opinion was split in the call. Nat will ask about it in the list as well.
