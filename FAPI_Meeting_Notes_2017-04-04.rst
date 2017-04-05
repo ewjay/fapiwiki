@@ -31,42 +31,42 @@ MTLS @ IETF report (John)
 Issues 
 ========
 
-`#83 - Support for GET <../../issues/83>`_
+`#83 - Support for GET <../issues/83>`_
 -------------------------------------------------------------
 * Awaiting pull request from Pam
 
-`#82 - Strict Access Control to logs <../../issues/82>`_
+`#82 - Strict Access Control to logs <../issues/82>`_
 -------------------------------------------------------------
 * Awaiting pull request from Pam
 
-`#81 - Identify user associated to the access token <../../issues/81>`_
+`#81 - Identify user associated to the access token <../issues/81>`_
 -------------------------------------------------------------
 * Will replace 'user' with 'entity'
 * Awaiting pull request
 
-`#79 - Part 1: issues with x-fapi-customer-last-logged-time header <../../issues/79>`_
+`#79 - Part 1: issues with x-fapi-customer-last-logged-time header <../issues/79>`_
 -------------------------------------------------------------
 * Nat will merge pull request from Joseph
 
-`#78 - Malicious Endpoint Attack <../../issues/78>`_
+`#78 - Malicious Endpoint Attack <../issues/78>`_
 -------------------------------------------------------------
 * Having a signed request object in Hybrid flow will mitigate this attack
 
-`#77 - IdP Confusion Attack <../../issues/77>`_
+`#77 - IdP Confusion Attack <../issues/77>`_
 -------------------------------------------------------------
 * Having a signed request object in Hybrid flow and unique redirect_uri per client_id will mitigate this attack
 
-`#75 - Support other method of HoK than TOKB <../../issues/75>`_
+`#75 - Support other method of HoK than TOKB <../issues/75>`_
 -------------------------------------------------------------
 * JPOP will be merged with client certificate authentication at Token endpoint by Brian
 * Waiting for merged spec to become work item in OAuth WG
 * Meanwhile, we can put links in the annex and then update the reference point once the spec is approved
 
-`#72 - Spec not clear as to which auth flows are supported <../../issues/72>`_
+`#72 - Spec not clear as to which auth flows are supported <../issues/72>`_
 -------------------------------------------------------------
 * Dave will create pull request before next call
 
-`#61 - Fund availability API <../../issues/61>`_
+`#61 - Fund availability API <../issues/61>`_
 -------------------------------------------------------------
 * Discussion is going towards waiting for implementation entities to do it first
 * Put on hold
