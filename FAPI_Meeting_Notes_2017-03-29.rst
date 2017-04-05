@@ -52,9 +52,8 @@ JPoP @ IETF report (Nat)
 Issues 
 ========
 
-#79 - Part 1: issues with x-fapi-customer-last-logged-time header
+`#79 - Part 1: issues with x-fapi-customer-last-logged-time header <../../issues/79>`_
 -------------------------------------------------------------
-* Issue #79
 * There is some confusion in regards to the "time" part of the header name.
 * Some want it to end with 'date' instead.
 * Some want to drop the 'customer' part.
@@ -62,54 +61,47 @@ Issues
 * The suggestion will be sent to the mailing list for feedback.
 
 
-#81 - Identify user associated to the access token
+`#81 - Identify user associated to the access token <../../issues/81>`_
 -------------------------------------------------------------
-* Issue #81 
 * The word 'user' may be too specific.
 * In some places, it could be the 'subject', 'principal', or 'entity' of the Access Token
 * Will try to replace with 'entity' to see it will work
 
 
-#72 - Spec not clear as to which auth flows are supported
+`#72 - Spec not clear as to which auth flows are supported <../../issues/72>`_
 -------------------------------------------------------------
-* Issue #72
 * Need to be more explicit
 * Nat said Hybrid flow but John said that Hybrid may not be  used in some cases
 * Dave will create new text to clarify
 
 
-#73 - Spec says Authorization Server shall support both public and confidential clients
+`#73 - Spec says Authorization Server shall support both public and confidential clients <../../issues/73>`_
 -------------------------------------------------------------
-* Issue #73
 * Nat has already made changes to that support for both is optional
 * Issue is closed
 
-#74 - Write spec should only support confidential clients
+`#74 - Write spec should only support confidential clients <../../issues/74 >`_
 -------------------------------------------------------------
-* Issue #74
 * It depends on use case
     * It can be a private API used by the FI's own clients
     * It can be public API used by third parties
 * Dave will create text to be inserted into Introduction to highlight use cases.
 
 
-#80 - Token Response
+`#80 - Token Response <../../issues/80>`_
 -------------------------------------------------------------
-* Issue #80
 * The text is not clear whether the response must conform to RFC 6749
 * It's agreed that the response MUST conform to RFC 6749
 * Pam will create new text for pull request
 
-#82 - Strict Access Control to logs
+`#82 - Strict Access Control to logs <../../issues/82>`_
 -------------------------------------------------------------
-* Issue #82
 * It's confusing whether the word 'should' means 'MUST'
 * It is only recommendation language.
 * PAM will create alternative text and create pull request
 
-#83 - Support for GET
+`#83 - Support for GET <../../issues/83>`_
 -------------------------------------------------------------
-* Issue #83
 * It points to the whole RFC2616 spec and not a specific section
 * It is confusing whether read only requests can only support the GET verb
 * The intention is that GET verb MUST be supported and others MAY be supported
