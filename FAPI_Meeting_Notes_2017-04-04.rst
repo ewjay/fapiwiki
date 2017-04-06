@@ -107,3 +107,5 @@ AOB
 ===========
 Next Call (Atlantic)
 -----------------------
+
+The meeting was adjourned at 23:58 UTC
