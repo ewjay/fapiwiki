@@ -41,6 +41,7 @@ Welcome to the Official OIDF FAPI WG wiki!
 * [[FAPI_Meeting_Notes_2017-03-21]]
 * [[FAPI_Meeting_Notes_2017-03-29]]
 * [[FAPI_Meeting_Notes_2017-04-04]]
+* [[FAPI_Meeting_Notes_2017-04-12]]
 
 ## Pre-working draft copy (Editor's Draft)
 
