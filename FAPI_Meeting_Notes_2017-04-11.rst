@@ -71,11 +71,12 @@ UK OBS (Ralph)
   and UK banks.
 * View/desire exists to change management/maintenance of profile from Open Banking Implementation Entity to OIDF
 * OB will be joining the OIDF
-* How can we fast track/accelerate development of read/write profile?
-  Need discussions among WG, reuse existing specs as appropriate instead of reinventing
-  Need to align on a common security/trust framework instead of a specific API
-  Should still document existing APIs being used so it can be publicly available    
-  Contributions can be easily submitted to the WG after submitting IPR
+* How can we fast track/accelerate development of read/write profile?  
+  
+  - Need discussions among WG, reuse existing specs as appropriate instead of reinventing  
+  - Need to align on a common security/trust framework instead of a specific API  
+  - Should still document existing APIs being used so it can be publicly available    
+  - Contributions can be easily submitted to the WG after submitting IPR
 
 * Ralph gave overview/history of PSD 1/2 
   There are mandates for a common API for the following services by 2018/01/01 :
@@ -84,14 +85,15 @@ UK OBS (Ralph)
    c) Payment services
 
 * KYC laws require banks to verify identity of account holder
-  This makes banks an authority for verifying identity
-  Some banks opposed to identity attestation services
-  If major banks offer ID services, most will follow
-  ID services is very valuable for other industries(medical) / services
-  Providing identity information is optional in FAPI
-  There are no provisions in PSD2 for standardizing account creation APIs so use case 
-  of creating a new account to transfer money by unauthorized party seems unlikely
-  Also parties using API must be designated by a national financial authority
+  
+  - This makes banks an authority for verifying identity
+  - Some banks opposed to identity attestation services
+  - If major banks offer ID services, most will follow
+  - ID services is very valuable for other industries(medical) / services
+  - Providing identity information is optional in FAPI
+  - There are no provisions in PSD2 for standardizing account creation APIs so use case 
+  - of creating a new account to transfer money by unauthorized party seems unlikely
+  - Also parties using API must be designated by a national financial authority
    
 
 ISO/TC68 (Nat)
