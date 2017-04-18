@@ -15,80 +15,33 @@ The meeting was called to order at 15:10 UTC.
 
 Roll Call
 ===========
-* Attending:  
-* Regrets: Nat
+* Attending:  Sascha, Bjorn, Brian and Anoop
+* Regrets: Nat and Tony
 
 
 Adoption of the Agenda (Anoop)
 ==================================
-* Adopted with the addition of the following:
-    * Action items necessary to finalize read/write spec
+* Adopted agenda as it is without any change.
 
-MTLS @ IETF report (John)
-==========================
-* issue #75
 
 Issues 
 ========
-
-`#83 - Support for GET <../issues/83>`_
--------------------------------------------------------------
-* Awaiting pull request from Pam
-
-`#82 - Strict Access Control to logs <../issues/82>`_
--------------------------------------------------------------
-* Awaiting pull request from Pam
-
-`#81 - Identify user associated to the access token <../issues/81>`_
--------------------------------------------------------------
-* Will replace 'user' with 'entity'
-* Awaiting pull request
-
-`#79 - Part 1: issues with x-fapi-customer-last-logged-time header <../issues/79>`_
--------------------------------------------------------------
-* Nat will merge pull request from Joseph
-
-`#78 - Malicious Endpoint Attack <../issues/78>`_
--------------------------------------------------------------
-* Having a signed request object in Hybrid flow will mitigate this attack
-
-`#77 - IdP Confusion Attack <../issues/77>`_
--------------------------------------------------------------
-* Having a signed request object in Hybrid flow and unique redirect_uri per client_id will mitigate this attack
-
-`#75 - Support other method of HoK than TOKB <../issues/75>`_
--------------------------------------------------------------
-* JPOP will be merged with client certificate authentication at Token endpoint by Brian
-* Waiting for merged spec to become work item in OAuth WG
-* Meanwhile, we can put links in the annex and then update the reference point once the spec is approved
-
-`#72 - Spec not clear as to which auth flows are supported <../issues/72>`_
--------------------------------------------------------------
-* Dave will create pull request before next call
-
-`#61 - Fund availability API <../issues/61>`_
--------------------------------------------------------------
-* Discussion is going towards waiting for implementation entities to do it first
-* Put on hold
-
-
-Action Items Necessary to Finalize Read/Write Spec 
-===================================================
-* There seems to be not much in the sections regarding accessing resources and security considerations
-* For Security Considerations, if server supports pure bearer and mutual TLS bound token, it should not support both on same endpoint
-
-* In UK, some FIs send payment information via reference uri. Is it possible to merge this with request_uri and remove additional endpoint by requiring support and request_uri with encryption?
-* For now, will keep options open
-
-* Is AS and Client sections complete? Nat will do another pass
-
-
+#83 & #84 – Sascha will update the tickets. 
+No updates on other Issues and many issue has not been assigned.
 
 External Orgs
 ================
 
 FS-ISAC (Anoop)
 -----------------
+
+#. May 18th & May 19th in SFO (Intuit office ) and Reston, VA (FS-ISAC office) – Onsite & video link between two location
+#. Below topics :
+* Openid Vs OAUTH material 
+* Standards in the industry – FAPI being one of them. 
+* Nat is working identifying OpenId representation for
+* Bjorn is in Bay Area California.
+
 
 UK OBS (Dave)
 -------------------------
@@ -106,4 +59,4 @@ AOB
 Next Call (Atlantic)
 -----------------------
 
-The meeting was adjourned at 23:58 UTC
+The meeting was adjourned at 23:00 UTC
