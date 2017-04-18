@@ -1,7 +1,7 @@
 ============================================
 FAPI WG Meeting Notes (2017-04-04)
 ============================================
-Date & Time: 2017-04-04 23:00 UTC
+Date & Time: 2017-04-18 23:00 UTC
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
@@ -15,11 +15,11 @@ The meeting was called to order at 15:10 UTC.
 
 Roll Call
 ===========
-* Attending: Nat, Dave, Edmund 
-* Regrets: 
+* Attending:  
+* Regrets: Nat
 
 
-Adoption of the Agenda (Nat)
+Adoption of the Agenda (Anoop)
 ==================================
 * Adopted with the addition of the following:
     * Action items necessary to finalize read/write spec
