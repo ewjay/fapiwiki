@@ -77,6 +77,7 @@ Mobile Connect (Dave)
 * Back Channel Authentication -- two proposals. 
     * CIBA
 * Two joint workshops May 11, 12. 
+* Current IPR problems with GSMA may be able to be addressed by using LC. Bjorn and Nat will talk about it next week at IIW. 
 
 Euro Retail Payments Board (Dave)
 -------------------------------------
