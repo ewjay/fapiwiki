@@ -94,7 +94,7 @@ Others
 * https://leveloneproject.org/ has some API for such countries. 
 * Nat pointed out that although our priority is on EU right now, we should get there eventually and plan that out. 
   He has much sympathy with those countries as he grew up in Kenya. Nat also has a connection with 
-  the CEO of Taquanu, a bank dealing with those market, so we could try to coordinate. 
+  the CEO of Taqanu (https://www.taqanu.com/), a bank dealing with those market, so we could try to coordinate. 
 
 AOB
 ===========
