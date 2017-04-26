@@ -58,8 +58,9 @@ UK OBS (Dave)
 
 ISO/TC68 (Paul)
 -------------------
-* 
-
+* Need to send out the liaison letter to them. Paul will update the list in 48 hours time. 
+* Nat will update the WG presentation so that it can be attached to the letter. 
+* The liaison letter need to go out pretty soon. 
 
 Starling Bank (Dave)
 ----------------------
@@ -86,7 +87,11 @@ Euro Retail Payments Board (Dave)
 
 Others
 ------------
-* https://leveloneproject.org/
+* Tom raised an issue with FAPI solely concentrating on G20 economy that we need to start looking at developing economies. e.g., countries with stored value on the phone like m-pesa. 
+* https://leveloneproject.org/ has some API for such countries. 
+* Nat pointed out that although our priority is on EU right now, we should get there eventually and plan that out. 
+  He has much sympathy with those countries as he grew up in Kenya. Nat also has a connection with 
+  the CEO of Taquanu, a bank dealing with those market, so we could try to coordinate. 
 
 AOB
 ===========
