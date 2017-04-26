@@ -11,11 +11,7 @@ Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
 .. contents:: Agenda
 
-The meeting was called to order at 15:10 UTC. 
-
-
-The meeting was called to order at 15:10 UTC. 
-
+The meeting was called to order at 15:05 UTC. 
 
 Roll Call
 ===========
@@ -36,11 +32,12 @@ Pull requests
 
 Other issues
 ---------------
-* #60, #86, 
-* #72 : Close it. 
+* #60: change accepted. Waiting for a pull request. 
+* #86: change accepted. Waiting for a pull request. 
+* #72: Close it. 
 * #77, #78: Add brief description in the intro, and details in the security considerations in Part 2. 
 * #80: Nat to make the change rather than waiting a pull req from Pam
-* #82: 
+* #82: Check if the normative language description was added in the Intro. If so, close it. 
 * #84: Joseph is going to make pull requests. 
 
 
