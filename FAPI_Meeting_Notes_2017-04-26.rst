@@ -17,7 +17,7 @@ Roll Call
 ===========
 * Attending: Nat, Bjorn, Dave, Henrik, Joseph, Paul, Tom
 
-* Regrets: John, Tony, Anoop
+* Regrets: John, Tony, Anoop, Sascha
 
 Adoption of the Agenda (Nat)
 ==================================
