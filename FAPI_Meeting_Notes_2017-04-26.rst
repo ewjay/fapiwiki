@@ -32,7 +32,10 @@ Issues
 
 Pull requests
 ----------------
-* #80, #81
+* #80, #81 will be accepted. 
+
+Other issues
+---------------
 * #60, #86, 
 * #72 : Close it. 
 * #77, #78: Add brief description in the intro, and details in the security considerations in Part 2. 
