@@ -63,14 +63,16 @@ ISO/TC68 (Nat)
 * Finally sent out our liaison request. 
 * 4 weeks ballot starting. 
 
-Others
-------------
+
+
+AOB
+===========
+Part 2 completion timeline 
+------------------------------
 * Edmund is working on the security consideration and the corresponding lines in the introduction. 
 * Nat will work on the request object endpoint chapter this week. 
 * Content-wise, it should be complete by the end of the week. 
 
-AOB
-===========
 Next Call (Atlantic)
 -----------------------
 * Please refer to the group calendar for the exact call time. 
