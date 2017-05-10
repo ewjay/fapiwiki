@@ -15,7 +15,7 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Nat, Dave, Henrik, Joseph, Ralph, Sasch, Tony, Tom
 
 * Regrets: 
 
@@ -33,40 +33,54 @@ Euro Retail Payments Board (Dave)
 * Establish formal rel. with them? 
 * Dave will meet with them next week. 
 
-UK OBS (Dave)
+Concern on separatism. 
+Recommend FAPI profile. 
+
+UK Open Banking (Ralph)
 -------------------------
-* Good call on Monday with OBS and Dave, Nat, John. 
-* Explained the split. 
-* UK is developing their own data payload and endpoints
-    * e.g. https://www.openbanking.org.uk/developers/
-    * https://developer.openbanking.org.uk/open-data/api-console/
-    * https://github.com/OpenBankingUK/opendata-api-spec-compiled
-* UK OBS to adopt modified FAPI for the begining with the roadmap to comply later
-* May 23 workshop
-* OBS hoping to join FAPI, under legal check now. 
+0.1 draft out. 
+Lots of comments came in. 
+FAPI did not have too much decent. 
+Redirect usecases. 
+Screen scraping continue? Direct access model is good enough? 
+Add context headers. 
 
-ISO/TC68 (Paul)
+OB session with UK Verify. 
+22nd meeting. Go to market activity. 
+Automatic KYC. 
+
+Microsoft B2C participating in Verify UK for private provider access. 
+Berclay IdP for ID attestation. 
+Providing ID Claims direct in authz flow. 
+
+Hookup B2c to Prototype with Verify as it supports JWT ID Token. 
+
+With very little effort UK FI can be IdPs. 
+
+Q. Any dates for being public? 
+A. Website update late but it is public. 
+   Open Banking has adopted RW FAPI Spec. 
+   CMA + OIDF conformance profile. OIX event on 22nd. 
+
+
+ISO/TC68 (Nat)
 -------------------
-* Need to send out the liaison letter to them. Paul will update the list in 48 hours time. 
-* Nat will update the WG presentation so that it can be attached to the letter. 
-* The liaison letter need to go out pretty soon. 
-
-Starling Bank (Dave)
-----------------------
-* TOauth
-* Came up with OAuth 2.0 API. 
-* re: #77, #78
-* Nat to send Torsten's draft to the list. 
-* Dave to start using it to persuade banks. 
+* 
 
 Mobile Connect (Dave)
 -----------------------
-* Mobile Connect being introduced as strong customer authentication by Banks. 
-* Modrna has relationship with CPAS 
-* Back Channel Authentication -- two proposals. 
-    * CIBA
-* Two joint workshops May 11, 12. 
-* Current IPR problems with GSMA may be able to be addressed by using LC. Bjorn and Nat will talk about it next week at IIW. 
+* Attribute attestation. 
+* Which bank would be part of verify? 
+    * Berclay
+    * Challenger banks wants automated KYC. Atom, Staling, etc. 
+    * Passport verification svc not available to all banks. 
+
+Lobbying vendors to support federated claims. 
+
+Q. Reasonal Target date? 
+A. Atom and Sterling wants ASAP. 
+   No reason why banks cannot consume payloads. 
+
 
 Others
 ------------
@@ -77,13 +91,16 @@ Part 2: WGLC Issues
 * #93: Not clear why AS needs to support signed+encrypted ID Token
 * #92: Put cipher suite recommendations in the security considerations
 * #91: Id mix up attack
+    clarify. 
 * #89: s_hash needs to be defined more precisely
+   close. 
 * #88: Sender constraining the code
 * #87: Need create request_uri endpoint in AS
 * #78: Malicious Endpoint Attack
 * #77: IdP Confusion Attack
 * #60: Only one method to Token Bind AT rather than two?
 
+* Public client defintion. 
 
 AOB
 ===========
