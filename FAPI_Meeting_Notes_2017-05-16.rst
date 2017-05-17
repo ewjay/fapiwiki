@@ -18,7 +18,7 @@ Roll Call
 * Attending: Nat Sakimura, Tom Jones, Edmund Jay, Anthony Nadalin
    * Guest: Bruno Azenha [Accenuter Technology Architecture (UKI)]
 
-* Regrets: Anoop, John
+* Regrets: Anoop Saxena, John Bradley (flying)
 
 Adoption of the Agenda (Nat)
 ==================================
