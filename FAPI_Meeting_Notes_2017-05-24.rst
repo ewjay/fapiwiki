@@ -17,8 +17,7 @@ Roll Call
 ===========
 * Attending: Nat, Dave, Joseph, Brian, Tom, Pam
    * Guest: Bjorn
-
-* Regrets: 
+* Regrets: Tony, John (due to travel) 
 
 Adoption of the Agenda (Nat)
 ==================================
