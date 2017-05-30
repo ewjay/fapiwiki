@@ -53,6 +53,9 @@ Part 2: Status
 
 Future Plans
 ================
+* Cloud Identity Summit
+* Part 1 & 2 implementation status tracking and the final vote plans
+* Plans for Part 3 etc. 
 
 AOB
 ===========
