@@ -103,4 +103,4 @@ Next Call (Atlantic)
 -----------------------
 * Nat will be traveling next week and may not be able to call in. John will host the call. 
 
-The meeting was adjourned at 23:__ UTC.
+The meeting was adjourned at 23:58 UTC.
