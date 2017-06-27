@@ -63,6 +63,12 @@ N/A
 
 Draft status and plans 
 ===========================
+Issues
+------------------
+* #102 -- Query re `x-fapi-...` headers
+* #101 -- JWS signature algorithms for RW
+* #100 -- Signing API response payloads
+
 
 CIBA/Decoupled profile
 ------------------------
