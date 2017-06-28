@@ -1,3 +1,34 @@
+============================================
+FAPI WG Meeting Notes (2017-06-06)
+============================================
+Date & Time: 2017-06-06 14:00 UTC
+
+Location: GoToMeeting https://global.gotomeeting.com/join/321819862
+
+.. sectnum:: 
+   :suffix: .
+
+
+.. contents:: Agenda
+
+The meeting was called to order at 15:00 UTC. 
+
+Roll Call
+===========
+* Attending: John, Dave, ...
+   * Guest: 
+* Regrets: Nat (due to travel) 
+
+Adoption of the Agenda (Nat)
+==================================
+* 
+
+External Orgs
+================
+
+Euro Retail Payments Board (Dave)
+-------------------------------------
+
 The EBA's final draft is here:
 https://www.eba.europa.eu/documents/10180/1761863/Final+draft+RTS+on+SCA+and+CSC+under+PSD2+%28EBA-RTS-2017-02%29.pdf
 
@@ -26,9 +57,27 @@ FCA Approach Doc 17.66:
 During the period before the SCA-RTS becomes applicable, the parties may find it helpful to take account of industry standards which are being developed as a result of the Competition and Markets Authority’s Open Banking Remedy
 
 HMT Consultation on PSD2 6.10:
-The government therefore sees the PSDII implementing regulations as providing the legislative foundations on which the Open Banking API Standard then sits. Although APIs are only one method by which ASPSPs could provide the access to AISPs or PISPs mandated under the PSDII, the government believes a commonly utilised API framework will lead to greater competition in the retail banking and “third party” services market and better outcomes for payers and other end users. 
+The government, therefore, sees the PSDII implementing regulations as providing the legislative foundations on which the Open Banking API Standard then sits. Although APIs are only one method by which ASPSPs could provide the access to AISPs or PISPs mandated under the PSDII, the government believes a commonly utilized API framework will lead to greater competition in the retail banking and “third party” services market and better outcomes for payers and other end users. 
 
 
 On a final note, a number of the "CMA9" banks who are mandated to implement the Open Banking Standard have operations in other EU states (e.g. Danske, AIB, BOI) and my understanding is that they want to use the standard not only in the UK but for all their operations.
 
-Hopefully we will see increased adoption of FAPI over the coming months.
+Hopefully, we will see increased adoption of FAPI over the coming months.
+
+* https://www.ecb.europa.eu/paym/retpaym/euro/html/index.en.html
+* Letter sent out. 
+* Draft report is out now. It does not include any solutions. Dave expects more chance to interact. 
+
+
+AOB
+===========
+
+Implementations
+-------------------
+
+
+Next Call (Pacific)
+-----------------------
+* Please do refer to the group calendar for the time. 
+
+The meeting was adjourned at 14:38 UTC.
