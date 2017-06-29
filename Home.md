@@ -54,10 +54,9 @@ Welcome to the Official OIDF FAPI WG wiki!
 * [[FAPI_Meeting_Notes_2017-06-20]]
 * [[FAPI_Meeting_Notes_2017-06-27]]
 
-## Pre-working draft copy (Editor's Draft)
+## Useful Resources
 
-* [[Editors-Draft-00]] 
-* [[parking-lot]]
+* http://oixuk.org/wp-content/uploads/2016/10/OpenBanking-Update-22-May-2017-v1.0.pdf
 
 ## Wiki References
 
