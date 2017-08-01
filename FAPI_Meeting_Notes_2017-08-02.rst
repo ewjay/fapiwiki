@@ -41,7 +41,12 @@ Future Specification Planning
 
 Events
 ==========
+APIDays Berlin: Banking APIs and PSD2 (Nat)
+---------------------------------------------
+* Apply to be a speaker? 
 
+Fall F2F
+-------------
 
 AOB
 ===========
