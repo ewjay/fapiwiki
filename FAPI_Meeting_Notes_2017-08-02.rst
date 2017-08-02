@@ -15,7 +15,7 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Bjorn, Joh, Nat, Brian, Dave, Joseph, Mark H, Henrik, 
    * Guest: 
 * Regrets: 
 
@@ -34,19 +34,27 @@ Berlin Group (Dave)
 ---------------------------
 * Talked with Torsten and hopeful to come up with a draft liaison letter next week. 
 
+STET 
+--------------
+* https://www.stet.eu/en/news/news1/stet-psd2-api-is-now-available.html
+
 Future Specification Planning
 =======================================
-* CIBA
+* CIBA - 6 weeks. 
 * Part 3 - 5
+
+* Vladimir Issues
 
 Events
 ==========
 APIDays Berlin: Banking APIs and PSD2 (Nat)
 ---------------------------------------------
+* http://www.apidays.io/events/banking-2017
 * Apply to be a speaker? 
 
 Fall F2F
 -------------
+* Oct. 11 - 13
 
 AOB
 ===========
