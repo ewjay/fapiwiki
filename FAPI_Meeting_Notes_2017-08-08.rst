@@ -18,7 +18,7 @@ Roll Call
 * Attending: Tony, Nat, Carla, John
    * Guest: 
 
-* Regrets: 
+* Regrets: Dave, Anoop
 
 Adoption of the Agenda (Nat)
 ==================================
