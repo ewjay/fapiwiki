@@ -15,58 +15,40 @@ The meeting was called to order at 23:07 UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Tony, Nat, Carla, John
    * Guest: 
 
 * Regrets: 
 
 Adoption of the Agenda (Nat)
 ==================================
-* 
+* Added Testing. 
 
 External Orgs
 ================
 
 FS-ISAC (Anoop)
 --------------------
-* There is a call scheduled on June 29 14:00UTC with the Security & Product and services group that deals with credential based aggregation. 
-* BoA, Citi, Fidelity confirmed on the call. 
-* From FAPI side, Anoop, Tony, Nat, and Dave. Dave was added because there is a high level of interest to the FAPI-PSD2 relationship. 
-* Agenda Plan: 
-    * Intro (10 min)
-    * FAPI presentation (20 min)
-    * Discussion (30 min)
-* Nat plans to send the slides today. 
-
-Others
-------------
-* Dave reported CAPS and NETS.eu. NETS doing a lot of work on PSD2 and OpenID Connect on strong customer authentication. 
+No updates since June 29 call. 
+In the call, it was expressed that there was not too much delta between DDA spec and FAPI from FS-ISAC's point of view, and as far as the security profile is concerned, it would be good to adopt FAPI. 
 
 
 Draft status and plans 
 ===========================
-Issues
-------------------
-
-Others
-----------
-* Ping is working with RBS for June release. 
-* Nat will get more info from FR and CA. 
-* Apigee seems to have shown interested but Nat has not heard back. Dave will re-engage with them. 
-
+Carla has joined the editing team and is in the process of updating the language in Part 1 and 2. 
+She expects to finish Part 1 and 2 by the end of this week. 
 
 Events
 ================
+FAPI WG and Modrna WG are planning a joint meeting on the week of either 9th or 23rd of October in London. 
+If you have date preferences, please let us know immediately. 
 
 AOB
 ===========
-PSD2 Trust Framework
------------------------
-Question of the client on-boarding was discussed. 
-PSD2 requires the clients to be registered. In the case of the OB, it will be registered to the OB CA. 
-Client registration would happen through Software statement. See http://openid.net/wordpress-content/uploads/2014/04/draft-mobile-registration-01.html for more details. 
+Testing
+--------------
+A new team has been brought in and they are evaluating the feasibility. 
 
-There's a little bit of info on the open banking uk directory here: http://oixuk.org/wp-content/uploads/2016/10/OpenBanking-Update-22-May-2017-v1.0.pdf - page 46
 
 Next Call (Atlantic)
 -----------------------
