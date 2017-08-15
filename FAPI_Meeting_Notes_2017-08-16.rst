@@ -41,13 +41,37 @@ STET
 
 Future Specification Planning
 =======================================
-* CIBA - 6 weeks. 
-* Part 3 - 5
 
-* Vladimir Issues
+Improvement of the text by a tech writer on Part 1 and 2 (Nat)
+----------------------------------------------------------------
+
+CIBA (Dave)
+---------------
+
+Part 3 - 5
+----------------
+
+Issues
+=================
+* #???: Ensuring one-time use of request JWTs registered at the request JWT endpoint
+    * http://lists.openid.net/pipermail/openid-specs-fapi/2017-August/000499.html
+* #122: Add s_hash example
+* #120: CIBA: x-fapi-device-id header
+* #121: CIBA: Binding Messages
+* #118: CIBA - Signature for error token notification
+* #116: CIBA - authentication methods and proof of possession
+* #115: CIBA - Support for multiple flows
+* #117: CIBA - Signature for succesful token notification
+* #110: Part 2 - more definition of s_hash
+* #114: Part 1 - Require `state`
+* #101: JWS signature algorithms for RW
+* #104: User friendly names and registration of providers
+* #100: Signing API response payloads
+* #102: Query re `x-fapi-...` headers
 
 Open Banking RW 1.0.1 (Joseph?)
 =================================
+* https://www.openbanking.org.uk/read-write-apis/security-profile/id1-0-1/
 
 Events
 ==========
