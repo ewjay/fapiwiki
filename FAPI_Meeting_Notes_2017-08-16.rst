@@ -15,7 +15,7 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 ===========
-* Attending: Nat, Carla, Dave, Joseph, 
+* Attending: Nat, Carla, Dave, Joseph, Ralph
    * Guest: 
 * Regrets: 
 
@@ -33,7 +33,7 @@ UK Open Banking (Dave/Nat)
 
 Berlin Group (Dave)
 ---------------------------
-* 
+* Introduced Torsten to Berling Group. 
 
 STET 
 --------------
@@ -82,14 +82,16 @@ APIDays Berlin: Banking APIs and PSD2 (Nat)
 
 Fall F2F
 -------------
-* 
+* Due to the availability of Tony, the week of the APIDays Berlin is likely. 
+* There was no issue raised by the callers. 
+* Nat will take it back to the Modrna WG. 
 
 AOB
 ===========
-* 
+* Dave asked if there was any feedback from FS-ISAC. Nat replied that Anoop, unfortunately, could not join the last call and that he is looking forward to the report next week. 
 
 Next Call (Pacific)
 -----------------------
 * Please do refer to the group calendar for the time. 
 
-The meeting was adjourned at 14:__ UTC.
+The meeting was adjourned at 14:53 UTC.
