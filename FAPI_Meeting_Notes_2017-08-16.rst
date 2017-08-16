@@ -15,7 +15,7 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Nat, Carla, Dave, Joseph, 
    * Guest: 
 * Regrets: 
 
