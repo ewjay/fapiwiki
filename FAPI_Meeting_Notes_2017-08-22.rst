@@ -18,7 +18,7 @@ Roll Call
 * Attending: Bjorn, Nat, Carla, Edmund, Pam, Sascha, Anoop
    * Guest: 
 
-* Regrets: Tony
+* Regrets: Tony, Dave
 
 Adoption of the Agenda (Nat)
 ==================================
