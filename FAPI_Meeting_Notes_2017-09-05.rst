@@ -15,17 +15,40 @@ The meeting was called to order at 23:07 UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Bjorn, Nat, Anoop, Brian, Edmund, Joseph, Tony
    * Guest: 
 
 * Regrets: 
 
 Adoption of the Agenda (Nat)
 ==================================
-* 
+* Adopted as is. 
 
 External Orgs
 ================
+
+FA-ISAC (Anoop)
+--------------------
+Anoop forwarded Nat the latest communication with them. 
+(Nat subsequently forwarded it to the FAPI list since there is a technical problem with Anoop posting it.) 
+They are suggesting FAPI to reference their data schema instead of copying, but Nat pointed out that we cannot normatively reference a specification that is not publicly available. 
+
+For the security part, they seem to be adopting FAPI but we need to check. 
+
+OFX (Anoop)
+--------------
+* Not much going on. 
+
+Clear Exchange (Anoop)
+-------------------------
+* Clear Exchange used to be a closed group but it is changed to Zelle and may now open for others. 
+* It is an organization that deals with the payment. 
+* Intuit has a high-level contact but not at the technical level. 
+* Paypal is involved. 
+
+BIAN (Tony)
+-------------
+* Tony will check with his IBM contacts to see the status of BIAN. 
 
 
 Draft status and plans 
@@ -33,20 +56,47 @@ Draft status and plans
 
 Streamlining the OBUK Implementer's Draft (Pam)
 ----------------------------------------------------
+* Pam is working diligently on the refactoring of OBUK profile. Please track the repo for changes and issues. 
 
 Issues
 -----------------
+* There are a bunch of issues for OBUK subgroup. Bjorn asked whether it is appropriate to discuss it in the FAPI list and the call and Nat responded that it is a sub-group so it is appropriate to do it within FAPI. 
+* For X-FAPI-* header, it seems the WG is precipitating to dropping "X-" portion. Nat will check back with Open Banking. 
 
 Events
 ================
+IIW
+-----
+Tony is not going to be there. 
+Nat might not be also as he may get a speaking opportunity at Automotive Linux Summit. 
+Never-the-less, we should give a talk at IIW. Bjorn and John will be there so perhaps they should host a session. 
+Modrna WG will be talking about CIBA. 
 
+FAPI/Modrna joint F2F
+-----------------------
+Candidate dates are now: 
+
+# Nov. 7
+# Oct. 6
+
+Nat will finalize the date this week after talking to the Open Banking. 
+
+Berlin Group
+-------------------
+Berling Group will be hosting a workshop in late October. 
+Torsten suggested that some of us attend it. 
+
+APIDays Berlin
+-------------------
+If the dates for the joint FAPI/Modrna meeting will be in November 7, 
+then someone else than Nat needs to be assigned. 
 
 AOB
 ===========
 Testing
 --------------
-
+* Progress at the OB seems to be slow. We need to keep our eyes on it. 
 
 Next Call (Atlantic)
 -----------------------
-* The meeting was adjourned at 23:__ UTC.
+* The meeting was adjourned at 23:40 UTC.
