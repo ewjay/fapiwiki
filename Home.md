@@ -8,7 +8,7 @@ Welcome to the Official OIDF FAPI WG wiki!
 
 ## Meeting Notes
 
-* [[FAPI_Meeting_Notes_2016]]
+* [[FAPI_Meeting_Notes_2016]] <-- Go here for the archive of all the meetings in 2016. 
 
 * [[FAPI_Meeting_Notes_2017-01-10]]
 * [[FAPI_Meeting_Notes_2017-01-18]]
