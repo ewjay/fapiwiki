@@ -1,7 +1,7 @@
 ============================================
 FAPI WG Meeting Notes (2017-09-13)
 ============================================
-Date & Time: 2017-09-13 24:00 UTC
+Date & Time: 2017-09-13 14:00 UTC
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
@@ -81,4 +81,4 @@ Testing
 
 Next Call (Atlantic)
 -----------------------
-* The meeting was adjourned at 23:40 UTC.
+* The meeting was adjourned at 14:__ UTC.
