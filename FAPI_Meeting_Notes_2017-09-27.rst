@@ -40,6 +40,12 @@ Draft status and plans
 Streamlining the OBUK Implementer's Draft (Pam)
 ----------------------------------------------------
 
+Verification: non-compliant JWT audience (Pam)
+------------------------------------------------
+
+Pending pull requests (Joseph)
+---------------------------------
+
 Issues
 -----------------
 
