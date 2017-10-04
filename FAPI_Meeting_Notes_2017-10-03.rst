@@ -60,19 +60,23 @@ Streamlining the OBUK Implementer's Draft (Pam)
 
 Verification: non-compliant JWT audience (Pam)
 ------------------------------------------------
-Taking `aud` out. 
+The callers agreed to that taking `aud` out of the software statement is the best strategy. 
 
-How do we find that it is a software statement? 
+Tom also asked how we differentiate a software statement from another type of JWT. 
+While it is sent to the specific endpoint in transit, it may be stored in the database and gets mixed up at a later stage so it is always good to have explicit typing. Callers agreed that explicit typing is a way to go. 
+
+Pam is going to create an issue on the OB side. 
 
 
-Pending pull requests (Joseph)
+Pending pull requests (Edmund)
 ---------------------------------
+All the pending pull requests have been accepted and merged. 
 
 Events
 ================
-Open Banking F2F (Ralph)
+Open Banking F2F (Nat)
 --------------------------
-* One is planned on Oct. 17 in London. 
+* Nat relayed the info from the last week's Atlantic call that one is planned on Oct. 17 in London. 
 
 FAPI/Modrna joint F2F
 -----------------------
