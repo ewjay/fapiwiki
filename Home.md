@@ -2,11 +2,11 @@
 
 Welcome to the Official OIDF FAPI WG wiki! 
 
-## Current Working Draft
+## Current Drafts
 
-* Implementer's Draft for Part 1: Read Only APIs security
-* Implementer's Draft for Part 2: Read and Write APIs security
-* WD on CIBA profile
+* [Implementer's Draft for Part 1: Read Only APIs security](http://openid.net/specs/openid-financial-api-part-1.html)
+* [Implementer's Draft for Part 2: Read and Write APIs security](http://openid.net/specs/openid-financial-api-part-2.html)
+* [WD on Financial API: Client Initiated Backchannel Authentication Profile](https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_CIBA.md?at=master) 
 
 ## Meeting Notes
 
