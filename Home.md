@@ -2,8 +2,6 @@
 
 Welcome to the Official OIDF FAPI WG wiki! 
 
-To see all items, please go to https://bitbucket.org/openid/fapi/wiki/browse/
-
 ## Current Working Draft
 
 * Implementer's Draft for Part 1: Read Only APIs security
@@ -11,6 +9,9 @@ To see all items, please go to https://bitbucket.org/openid/fapi/wiki/browse/
 * WD on CIBA profile
 
 ## Meeting Notes
+
+To see all items, please go to https://bitbucket.org/openid/fapi/wiki/browse/. 
+This page is not always updated so it is better to go to the above link to find out the latest notes. 
 
 * [[FAPI_Meeting_Notes_2016]] <-- Go here for the archive of all the meetings in 2016. 
 
