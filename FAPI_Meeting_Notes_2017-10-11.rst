@@ -1,7 +1,7 @@
 ============================================
 FAPI WG Meeting Notes (2017-10-11)
 ============================================
-Date & Time: 2017-10-03 14:00 UTC
+Date & Time: 2017-10-11 14:00 UTC
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
