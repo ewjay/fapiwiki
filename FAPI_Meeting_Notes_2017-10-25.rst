@@ -15,10 +15,10 @@ The meeting was called to order at 23:05 UTC.
 
 Roll Call
 ===========
-* Attending: 
-   * Guest: 
+* Attending: Nat, Bjorn, Henrik, Joseph, Torsten, Brian
+   * Guest: Phil Doyle (cyphra), 
 
-* Regrets: Anoop
+* Regrets: 
 
 Adoption of the Agenda (Nat)
 ==================================
@@ -35,8 +35,13 @@ Consultation links:
 
 See last weeks discussions for issues. 
 
+Draft response: 
+https://docs.google.com/document/d/13_-hTr4VQp-1PXQtg6R2lEJpC__x8bJxJAdMVVbwn9M/edit
+
+
 Open Banking (Ralph)
 -------------------------
+* Ping Identify 2017 London
 
  
 Draft status and plans 
@@ -54,12 +59,18 @@ Open Banking F2F Report (Ralph)
 
 FAPI/Modrna joint F2F Planning (Nat)
 ----------------------------------------
-* 
+* CIBA Profile
+* Berling Group Consultation Response
+* EBA RTS
+
 
 AOB
 ===========
 
 Next Call (Pacific)
 -----------------------
+The next call is scheduled to be on the Pacific time zone. 
+Nat will be in Europe then so he may not be able to conduct the meeting
+but working group members are welcome to do one and report back. 
 
-* The meeting was adjourned at 14:__ UTC.
+* The meeting was adjourned at 14:40 UTC.
