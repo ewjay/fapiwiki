@@ -15,7 +15,7 @@ The meeting was called to order at 23:05 UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Nat, Anoop, Edmund
    * Guest: 
 * Regrets: 
 
@@ -38,9 +38,11 @@ Draft response:
 https://docs.google.com/document/d/13_-hTr4VQp-1PXQtg6R2lEJpC__x8bJxJAdMVVbwn9M/edit
 
 
-Open Banking (Ralph)
+Open Banking
 -------------------------
-* Ping Identify 2017 London
+* OpenBanking is creating a FAPI profile and writing FAPI compliant tests
+
+
 
  
 Draft status and plans 
@@ -52,14 +54,22 @@ CIBA progress (Dave)
 
 Events
 ================
+* FAPI WG Meeting Nov 6, 2017 London 
+Venue:  Sandbox 2 Level39, One Canada Square, London, E14 5AB
+Time:  09.00 - 15.00
 
-FAPI/Modrna joint F2F Planning (Nat)
-----------------------------------------
-* CIBA Profile
-* Berling Group Consultation Response
-* EBA RTS
-* Open Banking Report
-* AOB
+* Registration : https://www.eventbrite.co.uk/e/openid-foundation-fapi-working-group-meeting-tickets-39109022138
+* Agenda will include discussions on CIBA profile and Berlin group's response.
+
+
+* Immediately following the FAPI Working Group meeting in the same
+location, OpenID Foundation and Open Banking Implementation Entity are
+hosting a workshop, "The Implications for the Banking Industry".
+
+* Registration : https://www.eventbrite.co.uk/e/openid-open-banking-implementation-entity-obie-workshop-tickets-39109106390
+
+
+
 
 
 AOB
