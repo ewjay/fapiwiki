@@ -15,7 +15,7 @@ The meeting was called to order at 23:05 UTC.
 
 Roll Call
 ===========
-* Attending: Nat, John, Ralph, Tom, Taka, Joseph, Betren (Ubisecure), Chris Michael, Dave, Bjorn
+* Attending: Nat, John, Ralph, Tom, Taka, Joseph, Betren (Ubisecure), Chris Michael, Dave, Bjorn, Anders
    * Guest: Don
 * Regrets: Tony
 
