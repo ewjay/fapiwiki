@@ -34,7 +34,7 @@ Where it will be hosted is a good question. Moving to OpenID Foundation is prefe
 Hosting is trivial. It will be provided as a Docker image. 
 A catch is that the certificate will not be live until Jan 13 so it will not be a "complete test" until then. 
 
-The suite is not using the existing python code but is written in Java and doing continuous integration using Jenkins. This was pretty much the only way to achieve the rigour required for the banking and to meet the deadline.
+The suite is not using the existing python code but is written in Java and doing continuous integration using GitLab. This was pretty much the only way to achieve the rigour required for the banking and to meet the deadline.
 
 When to hand suite over to OIDF - better before end 2017 to increase wider adoption. 
 
