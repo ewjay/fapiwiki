@@ -55,6 +55,8 @@ This page is not always updated so it is better to go to the above link to find 
 * [[FAPI_Meeting_Notes_2017-10-11]]
 * [[FAPI_Meeting_Notes_2017-10-25]]
 * [[FAPI_Meeting_Notes_2017-11-01]]
+* [[FAPI_Meeting_Notes_2017-11-06]]
+* [[FAPI_Meeting_Notes_2017-11-28]]
 
 
 
