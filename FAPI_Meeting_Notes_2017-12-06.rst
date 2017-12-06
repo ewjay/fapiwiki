@@ -111,7 +111,7 @@ AOB
 ===========
 * Dynamic Client Registration - Is Pam back? Nat will check. 
 
-Next Call (Atlantic)
+Next Call (Pacific)
 -----------------------
 The next call is scheduled to be in the Atlantic time zone. 
 
