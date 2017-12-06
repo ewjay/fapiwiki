@@ -25,18 +25,20 @@ Adoption of the Agenda (Nat)
 Open Banking IE Topics (Ralph)
 ================================
 
-Decision 088
--------------------
+Decision 088: authorizing multiple intent-ids at once
+--------------------------------------------------------
+* https://openbanking.atlassian.net/wiki/spaces/WOR/pages/28934198/088
 
-Decision 089
--------------------
+Decision 089: Pertial acceptance of intents 
+---------------------------------------------------
+* https://openbanking.atlassian.net/wiki/spaces/WOR/pages/28934198/089
+
 In addition to the decision 088 on authorizing multiple intent-ids at once, there's also two other related decisions on the expected behaviour during authorization:
-https://openbanking.atlassian.net/wiki/spaces/WOR/pages/28934198/089
 
-Decision 090
------------------
-And also - how tokens issued from the authorization grant are managed:
-https://openbanking.atlassian.net/wiki/spaces/WOR/pages/28934212/090
+
+Decision 090: how tokens issued from the authorization grant are managed
+-------------------------------------------------------------------------------
+* https://openbanking.atlassian.net/wiki/spaces/WOR/pages/28934212/090
 
 CIBA FAPI profile (Dave)
 =========================
