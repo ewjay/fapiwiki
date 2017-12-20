@@ -15,7 +15,7 @@ The meeting was called to order at 17:__ UTC.
 
 Roll Call
 ===========
-* Attending: Brian, Dave, Don, Pam, Bjorn, John, Chris & Gavin (Open Banking)
+* Attending: 
    * Guest: 
 * Regrets: Anoop, Tony
 
