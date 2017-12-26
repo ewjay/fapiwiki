@@ -15,7 +15,7 @@ The meeting was called to order at 17:__ UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Nat, Anders, Dave, Joseph, Justin, Ralph, Bjorn, Hubert Mariotte (Orange), Nicolas Aillery (Orange)
    * Guest: 
 * Regrets: Anoop, Tony
 
@@ -23,11 +23,17 @@ Adoption of the Agenda (Nat)
 ==================================
 * 
 
-User Questioning API (Bjorn)
-================================
+
+Implementer's Draft
+======================
+* Cypher suite -- Firefox 
+* Cypher suite application 
 
 Open Banking IE Topics (Chris & Gavin)
 ========================================
+Test Suite 
+---------------------
+
 
 Decision 090 Examples (Pam)
 -----------------------------------
@@ -35,8 +41,12 @@ Decision 090 Examples (Pam)
 Strong Customer Authentication Guidelines (John)
 =====================================================
 
-Implementer's Draft
-======================
+
+
+User Questioning API (Bjorn)
+================================
+
+
 
 AOB
 ===========
