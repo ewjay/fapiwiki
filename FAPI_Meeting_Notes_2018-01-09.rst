@@ -38,9 +38,18 @@ Files: Privately shared. Please contact Anoop or Nat to get the document.
 
 Upcoming Events
 ======================
+Open Banking (Don)
+---------------------
+We have planned an OpenID/Open Banking workshop for the afternoon of 30th January - unfortunately as Nat is not available, we won’t have a FAPI working Group meeting that day. Venue is RISE London, Barclays Accelerator, 41 Luke Street, London (near Shoreditch) Please feel free to register at this Eventbrite link if you and your colleagues wish to attend: https://www.eventbrite.co.uk/e/openid-foundationopen-banking-implementation-entity-workshop-tickets-42005257857
+
+API Days (Nat)
+-----------------
 
 Specs Discussion
 =======================
+CIBA Spec Update (Dave)
+---------------------------
+
 User questioning API (Bjorn)
 --------------------------------
 
