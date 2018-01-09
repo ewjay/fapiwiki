@@ -11,11 +11,11 @@ Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
 .. contents:: Agenda
 
-The meeting was called to order at 23:__ UTC. 
+The meeting was called to order at 23:05 UTC. 
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Bjorn, John, Nat, Dave, Don, Tom, Joseph
    * Guest: 
 * Regrets: 
 
@@ -25,6 +25,12 @@ Adoption of the Agenda (Nat)
 
 External Orgs 
 ==================
+
+ANSI/X9 (Nat)
+------------------
+
+ISO/TC 68 (Nat)
+-------------------
 
 FS-ISAC Response (Anoop)
 ---------------------------------
