@@ -15,7 +15,7 @@ The meeting was called to order at 23:05 UTC.
 
 Roll Call
 ===========
-* Attending: Bjorn, John, Nat, Dave, Don, Tom, Joseph
+* Attending: Bjorn, John, Nat, Dave, Don, Tom, Joseph, Edmund
    * Guest: 
 * Regrets: 
 
@@ -29,8 +29,12 @@ External Orgs
 ANSI/X9 (Nat)
 ------------------
 
-ISO/TC 68 (Nat)
--------------------
+ISO/TC 68 (Nat/Dave)
+----------------------
+
+Open Banking (Joseph)
+-------------------------
+* https://openbanking.atlassian.net/wiki/spaces/DZ/pages/23856067/OB+OIDC+Conformance+Suite
 
 FS-ISAC Response (Anoop)
 ---------------------------------
@@ -45,13 +49,24 @@ We have planned an OpenID/Open Banking workshop for the afternoon of 30th Januar
 API Days (Nat)
 -----------------
 
+
 Specs Discussion
 =======================
 CIBA Spec Update (Dave)
 ---------------------------
+* PRs -- https://bitbucket.org/openid/fapi/pull-requests/41/ciba-imrovements/diff
+* Updated issues
+* Device ID 
+* Feedbacks from F2F in November should be properly reflected
+* Post the notice to the list when PR accepted 
 
 User questioning API (Bjorn)
 --------------------------------
+
+
+Implementer's Draft (Edmund)
+--------------------------------
+
 
 Dynamic Client Registration (Pam)
 -----------------------------------
@@ -71,4 +86,4 @@ Next Call (Atlantic)
 -----------------------
 The next call is scheduled to be in the Atlantic time zone. 
 
-* The meeting was adjourned at 23:__ UTC.
+* The meeting was adjourned at 23:42 UTC.
