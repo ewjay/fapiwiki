@@ -46,7 +46,16 @@ New Issues
 Strong Customer Authentication Guidelines (John)
 =====================================================
 
+Events 
+================
+Open Banking Workshop
+-------------------------
 
+FAPI WG F2F @ London
+-----------------------
+
+API Days Paris
+--------------------
 
 AOB
 ===========
