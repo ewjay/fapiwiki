@@ -61,7 +61,7 @@ Decision 090 Examples (Pam)
 Berlin Group
 ======================
 Torsten reported on the progress on the negotiation with Berlin Group. 
-He seemed to have managed to put OAuth as the fourth SCA mode, though it is Vanilla OAuth + MTLS + PKCE. 
+He seemed to have managed to put OAuth as the fourth SCA mode (other three are embedded, decoupled, redirect), though it is Vanilla OAuth + MTLS + PKCE. 
 For the signature, they are using https://datatracker.ietf.org/doc/draft-cavage-http-signatures/, 
 which is an individual draft written by an Oracle guy. 
 (STET is also using the same.) 
