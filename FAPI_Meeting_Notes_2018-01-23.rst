@@ -15,26 +15,13 @@ The meeting was called to order at 23:05 UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Nat, Dave, Edmund, Joseph, Bjorn, Tom
    * Guest: 
-* Regrets: 
+* Regrets: John, Anoop
 
 Adoption of the Agenda (Nat)
 ==================================
-* 
-
-External Orgs 
-==================
-FS-ISAC (Anoop)
----------------------------------
-* FS-ISAC response
-* Want to confirm that there are less secure Read Only use cases (Part 1). 
-
-ANSI/X9 (Paul)
-------------------
-
-ISO/TC 68 (Paul)
-----------------------
+* OAuth Question on the client id added. 
 
 
 Upcoming Events
@@ -45,14 +32,15 @@ Workshop https://www.eventbrite.co.uk/e/openid-foundationopen-banking-implementa
 
 Remote participation may be available
 
-
 API Days (Nat)
 -----------------
 Nat will be attending to do presentation about FAPI and OpenBanking
 
+Informal FAPI meeting
+----------------------------
+Monday afternoon in London. Location TBD. 
+Nat will send out a message asking who is going to attend. 
 
-Specs Discussion
-=======================
 Issues
 =============
 #129 TLS cipher restrictions should be relaxed for the authorise endpoint
@@ -60,57 +48,55 @@ Issues
 What is currently in the pull request seem to be a good text. 
 If there is no objection, we should adopt it. 
 
-ASK: Adoption of the pull request. 
+ASK: Adopted the pull request. 
 
 #127 CIBA: security issues
 ---------------------------------
 Text for the security consideration was proposed. 
 When the text is added, the ticket should be closed. 
 
-ASK: Adoption of the proposed text. 
+Tom wanted it to be a requirement. 
+Dave is going to put it as the requirement. 
+
+Dave also has submitted it to be dealt at the OAuth security workshop in March. 
+
+DISPOSITION: Adopted the proposed text. 
 
 #116 CIBA - authentication methods and proof of possession
 --------------------------------------------------------------
 New text was provided. 
+https://bitbucket.org/openid/fapi/diff/Financial_API_WD_CIBA.md?diff1=6ef7ed915782&diff2=cf71704c2d24aa59c06acc5a9294d9ab6876fb15&at=master
 
-ASK: Review the text. 
+DISPOSITION: To close the ticket. 
 
 #110 more definition of s_hash
 -------------------------------------
 Brian wants the behavior of the AS when `state` is not in the request to be specified. 
 Nat suggested that `s_hash` must not be in the ID Token if the request did not have `state` specified. 
 
-ASK: Would this proposal acceptable? 
+DISPOSITION: Proposal accepted. Nat to make a pull request. 
 
 #114 Require state
 ------------------------
 Linked to #110. 
 Nat proposed to require `state` in pure OAuth, while making it optional for OIDC. 
 
-ASK: Adopt the direction. 
+DISPOSITION: Adopted the direction. 
 
-#100 Signing API response payloads
--------------------------------------
-OB uses detached JWS. 
 
-ASK: WG to confirm the direction. 
+#128 redirect_uri in url query vs request object
+---------------------------------------------------
+Pull request: 
+https://bitbucket.org/openid/fapi/pull-requests/42/part-2-require-redirect_uri-to-be-inside/diff
+
+zzz: client_id
+---------------
+Test suite always sends client id in the body. 
 
 
 Implementer's Draft (Edmund)
 --------------------------------
-
-
-Dynamic Client Registration (Pam)
------------------------------------
-* Skipped since Pam was not available for discussion
-
-Files: https://bitbucket.org/openid/obuk/src/4630771db004da59992fb201641f5c4ff2c881f1/uk-openbanking-registration-profile.md?at=master&fileviewer=file-view-default
-
-* What OBUK is working on is different and closer to the earlier version of OIDC registration. 
-* It could, however, be reasonable for their use cases. 
-* Need to be clear on the requirements, e.g., non-repudiation, etc. 
-* We could bring some idea back to OIDC and OAuth. 
-* Perhaps we can discuss more in details in the Atlantic call. 
+Waiting for the issues to be cleared. 
 
 
 AOB
@@ -121,4 +107,4 @@ Next Call (Atlantic)
 -----------------------
 The next call is scheduled to be in the Atlantic time zone. 
 
-* The meeting was adjourned at 23:__ UTC.
+* The meeting was adjourned at 23:55 UTC.
