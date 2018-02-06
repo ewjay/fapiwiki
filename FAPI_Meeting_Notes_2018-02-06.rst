@@ -30,6 +30,7 @@ FS-ISAC (Anoop)
 
 Open Banking
 -----------------
+* A report on Open Banking WS
 
 Berlin Group
 -----------------
