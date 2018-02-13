@@ -23,6 +23,8 @@ This page is not always updated so it is better to go to the above link to find 
 * [[FAPI_Meeting_Notes_2018-01-17]]
 * [[FAPI_Meeting_Notes_2018-01-23]]
 * [[FAPI_Meeting_Notes_2018-01-31]]
+* [[FAPI_Meeting_Notes_2018-02-06]]
+* [[FAPI_Meeting_Notes_2018-02-14]]
 
 ## Useful Resources
 
