@@ -28,7 +28,8 @@ This page is not always updated so it is better to go to the above link to find 
 
 ## Useful Resources
 
-* http://oixuk.org/wp-content/uploads/2016/10/OpenBanking-Update-22-May-2017-v1.0.pdf
+* UK Open Banking -- http://oixuk.org/wp-content/uploads/2016/10/OpenBanking-Update-22-May-2017-v1.0.pdf
+* FS-ISAC DDA -- http://lists.openid.net/pipermail/openid-specs-fapi/attachments/20160609/df29d295/attachment-0001.pdf
 
 ## Wiki References
 
