@@ -15,13 +15,13 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Nat, Bjorn, Chris, Dave, Joseph, Henrik, Ralph
    * Guest: 
 * Regrets: 
 
 Adoption of the Agenda (Nat)
 ==================================
-* 
+* Added OpenAPI. 
 
 Pull Requests
 ================
@@ -34,22 +34,30 @@ Issues
 External Organizations
 =========================
 
-Berlin Group (Torsten)
+Berlin Group (Chris)
 -------------------------
 
 Open Banking (Ralph)
 -------------------------
 
+OpenAPI (Nat)
+----------------
+
 Events
 ==========
 OAuth Security Workshop 
 ----------------------------
+* 14, 15, 16 March @ Trento
 
 Open Banking Workshop
 -------------------------
+* 21 March
+* Any work around the ux of redirect model and decoupled, and how to align with Europe. 
 
 IETF 101 London
 ---------------------
+* 18 - 23 March
+* Reciprocal OAuth may be interesting for Open Banking. 
 
 AOB
 ===========
