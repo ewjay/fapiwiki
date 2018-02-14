@@ -36,6 +36,8 @@ External Organizations
 
 Berlin Group (Chris)
 -------------------------
+Chris and Ralph had a two-hour call with Berlin Group this morning. 
+Their emphasis was on the minimum compliance to PSD2. 
 
 Open Banking (Ralph)
 -------------------------
@@ -66,4 +68,4 @@ Next Call
 -----------------------
 The next call is scheduled to be in the Pacific time zone. 
 
-* The meeting was adjourned at 14:__ UTC.
+* The meeting was adjourned at 14:52 UTC.
