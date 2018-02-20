@@ -15,7 +15,7 @@ The meeting was called to order at 23:__ UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Nat, Bjorn, Phil, Tom, Michael Schwarts, Edmund, Anoop
    * Guest: 
 * Regrets: 
 
@@ -41,6 +41,13 @@ Their emphasis was on the minimum compliance to PSD2.
 
 Open Banking (Ralph)
 -------------------------
+Managed rollout phase. Banks running the conformance suite. 
+
+FS-ISAC (Anoop)
+------------------
+CIBC is using DDA v1. 
+There have not been push back. 
+BoA. 
 
 OpenAPI (Nat)
 ----------------
@@ -59,10 +66,11 @@ Open Banking Workshop
 IETF 101 London
 ---------------------
 * 18 - 23 March
-* Reciprocal OAuth may be interesting for Open Banking. 
+* Reciprocal OAuth (was Mutual OAuth draft before) may be interesting for Open Banking. 
 
 AOB
 ===========
+
 
 Next Call
 -----------------------
