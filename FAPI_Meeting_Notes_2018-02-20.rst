@@ -19,9 +19,14 @@ Roll Call
    * Guest: 
 * Regrets: 
 
+* Phill Hunt, Oracle, and Michael Schwartz, Gluu, joined the WG. The WG welcomes their participation. 
+
+
 Adoption of the Agenda (Nat)
 ==================================
 * 
+
+New members (Nat)
 
 Pull Requests
 ================
@@ -70,7 +75,6 @@ IETF 101 London
 
 AOB
 ===========
-
 
 Next Call
 -----------------------
