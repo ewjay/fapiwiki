@@ -15,7 +15,7 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Nat, Joseph, Ralph, Dave, Henrik, Bjorn, John, Pam
    * Guest: 
 * Regrets: 
 
@@ -31,11 +31,14 @@ Issues
 ===========
 * https://bitbucket.org/openid/fapi/issues?status=new&status=open
 
+* #100 - 
+
 External Organizations
 =========================
 
-ISO/TC 68 (Dave)
----------------------
+ISO/TC 68/SC 9/WG 2 (Dave)
+----------------------------
+* 
 
 Berlin Group (Chris)
 -------------------------
