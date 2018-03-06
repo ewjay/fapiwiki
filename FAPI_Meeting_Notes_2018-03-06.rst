@@ -30,10 +30,6 @@ External Organizations
 FS-ISAC (Anoop/Paul)
 ----------------------
 
-
-OpenAPI (Nat)
-----------------
-
 Pull Requests
 ================
 * None
