@@ -15,8 +15,8 @@ The meeting was called to order at 23:__ UTC.
 
 Roll Call
 ===========
-* Attending: 
-   * Guest: 
+* Attending: Nat, Dave, Joseph, Tom, Edmund, John, Bjorn, Tony
+   * Guest: Anoop
 * Regrets: 
 
 
@@ -30,6 +30,9 @@ External Organizations
 FS-ISAC (Anoop/Paul)
 ----------------------
 
+ISO/TC 68/SC 9 (Dave)
+-----------------------
+
 Pull Requests
 ================
 * None
@@ -37,6 +40,8 @@ Pull Requests
 Issues
 ===========
 * https://bitbucket.org/openid/fapi/issues?status=new&status=open
+* #135 https://bitbucket.org/openid/fapi/issues/135/
+* #137 https://bitbucket.org/openid/fapi/issues/137/
 
 Events
 ==========
@@ -46,7 +51,7 @@ OAuth Security Workshop
 
 Open Banking Workshop
 -------------------------
-* 21 March
+* Morning 21 March, Microsoft 
 * Any work around the ux of redirect model and decoupled, and how to align with Europe. 
 
 IETF 101 London
@@ -62,3 +67,11 @@ Next Call
 The next call is scheduled to be in the Pacific time zone. 
 
 * The meeting was adjourned at 23:__ UTC.
+
+Memo
+-----
+There are two main use cases for this standard: 
+
+A Financial Institution or Service Provider uses the standard for it’s own applications and services. 
+A Financial Institution or Service Provider uses the standard to expose an API for third party applications and services to use. 
+The second use case will allow the market to transition from the current practice of “screen scraping”, which is brittle and insecure, to a robust API with structured data and a strong security model.
