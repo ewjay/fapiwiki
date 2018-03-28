@@ -15,9 +15,9 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: John, Nat, Joseph, Tom
    * Guest: 
-* Regrets: 
+* Regrets: Dave, Chris, Mike S. 
 
 Adoption of the Agenda (Nat)
 ==================================
