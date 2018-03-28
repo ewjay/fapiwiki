@@ -40,7 +40,7 @@ ISO/TC 68/SC 9/WG 2 (Dave)
 ----------------------------
 * 
 
-Berlin Group (Chris)
+Berlin Group (Torsten)
 -------------------------
 
 
