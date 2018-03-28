@@ -26,7 +26,7 @@ Adoption of the Agenda (Nat)
 Pull Requests
 ================
 * https://bitbucket.org/openid/fapi/pull-requests/
-* #52, #48 will be merged. 
+* 52 and 48 will be merged. 
 * Others still waiting for the updated text. 
 
 Issues
