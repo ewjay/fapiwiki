@@ -35,8 +35,11 @@ ISO/TC 68/SC 9 (Dave)
 
 Pull Requests
 ================
-* #49 (Dave)
-* #45 (Joseph)
+#49 (Dave)
+-------------
+
+#45 (Joseph)
+--------------
 
 Issues
 ===========
