@@ -14,7 +14,12 @@ To see all items, please go to https://bitbucket.org/openid/fapi/wiki/browse/.
 
 This page is not always updated so it is better to go to the above link to find out the latest notes. 
 
+### 2016
+
 * [[FAPI_Meeting_Notes_2016]] <-- Go here for the archive of all the meetings in 2016. 
+
+### 2017 
+
 * [[FAPI_Meeting_Notes_2017]] <-- Go here for the archive of all the meetings in 2017. 
 
 ### 2018
