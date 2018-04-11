@@ -15,19 +15,22 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Nat, Brian, Dave, Joseph, Justin, Ralph, Bjorn
    * Guest: 
 * Regrets:  
 
 Adoption of the Agenda (Nat)
 ==================================
-* 
+* Adopted as presented. 
 
 External Organizations
 =========================
 
-ISO/TC68/Sc9 (Dave)
+ISO/TC68/SC9 (Dave)
 --------------------
+Part 1 and 2 has been submitted. 
+Dave is going to be in Zurich next week. 
+He will also push for the remote participation. 
 
 ISO/TC68/FinTech Tag (Nat)
 ------------------------------
@@ -39,52 +42,58 @@ The report is online now.
 
 http://eur-lex.europa.eu/resource.html?uri=cellar:6793c578-22e6-11e8-ac73-01aa75ed71a1.0001.02/DOC_1&format=PDF
 
+Nat suggested to look at Box 2 in P.8 that states: 
 
-Box 1 - Startup funding
-1. Crowdfunding platforms. 
-2. Licensing models
-3. Crypto Assets. ICO. Subject to fraud. 
+EC encourage and will support joint efforts by market players to develop, by mid-2019, standardized API 
+that are compliant with the PSD and GDPR as a basis for a European open banking eco-system covering payment and other accounts. 
 
-Box 2
-
-EC encourage and will support joint efforts by market players to develop, by mid-2019, standardised aPI 
-that ar compliant wiht the PSD and GDPR as a basis for a Euroopean open banking eco-system covering payment and other accounts. 
-
-1.3. Facilitating the emergence of innovative business models across the EU
+and pointed out that communicating with them through TC 68 might be an important strategy for us. 
 
 
-Open Banking (Joseph)
+
+
+Open Banking (Dave)
 -------------------------
-* Yolt announcement: https://www.yolt.com/blog/2018-03-15/open-banking-update-weve-officially-connected-to-three-banks
-* Conformance suite is now open source. 
-
-OpenAPI (Nat)
-----------------
-* There was a call with the OpenAPI Foundation last Friday. It is heading in a good direction, e.g., supporting signed JWT response, etc. Nat will send a link to it in the mail list. If you are interested, please get involved. 
+* https://openbanking.atlassian.net/wiki/spaces/DZ/pages/126321042/Open+Banking+Security+Profile+Conformance
+* 15 TPPs approved. 30 to 40 in the pipeline. https://www.openbanking.org.uk/regulated-providers/
 
 Events
 ==========
 IIW (John)
 --------------
-* John is going to present FAPI in the pre-IIW OpenID Workshop. 
-* Please send the presentation ideas to the list to help John. 
+* John presented FAPI in the pre-IIW OpenID Workshop. 
+* Not much discussion about open banking in IIW. A lot of discussion was about DID and blockchain. 
+* This time around, IIW was more focused on the education side and not too new thing came up. 
+* Kazue's session on ZKP was very useful to understand the math around it. (Justin)
+* It was a revelation for Justin that Git actually is a Hash graph and blockchain! 
 
 Pull Requests
 ================
 * https://bitbucket.org/openid/fapi/pull-requests/
 
+Pull request #53
+----------------------
+Nat briefly explained that it is about the AS to show who is the client and what is being asked, just like in the case of the Open Banking. 
+
+John pointed out that it is not only about that but also having the client to use EV certs so that company name etc. will be shown on the PSU's browser address bar. 
+
+People are encouraged to review the draft and vote. 
 
 Issues
 ===========
 * https://bitbucket.org/openid/fapi/issues?status=new&status=open
-* Talked about #135 at some length. It looks like a core problem is how to express the needs for "meaningful consent" at the authorization server. Unlike in the regular OAuth's case, FAPI Part 2 allows the client to be authenticated via a digital signature, so the authorization server can actually show who is requesting what to the end user. However, the actual user interface for showing that information is out of scope for OpenID Connect Core. We might want to come up with a text that expresses the need for the "meaningful consent." 
 
-
+#138
+------------------------
+The callers discussed #138. 
+John argued that requiring 'openid' scope even in Part 1 will simplify the lives of many people. 
+(It is required in Part 2 where ID Token is needed.) 
+As we run out of the time, Nat put the topic on the table till next week. 
 
 AOB
 ===========
-* There seem to be some demands for FAL3 authentication in the US now, as a part of Fedramp program. 
-* EAP WG has a draft that deals with it and it may go to the implementer's draft vote in the near future. If you are interested, please join the WG and submit your comments. 
+* Name change proposed at the last board meeting. Members are reminded of their task of coming up with a name. 
+  Nat suggested a retrofit acronym: Full Assurance Protection Interoperable 
 
 
 Next Call
