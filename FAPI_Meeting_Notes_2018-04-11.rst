@@ -42,10 +42,10 @@ The report is online now.
 
 http://eur-lex.europa.eu/resource.html?uri=cellar:6793c578-22e6-11e8-ac73-01aa75ed71a1.0001.02/DOC_1&format=PDF
 
-Nat suggested to look at Box 2 in P.8 that states: 
+Nat suggested looking at Box 2 in P.8 that states: 
 
 EC encourage and will support joint efforts by market players to develop, by mid-2019, standardized API 
-that are compliant with the PSD and GDPR as a basis for a European open banking eco-system covering payment and other accounts. 
+that is compliant with the PSD and GDPR as a basis for a European open banking eco-system covering payment and other accounts. 
 
 and pointed out that communicating with them through TC 68 might be an important strategy for us. 
 
@@ -54,7 +54,7 @@ and pointed out that communicating with them through TC 68 might be an important
 
 Open Banking (Dave)
 -------------------------
-* https://openbanking.atlassian.net/wiki/spaces/DZ/pages/126321042/Open+Banking+Security+Profile+Conformance
+* While the managed rollout period has passed, it is still slow. The list of compliant banks can be seen at https://openbanking.atlassian.net/wiki/spaces/DZ/pages/126321042/Open+Banking+Security+Profile+Conformance . 
 * 15 TPPs approved. 30 to 40 in the pipeline. https://www.openbanking.org.uk/regulated-providers/
 
 Events
@@ -62,7 +62,7 @@ Events
 IIW (John)
 --------------
 * John presented FAPI in the pre-IIW OpenID Workshop. 
-* Not much discussion about open banking in IIW. A lot of discussion was about DID and blockchain. 
+* Not much discussion about open banking in IIW. A lot of discussions was about DID and blockchain. 
 * This time around, IIW was more focused on the education side and not too new thing came up. 
 * Kazue's session on ZKP was very useful to understand the math around it. (Justin)
 * It was a revelation for Justin that Git actually is a Hash graph and blockchain! 
@@ -88,7 +88,7 @@ Issues
 The callers discussed #138. 
 John argued that requiring 'openid' scope even in Part 1 will simplify the lives of many people. 
 (It is required in Part 2 where ID Token is needed.) 
-As we run out of the time, Nat put the topic on the table till next week. 
+As we run out of the time, Nat put the topic on the table until next week. 
 
 AOB
 ===========
