@@ -26,8 +26,32 @@ Adoption of the Agenda (Nat)
 External Organizations
 =========================
 
-ISO/TC68 (Dave)
+ISO/TC68/Sc9 (Dave)
 --------------------
+
+ISO/TC68/FinTech Tag (Nat)
+------------------------------
+Benoit, standards within DG Connect gave a brief overview of the FinTech task force's action plan from 7 March. 
+DG Connect is Directory General of Communication in EU, including Blockchain and FinTech. 
+Digital Single Market. 
+DG FISMA (Stability for financial market). 
+The report is online now.  
+
+http://eur-lex.europa.eu/resource.html?uri=cellar:6793c578-22e6-11e8-ac73-01aa75ed71a1.0001.02/DOC_1&format=PDF
+
+
+Box 1 - Startup funding
+1. Crowdfunding platforms. 
+2. Licensing models
+3. Crypto Assets. ICO. Subject to fraud. 
+
+Box 2
+
+EC encourage and will support joint efforts by market players to develop, by mid-2019, standardised aPI 
+that ar compliant wiht the PSD and GDPR as a basis for a Euroopean open banking eco-system covering payment and other accounts. 
+
+1.3. Facilitating the emergence of innovative business models across the EU
+
 
 Open Banking (Joseph)
 -------------------------
