@@ -53,7 +53,12 @@ Issues
 
 AOB
 ===========
+Call time change?
+--------------------
 * Change the call time so that it will be 22:00 UTC to be a little easier for UK folks to call in? 
+
+Name change?
+-----------------
 * Name change proposed at the last board meeting. Members are reminded of their task of coming up with a name. 
   Nat suggested a retrofit acronym: Full Assurance Protection Interoperable 
 
