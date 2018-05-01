@@ -39,9 +39,6 @@ The approach is very high level and not directly implementable.
 Different use cases are addressed and different trust models, which is outside of the FAPI, will be in the draft. 
 The snippet that can be shared will be shared with FAPI WG. 
 
-STET
-~~~~~~~
-
 Berlin Group
 ~~~~~~~~~~~~~~
 
@@ -55,8 +52,21 @@ They worry about the Phishing vectors so they are implementing a directly of all
 
 Barclays UK is also doing current flow for the worry of the Phishing vector so it may be a common worry among the financial sectors. Dave is trying to get a spec for it so that FAPI WG can have a look at. 
 
-Nat and pointed out that OIDC had an OP initiated flow before and the security property actually is not that different from the usual flow. 
+Nat and Justin pointed out that OIDC had a discussion around OP initiated flow that calls an endpoint at the client the just redirects the user-agent to the authorization endpoint. The security property actually is not that different from the usual flow. More to be followed up. 
 
+STET
+~~~~~~~
+A French group. They are currently vanilla OAuth 2.0 but they have a change request to Editors to support FAPI. 
+
+There is an increasing pressure to support 3 flows: 
+
+1. Redirect
+1. Decoupled
+1. Embedded. 
+
+Their Decoupled flow is to utilize Device flow. Dave is trying to get hold of their draft to compare with the CIBA flow. 
+
+They are also supporting Embedded but disallowing using static-password. They require a dynamic credential that is created by Bank's device, e.g., Chip-and-pin card. 
 
 Open Banking (Dave)
 -------------------------
