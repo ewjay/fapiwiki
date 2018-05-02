@@ -15,19 +15,29 @@ The meeting was called to order at 23:__ UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Nat, Anoop, Edmund, Tom 
    * Guest: 
 * Regrets:  
 
 Adoption of the Agenda (Nat)
 ==================================
-*  
+*  Adopted as is. 
 
 External Organizations
 =========================
 
 FS-ISAC (Anoop)
 -----------------
+Ver.1 of DDA is going live with three banks this July. 
+They have In production pilot users.
+One is Bank of America, with 11 brands under it, another is CIBC. 
+Citi also supports it. 
+
+On top of it, Zelle is building their own for transactional accesses. 
+
+ISO/TC68/SC 9
+----------------
+Nat explained 
 
 
 Events
