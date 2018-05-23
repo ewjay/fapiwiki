@@ -23,29 +23,39 @@ Adoption of the Agenda (Nat)
 ==================================
 * Implementer's draft. 
 
-New Name for the WG
-========================
+New Name for the WG (Nat)
+===========================
 * Financial-Grade API WG
 
 Implementer's Draft
 =======================
+* Review: Ralph, Joseph, Brian 
 
-Road map for OpenBanking -> FAPI
-===================================
+Road map for OpenBanking -> FAPI (Ralph)
+=============================================
+* Delta between the OB spec and Part 2
+    * https://gitlab.com/fintechlabs/fapi-conformance-suite/wikis/OB-specific-tests
+* Conformance test harness
+    * Evaluation of the delta
+
+* Open Banking 
 
 External Organizations
 =========================
 
-OpenBanking
------------------
-Roll out is continuing. There was discussion about the conformance suite and the need for RPs to run it.
+OpenBanking (Ralph)
+----------------------
+* 
 
-ISO/TC68/SC 9
-----------------
-Dave explained that redrafting is in process and that he will share more via the list.
+ISO/TC68/SC 9 (Dave)
+----------------------
+* Released the first draft. Not much is changed. Part 1 and 2 are in there. 
+* Unsure of the process. 
 
-Other EU SDOs
----------------
+Other EU SDOs (Dave)
+------------------------
+* STET and Berlin Group
+* Joint Workshop towards the end of June. 
 
 Pull Requests
 ================
