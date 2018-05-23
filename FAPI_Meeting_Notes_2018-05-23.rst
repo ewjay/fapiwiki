@@ -15,17 +15,37 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Nat, Brian, Dave, Joseph, Ralph, Bjorn
    * Guest: 
 * Regrets:  
 
 Adoption of the Agenda (Nat)
 ==================================
-*   
+* Implementer's draft. 
 
 New Name for the WG
 ========================
 * Financial-Grade API WG
+
+Implementer's Draft
+=======================
+
+Road map for OpenBanking -> FAPI
+===================================
+
+External Organizations
+=========================
+
+OpenBanking
+-----------------
+Roll out is continuing. There was discussion about the conformance suite and the need for RPs to run it.
+
+ISO/TC68/SC 9
+----------------
+Dave explained that redrafting is in process and that he will share more via the list.
+
+Other EU SDOs
+---------------
 
 Pull Requests
 ================
@@ -75,16 +95,7 @@ Those on the call felt that the wording in FAPI was fine, even though it is more
 
 We discussed this and agreed that Dave would try and raise the issue in the OAuth Working Group.
 
-External Organizations
-=========================
 
-OpenBanking
------------------
-Roll out is continuing. There was discussion about the conformance suite and the need for RPs to run it.
-
-ISO/TC68/SC 9
-----------------
-Dave explained that redrafting is in process and that he will share more via the list.
 
 AOB
 ===========
