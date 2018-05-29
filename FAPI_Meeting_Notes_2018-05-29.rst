@@ -1,7 +1,7 @@
 ============================================
-FAPI WG Meeting Notes (2018-05-23)
+FAPI WG Meeting Notes (2018-05-29)
 ============================================
-Date & Time: 2018-05-23 14:00 UTC
+Date & Time: 2018-05-23 23:00 UTC
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
@@ -15,13 +15,13 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call
 ===========
-* Attending: 
-   * Guest: 
+* Attending: Bjorn, Nat, Joseph, Tom, John
+   * Guest: Anoop
 * Regrets:  
 
 Adoption of the Agenda (Nat)
 ==================================
-* Implementer's draft. 
+* 
 
 New Name for the WG (Nat)
 ===========================
