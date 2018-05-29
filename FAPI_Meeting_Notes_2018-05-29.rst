@@ -29,9 +29,15 @@ New Name for the WG (Nat)
 
 Implementer's Draft (Nat)
 ==========================
-* Part 1, 2: Wainting for the Review by Ralph, Joseph, and Brian to complete. 
-* Non-redirect flow: e.g. CIBA Profile. 
-* John to create a write up for the techniques that uses invisible iFrame this week so that we can compare the CIBA approach and this approach and decide on the direction. 
+Part 1, 2
+----------
+Waiting for the Review by Ralph, Joseph, and Brian to complete. 
+
+Non-redirect flow
+----------------------
+There are two approaches proposed for now. One is the CIBA approach that is drafted as the CIBA Profile. The other is the iFrame approach, which is not yet documented. 
+
+John agreed to create a write up for the iFrame approach this week so that we can compare the CIBA approach and this approach and decide on the direction. 
 
 External Organizations
 =========================
