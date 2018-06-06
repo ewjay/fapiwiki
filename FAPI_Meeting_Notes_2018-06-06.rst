@@ -54,8 +54,9 @@ Other EU SDOs (Dave)
 ------------------------
 * STET, Berlin Group, OB Joint Workshop towards the beginning of July. 
 * It is a closed meeting. 
+* Dave is creating a diff between BG spec and our Part 1. He expects that the delta is small so hopefully we can convince BG to use FAPI instead of their own. 
 
-Events (Don)
+Events (Nat)
 ==================
 
 Identiverse (Don)
