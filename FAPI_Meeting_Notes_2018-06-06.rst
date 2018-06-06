@@ -21,7 +21,12 @@ Roll Call
 
 Adoption of the Agenda (Nat)
 ==================================
-* Implementer's draft. 
+* 
+
+New Co-chair (Nat)
+======================
+* Dave Tonge is now a co-chair. There was not objection: i.e., the WG approved his co-chairship unanimously. 
+* Dave's message. 
 
 Implementer's Draft
 =======================
