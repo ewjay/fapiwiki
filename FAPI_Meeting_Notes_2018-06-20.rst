@@ -15,13 +15,15 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Nat, Bjorn, Brian, Sarah, Dave, Ralph, JOseph, Rob Otto
    * Guest: 
 * Regrets: 
 
+Rob is new to this call and he made an introduction that he is representing Ping and is in charge of EMEA. 
+
 Adoption of the Agenda (Nat)
 ==================================
-*  
+* Adopted as is. 
 
 CIBA Spec Discussion (Dave/Brian/Sarah)
 =========================================
@@ -32,29 +34,19 @@ CIBA Spec Discussion (Dave/Brian/Sarah)
 * #146 - Fraud Indicator Standards and Signed Communication Mechanism of them. (Ralph)
 * #148: IANA Considerations : Disovery, Grant Types, dynamic reg (Ralph)
 
-Implementer's Draft (Nat)
-==========================
+Most of the call was spent on this topic. 
+
+After Dave has set the context around it by explaining the genesis of CIBA profile that FAPI WG has been working on and introduced the outcome of the Pacific call of the previous week where Sarah's proposal was taken up as a potential basis for a new work, Ralph was asked to provide the European context to it. 
+
+Ralph explained that there is a requirement from PSD RTS that PSUs to surrender all their credentials to TPPs, based on the TPPs' use cases, despite the industry's effort to persuade that is a bad idea from the security point of view. Given the situation, we need to find a better way of doing it. 
 
 
-Pull Requests (Nat)
-=====================
-* https://bitbucket.org/openid/fapi/pull-requests/
 
-Nat went over the outstanding pull requests. 
-
-
-Issues
-===========
-* https://bitbucket.org/openid/fapi/issues?status=new&status=open
-
-No new issues than CIBA spec ones. 
 
 
 
 AOB
 ===========
-* SC 27 meeting in Gjøvik needs logistical attention. 
-
 Next Call
 -----------------------
 The next week is Identiverse and we should probably cancel? 
