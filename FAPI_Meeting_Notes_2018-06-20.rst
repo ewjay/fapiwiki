@@ -58,7 +58,6 @@ Callers agreed to go with modifying the CIBA spec and CIBA profile instead of cr
 Sarah expressed their desire to standardize the pairwise hint. 
 John suggested defining the hint token in the CIBA spec. (Currently, it is in the Modrna discovery spec and people misses it.) 
 
-Another issue is to whether to do the JWT in a JWT or string in a JWT. 
 
 Working Mode
 ----------------
