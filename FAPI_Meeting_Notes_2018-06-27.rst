@@ -1,3 +1,20 @@
+============================================
+FAPI WG Meeting Notes (2018-06-27)
+============================================
+Date & Time: 2018-06-20 15:30 EDT
+
+Location: GoToMeeting https://global.gotomeeting.com/join/321819862
+
+.. sectnum:: 
+   :suffix: .
+
+
+.. contents:: Agenda
+
+The meeting was called to order at 15:40 UTC. 
+
+
+
 This is a note from the Ad Hoc Meeting and still being written. 
 
 * Present: Nat (NRI), Chris(OBIE), Joseph(FintecLabs), MBJ(MS), Ralph(OBIE), Brian(Ping), Rob(Ping), Mike Andre, Mark , Michael Eagan (T-Mobile), John (Yubiso)
@@ -8,6 +25,7 @@ CIBA Spec
 
 Categorization of the specs
 —————————————————————————————
+
 The group discussed and agreed that there are legitimate case of starting with QR code as a part of discovery and do the usual redirect flow instead of CIBA. 
 
 Thus, the group agreed that it would be creating two set of specs: 
