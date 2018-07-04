@@ -17,8 +17,13 @@ The meeting was called to order at 15:40 UTC.
 
 This is a note from the Ad Hoc Meeting and still being written. 
 
-* Present: Nat (NRI), Chris(OBIE), Joseph(FintecLabs), MBJ(MS), Ralph(OBIE), Brian(Ping), Rob(Ping), Mike Andre, Mark , Michael Eagan (T-Mobile), John (Yubiso)
+Roll Call
+===========
+* Present: Nat (NRI), Chris(OBIE), Joseph(FintecLabs), MBJ(MS), Ralph(OBIE), Brian(Ping), Rob(Ping), Mike Andre, Mark , Michael Eagan (T-Mobile), John (Yubico)
 * Observers: Shibata-san, Shinzaki-san (NRI Secure Technology) 
+
+Adoption of the agenda (Nat)
+=============================
 
 CIBA Spec
 ============
