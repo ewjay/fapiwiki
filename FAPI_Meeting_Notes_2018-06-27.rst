@@ -46,23 +46,26 @@ Brian explained the problems existing in the CIBA Core right now per his email.
 To sum up, there are many inconsistencies and cannot be reliably implemented. E.g., 
 
 * Endpoint needs to be fixed. 
-* Client authenticaiton 
+* Client authentication 
 
-There was an observation by John that much of the inconsistency actually stems from the symmetric authentication needs. If these parts were separated out and if the core just talks about the asymmetric authenticaiton, it will become much simpler and more consistent. 
+There was an observation by John that much of the inconsistency actually stems from the symmetric authentication needs. If these parts were separated out and if the core just talks about the asymmetric authentication, it will become much simpler and more consistent. 
 
-The group agreed to remove the symmetric option from this document, I.e., move to another MODRNA specific document. 
+The group agreed to remove the symmetric option from this document, I.e., move to another MODRNA specific document.
+
+**Who is going to file the proposal to MODRNA WG?**  
 
 Structured Login Token (Ralph)
 -----------------------------------------
 
-Structured Login Token that indicates the identifier type is desired. 
-   Login_hint_token
+Ralph expressed the needs for a Structured Login Token that indicates the identifier type.  
+Perhaps it can be done by introducing structure to Login_hint_token. 
 
-Reason for login hint token was to blind the RP. 
+John explained that the reason for login hint token in Modrna was to blind the RP. 
+This was important for MNOs. 
 
-There are cases where you are required to share a static identifier. 
+However, in the financial institution side, there are cases where you are required to share a static identifier, Ralph explained. 
 
-CIBA Core states Login hint MUST be validated. This actually does not work. 
+There are other problems in the Login hint token. For instance, CIBA Core states Login hint MUST be validated. This actually does not work. 
 
 JSON Login Hint
 
