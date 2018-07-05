@@ -21,7 +21,7 @@ Roll Call
    * Joseph Heenan
    * Henrik Biering
    * Rob Otto
-   * Guest: 
+* Guest: 
 * Regrets: 
 
 Adoption of the Agenda (Nat)
