@@ -59,6 +59,20 @@ Issues
 
 There was a discussion about the wider security points like certificate pinning, DNSSEC, etc that would need to be in order to ensure that the mechanism for the client to obtain the server's signing keys is sufficiently secure. Nat suggested that a broader spec like https://tools.ietf.org/html/draft-ietf-oauth-security-topics may be a better place for widely applicable recommendations like that. Nat will suggest to Torsten that this is discussed at IETF Montreal.
 
+Events
+==========
+IETF Montreal
+----------------
+IETF Montreal will be in the week of 16th. 
+John, Torsten, Mike, Justin will be there. 
+It would probably be a good opportunity to advance the general security documentation cited in #150. 
+
+Tokyo F2F
+------------
+A bunch of WG members will be in the conference in Tokyo for the week of July 23. 
+Authlete kindly provided a space for a F2F on the morning of the 24th. 
+Details will be sent later. 
+
 AOB
 ===========
 Next Call
