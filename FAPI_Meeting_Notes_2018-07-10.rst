@@ -43,7 +43,8 @@ Issues
 
 CIBA Refactoring Status
 ===============================
-* https://docs.google.com/spreadsheets/d/10QVqqCWnD4uLbE8wsNIUUytIBRY4Aoi9KPlv8vW_U10/edit?usp=sharing
+Please add tasks etc to https://docs.google.com/spreadsheets/d/10QVqqCWnD4uLbE8wsNIUUytIBRY4Aoi9KPlv8vW_U10/edit?usp=sharing for the planning purposes. 
+We have only 6 weeks or so. 
 
 Liaison Reports (If any)
 ===========================
