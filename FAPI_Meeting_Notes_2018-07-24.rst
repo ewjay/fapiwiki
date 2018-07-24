@@ -15,7 +15,7 @@ The meeting was called to order at 03:08 UTC.
 
 Roll Call
 ===========
-* Attending: Nat, Kengo (Folio), Mark (Radium), Dave, Henrik (Authlete), Joseph (Authlete), Hide (Authlete), Taka (Authlete), Wada 8NRI), Hiroshi Aiba (NRI), Ralph (Radium), Justin (Authlete/FL). 
+* Attending: Nat, Kengo (Folio), Mark (Radium), Dave, Henrik (Authlete), Joseph (Authlete), Hide (Authlete), Taka (Authlete), Wada 8NRI), Hiroshi Aiba (NRI), Ralph (Radium), Justin (Fintech Labs). 
 * Guests: Takashi Uematsu (Hitachi), Yukawa (DeNA)
 * Regrets: 
 
@@ -30,9 +30,9 @@ CIBA (Dave)
     * This will make the CIBA Profile in FAPI very lightweight. 
     * This implies that existing MNO behaviour has to put into an MNO profile rather than in the core. 
 
-Security Report and ID2
-=========================
-1) Mandate AT HASH. 
+Security Report and ID2 (Nat)
+=============================
+1) Mandate AT hash. 
 2) It works. The mitigation suggested is to
    a) Claimed HTTPS URI --> Add a note about native apps. For the platforms without support for it, 
    b) Dynamic Client Registration
@@ -42,9 +42,9 @@ Credit tarnishing attack can be a real use case.
 App2app (Dave)
 ====================
 Need to add a note explaining how native apps can be user agent for confidential client. 
-Many case using app as user agent/browser. 
+Many cases using an app as user agent/browser. 
 
-Redirect URI place and seucrity consideration. 
+Redirect URI place and security consideration. 
 
 Reference BCP. 
 
@@ -58,14 +58,8 @@ The information will be shared as soon as it becomes sharable.
 AOB
 ===========
 
-Demo Movie
----------------
-Tony introduced to the group a demo movie of FAPI/Fido etc. combination. 
-
-* https://www.w3.org/2018/06/lyra-webauthpay.mp4
-
 Next Call
 -----------------------
-Due to the overlap with IETF, the call next week will be cancelled. 
+There will be a Pacific call tomorrow. 
 
-* The meeting was adjourned at 23:50 UTC.
+* The meeting was adjourned at 03:08 UTC.
