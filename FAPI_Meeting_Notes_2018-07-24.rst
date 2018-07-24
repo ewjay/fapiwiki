@@ -32,10 +32,14 @@ CIBA (Dave)
 
 Security Report and ID2 (Nat)
 =============================
+
 1) Mandate AT hash. 
+
 2) It works. The mitigation suggested is to
-   a) Claimed HTTPS URI --> Add a note about native apps. For the platforms without support for it, 
-   b) Dynamic Client Registration
+
+* Claimed HTTPS URI --> Add a note about native apps. For the platforms without support for it, 
+* Dynamic Client Registration
+
 3) It can be done. It was discussed before. Perhaps it should be done in the security documentation. 
 Credit tarnishing attack can be a real use case. 
 
