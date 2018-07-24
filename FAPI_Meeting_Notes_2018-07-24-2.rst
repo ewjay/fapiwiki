@@ -15,7 +15,7 @@ The meeting was called to order at 23:__ UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Bjorn, Nat, Anoop, Dave, 
 * Guests: 
 * Regrets: 
 
