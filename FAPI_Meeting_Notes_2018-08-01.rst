@@ -28,9 +28,11 @@ SG Data Schema (Nat/Anoop)
 We are starting new Sub-group, SG Data Schema. Anoop will lead it. 
 In the last week's call, Anoop explained possible approaches, e.g., taking DDA and combining it with UK Open Banking etc. Regional differences need to be evaluated.
 
-It was also pointed out that investment trading part is pretty thin in both DDA and UK Open Banking. Considering retirement investment forms a good part of a person's portfolio, unable to deal with it effectively from Personal Finance Management software or Intelligent Finacial Agent is suboptimal that we need to cover them.
+It was also pointed out that investment trading part is pretty thin in both DDA and UK Open Banking. Considering retirement investment forms a good chunk of a person's portfolio, unable to deal with it effectively from Personal Finance Management software or Intelligent Finacial Agent is suboptimal that we need to cover them.
 
-In the Open Banking seminar in Tokyo last week, Nat was approached by several banks that they are interested in working on the schema so there probably is a sizable potential participants slate in Tokyo as well. Starting with NY/London/Tokyo slate for the internationalization probably is a good start.
+In the Open Banking seminar in Tokyo last week, Nat was approached by several banks that they are interested in working on the schema, so there probably is a sizable potential participants slate in Tokyo as well. Starting with NY/London/Tokyo slate for the internationalization, while not sufficient, probably is a good start. 
+
+The scope initially is to identify the difference between DDA and Open Banking, to examine the investment banking schema that will allow the stock trading. 
 
 Implementer's Draft (Nat)
 ===========================
@@ -42,7 +44,7 @@ Implementer's Draft (Nat)
 
 Issues (Nat)
 =================
-3 New issues were filed.  #152, #153, #154, #155
+4 New issues were filed.  #152, #153, #154, #155
 
 #152: request objects should have iat and exp (Joseph)
 ---------------------------------------------------------
@@ -51,8 +53,8 @@ Issues (Nat)
 Callers felt that `exp` should be enforced and `iat` should be allowed. 
 The reason for having these are not for preventing replay attack but 
 to make the enforcement of nonce etc. easier. After `exp` date, 
-the server can take the request objects offline though the server 
-may need to keep them as evidence for legally required amount of time. 
+the server can take the request objecta s offline 
+though the server may need to keep them as evidence for a legally required amount of time. 
 
 Torsten is to create the pull request. 
 
@@ -87,7 +89,7 @@ The doodle will close COB Friday EDT, and Nat will announce the date according t
 
 As the next topic is Torsten's ticket, his ability to be present will take precedence (beside at least one of the chairs.) 
 
-Thus All the following are to be dealt with in the ad-hoc call
+Thus All the following are to be dealt with in the ad-hoc call. 
 
 #155: Support authorization and identity federation use cases for the same client_id (Torsten)
 ---------------------------------------------------------------------------------------------------
