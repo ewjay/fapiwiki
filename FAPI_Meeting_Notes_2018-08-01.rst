@@ -15,7 +15,7 @@ The meeting was called to order at 23:04 UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Nat, Herik, Joseph, Ralph, Robert, Torsten, John
 * Guests: 
 * Regrets: 
 
@@ -42,58 +42,71 @@ Implementer's Draft (Nat)
 
 Issues (Nat)
 =================
-3 New issues were filed.  #152, #153, #154
+3 New issues were filed.  #152, #153, #154, #155
 
 #152: request objects should have iat and exp (Joseph)
 ---------------------------------------------------------
-* #152
+* #152 
+
+Callers felt that `exp` should be enforced and `iat` should be allowed. 
+The reason for having these are not for preventing replay attack but 
+to make the enforcement of nonce etc. easier. After `exp` date, 
+the server can take the request objects offline though the server 
+may need to keep them as evidence for legally required amount of time. 
+
+Torsten is to create the pull request. 
 
 #153: Add level of assurance to scope (Tom)
 ----------------------------------------------
 * #153
 
+It resulted in a lengthy discussion. Torsten provided his idea on what is 
+required for KYC. Just having a single value `acr` is too simplistic. 
+Vector of trust, while good fothe r authentication phase, would not for KYC phase either. 
+
+There seem to be parallel works happening elsewhere. At least three were identified. 
+
+This is an important topic that warrant the cordination among those bodies and take time, 
+so it was proposed to continue working beyond the 2nd implementer's draft.  
+
+
 #154: Behaviour of AS undefined if no acr claim supplied by client (Joseph)
 -----------------------------------------------------------------------------
 * #154
+
+We still need more investigation on this one, but the call on Aug. 2 pointed out several things:
+
+The client, where it was exempted, should be able to ask for a lower level authentication, e.g., single-factor authentication to improve the U/X. This kind of use-case is not covered by 5.5.1.1 of OIDC Core.
+Even if the client asked for LoA 3 or something, it is at the Bank's discretion to perform a lower LoA authentication as the responsibility falls onto Banks anyways. (This is in contrast to many existing identity federations.)
+
+Ad Hoc Call
+==================
+At this point, the scheduled meeting closure time has come. 
+Nat proposed to do a doodle poll for the next week to schedule an extra Atlantic call next week. 
+The doodle will close COB Friday EDT, and Nat will announce the date according to it. 
+
+As the next topic is Torsten's ticket, his ability to be present will take precedence (beside at least one of the chairs.) 
+
+Thus All the following are to be dealt with in the ad-hoc call
 
 #155: Support authorization and identity federation use cases for the same client_id (Torsten)
 ---------------------------------------------------------------------------------------------------
 * #155
 
 Discussion from the list (Nat)
-===============================
+----------------------------------
 A lengthy thread started from 
 * http://lists.openid.net/pipermail/openid-specs-fapi/2018-July/000962.html
 
-External Organization
-========================
-OBIE (Ralph)
--------------
-
-FS-ISAC (Nat/Anoop)
-------------------
-Not much is happening until the end of August or sometime in September. 
-
-OFX (Nat/Anoop)
-------------
-There is now a bank who seeks using OAuth as an authorization method in combination with OFX, so there is going to be a spec around it. OFX has bill payment and stock trading capability so it is a read-write spec. 
-
-Nat asked if they have considered FAPI. 
-
-Anoop replied that it has not been introduced to them but it can be. 
-
-Callers agreed that it would be a good idea to have a single OAuth profile rather than diverting. 
-
-ISO/TC68/SC9 (Dave)
---------------------
-Dave reported that ISO/TC68/SC9 is in the process of re-drafting their technical specification (TS) proposal. 
-Dave feels that it would be a good idea for FAPI part to stay in OIDF for the time being - until they are ready to go with IS (International Standard), considering that there are still potential changes to FAPI and of the conformance suite. Dave will get back to the SC9 to discuss it. 
+External Organizations
+-------------------------- 
 
 AOB
 ===========
 
 Next Call
 -----------------------
-Next call will be an Atlantic Call. 
+Next call in Atlantic time will be announced on Friday. 
+Next Pacific call will go as scheduled. 
 
-* The meeting was adjourned at 23:46 UTC.
+* The meeting was adjourned at 15:06 UTC.
