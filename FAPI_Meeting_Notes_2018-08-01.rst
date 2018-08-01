@@ -21,7 +21,7 @@ Roll Call
 
 Adoption of the Agenda (Nat)
 ==================================
-* Adopted as is. 
+* Add issue #155: Support authorization and identity federation use cases for the same client_id  
 
 SG Data Schema (Nat/Anoop)
 ===============================
@@ -46,12 +46,19 @@ Issues (Nat)
 
 #152: request objects should have iat and exp (Joseph)
 ---------------------------------------------------------
+* #152
 
 #153: Add level of assurance to scope (Tom)
 ----------------------------------------------
+* #153
 
 #154: Behaviour of AS undefined if no acr claim supplied by client (Joseph)
 -----------------------------------------------------------------------------
+* #154
+
+#155: Support authorization and identity federation use cases for the same client_id (Torsten)
+---------------------------------------------------------------------------------------------------
+* #155
 
 Discussion from the list (Nat)
 ===============================
