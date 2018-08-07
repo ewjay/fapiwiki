@@ -30,12 +30,34 @@ Issues (Nat)
 ---------------------------------------------------------------------------------------------------
 * #155
 
-* #156, #157, #158, #159
+#156: FAPI part 2 - request_uri mandatory or optional?
+--------------------------------------------------------------------------
+
+* #156, 
+
+#157: FAPI part 2 - public clients and mTLS
+--------------------------------------------------------------------------
+
+#157, 
+
+#158: FAPI part 2 - request object for public clients (signing key?)
+--------------------------------------------------------------------------
+
+#158, 
+
+#159: FAPI part 2 - JWE encrypted ID Tokens
+--------------------------------------------------------------------------
+#159
 
 Discussion from the list (Nat)
 ----------------------------------
 A lengthy thread started from 
 * http://lists.openid.net/pipermail/openid-specs-fapi/2018-July/000962.html
+
+FAPI Profile and openid scope value
+
+
+
 
 External Organizations
 -------------------------- 
