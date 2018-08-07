@@ -15,7 +15,7 @@ The meeting was called to order at 23:04 UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Nat, Brian, Ralph, Chris, Torsten, Joseph, Henrik, Sarah
 * Guests: 
 * Regrets: 
 
@@ -29,38 +29,29 @@ Issues (Nat)
 #155: Support authorization and identity federation use cases for the same client_id (Torsten)
 ---------------------------------------------------------------------------------------------------
 * #155
+* Ralph: In addition to code id_code
+* Brian: response_mode may be cleaner? 
+    * Support from Ralph
+    * response_mode was introduced to support form_post response mode. 
+
 
 #156: FAPI part 2 - request_uri mandatory or optional?
 --------------------------------------------------------------------------
-
-* #156, 
+#156, assign to Torsten to come up with the clarification text. 
 
 #157: FAPI part 2 - public clients and mTLS
 --------------------------------------------------------------------------
-
-#157, 
+#157, assign to Torsten to come up with the clarification text. 
 
 #158: FAPI part 2 - request object for public clients (signing key?)
 --------------------------------------------------------------------------
-
-#158, 
+#158, assign this ticket to John. Currently, we do not know how it can be implemented. 
+If we cannot come up with the text in two weeks, may remove it. 
 
 #159: FAPI part 2 - JWE encrypted ID Tokens
 --------------------------------------------------------------------------
-#159
+#159 -- needs clarification on the text. 
 
-Discussion from the list (Nat)
-----------------------------------
-A lengthy thread started from 
-* http://lists.openid.net/pipermail/openid-specs-fapi/2018-July/000962.html
-
-FAPI Profile and openid scope value
-
-
-
-
-External Organizations
--------------------------- 
 
 AOB
 ===========
@@ -69,4 +60,4 @@ Next Call
 -----------------------
 Next Pacific call will go as scheduled. 
 
-* The meeting was adjourned at 14:__ UTC.
+* The meeting was adjourned at 14:09 UTC.
