@@ -1,7 +1,7 @@
 ============================================
-FAPI WG Meeting Notes (2018-08-07) Pacific
+FAPI WG Meeting Notes (2018-08-21) Pacific
 ============================================
-Date & Time: 2018-07-24 23:00 UTC
+Date & Time: 2018-08-21 23:00 UTC
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
@@ -22,10 +22,6 @@ Roll Call
 Adoption of the Agenda (Nat)
 ==================================
 * Adopted as is. 
-
-Report from the F2F Tokyo (Nat)
-=================================
-See FAPI_Meeting_Notes_2018-07-24. 
 
 Data Schema (Anoop)
 ======================
