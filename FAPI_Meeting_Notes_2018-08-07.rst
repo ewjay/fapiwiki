@@ -29,7 +29,7 @@ Issues (Nat)
 #155: Support authorization and identity federation use cases for the same client_id (Torsten)
 ---------------------------------------------------------------------------------------------------
 * #155
-* Ralph: In addition to code id_code
+* Ralph: In addition to code id_token
 * Brian: response_mode may be cleaner? 
     * Support from Ralph
     * response_mode was introduced to support form_post response mode. 
