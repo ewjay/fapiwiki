@@ -15,7 +15,7 @@ The meeting was called to order at 23:__ UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Nat, Bjorn, Brian, Filip, Joseph, Torsten, Dave, Ralph
 * Guests: 
 * Regrets: 
 
@@ -23,12 +23,17 @@ Adoption of the Agenda (Nat)
 ==================================
 * Adopted as is. 
 
-JWT Authorization Response Report
+JWT Secured Authorization Response Report (Torsten)
+====================================================
+* Lots of comments. 
+* Decided to put state into JWT. 
+* Additional "MAY" and will be added as 5.2.5. 
+
+CIBA Progress Report (Brian/Dave)
 =====================================
-
-CIBA Progress Report
-=====================
-
+* Multiple mode + profile down. 
+* 
+* Merged the pull request. 
 
 
 Issues (Nat)
@@ -39,9 +44,12 @@ Part 2 Related Issues
 
 Pull Requests for Part 2
 -----------------------------
+* 156 was merged. To be closed. 
+* 
 
 Part 1 Related Issues
 -----------------------------
+* https://bitbucket.org/openid/fapi/issues?status=new&status=open&component=Part%201%3A%20RO%20Security
 
 CIBA Related Issues
 -------------------------
