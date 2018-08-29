@@ -1,7 +1,7 @@
 ============================================
-FAPI WG Meeting Notes (2018-08-15) 
+FAPI WG Meeting Notes (2018-08-22) 
 ============================================
-Date & Time: 2018-08-01 14:00 UTC
+Date & Time: 2018-08-22 14:00 UTC
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
