@@ -75,10 +75,10 @@ This page is not always updated so it is better to go to the above link to find 
 * [[FAPI_Meeting_Notes_2018-07-24_F2F]]
 * [[FAPI_Meeting_Notes_2018-08-01]]
 * [[FAPI_Meeting_Notes_2018-08-07]]
-* [[FAPI_Meeting_Notes_2018-08-15 (Atlantic)]]
+* [FAPI_Meeting_Notes_2018-08-15 (Atlantic)](https://bitbucket.org/openid/fapi/wiki/FAPI_Meeting_Notes_2018-08-15%20(Atlantic))
 * [[FAPI_Meeting_Notes_2018-08-21]]
-* [[FAPI_Meeting_Notes_2018-08-22 (Atlantic)]]
-* [[FAPI_Meeting_Notes_2018-08-29 (Atlantic)]]
+* [FAPI_Meeting_Notes_2018-08-22 (Atlantic)](https://bitbucket.org/openid/fapi/wiki/FAPI_Meeting_Notes_2018-08-22%20(Atlantic))
+* [FAPI_Meeting_Notes_2018-08-29 (Atlantic)](https://bitbucket.org/openid/fapi/wiki/FAPI_Meeting_Notes_2018-08-29%20(Atlantic))
 
 ## Useful Resources
 
