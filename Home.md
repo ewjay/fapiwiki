@@ -4,7 +4,7 @@ Welcome to the Official OIDF FAPI WG wiki!
 
 ## Call number
 
-We really recommend you to join by GoToMeeting App, but if you have to join by phone, here are the numbers: 
+We really recommend you to join by GoToMeeting App, but if you absolutely have to join by phone, here are the numbers: 
 
 * Australia: +61 2 9091 7603
 * Austria: +43 7 2081 5337
@@ -27,9 +27,10 @@ We really recommend you to join by GoToMeeting App, but if you have to join by p
 
 ## Current Drafts
 
-* [Implementer's Draft for Part 1: Read Only APIs security](http://openid.net/specs/openid-financial-api-part-1.html)
-* [Implementer's Draft for Part 2: Read and Write APIs security](http://openid.net/specs/openid-financial-api-part-2.html)
-* [WD on Financial API: Client Initiated Backchannel Authentication Profile](https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_CIBA.md?at=master) 
+* [Implementer's Draft for Part 1: Read Only APIs security](https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md)
+* [Implementer's Draft for Part 2: Read and Write APIs security](https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_002.md)
+* [WD on JARM](https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md)
+* [WD on Client Initiated Backchannel Authentication Profile](https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_CIBA.md?at=master) 
 
 ## Meeting Notes
 
@@ -58,6 +59,26 @@ This page is not always updated so it is better to go to the above link to find 
 * [[FAPI_Meeting_Notes_2018-03-06]]
 * [[FAPI_Meeting_Notes_2018-03-28]]
 * [[FAPI_Meeting_Notes_2018-04-03]]
+* [[FAPI_Meeting_Notes_2018-04-11]]
+* [[FAPI_Meeting_Notes_2018-04-25]]
+* [[FAPI_Meeting_Notes_2018-05-01]]
+* [[FAPI_Meeting_Notes_2018-05-09]]
+* [[FAPI_Meeting_Notes_2018-05-23]]
+* [[FAPI_Meeting_Notes_2018-05-29]]
+* [[FAPI_Meeting_Notes_2018-06-06]]
+* [[FAPI_Meeting_Notes_2018-06-13]]
+* [[FAPI_Meeting_Notes_2018-06-20]]
+* [[FAPI_Meeting_Notes_2018-06-27]]
+* [[FAPI_Meeting_Notes_2018-07-04]]
+* [[FAPI_Meeting_Notes_2018-07-10]]
+* [[FAPI_Meeting_Notes_2018-07-24-2]]
+* [[FAPI_Meeting_Notes_2018-07-24_F2F]]
+* [[FAPI_Meeting_Notes_2018-08-01]]
+* [[FAPI_Meeting_Notes_2018-08-07]]
+* [[FAPI_Meeting_Notes_2018-08-15 (Atlantic)]]
+* [[FAPI_Meeting_Notes_2018-08-21]]
+* [[FAPI_Meeting_Notes_2018-08-22 (Atlantic)]]
+* [[FAPI_Meeting_Notes_2018-08-29 (Atlantic)]]
 
 ## Useful Resources
 
