@@ -51,7 +51,16 @@ Open Banking UK (Ralph)
 
 Security Profile Comparison (Dave)
 -------------------------------------
+After the meeting with STET and Berlin group, Dave decided to come up with the security comparison of each protocol so that we will be able to see what are the diffs and what needs to be done to align more closely. 
+During the process, Dave found a substantial attack vector to Berlin group draft. 
 
+The draft is still private but has progressed substantially so that it can be shared among people who are interested to review the document. To do so, please write to Dave. 
+
+Dave is also trying to list what portion of the current conformance suite can be used by STET and Berlin Group. 
+
+Torsten, who has already seen the draft, pointed out that we should have threat models explained in the document so that people will understand what needs to be looked at. 
+
+The end state of the document is still open to discussion. Some suggestion made were to publish it as WG Technical Report or as a FAPI Wiki page. 
 
 Issues (Nat)
 =================
