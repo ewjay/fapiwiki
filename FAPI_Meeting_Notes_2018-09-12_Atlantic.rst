@@ -47,7 +47,7 @@ External Organizations
 Open Banking UK (Ralph)
 ---------------------------
 * Nothing significant. (Barry)
-* Last week officially approved ver. 3 of Open Banking Spec., that removed OB 
+* Last week officially approved ver. 3 of Open Banking Spec., that removed OB specific changes. 
 
 Security Profile Comparison (Dave)
 -------------------------------------
