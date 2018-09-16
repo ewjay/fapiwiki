@@ -29,13 +29,13 @@ Adoption of the Agenda (Nat)
 Data Schema (Anoop)
 ======================
 * Investment/Trading Update
-** Domain knowledge Challenge
-** Discuss Usage of Investment/Trading Schema
-** Contribution help
+* Domain knowledge Challenge
+* Discuss Usage of Investment/Trading Schema
+* Contribution help
 
 External Organization
 ========================
-FS-ISAC Update (Anoop)
+* FS-ISAC Update (Anoop)
 ------------
 
 
