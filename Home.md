@@ -79,7 +79,8 @@ This page is not always updated so it is better to go to the above link to find 
 * [[FAPI_Meeting_Notes_2018-08-21]]
 * [FAPI_Meeting_Notes_2018-08-22 (Atlantic)](https://bitbucket.org/openid/fapi/wiki/FAPI_Meeting_Notes_2018-08-22%20(Atlantic))
 * [FAPI_Meeting_Notes_2018-08-29 (Atlantic)](https://bitbucket.org/openid/fapi/wiki/FAPI_Meeting_Notes_2018-08-29%20(Atlantic))
-* [[FAPI_Meeting_Notes_2018-009-18 (Pacific)]https://bitbucket.org/openid/fapi/wiki/FAPI_Meeting_Notes_2018-09-18%20Pacific]
+* [FAPI_Meeting_Notes_2018-009-18 (Pacific)](https://bitbucket.org/openid/fapi/wiki/FAPI_Meeting_Notes_2018-09-18%20Pacific)
+
  
 ## Useful Resources
 
