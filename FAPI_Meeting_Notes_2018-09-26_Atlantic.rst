@@ -15,16 +15,22 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 ===========
-* Attending: 
+* Attending: Nat, Bjorn, Brian, Joseph, Robert, Torsten, Dave, Ralph, John
 * Guests: 
 * Regrets: 
 
 Adoption of the Agenda (Nat)
 ==================================
-* 
+* Added European Commision, Berlin, Astralia
 
 CIBA Progress Report (Brian/Dave)
 =====================================
+* Distributed all the tickets. 
+* to be completed by the next call. 
+* Needs a few more week. 
+* In general, we reached agreement on the direction. 
+* Still issues coming in though. 
+* End user identifier needs to be disucssed as a part of CIBA FAPI Profile. 
 
 Test Harness (Joseph)
 ======================
@@ -33,12 +39,34 @@ Test Harness (Joseph)
 External Organizations
 ==========================
 
+Berlin Group (Torsten)
+--------------------------
+* https://nisp.online/
+* Multi-level SCA for multi-person authorization. 
+* Open Banking is also working on something similar so it may be an opportunity. 
+* NexGen PSD2 conf in Nov and Dec? It is likely to be a marketing event but could ask "right questions". 
+
 Open Banking UK (Ralph)
 ---------------------------
 
+Australia (Ralph)
+-------------------
+* 4 major banks + other banks. 
+* Collaborating through git. 
+* Data 61. 
+* ACCC conformance certification onboarding. 
 
 Security Profile Comparison (Dave)
 -------------------------------------
+* Trying to finish it in a few days. 
+* 
+
+European Commission (Nat)
+-----------------------------
+
+
+
+
 
 
 Issues (Nat)
