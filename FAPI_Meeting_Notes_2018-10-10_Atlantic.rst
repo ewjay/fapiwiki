@@ -31,7 +31,7 @@ Roll Call
 
 Adoption of the Agenda (Nat)
 ==================================
-
+* Adopted, adding Pull reqeusts to the topic. 
 
 Implementer's Draft Voting (Nat)
 ======================================
@@ -53,11 +53,6 @@ Test Harness (Joseph)
 
 External Organizations
 ==========================
-
-Berlin Group (Torsten)
---------------------------
-
-
 
 Open Banking UK (Ralph)
 ---------------------------
