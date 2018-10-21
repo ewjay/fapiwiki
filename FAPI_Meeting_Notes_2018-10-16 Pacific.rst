@@ -29,7 +29,6 @@ Adoption of the Agenda (Anoop)
 Data Schema (Anoop)
 ======================
 * Discuss the difference between data/schema DDA and Open Banking APIs
-[Notes] 
 #. Only deposit account type is supported. (no credit card, loan/LOC and investment).
 #. Both specs has list query as a first starting point
 #. DDA
