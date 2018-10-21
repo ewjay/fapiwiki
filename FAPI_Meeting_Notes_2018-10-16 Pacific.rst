@@ -40,23 +40,23 @@ Data Schema (Anoop)
 * * All accounts details and transaction.
 * * PFM focus
 
-#. Open Banking
-* Separate calls to get balance and many balances available.
-* Other information Beneficiaries, direct debits, standing orders and product (Not in DDA)
-* Product calls gives detail about the type of account (DDA is included as part of detail call).
-* Transactions as a separate call. Also, support of multiple accounts belongs to one customer in one call. (may be ok if one account type it is challenging when it goes with different account type.
-* Standing order (pending transactions) is separate call but in DDA it is included as part of transactions call.
-* Pagination is supported
-* Transactional focus
+* Open Banking
+* * Separate calls to get balance and many balances available.
+* * Other information Beneficiaries, direct debits, standing orders and product (Not in DDA)
+* * Product calls gives detail about the type of account (DDA is included as part of detail call).
+* * Transactions as a separate call. Also, support of multiple accounts belongs to one customer in one call. (may be ok if one account type it is challenging when it goes with different account type.
+* * Standing order (pending transactions) is separate call but in DDA it is included as part of transactions call.
+* * Pagination is supported
+* * Transactional focus
 
 * Investment schema 
-#. NRI proposal needs to be reviewed and follow up discussion with NRI [ Anoop to review and compare NRI schema & DDA schema for investment. ]
+* * NRI proposal needs to be reviewed and follow up discussion with NRI [ Anoop to review and compare NRI schema & DDA schema for investment. ]
 
 External Organization
 ========================
 * India (RBI - Reserve bank of India) directive 
-https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10598
-swagger proposal:  http://swagger-ui.rebit.org.in/?url=https://api.rebit.org.in/assets/specifications/NBFC-AA-Service.yaml#/
+* * https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10598
+* * swagger proposal:  http://swagger-ui.rebit.org.in/?url=https://api.rebit.org.in/assets/specifications/NBFC-AA-Service.yaml#/
 ===========
 
 Next Call
