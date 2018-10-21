@@ -29,15 +29,17 @@ Adoption of the Agenda (Anoop)
 Data Schema (Anoop)
 ======================
 * Discuss the difference between data/schema DDA and Open Banking APIs
-#. Only deposit account type is supported. (no credit card, loan/LOC and investment).
-#. Both specs has list query as a first starting point
-#. DDA
-* Details give all account details
-* Balances are current balance & available balances
-* Transactions as separate call includes pending
-* Pagination is supported
-* All accounts details and transaction.
-* PFM focus
+* Only deposit account type is supported. (no credit card, loan/LOC and investment).
+* Both specs have list query as a first starting point.
+* DDA
+
+* * Details give all account details
+* * Balances are current balance & available balances
+* * Transactions as separate call includes pending
+* * Pagination is supported
+* * All accounts details and transaction.
+* * PFM focus
+
 #. Open Banking
 * Separate calls to get balance and many balances available.
 * Other information Beneficiaries, direct debits, standing orders and product (Not in DDA)
