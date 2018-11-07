@@ -16,32 +16,48 @@ The meeting was called to order at 14:__ UTC.
 Roll Call
 ===========
 * Attending:　
-    * 
+    * Nat
+    * Bjorn Hjelm
+    * Dave Tonge
+    * Joseph Heenan
+    * Ralph Bragg
 
 * Guests: 
 * Regrets: 
 
 Adoption of the Agenda (Nat)
 ==================================
-* 
+* Added Issues. 
 
 CIBA Progress Report (Brian/Dave/Bjorn)
 =====================================
-* 
-
+* It is expected that the split will be coplete next Tuesday. 
+* Reviewers needed. 
 
 External Organizations
 ==========================
 
 Australia (Ralph)
 -------------------
-* It looks like they will adopt FAPI
-* They are also grappling with how to represent complex consent requests via scope strings
-* There is still a need for FAPI WG Members to contribute to the standards discussion: https://github.com/ConsumerDataStandardsAustralia/standards/issues/
+* They are supporting ID Token but that is not linked to account number, etc., making the linking hard. 
 
 UK Open Banking (Ralph)
-—————————————————————-
- 
+-----------------------------
+* 
+
+Isues
+==================
+Following issues were discussed. For the details, see the tickets. 
+
+* #110: more definition of s_hash
+* #180: Behaviour of AS when presented with a non-uuid x-fapi-interaction-id is not clearly defined
+* #182: 128 bits of entropy cannot give probability of guessing below 2^-160
+* #183: Poor section title: 5.2.2.1 returning authenticated user's identifier Authorization server
+* #184: Privacy implications of oauth-mtls due to tls 1.2 sending client certs unencrypted
+* #185: PKCE or Part2 mechanisms?
+* #186: BCP for OAuth 2.0 for Native Apps clause wording could be improved
+* #187: Part 1 client requirements for state/nonce aren't reflected as authorization server requirements
+* #188: Broken link in FAPI part 1 ID2
 
 Next Call
 -----------------------
