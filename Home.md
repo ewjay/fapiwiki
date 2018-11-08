@@ -83,6 +83,7 @@ This page is not always updated so it is better to go to the above link to find 
 * [[FAPI_Meeting_Notes_2018-09-26_Atlantic]]
 * [[FAPI_Meeting_Notes_2018-10-10_Atlantic]]
 * [[FAPI_Meeting_Notes_2018-10-24_Atlantic]]
+* [[FAPI_Meeting_Notes_2018-11-07_Atlantic]]
  
 ## Useful Resources
 
