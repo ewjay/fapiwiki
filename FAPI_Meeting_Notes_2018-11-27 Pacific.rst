@@ -28,7 +28,7 @@ Adoption of the Agenda (Anoop)
 
 Data Schema (Anoop)
 ======================
-*  Trading API Schema - help from Nat to connect with team 
+*  Trading API Schema - help from Nat to connect with team and Next steps
 
 External Organization
 ========================
