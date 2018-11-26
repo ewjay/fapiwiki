@@ -28,11 +28,11 @@ Adoption of the Agenda (Anoop)
 
 Data Schema (Anoop)
 ======================
-*  
+*  Trading API Schema - help from Nat to connect with team 
 
 External Organization
 ========================
-*  
+*  Update -  New version of FS-ISAC DDA (FDX) that include US tax entities. 
 ------------
 
 
