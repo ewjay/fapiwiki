@@ -32,7 +32,8 @@ Data Schema (Anoop)
 
 External Organization
 ========================
-*  Update -  New version of FS-ISAC DDA (FDX) that include US tax entities. 
+*  Update -  New version of FS-ISAC DDA (FDX) that include US tax entities.
+* AUS - Consumer data standards 
 ------------
 
 
