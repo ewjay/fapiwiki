@@ -87,6 +87,8 @@ This page is not always updated so it is better to go to the above link to find 
 * [[FAPI_Meeting_Notes_2018-11-07_Atlantic]]
 * [[FAPI_Meeting_Notes_2018-11-27_Pacific]]
 * [[FAPI_Meeting_Notes_2018-12-05_Atlantic]] 
+* [[FAPI_Meeting_Notes_2018-12-11_Pacific]] 
+
 ## Useful Resources
 
 * UK Open Banking -- http://oixuk.org/wp-content/uploads/2016/10/OpenBanking-Update-22-May-2017-v1.0.pdf
