@@ -29,11 +29,13 @@ Adoption of the Agenda ()
 Data Schema (Anoop)
 ======================
 *  Trading API Schema - help from Nat to connect with team and Next steps
+*  Banking Schema - Question around deposit/withdrawal (ATM & prepaid card).
 
 
 External Organization
 ========================
 *  FS-ISAC DDA - Discuss Liasion Request with FS-ISAC/FDX
+
  
 
 AOB
