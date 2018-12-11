@@ -18,22 +18,27 @@ The meeting was called to order at 23:__ UTC.
 
 Roll Call
 ===========
-* Attending:  
+* Attending:  Nat, Ed, Bjorn and Anoop
 * Guests: 
 * Regrets: 
 
 Adoption of the Agenda (Anoop)
 ==================================
-*  
+*  As is
 
 Data Schema (Anoop)
 ======================
 *  Trading API Schema - help from Nat to connect with team and Next steps
+1.	Rename Accounts & Transactions to Trading Accounts. 
+2.	Nat to share Team email to work offline on draft.
 
 External Organization
 ========================
-*  Update -  New version of FS-ISAC DDA (FDX) that include US tax entities.
+*  FS-ISAC DDA got renamed to FDX ( Financial Data Exchange). It is same working group. 
+       a. Covers US tax forms data.
+
 * AUS - Consumer data standards 
+Consumer data standards [ Review and provide any comments to Ralph Bragg ]
 ------------
 
 
