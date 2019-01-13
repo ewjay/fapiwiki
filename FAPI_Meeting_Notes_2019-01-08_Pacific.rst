@@ -29,14 +29,14 @@ Adoption of the Agenda ()
 Data Schema (Anoop)
 ======================
 *  Trading API Schema - Sent email with questions (Use of FAPI/FDX account entity and new trading schema)to NRI team.
-* 
+
 
 External Organization
 ========================
 *  FS-ISAC DDA - Anoop Followed up with FDX/FS-ISAC team there is a Tentative meeting planned for Monday 1/14/2019. 
 * Modrana (Brian Campbell): 
-** CIBA – Standardize out of bank authentication (Hint). 
-** Support de-coupled authentication (PSD2).
+* * CIBA – Standardize out of bank authentication (Hint). 
+* * Support de-coupled authentication (PSD2).
 
 
  
