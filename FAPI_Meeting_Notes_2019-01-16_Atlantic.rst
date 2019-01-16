@@ -28,7 +28,7 @@ Adoption of the Agenda (Dave)
 Security Whitepaper (Torsten)
 ================================
 * https://bitbucket.org/openid/fapi/src/a12ba4dd3694573310d927d8ae234ec5d4c817e3/TR-Cross_browser_payment_initiation_attack.md?at=master
-* 
+* Daniel to send a pull request to put the figures in it. 
 
 External Organizations
 ==========================
@@ -90,6 +90,10 @@ Ozone reference bank experience (Chris)
 * There seems to be some portion of the spec that should be softened from SHALL to SHOULD. 
 * One of them is the parameter duplication: John and Nat should probably press harder for OAuth JAR. 
 * Chris/Freddi/Joseph to come up with the concrete set of those issues for the next Atlantic call. 
+
+Security paper feedback (Daniel)
+-------------------------------------
+* Daniel is seeking feedback on the paper that was distributed to some members of the WG. 
 
 Next Call
 ---------------
