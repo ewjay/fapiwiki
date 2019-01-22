@@ -1,10 +1,10 @@
 ===========================================
 FAPI WG Meeting Notes (2019-01-22) 
 ===========================================
-
 Date & Time: 2019-01-22 23:00 UTC
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
+
 
 .. sectnum:: 
    :suffix: .
@@ -34,6 +34,10 @@ FS-ISAC/FDX (Anoop)
     * They are using OIDF's security certifications. 
 * Nat asked about who is going to be tested: whether only Banks or TPPs as well. From his perspectives, TPPs testing is very important as it is part of the whole security solution that if their implementation is not secured properly, bad things will happen. Tony and Anoop agreed. Anoop will report the development in the next call. 
 
+W3C (Tony)
+-------------
+Tony reported that there is another area that is being created at W3C related to PCI and PSD2. 
+The charter is still not clear but we have to liaise closely with them so that it will not create yet another fragmentation. 
 
 Investment API Schema (Anoop)
 ===============================
