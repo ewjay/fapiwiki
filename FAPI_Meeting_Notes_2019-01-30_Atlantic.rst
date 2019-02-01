@@ -16,10 +16,11 @@ The meeting was called to order at 14:05 UTC.
 Roll Call
 ===========
 * Attending:　
-    * Nat, Bjorn, Brian, Daniel, Dave, Joseph, Ralph
+  * Nat, Bjorn, Brian, Daniel, Dave, Joseph, Ralph
 
 * Guests: 
-* Regrets:      * Torsten
+* Regrets:      
+  * Torsten
 
 Adoption of the Agenda (Dave)
 ==================================
@@ -62,7 +63,9 @@ Issues
 ==========================
 
 https://bitbucket.org/openid/fapi/issues/142/standardising-lodging-intent
+
 https://bitbucket.org/openid/fapi/issues/200/ciba-signed-authentication-request
+
 https://bitbucket.org/openid/fapi/issues/213/requirements-on-rsa-ec-key-sizes-should
 
 AOB
