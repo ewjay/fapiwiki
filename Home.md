@@ -91,6 +91,7 @@ This page is not always updated so it is better to go to the above link to find 
 * [[FAPI_Meeting_Notes_2018-12-19_Atlantic]] 
 * [[FAPI_Meeting_Notes_2019-01-02_Atlantic]] 
 * [[FAPI_Meeting_Notes_2019-01-08_Pacific]] 
+* [[FAPI_Meeting_Notes_2019-01-22_Pacific]]  
 * [[FAPI_Meeting_Notes_2019-01-30_Atlantic]] 
 
 
