@@ -28,7 +28,7 @@ External Organizations (Anoop)
 FS-ISAC/FDX (Anoop)
 --------------------------
 * FDX/FS-ISAC latest updated Data API schema. 
-* PII data 
+* PII data (Account ownership and business or personal usage)
 * TPPs Certification discussion
 
 Next Call
