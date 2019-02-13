@@ -50,11 +50,11 @@ ISO TC68 (Dave)
 
 Draft Status (Nat/Dave)
 ===========================
-CIBA FAPI Profile
-----------------------
+CIBA FAPI Profile (Dave)
+---------------------------
 
-TR Cross-Browser Payment Initiation Attack (Torsten)
--------------------------------------------------------
+TR Cross-Browser Payment Initiation Attack (Daniel/Torsten)
+-------------------------------------------------------------
 * TR-Cross_browser_payment_initiation_attack.md
 
 TR Lodging Intent Pattern (Torsten)
