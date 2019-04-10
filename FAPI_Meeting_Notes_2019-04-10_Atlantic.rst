@@ -15,11 +15,9 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 ===========
-* Attending: 
-  * 
-* Guests: 
+* Attending: Anoop, Dave, Nat, Bjorn, Brian, John H-A (Radium), Joseph, Torsten
 * Regrets:      
-  *  
+  * 
 
 Adoption of the Agenda (Nat)
 ==================================
@@ -27,62 +25,78 @@ Adoption of the Agenda (Nat)
 
 External Organizations
 ==========================
-IETF (Daniel)
+
+STET (Torsten)
 ----------------
-* DPOP mechanism proposed for SPA. 
-* Video of OAuth meeting availabe online. 
-    * https://www.youtube.com/watch?v=tcWUey47tHQ
-    * https://www.youtube.com/watch?v=zl9I8AvAwZo
+
+
+
 
 Open Banking (Dave)
 --------------------
 * Some of the banks having problems with eIDAS certs. 
-* OB is exploring how CIBA can be used. 
-    * LINK: 
+* Problems includes: 
+* ETSI changing the spec. 
+* QTSP's lengthy and tiresome process for getting the certs. 
+* QTSPs are not checking the "currentness" of the information on the certs. OB Directory is checking them. 
+* Organization identifier number changes as the organization obtains new licence making it difficult to map to a previously obtained consent. 
+* etc. 
+
+Instead, OB is checking the currentness and reflects them in the protocol. 
+
+So, moving from OB certs to eIDAS poses significant risk to the UK Banks and FCA is allowing it. 
 
 Berlin Group (Dave)
 ------------------------
-* Acknowledged the problem. 
+* Dave is sending reminders to them but there has been no response. 
 
 
 
 Testing & Certification 
 ============================
-* FAPI certification suite available as of Apr. 1
-
-Lodging Intent (Daniel)
-============================
-* Torsten plans to wirte a blog post to further the discussion. Probably next week. 
+* 2 providers got certified, Authlete (Full) and Forgerock (Not MTLS)
+* https://openid.net/certification/#FAPI_OPs
+* Torsten asked for a link in the FAPI page. 
+* RP testing is partially open. Still "beta" till June. 
+* Nat asked if there is any marketing material on it. 
+* Joseph told that he may be able to provide a short silent video. 
 
 Draft Status (Nat/Dave)
 ===========================
 CIBA FAPI Profile (Dave)
 ---------------------------
-* Couple of outstanding issue. FInalizing attaker model. 
+* Finalizing attaker model. It is expected to take another week. 
 
 TR Cross-Browser Payment Initiation Attack (Daniel/Torsten)
 -------------------------------------------------------------
 * TR-Cross_browser_payment_initiation_attack.md
+* Torsten introduced a blog post quoting this in LinkedIn. 
 
 TR Lodging Intent Pattern (Torsten)
 -------------------------------------------
 * Financial_API_Lodging_Intent.md
+* Torsten etc. are writing a Medium post to solicit more information. They have not come to a conclusion on how to consolidate various approaches found in the wild. Writing on Medium hopefully attracts more comments. 
+* Nat pointed out that there is no IPR protection in the comments acquired that way and an appropriate way needs to be sought. 
 
 Events
 =========
 * IIW
 * EIC
+* Identiverse: There will be open banking track. 
 
 Issues
 ==========================
-* https://bitbucket.org/openid/fapi/issues/163/more-description-of-the-security-model
+* Issues will be dealt with in the next week's "issues" call. 
 
 
 AOB
 ==========================
-* We will have Atlantic call every week for sometime as we have growing number of issues. 
-* April 10, 24, etc. are going to be the regular call. 
-* April 17, May 1, etc. are agoing to bhe issues only call. 
+PSU IDENTITY, HISTORIC CHALLENGES AND HOW TO SOLVE THEM (John)
+---------------------------------------------------------------------
+* John created a blog post on the use of `sub` in ID Token used in Open Banking. 
+* https://www.raidiam.com/blog/2019/4/9/psu-identity-historic-challenges-and-how-to-solve-them
+* There is other information as well. 
+* Any comments are much appreciated. 
 
 Next Call
 -------------------------
