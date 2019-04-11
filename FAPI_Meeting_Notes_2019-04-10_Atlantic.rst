@@ -90,9 +90,22 @@ TR Lodging Intent Pattern (Torsten)
 
 Events
 =========
-* IIW
-* EIC
-* Identiverse: There will be open banking track. 
+IIW (Apr 30 - May 2)
+--------------------
+Nat was reporting a bit of problem as it falls within the 10-consecutive days holiday in Japan and ticket prices are skyrocketing. 
+
+EIC (May 14 - 17)
+--------------------
+https://www.kuppingercole.com/events/eic2019
+
+There will be a certification team meeting. 
+Also, there will be hands-on sessions on the tests. 
+
+Identiverse (June 25 - 28)
+----------------------------
+https://identiverse.com/
+
+There will be a banking track. 
 
 Issues
 ==========================
@@ -110,6 +123,6 @@ PSU IDENTITY, HISTORIC CHALLENGES AND HOW TO SOLVE THEM (John)
 
 Next Call
 -------------------------
-* Atlantic "Regular" call next week. 
+* Atlantic "Spec" call next week. 
 
-The meeting was adjourned at 14:50 UTC.
+The meeting was adjourned at 15:00 UTC.
