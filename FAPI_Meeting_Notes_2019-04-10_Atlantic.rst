@@ -43,8 +43,10 @@ John pointed out that ID Token does not necessarily mean the provision of custom
 
 Open Banking (John)
 --------------------
-* Some of the banks having problems with eIDAS certs. 
-* Problems includes: 
+Some of the banks having problems with eIDAS certs. 
+
+Problems include: 
+
 * ETSI changing the spec. 
 * QTSP's lengthy and tiresome process for getting the certs. 
 * QTSPs are not checking the "currentness" of the information on the certs. OB Directory is checking them. 
@@ -54,6 +56,8 @@ Open Banking (John)
 Instead, OB is checking the currentness and reflects them in the protocol. 
 
 So, moving from OB certs to eIDAS poses significant risk to the UK Banks and FCA is allowing it. 
+
+Also, the performance by the implementations is problematic. They tend to be slow (like taking several seconds) and screen scraping seems to be much faster. The performance guidance was not in the requirements from the government and as a programme pushed by the government, banks did not proactively fill the gap. If it were on their own, it would have been considered to be impacting customer experience but it did not. 
 
 Berlin Group (Dave)
 ------------------------
