@@ -33,6 +33,8 @@ External Organizations
 Berling Group (Dave)
 ------------------------
 Formally communicated the problems. We have done everything that we could. 
+They came back saying that it only affects if the attacker takes control of the user's computer and we replied back that it does not. 
+
 They at least now know the problem and they are liable. 
 
 STET(Torsten)
