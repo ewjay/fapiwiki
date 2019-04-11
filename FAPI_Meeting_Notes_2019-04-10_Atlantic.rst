@@ -15,13 +15,21 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call
 ===========
-* Attending: Anoop, Dave, Nat, Bjorn, Brian, John H-A (Radium), Joseph, Torsten
+* Attending: 
+    * Nat Sakimura (NRI)
+    * Anoop Saxana (Intuit)
+    * Dave Tonge (Moneyhub)
+    * Bjorn Hjelm (Verizon) 
+    * Brian Campbel (Ping) 
+    * John Heaton-Armstrong (Radium)
+    * Joseph Heanan (FinTech Labs)
+    * Torsten Lodderstedt (YES)
 * Regrets:      
   * 
 
 Adoption of the Agenda (Nat)
 ==================================
-* 
+* Adopted as is. 
 
 External Organizations
 ==========================
@@ -56,11 +64,12 @@ Berlin Group (Dave)
 Testing & Certification 
 ============================
 * 2 providers got certified, Authlete (Full) and Forgerock (Not MTLS)
-* https://openid.net/certification/#FAPI_OPs
+    * https://openid.net/certification/#FAPI_OPs
 * Torsten asked for a link in the FAPI page. 
+    * [ACT] Nat to add the link. 
 * RP testing is partially open. Still "beta" till June. 
 * Nat asked if there is any marketing material on it. 
-* Joseph told that he may be able to provide a short silent video. 
+    * [ACT] Joseph told that he may be able to provide a short silent video. 
 
 Draft Status (Nat/Dave)
 ===========================
