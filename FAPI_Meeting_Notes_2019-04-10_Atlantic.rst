@@ -28,11 +28,12 @@ External Organizations
 
 STET (Torsten)
 ----------------
+Anoop asked about STET's status as Intuit is now integrating with STET and found that their API is not as expected. 
+Torsten explained that we have contacted them and they are fixing the security issues by aligning to the security BCP but not OpenID Connect as they are not providing customer identities. 
 
+John pointed out that ID Token does not necessarily mean the provision of customer identities as `sub` can be filled by something like 'consent ID' (previously Intent ID) as in Open Banking UK. Then, it acts as a detached signature. He also noted that an advantage of using ID Token as a detached signature is that as soon as Banks become wanting to provide customer identity, it can instantaneously, and he is seeing that coming. 
 
-
-
-Open Banking (Dave)
+Open Banking (John)
 --------------------
 * Some of the banks having problems with eIDAS certs. 
 * Problems includes: 
