@@ -37,41 +37,67 @@ They came back saying that it only affects if the attacker takes control of the 
 
 They at least now know the problem and they are liable. 
 
+Sending to some of the big banks in the Berlin Group seems to be a sensible way forward. 
+
+
 STET(Torsten)
 -------------------------
-
+STET appreciated our contribution and decided to use OAuth with best practice instead of the generic solution in the white paper. 
 
 Open Banking (Dave)
 -----------------------
 Moving to full read-write FAPI profile. 
 
-Problems with algorithm agility. 
+Problems with algorithm agility: from RS256 to PS256. 
+When registering a client, the algorithm value is a single value so the migration does not go smoothly. 
+FAPI brought this problem of OIDC not having a sensible algorithm migration forward by recommending a newer algorithm. Even if the client could register a new value for the supported algorithm, the transition has to be coordinated. If the parameter supported multiple values like in the case of JWKS, then the transition would be smooth.  We have documented key rotation but we have not for the algorithm. RS256 to PS256 migration is a special case since it can use the same key. In other cases, keys need to be rotated as well. This really is a generic OAuth problem and needs to be considered in that frame rather than creating a point solution. If doing it in OAuth is difficult as it is expected to be, then it should be dealt with OIDC. 
 
-HTTP Signing
+There is a related problem of a client not having a way to signal if the request from the client needs to be signed. 
+
+
+HTTP Signing (Tony) 
 ----------------------
+HTTP signing is way under-specified. There are many drafts floating around. 
+FAPI specification must provide a more concrete guidance, at least documented pros and cons. 
+
+Justin's draft and others are a bit different in the sense. 
+
+* [ACT] Tony will open an issue. 
+* [ACT] Dave will create an initial draft. 
 
 Payment (Tony)
 ------------------
 EMVCo: trying to work on the authentication side. 3DS 2.0.
 
+Most of 3DS is over a redirect flow, but there is a "frictionless flow" where no authentication is done. 
+
+FDX (Nat/Hans)
+--------------------
+OIDF and FDX will be issuing the announcement on the liaison relationship pretty soon. 
+
+FDX sees a similar approach to FAPI. 
+
 FDATA (Dave/Nat)
 ---------------------- 
- 
-EBA ()
+FDATA is a regulatory trade body. Gavin was saying that he can promote FAPI to Brazil, India, Australia etc. 
+They are talking with Japanese fintech association. They are making a coordinated effort so it is good. 
+
+EBA (Dave)
 ------------------------
-
-Australia (Ralph)
------------------------------
-
+Chris is in the API evaluation group. 
 
 UK OpenBanking (Joseph, Dave)
 -----------------------------
+App to app communication seems to have payload length limit and many problems arising when an app tries to use banking app to get authorization. 
 
 Testing & Certification (Hans)
 =====================================
 On the way for GA on Apr. 1. 
 
 Pricing has been available since Feb. 21 at https://openid.net/2019/02/21/openid-certification-program-expansion-and-fee-update/
+
+Tony asked if there is a testing site ("refernece banks") that he can use during development. 
+Dave will send a list of them to Tony. 
 
 Lodging Intent (Torsten)
 ============================
