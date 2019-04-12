@@ -105,6 +105,8 @@ Dave will send a list of them to Tony.
 
 Lodging Intent (Torsten)
 ============================
+47:20
+
 
 
 Draft Status (Nat/Dave)
