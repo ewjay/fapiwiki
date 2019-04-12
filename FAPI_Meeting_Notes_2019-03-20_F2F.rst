@@ -88,7 +88,11 @@ Chris is in the API evaluation group.
 
 UK OpenBanking (Joseph, Dave)
 -----------------------------
-App to app communication seems to have payload length limit and many problems arising when an app tries to use banking app to get authorization. 
+UK Open Banking is transitioning tests to OIDF provided test suite except for the OB-specific features. 
+
+There is a need for App to app communication, where one App is acting as authentication and consent page to improve the user experience. Typically, the authorization endpoint is served by a `Universal Link <https://developer.apple.com/ios/universal-links/>`_. 
+
+However, App to app communication seems to have payload length limit and many problems arising when an app tries to use banking app to get authorization. One of the implementations had to reduce the request just to nonce and scope. Even just trying to send JWT gets trouble. 
 
 Testing & Certification (Hans)
 =====================================
