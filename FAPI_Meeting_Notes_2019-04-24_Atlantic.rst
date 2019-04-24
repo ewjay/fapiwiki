@@ -17,13 +17,14 @@ Roll Call
 ===========
 * Attending: 
     * Nat Sakimura (NRI)
-    * Anoop Saxana (Intuit)
     * Dave Tonge (Moneyhub)
     * Bjorn Hjelm (Verizon) 
     * Brian Campbel (Ping) 
-    * John Heaton-Armstrong (Radium)
+    * Ralph Bragg (Radium)
+    * Freddy Gaya (Open Banking)
     * Joseph Heanan (FinTech Labs)
     * Torsten Lodderstedt (YES)
+    * George Fletcher (OATH)
 * Regrets:      
   * 
 
