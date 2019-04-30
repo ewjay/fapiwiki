@@ -24,16 +24,13 @@ Adoption of the Agenda (Anoop)
 * 
 
 
-External Organizations (Anoop)
+External Organizations 
 ==============================
 OBIE: The use of sub and the token refresh (Anoop) - issue # 223
 -----------------------------------------------------
 
 
-STET and FAPI (Anoop)
------------------------
-
-Data Schema Comparison (Anoop)
+Data Schema (Anoop)
 ===============================
  - US Tax Schema in FDX
 
