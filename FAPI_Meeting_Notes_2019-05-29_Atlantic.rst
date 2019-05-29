@@ -32,7 +32,10 @@ Adoption of the Agenda (Nat)
 
 Issues
 ===========
-Dealt with the following issues: 
+With regard to the removal of public client from the part 2, Dave created a pull request 
+https://bitbucket.org/openid/fapi/pull-requests/106/first-attempt-at-removing-public-client/diff
+
+Additionally, WG dealt with the following issues: 
 
 * #169 - Add requirement for clients to verify scope value returned from the token endpoint
 * #173 - Mix-up mitigation (defense in depth)
