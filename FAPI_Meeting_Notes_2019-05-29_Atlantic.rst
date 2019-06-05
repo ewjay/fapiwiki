@@ -48,6 +48,6 @@ Created two new issues:
 
 Next Call
 -------------------------
-* Atlantic "Spec" call next week. 
+* Atlantic "Regular" call next week. 
 
 The meeting was adjourned at 15:05 UTC.
