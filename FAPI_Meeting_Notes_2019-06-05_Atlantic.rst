@@ -77,7 +77,7 @@ Nat is going to follow it up.
 #219 JARM: expires_in should be a number
 -----------------------------------------------
 Brian created a pull request for this but there are some left over. 
-The issue was taken by Brain. 
+The issue was taken by Brian. 
 
 #218 LoA3 requirement in part2 may be too much
 -------------------------------------------------------
@@ -106,6 +106,6 @@ AOB
 
 Next Call
 -------------------------
-* Atlantic "Spec" call next week. 
+* Atlantic "Issues" call next week. 
 
 The meeting was adjourned at 14:03 UTC.
