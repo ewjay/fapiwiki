@@ -36,9 +36,9 @@ CIBA Profile (Joseph)
 ================================
 CIBA Pull Requests (Joseph)
 --------------------------------
-* #109 - Need to soften
-* #110 - Approved and Merged
-* #112 - Declined
+* PR 109 - Declined. Need to soften
+* PR 110 - Approved and Merged
+* PR 112 - Declined
 
 CIBA Issues (Joseph)
 ------------------------------
