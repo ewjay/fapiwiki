@@ -32,19 +32,18 @@ CIBA Pull Requests (Joseph)
 * PR 110 - Approved and Merged
 * PR 112 - Declined
 
-CIBA Issues (Joseph)
+CIBA Issues (Dave)
 ------------------------------
 
 
 Heads up on `sub` issue #223
-—————————————————————————————-
+================================
 
 AOB
 ==========================
 
 Next Call
 -------------------------
-* Informal extra call just to deal with #228 on Friday at 14:00 UTC. 
-* Atlantic "Issues" call next week. 
+* Atlantic call next week. 
 
 The meeting was adjourned at 15:28 UTC.
