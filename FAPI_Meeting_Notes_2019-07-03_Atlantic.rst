@@ -32,7 +32,8 @@ sub issue #223 (Anoop)
 ================================
 * #223
 
-Other issues
+
+Event Report
 ==============
 
 AOB
