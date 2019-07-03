@@ -28,7 +28,7 @@ Draft Status (Nat/Dave)
 =======================
 
 
-`sub` issue #223 (Anoop)
+sub issue #223 (Anoop)
 ================================
 * #223
 
