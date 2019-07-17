@@ -22,7 +22,7 @@ Roll Call
 
 Adoption of the Agenda (Nat)
 ==================================
-* Adopted as is. 
+*  
 
 External Organizations
 =======================
@@ -30,22 +30,22 @@ External Organizations
 ## Open Banking (Ralph)
 
 Berlin Group etc. 
-———————————————————————————————
+----------------------
 
 OFX (Anoop)
-———————————————————————————-
+---------------
 
 Australia (Dina)
-—————————————————————————————
+--------------------
 
 
 Events
 ==============
 IETF
-————————-
+----------
 
 OpenID Summit Tokyo 
-————————————————————————————————
+--------------------------
 * 2020-01-24
 
 Pull requests and issues
