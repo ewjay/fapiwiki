@@ -26,8 +26,8 @@ Adoption of the Agenda (Nat)
 
 External Organizations
 =======================
-Open Banking (Ralph)
-——————————————————————————————
+
+## Open Banking (Ralph)
 
 Berlin Group etc. 
 ———————————————————————————————
