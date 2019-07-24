@@ -16,10 +16,22 @@ The meeting was called to order at 14:__ UTC.
 Roll Call
 ===========
 * Attending: 
-    * 
+    * Nat Sakimura
+    * Joseph Heenan
+    * Kosuke Koiwai
+    * Brian Campbell
+    * Dave Tonge
+    * Torsten Lodderstedt
+    * Chris Michael
+    * Dima Postnikov
+    * Sanjay Pandey (CapGemini)
+    * Ralph Bragg
 
 * Regrets:      
   * 
+
+* Guest
+    * 
 
 Adoption of the Agenda (Nat)
 ==================================
