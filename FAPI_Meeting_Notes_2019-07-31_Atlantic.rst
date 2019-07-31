@@ -17,10 +17,20 @@ Roll Call
 ===========
 Attending:
 --------------------
-* Nat, Dima, Kouske, Stuart Low (Visa), Torsten, Ralph, Dave, Bjorn, Joseph
+#. Bjorn Hjelm (Verizon)
+#. Dave.Tonge (Moneyhub)
+#. Dima Postnikov
+#. Joseph Heenan
+#. Kosuke Koiwai (KDDI)
+#. Nat Sakimura
+#. Ralph Bragg
+#. Stuart Low
+#. Torsten Lodderstedt (yes.com)
+
+
 Regrets: 
 ---------------------    
-* Anoop
+#. Anoop
 
 Adoption of the Agenda (Nat)
 ==================================
