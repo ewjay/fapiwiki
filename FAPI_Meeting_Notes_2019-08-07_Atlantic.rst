@@ -56,7 +56,7 @@ Some concerns were raised for this pull request. Two of the main ones were:
 #. `code` being returned in the query parameter may not be desirable from security point of view; 
 #. Too many optionalities in the response type. This causes multiplied number of test cases. 
 
-For 1., Nat pointed out that ID Token leakage is a privacy issue but Authorization code leakage in our case is not a big problem as Authorization code in our case is sender constrained as there is no public client. 
+For 1., Torsten pointed out that there is no security downside for using query parameter for the authorization response. Then, Joseph pointed out of the `WPAD Attack <Kotler, I., Klein, A.: Crippling HTTPS with unholy PAC, https://www.blackhat.com/docs/us-16/materials/us-16-Kotler-Crippling-HTTPS-With-Unholy-PAC.pdf>`_ in which both request and response can be obtained. Nat pointed out that ID Token leakage is a privacy issue but Authorization code leakage in FAPI case is not a big problem as Authorization code in our case is sender constrained as there is no public client. 
 
 For 2., Torsten agreed to reduce the optionality. 
 
