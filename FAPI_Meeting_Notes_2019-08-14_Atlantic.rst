@@ -17,6 +17,7 @@ Roll Call
 ===========
 Attending:
 --------------------
+#. Dave Tonge
 #. Nat Sakimura
 #. Dima Postnikov
 #. Kosuke Koiwai
