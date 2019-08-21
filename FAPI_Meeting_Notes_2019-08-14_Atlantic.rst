@@ -11,58 +11,48 @@ Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
 .. contents:: Agenda
 
-The meeting was called to order at 14:03 UTC. 
+The meeting was called to order at 14:05 UTC. 
 
 Roll Call
 ===========
 Attending:
 --------------------
-#. Dave Tonge
-#. Nat Sakimura
-#. Dima Postnikov
-#. Kosuke Koiwai
-#. Stuart Low
-#. Torsten Lodderstedt
-
-
+#. Dave, Nat, Dima, Kosuke, Stuart, Torsten
 
 Regrets: 
 ---------------------    
-#. Anoop
+#.Joseph
 
-Adoption of the Agenda (Nat)
+Adoption of the Agenda (Dave)
 ==================================
 * Adopted as is. 
 
 External Organizations
 =======================
 
-IETF (Brian/Nat)
-------------------
-* New draft for MTLS
 
-Open Banking (Ralph)
+
+Open Banking (Dave)
 ----------------------
-
-PSD2 (Ralph)
-------------------------
-
+* 6 month extension to enforcement of RTS granted in the UK
 
 Australia (Dima/Stuart)
 -------------------------
-
+* Letter has been sent to Advisory Committee
+* No official response yet
+* We agreed to wait for 2 weeks before taking next steps
 
 Events
 ==============
-Nothing for August. 
+
+Sept 15 - ID2020, could be relevant to WG members
+
 
 Pull requests and issues
 ==========================
+PR #131
 
 AOB
 ==========================
-
-Next Call
--------------------------
 
 The meeting was adjourned at 15:00 UTC.
