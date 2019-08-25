@@ -103,6 +103,7 @@ This page is not always updated so it is better to go to the above link to find 
 * [[FAPI_Meeting_Notes_2019-04-30_Pacific]]
 * [[FAPI_Meeting_Notes_2019-05-28_Pacific]]
 * [[FAPI_Meeting_Notes_2019-07-09_Pacific]]
+* [[FAPI_Meeting_Notes_2019-08-20_Pacific]]
 
 ## Useful Resources
 
