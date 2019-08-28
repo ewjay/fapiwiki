@@ -17,7 +17,16 @@ Roll Call
 ===========
 Attending:
 --------------------
-#. Dave, Nat, Brian, Dima, Don, Joseph, Stuart, Torsten, Kosuke, Bjorn
+#. Dave
+#. Nat
+#. Brian
+#. Dima 
+#. Don
+#. Joseph
+#. Stuart
+#. Torsten
+#. Kosuke
+#. Bjorn
 
 Regrets: 
 ---------------------    
@@ -73,6 +82,11 @@ Open Banking (Dave)
 
 AOB
 ==========================
-* none
+FAPI CIBA Profile Implementer's Draft
+------------------------------------------
+Dave informed the group that the draft passed the vote. 
+Now it is an implementer's draft. 
+
+Joseph asked Brian to run the CIBA test against the CIBA test suite. 
 
 The meeting was adjourned at 15:04 UTC.
