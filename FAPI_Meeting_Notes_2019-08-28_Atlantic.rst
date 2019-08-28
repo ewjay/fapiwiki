@@ -17,22 +17,24 @@ Roll Call
 ===========
 Attending:
 --------------------
-#. Dave
-#. Nat
-#. Brian
-#. Dima 
-#. Don
-#. Joseph
-#. Stuart
-#. Torsten
-#. Kosuke
-#. Bjorn
+#. Brian Campbell (Ping Identity)
+#. Dave.Tonge (Moneyhub)
+#. Dima Postnikov
+#. Don Thibeau
+#. Joseph Heenan
+#. Kosuke Koiwai (KDDI)
+#. Nat Sakimura
+#. Stuart Low
+#. Torsten Lodderstedt (yes.com)
+
 
 Regrets: 
 ---------------------    
 
-Adoption of the Agenda (Dave)
+Adoption of the Agenda (Nat)
 ==================================
+Follwoing two items has been added specifically. 
+
 * Pull request 137 (Torsten)
 * Outreach (Don) 
 
