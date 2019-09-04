@@ -41,7 +41,7 @@ Certification
 =====================
 2 Banks paid. One has not submit the result yet. 
 The other has, but not yet publisheable. 
-Request from Open Banking to separate FAPI Certification result. 
+Request from Open Banking to separate FAPI Certification result. This was discussed and those on the call agreed that it would be beneficial to separate the FAPI results from the OIDC results. Jospeh to speak to the certification team about this.
 
 External Organizations
 =============================
