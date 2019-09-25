@@ -37,8 +37,8 @@ Adoption of the Agenda (Nat)
 External Organizations
 =======================
 
-ISO/TC68/SC2/SG2 Security aspects of bar code payment
--------------------------------------------------------
+ISO/TC68/SC2/SG2 Security aspects of bar code payment (Nat)
+--------------------------------------------------------------
 Their first meeting is scheduled to be tomorrow. Nat did not see any WG members to be in the roaster but suggested that somebody working on CIBA may be interested to it that they can join the group through their respective National Bodies. Alternatively, FAPI WG could open a liaison with this new group but that will take some time before getting approved. 
 
 The group's web page is here: 
@@ -64,7 +64,7 @@ Dima also pointed out that another topic is being raised in CDR. People are aske
 * https://cdr-register.github.io/register/#client-registration
 
 
-UK Open Banking 
+UK Open Banking (Ralph)
 ----------------------------
 Interest on CIBA building up. 
 There was a hack-a-thon at SIBOS. 
@@ -74,32 +74,32 @@ There was a hack-a-thon at SIBOS.
 Pull Requests
 =================
 
-PR #142 Refresh Token
---------------------------
+PR #142 Refresh Token (Joseph)
+---------------------------------
 Joseph proposed a new wording on the call and there was a friendly amendment on it by Brian. 
 Joseph is going to make a modified PR based on it so that people can review the concrete wording. 
 
 Issues
 ================
 
-#270 JARM
-----------------
+#270 JARM (Joseph)
+--------------------
 In the non-openid cases where scope does not include openid, "nonce" does not make sense. 
 However, just requiring "state" is likely to be understating what the clients need to be doing to thwart CSRF etc. 
 Callers agreed that requiring PKCE may be a better way to go. 
 Folks should comment on the ticket of their opinions. 
 
 
-#263 Refresh Token
--------------------
+#263 Refresh Token (Joseph)
+-----------------------------
 See PR #142
 
-#251 refresh token expiry time
---------------------------------
+#251 refresh token expiry time (Joseph)
+---------------------------------------------
 There seem to be two ways of returning it and UK and Australia are going to a different direction. 
 It may be interesting to find out what is the current majority practice by taking a survey at IIW. 
 
 AOB
 ==========================
 
-The meeting was adjourned at 14:__ UTC.
+The meeting was adjourned at 14:58 UTC.
