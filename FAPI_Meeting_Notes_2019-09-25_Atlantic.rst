@@ -29,6 +29,10 @@ Adoption of the Agenda (Nat)
 External Organizations
 =======================
 
+ISO/TC68/SC2/SG2 Security aspects of bar code payment
+-------------------------------------------------------
+
+
 Pull Requests
 =================
 
@@ -40,4 +44,4 @@ Issues
 AOB
 ==========================
 
-The meeting was adjourned at 15:15 UTC.
+The meeting was adjourned at 14:__ UTC.
