@@ -17,7 +17,13 @@ Roll Call
 ===========
 Attending:
 --------------------
-
+#. Bjorn
+#. Dve
+#. Nat
+#. Brian
+#. Kosuke
+#. Torsten
+Joseph
 
 Regrets: 
 ---------------------    
@@ -26,16 +32,18 @@ Adoption of the Agenda (Nat)
 ==================================
 
 
-Pull Requests
-=================
-
-PR #142 Refresh Token (Joseph)
----------------------------------
-Joseph proposed a new wording on the call and there was a friendly amendment on it by Brian. 
-Joseph is going to make a modified PR based on it so that people can review the concrete wording. 
+Planning for HTTP Signature Session (Dave)
+===========================================
+* Anders, Manu, John, Mike Jones, Annabel, Ralph need to be there for the special call. 
+A doodle poll to be created. 
 
 Issues
 ================
+
+#271: Rename and adjust FAPI profiles (Torsten)
+-------------------------------------------------
+
+
 
 #270 JARM (Joseph)
 --------------------
@@ -53,6 +61,16 @@ See PR #142
 ---------------------------------------------
 There seem to be two ways of returning it and UK and Australia are going to a different direction. 
 It may be interesting to find out what is the current majority practice by taking a survey at IIW. 
+
+Pull Requests
+=================
+
+PR #142 Refresh Token (Joseph)
+---------------------------------
+Joseph proposed a new wording on the call and there was a friendly amendment on it by Brian. 
+Joseph is going to make a modified PR based on it so that people can review the concrete wording. 
+
+
 
 AOB
 ==========================
