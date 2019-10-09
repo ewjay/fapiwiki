@@ -17,7 +17,16 @@ Roll Call
 ===========
 Attending:
 --------------------
-
+Bjorn
+Dave
+Anthony
+Brian
+Dima
+Filip
+Joseph
+Kosuke
+Stuart
+Torsten
 
 Regrets: 
 ---------------------    
@@ -31,31 +40,21 @@ Adoption of the Agenda (Dave)
 External Organizations
 =======================
 
+W3C Payments (Tony)
+-------------------------
+
+There is an interest in FAPI with regards to Web Payments
+There is work underway to get OpenID Foundation involved
+There is discussion around what protocol to use to sign payloads.
+
 Australia (Dima/Stuart)
 -------------------------
 
-call being arranged with Rob Hanson
-Australia have decided to use Dynamic Registration - they have published a spec which is similar to UK OpenBanking.
-Next interesting topic is consent - lack of consent API
-
-PSD2
------
-Berlin Group embedded mode is mainly adopted in Germany, not because of PSD2 but because of a competition-based lawsuit. 
-
-Outside of Germany, many banks are implementing OAuth based APIs. E.g. Romania, etc.
-
-Berlin Group editors will allow an explicit confirmation of payment - so payments aren’t made during the authorisation. 
-
-Need to make sure that Security BCP / FAPI  alignment - and that landing page is good resource
-
-There was a discussion about tweaking the name - R/RW -> basic / advanced
-Dave to email list, possibly there to be discussion at IIW
-
+New standards have been released - which will be reviewed
+Question about whether there was a sandbox that was conformant with the standards, there isn't yet.
 
 Pull Requests
 ===============
-5.1 https://bitbucket.org/openid/fapi/pull-requests/134/fapi-r-rw-client-authentication/diff
-5.2 https://bitbucket.org/openid/fapi/pull-requests/142/fapi-r-returning-scopes-not-necessary-for/diff
 
 
 Issues
