@@ -1,7 +1,7 @@
 ============================================
 FAPI WG Meeting Notes (2019-10-16) 
 ============================================
-Date & Time: 2019-10-15 14:00 UTC
+Date & Time: 2019-10-16 14:00 UTC
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
