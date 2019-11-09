@@ -27,9 +27,10 @@ Adoption of the Agenda (Anoop)
 
 **Proposed agenda for next week call :**
 * * Discuss Delegated access (CIBA) – Bjorn
-* * FS-ISAC update
-* * Documentation of FDX/FAPI (AU CDR)
-* * FS-ISAC – Fall Conference in Washington DC.
+
+* FS-ISAC update
+* Documentation of FDX/FAPI (AU CDR)
+* FS-ISAC – Fall Conference in Washington DC.
 * AU – CDR issue
 * Consent Id model (Stuart Low)
 * Revoke token (push) or basic auth method. Push use case Beyond revoke ... WebHook Use case
