@@ -26,6 +26,7 @@ Adoption of the Agenda (Anoop)
 *  Prepare Agenda for next call (Pacific)
 
 **Proposed agenda for next week call :**
+
 * Discuss Delegated access (CIBA) – Bjorn
 * FS-ISAC update
 * Documentation of FDX/FAPI (AU CDR)
