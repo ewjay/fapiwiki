@@ -1,5 +1,6 @@
 ===========================================
 FAPI WG Agenda & Meeting Notes (2019-11-12) 
+ ***Low attendance - Cancelled meeting***
 ===========================================
 Date & Time: 2019-11-12 23:00 UTC
 
