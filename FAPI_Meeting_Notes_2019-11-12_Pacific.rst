@@ -15,7 +15,7 @@ The meeting was called to order at 23:08 UTC.
 
 Roll Call (Anoop)
 =====================
-* Attending:  
+* Attending:  Low attendenc - Cancelled meeting
  
 
 * Guests: 
