@@ -69,7 +69,7 @@ https://www.youtube.com/watch?v=q096sY6L9-E
 
 Exploring whether Justin's or Torsten's spec to be adopted. 
 
-Australia (Stewart)
+Australia (Stuart)
 ----------------------
 Analysis of the current draft needs to be done. 
 
