@@ -31,10 +31,20 @@ Report from Pacific Call (Nat)
 * Abstracted model for Consent and Revoke as an International Standard
     * Special Call at 5 PM Pacific Time on the December 5th. 
 
-Events
+Events (Nat)
 ===============
-* Japan event as described in the separate email. 
-    * http://lists.openid.net/pipermail/openid-specs-fapi/2019-November/001613.html
+OpenID Summit Tokyo and associated events (Nat)
+-------------------------------------------------
+* Jan 23, 24, 27, 28. 
+* Tokyo and Miyazaki
+* JDetails: http://lists.openid.net/pipermail/openid-specs-fapi/2019-November/001613.html
+
+FDATA Summit
+------------------------------
+* December 5, 2019
+* Edinborough 
+* MoneyHub etc. shortlisted in the award. 
+* https://fdata.global/summit/awards-2019/
 
 Pull Requests
 =================
