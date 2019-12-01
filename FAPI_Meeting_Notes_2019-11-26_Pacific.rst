@@ -41,6 +41,8 @@ Adoption of the Agenda (Anoop)
 External Organizations 
 ==============================
 * FDX/FS-ISAC update
+* FS-ISAC – Fall Conference in Washington DC.
+#. Anoop was on FDX/FS-ISAC panel to discuss "Financial Data Sharing: Security, Efficiency and Customer Experience" - https://2019-fs-isac-fall-summit.exordo.com/programme/session/140
 * Documentation of FDX/FAPI (AU CDR). 
 #. Link of many data schemas in FAPI as many localized organizations have adopted FAPI and they unique within local region.
 
@@ -56,7 +58,7 @@ FAPI is a framework
 #. Inject meta data and dictate where it can & how it can be done. (Stuart/Dima)  - Need example. (Bit Ticket).
 
 
-* FS-ISAC – Fall Conference in Washington DC.
+
  -----------------------------------------------------
 
  
