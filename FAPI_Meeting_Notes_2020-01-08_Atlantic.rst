@@ -36,9 +36,14 @@ Identiverse Presentation Submission
 ------------------------------------
 * Due date: January 10. 
 
+Draft Status
+========================
+OAuth JAR (Nat)
+----------------------
+
 
 #163 Security Model (Daniel)
-=============================
+----------------------------------
 * https://docs.google.com/document/d/1Lo2LCV5eV7iVGbsM0C7i3pL1nWRftfqjpfFCx5Q3Pds/edit#heading=h.u85w4jb6qchc
 * https://docs.google.com/spreadsheets/d/1PtG4f-Svils7wHBa7cGaZubbh-6lGifce38c_oShSss/edit#gid=550739163
 
