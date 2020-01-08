@@ -17,7 +17,19 @@ Roll Call
 ===========
 Attending:
 --------------------
-
+#. Nat
+#. Bjorn
+#. Brian
+#. Daniel
+#. Dave
+#. Dima
+#. Ian Lowe
+#. Joseph
+#. Kousuke
+#. Rob Otto
+#. Torsten
+#. Mark Haine
+#. Nick Cuthbert
 
 Regrets: 
 ---------------------    
@@ -31,6 +43,9 @@ Event
 Swift Conference/FAPI F2F
 ---------------------------------
 * Around Feb. 18. FAPI F2F. Don is finalizing. 
+* Likely to be 17th. 
+* FAPI and eKYC F2F. 
+* Tony is securing the room. 
 
 Identiverse Presentation Submission
 ------------------------------------
@@ -40,7 +55,19 @@ Draft Status
 ========================
 OAuth JAR (Nat)
 ----------------------
+* Merge is bad. 
+* client_id and response_type - interop. Perhapss add a note? 
+    * Add a note suggesting for backward compatibility, add these and match. 
 
+OAuth PAR (Torsten)
+----------------------
+* WG adopted PAR. 
+* 
+
+OAuth RAR (Torsten)
+----------------------
+* Please cast +1 to the OAuth thread. 
+* Need to develop Roadmap to include PAR and RAR. 
 
 #163 Security Model (Daniel)
 ----------------------------------
