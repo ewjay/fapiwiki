@@ -107,6 +107,11 @@ This page is not always updated so it is better to go to the above link to find 
 * [[FAPI_Meeting_Notes_2019-11-12_Pacific]]
 * [[FAPI_Meeting_Notes_2019-11-26_Pacific]]
 
+
+### 2020
+
+* [[FAPI_Meeting_Notes_2020-01-09_Pacific]]
+
 ## Useful Resources
 
 * UK Open Banking -- http://oixuk.org/wp-content/uploads/2016/10/OpenBanking-Update-22-May-2017-v1.0.pdf
