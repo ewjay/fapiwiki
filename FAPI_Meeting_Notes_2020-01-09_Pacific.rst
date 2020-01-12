@@ -55,7 +55,7 @@ External Organizations
  -----------------------------------------------------
 
  
-**Next Call**
+Next Call
 -----------------------
 Next call will be an Atlantic Call. 
 Next Pacific call will be in two weeks (01-23-2020 @ 5pm PST) UTC - 01-24-2020 1:00 AM.  
