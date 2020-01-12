@@ -25,8 +25,8 @@ Adoption of the Agenda (Anoop)
 ==================================
 
 * AU-CDR
-** Consent overall
-*** Dima has started the document (google)
+* * Consent overall
+* * * Dima has started the document (google)
 *** Will create Bit bucket ticket (once get access)
 ** CDR advise list on issue and there are some pending
 *** Stuart is tracking and will provide the update.
