@@ -111,6 +111,7 @@ This page is not always updated so it is better to go to the above link to find 
 ### 2020
 
 * [[FAPI_Meeting_Notes_2020-01-09_Pacific]]
+* [[FAPI_Meeting_Notes_2020-01-23_Pacific]]
 
 ## Useful Resources
 
