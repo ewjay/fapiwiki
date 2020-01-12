@@ -1,7 +1,7 @@
 ===========================================
-FAPI WG Agenda & Meeting Notes (2020-01-09)
+FAPI WG Agenda & Meeting Notes (2020-01-09) 17:00 PST (5pm)
 ===========================================
-Date & Time: 2020-01-09 23:00 UTC
+Date & Time: 2020-01-10 01:00 UTC
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
@@ -55,9 +55,9 @@ External Organizations
  -----------------------------------------------------
 
  
-Next Call
+**Next Call**
 -----------------------
 Next call will be an Atlantic Call. 
-Next Pacific call will be in two weeks. [**Change in meeting start by one hour (+1) 5pm PT**)
+Next Pacific call will be in two weeks (01-23-2020 @ 5pm PST) UTC - 01-24-2020 1:00 AM.  
 
 * The meeting was adjourned at 01:48 UTC.
