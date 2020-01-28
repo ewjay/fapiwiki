@@ -91,7 +91,7 @@ Have to add wording that the honest endpoints are not hacked, otherwise nothing 
 Would be worth it to put scenario regarding when both DNS and TLS are attacked.
 Just having TLS is not good enough since DNS is often times not protected. 
 
-HSTS is a basic web security measure that should be enabled but is not recommended anything in FAPI specs.
+HSTS is a basic web security measure that should be enabled but is not recommended anywhere in FAPI specs.
 
 Next step is to propose more concrete wording for FAPI profiles.
 Take FAPI profiles and create a first draft specification with all mechanisms that we think we need and then see they would defend against attacks.
