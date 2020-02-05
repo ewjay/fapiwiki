@@ -66,8 +66,17 @@ Event
 ======
 Swift Conference/FAPI F2F (Torsten)
 -------------------------------------
-* Catch up with Don re: Swift conference on getting explicit FAPI topic. 
-* Torsten's slide: https://docs.google.com/presentation/d/1LyebJ8FhC1sIM9F5e9TNHRPDOYuXiilHt4wQBkvRvtc/edit
+If you are attending the F2F, please register via the following link: 
+
+* FAPI: https://www.eventbrite.com/e/oidf-financial-grade-api-fapi-ftf-working-group-meeting-in-london-tickets-90772558165
+* eKYC-IDA: https://www.eventbrite.com/e/oidf-ekyc-ida-ftf-working-group-meeting-in-london-tickets-90776191031
+ 
+Link to the OIDF IPR Agreement and Contribution Agreement: https://openid.net/intellectual-property/
+
+* Nat needs to catch up with Don re: Swift conference on getting explicit FAPI topic. 
+* It is proposed in the WG call to use Torsten's slide [1] in the meeting.  
+
+[1] https://docs.google.com/presentation/d/1LyebJ8FhC1sIM9F5e9TNHRPDOYuXiilHt4wQBkvRvtc/edit
 
 Issues
 ========
@@ -96,5 +105,6 @@ Next meeting
 
 AOB
 ==========================
+n/a.
 
 The meeting was adjourned at 14:58 UTC.
