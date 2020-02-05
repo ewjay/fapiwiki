@@ -28,12 +28,9 @@ Attending:
 #. Stuart
 #. Bjorn
 
-Guest
--------
-
-
 Regrets: 
----------------------    
+---------------------   
+#. Craig Borysowich 
 
 Agenda Bashing (nat)
 ==================================
