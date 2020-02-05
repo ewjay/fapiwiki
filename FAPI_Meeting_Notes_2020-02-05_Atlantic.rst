@@ -43,35 +43,51 @@ Agenda Bashing (nat)
 
 Consent Management and Grant Management API (Torsten)
 ========================================================
+* https://docs.google.com/document/d/1VkrkiFSoUwdKaW3aOI4zq0YeFr7tdbuyfjeswCSLNLI/edit
+
+The "grant API" is provided by AS. 
+User can revoke the grant. 
+User I/F hosted by TPP can revoke the grant. 
+Grant info is jointly owned by client and the user (recipient and holder). 
+
+Grant lifecycle. "Invalidate", "Suspend" etc. may also be needed before being deleted. 
+Renewing grant needed. 
+
+To bring back an expired grant, a new authorization request using the existing grant id will do. 
+
+Next Steps
+------------
+* Continue with the google doc till Feb. 18. 
+* Add grant lifecycle diagram. (Ralph) 
+* Add Intermediary use-case. 
+* Get the doc into markdown and put it in the FAPI repo. 
 
 Event
 ======
 Swift Conference/FAPI F2F (Torsten)
 -------------------------------------
-Went over Torsten's slide. 
-For the user interface, https://www.openbanking.org.uk/wp-content/uploads/Customer-Experience-Guidelines.pdf needs to be consulted. 
-Torsten will share the link to his presentation. 
-Comments are welcome. 
+* Catch up with Don re: Swift conference on getting explicit FAPI topic. 
+* Torsten's slide: https://docs.google.com/presentation/d/1LyebJ8FhC1sIM9F5e9TNHRPDOYuXiilHt4wQBkvRvtc/edit
 
-European Identity Conference (Nat)
+Issues
+========
+#undef: duplicated KeyID (Joseph)
 ------------------------------------
-* Due date: January 24. 
-* OpenID Foundation Workshop on the 1st day. 
-* May 12 Morning. 
-* FAPI & eKYC F2F at the conference on 11th May. 
-* Board meeting on May 11. 
+This came out of Connect WG. 
+For interop reasons, this was added to FAPI test suit. 
+Ralph mentioned that the same question came out in Open Banking. 
+Joseph will create a ticket referring to the Connect WG ticket. 
 
-* Send suggestion about Certification Hands-on to Jorg. 
-
-JP Event (Nat)
----------------
-Bjorn asked a WS page to be created. 
 
 External Organizations
 =============================
 
-Australia (Dima/Ralph)
+Australia (Stuart)
 --------------------------
+Stuart solicited people to the way in on the ticket re: 
+CDS ticket based on CDR analysis. 
+
+* https://github.com/ConsumerDataStandardsAustralia/standards-maintenance/issues/101
 
 
 Next meeting
@@ -81,4 +97,4 @@ Next meeting
 AOB
 ==========================
 
-The meeting was adjourned at 15:00 UTC.
+The meeting was adjourned at 14:58 UTC.
