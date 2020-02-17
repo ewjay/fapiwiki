@@ -19,6 +19,45 @@ Roll Call & Intro (Name, Affiliation, Goal)
 
 Attending:
 --------------------
+Gavin Littlejon, FDAA, Customer data rights and open data implementation
+Torste, yes.com, 
+Rob Otto, CTO Ping, 
+Mark Hain, , 
+Steiner, Norwegean Govt ehelth, 
+Daniel Fett, Yes.com, Security aspect of ekyc
+..., SWIFT, 
+kunt, SWIFT, connecting dots et W3C
+Keltes, SWIFT, ISO 20020 APIs. 
+aaa, SWIFT, business standard of msgs. 
+Legrand, verifon and open banking etc., 
+Matt pain, akamai, observatin
+,AKAMAI, security and scalabiity
+Chris Michael, obie, 
+Mayur, Akamai-Janrain, 
+Ralph Bragg,Radium, trustframework
+Xavier, SWIFT, 
+Joseph Heenan, Authlete
+Taka, Authlete, 
+Barry, Radium, 
+Vladimier Zhudinov, new directions 
+Torsten
+Nat Sakimura
+Don Thibeau
+Brian Campbell, ping, 
+Bjorn Hjelm, Verizon, 
+Dima, 
+Stuart Low, Biza, Consent models. 
+Nick, Stich from South Africa. 
+Marcos Sanz, 
+
+Nick Schwartz, Sanandor
+Manuela, ditto, digital trust
+Mike verely, 
+
+
+Guests:
+--------------
+
 
 
 Regrets: 
@@ -32,6 +71,17 @@ Adopted as is.
 
 FAPI Evolution (Torsten)
 ==========================
+Torsten provided the presentation: 
+https://docs.google.com/presentation/d/1LyebJ8FhC1sIM9F5e9TNHRPDOYuXiilHt4wQBkvRvtc/edit#slide=id.p
+
+* Rob: User interface issues. Many wants ROPC to keep control of the UI. 
+* Ralph: consent means different so need clarification. 
+
+Fine-grained authorization request
+
+Consent is application-specific. More granular and complex as time goes by. 
+
+
 
 Grant request/consent API (Torsten/Daniel/Joseph)
 ====================================================
