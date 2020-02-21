@@ -1,5 +1,5 @@
 ===========================================
-FAPI WG Agenda & Meeting Notes (2020-01-09) 17:00 PST (5pm)
+FAPI WG Agenda & Meeting Notes (2020-01-09) 17:00 PST (5pm) .  **** Meeting Cancelled
 ===========================================
 Date & Time: 2020-01-24 01:00 UTC
 
