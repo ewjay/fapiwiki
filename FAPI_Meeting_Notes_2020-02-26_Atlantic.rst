@@ -15,11 +15,20 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call 
 ===========
-
-
 Attending:
 --------------------
-
+#. Nat
+#. Torsten
+#. Brian
+#. Daniel
+#. DIma
+#. Don
+#. James Bellairs
+#. Joseph
+#. Kosuke
+#. Perdam
+#. Pri Pillay (Stitch) 
+#. Stuart
 
 
 Guests:
