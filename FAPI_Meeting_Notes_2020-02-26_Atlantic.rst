@@ -38,6 +38,18 @@ Adopted as is.
 AU Consent Consultation (Stuart/Dima)
 ========================================================
 
+External Organizations
+==================================
+
+SWIFT
+---------------
+
+FDATA
+---------------
+
+Brazil
+---------------
+
 FAPI Evolution (Torsten)
 ==========================
 Torsten provided the presentation: 
