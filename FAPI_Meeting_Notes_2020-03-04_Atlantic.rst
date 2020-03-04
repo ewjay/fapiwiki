@@ -30,12 +30,13 @@ Attending:
 
 Guests:
 --------------
-
-
+n/a
 
 Regrets: 
 ---------------------   
-
+#. Dave Tonge
+#. Tony Nadalin
+#. Anoop Saxena
 
 Adoption of Agenda (nat)
 ===========================
