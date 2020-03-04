@@ -1,7 +1,7 @@
 ============================================
 FAPI WG Meeting Notes (2020-03-04) 
 ============================================
-Date & Time: 2020-02-16 14:00 UTC
+Date & Time: 2020-03-04 14:00 UTC
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
