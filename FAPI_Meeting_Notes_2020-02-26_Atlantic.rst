@@ -1,7 +1,7 @@
 ============================================
 FAPI WG Meeting Notes (2020-02-26) 
 ============================================
-Date & Time: 2020-02-16 14:00 UTC
+Date & Time: 2020-02-26 14:00 UTC
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
@@ -18,6 +18,7 @@ Roll Call
 Attending:
 --------------------
 #. Nat
+#. Dave Tonge
 #. Torsten
 #. Brian
 #. Daniel
@@ -34,11 +35,8 @@ Attending:
 Guests:
 --------------
 
-
-
 Regrets: 
 ---------------------   
-
 
 Adoption of Agenda (nat)
 ===========================
