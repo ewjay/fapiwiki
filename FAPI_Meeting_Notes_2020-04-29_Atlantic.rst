@@ -45,7 +45,7 @@ OpenID Foundation Workshop (Don)
 Identiverse
 -------------------
 
-Other Events (Don)
+IIF (Don)
 ------------------------
 
 External Organizations
