@@ -31,6 +31,8 @@ Regrets:
 Adoption of Agenda (nat)
 ===========================
 
+Adopted as is. 
+
 Events
 ============
 Open Banking and OIDF Certification Workshop (Chris/Don)
