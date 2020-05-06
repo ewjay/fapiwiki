@@ -54,8 +54,36 @@ Stuart and Dima are working on the draft response [1] to the Farrel enquiry.
 Pull Requests
 ================
 
+148 fixed-references-to-par-rar
+---------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/148/fixed-references-to-par-rar/diff Merged. 
+
+162 change-pro-to-par
+-----------------------------
+People are asked to review: 
+It is in the similar topic as the 148. 
+* https://bitbucket.org/openid/fapi/pull-requests/162/change-pro-to-par/diff Merged. 
+
+160 withdrawing-confusing-clause-re-native
+----------------------------------------------
+People are asked to review this potentially duplicating clause (dup to sec. 7.5). 
+
+* https://bitbucket.org/openid/fapi/pull-requests/160/withdrawing-confusing-clause-re-native/diff 
+
 Issues
 =============
+
+#255 certification clarification request: location of discovery document
+------------------------------------------------------------------------------
+Whether to allow multiple issuers or only single issuer per authorization endpoint. 
+For a mobile app to use authorization endpoint as the claimed uri, having multiple issuers 
+associated with it is problematic. 
+
+Also, the integrity of the discovery document is tied to the base of the Issuer URI. 
+
+
+
+
 
 AOB
 ==========================
