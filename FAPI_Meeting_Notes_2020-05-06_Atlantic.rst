@@ -34,9 +34,16 @@ External Organizations
 =====================
 Workshop & US FDX (Don)
 ------------------------
+A workshop in conjunction with FDX is in planning. 
+What is being asked to the WG is much the same as the one with UK OB last week. 
 
-UK
+It is at least three weeks away. 
+
+UK (Chris)
 -------------
+Roadmap taking the crisis period is being published eminently. 
+
+Pushing CMA-9 for certification. Better visibility through shared ticketing system etc. is desirable. It is to be considered offline. 
 
 Australia
 ------------
