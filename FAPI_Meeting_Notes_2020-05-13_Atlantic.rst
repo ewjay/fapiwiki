@@ -59,13 +59,14 @@ People are asked to review this potentially duplicating clause (dup to sec. 7.5)
 
 Issues
 =============
-
+Assigned/Resolved back until issue #10. 
 
 
 
 AOB
 ==========================
-
+There is a workshop on May 21. 
+https://openid.net/2020/04/27/openid-foundation-virtual-workshop-may-21-2020/
 
 
 
