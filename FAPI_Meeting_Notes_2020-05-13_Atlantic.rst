@@ -17,33 +17,22 @@ Roll Call
 ===========
 Attending:
 --------------------
+Nat, Dave, Mark Haine, Allan, Dima, Chris, Ralph, Kosuke, Julian (OB) 
+Lukasz Jaromin
+Joseph
+Bjorn
+Brian
 
 
 
-Guests:
---------------
-
-
-Regrets: 
----------------------   
-
-Adoption of Agenda (Dave)
+Adoption of Agenda (Nat)
 ===========================
 
 External Organizations
 =====================
-Workshop & US FDX (Don)
-------------------------
-A workshop in conjunction with FDX is in planning. 
-What is being asked to the WG is much the same as the one with UK OB last week. 
-
-It is at least three weeks away. 
-
-UK (Chris)
--------------
-Roadmap taking the crisis period is being published eminently. 
-
-Pushing CMA-9 for certification. Better visibility through shared ticketing system etc. is desirable. It is to be considered offline. 
+UK (Chris/Ralph)
+------------------
+* 
 
 Australia (Stuart)
 -------------------
@@ -54,9 +43,7 @@ Stuart and Dima are working on the draft response [1] to the Farrel enquiry.
 Pull Requests
 ================
 
-148 fixed-references-to-par-rar
----------------------------------------
-* https://bitbucket.org/openid/fapi/pull-requests/148/fixed-references-to-par-rar/diff Merged. 
+The following PR were merged. 
 
 162 change-pro-to-par
 -----------------------------
@@ -72,15 +59,6 @@ People are asked to review this potentially duplicating clause (dup to sec. 7.5)
 
 Issues
 =============
-
-#255 certification clarification request: location of discovery document
-------------------------------------------------------------------------------
-Whether to allow multiple issuers or only single issuer per authorization endpoint. 
-For a mobile app to use authorization endpoint as the claimed uri, having multiple issuers 
-associated with it is problematic. 
-
-Also, the integrity of the discovery document is tied to the base of the Issuer URI. 
-
 
 
 
