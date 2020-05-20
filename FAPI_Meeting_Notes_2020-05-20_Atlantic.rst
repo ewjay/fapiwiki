@@ -31,8 +31,8 @@ OIDF Workshop
 External Organizations
 =====================
 
-Australia (Stuart)
--------------------
+Australia (Stuart/Dima)
+-------------------------
 Stuart and Dima are working on the draft response [1] to the Farrel enquiry. 
 
 [1] https://docs.google.com/document/d/1cPPN3wbJFGM9vv-w4Au1rOv3BZeT8Y01xHqe9z5TixI/edit#heading=h.fgy35k6wtl8z
