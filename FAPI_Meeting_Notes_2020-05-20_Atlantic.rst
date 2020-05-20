@@ -1,7 +1,7 @@
 ============================================
-FAPI WG Meeting Notes (2020-05-13) 
+FAPI WG Meeting Notes (2020-05-20) 
 ============================================
-Date & Time: 2020-05-13 14:00 UTC
+Date & Time: 2020-05-20 14:00 UTC
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
@@ -17,15 +17,17 @@ Roll Call
 ===========
 Attending:
 --------------------
-
+Nat, Mark, Dave, Don, Kosuke, Joseph, Lukasz, Dima, Barry, Brian, Bjorn. 
 
 Adoption of Agenda (Nat)
 ===========================
+* Adopted as event
 
 Events
 ===============
 OIDF Workshop
 --------------------
+* 
 
 
 External Organizations
@@ -33,6 +35,10 @@ External Organizations
 
 Australia (Stuart/Dima)
 -------------------------
+Open Banking Australia Goes live July 1. 
+Everyone busy preparing for it. 
+
+
 Stuart and Dima are working on the draft response [1] to the Farrel enquiry. 
 
 [1] https://docs.google.com/document/d/1cPPN3wbJFGM9vv-w4Au1rOv3BZeT8Y01xHqe9z5TixI/edit#heading=h.fgy35k6wtl8z
@@ -50,6 +56,8 @@ Issues
 =============
 
 
+PKCE and Nonce
+==================
 
 
 AOB
