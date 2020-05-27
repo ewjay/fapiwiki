@@ -15,62 +15,62 @@ The meeting was called to order at 14:03 UTC.
 
 Roll Call 
 ===========
-Attending:
+Attending:Nat, Martin Drewes, Allan Foster, Kosuke, Joseph, Dima, Don, 
+Brian, Bjorn, Francis Pouatcha (Adosis), Dave
 
 
 Adoption of Agenda (Nat)
 ===========================
-* 
+* Multi Brand Issues
 
 Events
 ===============
-
+OIDF Workshop Slides (Don)
+-----------------------------
+It is available here: https://openid.net/workshops/oidf-virtual-workshop-may-21-2020/
 
 External Organizations
 =====================
 
 Australia (Stuart/Dima)
 -------------------------
-Open Banking Australia Goes live July 1. 
-Everyone busy preparing for it. 
-Don to send out the response to the Farrel enquiry, whose deadline is May 21. 
+The letter was sent out by Don as the response to the Farrel enquiry, whose deadline is May 21. 
 
 * https://docs.google.com/document/d/1cPPN3wbJFGM9vv-w4Au1rOv3BZeT8Y01xHqe9z5TixI/edit#heading=h.fgy35k6wtl8z
 
-ISO
------
-ISO/IEC 29184 Privacy notice and consent is getting published shortly. 
-For those who are interested in User Consent, please refer to it. 
+Open Banking Australia Goes live July 1 despite everyone thought it would be delayed due to COVID-19.  
+Everyone busy preparing for it. 
 
-Pull Requests
-================
+UK (Joseph)
+------------
+CMA9s are now moving towards FAPI conformance and certification. 
+App2App etc. are being tested now. 
+Migration to the Java platform is expected in June. 
 
-Multiple issuers PR
---------------------
+The extended roadmap was approved for UK Open Banking. 
+Consent dashboard, Recurring Payments are now in scope. 
+
+* UK ‘open banking’ champion looks to boost payments functionality
+* https://www.globalgovernmentforum.com/uk-open-banking-champion-looks-to-boost-payments-functionality/?utm_campaign=OBWC&utm_source=hs_email&utm_medium=email&utm_content=88342821&_hsenc=p2ANqtz-_HRbaMXSr3kAtVUQcvNhXo-BbSetZbmU6TSDRufxy-DcN7OE1PbS8zhex47t9XTQbWUopIyKxJeX4A70doVAx9GpjnlA&_hsmi=88342821
+
+* RETAIL BANKING MARKET INVESTIGATION ORDER 2017 Notice of approval of changes to the Agreed Timetable and Project Plan
+* https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/885537/Notice_of_proposed_changes_to_the_open_banking_roadmap_-_web_publication_-_cma_gov_uk_---_May_2020_-.pdf
+
+Berlin Group (Francis)
+------------------------
+Adorsys serves 56 banks and member of Advisory board of Berlin Group. 
+It joined OIDF/FAPI to bring OIDF/FAPI and Berlin Group closer together in FAPI 2.0. 
+Francis sees the advantage of FAPI 2.0 due to Grant Management. 
+
+Multiple issuers 
+======================
 Dave sent out an enquiry to the OAuth WG to solicit wider community comment. 
 We will wait until more feedback to come in before accepting the PR.  
 
-Issues (Nat)
-=============
-During the call, two new issues were filed:
-
-* #292: PKCE inconsistencies between Part 1 and Part 2
-* #293: PKCE & Nonce Security Considerations
 
 Taking the FAPI 1.0 Final (Nat)
 ==================================
-Pending several issues, we should now consider moving Part 1 and 2 to the Final. 
-The issues are: 
-
-* Clean up re: public clients
-* Changing the JAR reference to RFC number
-* #292
-* #293
-
-We could consider FAPI-CIBA to Final as well, but we have to prove the interoperability of the independent implementations before that. Authlete, MoneyHub, Ozone Bank have implementations. The latter two should get the certification and then we can do the interop testings. 
-
-Nat proposed the target date for submitting the drafts to the 60-days public review to be at the end of June. 
-Dave commented that is reasonable, and everyone in the call agreed. 
+Please send your PRs. 
 
 AOB
 ==========================
