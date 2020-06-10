@@ -47,6 +47,7 @@ OSW2020 (Daniel)
 * Workshop (3 hours or less) is still open. 
 * Open Banking / Live workshop of certification may be possible. (Chris and Joseph)
 * https://osw2020.com/
+* The Financial Data Exchange has indicated an interest in presenting at the OAUTH Security workshop on intermediary identity and end to end encryption (Don)
 
 SIOP Info Exchange (Nat)
 --------------------------
@@ -95,7 +96,7 @@ FAPI 2.0 (Daniel)
 
 AOB
 ==========================
-Don state in the chat that: The Financial Data Exchange has indicated an interest in presenting at the OAUTH Security workshop on intermediary identity and end to end encryption,
+n/a
 
 
 The meeting was adjourned at 14:59 UTC.
