@@ -57,13 +57,10 @@ External Organizations
 
 Australia (Stuart/Dima)
 -------------------------
-* Eventual alignment happening to FAPI. Big 4 and Two recipients seem to be aligned to FAPI 1.0 and not CDR. 
-* Round table today with Ping Identity Banking API Lead. He indicated his vision to push towards FAPI 2.0 (or all the specs that form FAPI 2.0) during the 12-month extension. 
-* It has been good progress. Mark Verstege API Lead @ Data 61 leading towards convergence. 
-* In UK, Fintechs never used Sandbox but only live accounts of friends and family to test. So, it took about a year before it starts picking up. 
-* Ping announced sandbox: 
-* Ping is serving two of four banks. 
-
+* Eventual alignment happening to FAPI 1.0. On some issues, Big 4 and Two recipients seem to be aligned to normative standards like FAPI 1.0 and not CDR.
+* Open Banking Round table today where Data61 Banking API Lead Mark Verstege indicated his vision to push towards FAPI 2.0 (or all the specs that form FAPI 2.0).
+* In UK, Fintechs never used Sandbox but only live accounts of friends and family to test. So, it took about a year before Open Banking adoption started picking up.
+* Ping has just announced CDR sandbox availability https://www.pingidentity.com/en/company/press-releases-folder/2020/consumer-data-right-sandbox-open-banking-australia.html
 
 UK (Chris)
 ------------------
