@@ -3,6 +3,8 @@ FAPI WG Agenda & Meeting Notes (2020-03-19) 17:00 PST (5pm)
 ===========================================
 Date & Time: 2020-03-19 01:00 UTC
 
+*** This meeting was canceled ****
+
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
 
