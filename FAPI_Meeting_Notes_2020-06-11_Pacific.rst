@@ -16,14 +16,21 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:  
+* Attending:  Nat, Craig, Anoop
 * Guests: 
 * Regrets: 
 
 Adoption of the Agenda:
 
-* 
-
+* Catch up - Since it has been a while we had this meeting
+** Grant Management API Updates. 
+** FAPI 2.0 (Draft is uploaded to the repo, mostly refactor, explicit security details). non-repudiation. 
+** FAPI 1.0 trying to close the open ticket by End of June. Then 60 days of public comment.
+* FS-ISAC-FDX Updates
+** How FDX members can comment or suggestion?
+- Become a member (IP contract).
+- They can join, submit tickets, and comment on it.
+** Canada is behind in the API journey and the industry is fragmented. No consortium yet.
 
  
 External Organizations 
