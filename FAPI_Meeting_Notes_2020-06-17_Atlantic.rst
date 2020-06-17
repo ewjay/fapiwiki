@@ -81,6 +81,7 @@ Drafts Developments
 FAIP 1.0 (Nat)
 -----------------------------
 * Please send PR! All the issues are already assigned. 
+* Dave and Joseph agreed to work on this week. 
 
 FAPI 2.0 (Daniel)
 -----------------------------
