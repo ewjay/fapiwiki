@@ -15,7 +15,7 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Nat, Don, Bjorn, Mark, Kosuke, Francis, Adam, Joseph, Dave, Dima, Chris, Ralph, Barry, Glyn
 * Regrets: 
 
 Adoption of Agenda (Nat)
@@ -26,7 +26,7 @@ Events
 ===============
 Identiverse 
 ----------------
-* Daniel received the recording links. 
+* 
 
 OIDF+FDX Workshop (Don)
 -------------------------
@@ -42,16 +42,11 @@ EU FinTech lab on digital identities (Mark)
 
 EC DGConnect (Mark)
 ------------------------------
-* 29th 10:30 CET. Nat has a conflict. He will respond to the thread. 
+* 29th 14:30 CET. Nat has a conflict. He will respond to the thread. 
 
 OSW2020 (Daniel)
 ---------------------
 * FDX is interested in presenting. 
-
-BGIN (Nat)
-------------------
-BGIN Event tomorrow at 13:00 UTC. 
-Agenda and registration page is here: https://bgin-global.org/event/ 
 
 SIOP Info Exchange (Nat)
 --------------------------
@@ -62,19 +57,24 @@ External Organizations
 
 Australia (Stuart/Dima)
 -------------------------
-Joseph had a call with them on Certification. 
+Going live next week. Limited rollout. 
 
 UK (Chris)
 ------------------
-* https://bitbucket.org/openid/fapi/issues/297/open-banking-europe-jws-profile-for
+* OBIE Steering Committee today. Hopefully, confirm the crisis implementation period ending in June. 
+* CMA 9 to go through the Certification: FAPI, Functional, CX. 
 
 OAuth JAR (Nat)
 =======================
 * PRs https://bitbucket.org/Nat/oauth-jwsreq/pull-requests/
 * What should be done for the case the value is not `true`. 
+* invalid_request
+* default value is false. 
+
 
 PRs for 1.0 (Dave)
 ====================
+* 
 
 Multiple issuers (Joseph)
 =================================
