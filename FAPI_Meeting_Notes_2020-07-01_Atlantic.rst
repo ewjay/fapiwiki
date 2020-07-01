@@ -74,15 +74,15 @@ External Organizations
 Australia (Dima)
 -------------------------
 Australian Open Banking (Consumer Data Right) went live today:
-* Big 4 banks (Data Holders), the Registry (Directory) and few Data Recipients. 
-* Read only
-* Scope: customer data and account data (credit and debit cards, deposit and transaction accounts)
-* Currently in closed beta. 
-* Government press release: https://www.accc.gov.au/media-release/consumer-data-right-goes-live-for-data-sharing
+* Big 4 banks (Data Holders), the Registry (Directory) and few Data Recipients.
+* Read only. 
+* Scope: customer data and account data (credit and debit cards, deposit and transaction accounts). 
+* Currently in closed beta. . 
+* Government press release: https://www.accc.gov.au/media-release/consumer-data-right-goes-live-for-data-sharing. 
 
-Dima's testes the FAPI Conformance Test Suite. Some changes are required for the Australian profile, for example: 
-* Encrypted ID Token
-* Australian data endpoint requires an extra header
+Dima's testes the FAPI Conformance Test Suite. Some changes are required for the Australian profile, for example:  
+* Encrypted ID Token. 
+* Australian data endpoint requires an extra header. 
 Joseph said that these will be included in the next release.
 
 PAR is currently required to be supported by CDR participants by November 2020. 
