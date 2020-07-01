@@ -42,8 +42,11 @@ Identiverse
 
 IMF Institute of International Finance (Don)
 ---------------------------------------------
-* Next week. 
-* FAPI + eKYC -- keynote for Policy Workshop
+July 9th at 8am Singapore / 9am Tokyo / 10am Sydney
+July 8th at 5pm San Francisco / 8pm Washington
+
+Nat will do a Keynote for this Policy Workshop. 
+* Topic: FAPI + eKYC 
 
 EC DGConnect (Mark)
 ------------------------------
