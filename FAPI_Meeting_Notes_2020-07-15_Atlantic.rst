@@ -15,25 +15,19 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Nat, Don, Mark, Torsten, Bjorn, Daniel, Thomas Anderson, Kosuke, Chris, Craig Borysowich, Dave, Joseph,  Brian. Joseph. 
 * Regrets: 
-* Guest: 
+* Guest: Thomas Anderson (Lexis), Tom Carter
 
 Adoption of Agenda (Nat)
 ===========================
-* 
+* Adopted As-Is. 
 
 Events
 ===============
 FDX+OIDF Workshop (Don)
 -------------------------
-We have a proposed date of July 21 for a workshop co-sponsored by the OpenID Foundation Financial-Grade API WG and counterparts for July 21. Don Cardinal Managing Director wanted to say a quick hello and introduce FDX
 
-90 min. 11 AM US EST. 21st July (Tue)
-
-Potential topics
-* Security
-* Certification stories -- Joseph would be able to do the demo. 
 
 OBIE+OIDF Workshop (Chris/Don)
 --------------------------------
@@ -45,11 +39,15 @@ External Organizations
 
 Australia (Dima/Stuart)
 -------------------------
-
+A lot of discussion to adopt PAR and RAR (2021) re: Grant management. 
 
 UK (Chris/Ralph/Joseph)
 -------------------------
-* Multiple Issuers
+* Variable and sweep payment. 
+* Confirmation of pay
+* CMA9 Certification. 17 other banks - how to get aligned. 
+
+* Multiple Issuers - Suggestion made to OAuth mailing list. Chris will follow up. 
 
 
 OAuth JAR (Nat)
