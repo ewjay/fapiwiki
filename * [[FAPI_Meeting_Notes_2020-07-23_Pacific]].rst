@@ -3,7 +3,6 @@ FAPI WG Agenda & Meeting Notes (2020-07-23) 17:00 PST (5pm)
 ===========================================
 Date & Time: 2020-07-23 01:00 UTC
 
-Cancelled 
 
 Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
