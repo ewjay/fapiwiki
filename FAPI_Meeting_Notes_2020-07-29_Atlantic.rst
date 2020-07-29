@@ -15,9 +15,9 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Nat, Bjorn, Daniel, Joseph, Takahiko, Brian, Antony, Kosuke, Travis, Don, Torsten, Francis, Dima, Ralph, Freddi, Brian, Dave
 * Regrets: 
-* Guest: Thomas Anderson (Lexis), Tom Carter
+* Guest: 
 
 Adoption of Agenda (Nat)
 ===========================
@@ -27,13 +27,17 @@ Events
 ===============
 FDX+OIDF Workshop (Don)
 -------------------------
-
+* Nat to be keynote presenter at their conference in September. A big announcement re OIDF there as well. 
+* Consultation FDIC. 
+* 
 
 OBIE+OIDF Workshop (Chris/Don)
 --------------------------------
+* 
 
 Identiverse (Nat)
 -----------------------------
+* 
 
 External Organizations
 ========================
@@ -44,12 +48,13 @@ Australia (Dima/Stuart)
 UK (Chris/Ralph/Joseph)
 -------------------------
 
-IIF (Don)
-------------
+IIF/WEF (Don)
+--------------
 
 
 FDX (Don)
 ------------
+
 
 FDATA (Don)
 ---------------
