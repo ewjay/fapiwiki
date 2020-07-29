@@ -72,8 +72,22 @@ https://bitbucket.org/openid/fapi/pull-requests/175
 
 Issues for 1.0 (Nat/Dave)
 ==============================
+Closed the following: 
 
+PR 161
+----------
+* https://bitbucket.org/openid/fapi/pull-requests/161
 
+PR 178
+----------
+* https://bitbucket.org/openid/fapi/pull-requests/178
+
+PR 186
+----------
+* https://bitbucket.org/openid/fapi/pull-requests/186
+
+Discussion around the shalls that are not testable. 
+Nat to propose a text. 
 
 AOB
 ==========================
