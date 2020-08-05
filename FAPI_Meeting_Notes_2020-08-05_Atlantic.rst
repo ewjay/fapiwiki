@@ -15,7 +15,7 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Nat, Bjorn, Allan, Dave, Tony, Joseph, Ralph, Kosuke
 * Regrets: 
 * Guest: 
 
@@ -28,22 +28,35 @@ Events
 
 External Organizations
 ========================
+W3C
+-------
+Privacy Path @ IETF. 
 
-Events 
-=================
+OBIE (Chris)
+----------------
+1. rest of CMA9 still working towards certifications
+
+2. Significant potential breaking issue reuse of PSD2 eIDAS certs in the UK if a no-deal Brexit after 1 Jan - see https://eba.europa.eu/eba-calls-financial-institutions-finalise-preparations-end-transitional-arrangements-between-eu-and
+
+Particularly this phrase: Furthermore, account information service providers (AISPs) and payment initiation service providers (PISPs) registered/authorised in the UK will no longer be entitled to access customers' payment accounts held at the EU payment service providers and their PSD2 eIDAS certificates under Article 34 of the Commission Delegated Regulation (EU) 2018/389 will be revoked.
+
+If taken at face value, and if all QTSPs revoke all UK firms' PSD2 eIDAS certs, and if FCA retains the current requirement for these PSD2 eIDAS certs in the UK, then...
 
 PRs for 1.0 (Dave)
 ====================
 
 Please give feedback to all the standing PRs. 
 
-PR 175
+PR 182
 ---------
-* https://bitbucket.org/openid/fapi/pull-requests/175
+* https://bitbucket.org/openid/fapi/pull-requests/182
 
-PR 161
+It is using the real domains as examples are straight out of 
+the conformance test. It should be replaced with example.com etc. 
+
+PR 175
 ----------
-* https://bitbucket.org/openid/fapi/pull-requests/161
+* https://bitbucket.org/openid/fapi/pull-requests/175
 
 PR 178
 ----------
