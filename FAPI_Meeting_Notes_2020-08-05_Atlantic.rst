@@ -15,7 +15,7 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call 
 ===========
-* Attending: Nat, Bjorn, Allan, Dave, Tony, Joseph, Ralph, Kosuke
+* Attending: Nat, Bjorn, Allan, Dave, Tony, Joseph, Ralph, Kosuke, Chris, Dima
 * Regrets: 
 * Guest: 
 
@@ -30,7 +30,11 @@ External Organizations
 ========================
 W3C
 -------
-Privacy Path @ IETF. 
+There are two workstreams that are potentially relevant to FAPI. 
+One is Web Payment. 
+The other is WebID CG. WebID is trying to sort the problem that a browser cannot reliably distinguish legitimate authentication federation and web tracking. It is related to ITP. 
+
+Privacy Path @ IETF that uses JWT seems to be relevant here as well. 
 
 OBIE (Chris)
 ----------------
@@ -51,26 +55,29 @@ PR 182
 ---------
 * https://bitbucket.org/openid/fapi/pull-requests/182
 
-It is using the real domains as examples are straight out of 
-the conformance test. It should be replaced with example.com etc. 
+It is using the real domains as examples are straight out of the conformance test. It should be replaced with example.com etc. 
 
-PR 175
+PR 161
 ----------
-* https://bitbucket.org/openid/fapi/pull-requests/175
+* https://bitbucket.org/openid/fapi/pull-requests/161
 
-PR 178
+Changing a should to shall, requiring metadata to be obtained through OIDD. 
+
+Note: a few banks currently fails this requirement. 
+
+PR 181
 ----------
-* https://bitbucket.org/openid/fapi/pull-requests/178
+* https://bitbucket.org/openid/fapi/pull-requests/181
 
 PR 186
 ----------
 * https://bitbucket.org/openid/fapi/pull-requests/186
 
-Discussion around the shalls that are not testable. 
-Nat to propose a text. 
+Nat proposed a text. Ralph is writing a friendly amendment to it. 
+Once it is ready, it should be merged in. 
 
 AOB
 ==========================
-
+n/a
 
 The meeting was adjourned at 14:59 UTC.
