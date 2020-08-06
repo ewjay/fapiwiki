@@ -26,8 +26,8 @@ Agenda:
 * Catch up from last meeting 
 * Review notes from last Atlantic call
 * FS-ISAC-FDX Updates
-** FDC DevCon Sep 2020
-* Webhook implementation - How can FAPi help shape this?
+   FDX DevCon Sep 2020
+   Webhook implementation - How can FAPi help shape this?
 
 
  
