@@ -20,8 +20,7 @@ Roll Call (Anoop)
 * Guests: 
 * Regrets: 
 
-Adoption of the Agenda:
-
+* Adoption of the Agenda:
 * Catch up from last meeting 
 * Review notes from last Atlantic call
 * FS-ISAC-FDX Updates
