@@ -29,8 +29,8 @@ We really recommend you to join by GoToMeeting App, but if you absolutely have t
 
 * [Implementer's Draft for Part 1: Read Only APIs security](https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md)
 * [Implementer's Draft for Part 2: Read and Write APIs security](https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_002.md)
-* [WD on JARM](https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md)
-* [WD on Client Initiated Backchannel Authentication Profile](https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_CIBA.md?at=master) 
+* [Implementer's Draft for JARM](https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md)
+* [Implementer's Draft for Client Initiated Backchannel Authentication Profile](https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_CIBA.md?at=master) 
 
 ## Meeting Notes
 
@@ -110,13 +110,28 @@ This page is not always updated so it is better to go to the above link to find 
 
 ### 2020
 
+The following list is very incomplete. 
+Please go to the [auto-generated page](https://bitbucket.org/openid/fapi/wiki/browse/) for a complete list. 
+
 * [[FAPI_Meeting_Notes_2020-01-09_Pacific]]
+* [[FAPI_Meeting_Notes_2020-01-22_Atlantic]]
 * [[FAPI_Meeting_Notes_2020-01-23_Pacific]]
+* [[FAPI_Meeting_Notes_2020-01-29_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-02-05_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-02-07_Pacific]]
+* [[FAPI_Meeting_Notes_2020-02-12_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-02-17_Atlantic]]
 * [[FAPI_Meeting_Notes_2020-02-20_Pacific]]
 * [[FAPI_Meeting_Notes_2020-03-05_Pacific]]
 * [[FAPI_Meeting_Notes_2020-03-19_Pacific]]
 * [[FAPI_Meeting_Notes_2020-06-11_Pacific]]
+* [[FAPI_Meeting_Notes_2020-07-01_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-07-15_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-07-29_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-08-05_Atlantic]]
 * [[FAPI_Meeting_Notes_2020-08-06_Pacific]]
+
+The newest ones are found at https://bitbucket.org/openid/fapi/wiki/browse/
 
 
 ## Useful Resources
