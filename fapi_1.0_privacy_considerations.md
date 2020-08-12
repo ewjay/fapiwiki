@@ -1,13 +1,7 @@
 # 9. Privacy considerations
 
 ## 9.1 General
-Each implementation should consider performing a Privacy Impact Assessment and produce the PIA Report. 
-ISO/IEC 29134 provides a valuable resource for conducting PIA and the production of the PIA Report. 
-Readers are highly recommended to make use of it. 
-
-In what follows, some information that can be utilized during PIA is listed. 
-The list is limited to only those that are related to the protocol transactions and does not include 
-other aspects of the processing. 
+Each implementation should consider performing a Privacy impact assessment (PIA) and produce a PIA Report according to ISO/IEC 29134.
 
 ## 9.2 Client registration
 
