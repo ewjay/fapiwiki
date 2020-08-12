@@ -15,7 +15,7 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Nat, Mark, Don, Daniel, Takahiko, Dima, Kosuke, Dave, Chris, Francis, Joseph, Bjorn, Brian
 * Regrets: 
 * Guest: 
 
@@ -23,58 +23,68 @@ Adoption of Agenda (Nat)
 ===========================
 * 
 
-Events 
+Events (Don)
 ======================
+FDX Event
+--------------
 
 External Organizations
 ========================
-W3C
--------
-There are two workstreams that are potentially relevant to FAPI. 
-One is Web Payment. 
-The other is WebID CG. WebID is trying to sort the problem that a browser cannot reliably distinguish legitimate authentication federation and web tracking. It is related to ITP. 
+Berlin Group (Francis Pouatcha)
+---------------------------------
+Embedded approach. 
 
-Privacy Path @ IETF that uses JWT seems to be relevant here as well. 
+Chris is sceptical on BG adopting FAPI. 
+However, he believes that it can be shown that the BG model can be implemented with FAPI. 
 
-OBIE (Chris)
-----------------
-1. rest of CMA9 still working towards certifications
+UK (Chris)
+-------------
+1. CMA9 on track for certification
+1. eIDAS
 
-2. Significant potential breaking issue reuse of PSD2 eIDAS certs in the UK if a no-deal Brexit after 1 Jan - see https://eba.europa.eu/eba-calls-financial-institutions-finalise-preparations-end-transitional-arrangements-between-eu-and
-
-Particularly this phrase: Furthermore, account information service providers (AISPs) and payment initiation service providers (PISPs) registered/authorised in the UK will no longer be entitled to access customers' payment accounts held at the EU payment service providers and their PSD2 eIDAS certificates under Article 34 of the Commission Delegated Regulation (EU) 2018/389 will be revoked.
-
-If taken at face value, and if all QTSPs revoke all UK firms' PSD2 eIDAS certs, and if FCA retains the current requirement for these PSD2 eIDAS certs in the UK, then...
 
 PRs for 1.0 (Dave)
 ====================
 
 Please give feedback to all the standing PRs. 
 
-PR 182
----------
+PR 183 Mark pushed request object spec as deprecated
+-----------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/183
+
+Callers agreed on the approach. 
+
+PR 175 Add security consideration around sharing keys
+------------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/175
+
+Approved. 
+
+PR 182 Add non-normative examples of various objects
+------------------------------------------------------------
 * https://bitbucket.org/openid/fapi/pull-requests/182
 
-It is using the real domains as examples are straight out of the conformance test. It should be replaced with example.com etc. 
-
-PR 161
-----------
-* https://bitbucket.org/openid/fapi/pull-requests/161
-
-Changing a should to shall, requiring metadata to be obtained through OIDD. 
-
-Note: a few banks currently fails this requirement. 
-
-PR 181
-----------
-* https://bitbucket.org/openid/fapi/pull-requests/181
-
-PR 186
-----------
+PR 186 Add clauses requiring AS to be sure of/show client identity
+---------------------------------------------------------------------
 * https://bitbucket.org/openid/fapi/pull-requests/186
 
-Nat proposed a text. Ralph is writing a friendly amendment to it. 
-Once it is ready, it should be merged in. 
+Add it to privacy considerations. 
+Close this PR after verified the privacy consideration text. 
+
+PR 187 Created a sensible privacy considerations clause for dealing with issue #90
+------------------------------------------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/187
+
+Nat proposed multi-steps approach: 
+
+1) to examine the structure and discuss on issue #90; 
+2) if it looks good, then accept the PR; 
+3) start creating issues to deal with text within each sub-clauses; 
+4) discuss the text on the issues; 
+5) create PRs for those issues; 
+
+
+
 
 AOB
 ==========================
