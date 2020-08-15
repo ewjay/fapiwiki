@@ -16,15 +16,18 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:   
+* Attending:   Nat, Ed, and Anoop
 * Guests: 
-* Regrets: 
+* Regrets: Bjorn & Dima (Meeting invite missing on cal)
 
 Agenda:
 
 * Adoption of the Agenda
-* Catch up from last meeting 
-* Review notes from last Atlantic call
+* Catch up from the last meeting 
+* Review notes from last Atlantic call (6/11)
+* Tentative timeline for 1.x - Aug 21st ( 60days window for comment/approve).
+* Impact of Brexit (Dec 31st, No-Deal scenario).
+* New Usecase: Webhook/Push Data events - Anoop to create a bit bucket ticket & pitch a proposal
 * FS-ISAC-FDX Updates
    FDX DevCon Sep 2020
    
