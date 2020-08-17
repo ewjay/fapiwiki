@@ -25,10 +25,14 @@ Agenda:
 * Adoption of the Agenda
 * Catch up from the last meeting 
 * Review notes from last Atlantic call (6/11)
-* Tentative timeline for 1.x - Aug 21st ( 60days window for comment/approve).
-* Impact of Brexit (Dec 31st, No-Deal scenario).
-* Update on Issue #291 - https://bitbucket.org/openid/fapi/issues/291/remove-older-specs-from-master
-* New Usecase: Webhook/Push Data events - Anoop to create a bit bucket ticket & pitch a proposal
+* * External Organziations W3C
+* FAPI Updates
+* * Tentative timeline for 1.x - Aug 21st ( 60days window for comment/approve).
+* * Impact of Brexit (Dec 31st, No-Deal scenario).
+* * Update on Issue #291 - https://bitbucket.org/openid/fapi/issues/291/remove-older-specs-from-master
+* * New Usecase: Webhook/Push Data events - Anoop to create a bit bucket ticket & pitch a proposal. The proposal will be included webhook subscription as part of OAUTH flow/grant APIs. Once an event happens on a subscribe/consented account at partner/bank (data holder)can push data to secure data receiver endpoint. FAPI is the right forum to propose as standard for subscription flow/implementation and spec for securing data endpoint at the data receiver. 
+* * Nat will create a privacy section on the spec. 
+* * Bank of Santander in part of FAPI now.
 * FS-ISAC-FDX Updates
    FDX DevCon Sep 2020
    
