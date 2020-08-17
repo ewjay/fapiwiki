@@ -27,6 +27,7 @@ Agenda:
 * Review notes from last Atlantic call (6/11)
 * Tentative timeline for 1.x - Aug 21st ( 60days window for comment/approve).
 * Impact of Brexit (Dec 31st, No-Deal scenario).
+* Update on Issue #291 - https://bitbucket.org/openid/fapi/issues/291/remove-older-specs-from-master
 * New Usecase: Webhook/Push Data events - Anoop to create a bit bucket ticket & pitch a proposal
 * FS-ISAC-FDX Updates
    FDX DevCon Sep 2020
