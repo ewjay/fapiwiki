@@ -32,10 +32,11 @@ External Organizations
 ========================
 Australia (Dima)
 ----------------------
-* PAR is on the to be supported list. (Feb)
-* More instruments
-* Roadmap for RAR not clear. Currently, only 4 banks and 2 RPs with pilot mode customers. 
-* They want to implement fine-grained consent so it should come eventually. 
+
+* Currently, CDR (Open Banking) ecosystem has 4 banks and 2 RPs with pilot mode customers. 
+* November Release of CDR will have more instruments supported, joint accounts.
+* PAR to be supported (by Feb 2021)
+* Roadmap for RAR not clear. CDR is planning to implement fine-grained consent so it should come eventually. 
 
 Berlin Group (Francis Pouatcha)
 ---------------------------------
