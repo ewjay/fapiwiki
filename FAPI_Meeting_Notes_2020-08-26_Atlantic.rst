@@ -70,6 +70,22 @@ Payload signature is a roadblock. Will deal with it in the next call.
 
 PRs for 1.0 (Dave)
 ====================
+PR 188 Clarify that duplicate parameters requirement doesn't apply to PAR
+---------------------------------------------------------------------------
+Accepted. 
+
+PR 189 FAPI-RW: Require PKCE when using PAR
+---------------------------------------------
+It is generally agreed. 
+However, Stuart and Dima noted that there could be impacts to AU. 
+Stuart will talk with the AU lead tommorow. 
+
+
+PR 182 Add non-normative examples of various objects
+-----------------------------------------------------------
+Joseph re-generated examples using example.com etc. instead of real domains. 
+
+ALL: Please provide independent checks. 
 
 PR 187 Privacy Considerations
 -------------------------------
