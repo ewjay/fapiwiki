@@ -15,7 +15,7 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call 
 ===========
-* Attending: Nat, Anoop, Joseph, Daniel, Chris, Don, Brian, Kosuke, Ralph, Torsten Dima, Dave, Stuart, Tony, Mark, Torsten. 
+* Attending: Nat, Anoop, Joseph, Daniel, Chris, Don, Brian, Kosuke, Ralph, Torsten,  Dima, Dave, Stuart, Tony, Mark. 
 * Regrets: 
 * Guest: 
 
@@ -64,8 +64,11 @@ FCA looking at a potential alternative, which is the fall back to the previous m
 CMA9 and others going through FAPI certification: 
 
 Firms are interested in the timing of FAPI 2.0 and differences. 
+Nat gave his view on the roadmap. 
 
-Payload signature is a roadblock. Will deal with it in the next call. 
+Daniel noted that the payload signature is a roadblock. 
+
+ACT: Will deal with it in the next call. 
 
 
 PRs for 1.0 (Dave)
@@ -78,14 +81,14 @@ PR 189 FAPI-RW: Require PKCE when using PAR
 ---------------------------------------------
 It is generally agreed. 
 However, Stuart and Dima noted that there could be impacts to AU. 
-Stuart will talk with the AU lead tommorow. 
+Stuart will talk with the AU lead tomorrow. 
 
 
 PR 182 Add non-normative examples of various objects
 -----------------------------------------------------------
 Joseph re-generated examples using example.com etc. instead of real domains. 
 
-ALL: Please provide independent checks. 
+ACT: ALL: Please provide independent checks. 
 
 PR 187 Privacy Considerations
 -------------------------------
@@ -109,4 +112,4 @@ AOB
 ==========================
 n/a
 
-The meeting was adjourned at 15:00 UTC.
+The meeting was adjourned at 15:04 UTC.
