@@ -15,13 +15,13 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Nat, Mark, Daniel, Joseph, Torsten, Takahiko, Dima, Brian, Tony, Kosuke, Dave, Francis, Bjorn, Chris, Freddi 
 * Regrets: 
 * Guest: 
 
 Adoption of Agenda (Nat)
 ===========================
-
+* Message Signing
 
 Events 
 ======================
@@ -30,25 +30,50 @@ External Organizations
 ========================
 Australia (Dima/Stuart)
 ------------------------
+n/a
 
 Berlin Group (Francis)
 ------------------------
+n/a
 
 European Commission (Mark/Torsten)
 ------------------------------------
+Consultation response to be dealt with in eKYC WG. 
+To submit tomorrow. 
 
 ETSI (Ralph)
 -------------
+n/a
 
 FDX (Anoop)
 -------------------
+n/a
 
 UK (Chris/Ralph)
 ---------------------
+Chris reported: 
+
 
 Issues (Anoop)
 ==================
-* #306 
+
+* #306 (Anoop)
+
+#309 Decision on message signing for FAPI 2 Advanced (Daniel)
+---------------------------------------------------------------
+* #309 
+
+Agreement on having control objectives. 
+However, there is no agreement on what needs to be written as the control measure. 
+
+Almost 40 minutes of the call time was spent on the discussion on whether we should recommend detached JWS or something else. 
+This is to be continued next week. 
+
+Takahiko asked if there is any documentation on pros and cons of various approaches. 
+Joseph pointed to https://bitbucket.org/openid/fapi/src/master/Financial_API_HTTP_Signing.md . 
+
+Takahiko volunteered to review it. 
+
 
 PRs for 1.0 (Dave)
 ====================
@@ -63,20 +88,18 @@ PR 182 Add non-normative examples of various objects
 
 Last ACTion: ALL: Please provide independent checks. 
 
-Can we merge? 
+It should be ready to be merged in a few days. 
 
 PR 187 Privacy Considerations
 -------------------------------
-
-1. Meta-question: is it for implementers or statement of limitations? 
-1. Should generally applicable advice be removed or should it stay for its usefulness? 
-1. Can it include informational references to publicly available but not free documents? 
-1. Is it OK to be all "should" or should some of them be "shall"? 
-
+1. Agreed to make it advise to implementers and not a statement of limitations. 
+1. Agreed to remove general bit and only deal with FAPI specific topics if there is any. 
+1. Agreed to remove all ISO references with "shall" or "should" keywords. 
+1. Agreed to have no "shall" in this section. 
 
 
 AOB
 ==========================
+n/a
 
-
-The meeting was adjourned at 15:04 UTC.
+The meeting was adjourned at 15:03 UTC.
