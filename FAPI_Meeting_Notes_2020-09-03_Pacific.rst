@@ -22,19 +22,33 @@ Roll Call (Anoop)
 
 Agenda:
 
-* Adoption of the Agenda
-* Review meeting notes from last Atlantic call.
-* October Virtual Workshop FAPI update (Slides?)
-* Issue #306 - https://bitbucket.org/openid/fapi/issues/306/webhook-support-in-fapi
-* AU CDR - https://github.com/ConsumerDataStandardsAustralia/standards-maintenance/issues/219
+Adoption of the Agenda (Anoop)
+===============================
+
+Review meeting notes from last Atlantic call (Nat)
+======================================================
+* FAPI 1.0 Privacy Considerations
+* FAPI 2.0 Signature
+
+October Virtual Workshop FAPI update
+============================================
+(Slides?)
+
+Issues
+==============
+Issue #306
+------------
+ - https://bitbucket.org/openid/fapi/issues/306/webhook-support-in-fapi
+
+AU CDR
+------------
+ - https://github.com/ConsumerDataStandardsAustralia/standards-maintenance/issues/219
 
 External Organizations 
 ==============================
-*  
- 
+FDX
+----------
 
-
- -----------------------------------------------------
 
  
 Next Call
