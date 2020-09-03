@@ -29,6 +29,7 @@ Review meeting notes from last Atlantic call (Nat)
 ======================================================
 * FAPI 1.0 Privacy Considerations
 * FAPI 2.0 Signature
+* FDX Developer Conference
 
 October Virtual Workshop FAPI update
 ============================================
