@@ -60,9 +60,9 @@ Issues (Anoop)
 -------------------------------------------------------------
 * #306 
 
-#309 Decision on message signing for FAPI 2 Advanced (Daniel)
----------------------------------------------------------------
-* #309 
+Issues for Part 2
+--------------------
+* https://bitbucket.org/openid/fapi/issues?status=new&status=open&component=Part%202%3A%20RW%20Security
 
 
 
