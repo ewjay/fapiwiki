@@ -15,43 +15,47 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Nat, Bjorn, Anoop, Mark, Don, Dima, Joseph, Kosuke, Dave. 
 * Regrets: 
 * Guest: 
 
 Adoption of Agenda (Nat)
 ===========================
-* 
+* Adopted as is. 
 
 Events 
 ======================
+FDX Dev-Con Global Summit (Don)
+---------------------------------
+
+
 
 External Organizations
 ========================
 Australia (Dima/Stuart)
 ------------------------
-
+n/a
 
 Berlin Group (Francis)
 ------------------------
-
+n/a
 
 European Commission (Mark/Torsten)
 ------------------------------------
-
+Sent out comments to EC. 
 
 ETSI (Ralph)
 -------------
-
+n/a
 
 FDX (Anoop)
 -------------------
+As stated in the Events. 
 
-
-UK (Chris/Ralph)
+UK (Dave)
 ---------------------
-
-
+UKOB is keen to hold a workshop with TPPs as UK Banks are moving to full FAPI compliance. 
+Relying party certification. 
 
 Issues (Anoop)
 ==================
