@@ -16,14 +16,13 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:  
+* Attending:  Nat, Dima, Ed and Anoop
 * Guests: 
 * Regrets:  
 
 Agenda:
 
-Adoption of the Agenda (Anoop)
-===============================
+ 
 
 Review meeting notes from last Atlantic call (Nat)
 ======================================================
@@ -33,7 +32,7 @@ Review meeting notes from last Atlantic call (Nat)
 
 October Virtual Workshop FAPI update
 ============================================
-(Slides?)
+(Slides?) - Nat to provide template and in next meeting it will be working session.
 
 Issues
 ==============
