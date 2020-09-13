@@ -40,16 +40,19 @@ Issues
 Issue #306
 ------------
  - https://bitbucket.org/openid/fapi/issues/306/webhook-support-in-fapi
+* Agreed to add to FAPI specification. Check with Chris from OB perspective.
+* Anoop to send email request for participation. 
 
 AU CDR
 ------------
  - https://github.com/ConsumerDataStandardsAustralia/standards-maintenance/issues/219
+* This was a bug and being fixed by current implementation pilots of banks.
 
 External Organizations 
 ==============================
 FDX
 ----------
-
+* Good to include FDX team on FAPI 2.x including #306 Issue contribution.
 
  
 Next Call
