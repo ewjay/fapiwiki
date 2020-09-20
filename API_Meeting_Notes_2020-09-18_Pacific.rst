@@ -27,9 +27,9 @@ Agenda:
 * Registry - Many regions are implementing OB already have this in production and AU CDR is in implementation phase. FDX is looking into.
 * * Local region regulation drives the requirement and may differ.
 * * FAPI can document best practices.Dima to send a old document around registry. Dima will open an Issue to track and solicit members to for smaller group to document. 
-* * FAPI - Event Notification spec in FAPI 2.x. Invite for participation to for a working group. Anil from Akoya/Fidelity is interested from FDX side to participate and Dima has offered help.
-* * Nat, Joseph, Stuart, Don and Anoop are presenting on different FDX global summit sessions (Sept 21 - Sept 23).
-* * Next Week Meeting work on October workshop slides on FAPI updates.
+* FAPI - Event Notification spec in FAPI 2.x. Invite for participation to for a working group. Anil from Akoya/Fidelity is interested from FDX side to participate and Dima has offered help.
+* Nat, Joseph, Stuart, Don and Anoop are presenting on different FDX global summit sessions (Sept 21 - Sept 23).
+* Next Week Meeting work on October workshop slides on FAPI updates.
 
 
 
