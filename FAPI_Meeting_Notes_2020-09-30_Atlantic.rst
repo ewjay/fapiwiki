@@ -10,7 +10,7 @@ FAPI WG Meeting Notes (2020-09-30)
 
 .. contents:: Agenda
 
-The meeting was called to order at 14:__ UTC. 
+The meeting was called to order at 14:03 UTC. 
 
 Roll Call 
 ===========
@@ -117,20 +117,14 @@ European Commission (Mark/Torsten)
 ETSI (Torsten/Dave)
 ---------------------
 * Identity verification method for Qualified Services. 
-* We should respond to the consultation - Oct. 17. 
+* We should respond to the consultation - Oct. 17. Dave will start an email thread on this. People should join in. 
 * JAdES spec not published yet. 
 
 UK (Dave)
 ---------------------
-
-PRs (Dave)
-====================
-
-
-Issues (Dave)
-====================
-
-
+* Workshop on Oct: 13. 
+* eIDAS certificate 
+* UK Open Banking usage expanded. 
 
 AOB
 ==========================
