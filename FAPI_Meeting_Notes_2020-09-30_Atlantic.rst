@@ -39,8 +39,15 @@ ACT: Chairs to make a decision that we have come to a state where we can send WG
 
 Events 
 ======================
-OBIE WS (Chris)
----------------
+OBIE WS (Joseph/Don)
+---------------------
+* Oct. 13 
+* Dave, Joseph are speaking. 
+
+FDX/OIDF (Don/Nat)
+---------------------
+* Oct 28. 
+* Panel: Don Cardinal, Nat Sakimura, Anoop Saxena. 
 
 IIF Annual Membership Meeting (Don/Nat)
 ----------------------------------------
@@ -67,10 +74,6 @@ I will continue liaising with your moderator Vicky, but to start the thought pro
 * Financial crime: addressing current low rates of interdiction of illicit funds; eKYC, overcoming de-risking concerns; challenges/barriers to adoption for this purpose
 * Specific Initiatives: eg. Open Digital Trust initiative; the Open ID Exchange in the UK; Singapore initiatives including the ability to interface with APIX; DIACC in Canada; national KYC utilities
 * Interoperability: both (i) between Digital Identity systems, and (ii) between Identity and other capabilities and initiatives, eg. Open Banking, Payments; extension to other applications beyond finance
-
-FDX/OIDF (Don/Nat)
----------------------
-* Oct 28. 
 
 Identity Week Asia (Nat)
 -------------------------
