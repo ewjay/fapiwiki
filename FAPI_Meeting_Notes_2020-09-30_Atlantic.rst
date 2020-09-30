@@ -48,6 +48,7 @@ FDX/OIDF (Don/Nat)
 ---------------------
 * Oct 28. 
 * Panel: Don Cardinal, Nat Sakimura, Anoop Saxena. 
+* https://openid.net/2020/09/14/openid-foundation-virtual-workshop-wednesday-october-28-2020/
 
 IIF Annual Membership Meeting (Don/Nat)
 ----------------------------------------
@@ -77,6 +78,7 @@ I will continue liaising with your moderator Vicky, but to start the thought pro
 
 Identity Week Asia (Nat)
 -------------------------
+* October 14. (Recording on October 10)
 * Fighting Back Against Digital Identity Fraud panel. Nat will moderate. 
 * Panelists: Jeremy Grant, Subhashish Bose, David Turkington
 
@@ -96,24 +98,30 @@ External Organizations
 ========================
 Australia (Dima/Stuart)
 ------------------------
-
+* FYI `ATO declines to fix code replay flaw within myGovID
+ <https://www.zdnet.com/article/ato-declines-to-fix-code-replay-flaw-within-mygovid/>`_ 
 
 Berlin Group (Francis)
 ------------------------
+* Adivisory meeting. Berlin G taskforce is now working on market driven extension set: Open Finance. 
+* Israel putting many request. 
+* However, there is no activity this year for authorization and SCA model. 
+* Berlin Group Specs: https://www.berlin-group.org/nextgenpsd2-downloads
 
 
 European Commission (Mark/Torsten)
 ------------------------------------
+* n/a
+* EBA is on Open Banking APIs. 
 
-
-ETSI (Ralph)
--------------
-
+ETSI (Torsten/Dave)
+---------------------
+* Identity verification method for Qualified Services. 
+* We should respond to the consultation - Oct. 17. 
+* JAdES spec not published yet. 
 
 UK (Dave)
 ---------------------
-
-
 
 PRs (Dave)
 ====================
