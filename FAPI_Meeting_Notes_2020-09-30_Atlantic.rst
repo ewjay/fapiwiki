@@ -98,8 +98,11 @@ External Organizations
 ========================
 Australia (Dima/Stuart)
 ------------------------
-* FYI `ATO declines to fix code replay flaw within myGovID
- <https://www.zdnet.com/article/ato-declines-to-fix-code-replay-flaw-within-mygovid/>`_ 
+An interesting development regarding testing. To be disclosed in a while. 
+
+Dima reported the following as FYI. 
+
+* `ATO declines to fix code replay flaw within myGovID <https://www.zdnet.com/article/ato-declines-to-fix-code-replay-flaw-within-mygovid/>`_
 
 Berlin Group (Francis)
 ------------------------
@@ -128,6 +131,6 @@ UK (Dave)
 
 AOB
 ==========================
+n/a
 
-
-The meeting was adjourned at 15:03 UTC.
+The meeting was adjourned at 15:00 UTC.
