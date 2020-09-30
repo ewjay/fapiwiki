@@ -1,13 +1,12 @@
 ============================================
 FAPI WG Meeting Notes (2020-09-30) 
 ============================================
-Date & Time: 2020-09-30 14:00 UTC
-
-Location: GoToMeeting https://global.gotomeeting.com/join/321819862
+* Date & Time: 2020-09-30 14:00 UTC
+* Location: GoToMeeting https://global.gotomeeting.com/join/321819862
+* Note URI: https://bitbucket.org/openid/fapi/wiki/edit/FAPI_Meeting_Notes_2020-09-30_Atlantic
 
 .. sectnum:: 
    :suffix: .
-https://bitbucket.org/openid/fapi/wiki/edit/FAPI_Meeting_Notes_2020-09-23_Atlantic
 
 .. contents:: Agenda
 
