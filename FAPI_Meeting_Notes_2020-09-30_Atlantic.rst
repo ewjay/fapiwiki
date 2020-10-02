@@ -22,17 +22,20 @@ Roll Call
 
 Adoption of Agenda (Nat)
 ===========================
+Adopted as is. 
 
 Remaining Issues on FAPI 1.0
 ==============================
 * Part 1: https://bitbucket.org/openid/fapi/issues?status=new&status=open&component=Part%201%3A%20RO%20Security
 * Part 2: https://bitbucket.org/openid/fapi/issues?status=new&status=open&component=Part%202%3A%20RW%20Security
 
+All the remaining issues were disposed of. 
+
 WG Last Call for FAPI 1.0
 ============================
 As it was discussed last week, we would like to issue the WG last call for FAPI 1.0. 
 
-Any dissent? 
+It was recommended unanimously. 
 
 ACT: Chairs to make a decision that we have come to a state where we can send WG Last Call message to the list. 
 
@@ -88,10 +91,10 @@ Oct 14 11:30 SGT
 
 The isolation of worldwide lockdowns this year have presented criminals with new opportunities for phishing, and this only adds to already existing trends in the rise of synthetic IDs, account takeover and SIM swap fraud. This panel will explore solutions which utilise digital identity to fight back against the fraudsters.
 
-* Nat SakimuraModerator:Nat Sakimura,Chairman,OpenID Foundation
-* Subhashish BoseSubhashish Bose,Senior Director – Fraud & Security,FICO
-* Jeremy GrantJeremy Grant,Coordinator,Better Identity Coalition
-* David TurkingtonDavid Turkington,Head of Technology, APAC,GSMA
+* Nat SakimuraModerator: Nat Sakimura, Chairman, OpenID Foundation
+* Subhashish BoseSubhashish Bose, Senior Director – Fraud & Security, FICO
+* Jeremy GrantJeremy Grant, Coordinator, Better Identity Coalition
+* David TurkingtonDavid Turkington, Head of Technology, APAC, GSMA
 
 FIDO Authenticate (Nat)
 ------------------------
@@ -117,8 +120,8 @@ Dima reported the following as FYI.
 
 Berlin Group (Francis)
 ------------------------
-* Adivisory meeting. Berlin G taskforce is now working on market driven extension set: Open Finance. 
-* Israel putting many request. 
+* Advisory meeting. Berlin G taskforce is now working on market-driven extension set: Open Finance. 
+* Israel putting many requests. 
 * However, there is no activity this year for authorization and SCA model. 
 * Berlin Group Specs: https://www.berlin-group.org/nextgenpsd2-downloads
 
