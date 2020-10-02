@@ -27,6 +27,7 @@ Agenda:
 Review meeting notes from last Atlantic call (Nat)
 ======================================================
 * FAPI 1.0 Ready for prime time
+* Blog FAPI
 * FDX Developer Conference
 * October workshop slides
 * Pending action item Anoop 
