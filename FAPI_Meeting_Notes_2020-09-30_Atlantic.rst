@@ -82,6 +82,17 @@ Identity Week Asia (Nat)
 * Fighting Back Against Digital Identity Fraud panel. Nat will moderate. 
 * Panelists: Jeremy Grant, Subhashish Bose, David Turkington
 
+Oct 14 11:30 SGT
+
+**Fighting Back Against Digital Identity FraudDigital Identity in an Online World**
+
+The isolation of worldwide lockdowns this year have presented criminals with new opportunities for phishing, and this only adds to already existing trends in the rise of synthetic IDs, account takeover and SIM swap fraud. This panel will explore solutions which utilise digital identity to fight back against the fraudsters.
+
+* Nat SakimuraModerator:Nat Sakimura,Chairman,OpenID Foundation
+* Subhashish BoseSubhashish Bose,Senior Director – Fraud & Security,FICO
+* Jeremy GrantJeremy Grant,Coordinator,Better Identity Coalition
+* David TurkingtonDavid Turkington,Head of Technology, APAC,GSMA
+
 FIDO Authenticate (Nat)
 ------------------------
 * Session Date: Thursday, November 19
