@@ -14,7 +14,7 @@ The meeting was called to order at 14:03 UTC.
 
 Roll Call 
 ===========
-* Attending:
+* Attending: Steinar Noem (Udelt) 
 
 
 * Regrets: 
@@ -27,19 +27,25 @@ Adopted as is.
 
 Events 
 ======================
-OBIE WS (Joseph/Don)
----------------------
-* Oct. 13 
-* Dave, Joseph are speaking. 
-
+ 
 FDX/OIDF (Don/Nat)
 ---------------------
+WHEN: Wednesday, October 28, 2020 — 9 am-11:30 am PT REGISTRATION REQUIRED: https://www.eventbrite.com/e/openid-foundation-virtual-workshop-tickets-121075932373
+
 * Oct 28. 
 * Panel: Don Cardinal, Nat Sakimura, Anoop Saxena. 
 * https://openid.net/2020/09/14/openid-foundation-virtual-workshop-wednesday-october-28-2020/
 
+OBIE WS (Joseph/Don)
+---------------------
+* Oct. 13 
+* Dave, Joseph are speaking.
+
+* Certification
+
 IIF Annual Membership Meeting (Don/Nat)
 ----------------------------------------
+* 
 
 
 Identity Week Asia (Nat)
@@ -70,29 +76,32 @@ FIDO Authenticate (Nat)
 * Nat Sakimura, OpenID Foundation
 * Ramesh Kesanupalli, Digital Trust
 
+* Additional session for FAPI. Ralph volunteered for it and wanted to include CIBA in Brazil. 
+
+GSMA/OIDF Workshop (Don/Bjorn)
+--------------------------------
+* Purpose: Expose GSMA and MNO members to other areas in OIDF than Modrna. 
+* Grant management etc. 
 
 External Organizations
 ========================
 Australia (Dima/Stuart)
 ------------------------
-An interesting development regarding testing. To be disclosed in a while. 
+* Doing Demo of the conformance tool with the Agency. 
+* More towards the custom endpoint for AU rather than FAPI. 
+* The tool is cloud-hosted in the administration Forum. 
+* Adoption of FAPI 2.0 in 2022. 
 
-Dima reported the following as FYI. 
-
-* `ATO declines to fix code replay flaw within myGovID <https://www.zdnet.com/article/ato-declines-to-fix-code-replay-flaw-within-mygovid/>`_
+* ACCC mail is in the making. 
+* https://www.accc.gov.au/system/files/CDR%20Roadmap%20-%20Proposed%20compliance%20dates%20for%20Consumer%20Data%20Right%20-%2030%20September%202020.pdf
 
 Berlin Group (Francis)
 ------------------------
-* Advisory meeting. Berlin G taskforce is now working on market-driven extension set: Open Finance. 
-* Israel putting many requests. 
-* However, there is no activity this year for authorization and SCA model. 
-* Berlin Group Specs: https://www.berlin-group.org/nextgenpsd2-downloads
-
+* n/a till mid of November. 
 
 European Commission (Mark/Torsten)
 ------------------------------------
 * n/a
-* EBA is on Open Banking APIs. 
 
 ETSI (Torsten/Dave)
 ---------------------
@@ -100,32 +109,45 @@ ETSI (Torsten/Dave)
 * We should respond to the consultation - Oct. 17. Dave will start an email thread on this. People should join in. 
 * JAdES spec not published yet. 
 
-UK (Dave)
+UK (Ralph)
 ---------------------
-* Workshop on Oct: 13. 
-* eIDAS certificate 
-* UK Open Banking usage expanded. 
+* OBIE members to keep using OBIE registry after eIDAS. 
+* Outlier banks not in OBIE registry need to get registered. 
 
 Drafts progress
 =================
-FAPI 2.0 Baseline (Daniel)
+FAPI 2.0 Baseline (Dave)
 ---------------------------
+* Need to bring in more reviewers. 
 
-FAPI 2.0 Advanced (Daniel)
+FAPI 2.0 Advanced (Dave)
 ---------------------------
+* Main sticking point is signatures. #309. 
+* ETSI and OBIE discussion is relevant. 
 
 Grant Management (Torsten/Stuart)
 ------------------------------------
+* No updates on the spec. 
+* In the midst of deploying IdP as Biza that incorporate grand management to capture CDR requirements. Aiming for November 1.  
+* Try to close off the issues in November to move to next phase - I-D. 
+* Still need to test against various use-cases/examples. 
 
 Issues (Dave/Nat)
 =====================
+#322 Editorial: Section 5.2.2.2.1. Duplicate Clause? (Ralph)
+----------------------------------------------------------------
+* https://bitbucket.org/openid/fapi/issues/322/editorial-section-52221-duplicate-clause
 
+A lengthy discussion on how to test. 
+The discussion to be continued. 
 
 PRs (Dave/Nat)
 =====================
+We did not have time to get to it. 
 
 AOB
 ==========================
-n/a
+WG members should feel free to take editorial tickets on FAPI 1.0 and start sending PRs. 
+Joseph would be greatful if folks can take some of his. 
 
 The meeting was adjourned at 15:00 UTC.
