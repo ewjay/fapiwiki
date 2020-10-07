@@ -117,12 +117,12 @@ FAPI 2.0 Advanced (Daniel)
 Grant Management (Torsten/Stuart)
 ------------------------------------
 
-Issues
----------------
+Issues (Dave/Nat)
+=====================
 
 
-PRs
-----------------
+PRs (Dave/Nat)
+=====================
 
 AOB
 ==========================
