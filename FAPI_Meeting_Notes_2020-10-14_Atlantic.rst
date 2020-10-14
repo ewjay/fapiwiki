@@ -14,24 +14,49 @@ The meeting was called to order at 14:03 UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Nat, Bjorn, Daniel, Kosuke, Francis, Brian, Don, Joseph, Dima, Ralph, Chris, Dave
 
 * Regrets: 
 * Guest: 
 
 Adoption of Agenda (Nat)
 ===========================
-Adopted as is. 
+
 
 
 Events 
 ======================
+Open Banking (Chris)
+------------------------
+* 120 attendees
+* Video avaiable
+* Takeaway: Good opportunity to push libraries authors to get through the certification. 
+* 
+
+IIF (Nat)
+------------------
+* 
+
+FDX/OIDF (Don)
+-------------------
+You are not required to register for the workshop as a presenter but welcome to do so: https://www.eventbrite.com/e/openid-foundation-virtual-workshop-tickets-121075932373 This is a direct link to the virtual workshop session: https://global.gotomeeting.com/join/825700629
  
 
 External Organizations
 ========================
+Mexico (Chris)
+-------------------
+
+ETSI (Torsten/Dave)
+---------------------
+
 Australia (Dima/Stuart)
 ------------------------
+Data receipient accreditation. 
+
+Last week, "conformance test suite" was presented. 
+
+
 
 Berlin Group (Francis)
 ------------------------
@@ -41,12 +66,10 @@ European Commission (Mark/Torsten)
 ------------------------------------
 * n/a
 
-ETSI (Torsten/Dave)
----------------------
-
 
 UK (Ralph)
 ---------------------
+
 
 Drafts progress
 =================
