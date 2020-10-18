@@ -116,7 +116,7 @@ Australia (Dima/Stuart)
 
 * Had another Data Recipient accreditation (total 3 now).
 * A version of the Rules consultation circulated focusing on different types of accredited entities (complex  scenarios).
-* Last week, "conformance test suite" was presented.
+* Last week, "conformance test suite" was presented to the industry.
 * Incomplete set of tests but it is not designed to be comprehensive.
 * It's designed for regulators to do the final check instead of assisting participants with accreditation. It’s trying to replace industry testing environment (coordinated sandbox used for July release).
 * There are no mandates for Banks to support sandboxes.
