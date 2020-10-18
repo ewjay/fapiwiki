@@ -114,19 +114,14 @@ ETSI (Torsten/Dave)
 Australia (Dima/Stuart)
 ------------------------
 
-* Had another Data recipient accreditation.
-* A version of the  rules consultation circulated focusing on different types of credited people sharing data in a few complicated scenarios.
+* Had another Data Recipient accreditation (total 3 now).
+* A version of the Rules consultation circulated focusing on different types of accredited entities (complex  scenarios).
 * Last week, "conformance test suite" was presented.
-* Accreditation process is very manual, hidden.
-* Around July, they had a testing environment with a list of manual test cases.
-* Test checks are not complete.
-* It's designed for regulators instead of assisting participants for accreditation. It’s trying to remove industry testing environment.
-* Maybe moving towards sandboxes?
+* Incomplete set of tests but it is not designed to be comprehensive.
+* It's designed for regulators to do the final check instead of assisting participants with accreditation. It’s trying to replace industry testing environment (coordinated sandbox used for July release).
 * There are no mandates for Banks to support sandboxes.
 * Industry testing environment ironed out a lot of issues due to data recipients and data holders connecting to each other.
-* It’s essentially payload testing of contents not like FAPI testing different scenarios. Mainly focused on CDS specification.
-* No timeline for banks to test each other’s APIs at the moment.
-
+* It’s essentially payload testing of some APIs not like FAPI testing different scenarios. Mainly focused on CDS specification. Not testing normative specifications.
 
 
 Berlin Group (Francis)
