@@ -39,7 +39,7 @@ This is a direct link to the virtual workshop session: https://global.gotomeetin
 IdentityNorth (Nat)
 ---------------------
 
-APODaus London (Dave)
+APIDays London (Dave)
 -----------------------
 * Next week. https://www.apidays.co/london
  
