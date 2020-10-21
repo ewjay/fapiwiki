@@ -14,7 +14,7 @@ The meeting was called to order at 14:03 UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Nat, Kosuke, Don, Ralph, Daniel, Joseph, Stuart, Brian, Francis, Steiner Dave, Brian
 
 * Regrets: 
 * Guest: 
@@ -31,32 +31,32 @@ IIW (Nat)
 
 FDX/OIDF (Don)
 -------------------
-You are not required to register for the workshop as a presenter but welcome to do so: https://www.eventbrite.com/e/openid-foundation-virtual-workshop-tickets-121075932373 This is a direct link to the virtual workshop session: https://global.gotomeeting.com/join/825700629
+You are not required to register for the workshop as a presenter but welcome to do so: https://www.eventbrite.com/e/openid-foundation-virtual-workshop-tickets-121075932373 
+This is a direct link to the virtual workshop session: https://global.gotomeeting.com/join/825700629
  
-* Workshop will have keynote panel (Nat Sakimura, Don Cardinal, Anoop Saxena)
-* Will talk about OIDF and FDX path going forward
-* FDX acting like SRO (Self Regulatory Org)
-* FDX announcing unofficial support of FAPI and collaboration of FAPI 2.0
-* 3 areas of engagement
+IdentityNorth (Nat)
+---------------------
 
-  1. Concurrent outreach/collaboration like Global Summit
-  2. Concurrent technical collaboration
-  3. FDX Increasing Conformance to OIDC and FAPI
-
-     * Will drive demand for certification services
+APODaus London (Dave)
+-----------------------
+* Next week. https://www.apidays.co/london
  
 
 External Organizations
 ========================
-Mexico (Chris)
--------------------
+Berlin Group (Francis)
+------------------------
+New name: openFinance API Framework
+SUBSCRIBE TO OPENFINANCE PUBLICATIONS
+
+ Cf. https://www.berlin-group.org/ofa
 
 
 ETSI (Torsten/Dave)
 ---------------------
 
 
-Australia (Dima/Stuart)
+Australia (Stuart)
 ------------------------
 
 
@@ -68,9 +68,9 @@ European Commission (Mark/Torsten)
 UK (Ralph)
 ---------------------
 
+
 PRs (Dave/Nat)
 =====================
-We did not have time to get to it. 
 
 Drafts progress
 =================
