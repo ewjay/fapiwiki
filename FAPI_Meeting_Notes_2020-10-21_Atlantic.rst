@@ -28,6 +28,8 @@ Events
 
 IIW (Nat)
 ------------------
+It is going on this week. 
+Lots of sessions around decentralized identity. 
 
 FDX/OIDF (Don)
 -------------------
