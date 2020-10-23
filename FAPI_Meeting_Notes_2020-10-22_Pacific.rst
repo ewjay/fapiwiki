@@ -16,14 +16,21 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:   
+* Attending:  Nat, Ed and Anoop
 * Guests: 
 * Regrets:  
 
 Agenda:
 
 * Review meeting notes from last Atlantic call (Nat)
+     Nat shared the video.
 * October Virtual Workshop FAPI update - Slides Review
+* FAPI 1.0 Public Review Update
+- Keep the original text with a note. 
+(to allow sufficient interoperability with users' web browsers or is required by local regulations.)
+https://bitbucket.org/openid/fapi/pull-requests/198/fixes-323-editorial-unclear-language-in/diff
+https://tools.ietf.org/html/bcp195
+
 
 
 External Organizations 
