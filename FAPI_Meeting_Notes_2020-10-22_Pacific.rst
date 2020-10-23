@@ -35,7 +35,7 @@ https://tools.ietf.org/html/bcp195
 
 External Organizations 
 ==============================
- * AU CDR status to be included in workshop update
+ * AU CDR status to be included in workshop update  (action item for Anoop: Check with Dima)
  
 Next Call
 -----------------------
