@@ -16,7 +16,7 @@ Roll Call
 ===========
 * Attending: 
 
-* Regrets: 
+* Regrets: Daniel
 * Guest: 
 
 Adoption of Agenda (Nat)
