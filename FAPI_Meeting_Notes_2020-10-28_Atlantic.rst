@@ -14,7 +14,7 @@ The meeting was called to order at 14:03 UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Nat, Bjorn, Don, Kosuke, Stuart, Thakhiko, Joseph, Brian, Francis Dima Dave, 
 
 * Regrets: Daniel
 * Guest: 
@@ -22,9 +22,7 @@ Roll Call
 Adoption of Agenda (Nat)
 ===========================
 
-* Events
-* External Orgs
-* PRs
+
 
 
 Events 
@@ -54,35 +52,34 @@ APIDays London (Dave)
 -----------------------
 * Next week. https://www.apidays.co/london
 * 10/27 - 10/28
+* Dave gave a talk. 
+* A vendor gave FAPI Workshop. Akana. 
  
 
 External Organizations
 ========================
 Berlin Group (Francis)
 ------------------------
-New name: openFinance API Framework
-SUBSCRIBE TO OPENFINANCE PUBLICATIONS
+https://www.berlin-group.org/single-post/press-release-berlin-group-starts-new-openfinance-api-framework
 
- Cf. https://www.berlin-group.org/ofa
+* Taskforce: Banks only. Now other FIs including insurance. 
+* Advisory board: Francis sits here. 
 
 
-ETSI (Torsten/Dave)
+ETSI (Dave)
 ---------------------
+OBE signature profile coming out. They did not accept base64 proposals. 
 
-There was a meeting to discuss draft which was attended by one person.
+Dave, Francis, and Brian will be coming up with a signature draft for the WG to consider. 
 
 
 
 Australia (Stuart)
 ------------------------
+Consent revocation proposal adds a lot of complexity. 
+There is no standards to built upon. 
 
-* Treasury is taking over Rule’s responsibility from the ACCC and some of the registers components.
-* Daniel MaAuliffe- OpenBanking Product owner inside the Treasury seems to be listening.
-* The big four mentoring meeting - doesn’t look like any of them will meet 100% of the requirements for November deadline.  * There are exemptions until Feb 2021 for PAR
-* Intuit is officially a data recipient by ACCC -  requires (ASAE) 3150 
-* Only a 5th bank - Rachel Australia Bank will meet  requirements
-* There's consultation on the next round of rules that's going to alleviate or soften the accreditation.
-* May draft an open letter to them.
+* https://github.com/ConsumerDataStandardsAustralia/standards-maintenance/issues/247
 
 
 European Commission (Mark/Torsten)
