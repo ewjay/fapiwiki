@@ -130,9 +130,22 @@ Please go to the [auto-generated page](https://bitbucket.org/openid/fapi/wiki/br
 * [[FAPI_Meeting_Notes_2020-07-29_Atlantic]]
 * [[FAPI_Meeting_Notes_2020-08-05_Atlantic]]
 * [[FAPI_Meeting_Notes_2020-08-06_Pacific]]
+* [[FAPI_Meeting_Notes_2020-08-12_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-08-19_Atlantic]]
 * [[FAPI_Meeting_Notes_2020-08-20_Pacific]]
+* [[FAPI_Meeting_Notes_2020-08-26_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-09-02_Atlantic]]
 * [[FAPI_Meeting_Notes_2020-09-03_Pacific]]
+* [[FAPI_Meeting_Notes_2020-09-09_Atlantic]]
 * [[FAPI_Meeting_Notes_2020-09-18_Pacific]]
+* [[FAPI_Meeting_Notes_2020-09-23_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-09-30_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-10-01_Pacific]]
+* [[FAPI_Meeting_Notes_2020-10-07_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-10-14_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-10-21_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-10-22_Pacific]]
+* [[FAPI_Meeting_Notes_2020-10-28_Atlantic]]
 
 The newest ones are found at https://bitbucket.org/openid/fapi/wiki/browse/
 
