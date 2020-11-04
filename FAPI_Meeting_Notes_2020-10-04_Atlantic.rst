@@ -126,6 +126,14 @@ UK (Ralph)
 
 * No updates
 
+Drafts
+==============
+FAPI 2.0 (Daniel)
+----------------------
+
+HTTP Signing (Dave)
+----------------------
+
 PRs (Dave/Nat)
 =====================
 
