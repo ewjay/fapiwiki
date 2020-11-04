@@ -1,7 +1,7 @@
 ============================================
-FAPI WG Meeting Notes (2020-10-28) 
+FAPI WG Meeting Notes (2020-11-04) 
 ============================================
-* Date & Time: 2020-10-28 14:00 UTC
+* Date & Time: 2020-11-04 14:00 UTC
 * Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 * Note URI: https://bitbucket.org/openid/fapi/wiki/edit/FAPI_Meeting_Notes_2020-09-30_Atlantic
 
@@ -10,7 +10,7 @@ FAPI WG Meeting Notes (2020-10-28)
 
 .. contents:: Agenda
 
-The meeting was called to order at 14:03 UTC. 
+The meeting was called to order at 14:05 UTC. 
 
 Roll Call 
 ===========
@@ -70,34 +70,9 @@ ETSI (Dave)
 ---------------------
 
 
-
-
 Australia (Stuart)
 ------------------------
-Consent revocation proposal adds a lot of complexity. 
-There is no standards to built upon. 
 
-* https://github.com/ConsumerDataStandardsAustralia/standards-maintenance/issues/247
-
-
-* Big 4 banks and recipients going into Phase 2 of consumer data sharing
-
-  * Includes new products
-  * Tweaks to information security profile
-  * Joint accounts
-  * Still finalizing consultation, looks very complex
-
-    * No existing technical standards available to achieve goals
-
-      * Intermediaries
-      * Cascading consents (communicating consents via third parties)
-  * OAC conformance testing
-
-    * Joseph has CDR version of test on production and certification
-  * Joseph still finalizing Australian response letter
-
-      * Still don’t know where to send it
-      * Might be better to do open letter and CC the chair
 
 
 European Commission (Mark/Torsten)
@@ -108,30 +83,20 @@ European Commission (Mark/Torsten)
 UK (Ralph)
 ---------------------
 
-* No updates
+Drafts
+===========
+FAPI 2.0 (Daniel)
+-------------------
+
+HTTP Signing (Dave)
+----------------------
 
 PRs (Dave/Nat)
 =====================
 
 
-* issue #330 - potentially misleading language WRT JWT ATs - language is confusing
-
-    - Suggested removing "opaque"
-    - Intent is tat AT is not to be consumed by clients
-    - remove "opaque" and reword note, make it similiar to RFC 6749 language that AT is usually opaque to clients
-    - No PR yet
-
-
-
-* issue #317 
-
-    - Reassigned to Dave
-
-
-
-
-
-
+Issues (Dave/Nat)
+=====================
 
 
 AOB
