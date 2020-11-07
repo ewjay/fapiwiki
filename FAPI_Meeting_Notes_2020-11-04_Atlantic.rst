@@ -98,16 +98,15 @@ Dave and Brian are exploring the possibility of HTTP signing profile which is a 
 
 
 
-Australia (Stuart)
+Australia (Dima)
 ------------------------
-Joseph and Dima working on the response to Australia .
-Don made some edits regarding the linkage on recommending the adoption of the standard and the adoption of the test suite.
+2nd phase of consumer data sharing is live from 1-Nov-2020 (additional account types, joint accounts and cdr_arrangement_id for revocations). PAR will be introduced before February 2021 (mandated from November 2020  but exemptions were granted to some if not all data holders).
 
-Chris was in contact with people from Day 61. They are looking to extract themselves out of the government function department into something independent. Then they can formally join OIDF as members.
+Joseph, Don and the team is working on OIDF Conformance Test Suite proposal (follow up letter) for collaboration for Australia.
 
-Not sure how the treasury restructuring will look like, so we don’t know where to send the letter.
+CDR regulator restructure is coming. The exact details or impact is unclear.
 
-We should finalize the letter and then figure how/where to send (e.g. blog, letter, etc..).
+We should finalize the letter and then make a decision om how/where to send (e.g. blog, letter, etc..).
 Need to stress the importance that OIDF is willing to work with authorities and the importance of standards adoption and conformance test suite to ensure standards integrity.
 
 
