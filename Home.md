@@ -146,6 +146,7 @@ Please go to the [auto-generated page](https://bitbucket.org/openid/fapi/wiki/br
 * [[FAPI_Meeting_Notes_2020-10-21_Atlantic]]
 * [[FAPI_Meeting_Notes_2020-10-22_Pacific]]
 * [[FAPI_Meeting_Notes_2020-10-28_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-11-04_Atlantic]]
 
 The newest ones are found at https://bitbucket.org/openid/fapi/wiki/browse/
 
