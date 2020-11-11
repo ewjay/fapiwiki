@@ -113,33 +113,15 @@ Francis is also waiting to hear back from OBIE to corroborate on a potential sol
 
 PRs (Dave/Nat)
 =====================
-Pull request #205  - opaque access tokens 
------------------------------------------------------
-* Use “Clients are expected to treat”
-* Link to  ISO Directive Part 2 need to be fixed
-
-ACT: Nat will create a new issue
-
-Pull request #191  - 
------------------------------------------------------
-* Pending update from Dima
-
-Pull request #163  -  Add clarification on mix-up mitigation
------------------------------------------------------------------
-* Daniel will update with iss changes
 
 Pull request #206  - Add references to security analyses
 --------------------------------------------------------------
-* Some attacks are possible under certain circumstances
-* Code can be phised 
-* Need to refine text and provide more context
-
-
-
+* https://bitbucket.org/openid/fapi/pull-requests/206
+* text is now there. Please review. 
 
 Issues (Dave/Nat)
 =====================
-
+Could not deal with it. 
 
 AOB
 ==========================
