@@ -34,27 +34,7 @@ Roll Call
 
 Adoption of Agenda (Nat)
 ===========================
-
-
-1.   Roll Call
-2.   Adoption of Agenda (Nat)
-3.   Events
-4.   External Organization
-
-     4.1.   Berlin Group (Francis) 
-     4.2.   ETSI (Dave)
-     4.3.   Australia (Stuart)
-     4.4.   European Commission (Mark/Torsten)
-     4.5.   UK (Ralph)
-
-5.   Drafts
-
-     5.1.   FAPI 2.0 (Daniel)
-     5.2.   HTTP Signing (Dave)
-
-6.   PRs (Dave/Nat)
-7.   Issues (Dave/Nat)
-8.   AOB
+Adopted as is. 
 
 
 Events 
