@@ -43,26 +43,17 @@ Introduces new requirements and draft standards for long lived consent for payme
 
 External Organizations
 ========================
+Australia (Dima/Stuart)
+--------------------------
+* Status of 2nd phase of consumer data sharing that went live on 1-Nov-2020
+* Open Letter
+* CDR regulator restructure
+
 Berlin Group (Francis)
 ------------------------
-No updates
-Francis still working with co-Chair of the group on how to bring the BG’s market side and FAPI together.
-
-
 
 ETSI (Dave)
 ---------------------
-No updates.
-
-ETSI has agreed to some of the headers in spec but not to other changes.
-Waiting to hear back from them in regards to working together.
-
-Dave, Brian, and Francis had a call. Identified 2 different streams of work.
-Francis’ proposal stated in issue #297 - Open Banking Europe JWS PROFILE for OpenBanking regarding slimmed down signing profile 
-Work is continuing
-
-Dave and Brian are exploring the possibility of HTTP signing profile which is a lightweight extension of what’s defined in DPOP.
-
 
 
 Australia (Dima)
