@@ -155,8 +155,8 @@ Baseline can proceed to implementer’s first.
 Nat will solicit feedback from the mailing list in this regard.
 
 
-Will remove the recommendation for distinct redirect_uris
-Will make use of the iss parameter in the authorization request
+Will remove the recommendation for distinct `redirect_uris`. 
+Will make use of the `iss` parameter in the authorization request.
 
 
 HTTP Signing (Dave)
@@ -171,24 +171,26 @@ Francis is also waiting to hear back from OBIE to corroborate on a potential sol
 
 PRs (Dave/Nat)
 =====================
-* Pull request #205  - opaque access tokens 
+Pull request #205  - opaque access tokens 
+-----------------------------------------------------
+* Use “Clients are expected to treat”
+* Link to  ISO Directive Part 2 need to be fixed
 
-  * Use “Clients are expected to treat”
-  * Link to  ISO Directive Part 22 need to be fixed
-    * Nat will create a new issue
+ACT: Nat will create a new issue
 
-* Pull request #191  - 
+Pull request #191  - 
+-----------------------------------------------------
+* Pending update from Dima
 
-  * Pending update from Dima
+Pull request #163  -  Add clarification on mix-up mitigation
+-----------------------------------------------------------------
+* Daniel will update with iss changes
 
-* Pull request #163  -  Add clarification on mix-up mitigation
-
-  * Daniel will update with iss changes
-
-* Pull request #206  - Add references to security analyses
-  * Some attacks are possible under certain circumstances
-  * Code can be phised 
-  * Need to refine text and provide more context
+Pull request #206  - Add references to security analyses
+--------------------------------------------------------------
+* Some attacks are possible under certain circumstances
+* Code can be phised 
+* Need to refine text and provide more context
 
 
 
