@@ -16,23 +16,24 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:   
+* Attending:   Ed, Dima, Nat, Anoop
 * Guests: 
 * Regrets:  
 
 Agenda:
 
 * Review Atlantic notes
-* FAPI and OAUTH 2.1
-* Brazil Openbanking Update (Anoop)
+* FAPI and OAUTH 2.1 - Aligned with OAUTH2.1 and it narrows to one option out of OAUTH2.1. FAPI is profile. Dima to follow up. 
+* Brazil Openbanking Update (Anoop)- Check with Ralph. Dima to start a thread on this. If he know anyone we can reach.
 * * https://www.bcb.gov.br/en/pressdetail/2284/nota
-* No call on 11-26-2020 (US holiday) 
 
-
+* Meeting day change - Looks like my FSA meeting collides with this meeting every time till march. Is it possible for you guys to change the weeks? i.i.e., have another Pacific call next week and then every two weeks after that.   [Anoop To work with adjusting this]
+* No call on 11-26-2020 (US holiday) - 12/03/2020 (work with Mike)
+* Anoop to schedule Event notification working session Thursday. (Work with Mike)
 
 External Organizations 
 ==============================
- 
+ * Canadian Regulatory/Group starting on open banking discussion. - Anoop check in FDX-Canada.
  
 Next Call
 -----------------------
