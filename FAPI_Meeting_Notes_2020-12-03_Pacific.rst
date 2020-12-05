@@ -23,7 +23,7 @@ Roll Call (Anoop)
 Agenda:
 
 * Review Atlantic notes
- - Switzerland to adopt OIDC and need few clarification on engagement is in works. Francis Pouatcha (Adorsys).
+ - Switzerland to adopt OIDC and they need few clarification on engagement is in works. Francis Pouatcha (Adorsys).
  - Closing on open issues from comments of public review FAPI 1.x 
  - Ralph is attending Brazil open banking meetings. They will also go with FAPI and working on details. 
  - RBI India - Anoop to send information about API/Auth methods.
