@@ -27,6 +27,8 @@ Agenda:
  - Closing on open issues from comments of public review FAPI 1.x 
  - Ralph is attending Brazil open banking meetings. They will also go with FAPI and working on details. 
  - RBI India - Anoop to send information about API/Auth methods.
+ -- https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10598#
+ -- https://api.rebit.org.in/
 
 * FDX & FAPI Met for Grant Management API
  - Dima & Torsten shared FAPI grant management presentation and spec.
