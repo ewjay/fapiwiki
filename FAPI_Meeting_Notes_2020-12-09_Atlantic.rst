@@ -14,12 +14,13 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Nat, Dave, Don, Takahiko, Kosuke, Crhis, Francis, Joseph, Dima, Brian, Lukaz
 * Regrets: 
 * Guest: 
 
 Adoption of Agenda (Nat)
 ===========================
+* Adding Release communication requested by Torsten, 
 
 FAPI 1.0 Status (Nat)
 ===========================
@@ -39,6 +40,9 @@ Certification (Joseph)
 Events (Nat)
 ======================
 
+2021 Workshops (Don)
+--------------------------
+
 
 External Organizations (Nat)
 ================================
@@ -57,10 +61,7 @@ HTTP Signing (Dave)
 ----------------------
 No updates.
 
-PRs (Dave/Nat)
-=====================
 
-Skipped.
 
 
 Issues (Dave/Nat)
