@@ -60,7 +60,8 @@ HTTP Signing (Dave)
 ----------------------
 No updates.
 
-
+Grant Management (Torsten/Dima)
+---------------------------------
 
 
 Issues (Dave/Nat)
