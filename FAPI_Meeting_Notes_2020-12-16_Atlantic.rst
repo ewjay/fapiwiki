@@ -14,13 +14,13 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Nat, Dave, Don, Takahiko, Daniel, Joseph, Brian, Kosuke, Torsten, Lukasz Jaromin, Stuart, Ralph
 * Regrets: 
 * Guest: 
 
 Adoption of Agenda (Nat)
 ===========================
-
+* Adopted as is. 
 
 Events (Nat)
 ======================
@@ -60,13 +60,13 @@ HTTP Signing (Dave)
 ----------------------
 No updates.
 
-Grant Management (Torsten/Dima)
----------------------------------
+Grant Management (Torsten/Dima/Stuart)
+---------------------------------------
 
 
 Issues (Dave/Nat)
 =====================
-
+* Please review #348 
 
 AOB
 ==========================
