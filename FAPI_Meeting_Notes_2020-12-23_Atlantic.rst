@@ -14,22 +14,30 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Nat, Dave, Dima, Kosuke, Takahiko, Torsten, Daniel, Joseph, Francis, Stuart, Brian, Ralph
 * Regrets: 
 * Guest: 
 
 Adoption of Agenda (Nat)
 ===========================
-* 
+* Adopted as is. 
 
 FAPI 1.0 Updates (Nat)
 ===================================
 * Please Vote
 * The Last PR https://bitbucket.org/openid/fapi/pull-requests/215
-* Edmund to create yet another HTML. 
+    * Withdrawn as it contains normative changes. 
+* FAPI site needs to be updated prior to the publication. 
+* Ralph wanted the overview etc. to be translated. 
+* Chris pointed out that is going to be a big overhead. 
+* Nat pointed out that if there is a local community that can take responsibility for it, it can be. This topic should be taken to the list. 
 
 FAPI 2.0 Updates (Daniel)
 ===========================
+#215 nonce as PKCE alternative for OIDC flows (Torsten)
+--------------------------------------------------------
+
+
 
 Reports from Subgroups
 ==========================
