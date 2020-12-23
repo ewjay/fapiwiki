@@ -14,7 +14,7 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call 
 ===========
-* Attending: Nat, Dave, Dima, Kosuke, Takahiko, Torsten, Daniel, Joseph, Francis, Stuart, Brian, Ralph
+* Attending: Nat, Dave, Dima, Kosuke, Takahiko, Torsten, Daniel, Joseph, Francis, Stuart, Brian, Ralph< Chris, Lukasz
 * Regrets: 
 * Guest: 
 
