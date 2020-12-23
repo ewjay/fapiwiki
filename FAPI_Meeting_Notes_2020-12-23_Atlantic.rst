@@ -36,6 +36,18 @@ FAPI 2.0 Updates (Daniel)
 ===========================
 #215 nonce as PKCE alternative for OIDC flows (Torsten)
 --------------------------------------------------------
+#215 Keep it simple. Just always require PKCE. 
+
+#348 FAPI 2.0 release communication (Dave)
+----------------------------------------------
+Comments to the google doc appreciated. 
+It should be published before FAPI 2.0 goes Implementer's Draft
+
+#346 RAR requirement may be unnecessary?
+-------------------------------------------------
+* #346
+* 
+
 
 
 
