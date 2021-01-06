@@ -24,64 +24,52 @@ Adoption of Agenda (Nat)
 
 FAPI 1.0 Updates (Nat)
 ===================================
-* Please Vote
-* The Last PR https://bitbucket.org/openid/fapi/pull-requests/215
-    * Withdrawn as it contains normative changes. 
-* FAPI site needs to be updated prior to the publication. 
-* Ralph wanted the overview etc. to be translated. 
-* Chris pointed out that is going to be a big overhead. 
-* Nat pointed out that if there is a local community that can take responsibility for it, it can be. This topic should be taken to the list. 
+* 64 votes. 58 Approval. 8 Abstains. 
 
 FAPI 2.0 Updates (Daniel)
 ===========================
-#215 nonce as PKCE alternative for OIDC flows (Torsten)
---------------------------------------------------------
-#215 Keep it simple. Just always require PKCE. 
-
-#348 FAPI 2.0 release communication (Dave)
-----------------------------------------------
-Comments to the google doc appreciated. 
-It should be published before FAPI 2.0 goes Implementer's Draft
-
-#346 RAR requirement may be unnecessary?
--------------------------------------------------
-* #346
-* 
-
-
+x-fapi-* headers
+-----------------------------
+* #282
+* Nat to check with FDX
+* Chris will check with OB
 
 
 Reports from Subgroups
 ==========================
 
+
 Other Drafts
 ===============
+Grant Management (Dima)
+----------------------------
+* Probably able to report next week. 
 
 
 HTTP Signing (Dave)
 ----------------------
-* No updates.
-
-Grant Management (Torsten/Dima/Stuart)
----------------------------------------
-* Need more time until early 2021.
-
+* DPoP style HTTP signing. 
+* GNAP drafts have 6 signing mechanisms, and one of them is very similar. 
 
 
 Events (Nat)
 ======================
+OBIE (Chris)
+-----------------
+Parties endpoint / eKYC 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Extension to OIDC to enable eKYC data etc. that they can monetize. 
+There is some momentum. 
+Sandbox till the end of Feb. 
 
-* IIF meetings 
-* Don - Looking in 2021 to identify opportunities for pilots and proof of concepts with FAPI & eKYC.
-* Hoping to get more conversation between eKYC WG and Global Legal Entity Identifier Foundation. Use IIF to promote adoption of FAPI and eKYC.
+A few workshops. 
 
-* OIDF to focus on redesign of listing of self-certified conformance implementations of FAPI and OIDC. Members are welcome to contribute ideas, requirements and designs.
+Variable payment workshops
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+To result in the final standard by the end of March. 
 
-* Also soliciting wishlist or Ideas for regional workshops.
-* Hope to have a set of workshops in Australia and also for FDX.
-* FDX is also working through formalities of adopting FAPI as a normative requirement for their conformance testing.
-
-
+Podcast on Jan 26. (Torsten)
+--------------------------------
 
 
 
@@ -98,15 +86,34 @@ Financial Data and Technology Association
 * They may also be a licensee of OIDF's listing of organizations that are in conformance to FAPI and OIDC..
 
 
-Germany
-------------
-Francis is at OBIE and was asked for a white paper on FAPI and conformance suite testing benefits.
+Berlin Group (Francis)
+----------------------
+Please review the whitepaper: https://bitbucket.org/openid/fapi/issues/353/fapi-for-berlin-group-openfinance
 
-OIDF
--------
-* In 2021, the focus of the Foundation wants to turn to organizations, banks, and other service providers that are very new to family. 
-* Whitepapers and presentations developed by members are really helpful and can be used to help educate people that are new to FAPI and OIDC.
-* The Foundation needs to  help educate that cohort of people that are new to this area.
+* https://docs.google.com/document/d/1e5M5aLgNgiu4kkPIt3BjSHBt2mZL9DkcQ7bfL4Zqdgw/edit#heading=h.vppi3bf35d6g
+
+Open Finance will be open to everybody. They are trying to change the governance model. 
+It used to be financed by Deutche ... 
+Now moving to open market model. 
+
+UK
+-----
+See above. 
+
+Issues
+===========
+#282: FAPI 2.0: x-fapi-* headers (Dave)
+------------------------------------------
+Dave asked if these are really needed as it would impact the Advanced profile signature. 
+
+Francis pointed out that IP address etc. are needed by criminal investigators so they need to be there though their effectiveness as far as security is concerned is unknown. 
+
+Ralph pointed out they need to be there but it does not have to be in the header. 
+Also, he pointed out that it may not be accurate. 
+However, they are needed. 
+
+
+
 
 
 
