@@ -24,18 +24,15 @@ Adoption of Agenda (Nat)
 
 FAPI 1.0 Updates (Nat)
 ===================================
-* Final Name confirmation
+Final Title confirmation (Nat)
+--------------------------------
 * FAPI - Part 1: Baseline profile 1.0 OR FAPI 1.0 - Part 1: Baseline profile? 
-* In the later case, what would JARM, Grant Management etc. going to be? 
+* In the latter case, what would JARM, Grant Management etc. going to be? 
 
 
 FAPI 2.0 Updates (Daniel)
 ===========================
 x-fapi-* headers
------------------------------
-* #282
-* Nat to check with FDX
-* Chris will check with OB
 
 
 Reports from Subgroups
