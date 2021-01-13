@@ -14,36 +14,62 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Nat, Don, Filip, Siva Boyalakunita, Joseph, Francis Pouatcha, Kosuke, Dima, Daniel, Steinar, Brian, Torsten, Dave, Kosuke, Chris Michael, Craig Borysowich, Bjorn Hjelm
 * Regrets: 
 * Guest: 
 
 Adoption of Agenda (Nat)
 ===========================
-* 
+* FAPI FAQ & 2021 Planning
 
 FAPI 1.0 Updates (Nat)
 ===================================
 Final Title confirmation (Nat)
 --------------------------------
-* FAPI - Part 1: Baseline profile 1.0 OR FAPI 1.0 - Part 1: Baseline profile? 
-* In the latter case, what would JARM, Grant Management etc. going to be? 
+FAPI - Part 1: Baseline profile 1.0 OR FAPI 1.0 - Part 1: Baseline profile? 
+In the latter case, what would JARM, Grant Management etc. go to be? 
 
+Discussed for 20 min. 
+
+Result: 
+
+* FAPI Security Profile 1.0 - Baseline
+* FAPI Security Profile 1.0 - Advanced
+* CIBA FAPI Profile
+* JARM
+* OAuth Grant Management
+
+FAQ & 2021 Planning(Joseph/Don)
+--------------------------------
+2021 planning. 
+
+1. Financial-Grade API WG Roadmap (what is planned) 
+2. WG FAQ (How it happens) and 
+3. OpenID Foundation Calendar (when it happens)
+
+Machine-readable certification data and new style pages are coming up. 
+
+New look page is live: https://openid.net/certification/#FAPI_OPs
 
 FAPI 2.0 Updates (Daniel)
 ===========================
 x-fapi-* headers
 
+https://bitbucket.org/openid/fapi/issues?status=new&status=open&component=FAPI2%3A%20Baseline
 
-Reports from Subgroups
-==========================
-
+* #290: x-fapi-interaction-id across client to AS and RS interactions => ID2
+* #282: FAPI 2.0: x-fapi-* headers => ID2
+* #336: FAPI 2 Baseline - Client types => ID2
+* #337: Intro text in Basline => ID1
+* #346: RAR requirement may be unnecessary? => Recommendation for ecosystem, MUST for vendor? => ID1 (Torsten/Daniel)
+* #348: FAPI2 Release Communication
 
 Other Drafts
 ===============
 Grant Management (Dima)
 ----------------------------
 * Probably able to report next week. 
+* https://bitbucket.org/openid/fapi/pull-requests/217
 
 
 HTTP Signing (Dave)
@@ -54,71 +80,31 @@ HTTP Signing (Dave)
 
 Events (Nat)
 ======================
-OBIE (Chris)
+UK (Chris)
 -----------------
-Parties endpoint / eKYC 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Extension to OIDC to enable eKYC data etc. that they can monetize. 
-There is some momentum. 
-Sandbox till the end of Feb. 
-
-A few workshops. 
-
-Variable payment workshops
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-To result in the final standard by the end of March. 
+* About to go out for consultation of VRP and Sweep till End of FEb. Spec to be out in March. 
+* Extended customer attributes. (Premium API). A couple of workshops. Next Wednesday and in a month time. 
+* Then a short public consultation. 
 
 Podcast on Jan 26. (Torsten)
 --------------------------------
 
-
+Workshop with Australia to be confirmed in a week. 
 
 External Organizations (Nat)
 ================================
 
-Financial Data and Technology Association
--------------------------------------------------------
-* Setting up a new organization called Global Open Finance Center of Excellence in early 2021.
-* There is a proposal for OIDF to be a founding member.
-* OIDF has 3 interest areas, one of which is participation and leadership of group of groups - group of representatives of various standards, organizations from around the world that would try and look for efficiencies and Interoperability across regional efforts.
-* The effort is being led by Kevin Littlejohn through the Global Open Finance Center of Excellence, which is related to the University of Edinburgh.
-* The organization has appears to have funding, and is hiring personnel to create a library of APIs in the open finance world
-* They may also be a licensee of OIDF's listing of organizations that are in conformance to FAPI and OIDC..
+GLEIF (Mark)
+-----------------
+Try to find a suitable project to work on eKYC. 
 
-
-Berlin Group (Francis)
-----------------------
-Please review the whitepaper: https://bitbucket.org/openid/fapi/issues/353/fapi-for-berlin-group-openfinance
-
-* https://docs.google.com/document/d/1e5M5aLgNgiu4kkPIt3BjSHBt2mZL9DkcQ7bfL4Zqdgw/edit#heading=h.vppi3bf35d6g
-
-Open Finance will be open to everybody. They are trying to change the governance model. 
-It used to be financed by Deutche ... 
-Now moving to open market model. 
-
-UK
------
-See above. 
-
-Issues
-===========
-#282: FAPI 2.0: x-fapi-* headers (Dave)
-------------------------------------------
-Dave asked if these are really needed as it would impact the Advanced profile signature. 
-
-Francis pointed out that IP address etc. are needed by criminal investigators so they need to be there though their effectiveness as far as security is concerned is unknown. 
-
-Ralph pointed out they need to be there but it does not have to be in the header. 
-Also, he pointed out that it may not be accurate. 
-However, they are needed. 
-
-
-
-
+FDX (Nat/Don)
+-----------------
+Intro to eKYC/IDA to FDX to be prepared. 
 
 
 AOB
 ==========================
 
 
-The meeting was adjourned at 15:00 UTC.
+The meeting was adjourned at 15:10 UTC.
