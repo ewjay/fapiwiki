@@ -30,9 +30,12 @@ Agenda:
 * * JARM 
 * * OAuth Grant Management
 
-* FDX & FAPI engagement  
-* * Where are we with formalized Agreement ?
-* * Impacting collaboration on grant management, payment and event notification .
+FDX & FAPI engagement  
+* Where are we with formalized Agreement? - Impacting collaboration on grant management, payment and event notification.
+* * Individual members can directly signed and contribute.
+* * if FDX representation wants to contribute then FDX will just sign IPR of OpenID.
+* * Liaison agreement - we already have agreement in place. 
+
 
 
 External Organizations 
