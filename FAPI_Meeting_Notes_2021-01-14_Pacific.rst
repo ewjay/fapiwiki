@@ -22,12 +22,19 @@ Roll Call (Anoop)
 
 Agenda:
 
-* Review Atlantic notes
-* * Naming for FAPI 1.0
-* FDX & FAPI contract 
-* * Impacting on grant management, payment and event notification collaboration.
+* Review Atlantic notes - Naming for FAPI deliverables
 
- 
+* * FAPI Security Profile 1.0 - Par1: Baseline 
+* * FAPI Security Profile 1.0 - Part2: Advanced 
+* * CIBA FAPI Profile 
+* * JARM 
+* * OAuth Grant Management
+
+* FDX & FAPI engagement  
+* * Where are we with formalized Agreement ?
+* * Impacting collaboration on grant management, payment and event notification .
+
+
 External Organizations 
 ==============================
  
