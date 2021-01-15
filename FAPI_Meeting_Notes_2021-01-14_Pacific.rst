@@ -18,7 +18,7 @@ Roll Call (Anoop)
 
 * Attending: Nat, Ed, Anoop
 * Guests: 
-* Regrets:  
+* Regrets:  Dima ( not seeing the meeting request)
 
 Agenda:
 
@@ -32,11 +32,10 @@ Agenda:
 
 FDX & FAPI engagement  
 * Where are we with formalized Agreement? - Impacting collaboration on grant management, payment and event notification.
-* * Individual members can directly signed and contribute.
-* * if FDX representation wants to contribute then FDX will just sign IPR of OpenID.
-* * Liaison agreement - we already have agreement in place. 
-
-
+* Individual members can directly signed and contribute.
+* If FDX representation wants to contribute then FDX will just sign IPR of OpenID.
+* Liaison agreement - we already have agreement in place. 
+* Don
 
 External Organizations 
 ==============================
