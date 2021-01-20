@@ -110,9 +110,6 @@ This page is not always updated so it is better to go to the above link to find 
 
 ### 2020
 
-The following list is very incomplete. 
-Please go to the [auto-generated page](https://bitbucket.org/openid/fapi/wiki/browse/) for a complete list. 
-
 * [[FAPI_Meeting_Notes_2020-01-09_Pacific]]
 * [[FAPI_Meeting_Notes_2020-01-22_Atlantic]]
 * [[FAPI_Meeting_Notes_2020-01-23_Pacific]]
@@ -150,6 +147,20 @@ Please go to the [auto-generated page](https://bitbucket.org/openid/fapi/wiki/br
 * [[FAPI_Meeting_Notes_2020-10-29_Pacific]]
 * [[FAPI_Meeting_Notes_2020-11-12_Pacific]]
 * [[FAPI_Meeting_Notes_2020-12-03_Pacific]]
+* [[FAPI_Meeting_Notes_2020-12-09_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-12-16_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-12-17_Pacific]]
+* [[FAPI_Meeting_Notes_2020-12-23_Atlantic]]
+
+### 2021
+
+* [[FAPI_Meeting_Notes_2021-01-06_Atlantic]]
+* [[FAPI_Meeting_Notes_2021-01-13_Atlantic]]
+* [[FAPI_Meeting_Notes_2021-01-14_Pacific]]
+* [[FAPI_Meeting_Notes_2021-01-20_Atlantic]]
+
+The list is very incomplete. 
+Please go to the [auto-generated page](https://bitbucket.org/openid/fapi/wiki/browse/) for a complete list. 
 
 The newest ones are found at https://bitbucket.org/openid/fapi/wiki/browse/
 
