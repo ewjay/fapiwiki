@@ -99,10 +99,10 @@ No action for FAPI 1.
 --------------------------
 Current draft: https://docs.google.com/document/d/1Fo44L_wM4TIMxF3f1xowNWdlqEqZkZdjAyd1pAtab9U/edit
 
-
+WG members are asked to chime into the document to leave comments. 
 
 AOB
 ==========================
+n/a
 
-
-The meeting was adjourned at 15:10 UTC.
+The meeting was adjourned at 15:00 UTC.
