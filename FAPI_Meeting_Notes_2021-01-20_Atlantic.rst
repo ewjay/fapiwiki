@@ -87,9 +87,18 @@ No PRs to be reviewed at this time.
 
 Issues
 =====================
-Language to use on the certification pages for ID2 vs Final (Joseph)
------------------------------------------------------------------------
+362: Language to use on the certification pages for ID2 vs Final (Joseph)
+---------------------------------------------------------------------------
 https://bitbucket.org/openid/fapi/issues/362/language-to-use-on-the-certification-pages
+
+350:
+-------------------------
+No action for FAPI 1. 
+
+348: FAQs
+--------------------------
+Current draft: https://docs.google.com/document/d/1Fo44L_wM4TIMxF3f1xowNWdlqEqZkZdjAyd1pAtab9U/edit
+
 
 
 AOB
