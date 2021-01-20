@@ -59,7 +59,7 @@ We should have a specific proposal date.
 Data 61 would be endorsing OIDF FAPI Certification. 
 
 Current providers: 
-https://www.cdr.gov.au/find-a-provider?providerType=Data%2520Recipient
+https://www.cdr.gov.au/find-a-provider?providerType=Data%2520Holder
 
 https://openid.net/2021/01/15/openid-financial-grade-api-fapi-conformance-tests-now-available-for-australian-consumer-data-rights-participants-push-authorization-requests-par/
 
