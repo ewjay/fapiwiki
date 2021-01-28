@@ -14,63 +14,80 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call 
 ===========
-* Attending: Nat, Dave, Don, Joseph, Ralph, Allan, Dima, Brian, Kosuke, Luksz, Takahhiko, Torsten, Francis
-* Regrets: Daniel
+* Attending: Nat, Kosuke, Takahiko, Joseph, Daniel, Torsten, Francis, Dima, Lukasz, Chris
+* Regrets: Dave
 * Guest: 
 
 Adoption of Agenda (Nat)
 ===========================
-* FAQ and Roadmap Updates
+* No changes. 
 
 FAPI 1.0 Updates (Nat)
 ===================================
 * PRs
-* XML/HTML Review
+* XML/HTML Review http://lists.openid.net/pipermail/openid-specs-fapi/2021-January/002241.html
 
-FAQ and Roadmap Updates
-===================================
+FAQ and Roadmap Updates (Dave)
+==================================
+* FAPI Baseline 2.0: Just pending the release communication. 
 
 FAPI 2.0 Updates (Daniel)
 ===========================
-Updated text on RAR. Please give feedback. 
-https://bitbucket.org/openid/fapi/commits/e1365ad6073f5e1ca7a23deb0cb735afb4741cb7
+https://bitbucket.org/openid/fapi/issues?status=new&status=open&component=FAPI2%3A%20Baseline
 
 
 Grant Management (Dima)
 ============================
-* https://bitbucket.org/openid/fapi/pull-requests/217
-
-Collecting implementation experiences. 
-As to the protocol simplification is concerned, it is closed to be done. 
-PR can be reviewed next week. 
-
+Still going through the data model. 
+It should be ready for the presentation to the working group in two to three weeks. 
 
 Events (Nat)
 ======================
-n/a
+OBIE Extended Customer Attributes Events
+--------------------------------------------
+Feb. 10 Morning. 
+Mark and Torsten will be speaking. 
+As soon as the registration is open, Chris is going to share it in the WG> 
+
+2nd Consultation on Variable Payment Standard
+-------------------------------------------------
+https://www.openbanking.org.uk/about-us/latest-news/obie-launches-variable-recurring-payments-and-sweeping-consultation-phase-ii/
+
+1st call of GOFCoE WG
+------------------------
+* Gavin Littlejohn setting up a new WG. 
+* Coordinate identity in UK
+* Curate different standards globally. 
+
+KuppingerCole Event on March 3
+------------------------------------
+* https://www.kuppingercole.com/events/identity-fabrics-future-proofing-iam
+* March 3. 
+* On FAPI 2.0 and FAPI 1.0 differences
 
 External Organizations (Nat)
 ================================
 
-Australia Data 61 (Nat/Don)
+Australia Data 61 (Dima)
 ----------------------------
-Commitment to host series of Workshop much in the way OBIE had. 
-Timezone should be good to coordinate with OIDF-J as well. 
-We should have a specific proposal date. 
+* Another phase of CDR going live on Feb. 1. 
+* Big four banks will go live on PAR. 
+* Future direction reports came up at the end of last year. Dima is going over it to present to the WG. 
+* Likely the business entities. 
+* Feb. 2: OIDF certification meeting with Data 61. (Don, Joseph)
 
-Data 61 would be endorsing OIDF FAPI Certification. 
+UK (Chris)
+--------------
+There are a number of TPPs lobbying CIBA to regulators to support e-commerce and POS. 
 
-Current providers: 
-https://www.cdr.gov.au/find-a-provider?providerType=Data%2520Holder
 
-https://openid.net/2021/01/15/openid-financial-grade-api-fapi-conformance-tests-now-available-for-australian-consumer-data-rights-participants-push-authorization-requests-par/
-
-Brazil (Ralph)
+Brazil (Chris)
 ----------------------
-830 banks in the trust framework are going through open data and r/w APIs by the end of May and get certified for FAPI 1.0 R/W by the end of July CIBA recommended. 
+Open Banking in four faces. 
 
-FAQ needs to be somewhat completed before that to ease the support load. 
-@Ping @Forgerock and other service providers and consultants - please feel free to improve and repurpose the FAQ for Financial-Grade APIs on your sites- attribution is appreciated but not required
+Three months after the publication of the Standards. 
+
+
 
 Berlin Group (Francis)
 ---------------------------
