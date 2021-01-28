@@ -29,12 +29,46 @@ FAPI 1.0 Updates (Nat)
 
 FAQ and Roadmap Updates (Dave)
 ==================================
+FAQ
+-----
+Current draft: https://docs.google.com/document/d/1Fo44L_wM4TIMxF3f1xowNWdlqEqZkZdjAyd1pAtab9U/edit
+
+No updates for this week. 
+
+FAPI 2.0 Release communication
+------------------------------------
+Short document that refers to FAQ
+Don to draft first cut?
+Feb 3. 
+
+FAPI 2.0 Baseline
+------------------------------------
 * FAPI Baseline 2.0: Just pending the release communication. 
+* the working group last call - 27th Jan to 3rd Feb
+* first public draft for the vote - 17th February
+* implementers draft approval - 3rd April (45 days after vote starts)
+
+FAPI 2.0 Signing
+------------------------------------
+Call for adoption: TBC, Nat to consult with Dave
+
+FAPI 2.0 Advanced
+------------------------------------
+first implementers draft: dependent on signing
+
+Grant management
+------------------------------------
+* Call for adoption: mid-February
+* A dedicated call for the presentation of grant management to WG: 17th February 14:00 GMT
+* Working group last call: end July
+* First public comments: Aug 1 - Sept 15
+
 
 FAPI 2.0 Updates (Daniel)
 ===========================
-https://bitbucket.org/openid/fapi/issues?status=new&status=open&component=FAPI2%3A%20Baseline
-
+* https://bitbucket.org/openid/fapi/issues?status=new&status=open&component=FAPI2%3A%20Baseline
+* Almost ready. Pending the release communication completion. 
+* Nat will as Don to take the lead in the release communication. 
 
 Grant Management (Dima)
 ============================
@@ -102,26 +136,14 @@ Deadline: Jan 25.
 
 PRs (Dave)
 ========================
-No PRs to be reviewed at this time. 
+No time. 
 
 Issues
 =====================
-362: Language to use on the certification pages for ID2 vs Final (Joseph)
----------------------------------------------------------------------------
-https://bitbucket.org/openid/fapi/issues/362/language-to-use-on-the-certification-pages
-
-350:
--------------------------
-No action for FAPI 1. 
-
-348: FAQs
---------------------------
-Current draft: https://docs.google.com/document/d/1Fo44L_wM4TIMxF3f1xowNWdlqEqZkZdjAyd1pAtab9U/edit
-
-WG members are asked to chime into the document to leave comments. 
+No time. 
 
 AOB
 ==========================
 n/a
 
-The meeting was adjourned at 15:00 UTC.
+The meeting was adjourned at 15:10 UTC.
