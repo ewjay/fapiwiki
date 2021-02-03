@@ -14,7 +14,7 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Nat, Dave, Siva Boyalakuntla, Brian, Dima, Kosuke, Don, Torsten, Francis, Daniel, Lukasz, Joseph.  
 * Regrets: 
 * Guest: 
 
@@ -28,17 +28,17 @@ FAPI 1.0 Updates (Nat)
 
 FAQ and Roadmap Updates (Dave)
 ==================================
-FAQ
------
+FAQ (Dave)
+------------
 Current draft: https://docs.google.com/document/d/1Fo44L_wM4TIMxF3f1xowNWdlqEqZkZdjAyd1pAtab9U/edit
 
-No updates for this week. 
+Still needing some work. 
+
+Target: End of the next week. 
 
 FAPI 2.0 Release communication (Don)
 -------------------------------------
-Short document that refers to FAQ
-Don to draft first cut?
-Feb 3. 
+Deadline for the document postponed to the end of the next week. 
 
 FAPI 2.0 Baseline
 ------------------------------------
@@ -57,38 +57,41 @@ FAPI 2.0 Updates (Daniel)
 
 Grant Management (Dima)
 ============================
+Couple of productive meetings. 
+Will be ready for formal adoption soon. 
+
 Dedicated call on the Feb. 17. 
 
 Events (Nat)
 ======================
+If you have any specific events that you are interested in speaking, please let us know. 
+
+EIC (Don)
+--------------
+Interested in featuring FAPI in the main stream agenda. 
+
+Identiverse (Don)
+--------------------
+Interested in featuring FAPI in the main stream agenda. 
+
 
 External Organizations (Nat)
 ================================
 
-Australia Data 61 (Dima)
+Australia Data 61 (Dima/Don)
 ----------------------------
-* Another phase of CDR going live on Feb. 1. 
-* Big four banks will go live on PAR. 
-* Future direction reports came up at the end of last year. Dima is going over it to present to the WG. 
-* Likely the business entities. 
-* Feb. 2: OIDF certification meeting with Data 61. (Don, Joseph)
+* Had a meeting with Data 61 last night. 
+* Discussing a possibility to have a workshop in March. 
 
 Berlin Group (Francis)
 ---------------------------
-The draft of the FAPI4BerlinGroup White Paper is available here:  https://docs.google.com/document/d/1e5M5aLgNgiu4kkPIt3BjSHBt2mZL9DkcQ7bfL4Zqdgw/edit#
+The draft of the FAPI4BerlinGroup White Paper is available here: 
+ https://docs.google.com/document/d/1e5M5aLgNgiu4kkPIt3BjSHBt2mZL9DkcQ7bfL4Zqdgw/edit#
 
 Please leave comments. We need to deliver it Monday next week. 
 
-Brazil (Chris)
-----------------------
-Open Banking in four faces. 
-
-Three months after the publication of the Standards. 
-
-UK (Chris)
---------------
-There are a number of TPPs lobbying CIBA to regulators to support e-commerce and POS. 
-
+OpenFinance Adivsorty Board was established. 
+The charter will be published very soon but has FAPI is a priority. 
 
 PRs (Dave)
 ========================
