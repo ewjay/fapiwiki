@@ -22,6 +22,70 @@ Adoption of Agenda (Nat)
 ===========================
 * 
 
+External Organizations (Nat)
+================================
+W3C Web Payment Interest Group (Nat)
+--------------------------------------
+* OIDF’s interest in becoming a member as part of WPSIG’s re-charter. OIDF board EC is asking FAPI WG if they are interested to participate in their meeting. 
+* OIDF opportunity to co-sponsor: An opportunity to be a co-chair. 
+
+
+Australia Data 61 (Dima)
+----------------------------
+* Another phase of CDR going live on Feb. 1. 
+* Big four banks will go live on PAR. 
+* Future direction reports came up at the end of last year. Dima is going over it to present to the WG. 
+* Likely the business entities. 
+* Feb. 2: OIDF certification meeting with Data 61. (Don, Joseph)
+
+UK (Chris)
+--------------
+There are a number of TPPs lobbying CIBA to regulators to support e-commerce and POS. 
+
+
+Brazil (Chris)
+----------------------
+Open Banking in four faces. 
+
+Three months after the publication of the Standards. 
+
+
+
+Berlin Group (Francis)
+---------------------------
+The draft of the FAPI4BerlinGroup White Paper is available here:  https://docs.google.com/document/d/1e5M5aLgNgiu4kkPIt3BjSHBt2mZL9DkcQ7bfL4Zqdgw/edit#
+
+Please leave comments. We need to deliver it Monday next week. 
+
+Japan (Nat)
+--------------------
+Public consultation going: https://www.fsa.go.jp/news/r2/sonota/20201225-4/20201225-4.html
+Deadline: Jan 25. 
+
+vents (Nat)
+======================
+OBIE Extended Customer Attributes Events
+--------------------------------------------
+Feb. 10 Morning. 
+Mark and Torsten will be speaking. 
+As soon as the registration is open, Chris is going to share it in the WG> 
+
+2nd Consultation on Variable Payment Standard
+-------------------------------------------------
+https://www.openbanking.org.uk/about-us/latest-news/obie-launches-variable-recurring-payments-and-sweeping-consultation-phase-ii/
+
+1st call of GOFCoE WG
+------------------------
+* Gavin Littlejohn setting up a new WG. 
+* Coordinate identity in UK
+* Curate different standards globally. 
+
+KuppingerCole Event on March 3
+------------------------------------
+* https://www.kuppingercole.com/events/identity-fabrics-future-proofing-iam
+* March 3. 
+* On FAPI 2.0 and FAPI 1.0 differences
+
 Hypermedia login API (Travis)
 ================================
 Travis spencer will be presenting Hypermedia login API. 
@@ -78,64 +142,9 @@ Grant Management (Dima)
 Still going through the data model. 
 It should be ready for the presentation to the working group in two to three weeks. 
 
-Events (Nat)
-======================
-OBIE Extended Customer Attributes Events
---------------------------------------------
-Feb. 10 Morning. 
-Mark and Torsten will be speaking. 
-As soon as the registration is open, Chris is going to share it in the WG> 
-
-2nd Consultation on Variable Payment Standard
--------------------------------------------------
-https://www.openbanking.org.uk/about-us/latest-news/obie-launches-variable-recurring-payments-and-sweeping-consultation-phase-ii/
-
-1st call of GOFCoE WG
-------------------------
-* Gavin Littlejohn setting up a new WG. 
-* Coordinate identity in UK
-* Curate different standards globally. 
-
-KuppingerCole Event on March 3
-------------------------------------
-* https://www.kuppingercole.com/events/identity-fabrics-future-proofing-iam
-* March 3. 
-* On FAPI 2.0 and FAPI 1.0 differences
-
-External Organizations (Nat)
-================================
-
-Australia Data 61 (Dima)
-----------------------------
-* Another phase of CDR going live on Feb. 1. 
-* Big four banks will go live on PAR. 
-* Future direction reports came up at the end of last year. Dima is going over it to present to the WG. 
-* Likely the business entities. 
-* Feb. 2: OIDF certification meeting with Data 61. (Don, Joseph)
-
-UK (Chris)
---------------
-There are a number of TPPs lobbying CIBA to regulators to support e-commerce and POS. 
+E
 
 
-Brazil (Chris)
-----------------------
-Open Banking in four faces. 
-
-Three months after the publication of the Standards. 
-
-
-
-Berlin Group (Francis)
----------------------------
-The draft of the FAPI4BerlinGroup White Paper is available here:  https://docs.google.com/document/d/1e5M5aLgNgiu4kkPIt3BjSHBt2mZL9DkcQ7bfL4Zqdgw/edit#
-
-Please leave comments. We need to deliver it Monday next week. 
-
-Japan (Nat)
---------------------
-Public consultation going: https://www.fsa.go.jp/news/r2/sonota/20201225-4/20201225-4.html
-Deadline: Jan 25. 
 
 PRs (Dave)
 ========================
