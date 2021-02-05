@@ -62,7 +62,7 @@ Japan (Nat)
 Public consultation going: https://www.fsa.go.jp/news/r2/sonota/20201225-4/20201225-4.html
 Deadline: Jan 25. 
 
-vents (Nat)
+Events (Nat)
 ======================
 OBIE Extended Customer Attributes Events
 --------------------------------------------
