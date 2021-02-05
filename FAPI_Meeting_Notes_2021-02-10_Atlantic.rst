@@ -30,26 +30,24 @@ W3C Web Payment Interest Group (Nat)
 * OIDF opportunity to co-sponsor: An opportunity to be a co-chair. 
 
 
-Australia Data 61 (Dima)
-----------------------------
+Australia Data 61 (Dima/Stuart)
+----------------------------------
 * Another phase of CDR going live on Feb. 1. 
 * Big four banks will go live on PAR. 
 * Future direction reports came up at the end of last year. Dima is going over it to present to the WG. 
 * Likely the business entities. 
 * Feb. 2: OIDF certification meeting with Data 61. (Don, Joseph)
 
-UK (Chris)
---------------
+UK (Chris/Ralph)
+-----------------
 There are a number of TPPs lobbying CIBA to regulators to support e-commerce and POS. 
 
 
-Brazil (Chris)
+Brazil (Chris/Ralph)
 ----------------------
 Open Banking in four faces. 
 
 Three months after the publication of the Standards. 
-
-
 
 Berlin Group (Francis)
 ---------------------------
