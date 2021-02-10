@@ -30,7 +30,7 @@ W3C Web Payment Interest Group (John)
 * OIDF opportunity to co-sponsor: An opportunity to be a co-chair. 
 
 
-Australia Data 61 (Dima/Stuart)
+Australia (Dima/Stuart)
 ----------------------------------
 * Still in the process of organization of agenda and timing for workshop. 
 * THe workshop will be very open. 
