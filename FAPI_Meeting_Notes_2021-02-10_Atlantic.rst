@@ -24,7 +24,7 @@ Adoption of Agenda (Nat)
 
 External Organizations (Nat)
 ================================
-W3C Web Payment Interest Group (Nat)
+W3C Web Payment Interest Group (John)
 --------------------------------------
 * OIDF’s interest in becoming a member as part of WPSIG’s re-charter. OIDF board EC is asking FAPI WG if they are interested to participate in their meeting. 
 * OIDF opportunity to co-sponsor: An opportunity to be a co-chair. 
@@ -32,11 +32,13 @@ W3C Web Payment Interest Group (Nat)
 
 Australia Data 61 (Dima/Stuart)
 ----------------------------------
-* Another phase of CDR going live on Feb. 1. 
-* Big four banks will go live on PAR. 
-* Future direction reports came up at the end of last year. Dima is going over it to present to the WG. 
-* Likely the business entities. 
-* Feb. 2: OIDF certification meeting with Data 61. (Don, Joseph)
+* Still in the process of organization of agenda and timing for workshop. 
+* THe workshop will be very open. 
+* Suggestions to contents, guests, etc. welcome. Send it to director@OIDF.org
+* It will be OIDF workshop in collaboration with other organizations. 
+
+Canada (Ralph)
+------------------
 
 UK (Chris/Ralph)
 -----------------
@@ -45,20 +47,15 @@ There are a number of TPPs lobbying CIBA to regulators to support e-commerce and
 
 Brazil (Chris/Ralph)
 ----------------------
-Open Banking in four faces. 
-
-Three months after the publication of the Standards. 
+n/a
 
 Berlin Group (Francis)
 ---------------------------
-The draft of the FAPI4BerlinGroup White Paper is available here:  https://docs.google.com/document/d/1e5M5aLgNgiu4kkPIt3BjSHBt2mZL9DkcQ7bfL4Zqdgw/edit#
-
-Please leave comments. We need to deliver it Monday next week. 
+Lots of activities on new operations on extended services -- regulated directory to identify the participants. 
 
 Japan (Nat)
 --------------------
-Public consultation going: https://www.fsa.go.jp/news/r2/sonota/20201225-4/20201225-4.html
-Deadline: Jan 25. 
+n/a
 
 Events (Nat)
 ======================
@@ -66,11 +63,12 @@ OBIE Extended Customer Attributes Events
 --------------------------------------------
 Feb. 10 Morning. 
 Mark and Torsten will be speaking. 
-As soon as the registration is open, Chris is going to share it in the WG> 
 
-2nd Consultation on Variable Payment Standard
--------------------------------------------------
-https://www.openbanking.org.uk/about-us/latest-news/obie-launches-variable-recurring-payments-and-sweeping-consultation-phase-ii/
+Berlin Group Workshop
+----------------------------
+* 
+* 
+
 
 1st call of GOFCoE WG
 ------------------------
@@ -87,6 +85,13 @@ KuppingerCole Event on March 3
 Hypermedia login API (Travis)
 ================================
 Travis spencer will be presenting Hypermedia login API. 
+
+* http://lists.openid.net/pipermail/openid-specs-fapi/2021-February/002259.html
+* https://developer.curity.io/docs/latest/developer-guide/haapi/example-username.html
+
+Justin pointed out perils of UI hints but ... 
+
+* https://datatracker.ietf.org/doc/agenda-interim-2021-gnap-02-gnap-01/
 
 FAPI 1.0 Updates (Nat)
 ===================================
@@ -156,4 +161,67 @@ AOB
 ==========================
 n/a
 
-The meeting was adjourned at 15:10 UTC.
+The meeting was adjourned at 15:00 UTC.
+
+
+Chat Log
+============
+Me to Everyone
+https://bitbucket.org/openid/fapi/wiki/FAPI_Meeting_Notes_2021-02-10_Atlantic
+
+23:17Don Thibeau to Everyone
+please note some new items re Financial-Grade APIs at https://openid.net/
+
+23:20Don Thibeau to Everyone
+FYI Yesterday Janet Yellen Treasury Seciretary gave the keymote at the U.S. Financial Sector Innovation Policy Roundtable panelists stressed the importance of the adoption of the OpenID Foundation Financial-Grade APIs for international open banking, US health care and of course OpenID Connect was noted as a given.
+
+23:21Ralph Bragg to Everyone
+That's a big one
+
+23:21Ralph Bragg to Everyone
+Nice
+
+23:21Chris Michael to Everyone
+Apologies for being late
+
+23:28Justin Richer to Everyone
+Can someone post a link to this flow diagram, please?
+
+23:32Justin Richer to Everyone
+q+
+
+23:32Justin Richer to Everyone
+(do we not queue on chat?)
+
+23:32Dave Tonge to Everyone
+ok (you next :-))
+
+23:33Justin Richer to Everyone
+I genuinely don't know :)
+
+23:33Dave Tonge to Everyone
+https://developer.curity.io/docs/latest/developer-guide/haapi/example-username.html
+
+23:40Justin Richer to Everyone
+https://datatracker.ietf.org/doc/agenda-interim-2021-gnap-02-gnap-01/
+
+23:43Michael Schwartz to Everyone
+Also, Hypermedia API is compatible with OAuth, while GNAP does not see this as a necessity constraint?
+
+23:43Justin Richer to Everyone
+I disagree with that statement.
+
+23:44Michael Schwartz to Everyone
+It wasn't a statement, it was a question.
+
+23:44Justin Richer to Everyone
+OAuth is not constrained by "hypermedia API" concepts at all. GNAP is being built explicitly on HTTP and JSON to start, and so could be more aligned. Neither are driven by it though.
+
+23:54Travis Spencer (Curity) to Everyone
+I'll add a nicely formatted version of the diagram on my web site later today, Justin, but a badly formatted one is on the mailing list.
+
+23:57Ralph Bragg to Everyone
+just copy the language from the OBIE.
+
+23:57Ralph Bragg to Everyone
+It has all of that in the website. i.e this is self provided, self managed and don't take any responsibiliyr or are not promoting it.
