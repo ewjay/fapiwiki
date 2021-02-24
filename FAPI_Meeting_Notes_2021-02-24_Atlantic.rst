@@ -14,7 +14,7 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call 
 ===========
-* Attending: Nat, Daniel, Torsten, Takahiko, Brian, Dima, Lukaz, Joseph, DOn, Francis, Kosuke
+* Attending: Nat, Daniel, Torsten, Takahiko, Brian, Dima, Lukaz, Joseph, DOn, Francis, Kosuke, Ralph, Brian Chris, 
 * Regrets:
 * Guest: 
 
@@ -33,19 +33,26 @@ Australia (Dima/Stuart)
 Berlin Group (Francis)
 ---------------------------
 
-
-
 Brazil (Chris/Ralph)
 ----------------------
-
-
 
 Canada (Ralph)
 ------------------
 
-UK (Chris/Ralph)
+UK (Don/Ralph)
 -----------------
+* Talked to Fiona on the history of OBIE and OIDF. 
+* Planning to do a deeper demo. 
 
+* UK Finance is working on how to change the organization of OBIE. 
+* Some parts are to be handed over to some other orgs. It is very fluid. 
+* UK Finance will be taking over. 
+* Open Energy. Energy ecosystem to be set up by June. 
+
+USA 
+----------
++ OIDF and FDX is completing a legal agreement on OIDF TM. 
+* Rounding up on existing liaison agreement. Announcement to be made at their Global Summit in April. 
 
 Events (Nat)
 ======================
@@ -66,8 +73,8 @@ Open Identity Summit
 * Submission deadline: March 1. 
 * June. 
 
-Adoption of the Grant Management Draft (Nat)
-==========================================
+Adoption of the Grant Management Draft (Nat/Dima)
+==================================================
 * Announced the call for adoption on the 17th. 
 * No objection till today, so it is now adopted. 
 * Thanks the SG for taking this forward. 
