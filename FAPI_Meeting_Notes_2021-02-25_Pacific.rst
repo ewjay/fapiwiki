@@ -26,6 +26,8 @@ Agenda:
 * FDX - Grant management discussion
 * * Decoupling Grant/Consent from Auth 
 * * Why updating grant/consent requires user to re-auth when access token is not expired.
+* Event Notification
+* * FDX will start documenting use cases.
    
 
 External Organizations 
