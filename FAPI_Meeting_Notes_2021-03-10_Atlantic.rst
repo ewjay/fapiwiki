@@ -51,8 +51,8 @@ USA
 Events (Nat)
 ======================
 
-1st call of GOFCoE WG
-------------------------
+1st call of GOFCoE/GOFTS WG
+------------------------------
 
 
 PRs (Dave)
