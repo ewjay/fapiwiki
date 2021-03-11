@@ -20,6 +20,7 @@ Roll Call
 
 Adoption of Agenda (Nat)
 ===========================
+* Adopted as is. 
 
 Finalization of FAPI 1.0 (Nat)
 ===============================
@@ -29,30 +30,36 @@ External Organizations (Nat)
 W3C Web Payment Interest Group (John)
 --------------------------------------
 
+
 Australia (Dima/Stuart)
 ----------------------------------
 
 Berlin Group (Francis)
 ---------------------------
+* Getting very political as TPP fearing embedded mode, except for the password. 
+* BG may send an official application to OIDF. 
 
 Brazil (Chris/Ralph)
 ----------------------
 
+
 Canada (Ralph)
 ------------------
+
 
 UK (Don/Ralph)
 -----------------
 
-USA 
-----------
+USA (Joseph)
+--------------
 
 
 Events (Nat)
 ======================
 
-1st call of GOFCoE/GOFTS WG
-------------------------------
+1st call of GOFCoE/GOFTS WG (Don/Nat)
+---------------------------------------
+
 
 
 PRs (Dave)
