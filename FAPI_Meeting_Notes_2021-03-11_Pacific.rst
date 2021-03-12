@@ -35,10 +35,10 @@ Agenda/notes:
 * * * No Consent receipt (kantara)
 * * * FAPI can join call to help address for the first FDX use case (Fintech to Bank integration). 
 * * FDX concern is FAPI 2.0 spec is a draft 
-* * FDX is asking for official declaration from OBIE & AU CDR.
-* * * [DP] to provide AICC link presentation.
+* * FDX is asking for official roadmap for FAPI 2 from OBIE & AU CDR.
+* * * [DP] CDR to adopt FAPI 2 by Feb 2022. The roadmap https://www.accc.gov.au/system/files/CDR%20Roadmap%20-%20Proposed%20compliance%20dates%20for%20Consumer%20Data%20Right%20-%2030%20September%202020.pdf (bottom of the 2nd last page).
 * * New Task force in FDX
-* * * This task force is reviewing FAPI security APIs and identify which one is applicable to FDX and where extensions - to create FDX specific profile.
+* * * This task force is reviewing FAPI security APIs and identify which one is applicable to FDX and where extensions - to create FDX specific profile on top of FAPI.
   
 
 
