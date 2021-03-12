@@ -16,16 +16,31 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:  c
+* Attending: Anoop, Dima, Ed
 * Guests: 
 * Regrets:  
 
-Agenda:
+Agenda/notes:
 
 * Review Atlantic notes
+* * ED is finishing V1 and soon will be published.
 * FDX - Grant management discussion
- 
-   
+* * FDX is documenting requirement on 4 below points (Came from FDX)
+* * * Grant with RAR - can it be decouple
+* * * '/grant' doesn't need to be this endpoint can it be renamed to consent.
+* * * * [DP] Consent is legal process and Grant is how you communicate with server. 
+* * * * [DP] GrantId is similar to Intent ID in OBIE.
+* * * * [DP] Eco System can create another endpoint /consent & its resource and optionally associate with grantId (how). And create consent receipt structure as response.
+* * * Consent resource structure
+* * * No Consent receipt (kantara)
+* * * FAPI can join call to help address for the first FDX use case (Fintech to Bank integration). 
+* * FDX concern is FAPI 2.0 spec is a draft 
+* * FDX is asking for official declaration from OBIE & AU CDR.
+* * * [DP] to provide AICC link presentation.
+* * New Task force in FDX
+* * * This task force is reviewing FAPI security APIs and identify which one is applicable to FDX and where extensions - to create FDX specific profile.
+  
+
 
 External Organizations 
 ==============================
