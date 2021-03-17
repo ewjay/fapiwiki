@@ -34,8 +34,8 @@ W3C Web Payment Interest Group (John)
 
 Australia (Dima/Stuart)
 ----------------------------------
-* FAPI WS planning undersay. It will be announced by next week. The first one will be 20th of April. 
-* Dima is getting his organization's implementation to get certified including PAR, which will be the first. 
+* FAPI workshop planning underway. It will be announced by next week. The first one will be 20th of April. 
+* Commonwealth Bank of Australia certified its Open Banking (CDR) implementation including the first PAR certification (globally). 
 
 Berlin Group (Francis)
 ---------------------------
