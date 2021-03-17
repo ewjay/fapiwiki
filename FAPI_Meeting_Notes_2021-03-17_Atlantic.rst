@@ -62,7 +62,7 @@ FIN/SUM 2021 (Nat)
 
 
 
-PRs (Dave)
+PRs (Nat)
 ===================
 247: Grant Management Refactoring & Clarification (Torsten)
 ---------------------------------------------------------------
@@ -74,7 +74,7 @@ PRs (Dave)
 ---------------------------------------------------------------
 
 
-Issues (Dave)
+Issues (Nat)
 ===============
 #249 - certification clarification request: acr_values_supported in discovery (Dima)
 -------------------------------------------------------------------------------------------
