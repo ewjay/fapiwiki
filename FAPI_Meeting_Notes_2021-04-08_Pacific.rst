@@ -24,7 +24,7 @@ Agenda/notes:
 
 * Review Atlantic notes
 * FDX Summit presentation
-* AU DBS Presentation
+* AU DSB Workshop 
 
 External Organizations 
 ==============================
