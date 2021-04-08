@@ -139,7 +139,7 @@ Issues
   * Can be closed
   * leaving open to link to conformance test issue, Joseph wil update conformance suite issue tracker
 
-#400 - create bitbucket pipeline for converting markdown files into html
+* #400 - create bitbucket pipeline for converting markdown files into html
 
   * eKYC has pipeline which could be used for FAPI 2.0
   * Already works on Grant management
