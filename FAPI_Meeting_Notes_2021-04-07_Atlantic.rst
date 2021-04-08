@@ -80,73 +80,71 @@ FAPI 2.0 Baseline and Attacker Model
 PRs
 ===================
 
-pull request #258 - Add a suggested transition process for FAPI 1.0 ID2 -> Final
-----------------------------------------------------------------------------------
-* Reviewers requested
+* pull request #258 - Add a suggested transition process for FAPI 1.0 ID2 -> Final
+
+  * Reviewers requested
 
 
-pull request #259 Adds copyright and license to  document
-----------------------------------------------------------------------------------
-* Approved and merged
-
-
-
-pull request #260 - Resolve 404 errors when accessing FAPI1 draft locations
-----------------------------------------------------------------------------------
-* Approved and merged
+* pull request #259 Adds copyright and license to  document
+  
+  * Approved and merged
 
 
 
-pull request #251 Grant Management: Use cases section added
-----------------------------------------------------------------------------------
-Feedback requested
+* pull request #260 - Resolve 404 errors when accessing FAPI1 draft locations
 
-Outlines supported and unsupported use cases and related issues
-
-* Basic use cases:
-
-  * Revoking a grant
-  * Replace grant details
-  * Update grant details
-  * Support concurrent grants
-
-* Unsupported Use cases
-
-  * Historical grant, authorization or consent records
-  * Consent resource shared with other parties
+  * Approved and merged
 
 
-Lukas asked if there is a need for API to list grants for a client
 
-Torsten asked what would the client do with such data?
+* pull request #251 Grant Management: Use cases section added
 
-Currently, the user is not associated with a grant. Exposing session api is very dangerous.
+  Feedback requested
 
-You need to share a common user identifier between data holder and data recipient
+  Outlines supported and unsupported use cases and related issues
 
-The client should already have knowledge of the grants.
+  * Basic use cases:
 
-Could be used for cleaning up grants, list and then delete, but it’s an edge case.
+    * Revoking a grant
+    * Replace grant details
+    * Update grant details
+    * Support concurrent grants
 
-Could be added as extension later, but the core grant management should keep things strict to reduce attack * surface vectors.
+  * Unsupported Use cases
+
+    * Historical grant, authorization or consent records
+    * Consent resource shared with other parties
+
+
+  Lukas asked if there is a need for API to list grants for a client
+
+  Torsten asked what would the client do with such data?
+
+  Currently, the user is not associated with a grant. Exposing session api is very dangerous.
+
+  You need to share a common user identifier between data holder and data recipient
+
+  The client should already have knowledge of the grants.
+
+  Could be used for cleaning up grants, list and then delete, but it’s an edge case.
+
+  Could be added as extension later, but the core grant management should keep things strict to reduce attack surface vectors.
 
 
 Issues
 ==========
 
-#397 - query over certification test for access tokens being revoked when authorization codes are reused
-----------------------------------------------------------------------------------
-* Can be closed
-* leaving open to link to conformance test issue, Joseph wil update conformance suite issue tracker
+* #397 - query over certification test for access tokens being revoked when authorization codes are reused
+
+  * Can be closed
+  * leaving open to link to conformance test issue, Joseph wil update conformance suite issue tracker
 
 #400 - create bitbucket pipeline for converting markdown files into html
-----------------------------------------------------------------------------------
-* eKYC has pipeline which could be used for FAPI 2.0
-* Already works on Grant management
-* Stuart will work on pipeline for FAPI 2.0
-* OIDF should have its own Docker image location
 
-
+  * eKYC has pipeline which could be used for FAPI 2.0
+  * Already works on Grant management
+  * Stuart will work on pipeline for FAPI 2.0
+  * OIDF should have its own Docker image location
 
 
 Chat Log
