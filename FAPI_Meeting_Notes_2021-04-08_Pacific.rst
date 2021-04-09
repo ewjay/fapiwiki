@@ -16,15 +16,21 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:  
+* Attending: Nat, Dima, Anoop and Ed
 * Guests: 
 * Regrets:  
 
 Agenda/notes:
 
 * Review Atlantic notes
+https://bitbucket.org/openid/fapi/pull-requests/251/grant-management-use-cases-section-added
+
 * FDX Summit presentation
-* AU DSB Workshop 
+* * Reviewed FDX presentation. 
+* * Callout Name consistently FAPI-RW vs Security Profile 1.0 - Part 2: Advanced (final)
+* * Check with FDX folks on Fees as it might have impact on FDX fee model. Probably good to remove from here
+* AU DSB Workshops 
+
 
 External Organizations 
 ==============================
