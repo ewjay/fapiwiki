@@ -20,15 +20,24 @@ Roll Call
 
 Adoption of Agenda (Nat)
 ===========================
-* 
+* Adopted as is. 
 
 Events (Nat)
 ======================
 
-OpenID Foundation Workshop
+OpenID Foundation Workshop (Nat)
 ---------------------------------------
+April 29. 
 
+Site URL: https://openid.net/2021/03/01/registration-open-for-openid-foundation-virtual-workshop-april-29-2021/
 
+Tickets: https://www.eventbrite.com/e/openid-foundation-virtual-workshop-tickets-143831524963
+
+Open Banking World Congress (Don)
+---------------------------------------------
+May 11 - 13. Dave Tonge will be speaking. 
+
+Site URL: https://congress.openfuture.world/speakers/?utm_campaign=OBWC21&utm_medium=email&_hsmi=122216549&_hsenc=p2ANqtz-85MvO81z4sSX-dOrIbCIC77pfdwrqN1LhYxs6JTNfFHSk6PP3ROFz2iSRjFU6OdZZ-50Pr2u0HE4KChrgo0Y_r3ALFfw&utm_content=122216549&utm_source=hs_email
 
 External Organizations (Nat)
 ================================
