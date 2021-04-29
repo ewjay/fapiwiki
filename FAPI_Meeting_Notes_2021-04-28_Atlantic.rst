@@ -29,17 +29,27 @@ OpenID Foundation Workshop
 ---------------------------------------
 
 
+
 External Organizations (Nat)
 ================================
-This week is specs call. So, only urgent updates are treated. 
+Brazil (Ralph)
+---------------
+Sizable directed funding for certification test. 
+Mandating CIBA. 
+
+Berlin Group (Francis)
+---------------------------
+Nat to suggest setting up sub-committee to FAPI to deal with BG needs. 
+Two co-chairs. Dave Tonge from OIDF and another from BG. 
 
 
 FAPI 2.0 Baseline and Attacker Model (Dave/Daniel)
 ======================================================
-
+Torsten will apply the last few editorial fixes and send it to Mike J. so that we can announce the start of the public review at the OIDF Workshop on the 29th. 
 
 PRs (Dave)
 ===================
+
 
 
 Issues (Dave)
