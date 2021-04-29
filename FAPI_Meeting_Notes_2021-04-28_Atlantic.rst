@@ -14,7 +14,7 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Francis, Don, Nat, Kosuke, Chris Wood, Brian, Takahiko, Ralph, Dima, Gatis Kalnins, Stephane Durand, Dave Tonge, Joseph, Yaron Zehavi, Naohiro, Torsten, Bjorn
 * Regrets: 
 * Guest: 
 
@@ -65,6 +65,6 @@ Issues (Dave)
 =================
 
 
-
-Chat Log
-============
+AOB
+=======
+* none
