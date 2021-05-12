@@ -10,7 +10,7 @@ FAPI WG Meeting Notes (2021-05-12)
 
 .. contents:: Agenda
 
-The meeting was called to order at 14:__ UTC. 
+The meeting was called to order at 14:05 UTC. 
 
 Roll Call 
 ===========
@@ -100,3 +100,5 @@ We had no time to discuss issues but Dave pointed out that new issue #411 should
 AOB
 =======
 * none
+
+The call adjourned at 15:00 UTC
