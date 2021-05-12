@@ -14,8 +14,8 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call 
 ===========
-* Attending: Bjorn, Dave, Nat, Ali
-* Regrets: 
+* Attending: Bjorn, Dave, Nat, Ali, Brian, Daniel, Dima, Filip, Francis, Joseph, Kosuke, Lukasz, Ralph, Stuart, Takahiko, Torsten
+* Regrets: Vinod Anandan (self)
 * Guest: 
 
 Adoption of Agenda (Nat)
@@ -80,17 +80,22 @@ PRs (Dave)
 PR 266 Grant Management - Introduce replace action (Stuart)
 ------------------------------------------------------------
 * https://bitbucket.org/openid/fapi/pull-requests/266
+* Addressing issue #396, related to #407
 
 This introduces replace action into the GM specification and attempts to include security considerations with respect to permission propagation.
 
 * Lukasz: If it is in fact merge, wouldn’t naming it “merge” make it more self-explanatory?
 * Brian: The replace action text seems okay. But the security considerations seems overreaching.
-
+* Dave: Use cases need to be collected. 
+* Ralph: Delete and Revoke have different connotations, esp. legally. In UK, the ownership of the grant rests on TPPs. TPP opinion needed. 
+* Dima: There are local requirements for Replace.  
+* Brian: Security concerns - not realistic to propagate the change in Grant to AT immediately. 
+* Separating the PR into two seems to be reasonable? 
 
 
 Issues (Dave)
 =================
-
+We had no time to discuss issues but Dave pointed out that new issue #411 should be considered re: HTTP signing. 
 
 AOB
 =======
