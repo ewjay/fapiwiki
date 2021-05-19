@@ -120,6 +120,8 @@ Issues (Dave)
 Issue #411: HTTP Signing (Dave)
 -------------------------------------
 * #411
+* Dave explained the advantage of referring the HTTP signing as it is a standard track document. 
+* https://codimd.ietf.org/s/notes-ietf-interim-2021-oauth-10-oauth has the recording of the recent OAuth meeting on the subject
 
 Other Issues
 ----------------
