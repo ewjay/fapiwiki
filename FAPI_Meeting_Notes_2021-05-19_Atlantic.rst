@@ -48,7 +48,12 @@ Docker Run (Stuart)
 
 PRs (Dave)
 ===================
+267: Add more details to grant lifecycle (Dima)
+--------------------------------------------------
 
+
+266: Introduce replace action (Stuart)
+--------------------------------------------------
 
 
 Issues (Dave)
