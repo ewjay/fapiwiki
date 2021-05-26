@@ -14,29 +14,19 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: nat, Kosuke, Don, Takahiko, Ali, Tony, Francis, Dima, Ralph, Bjorn, Michael Schlapfer, Joseph, Chris Wood (Axway), Danillo Branco, Gail,Filliop, Brian, Torsten Lukasz, Bary , Stuart , Steinar. 
 * Regrets: 
 * Guest: 
 
 Adoption of Agenda (Nat)
 ===========================
-Adopted as is. 
+
 
 Events (Nat)
 ======================
 OpenID Workshop @ Brazil (Don)
 --------------------------------
-Ralph was the catalyst for OpenID Foundation workshop in Brazil. 
-It was attended by hundreds of attendees, indicative of needs for tech info. 
 
-Ralph also negotiated directed funding to the foundation to build 
-conformance suite for Brazil. 
-
-This is the first of the three workshop. 
-
-Similar efforts in the Middle East. Authlete is arranging it there. 
-
-These should help with expanding the diversity. 
 
 
 
@@ -46,45 +36,40 @@ External Organizations (Nat)
 Australia (Dima)
 ----------------------
 * Number of consultation going on. 
+* Dialogue improved after Treasury involvement. 
+* 20/96 will be online by July 1. 
+* Data
+* Core banking vendors. 
 
 Brazil (Dave/Danillo) 
 ------------------------
-* Daniello Branco from Open Banking. 
+* Brazil Spec: https://github.com/OpenBanking-Brasil/specs-seguranca
+
 
 Berlin Group (Francis)
 ---------------------------
-* A couple of consultation (mostly business) 
+* Joint meeting with Task Force. Response to OIDF was addressed. 
+* They will get the authorization to send it out in Mid-June. 
+* Members should join the WG by end of June. 
+
+* BG is extending business API. 
 
 UK (Dave)
 --------------------
-* Different RPs trying status check at different OPs (Banks) creating fake lodging intent. 
-* Banks are asking for some headers to signal that it is an automated check. 
-* Australia has not found the same yet but it could. 
-* Dave will create an issue in the tracker. 
+* n/a
 
 US/FDX
 -----------
-* Lukasz reported on FDX and Grant Management: 
-* Initial scope was narrowed to consent authorization and grant removal. 
-* This is a good direction and now it sounds like it can adopt OIDF Grant Management. 
-* Torsten -- 
+* Vote to Adopt FAPI and Certification was voted positively. 
 * Vote for RFC closes this week for the adoption of FAPI and the certification. Positive development. 
 
 Modrna Report (Dave/Bjorn)
 =============================
-A good discussion resulted in PRs. 
-By next week, all the remaining issues should be finalized. 
-After that, they will do the final review and go for the last call for the WG. 
 
-Joseph suggested starting WG last call sooner. 
 
-Bjorn agreed. Perhaps it can start at the next call on the next Tuesday. 
+FAPI 2 Report
+====================
 
-Takahiko asked its relationship with the FAPI CIBA profile. 
-
-Dave replied that most changes are on the push mode, which is not used by FAPI CIBA. 
-
-Feature extensions are more explicit and may break not really behaving clients. 
 
 Certification (Joseph)
 ========================
