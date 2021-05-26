@@ -14,21 +14,22 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call 
 ===========
-* Attending: nat, Kosuke, Don, Takahiko, Ali, Tony, Francis, Dima, Ralph, Bjorn, Michael Schlapfer, Joseph, Chris Wood (Axway), Danillo Branco, Gail,Filliop, Brian, Torsten Lukasz, Bary , Stuart , Steinar. 
+* Attending: nat, Kosuke, Don, Takahiko, Ali, Tony, Francis, Dima, Ralph, Bjorn, Michael Schlapfer, Joseph, Chris Wood (Axway), Danillo Branco, Gail, Fillip, Brian, Torsten Lukasz, Bary, Stuart, Steinar. 
 * Regrets: 
 * Guest: 
 
 Adoption of Agenda (Nat)
 ===========================
-
+As the agenda was not distributed, it started with the default one. 
 
 Events (Nat)
 ======================
 OpenID Workshop @ Brazil (Don)
 --------------------------------
-
-
-
+* Great success. A few hundred people attended. 
+* There is thrust to the information as there is not enough info in Portuguese. 
+* Some documents are being translated thanks to Daniello. 
+* Creation of movies describing how to get certified is considered to be made. 
 
 
 External Organizations (Nat)
@@ -38,8 +39,9 @@ Australia (Dima)
 * Number of consultation going on. 
 * Dialogue improved after Treasury involvement. 
 * 20/96 will be online by July 1. 
-* Data
-* Core banking vendors. 
+* Data recipient is also required to support reciprocal API. 
+* Core banking vendors having difficulties as they lack the ID skills. 
+* Tools vendors having difficulty as there are Australia Specific tweaking. 
 
 Brazil (Dave/Danillo) 
 ------------------------
@@ -65,48 +67,23 @@ US/FDX
 
 Modrna Report (Dave/Bjorn)
 =============================
-
+* Approaching the FINAL. 
 
 FAPI 2 Report
 ====================
+* Implementers Draft Public Review started for Baseline and Security Model. 
 
 
-Certification (Joseph)
-========================
-Joseph reported that 
 
-* FAPI final test is progressing. 
-* Discussion with Brazil is also continuing for Brazil profile. 
-
-Daniello asked about ... 
-
-Joseph replied that he is talking with miro. 
-
-Daniello offered some help wrt it. 
-
-
-Docker Run (Dave)
-=====================
-* Stuart volunteered to fix the problem with ipr=none. 
 
 
 PRs (Dave)
 ===================
-267: Add more details to grant lifecycle (Dima)
---------------------------------------------------
 
-
-266: Introduce replace action (Stuart)
---------------------------------------------------
 
 
 Issues (Dave)
 =================
-Issue #411: HTTP Signing (Dave)
--------------------------------------
-* #411
-* Dave explained the advantage of referring the HTTP signing as it is a standard track document. 
-* https://codimd.ietf.org/s/notes-ietf-interim-2021-oauth-10-oauth has the recording of the recent OAuth meeting on the subject
 
 Other Issues
 ----------------
