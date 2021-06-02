@@ -14,9 +14,12 @@ The meeting was called to order at 14:06 UTC.
 
 Roll Call 
 ===========
-* Attending: Nat, Dave, Chris Wood, Travis, Joseph, Renato, Takahiko, Taimoor Hazir (Millenium Partners), Filip, Don, Omer Khawaja, Daniel, Brian Torsten, Dima, Kosuke, Gail, Lukas, Francis, Brian. 
+* Attending: Nat, Dave, Chris Wood, Travis, Joseph, Renato, Takahiko, Taimoor Hazir (Millenium Partners), Filip, Don, Omer Khawaja (Millenium Partners), Daniel, Brian Torsten, Dima, Kosuke, Gail, Lukas, Francis, Brian. 
 * Regrets: 
 * Guest: 
+
+Taimoor introduced himself and Omer as it was their first call. 
+They are helping Authlete in the EMEA region. 
 
 Adoption of Agenda (Nat)
 ===========================
