@@ -56,8 +56,8 @@ UK (Dave)
 * Quite sophisticated fraud going on for payment initiation. 
 * 
 
-US/FDX
------------
+US/FDX (Don)
+-------------
 * Paper work between OIDF and FDX is being finalized. 
 
 Middle East (Gail)
