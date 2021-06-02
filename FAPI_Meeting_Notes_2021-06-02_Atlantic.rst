@@ -10,11 +10,11 @@ FAPI WG Meeting Notes (2021-06-02)
 
 .. contents:: Agenda
 
-The meeting was called to order at 14:__ UTC. 
+The meeting was called to order at 14:06 UTC. 
 
 Roll Call 
 ===========
-* Attending: Nat, Dave, Chris Wood, Travis, Joseph, Renato, Takahiko, Taimoor Hazir (Millenium Partners), Filip, Don, Omer Khawaja, Daniel, Brian Torsten, Dima, Kosuke, Gail, Lukas, Francis. 
+* Attending: Nat, Dave, Chris Wood, Travis, Joseph, Renato, Takahiko, Taimoor Hazir (Millenium Partners), Filip, Don, Omer Khawaja, Daniel, Brian Torsten, Dima, Kosuke, Gail, Lukas, Francis, Brian. 
 * Regrets: 
 * Guest: 
 
@@ -58,7 +58,7 @@ UK (Dave)
 
 US/FDX
 -----------
-* 
+* Paper work between OIDF and FDX is being finalized. 
 
 Middle East (Gail)
 -----------------------
@@ -77,17 +77,49 @@ FAPI 2 Report (Dave)
 
 PRs (Dave)
 ===================
+Following PRs were discussed. 
 
+* https://bitbucket.org/openid/fapi/pull-requests/269
+* https://bitbucket.org/openid/fapi/pull-requests/270
+* https://bitbucket.org/openid/fapi/pull-requests/268
+* https://bitbucket.org/openid/fapi/pull-requests/267
 
+They are to be merged. 
+
+* https://bitbucket.org/openid/fapi/pull-requests/266
+
+is to be continually discussed. 
 
 Issues (Dave)
 =================
+416: RAR if scope *and* claims param not expressive enough (Travis)
+------------------------------------------------------------------------
+* #416
 
-Other Issues
-----------------
+418: 303 should be used (Travis)
+--------------------------------------
+* #418
+
+417: Shall require introspection of claims (Travis)
+----------------------------------------------------------
+* #417
+
+415: Discovery Metadata for mtls (Ralph/Travis)
+----------------------------------------------------------
+* #415
+* Callers pointed out that the support of alias would not help interoperability. The majority of FAPI implementation does not support MTLS alias endpoint.
+
+To be discussed with Ralph.
+
+413: FAPI2 Baseline: Sender-Constrained Authorization Code (Taka)
+-----------------------------------------------------------------------
+* #413
+* Clarification of the language probably is needed. 
+* Filip pointed out that it is used in the certification suite and removing it may not be appropriate. 
+
 
 AOB
 =======
-*
+* n/a
 
-The call adjourned at 15:00 UTC
+The call adjourned at 14:59 UTC
