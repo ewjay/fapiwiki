@@ -14,67 +14,66 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call 
 ===========
-* Attending: 
+* Attending: Nat, Dave, Chris Wood, Travis, Joseph, Renato, Takahiko, Taimoor Hazir (Millenium Partners), Filip, Don, Omer Khawaja, Daniel, Brian Torsten, Dima, Kosuke, Gail, Lukas, Francis. 
 * Regrets: 
 * Guest: 
 
 Adoption of Agenda (Nat)
 ===========================
+* Adopted as is. 
 
 Events (Nat)
 ======================
-OpenID Workshop @ Brazil (Don)
+Open Identity Summit (Daniel)
 --------------------------------
-* Great success. A few hundred people attended. 
-* There is thrust to the information as there is not enough info in Portuguese. 
-* Some documents are being translated thanks to Daniello. 
-* Creation of movies describing how to get certified is considered to be made. 
+* 30 People attended
+* Slides to be shared. 
 
 
 External Organizations (Nat)
 ================================
-Australia (Dima)
+Australia (Joseph)
 ----------------------
-* Number of consultation going on. 
-* Dialogue improved after Treasury involvement. 
-* 20/96 will be online by July 1. 
-* Data recipient is also required to support reciprocal API. 
-* Core banking vendors having difficulties as they lack the ID skills. 
-* Tools vendors having difficulty as there are Australia Specific tweaking. 
+* Working with DSB. 
+* ACCC Cyber Security Team got in touch. 
 
-Brazil (Dave/Danillo) 
+Brazil (Danillo) 
 ------------------------
-* Brazil Spec: https://github.com/OpenBanking-Brasil/specs-seguranca
-
+* Little delaied with translation
+* OK with Video. 
+* Gail and Mike L, Joseph will help Daniello. 
+* Directed funding received. Expecting 35 certifications in the first half of July. 
+* Brazil test will be available on June 11. 
+* It will be available in the master branch. 
+* New features: encrypted request object. Not major diffs. 
 
 Berlin Group (Francis)
 ---------------------------
-* Joint meeting with Task Force. Response to OIDF was addressed. 
-* They will get the authorization to send it out in Mid-June. 
-* Members should join the WG by end of June. 
-
-* BG is extending business API. 
+* n/a
 
 UK (Dave)
 --------------------
-* n/a
+* Quite sophisticated fraud going on for payment initiation. 
+* 
 
 US/FDX
 -----------
-* Vote to Adopt FAPI and Certification was voted positively. 
-* Vote for RFC closes this week for the adoption of FAPI and the certification. Positive development. 
+* 
+
+Middle East (Gail)
+-----------------------
+* June 7 call
+*  
 
 Modrna Report (Dave/Bjorn)
 =============================
-* Approaching the FINAL. 
+* No additional comments in WG. 
+* Getting ready for the public review for the FINAL. 
 
-FAPI 2 Report
-====================
+FAPI 2 Report (Dave)
+=====================
 * Implementers Draft Public Review started for Baseline and Security Model. 
-
-
-
-
+* Quite a number of issues are coming in. 
 
 PRs (Dave)
 ===================
