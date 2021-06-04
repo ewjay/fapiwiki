@@ -16,7 +16,7 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:  
+* Attending: Nat, Anoop, Dima, Ed
 * Guests: 
 * Regrets:  
 
@@ -24,8 +24,14 @@ Roll Call (Anoop)
 Agenda/notes: 
  
 * Atlantic notes
-* FDX  
-* Next call 07/01/2021 ( Anoop Out of office on 6/17)???
+* FDX
+* * Consent task force [Use Case] - User research on consent screen has been discussed. 
+* * Anoop to share RFC details FAPI 1.0 adoption.
+* * PR/Blog on OpenID (Mike L)
+* Next call 07/01/2021 (Anoop Out of office on 6/17)???
+* * Cancel 6/17
+
+
 
 
 External Organizations 
