@@ -33,7 +33,7 @@ Identiverse (Brian/Joseph)
 
 External Organizations (Nat)
 ================================
-Australia (Joseph)
+Australia (Mike L.)
 ----------------------
 * CDR
 
