@@ -14,45 +14,37 @@ The meeting was called to order at 14:06 UTC.
 
 Roll Call 
 ===========
-* Attending: 
-* Regrets: 
+* Attending: Nat, Mike Leszcz, Takahiko, Jacob, Travis, Chris Wood, Rento Athaydes, Omer, Joseph, Dima, Taimoor Hazir, Stuart, Brian, Barry, Filip, Kosuke, Ali, Wesley, Torsten, Gail, Lukasz, Ralph, Vinod. 
+* Regrets: Francis
 * Guest: 
 
 
 Adoption of Agenda (Nat)
 ===========================
-* A 
+* Adopted as presented. 
 
 Events (Nat)
 ======================
-Virtual Open Identity Summit (Daniel)
---------------------------------
-* FAPI and FAPI2
-* 30 People attended
-* Slides to be shared. 
+Identiverse (Brian/Joseph)
+-----------------------------------
+* Hybrid event in Denver. 
+* Joseph is going to mention FAPI in his session. 
 
 
 External Organizations (Nat)
 ================================
 Australia (Joseph)
 ----------------------
-* Working with DSB to send out special offers for people who attended. 
-* Joe (Oatley?) from ACCC Cyber Security Team got in touch. 
-* Will set up a meeting.
+* CDR
 
-Brazil (Danillo) 
+Brazil (Mike) 
 ------------------------
-* Little delayed with translation
-* OK with Video. 
-* Gail and Mike L, Joseph will help Daniello. 
-* Directed funding received for Brazil specific versions of security tests. 
-* Expecting 35 certifications in the first half of July. 
-* Brazil test will be available on June 11. 
-* It will be available in the master branch as a test variant. 
-* New features (No major diffs): 
-
-  * encrypted request object
-  * structured scopes 
+* 27 banks are part of phase 2 certifying 39 implementations by July 15. 
+* A number of them joined OIDF. 
+* 3rd WS coming up with a comprehensive walkthrough of the conformance suit. 
+* Danillo's translation of Taka's article should be ready by then. 
+* The recording will be available in Portuguese as well. 
+* Test suit should be ready on Friday. 
 
 Berlin Group (Francis)
 ---------------------------
@@ -60,26 +52,25 @@ Berlin Group (Francis)
 
 UK (Dave)
 --------------------
-* Not FAPI related but there is quite sophisticated fraud going on for payment initiation APIs in UK using social engineered, banking credentials.
-* Found that banks have different fraud engines and controls for payment initiation journeys versus the online banking journeys.
-* Happening across banks and a lot of compromised accounts
-* There is an issue for FAPI2 regarding headers that we need to look at, such as what potential (fraud) information might need to be shared between a TPP and a bank
-* Dave will share reports
-
+* Phishing attack on OTP going on. 
+* Dynamic Linking to the transaction. 
 
 US/FDX (Don)
 -------------
-* Paper work between OIDF and FDX is being finalized. 
+* Gail is working on the Paperwork between OIDF and FDX is being finalized. 
 
-Middle East (Gail)
+MENA (Gail)
 -----------------------
-* June 7 call
-*  
+* June 7 call with Authlete team. 
 
 Modrna Report (Dave/Bjorn)
 =============================
-* No additional comments in WG. 
-* Getting ready for the public review for the FINAL. 
+* 60 days public review of CIBA Core has started. 
+
+FAPI CIBA (Dave)
+======================
+* two new FAPI-CIBA certifications in the last week - the second one is Finansystech in Brazil.
+* We aim to start the WG last call next week. 
 
 FAPI 2 Report (Dave)
 =====================
@@ -88,6 +79,15 @@ FAPI 2 Report (Dave)
 
 Grant Management (Dima)
 ============================
+PRs
+-----------
+* PR 266 https://bitbucket.org/openid/fapi/pull-requests/266
+* PR 271 - Filip and Brian to review it. https://bitbucket.org/openid/fapi/pull-requests/271
+
+Issues
+-----------
+* #412 - FAPI 2.0 - Hard requirement to support Grant Management Requirement
+* #416 - 
 
 PRs (Dave)
 ===================
