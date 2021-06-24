@@ -28,7 +28,10 @@ Events (Nat)
 Identiverse (Brian/Joseph)
 -----------------------------------
 
-
+FIDO Plenary
+-----------------------------------
+* Today
+* FAPI was presented.
 
 External Organizations (Nat)
 ================================
@@ -39,10 +42,16 @@ Please review.
 
 Australia (Mike L.)
 ----------------------
-* Coordinating follow up call with CDR. 
-
-* RP security issues. They should also comply to FAPI. 
-* Some RPs are very lax in security, e.g., Cross Browser Payment Initiation Attack. 
+* Coordinating follow up call with CDR including Ron Deacon. 
+* A lot of TPP are also data providers and are not following good security practices in how to integrate with third parties.
+* RP security issues. They should also comply to FAPI.
+* Some RPs are very lax in security, e.g., Many TPPs in UK are susceptible to Cross Browser Payment Initiation Attack.
+* It’s more of a regulator issue.
+* Standards may not be the problem but TPPs lack of conformance and adherence to standards are.
+* OB’s arrangement defined by the CMA order, can give mandates to the 9 biggest banks. For everyone else, it can only provide best practice guidelines, etc.
+* New CMA consultation regarding the future of OBIE, expect decision within next week or two
+* Could ask banks to take responsibility and plug the hole.
+* Dave and Fiona to arrange discussion within  TDA 
 
 Brazil (Mike L.) 
 ------------------------
@@ -56,13 +65,19 @@ Berlin Group (Francis)
 
 India (Nat)
 ---------------
-* 
+* Nat was contacted by iSPIRT who is working on IndiaStack
+* They had questions regarding OIDC, FAPI, etc..
+* They are considering consumer data cross border exchange with Australia, UK, and others
+* Now, they are looking at Grant Management and other specs
+
 
 MENA (Ali/Gail)
 -----------------------
-* June 22: 200 banks in the region
+* June 22: 200 banks in the region, OB panel discussion regarding security protocols
 * July 12: Virtual board meeting addressing 20 regulatory bodies in the area. 
-* July 2nd week: Innovation week hosted by DIFC. Security standard for Open Banking. 
+* July 2nd week: Innovation week hosted by Dubai International Financial Center (DIFC). 
+
+  * Security standard for Open Banking APIs.
 
 UK (Fiona)
 --------------------
@@ -86,15 +101,17 @@ PR 266: Introduce replace action
 ---------------------------------------
 https://bitbucket.org/openid/fapi/pull-requests/266
 
-Merged
+* Related to rewording the security considerations when using replace on grant management
+* removes the MUST on the revocation and adopts revoking relevant tokens by an out of band means.
+* Merged
 
 PR 275: Introduce backoff support for query
 ----------------------------------------------------------
 * https://bitbucket.org/openid/fapi/pull-requests/275
-
-There are polling in grant management. 
-
-It was pointed out that more context needs to be added. 
+* Copy and paste from CIBA with relation to retry codes for HTTP
+* There are polling in grant management, but no specific polling terminology.
+* It’s questionable whether we should add standard HTTP best practices everywhere.
+* It was pointed out that more context needs to be added. 
 
 PR 274: Introduce require metadata item
 -----------------------------------------------
@@ -107,17 +124,22 @@ ACT: Merge this PR and open a follow up one.
 PR 273: Add draft note about public clients
 ----------------------------------------------------
 * https://bitbucket.org/openid/fapi/pull-requests/273
-
-ACT: Torsten will propose a text. 
+* Removes explicit requirement of confidential client management but leaves a modified version of the draft note that the spec expects confidential clients but acknowledges potential for use in public client contexts. 
+* Haven’t done security threat analysis of someone impersonating a public client and utilizing grants and getting tokens without consent.
+* ACT: Torsten will propose a text. 
 
 PR 270: Compilable deployment advice updates
 -----------------------------------------------------
 * https://bitbucket.org/openid/fapi/pull-requests/270
+* Nat added comments related to compliance to ISO Directive Part 2. 
+* ACT: Stuart to fix the PR. 
 
-ACT: Stuart to fix the PR. 
-
-PR 
+PR 269: Compilable http signing, a lot of rejigging to get references right
+-----------------------------------------------------
 * https://bitbucket.org/openid/fapi/pull-requests/269
+* Made changes to HTTP Signing to  make it compilable, needs review
+* Stuart to make HTML results and distribute to authors.
+
 
 WG Last Call on Grant Management (Dima)
 ===========================================
