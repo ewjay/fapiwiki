@@ -14,30 +14,117 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call 
 ===========
-* Attending: 
-* Regrets:
+* Attending: Nat, Filip, Daniel, Kosuke, Stuart, Joseph, Craig Borysowich, Brian, Lukasz, Don, Travis, Gail, Takahiko, Dima, Ralph, Mark
+* Regrets: Dave
 * Guest: 
 
 
 Adoption of Agenda (Nat)
 ===========================
-* 
+* Added Certification. 
 
 Events (Nat)
 ======================
+Identiverse
+------------------------------
+* unofficial @identiverse
+ '21 photo collection is now officially available https://flickr.com/photos/brian-d-campbell/albums/72157719477514466 #dentiverse
+
+FAPI Workshop hosted by Curity
+---------------------------------
+* https://curity.io/resources/webinars/financial-grade-apis-now-and-in-the-future
+
+BGIN Block #3
+------------------
+* https://bgin-global.org/block_3/
 
 
 External Organizations (Nat)
 ================================
+Australia (Gail/Dima)
+------------------------------------
+Chatted with CCC on regulatory side. 
 
+* Interested in exploring making use of certification. (CW completed)
+* Due diligence. 
+* Openness towards RP tests. 
+* Potential for direct funding for developing AU test. 
 
-PRs ()
+* July 1 deadline. 19 Brands need to be compliant. (=13 legal entities) Data Holders. 
+
+New Zealand (Ralph)
+---------------------
+* 
+
+Brazil (Gail/Joseph)
+---------------------
+* July 15 deadline for 11? banks. 
+* Govt contemplating RP tests as well. Phase 3 (Sept) for TPPs. Almost certainly. 
+* BR certification is fully live. 
+* Main RPs are banks. 
+* Open Banking Brazil’s Adoption of Financial-grade API (FAPI) & FAPI Certification https://openid.net/2021/06/30/open-banking-brazils-adoption-of-financial-grade-api-fapi-fapi-certification/
+
+Berlin Group 
+-------------------
+* EIC
+* Good news for Berlin Group. We are coming forward with the setup of the joint subcommittee (FAPI / BG). The suggestion went positive through the Berlin Group Task Force approval and Bruno is preparing feedback for FAPI WG.
+
+UK
+--------------
+* Scheduling meeting with Fiona to share aggregated learnings. 
+
+US/FDX
+--------------
+* Meeting with FDX on Friday. Paperworks for strategic partnership. 
+* FDX adopting FAPI standard. 
+
+Middle East
+-----------------
+* E-mail exchanges on next steps. Directed funding for workshop and Authlete coordinating. 
+* Introducing OIDF to leaders in the middle east. 
+
+Certification (Joseph)
+==========================
+* JARM certification 
+* JARM to Final? 
+* Streamlining is much appreciated. 
+* Too many PDFs to sign. 
+* Combination explosion problems. 
+
+FAPI 2.0 (Dave)
 ===================
 
 
-Issues ()
-=================
 
+PRs (Dave)
+===================
+This week, the WG focused on FAPI 2.0. 
+
+PR 279: Add reference to grant management API (Dave)
+----------------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/279
+* Approved. 
+* Ralph pointed out the importance of the interoperable grant management etc. 
+* Dave pointed out that it is written to FAQ  that FAPI 2.0 objectives ARE to create an interopable consent and authorisation framework that addresses management AND rich authorisation request handling.
+
+PR 276: Add normative clause for AS to accept issuer value in aud claims
+----------------------------------------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/276
+* Filip pointed out the issuer URL should be substituted with the issuer identifier. 
+
+PR 280: Add initial acknowledgements
+-------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/280
+* Please add your name. 
+
+Issues (Dave)
+=================
+#416: RAR if scope *and* claims param not expressive enough (Travis)
+----------------------------------------------------------------------------------
+
+#417: Shall require introspection of claims (Travis)
+----------------------------------------------------------------------------------
+This is not related to #416. 
 
 
 AOB
