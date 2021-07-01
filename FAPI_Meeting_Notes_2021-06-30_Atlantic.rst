@@ -32,64 +32,108 @@ Identiverse
 
 FAPI Workshop hosted by Curity
 ---------------------------------
+* August 24, 2021
 * https://curity.io/resources/webinars/financial-grade-apis-now-and-in-the-future
 
 BGIN Block #3
 ------------------
+* 6/29-7/1
 * https://bgin-global.org/block_3/
-
+* Some discussions for DID today
 
 External Organizations (Nat)
 ================================
 Australia (Gail/Dima)
 ------------------------------------
-Chatted with CCC on regulatory side. 
+Chatted with ACCC on regulatory side. 
 
-* Interested in exploring making use of certification. (CW completed)
-* Due diligence. 
+* Interested in exploring making use of certification. (CommonWealth and NAB completed certification)
+* Doing due diligence to adopt certification. 
 * Openness towards RP tests. 
 * Potential for direct funding for developing AU test. 
 
 * July 1 deadline. 19 Brands need to be compliant. (=13 legal entities) Data Holders. 
 
+  * Some didn’t make the deadline
+
 New Zealand (Ralph)
 ---------------------
-* 
+* NZ standards copy the UK standards
+* Lead developer, Gavin Wong did most of UK standards
+* NZ and Australia are still at Implementer’s Draft 2
+* Decision proposal 182 asking the ecosystem what the CDR should be doing going forward in regards to FAPI2, Grant Management, etc.
+* Broad alignment towards adopting FAPI 2, Rich Authorization and Grant Management
+
 
 Brazil (Gail/Joseph)
 ---------------------
+* First wave of 26 entities engaging in certification
 * July 15 deadline for 11? banks. 
-* Govt contemplating RP tests as well. Phase 3 (Sept) for TPPs. Almost certainly. 
+* Govt contemplating RP tests as well. “Almost certainly” will be required for Phase 3 Payments (end of Sept) for TPPs. 
 * BR certification is fully live. 
 * Main RPs are banks. 
 * Open Banking Brazil’s Adoption of Financial-grade API (FAPI) & FAPI Certification https://openid.net/2021/06/30/open-banking-brazils-adoption-of-financial-grade-api-fapi-fapi-certification/
 
 Berlin Group 
 -------------------
-* EIC
+* Will leverage EIC and workshops to engage Berlin Group and others
 * Good news for Berlin Group. We are coming forward with the setup of the joint subcommittee (FAPI / BG). The suggestion went positive through the Berlin Group Task Force approval and Bruno is preparing feedback for FAPI WG.
+* Sept 13, one day before EIC, OIDF Workshop will give update on OIDF WGs
 
 UK
 --------------
-* Scheduling meeting with Fiona to share aggregated learnings. 
+* Scheduling meeting with Fiona to share aggregated learnings across UK, Australia, and Brazil. 
+* Already shared with Brazil and Australia, FDX upcoming
 
 US/FDX
 --------------
-* Meeting with FDX on Friday. Paperworks for strategic partnership. 
+* Meeting with FDX on Friday. Paperworks for reframing licensing agreement to strategic partnership.
 * FDX adopting FAPI standard. 
+
+  * Will recommend but not require FAPI certification
+
 
 Middle East
 -----------------
 * E-mail exchanges on next steps. Directed funding for workshop and Authlete coordinating. 
 * Introducing OIDF to leaders in the middle east. 
+* Planning to put together a program for investigating FAPI adoption and certification.
+
 
 Certification (Joseph)
 ==========================
+
+* Certification Fees
+
+  * Implementations who recently paid for FAPI ID2 certification do not need to repay for FAPI 1.0 Final certification again
+
 * JARM certification 
-* JARM to Final? 
+
+  * JARM tests are available but not offered for certification
+  * Might become more prominent in Brazil spec
+  * Any objections to launching a certification program that includes JARM?
+
+* Side note : certification page columns are increasing, ideas solicited for better display
+* JARM to Final?
+
+  *  Need to move process forward
+
 * Streamlining is much appreciated. 
 * Too many PDFs to sign. 
-* Combination explosion problems. 
+
+  * Allow multiple profiles to be listed in conformance document?
+
+    * Nat, Joseph, Travis  to discuss offline
+
+  * Discussed idea of Docusign integration
+
+    * Pre-fill certification details for easier signing
+
+* Combination explosion problems. Need to be clear on what’s needed for test profiles.
+
+  * Feedback is welcome
+
+
 
 FAPI 2.0 (Dave)
 ===================
@@ -111,6 +155,7 @@ PR 276: Add normative clause for AS to accept issuer value in aud claims
 ----------------------------------------------------------------------------------
 * https://bitbucket.org/openid/fapi/pull-requests/276
 * Filip pointed out the issuer URL should be substituted with the issuer identifier. 
+* Multiple values to be addressed in issue #426 slated for ID2
 
 PR 280: Add initial acknowledgements
 -------------------------------------------
@@ -121,10 +166,19 @@ Issues (Dave)
 =================
 #416: RAR if scope *and* claims param not expressive enough (Travis)
 ----------------------------------------------------------------------------------
+* Using claims parameter to describe permissions for access tokens is not standardized
+* Discussion to be continued
+* Milestone moved to ID2
+
+
 
 #417: Shall require introspection of claims (Travis)
 ----------------------------------------------------------------------------------
 This is not related to #416. 
+
+* New statement states that the resource server can verify the validity using scope or claims that are within the token.
+* Need to clarify what “claim” is referring to; JWT, simple JWT claim, or OIDC claims parameter 
+* Milestone moved to ID2
 
 
 AOB
