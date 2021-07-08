@@ -170,11 +170,15 @@ PRs (Stuart/Dave)
 
 Pull request #277 - Remove sender-constrained codes clause
 ------------------------------------------------------------
+Pull request #277 - Remove sender-constrained codes clause
+
 Agreed to remove the language
 
 
 Pull request #278 - Add additional clause about redirects
 ------------------------------------------------------------
+Pull request #278 - Add additional clause about redirects
+
 Adds normative clause to send 303  status code when redirecting the user agent using status codes
 
 Merged
@@ -183,6 +187,8 @@ Merged
 
 Pull request #276 - Add normative clause for AS to accept issuer value in aud claims
 ------------------------------------------------------------
+Pull request #276 - Add normative clause for AS to accept issuer value in aud claims
+
 Adds  more interoperability
 
 Torsten asked whether this allow multiple values. Would like it to be single value.
@@ -232,17 +238,23 @@ Issues (Dave)
 
 #415 - Discovery Metadata for mtls
 ------------------------------------------------------------
+#415 - Discovery Metadata for mtls
+
 Moved milestone to ID2
 
 
 #416 & #417
 ------------------------------------------------------------
+#416 & #417
+
 Will revisit next call
 
 
 
 #412 - Hard requirement to support Grant Management Requirement
 ------------------------------------------------------------
+#412 - Hard requirement to support Grant Management Requirement
+
 Add note that there is work on Grant Management
 Jacob asked that Grant Management be mentioned that it will be in ID2
 
