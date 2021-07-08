@@ -204,6 +204,7 @@ Might add complexity to implementations that support normal OIDC
 Joseph suggested also allowing the URL to which the assertion is sent to as opposed to listing all endpoint URLS
 
 Suggested allowing the following values:
+
 * Issuer
 * Token Endpoint URL
 * URL that assertion is being sent to
