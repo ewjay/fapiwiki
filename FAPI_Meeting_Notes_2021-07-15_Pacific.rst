@@ -16,15 +16,22 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:  
+* Attending:  Ed, Nat, Anoop and Dima
 * Guests: 
 * Regrets:  
 
 Agenda/notes:
 
 * Review Atlantic notes
-* * FDX update
+* FDX update
+* * * Profile should only have delta not copy & paste.
+* * * Directly use Part2 (may not need part1).
+* * * Certification model needs to iron out. Preference is to follow Brazil model and learn from it. 
 * * * Legal agreement is hold up for consent/grant engagement.
+* FAPI 2.0 (Discussion)
+* * Scope of the document
+* * Charter of the FAPI WG
+* Grant management
 
  
 
