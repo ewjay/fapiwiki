@@ -12,23 +12,23 @@ FAPI WG Meeting Notes (2021-07-21)
 
 The meeting was called to order at 14:04 UTC. 
 
-Roll Call 
-===========
+Roll Call (Dave/Nat)
+======================
 * Attending: 
 * Regrets: Dave
 * Guest: 
 
 
-Adoption of Agenda (Nat)
-===========================
+Adoption of Agenda (Dave/Nat)
+================================
 * 
 
-Events (Nat)
+Events (Dave/Nat)
 ======================
 n/a
 
-External Organizations (Nat)
-================================
+External Organizations (Dave/Nat)
+===================================
 Australia (Dima/Joseph)
 ------------------------------------
 
@@ -62,15 +62,15 @@ Some argued that it should to give more reasons for Banks to move from FAPI 1.0 
 
 The discussion will be continued in the next session as well. 
 
-PRs
-=========
+PRs (Dave/Nat)
+=================
 
 
-Issues
-==========
+Issues (Dave/Nat)
+=====================
 
-AOB
-=======
+AOB (Dave/Nat)
+=================
 None
 
 The call adjourned at 15:03 UTC
