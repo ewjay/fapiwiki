@@ -50,6 +50,11 @@ MENA (Ali)
 UK (Ralph/Chris)
 --------------------
 
+GOFTS (Nat)
+--------------------
+* Had the 3rd Meeting. 
+* FAPI 2.0 Attacker Model mentioned. A potential expansion of the scope was pointed out, e.g., risk metrics regarding the spoofed IP Address. 
+
 Grant Management (Dima)
 ==========================
 Two scoping issues were discussed: Initially, for the WG and one for the FAPI 2.0 drafts.  
@@ -58,7 +63,7 @@ Most of the discussion was on FAPI 2.0 drafts on whether it should require the G
 
 A question was asked if FAPI 2.0 ID2 can immediately follow ID1 and the answer from the chair was "yes". 
 
-Some argued that it should to give more reasons for Banks to move from FAPI 1.0 to 2.0, as just simplicity does not give enough reasons for it. 
+Some argued that it should to give more reasons for Banks to move from FAPI 1.0 to 2.0, as just "simplicity" does not give enough reasons for it. 
 
 The discussion will be continued in the next session as well. 
 
