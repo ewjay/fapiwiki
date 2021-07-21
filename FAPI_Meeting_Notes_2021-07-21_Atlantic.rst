@@ -3,7 +3,7 @@ FAPI WG Meeting Notes (2021-07-21)
 ============================================
 * Date & Time: 2020-07-21 14:00 UTC
 * Location: GoToMeeting https://global.gotomeeting.com/join/321819862
-* Note URI: https://bitbucket.org/openid/fapi/wiki/edit/FAPI_Meeting_Notes_2021-07-14_Atlantic
+* Note URI: https://bitbucket.org/openid/fapi/wiki/edit/FAPI_Meeting_Notes_2021-07-21_Atlantic
 
 .. sectnum:: 
    :suffix: .
