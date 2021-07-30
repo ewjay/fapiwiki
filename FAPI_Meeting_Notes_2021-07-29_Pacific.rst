@@ -16,17 +16,30 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:   
+* Attending:   Nat, Ed, Stuart, Mark, Dima, Ben
 * Regrets:  
 
 Agenda/notes:
 
 * Review Atlantic notes
+* * FAPI 2.0 (Discussion) 
+* * *  Add Comment to Issue #432 [ https://bitbucket.org/openid/fapi/issues/432/fapi2-trust-framework-structure]
+* * * Light Weight
+* * * System Registration
+* * * * Dynamic Registration profile.
+* * * * Documenting Best Practices as each jurisdiction has their own registration. 
+* * * Certification challenges on proposal.
+* * * * Many vendors may stub and hard to prove.
+* * * * Add Comments on Issue 432.
+* Embedded mode
+* * From Berlin group.
+* * Possibly discussing new working group
+
+ 
 * FDX update
-* 
-* FAPI 2.0 (Discussion)
-*  
-* Grant management
+* * Communicated no on NDA ask from FDX as part of data service license agreement.
+* Other Business
+- https://www.gov.uk/government/consultations/digital-identity-and-attributes-consultation  
 
  
 
