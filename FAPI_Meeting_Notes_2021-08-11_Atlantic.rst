@@ -14,143 +14,142 @@ The meeting was called to order at 14:04 UTC.
 
 Roll Call (Dave/Nat)
 ======================
-* Attending: 
+* Attending: Nat, Dave, Joseph, Kosuke, Brian, Dima, Dominbos, Ion, Daniel, Fiona, Stuart, Taka, Lukasz, Filip, Ralph, Francis, Daniello. 
 * Regrets:
-* Guest: 
-
+* Guest: Mike Lesczc
 
 Adoption of Agenda (Dave/Nat)
 ================================
-*
+* 
 
 Events (Dave/Nat)
 ======================
-n/a
+EIC (Dave)
+---------------------
+Nat, Dave, Joseph, etc. would be there. 
+
+Proposed workshop timetable: https://docs.google.com/document/d/1IrV_s7djw6tm1Q7iZbfGikqj-DhsgL3loffNCPSPxJg/edit?usp=sharing
+
+OAuth Security Workshop (Daniel)
+-------------------------------------
 
 External Organizations (Dave/Nat)
 ===================================
+Mike L. Report
+--------------------------
+Dave reported Mike's written report. 
+
+### FDX
+
+No updates. Discussed with Don and he suggested we allow Gail to pick this up when she's back from family leave in a couple of weeks.
+
+### Australia
+
+#### DSB team
+
+Working to coordinate a call as they are interested in getting involved in the FAPI WG. They have signed a contribution agreement.
+
+#### CDR team
+
+Call scheduled tomorrow, August 12th, to introduce the Considrd Consulting team and to scope the FAPI analysis paper that the CDR team has requested and to be supported by directed funding.
+
+### Brazil
+
+Phase 2 - still have approximately 10 banks to certify and have missed the updated deadline. Awaiting feedback from the Mirow team in BR on when we should expect the remaining Phase 2 banks to certify.
+
+Phase 3 - we  have recommended new milestones based on the payments API have just been confirmed and now waiting for Raidiam to update the mock bank. There are 160 banks registered for Phase 3 with 63 banks (66 implementations) confirmed. We have started receiving Phase 3 certification requests. And we have approximately eight Phase 3 banks joining the Foundation.
+RP Community Group Pilot - proceeding with coordinating this pilot to be supported by $50k directed funding from Mirow. Goal is to create a community group for information sharing as well as best practices, reference implementation, etc. so that RPs are successful in FAPI conformance and certification. With this pilot confirmed, the central bank will next mandate that RPs certify. A key component of the central bank mandating RP certification was to get the certification fees to the member price of $1,000 which this pilot will enable. We anticipate Filip Skokan rejoining the certification team to help moderate the community group and provide SME to the BR ecosystem. 
+
+### Berlin Group
+
+Nat provided additional background earlier today on the prior conversations and the goals of the subcommittee that I will review with Tom Smedinghoff.
+
+
 Australia (Dima/Joseph)
 ------------------------------------
-n/a
+Meeting scheduled for Tomorrow and Tuesday next week. 
 
 Berlin Group (Francis)
 ----------------------------
-* A letter received from Bruno @ BG. 
-* IPR checks with OIDF Counsel needed. 
-* Probably a good idea to invite them to Sept. 13 Workshop in Munich prior to EIC. 
-* https://www.kuppingercole.com/events/eic2021
-* https://www.kuppingercole.com/sessions/4592
 
 
-Brazil ()
+
+Brazil (Ralph/Taka)
 ---------------------
-* Chris M.: 9 profiles. Banks are picking and choosing a few of them. It will be not good for RPs. 
-* Clarification for the fee structure would be good. 
-* One fee for 9 profiles but how much weeks are allowed between profiles?
-
-  * Joseph to investigate improvements to fees page
- 
-* PAR is recommended. (Four PAR profiles...)
-
-  * Private Key +PAR
-  * MTLS + PAR
-  * Private Key + PAR +JARM
-  * MTLS + PAR + JARM
-
-* Not sure how many banks will support JARM. It’s optional in Brazil and FAPI specs
-* Might lead to confusion and fragmentation
-
-Brazil Phase 2 deadline has been extended to August 13, 2021. We still have 16 certifications to process as part of Phase 2 and expect those no later than Friday, August 6, 2021. 
-
-The phase 3 deadline has been confirmed for August 31, 2021. Phase 3 banks are required to have certification requests to the Foundation no later than Monday, August 16, 2021. We are starting to receive inquiries from Phase 3 banks. We are in the process of confirming the banks and number of certifications with the Mirow team for Phase 3. 
-
-The central bank and the Security Working Group as still considering requiring RP certifications in BR. There is strong support thus far. These certifications would not be required until later this year. 
-CIBA is going to be required but not until Q4 2021. The exact milestones are being confirmed
-
-* Phase two is delayed until 13th August. 
-* Phase three is at the end of August for 400 banks. 
-
-* RP certifications is hard. 
-
-  * Not as mature as OP testing. 
-  * But is recommended as it leads to less interoperability problems. 
-  * Need to make lessen barriers to certification.
-  * Client implementation is the main difficulty. 
-  * Also concerned about CIBA.
-
-* Workshop for TPPs may be needed. They are very concerned. 
-* Summary of RP implementation experience may be helpful.
-* Certification is for a deployment, not just software.
-* Awaiting confirmation for RP certification requirement before finalizing plans for RP workshop for TPPs
-* Unless it’s mandated, justification for building RP tests may be lacking
-* If it’s difficult, central bank may lower mandatory standards
-
+* Last minute change on the spec. Signing is now mandated. Signed JWT. Everyone is madly implementing it. 
+* Some suggestions to push back the deadline for the submission of the conformance test for Phase 3. 
+* Relying party testing meeting among the certification team planned for tomorrow. The team is considering following the UK examples. 
+* We may also need to encourage the RP libraries to support FAPI. 
 
 FDX (Don)
 ------------------
 * Expected to adopt FAPI in the next Summit. 
 
-MENA (Ali)
------------------
-* Did a panel last week - Educate key players in the region. 
-* Having meeting with Mr Jeffery at DIFC to put together a program at the DIFC academy for education banks and institutions regarding standards .
-* Saudis put together a fund to advance international eKYC standards
-
 
 UK (Ralph/Chris)
 --------------------
-* 
+* Ver. 3.1.x is being published. 
+* Variable Recurring Payment (VRP), Sweeping. 
+* Brand new payment type considered in the Roadmap, e.g., Smart Direct Debit. 
+* Still waiting for CMA9's mandate on the next step of the Open Banking. Still 2.5 weeks till we learn it. 
 
 Russia (Don/Dima)
 --------------------
 * Russia: Russian Federation: Open API standards https://openbankingrussia.ru/open-api-standards/
 * Live ecosystem with FAPI 1.0 I-D2. 
 * Some certification programme. 
+* Running in pilot mode, 2 banks and 1 fintech. FAPI 1.0 ID2. 99% up to the spec. Only the difference is the cypher spec. It may be mandated in 1 or 2 years. 
 
-Ukraina (Francis)
---------------------
-* The Ukrainian centralbank is looking for support to educate and introduce open banking in the Ukraine. 
-* Need speakers for the opennbanking conference taking palce in september 2021.
+5.8.3.5. Криптографические ключи, используемые в протоколе TLS, и ключи протокола OIDC должны быть различными. 5.8.3.6. Должны использоваться только следующие криптонаборы: – TLS_GOSTR341112_256_WITH_KUZNYECHIK_CTR_OMAC (Р 1323565.1.020), – TLS_GOSTR341112_256_WITH_MAGMA_CTR_OMAC (Р 1323565.1.020), – TLS_GOSTR341112_256_WITH_28147_CNT_IMIT [37].
 
-GOFTS WG (Nat)
---------------------
-* Had the 3rd Meeting. 
-* FAPI 2.0 Attacker Model mentioned. A potential expansion of the scope was pointed out, e.g., risk metrics regarding the spoofed IP Address. 
-
-Grant Management (Dima)
-==========================
-* Issue #412 - FAPI 2.0 - (Hard requirement to support Grant Management Requirement) is created.
+They had to write their own test suite but there may be value if OIDF could help by supporting their cypher suite. 
 
 PRs (Dave/Nat)
 =================
-Pull Request #282 & Pull Request #283  - Lots of editorial fixes for Grant Management 
-
-GM Authors to review and merge
 
 
 Issues (Dave/Nat)
 =====================
 
-# 431 - FAPI 2.0 Baseline Attacker model not referenced.
+#433 Track FAPI compliant RP libraries (Dave)
+-------------------------------------------------
+Joseph reported that for iOS AppAuth, it’s pretty much intractable a problem without forking the library, as there are various policies (e.g. supporting a very wide range of iOS versions and not pulling in third party libraries) that make it very hard to support FAPI. It was discussed a bit here https://github.com/openid/AppAuth-iOS/issues/290 though this was a while ago so I don’t know if much has changed.
 
-* Editorial . Use Bitbucket URL
+Daniel reported that on node.js, there are people uses Filip's library but otherwise they have to write their own. 
 
-#430 - Add "Scope" clause to FAPI 2.0
+Stuart reported that on Java side Biza has one for their own use but achieving abstraction is challenging. 
+As a crypto library, Nimbus one seems to be the most popular. 
 
-* Assigned to Daniel
+#432 FAPI2 Trust Framework structure (Dima)
+---------------------------------------------------
+Looks like there is a consensus on the need for FAPI2 Advanced authorization. 
 
-#429 - FAPI Certification with Lodged Intent or RAR - User Consent vs Technical Process Certification.
+New document to be prepared by Dima, Stuart, and Torsten to be adopted by the working group. 
 
-* Chris to provide comment 
-* Will leave issue open
+#429 FAPI Certification with Lodged Intent or RAR - User Consent vs Technical Process Certification
+------------------------------------------------------------------------------------------------------
+Joseph explained to the WG that testing this is a bit complex, especially on the live bank system. 
 
-#412 - FAPI 2.0 - Hard requirement to support Grant Management Requirement
+There is no pushback for the need for it though. 
 
-* Dave to email list for feedback
+#412 FAPI 2.0 - Hard requirement to support Grant Management Requirement
+--------------------------------------------------------------------------------
+Consensus to remove hard requirement reference to Grant Management from the Baseline. 
+
+As a step, there needs to be a new document to put the removed material, then remove the reference. 
+
+#434 Certification Team Query: error messages shown by OPs (Joseph)
+--------------------------------------------------------------------------------
+There is a range of possibilities: From factually not incorrect to informative to developers. 
+
+Joseph believes the later is more useful for the integration work. 
+
+WG opinion is sought. 
 
 
 AOB (Dave/Nat)
 =================
-None
+Please vote for CIBA Final. Voting link: https://openid.net/foundation/members/polls/241
 
-The call adjourned at 15:03 UTC
+
+The call adjourned at 15:01 UTC
