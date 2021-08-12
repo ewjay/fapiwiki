@@ -165,11 +165,11 @@ Self implementations often have many mistakes. Security is not as high.
 
 
 #412 FAPI 2.0 - Hard requirement to support Grant Management Requirement
-
-#417: Shall require introspection of claims
-
-#416: RAR if scope *and* claims param not expressive enough
 --------------------------------------------------------------------------------
+* #412 FAPI 2.0 - Hard requirement to support Grant Management Requirement
+* #417: Shall require introspection of claims
+* #416: RAR if scope *and* claims param not expressive enough
+
 Create Pull Requests to remove reference to RAR and close issues or reassign to the new spec.
 
 Dave and Dima to work on them.
