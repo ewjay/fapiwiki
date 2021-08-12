@@ -14,7 +14,7 @@ The meeting was called to order at 14:04 UTC.
 
 Roll Call (Dave/Nat)
 ======================
-* Attending: Nat, Dave, Joseph, Kosuke, Brian, Dima, Dominbos, Ion, Daniel, Fiona, Stuart, Taka, Lukasz, Filip, Ralph, Francis, Daniello. 
+* Attending: Nat, Dave, Joseph, Kosuke, Brian, Dima, Dominbos, Ion, Daniel, Fiona, Stuart, Taka, Lukasz, Filip, Ralph, Francis, Daniello, Edmund. 
 * Regrets:
 * Guest: Mike Lesczc
 
@@ -26,12 +26,17 @@ Events (Dave/Nat)
 ======================
 EIC (Dave)
 ---------------------
-Nat, Dave, Joseph, etc. would be there. 
+Nat, Dave, Joseph, Ralph, etc. would be there. 
 
 Proposed workshop timetable: https://docs.google.com/document/d/1IrV_s7djw6tm1Q7iZbfGikqj-DhsgL3loffNCPSPxJg/edit?usp=sharing
 
 OAuth Security Workshop (Daniel)
 -------------------------------------
+Virtual event planned for Nov 30 -  Dec 1, 2021
+
+Daniel is in the process of setting it up before making an official announcement.
+
+
 
 External Organizations (Dave/Nat)
 ===================================
@@ -67,17 +72,25 @@ Nat provided additional background earlier today on the prior conversations and 
 
 Australia (Dima/Joseph)
 ------------------------------------
-Meeting scheduled for Tomorrow and Tuesday next week. 
+Meeting scheduled for Tomorrow and Tuesday next week with ACCC to scope request from John Otway.
+
 
 Berlin Group (Francis)
 ----------------------------
+Setup some time in one of the September WG meetings to discuss how to proceed and clear IP issues on both sides.
+
+OIDF is still performing legal review. Nat will update once there is a definitive answer from OIDF consul (Tom).
+
+OIDF exploring ways to use the model used for the OIDF Workshop “Note Well”.  Will show the “Note Well” at the beginning and only those who have agreed to the “Note Well” will be allowed to stay. Awaiting feedback from the consul regarding this matter.
+
+Francis and Danillo will on work on some material and present to the group for feedback.
 
 
 
 Brazil (Ralph/Taka)
 ---------------------
 * Last minute change on the spec. Signing is now mandated. Signed JWT. Everyone is madly implementing it. 
-* Some suggestions to push back the deadline for the submission of the conformance test for Phase 3. 
+* Some suggestions to push back the deadline for the submission of the conformance test for Phase 3 to August 30. 
 * Relying party testing meeting among the certification team planned for tomorrow. The team is considering following the UK examples. 
 * We may also need to encourage the RP libraries to support FAPI. 
 
@@ -88,10 +101,10 @@ FDX (Don)
 
 UK (Ralph/Chris)
 --------------------
-* Ver. 3.1.x is being published. 
-* Variable Recurring Payment (VRP), Sweeping. 
-* Brand new payment type considered in the Roadmap, e.g., Smart Direct Debit. 
-* Still waiting for CMA9's mandate on the next step of the Open Banking. Still 2.5 weeks till we learn it. 
+* Ver. 3.1.9 is being published. Target release will be end of September.
+* CMA supporting Variable Recurring Payment (VRP) for Sweeping transactions.. 
+* Brand new payment type considered in the Roadmap, e.g., Smart Direct Debit. There is nothing similar outside of UKOB.
+* Still waiting for CMA9's decision on the next step of the Open Banking IE. Still 2.5 weeks till we learn it. 
 
 Russia (Don/Dima)
 --------------------
@@ -104,8 +117,13 @@ Russia (Don/Dima)
 
 They had to write their own test suite but there may be value if OIDF could help by supporting their cypher suite. 
 
+Dima is reaching out to see how OIDF can help.
+
+
 PRs (Dave/Nat)
 =================
+Pull request #283 - FAPI Grant Management ID1 Review: Editorial Fixes
+Will be merged when authors are ready
 
 
 Issues (Dave/Nat)
@@ -113,18 +131,28 @@ Issues (Dave/Nat)
 
 #433 Track FAPI compliant RP libraries (Dave)
 -------------------------------------------------
-Joseph reported that for iOS AppAuth, it’s pretty much intractable a problem without forking the library, as there are various policies (e.g. supporting a very wide range of iOS versions and not pulling in third party libraries) that make it very hard to support FAPI. It was discussed a bit here https://github.com/openid/AppAuth-iOS/issues/290 though this was a while ago so I don’t know if much has changed.
+Joseph reported that for iOS AppAuth, it’s pretty much intractable a problem without forking the library, as there are various policies (e.g. supporting a very wide range of iOS versions and not pulling in third party libraries) that make it very hard to support FAPI. It was discussed a bit here https://github.com/openid/AppAuth-iOS/issues/290 though this was a while ago so I don’t know if much has changed. AppAuth is more intended for plain OIDC cases.
 
 Daniel reported that on node.js, there are people uses Filip's library but otherwise they have to write their own. 
 
 Stuart reported that on Java side Biza has one for their own use but achieving abstraction is challenging. 
-As a crypto library, Nimbus one seems to be the most popular. 
+As a crypto library, Nimbus one seems to be the most popular, but requires a lot of wrappings to make it worthwhile. 
+
+Jose4J is another choice for crypto.
+
+Can raise some issues to libraries with active maintainers.
+
 
 #432 FAPI2 Trust Framework structure (Dima)
 ---------------------------------------------------
-Looks like there is a consensus on the need for FAPI2 Advanced authorization. 
+Looks like there is a consensus on the need for FAPI2 Advanced authorization profile spec. 
+
+Naming and diagrams need review to make them less confusing.
 
 New document to be prepared by Dima, Stuart, and Torsten to be adopted by the working group. 
+
+Need to come to agreement on names and scope of specs.
+
 
 #429 FAPI Certification with Lodged Intent or RAR - User Consent vs Technical Process Certification
 ------------------------------------------------------------------------------------------------------
