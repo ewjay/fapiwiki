@@ -44,11 +44,12 @@ Mike L. Report
 --------------------------
 Dave reported Mike's written report. 
 
-### FDX
-
+FDX
+~~~~
 No updates. Discussed with Don and he suggested we allow Gail to pick this up when she's back from family leave in a couple of weeks.
 
-### Australia
+Australia
+~~~~~~~~~~~~~
 
 #### DSB team
 
@@ -58,15 +59,15 @@ Working to coordinate a call as they are interested in getting involved in the F
 
 Call scheduled tomorrow, August 12th, to introduce the Considrd Consulting team and to scope the FAPI analysis paper that the CDR team has requested and to be supported by directed funding.
 
-### Brazil
-
+Brazil
+~~~~~~~~~~~~
 Phase 2 - still have approximately 10 banks to certify and have missed the updated deadline. Awaiting feedback from the Mirow team in BR on when we should expect the remaining Phase 2 banks to certify.
 
 Phase 3 - we  have recommended new milestones based on the payments API have just been confirmed and now waiting for Raidiam to update the mock bank. There are 160 banks registered for Phase 3 with 63 banks (66 implementations) confirmed. We have started receiving Phase 3 certification requests. And we have approximately eight Phase 3 banks joining the Foundation.
 RP Community Group Pilot - proceeding with coordinating this pilot to be supported by $50k directed funding from Mirow. Goal is to create a community group for information sharing as well as best practices, reference implementation, etc. so that RPs are successful in FAPI conformance and certification. With this pilot confirmed, the central bank will next mandate that RPs certify. A key component of the central bank mandating RP certification was to get the certification fees to the member price of $1,000 which this pilot will enable. We anticipate Filip Skokan rejoining the certification team to help moderate the community group and provide SME to the BR ecosystem. 
 
-### Berlin Group
-
+Berlin Group
+~~~~~~~~~~~~~~~
 Nat provided additional background earlier today on the prior conversations and the goals of the subcommittee that I will review with Tom Smedinghoff.
 
 
