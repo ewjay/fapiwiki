@@ -75,10 +75,23 @@ Russia (Don/Dima)
 
 PRs (Dave/Nat)
 =================
-
+n/a
 
 Issues (Dave/Nat)
 =====================
+#433 - Track FAPI compliant RP libraries
+--------------------------------------------------
+From Joseph: 
+
+As I believe I mentioned on the WG call, the certification team can help with any queries over running the tests or understanding the relevant standards etc.
+
+I’ve had a further chat with MikeL / Gail / the certification team, and we have two additional suggestions:
+
+1) For any opensource libraries the FAPI WG identity we will offer a free certification. (Most of the projects would likely qualify for the OpenSource fee waiver, but this just makes it clear and removes a paperwork step.)
+
+2) The Foundation is expecting to receive 50K USD from Brazil in direct funding which is intended to be used (essentially) to ensure the RPs in Brazil have a smooth path to certification, as the central bank intends to mandate FAPI certification for RPs. On the assumption there’s likely to be 5-6 libraries identified we wonder if offering $1K - $2K to the maintainers of each library may be sufficient to motivate them to add FAPI support & certify.
+
+Your feedback on this is very welcome. Given that the timescales in Brazil are very tight I believe we should move on this at great speed to get the maximum benefit.
 
 
 
