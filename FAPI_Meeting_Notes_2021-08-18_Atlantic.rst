@@ -1,5 +1,5 @@
 ============================================
-FAPI WG Meeting Notes (2021-08-11) 
+FAPI WG Meeting Notes (2021-08-18) 
 ============================================
 * Date & Time: 2020-08-18 14:00 UTC
 * Location: GoToMeeting https://global.gotomeeting.com/join/321819862
@@ -14,13 +14,13 @@ The meeting was called to order at 14:04 UTC.
 
 Roll Call (Dave/Nat)
 ======================
-* Attending:  
+* Attending: Nat, Mike L., Dave, Kelley Burgin (MITRE), Bjorn, Domings, Kosuke, Daniel, Dima, Brian, Chris, Joseph, Ion, Ali, Francis, Edmund, Filip
 * Regrets:
-* Guest: Mike Lesczc
+* Guest: 
 
 Adoption of Agenda (Dave/Nat)
 ================================
-* 
+* Just adding opensource topic per #433. 
 
 Events (Dave/Nat)
 ======================
@@ -43,52 +43,34 @@ External Organizations (Dave/Nat)
 
 Australia (Dima/Joseph)
 ------------------------------------
-Meeting scheduled for Tomorrow and Tuesday next week with ACCC to scope request from John Otway.
-
+CDR team request for 
 
 Berlin Group (Francis/Mike.L)
-----------------------------
-Setup some time in one of the September WG meetings to discuss how to proceed and clear IP issues on both sides.
-
-OIDF is still performing legal review. Nat will update once there is a definitive answer from OIDF consul (Tom).
-
-OIDF exploring ways to use the model used for the OIDF Workshop “Note Well”.  Will show the “Note Well” at the beginning and only those who have agreed to the “Note Well” will be allowed to stay. Awaiting feedback from the consul regarding this matter.
-
-Francis and Danillo will on work on some material and present to the group for feedback.
+--------------------------------
 
 
-
-Brazil (Ralph/Taka)
----------------------
-* Last minute change on the spec. Signing is now mandated. Signed JWT. Everyone is madly implementing it. 
-* Some suggestions to push back the deadline for the submission of the conformance test for Phase 3 to August 30. 
-* Relying party testing meeting among the certification team planned for tomorrow. The team is considering following the UK examples. 
-* We may also need to encourage the RP libraries to support FAPI. 
+Brazil (Mike)
+---------------------------
+* Missed Ph.2 deadline. Still processing. 
+* Phase 3 development is underway. Production environment expected later today including signed request/response. 
+* Support for OIDF to create an RP community group. Miro will be providing direct funding to support it. Coaching and RP Certification. Once that is done, it is expected to be mandated. Filip will re-join the certification team for the RP CG. 
 
 FDX (Don)
 ------------------
-* Expected to adopt FAPI in the next Summit. 
+* No update this week.  
 
 
 UK (Ralph/Chris)
 --------------------
-* Ver. 3.1.9 is being published. Target release will be end of September.
-* CMA supporting Variable Recurring Payment (VRP) for Sweeping transactions.. 
-* Brand new payment type considered in the Roadmap, e.g., Smart Direct Debit. There is nothing similar outside of UKOB.
-* Still waiting for CMA9's decision on the next step of the Open Banking IE. Still 2.5 weeks till we learn it. 
+* CMA9 is mandated to implement VRP by Jan for sweeping use cases. 
+* CMA published consultation due on Sept on next on OBIE. 
+* Series of updates to Open Banking standard on ver.3.1.9 with minor update toward end of Sept. This is the last planned update. 
+* CMA9 is moving slow on the certification. Further delay expected. 
+
 
 Russia (Don/Dima)
 --------------------
-* Russia: Russian Federation: Open API standards https://openbankingrussia.ru/open-api-standards/
-* Live ecosystem with FAPI 1.0 I-D2. 
-* Some certification programme. 
-* Running in pilot mode, 2 banks and 1 fintech. FAPI 1.0 ID2. 99% up to the spec. Only the difference is the cypher spec. It may be mandated in 1 or 2 years. 
-
-5.8.3.5. Криптографические ключи, используемые в протоколе TLS, и ключи протокола OIDC должны быть различными. 5.8.3.6. Должны использоваться только следующие криптонаборы: – TLS_GOSTR341112_256_WITH_KUZNYECHIK_CTR_OMAC (Р 1323565.1.020), – TLS_GOSTR341112_256_WITH_MAGMA_CTR_OMAC (Р 1323565.1.020), – TLS_GOSTR341112_256_WITH_28147_CNT_IMIT [37].
-
-They had to write their own test suite but there may be value if OIDF could help by supporting their cypher suite. 
-
-Dima is reaching out to see how OIDF can help.
+* Potentially doing official translation in Russian. 
 
 
 PRs (Dave/Nat)
