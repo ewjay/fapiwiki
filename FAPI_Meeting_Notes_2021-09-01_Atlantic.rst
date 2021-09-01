@@ -95,30 +95,26 @@ No updates
 
 Brazil (Mike)
 ---------------------------
-* Central bank is considering moving the deadline from Aug. 30 to a later date. 
-* Certification team was asked to hold on on processing phase 3 certifications
-* Quite a few certification submissions were received. 
-* Waiting for feedback from Central Bank via Mirow on updated milestones
-* RP community group pilot is being set up to encourage RP certifications by providing RP knowledge base for FAPI certification.
-* Filip S will join the group to provide expertise.
-* Chris: Banking certification should go first, then RPs. 
-* Banks having a hard time understanding what needs to be done between CG, Mirow, and OIDF with hard dependencies. 
-* Phase 3 tests require Payments API but Payments API was just published.
-* Only banks are allowed on the directory makes it a challenge for smaller banks to test.
-* But regulators are listening and allowing more time.
-* 18 ph.3 banks
-* Gail banks and implementation partners are under unrealistic expectations. A breakout group to share best practices under change management etc. would be valuable. 
-* We should make it smoother than other regulators can follow without fear. 
-* Travis pointed out the importance of openness and ability to certify. 
-* Joseph pointed out that certifications for Banks and vendors are different.
-* Danillo and Travis pointed out that vendors cannot access DCR. 
-* Joseph asked vendors to get in touch with certification@oidf.org if they have problems certifying.  
+
+Canada (Gail)
+------------------
+ 
 
 FDX (Mike)
 ------------------
 * FDX has been quiet since the last meeting with updated partnership proposal.
 * MileL and Gail will follow up
 
+Middle East and North Africa (Ali)
+-------------------------------------
+* No updates. 
+* In a week time, probably have a zoom call with Gail/Don. 
+* Saudi Arabia is closed to start Open Banking following the model in UK. 
+
+Russia (Don/Dima)
+--------------------
+* Potentially doing official translation for OIDC and FAPI in Russian. 
+* Waiting for feedback from Russia. 
 
 
 UK (Fiona/Ralph/Chris)
@@ -129,24 +125,6 @@ UK (Fiona/Ralph/Chris)
 
 
 
-Russia (Don/Dima)
---------------------
-* Potentially doing official translation for OIDC and FAPI in Russian. 
-* Waiting for feedback from Russia. 
-
-Middle East and North Africa (Ali)
--------------------------------------
-* No updates. 
-* In a week time, probably have a zoom call with Gail/Don. 
-* Saudi Arabia is closed to start Open Banking following the model in UK. 
-
-Canada (Gail)
-------------------
-Announced the intent to start Open Banking. 
-
-If you are involved, please get in touch with Gail. 
-
-Some discussion on the consent model. Chris. 
 
 PRs (Dave/Nat)
 =================
@@ -155,36 +133,7 @@ n/a
 Issues (Dave/Nat)
 =====================
 
-#432 – FAPI2 Trust Framework structure
------------------------------------
-https://bitbucket.org/openid/fapi/issues/432/fapi2-trust-framework-structure
 
-FAPI 2.0 will remain a security profile but will have interoperable way to do advanced authorization
-
-Grant Management and RAR will become optional separate specs to create a framework of specifications (Attacker model, implementation advice, etc…)
-
-Work on Advanced Authorization profile will use RAR and Grant Management
-
-Will leave issue open for visibility
-
-
-#433 – Track FAPI compliant RP libraries
-------------------------------------
-Feedback is welcome on the library information sheet: 
-
-* https://docs.google.com/spreadsheets/d/1vO0FJY9FDeq3Z5CPkbfM26ZSBHuRZpjclPCYkRreAvU/edit#gid=0
-
-#426 – FAPI 2 - Multiple audience values in client authentication assertions
----------------------------------------------------------------------------------
-Concerns against the proposal were expressed by multiple participants. 
-
-From a security perspective, there aren’t any reasons to have multiple audience values in a client authentication assertion.
-
-Limiting it to a single value might cause more problems due to ambiguity on what the proper audience is. This might hurt interoperability.
-
-Does a single audience require it to be a single string value versus a single element array?
-
-Audience is an OR statement so requiring the receiver to understand all audience values will affect general purpose libraries interoperability.
 
 AOB (Dave/Nat)
 =================
