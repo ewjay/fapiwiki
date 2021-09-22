@@ -86,18 +86,19 @@ Canada (Gail)
 FDX (Gail)
 ------------------
 * Follow up the conversation. 
-* Licensing
+* Licensing questions. 
+* Voice of the room was to avoid forking. 
 
 Will provide details next week.
 
 
 Middle East and North Africa (Ali)
 -------------------------------------
-
+<to be filled> 
 
 Russia (Don/Dima)
 --------------------
-
+* Pinging them as of now. 
 
 
 UK (Fiona/Ralph/Chris)
