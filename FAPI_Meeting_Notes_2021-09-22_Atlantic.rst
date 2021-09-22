@@ -28,6 +28,9 @@ Events (Dave/Nat)
 
 External Organizations (Dave/Nat)
 ===================================
+ISO/TC 68 (Nat/Dave)
+-----------------------------
+* Need to send a liaison report. 
 
 Australia (Dima/Joseph)
 ------------------------------------
