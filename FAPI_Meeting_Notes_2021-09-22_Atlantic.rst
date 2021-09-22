@@ -66,7 +66,8 @@ Australia (Dima/Joseph)
 
 Berlin Group (Francis/Mike.L)
 --------------------------------
-* 
+* Ball is on their court. 
+* Nat and Don is going to have a meeting with their leadership soon. 
 
 Brazil (Mike)
 ---------------------------
