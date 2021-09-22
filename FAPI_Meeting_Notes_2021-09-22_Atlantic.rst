@@ -115,7 +115,10 @@ HTTP Signing (Dave)
 ----------------------------
 * 411 
 * There is a desire for it from Norway. 
-
+* https://bitbucket.org/openid/fapi/src/master/FAPI_2_0_Advanced_Profile.md
+* https://bitbucket.org/openid/fapi/src/master/Financial_API_Simple_HTTP_Message_Integrity_Protocol.md
+* Dave provided two options: HTTP Signing and DPOP based one. 
+* Travis pointed out the issue of DPOP being sensitive to clock synchronization. 
 
 
 AOB (Dave/Nat)
