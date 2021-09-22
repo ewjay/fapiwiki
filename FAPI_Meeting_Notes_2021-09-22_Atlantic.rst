@@ -42,7 +42,14 @@ MENA (Don)
 
 Authenticate/FIDO (Gail)
 ---------------------------
+Authenticate happening on Oct. 18. 
+
+Link: https://fidoalliance.org/event/authenticate-2021-conference/
+
 Terms would be member pricing of $750 for Authenticate conference, $450 for plenary, or $1k for both.
+
+It may also be possible to have a room for workshop/breakout. 
+If you would be able to attend and would like to have a breakout f2f meeting, please speak up. 
 
 
 External Organizations (Dave/Nat)
@@ -50,6 +57,7 @@ External Organizations (Dave/Nat)
 ISO/TC 68 (Nat/Dave)
 -----------------------------
 * Need to send a liaison report. 
+* We are going to include FAPI 1.0 Final, New Implementer's Drafts, but if there are any other things notable to mention, please ping Nat. 
 
 Australia (Dima/Joseph)
 ------------------------------------
