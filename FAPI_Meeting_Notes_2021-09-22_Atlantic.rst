@@ -180,7 +180,7 @@ HTTP Signing (Dave)
 * Dave and Brian’s DPoP based version adds the ability to sign the body digest but not headers
 * Francis pointed out that a non-repudiation signing mechanism that doesn’t allow extensions would not be widely accepted due to Regional legislations that may not be interoperable.
 * Need to define the goal of non-repudiation. Legal non-repudiation or just packet non-repudiation.
-* Joseph pointed out that HTTP Signing is also used for transport security due to TLS removal beyond endpoints
+* Joseph pointed out that HTTP Signing is also used for transport security due to TLS removal at edge router
 * For increased interoperability, limiting to a single choice is best
 
 
