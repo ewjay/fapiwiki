@@ -10,7 +10,7 @@ FAPI WG Meeting Notes (2021-09-22)
 
 .. contents:: Agenda
 
-The meeting was called to order at 14:__ UTC. 
+The meeting was called to order at 14:03 UTC. 
 
 Roll Call (Dave/Nat)
 ======================
@@ -57,14 +57,9 @@ EIC (Nat/Don)
 
 As the White Paper has been published by the International Institute of Finance and featured in Dave Birch's Forbes article.Or as the KuppingerCole blog puts it, "A Iot to Venture, More to Global Assured Identity Network” 
 
-I've working with the 5 organizations referenced in the White Paper to explore their interest in taking the baton passed from GAIN co authors. Just as the White Paper seeks to build on what’s built, the next phase seems best led by those organizations that are doing the building. Brad Carr of the International Institute of Finance plans to host an initial call with representatives from the OpenID Foundation, Open Identity Exchange, Cloud Signature Consortium and Global Legal Entity Identifier Foundation to explore collaboration related to the Global Assured Identity Network. The White Paper is closely aligned with the IIF’s Open Digital Trust Initiative, the OpenID Foundation co leads. 
+I've working with the 5 organizations referenced in the White Paper to explore their interest in taking the baton passed from GAIN co-authors. Just as the White Paper seeks to build on what’s built, the next phase seems best led by those organizations that are doing the building. Brad Carr of the International Institute of Finance plans to host an initial call with representatives from the OpenID Foundation, Open Identity Exchange, Cloud Signature Consortium and Global Legal Entity Identifier Foundation to explore collaboration related to the Global Assured Identity Network. The White Paper is closely aligned with the IIF’s Open Digital Trust Initiative, the OpenID Foundation co leads. 
 
 As you know, Gail Hodges is working with GAIN Co Authors Donna Beatty and Torsten Lodderstedt to move the GAIN Technical Proof of Concept under the auspices of the OpenID Foundation. Just as the proof of the pudding is in the eating, the proof of the paper is in the PoC. For more see the OIDF Blog
-
-MENA (Don)
----------------------------
-
-
 
 Authenticate/FIDO (Gail)
 ---------------------------
@@ -187,8 +182,8 @@ HTTP Signing (Dave)
 
 AOB (Dave/Nat)
 =================
+None
 
 
 
-
-The call adjourned at 15:__ UTC
+The call adjourned at 15:00 UTC
