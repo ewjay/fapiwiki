@@ -163,7 +163,7 @@ Issues (Dave/Nat)
 =====================
 HTTP Signing (Dave)
 ----------------------------
-* 411 
+* #411 
 * There is a desire for it from Norway for non-repudiation. 
 * https://bitbucket.org/openid/fapi/src/master/FAPI_2_0_Advanced_Profile.md
 
