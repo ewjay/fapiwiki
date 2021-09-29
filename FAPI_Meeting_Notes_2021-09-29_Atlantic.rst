@@ -51,7 +51,7 @@ OIDF to work on assessment for AAAC. They have provided direct funding for asses
 * Mark Haine has agreed to help draft the paper
 * MikeL will schedule call with CDR Team and ACCC to review updated outline
 
-Berlin Group (Francis/Mike.L)
+Berlin Group (Nat)
 --------------------------------
 OIDF-Note-Well : Nat explained that any OIDF publication is validated beforehand, therefore there is no such risk as Wijnand raised for the BerlinGroup.
 
