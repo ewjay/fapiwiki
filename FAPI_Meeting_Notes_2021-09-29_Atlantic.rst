@@ -53,8 +53,28 @@ OIDF to work on assessment for AAAC. They have provided direct funding for asses
 
 Berlin Group (Francis/Mike.L)
 --------------------------------
-* Ball is on their court. 
-* Nat and Don is going to have a meeting with their leadership soon. 
+OIDF-Note-Well : Nat explained that any OIDF publication is validated beforehand, therefore there is no such risk as Wijnand raised for the BerlinGroup.
+
+And the text as proposed by the ODIF is approved as is.
+
+Sub-Committee planning: We concurred that the workstream should be 2 phases :
+
+Phase 1: Share approaches and identify requirement domains to elaborate
+Phase 2: Build the requirements for the joint Initiative
+ 
+
+Phase 1 will break down across 3 workshops:
+
+Mutual presentation (ie The Berlin-Group and OIDF) on the key domains which might be beneficial for each other: 3 hours Workshop to be set during the week of Oct the 25th. To improve this first workshop, both the Berlin-Group openFinance Editor and the OIDF will share documents they have to highlight the specific areas of potential mutual interest (Action : as soon as possible)
+Investigation and definition of the areas to investigate jointly
+Final definition and plan requirement definitions: Plan Phase 2 (ie what and when)
+ 
+
+Phase 1 is targeted to end before Christmas (2021) and here are 3 doodles (one for each of the 3 phase 1 workshops) to share with the SC members :
+
+Mutual Presentation WS: click here
+Investigation and definition: click here
+Final definition and plan requirement definitions: click here
 
 Brazil (Mike)
 ---------------------------
