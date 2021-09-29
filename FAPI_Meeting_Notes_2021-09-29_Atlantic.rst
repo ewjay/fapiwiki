@@ -65,16 +65,18 @@ Phase 2: Build the requirements for the joint Initiative
 
 Phase 1 will break down across 3 workshops:
 
-Mutual presentation (ie The Berlin-Group and OIDF) on the key domains which might be beneficial for each other: 3 hours Workshop to be set during the week of Oct the 25th. To improve this first workshop, both the Berlin-Group openFinance Editor and the OIDF will share documents they have to highlight the specific areas of potential mutual interest (Action : as soon as possible)
+Mutual presentation (ie The Berlin-Group and OIDF) on the key domains which might be beneficial for each other: 3 hours Workshop to be set during the week of Oct the 25th. 
+
+To improve this first workshop, both the Berlin-Group openFinance Editor and the OIDF will share documents they have to highlight the specific areas of potential mutual interest (Action : as soon as possible)
 Investigation and definition of the areas to investigate jointly
 Final definition and plan requirement definitions: Plan Phase 2 (ie what and when)
  
 
 Phase 1 is targeted to end before Christmas (2021) and here are 3 doodles (one for each of the 3 phase 1 workshops) to share with the SC members :
 
-Mutual Presentation WS: click here
-Investigation and definition: click here
-Final definition and plan requirement definitions: click here
+1. Mutual Presentation WS: https://doodle.com/poll/uq6fnuwtc7zpsg2c?utm_source=poll&utm_medium=link
+1. Investigation and definition: https://doodle.com/poll/8mq4ph49ws5i5kq7?utm_source=poll&utm_medium=link
+1. Final definition and plan requirement definitions: https://doodle.com/poll/3pywfmcwym2d3ev6?utm_source=poll&utm_medium=link
 
 Brazil (Mike)
 ---------------------------
