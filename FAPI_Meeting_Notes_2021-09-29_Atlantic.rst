@@ -15,6 +15,38 @@ The meeting was called to order at 14:03 UTC.
 Roll Call (Dave/Nat)
 ======================
 * Attending: 
+
+  * Ali Adnan (Authlete)
+  * Ayomi Igandan (Capco)
+  * Barry O'Donohoe (Raidiam)
+  * Bjorn Hjelm (Verizon)
+  * Brian Campbell
+  * Chris Michael
+  * Chris Wood
+  * Daniel Fearns
+  * Daniel Fett (yes)
+  * Dave Tonge
+  * Dima Postnikov
+  * Domingos Creado (Authlete)
+  * Don Thibeau
+  * Francis Pouatcha (adorsys)
+  * Gail hodges
+  * ion (Stitch)
+  * Jacob Ideskog (Curity)
+  * Joseph Heenan (Authlete / OpenID Foundation)
+  * Jules
+  * Kelley Burgin (MITRE)
+  * Kosuke Koiwai
+  * Lukasz Jaromin (Cloudentity)
+  * Michael Palage
+  * Mike Leszcz
+  * Nat Sakimura
+  * Stuart Low (Biza.io)
+  * Takahiko Kawasaki (Authlete)
+  * Tash McPhee
+  * Torsten Lodderstedt
+  * Travis Spencer (Curity)
+
 * Regrets:
 * Guest: 
 
@@ -31,13 +63,66 @@ Authenticate happening on Oct. 18-22.
 
 Link: https://fidoalliance.org/event/authenticate-2021-conference/
 
+Most likely will hold an in-person meeting. Details will be announced in the mailing list if it is finalized.
+
+Gail and Mike L. will have a call with the Fido team to coordinate specifics. Gail will update the community.
+
+
+GAIN PoC Meetings
+---------------------------
+OIDF is planning 2 listening sessions regarding a proposed proof of concept along the lines of the GAIN white paper, Global Assured Identity Network. 
+
+https://gainforum.org/GAINWhitePaper.pdf
+
+Will have 2 listening events and a call for comments via OIDF blog.
+
+* One following Authenticate in Seattle
+* One following OIX in London
+
+Purpose will be to educate the community about the POC, solicit questions, feedback, and contributions about the POC.
+
+Feedback will be the basis of the first POC meeting targeted for December.
+
+Questions can be addressed to Don, Torsten, or Donna (donna@oidf.org)
+
+Legal matters can be addressed to Gail.
+
+The PoC effort will require a participation agreement that is distinct and separate from contribution agreement required for OIDF Workgroups.
+
+
+
 IIW
 ------------
+October 12-14, 2021 
+
+Topics are mostly on Self-Sovereign Identity right now
+
+Mike J. is coordinating with organizers to allocate the second morning  to do OIDF work.
+
 
 External Organizations (Dave/Nat)
 ===================================
 ISO/TC 68 (Nat/Dave)
 -----------------------------
+
+Nat has drafted a liaison statement and have distributed it to the liaisons committee.
+
+* Final specs published
+
+  * FAPI 1.0 
+  * CIBA Core 1.0 
+
+* Implementer’s Drafts
+
+  * Grant Management
+  * SSE
+  * CAEP
+  * FAPI 2.0 Baseline
+  * FAPI 2.0 Attacker Model
+
+* GAIN Whitepaper
+* Current Projects
+
 
 Australia (Dima/Joseph)
 ------------------------------------
@@ -51,8 +136,14 @@ OIDF to work on assessment for AAAC. They have provided direct funding for asses
 * Mark Haine has agreed to help draft the paper
 * MikeL will schedule call with CDR Team and ACCC to review updated outline
 
+Gail is reaching out for guidance to scope the assessment.
+
+https://bitbucket.org/openid/fapi/wiki/edit/FAPI_Meeting_Notes_2021-09-29_Atlantic
+
 Berlin Group (Nat)
 --------------------------------
+Nat had a call with Bruno.
+
 OIDF-Note-Well : Nat explained that any OIDF publication is validated beforehand, therefore there is no such risk as Wijnand raised for the BerlinGroup.
 
 And the text as proposed by the ODIF is approved as is.
@@ -65,87 +156,148 @@ Phase 2: Build the requirements for the joint Initiative
 
 Phase 1 will break down across 3 workshops:
 
-Mutual presentation (ie The Berlin-Group and OIDF) on the key domains which might be beneficial for each other: 3 hours Workshop to be set during the week of Oct the 25th. 
+#. Mutual presentation (ie The Berlin-Group and OIDF) on the key domains which might be beneficial for each other: 3 hours Workshop to be set during the week of Oct the 25th. 
 
-To improve this first workshop, both the Berlin-Group openFinance Editor and the OIDF will share documents they have to highlight the specific areas of potential mutual interest (Action : as soon as possible)
-Investigation and definition of the areas to investigate jointly
-Final definition and plan requirement definitions: Plan Phase 2 (ie what and when)
+#. To improve this first workshop, both the Berlin-Group openFinance Editor and the OIDF will share documents they have to highlight the specific areas of potential mutual interest (Action : as soon as possible)
+
+   Investigation and definition of the areas to investigate jointly
+
+#. Final definition and plan requirement definitions: Plan Phase 2 (ie what and when)
  
 
 Phase 1 is targeted to end before Christmas (2021) and here are 3 doodles (one for each of the 3 phase 1 workshops) to share with the SC members :
 
-1. Mutual Presentation WS: https://doodle.com/poll/uq6fnuwtc7zpsg2c?utm_source=poll&utm_medium=link
-1. Investigation and definition: https://doodle.com/poll/8mq4ph49ws5i5kq7?utm_source=poll&utm_medium=link
-1. Final definition and plan requirement definitions: https://doodle.com/poll/3pywfmcwym2d3ev6?utm_source=poll&utm_medium=link
+#. Mutual Presentation WS: https://doodle.com/poll/uq6fnuwtc7zpsg2c?utm_source=poll&utm_medium=link
+#. Investigation and definition: https://doodle.com/poll/8mq4ph49ws5i5kq7?utm_source=poll&utm_medium=link
+#. Final definition and plan requirement definitions: https://doodle.com/poll/3pywfmcwym2d3ev6?utm_source=poll&utm_medium=link
 
 Brazil (Mike)
 ---------------------------
 * Still processing ph.2. 
 * Oct 29 Ph. 3
-* On track for RP test. 
-* Adding payment and DCR to RP tests
-* On track to launch RP community slack channel on Sept. 27. 
+
+  * Deadline for submissions was 9/24
+  * Received 24 certification requests, 20 have been certified
+  * 130 remaining to be received
+  * Will certify remaining based on order received.
+
+* RP tests in beta include payment and DCR tests
+
+  * 3 RPs testing right now
+  * 60 RPs on certification list for phase 3 
+
+* RP community slack channel was supposed to Sept. 27 but will be delayed a day or so. 
+* There are moves to split payments into 3 separate trenches  that will require recertification across the board. Not finalized yet.
+* Ralph flagged issues as blocking - #443 
+
+  * Payments related to Oauth authorization server metadata and additional CIBA login hint, token values.
+  * 5 different login token structures proposed
 
 
 Canada (Gail)
 ------------------
-* Reached out to FDATA. 
-* Election happening: both parties want to move towards open banking. 
-* Will look to connect with government players and intermediaries such as FDX
+No updates
 
 
 FDX (Gail)
 ------------------
-Had a follow up conversation with Don Cardinal and team before EIC.
-
-Licensing questions regarding certification program. Three options
-
-a) Don’t pursue licensing at this time due. Premature time. Continue as is.
-b) Avoid forking of specifications and code. May entail auditing of certification program to maintain integrity, certified trust mark, etc...
-c) Fully license..
-
-Voice of the room was to avoid forking and have WG control of specifications to maintain interoperability. This only 
-applies to security profile and not functional requirements.
-
-* Gail will draft document of key facts for WG and EC
-
-Will provide details next week.
-
-Mike Palage asked about registering the expired “OpenID Certified” trademark. Discussion to be take offline.
+No updates
 
 
 Middle East and North Africa (Ali)
 -------------------------------------
-Don, Ali, and Gail working on setting up workshops with emphasis on FAPI and eKYC in the Middle East. 
+Had first meeting with Dubai International Financial Center on Sept 29. They have expressed interest in cooperation with OIDF to create a working group to get more people involved (.eg. local regulators, banks).
 
-Details to follow. 
+Will have a follow up meeting with the strategy team within the DFC on how to put together the working group within the framework of the DFC academy.
 
-Initially, it will be in Dubai and could extend to Saudi and Bahrain. It will be around the region.
+How their working group and FAPI working group collaborates remains TBD
 
-Scheduled call with Dubai International Financial Center on Sept 29.
+Don added advice to use experiences with the UK, Australia, and Brazil as a potential model.
 
 
 Russia (Don/Dima)
 --------------------
-* Pinging them as of now. 
+* Still awaiting response 
 
 
 UK (Fiona/Ralph/Chris)
 --------------------
+Updated version of the Standard 319 that was up for approval in the steering group.
+
+There is an outstanding issue around the granularity of error and status messaging.
+
+There is pressure on the standards team to come up with a standard but this may be a regulatory issue instead.
+
+No clarity or consensus about what’s the end point from a customer’s point of view resulting in banks saying they don't have to do that and regulators saying they can’t force banks to do that.
+
+It’s a high level issue which local market regulators need to pay attention to.
+
+Australia has released enhanced error handling. Will need to wait until February to know if it will be mandated.
 
 
 PRs (Dave/Nat)
 =================
-n/a
+
+PR 287 - Add requirement for clients to send issuer as a string
+---
+* Pull request #287 - Add requirement for clients to send issuer as a string
+
+Feedback regarding wording is requested
+
+PR 428 - Add initial version of implementation advice doc
+---
+Pull request #288 - Add initial version of implementation advice doc
+
+Dave has created an initial version of the Implementation Advice Draft
+
+Feedback requested
+
+
 
 Issues (Dave/Nat)
 =====================
+
+#443 - Missing Discovery Metadata for login_hint types and login_hint_token type
+--------------------------------------------------------------------------------
+#443 - Missing Discovery Metadata for login_hint types and login_hint_token type: backchannel_endpoint_login_hint_token_values_supported
+
+Provides a way to advertise, back channel endpoint, login token, value supported, and then registering client preference
+
+Defines a spec level key but value structures are user/implementation specific
+
+Brazil has 5 different token types 
+
+The issue is asking for a placeholder that can be ecosystem specific
+
+No precedent for a top level key with no predefined values
+
+Taka suggested another approach where the value allow ecosystem specific values or the value points to another discovery document for ecosystem specific values 
+
+OIDC Core has id_token_hint
+
+Brian pointed out that CIBA Core is final so no changes are allowed, so it will require an extension or profile document
+
+Will need to evaluate risks because it’s going to be fundamental data
+
+Dave will update issue with notes and asked Ralph for feedback
+
+Feedback is requested
 
 
 
 AOB (Dave/Nat)
 =================
-None
+Gails wanted to survey to see if anyone is aware of adaptations of FAPI, specifically for the insurance industry within OIDF communities or elsewhere.
+
+A member was asked to start talking about such a topic.
+
+Nat was contacted by the Japanese Fintech society’s insurance group but haven't heard back from them.
+
+Brazil is looking to launch an open insurance that’s part of the wider open finance that Brazil is looking to expand.
+
+UK has talk of open insurance also.
+
+Anyone with any other information on the topic is welcome to talk to Gail.
 
 
 
