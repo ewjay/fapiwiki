@@ -221,6 +221,18 @@ Feedback requested
 
 Issues (Dave/Nat)
 =====================
+Issue 445: Condition for a token response to include a grant_id
+--------------------------------------------------------------------------------
+
+https://bitbucket.org/openid/fapi/issues/445/condition-for-a-token-response-to-include
+
+Issue 447: grant_id is given but grant_management_action is not
+--------------------------------------------------------------------------------
+https://bitbucket.org/openid/fapi/issues/447/grant_id-is-given-but
+
+Issue 449: Field name and type for resource fields
+--------------------------------------------------------------------------------
+https://bitbucket.org/openid/fapi/issues/449/field-name-and-type-for-resources
 
 #443 - Missing Discovery Metadata for login_hint types and login_hint_token type
 --------------------------------------------------------------------------------
