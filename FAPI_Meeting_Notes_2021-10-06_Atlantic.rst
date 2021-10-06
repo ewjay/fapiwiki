@@ -25,35 +25,26 @@ Adoption of Agenda (Dave/Nat)
 
 Events (Dave/Nat)
 ======================
+OpenID Foundation Workshop moved to December (Mike L.)
+---------------------------------------------------------
+It was originally planned for Oct. 21 but it collides with Authenticate so it was pushed to December. 
 
 Authenticate/FIDO (Gail)
 ---------------------------
-Authenticate happening on Oct. 18-22. 
+Authenticate happening on Oct. 18-22. OpenID Foundation sessions are part of the plenary, Oct. 21. 
 
 Link: https://fidoalliance.org/event/authenticate-2021-conference/
 
 
 GAIN PoC Meetings
 ---------------------------
-OIDF is planning 2 listening sessions regarding a proposed proof of concept along the lines of the GAIN white paper, Global Assured Identity Network. 
+A few listening sessions. 
 
-https://gainforum.org/GAINWhitePaper.pdf
+1. OIX: Oct. 14
+2. FIDO: 
+3. Virtual Workshop: Dec. 9. 
 
-Will have 2 listening events and a call for comments via OIDF blog.
-
-* One following Authenticate in Seattle
-* One following OIX in London
-
-Purpose will be to educate the community about the POC, solicit questions, feedback, and contributions about the POC.
-
-Feedback will be the basis of the first POC meeting targeted for December.
-
-Questions can be addressed to Don, Torsten, or Donna (donna@oidf.org)
-
-Legal matters can be addressed to Gail.
-
-The PoC effort will require a participation agreement that is distinct and separate from contribution agreement required for OIDF Workgroups.
-
+They are going to be announced in the blog. 
 
 
 IIW
@@ -62,7 +53,7 @@ October 12-14, 2021
 
 Topics are mostly on Self-Sovereign Identity right now
 
-Mike J. is coordinating with organizers to allocate the second morning  to do OIDF work.
+Mike J. is coordinating with organizers to allocate the second morning to do OIDF work.
 
 
 External Organizations (Dave/Nat)
@@ -72,38 +63,10 @@ ISO/TC 68 (Nat/Dave)
 
 Nat has drafted a liaison statement and have distributed it to the liaisons committee.
 
-* Final specs published
-
-  * FAPI 1.0 
-  * CIBA Core 1.0 
-
-* Implementer’s Drafts
-
-  * Grant Management
-  * SSE
-  * CAEP
-  * FAPI 2.0 Baseline
-  * FAPI 2.0 Attacker Model
-
-* GAIN Whitepaper
-* Current Projects
-
 
 Australia (Dima/Joseph)
 ------------------------------------
-OIDF to work on assessment for AAAC. They have provided direct funding for assessing :
-
-* Migration from 1.0 to 2.0.
-* Gaps relative to paper by OIDF in 2019 and 
-* Any agreements or divergent views from recommendations in their 88 paper and decision 182
-* Outlook of interoperability and future
-* Other OIDF standards that may fit
-* Mark Haine has agreed to help draft the paper
-* MikeL will schedule call with CDR Team and ACCC to review updated outline
-
-Gail is reaching out for guidance to scope the assessment.
-
-https://bitbucket.org/openid/fapi/wiki/edit/FAPI_Meeting_Notes_2021-09-29_Atlantic
+N/A
 
 Berlin Group (Nat)
 --------------------------------
@@ -138,25 +101,10 @@ Phase 1 is targeted to end before Christmas (2021) and here are 3 doodles (one f
 
 Brazil (Mike)
 ---------------------------
-* Still processing ph.2. 
-* Oct 29 Ph. 3
+* DCR test working well. 
+* https://openid.net/2021/09/29/announcing-the-gain-poc-pre-launch-listening-tour/
+* Open Banking Brazil RP Community Group Slack link: https://join.slack.com/t/openbankingbr-z4z3977/signup?x=x-p2561471170368-2534834696229-2597135141008
 
-  * Deadline for submissions was 9/24
-  * Received 24 certification requests, 20 have been certified
-  * 130 remaining to be received
-  * Will certify remaining based on order received.
-
-* RP tests in beta include payment and DCR tests
-
-  * 3 RPs testing right now
-  * 60 RPs on certification list for phase 3 
-
-* RP community slack channel was supposed to Sept. 27 but will be delayed a day or so. 
-* There are moves to split payments into 3 separate trenches  that will require recertification across the board. Not finalized yet.
-* Ralph flagged issues as blocking - #443 
-
-  * Payments related to Oauth authorization server metadata and additional CIBA login hint, token values.
-  * 5 different login token structures proposed
 
 
 Canada (Gail)
@@ -171,13 +119,7 @@ No updates
 
 Middle East and North Africa (Ali)
 -------------------------------------
-Had first meeting with Dubai International Financial Center on Sept 29. They have expressed interest in cooperation with OIDF to create a working group to get more people involved (.eg. local regulators, banks).
-
-Will have a follow up meeting with the strategy team within the DFC on how to put together the working group within the framework of the DFC academy.
-
-How their working group and FAPI working group collaborates remains TBD
-
-Don added advice to use experiences with the UK, Australia, and Brazil as a potential model.
+DIFC is connecting us with ... 
 
 
 Russia (Don/Dima)
@@ -187,30 +129,23 @@ Russia (Don/Dima)
 
 UK (Fiona/Ralph/Chris)
 --------------------
-Updated version of the Standard 319 that was up for approval in the steering group.
+Ver 3.1.9 was approved last week. It only contains minor changes. 
 
-There is an outstanding issue around the granularity of error and status messaging.
-
-There is pressure on the standards team to come up with a standard but this may be a regulatory issue instead.
-
-No clarity or consensus about what’s the end point from a customer’s point of view resulting in banks saying they don't have to do that and regulators saying they can’t force banks to do that.
-
-It’s a high level issue which local market regulators need to pay attention to.
-
-Australia has released enhanced error handling. Will need to wait until February to know if it will be mandated.
+Status and error messages: requirements not clear. Need to watch out for regulators as it may cause issues for Banks implementing useful responses. 
 
 
 PRs (Dave/Nat)
 =================
 
 PR 287 - Add requirement for clients to send issuer as a string
----
+---------------------------------------------------------------------------------------
+
 * Pull request #287 - Add requirement for clients to send issuer as a string
 
 Feedback regarding wording is requested
 
 PR 428 - Add initial version of implementation advice doc
----
+-----------------------------------------------------------------------------------
 Pull request #288 - Add initial version of implementation advice doc
 
 Dave has created an initial version of the Implementation Advice Draft
@@ -223,8 +158,9 @@ Issues (Dave/Nat)
 =====================
 Issue 445: Condition for a token response to include a grant_id
 --------------------------------------------------------------------------------
-
 https://bitbucket.org/openid/fapi/issues/445/condition-for-a-token-response-to-include
+
+
 
 Issue 447: grant_id is given but grant_management_action is not
 --------------------------------------------------------------------------------
