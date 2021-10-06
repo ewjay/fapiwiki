@@ -3,7 +3,7 @@ FAPI WG Meeting Notes (2021-09-29)
 ============================================
 * Date & Time: 2020-09-29 14:00 UTC
 * Location: GoToMeeting https://global.gotomeeting.com/join/321819862
-* Note URI: https://bitbucket.org/openid/fapi/wiki/edit/FAPI_Meeting_Notes_2021-09-08_Atlantic
+* Note URI: https://bitbucket.org/openid/fapi/wiki/edit/FAPI_Meeting_Notes_2021-09-29_Atlantic
 
 .. sectnum:: 
    :suffix: .
