@@ -213,9 +213,9 @@ Underlying specs are clear that if you’re using MTLS for sender constraint tok
 Need feedback from Ralph
 
 
-#443 - Missing Discovery Metadata for login_hint types and login_hint_token type
+#443 - Missing Discovery Metadata for login_hint types and login_hint_token type backchannel_endpoint_login_hint_token_values_supported
 --------------------------------------------------------------------------------
-#443 - Missing Discovery Metadata for login_hint types and login_hint_token type: backchannel_endpoint_login_hint_token_values_supported
+https://bitbucket.org/openid/fapi/issues/443/
 
 Provides a way to advertise, back channel endpoint, login token, value supported, and then registering client preference
 
