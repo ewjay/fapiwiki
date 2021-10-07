@@ -16,6 +16,35 @@ Roll Call (Dave/Nat)
 ======================
 * Attending: 
 
+  * Ali Adnan (Authlete)
+  * Anthony Nadalin (it)
+  * Barry O'Donohoe (Raidiam)
+  * Bjorn Hjelm (Verizon)
+  * Brian Campbell
+  * Chris Michael
+  * Daniel Fett (yes)
+  * Dave Tonge
+  * Dima Postnikov
+  * Francis Pouatcha (adorsys)
+  * Gail Hodges (OIDF, she/her)
+  * Jacob Ideskog (Curity)
+  * Joseph Heenan (Authlete / OpenID Foundation)
+  * Mike Leszcz
+  * Naohiro Fujie(OIDF/OIDFJ)
+  * Nat Sakimura
+  * Nick Mothershaw
+  * Peter Bainbridge-Clayton
+  * Sascha Preibisch (LoginID)
+  * Takahiko Kawasaki (Authlete)
+  * Travis Spencer (Curity)
+  * Ayomi Igandan (Capco)
+  * Brian Campbell
+  * Chris Wood
+  * Daniel Fearns
+  * Domingos Creado (Authlete)
+  * Edmund Jay
+
+
 * Regrets:
 * Guest: 
 
@@ -27,7 +56,7 @@ Events (Dave/Nat)
 ======================
 OpenID Foundation Workshop moved to December (Mike L.)
 ---------------------------------------------------------
-It was originally planned for Oct. 21 but it collides with Authenticate so it was pushed to December. 
+It was originally planned for Oct. 21 but it collides with Authenticate so it was pushed to December 9. 
 
 Authenticate/FIDO (Gail)
 ---------------------------
@@ -51,17 +80,14 @@ IIW
 ------------
 October 12-14, 2021 
 
-Topics are mostly on Self-Sovereign Identity right now
-
-Mike J. is coordinating with organizers to allocate the second morning to do OIDF work.
-
+Some members will try to reserve evening or early morning session spots so other participants from Asia-Pac or Europe can attend.
 
 External Organizations (Dave/Nat)
 ===================================
 ISO/TC 68 (Nat/Dave)
 -----------------------------
 
-Nat has drafted a liaison statement and have distributed it to the liaisons committee.
+Nat has sent the liaison statement.
 
 
 Australia (Dima/Joseph)
@@ -70,40 +96,26 @@ N/A
 
 Berlin Group (Nat)
 --------------------------------
-Nat had a call with Bruno.
+Bruno is organizing time slots for the first workshop. All interested parties may attend.
 
-OIDF-Note-Well : Nat explained that any OIDF publication is validated beforehand, therefore there is no such risk as Wijnand raised for the BerlinGroup.
+There’s a lot of parallel initiatives happening on payments and banking. BG is attempting to synchronize the data model with ISO 20022
 
-And the text as proposed by the ODIF is approved as is.
+Defining FAPIs that can be used on peer-to-peer basis agreement between banks and TPPs, requests to pay.
+Working on future of payments in Europe to converge on a common standard. 
 
-Sub-Committee planning: We concurred that the workstream should be 2 phases :
+Open Banking Association is mandating all banks to stop using old interfaces and focus on digital? interfaces on Jan 1. 2022.
 
-Phase 1: Share approaches and identify requirement domains to elaborate
-Phase 2: Build the requirements for the joint Initiative
- 
-
-Phase 1 will break down across 3 workshops:
-
-#. Mutual presentation (ie The Berlin-Group and OIDF) on the key domains which might be beneficial for each other: 3 hours Workshop to be set during the week of Oct the 25th. 
-
-#. To improve this first workshop, both the Berlin-Group openFinance Editor and the OIDF will share documents they have to highlight the specific areas of potential mutual interest (Action : as soon as possible)
-
-   Investigation and definition of the areas to investigate jointly
-
-#. Final definition and plan requirement definitions: Plan Phase 2 (ie what and when)
- 
-
-Phase 1 is targeted to end before Christmas (2021) and here are 3 doodles (one for each of the 3 phase 1 workshops) to share with the SC members :
-
-#. Mutual Presentation WS: https://doodle.com/poll/uq6fnuwtc7zpsg2c?utm_source=poll&utm_medium=link
-#. Investigation and definition: https://doodle.com/poll/8mq4ph49ws5i5kq7?utm_source=poll&utm_medium=link
-#. Final definition and plan requirement definitions: https://doodle.com/poll/3pywfmcwym2d3ev6?utm_source=poll&utm_medium=link
 
 Brazil (Mike)
 ---------------------------
-* DCR test working well. 
-* https://openid.net/2021/09/29/announcing-the-gain-poc-pre-launch-listening-tour/
+* RP, DCR test working well.
+* Will have meeting with Brazilian team to add new DCR tests for Brazil OP certifications
+* DCR certifications are on hold
 * Open Banking Brazil RP Community Group Slack link: https://join.slack.com/t/openbankingbr-z4z3977/signup?x=x-p2561471170368-2534834696229-2597135141008
+* Travis raised the issue about dependence of DCR tests on Brazilian infrastructure.
+* Tests require integration with the Brazilian directory.
+* This doesn’t prevent vendors from certifying for Brazil FAPI. Certification team has a solution for a workaround, but Travis is not satisfied with it.
+* Chris is interested in this issue.
 
 
 
@@ -150,6 +162,8 @@ Pull request #288 - Add initial version of implementation advice doc
 
 Dave has created an initial version of the Implementation Advice Draft
 
+Move text regarding x-fapi headers to the advice document.
+
 Feedback requested
 
 
@@ -160,15 +174,44 @@ Issue 445: Condition for a token response to include a grant_id
 --------------------------------------------------------------------------------
 https://bitbucket.org/openid/fapi/issues/445/condition-for-a-token-response-to-include
 
+Clarification on when AS should return a Grant ID.
+
+Grant ID should not be issued when Grant Mangement function is not used.
+
+Current wording does not preclude sending Grant ID when GM function is not used.
+
+Dima to provide feedback.
 
 
 Issue 447: grant_id is given but grant_management_action is not
 --------------------------------------------------------------------------------
 https://bitbucket.org/openid/fapi/issues/447/grant_id-is-given-but
 
+Clarify when authorization request includes a Grant ID but does not include a grant management action.
+
+Authors and Taka will have call next week.
+
+
 Issue 449: Field name and type for resource fields
 --------------------------------------------------------------------------------
 https://bitbucket.org/openid/fapi/issues/449/field-name-and-type-for-resources
+
+Clarification is needed on field name and structure/type
+
+Published HTML was not updated in time for implementer’s draft version.
+
+#437 also requires clarification
+
+Will discuss next week
+
+
+
+#415 - Discovery Metadata for mtls
+--------------------------------------------------------------------------------
+Underlying specs are clear that if you’re using MTLS for sender constraint tokens, you must use the alias URL
+
+Need feedback from Ralph
+
 
 #443 - Missing Discovery Metadata for login_hint types and login_hint_token type
 --------------------------------------------------------------------------------
