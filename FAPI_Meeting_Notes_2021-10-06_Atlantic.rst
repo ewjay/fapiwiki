@@ -252,7 +252,8 @@ Gail asked for feedback on licensing options for FDX:
 * License with restrictions
 * License no Restriction
 
-
+.. image:: https://bitbucket.org/repo/K7gLBb/images/2208548758-certlicensing.png
+   :alt: certlicensing.png
 
 
 The call adjourned at 15:00 UTC
