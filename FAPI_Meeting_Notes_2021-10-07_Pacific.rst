@@ -16,13 +16,18 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:  Nat, Dima, Mark, Ed, Ben, Anoop and Stuart
+* Attending:  Nat, Dima, Ed, Anoop 
 * Regrets:  
 
 Agenda/notes:
 
 * Review Atlantic notes
-* FDX Summit
+* FDX Fall Summit (OCT 12-14th)
+* Certification options from FDX
+* * Not all options seems reasonable. Can we propose new options?
+* * 
+
+
 
 External Organizations 
 ==============================
