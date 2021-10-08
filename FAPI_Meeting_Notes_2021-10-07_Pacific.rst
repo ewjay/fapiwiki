@@ -22,12 +22,15 @@ Roll Call (Anoop)
 Agenda/notes:
 
 * Review Atlantic notes
+* * Grant related new issues Dima will review by next call
+* * * https://bitbucket.org/openid/fapi/issues/445/condition-for-a-token-response-to-include 
+* * * https://bitbucket.org/openid/fapi/issues/447/grant_id-is-given-but
+* * x-fapi headers moving to implementation advice - https://bitbucket.org/openid/fapi/pull-requests/288/add-initial-version-of-implementation
 * FDX Fall Summit (OCT 12-14th)
 * Certification options from FDX
 * * Not all options seems reasonable. Can we propose new options?
-* * 
-
-`Certification <https://bitbucket-assetroot.s3.amazonaws.com/repository/K7gLBb/2208548758-certlicensing.png?AWSAccessKeyId=AKIA6KOSE3BNJRRFUUX6&Expires=1633653535&Signature=yIFQDkPIGkjb75TIeb4ay3z7S5o%3D>`_ 
+* * Need more understanding what is driving 3rd option (FDX branded).
+* * see options `Certification <https://bitbucket-assetroot.s3.amazonaws.com/repository/K7gLBb/2208548758-certlicensing.png?AWSAccessKeyId=AKIA6KOSE3BNJRRFUUX6&Expires=1633653535&Signature=yIFQDkPIGkjb75TIeb4ay3z7S5o%3D>`_ 
 
 External Organizations 
 ==============================
