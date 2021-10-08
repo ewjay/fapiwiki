@@ -246,17 +246,12 @@ The use case for this is not clear.
 
 AOB (Dave/Nat)
 =================
-Gails wanted to survey to see if anyone is aware of adaptations of FAPI, specifically for the insurance industry within OIDF communities or elsewhere.
+Gail asked for feedback on licensing options for FDX:
 
-A member was asked to start talking about such a topic.
+* In house Certification Only
+* License with restrictions
+* License no Restriction
 
-Nat was contacted by the Japanese Fintech society’s insurance group but haven't heard back from them.
-
-Brazil is looking to launch an open insurance that’s part of the wider open finance that Brazil is looking to expand.
-
-UK has talk of open insurance also.
-
-Anyone with any other information on the topic is welcome to talk to Gail.
 
 
 
