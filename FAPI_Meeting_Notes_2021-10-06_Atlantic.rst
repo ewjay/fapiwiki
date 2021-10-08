@@ -239,6 +239,9 @@ Dave will update issue with notes and asked Ralph for feedback
 
 Feedback is requested
 
+Having a placeholder for values and registration is OK.
+
+The use case for this is not clear.
 
 
 AOB (Dave/Nat)
