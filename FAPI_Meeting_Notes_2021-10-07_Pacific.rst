@@ -27,7 +27,7 @@ Agenda/notes:
 * * Not all options seems reasonable. Can we propose new options?
 * * 
 
-
+`Certification <https://bitbucket-assetroot.s3.amazonaws.com/repository/K7gLBb/2208548758-certlicensing.png?AWSAccessKeyId=AKIA6KOSE3BNJRRFUUX6&Expires=1633653535&Signature=yIFQDkPIGkjb75TIeb4ay3z7S5o%3D>`_ 
 
 External Organizations 
 ==============================
