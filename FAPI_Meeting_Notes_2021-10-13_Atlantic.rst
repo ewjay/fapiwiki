@@ -16,34 +16,6 @@ Roll Call (Dave/Nat)
 ======================
 * Attending: 
 
-  * Ali Adnan (Authlete)
-  * Anthony Nadalin (it)
-  * Barry O'Donohoe (Raidiam)
-  * Bjorn Hjelm (Verizon)
-  * Brian Campbell
-  * Chris Michael
-  * Daniel Fett (yes)
-  * Dave Tonge
-  * Dima Postnikov
-  * Francis Pouatcha (adorsys)
-  * Gail Hodges (OIDF, she/her)
-  * Jacob Ideskog (Curity)
-  * Joseph Heenan (Authlete / OpenID Foundation)
-  * Mike Leszcz
-  * Naohiro Fujie(OIDF/OIDFJ)
-  * Nat Sakimura
-  * Nick Mothershaw
-  * Peter Bainbridge-Clayton
-  * Sascha Preibisch (LoginID)
-  * Takahiko Kawasaki (Authlete)
-  * Travis Spencer (Curity)
-  * Ayomi Igandan (Capco)
-  * Brian Campbell
-  * Chris Wood
-  * Daniel Fearns
-  * Domingos Creado (Authlete)
-  * Edmund Jay
-
 
 * Regrets:
 * Guest: 
