@@ -28,38 +28,31 @@ Events (Dave/Nat)
 ======================
 OpenID Foundation Workshop moved to December (Mike L.)
 ---------------------------------------------------------
-It was originally planned for Oct. 21 but it collides with Authenticate so it was pushed to December 9. 
+It was originally planned for Oct. 21 but it collides with Authenticate so it was pushed to December 9th. 
+
+Registration info will be available at openid.net in a few days. 
 
 Authenticate/FIDO (Gail)
 ---------------------------
 Authenticate happening on Oct. 18-22. OpenID Foundation sessions are part of the plenary, Oct. 21. 
 
+Remote attendance pass code is available 
+
+FYI information on 10/21 OIDF sessions http://autheneticatecon.comautheneticatecon.com...20Auth!FIDO21.
+
+3 sessions at FIDO: https://openid.net/2021/10/11/announcing-openid-foundation-sessions-at-the-fido-member-plenary-on-thursday-october-21-2021/
+
 Link: https://fidoalliance.org/event/authenticate-2021-conference/
 
+code is 20Auth!FIDO21 to access plenary sessions on 10/21 remotely.
 
-GAIN PoC Meetings
----------------------------
-A few listening sessions. 
-
-1. OIX: Oct. 14
-2. FIDO: 
-3. Virtual Workshop: Dec. 9. 
-
-They are going to be announced in the blog. 
-
-
-IIW
-------------
-October 12-14, 2021 
-
-Some members will try to reserve evening or early morning session spots so other participants from Asia-Pac or Europe can attend.
 
 External Organizations (Dave/Nat)
 ===================================
-ISO/TC 68 (Nat/Dave)
------------------------------
 
-Nat has sent the liaison statement.
+Brazil (Mike)
+---------------------------
+
 
 
 Australia (Dima/Joseph)
@@ -68,27 +61,6 @@ N/A
 
 Berlin Group (Nat)
 --------------------------------
-Bruno is organizing time slots for the first workshop. All interested parties may attend.
-
-There’s a lot of parallel initiatives happening on payments and banking. BG is attempting to synchronize the data model with ISO 20022
-
-Defining FAPIs that can be used on peer-to-peer basis agreement between banks and TPPs, requests to pay.
-Working on future of payments in Europe to converge on a common standard. 
-
-Open Banking Association is mandating all banks to stop using old interfaces and focus on digital? interfaces on Jan 1. 2022.
-
-
-Brazil (Mike)
----------------------------
-* RP, DCR test working well.
-* Will have meeting with Brazilian team to add new DCR tests for Brazil OP certifications
-* DCR certifications are on hold
-* Open Banking Brazil RP Community Group Slack link: https://join.slack.com/t/openbankingbr-z4z3977/signup?x=x-p2561471170368-2534834696229-2597135141008
-* Travis raised the issue about dependence of DCR tests on Brazilian infrastructure.
-* Tests require integration with the Brazilian directory.
-* This doesn’t prevent vendors from certifying for Brazil FAPI. Certification team has a solution for a workaround, but Travis is not satisfied with it.
-* Chris is interested in this issue.
-
 
 
 Canada (Gail)
