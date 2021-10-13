@@ -10,7 +10,7 @@ FAPI WG Meeting Notes (2021-10-13)
 
 .. contents:: Agenda
 
-The meeting was called to order at 14:__ UTC. 
+The meeting was called to order at 14:03 UTC. 
 
 Roll Call (Dave/Nat)
 ======================
@@ -104,11 +104,18 @@ Issues (Dave/Nat)
 =====================
 #443 - Missing Discovery Metadata for login_hint types ... (Ralph)
 --------------------------------------------------------------------------------
-https://bitbucket.org/openid/fapi/issues/443/
+* #443
+
+#445 - Condition for a token response to include a grant_id (Dima)
+--------------------------------------------------------------------------------
+* #445
+
+#452 - When the user being authenticated is different from the user of the grant
+------------------------------------------------------------------------------------------
+* #452
 
 
-
-AOB (Dave/Nat)
+AOB (Dave)
 =================
 
 The call adjourned at 15:00 UTC
