@@ -14,9 +14,7 @@ The meeting was called to order at 14:__ UTC.
 Roll Call (Dave/Nat)
 ======================
 * Attending: 
-
-
-* Regrets:
+* Regrets: Francis
 * Guest: 
 
 Adoption of Agenda (Dave/Nat)
