@@ -21,7 +21,7 @@ Roll Call (Dave/Nat)
 
 Adoption of Agenda (Dave/Nat)
 ================================
-
+* N/A
 
 Events (Dave/Nat)
 ======================
@@ -29,39 +29,32 @@ OpenID Foundation Workshop moved to December (Mike L.)
 ---------------------------------------------------------
 It was originally planned for Oct. 21 but it collides with Authenticate so it was pushed to December 9th. 
 
-Registration info will be available at openid.net in a few days. 
+Thursday Dec. 9 @ 9:00 AM PST
 
-Authenticate/FIDO (Gail)
+https://openid.net/2021/10/19/registration-open-for-openid-foundation-virtual-workshop-thursday-december-9-2021/
+
+Authenticate/FIDO (Mike L)
 ---------------------------
-Authenticate happening on Oct. 18-22. OpenID Foundation sessions are part of the plenary, Oct. 21. 
 
-Remote attendance pass code is available 
-
-FYI information on 10/21 OIDF sessions http://autheneticatecon.comautheneticatecon.com...20Auth!FIDO21.
-
-3 sessions at FIDO: https://openid.net/2021/10/11/announcing-openid-foundation-sessions-at-the-fido-member-plenary-on-thursday-october-21-2021/
-
-Link: https://fidoalliance.org/event/authenticate-2021-conference/
-
-code is 20Auth!FIDO21 to access plenary sessions on 10/21 remotely.
-
-Free to attend plenary remotely, there are fees for in person attendance, at member rates using the same code. ($450 for plenary 2 days).
-
+https://openid.net/2021/10/11/announcing-openid-foundation-sessions-at-the-fido-member-plenary-on-thursday-october-21-2021/
 
 External Organizations (Dave/Nat)
 ===================================
-
-Brazil (Mike)
----------------------------
-
-
-
 Australia (Dima/Joseph)
 ------------------------------------
 N/A
 
+Brazil (Mike)
+---------------------------
+*
+* Pushed new RP test out. 
+
+
 Berlin Group (Nat)
 --------------------------------
+* WS#1 : Monday Nov 15th 1pm-4pm (CET)
+* WS#2: Wed Nov 24th (1pm to 4pm or 2pm to 5pm)
+* WS#3: Friday Dec 10th (2pm to 5pm)
 
 
 Canada (Gail)
@@ -69,34 +62,37 @@ Canada (Gail)
 No updates
 
 
-FDX (Gail)
+FDX (Mike)
 ------------------
-No updates
+
 
 
 Middle East and North Africa (Ali)
 -------------------------------------
-DIFC is connecting us with ... 
+* Nov. 4 DIFC Meeting. 
+* Putting together a team for local WG including banks. 
 
 
-Russia (Don/Dima)
+Russia (Mike)
 --------------------
-* Still awaiting response 
+* Fintech association Russia/OIDF workshop.  
 
 
-UK (Fiona/Ralph/Chris)
+UK (Chris)
 --------------------
-Ver 3.1.9 was approved last week. It only contains minor changes. 
+* 
 
-Status and error messages: requirements not clear. Need to watch out for regulators as it may cause issues for Banks implementing useful responses. 
-
-
-PRs (Dave/Nat)
+PRs (Dave)
 =================
 
 
 Issues (Dave/Nat)
 =====================
+#456 - Refresh Token Rotation 
+-------------------------------------
+Since FAPI 2 is fully sender constrained, Refresh Token Rotation is probably not needed. 
+
+AU experience shows that it is a bad idea to rotate refresh tokens. 
 
 
 
