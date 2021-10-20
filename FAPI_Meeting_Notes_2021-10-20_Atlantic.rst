@@ -94,6 +94,11 @@ Since FAPI 2 is fully sender constrained, Refresh Token Rotation is probably not
 
 AU experience shows that it is a bad idea to rotate refresh tokens. 
 
+Agreed to put some text about recommending not to rotate refresh tokens. 
+
+Stuart was assigned the issue. 
+
+
 
 
 AOB (Dave)
