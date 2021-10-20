@@ -44,15 +44,18 @@ N/A
 
 Brazil (Mike)
 ---------------------------
-*
 * Pushed new RP test out. 
+* RP community up. 
+* Regulator setting an extremely aggressive schedule on the conformance test. OIDF may want to open a dialogue with the regulator to provide them with balanced information. 
 
 
 Berlin Group (Nat)
 --------------------------------
+* Joing WS was set. 
 * WS#1 : Monday Nov 15th 1pm-4pm (CET)
 * WS#2: Wed Nov 24th (1pm to 4pm or 2pm to 5pm)
 * WS#3: Friday Dec 10th (2pm to 5pm)
+* OIDF need to send materials to read so that BG participants will be better prepared for them. 
 
 
 Canada (Gail)
@@ -62,7 +65,7 @@ No updates
 
 FDX (Mike)
 ------------------
-
+* FDX is preparing a blog post to be reviewed by OIDF. 
 
 
 Middle East and North Africa (Ali)
@@ -73,7 +76,7 @@ Middle East and North Africa (Ali)
 
 Russia (Mike)
 --------------------
-* Fintech association Russia/OIDF workshop.  
+* Fintech association Russia/OIDF meeting is being set up. 
 
 
 UK (Chris)
@@ -82,24 +85,29 @@ UK (Chris)
 
 PRs (Dave)
 =================
-
+n/a
 
 Issues (Dave/Nat)
 =====================
 #456 - Refresh Token Rotation 
 -------------------------------------
-Since FAPI 2 is fully sender constrained, Refresh Token Rotation is probably not needed. 
+* #456
+* Since FAPI 2 is fully sender constrained, Refresh Token Rotation is probably not needed. 
+* AU experience shows that it is a bad idea to rotate refresh tokens. 
+* Agreed to put some text about recommending not to rotate refresh tokens. 
+* Stuart was assigned the issue. 
 
-AU experience shows that it is a bad idea to rotate refresh tokens. 
+#410 - FAPI and Uma 
+-----------------------
+* #410
+* It would be good to do some analysis to see if UMA 2 can be used with FAPI 1/2.
+* Part of the reason for this is that the UK Pensions Dashboard project is planning to use UMA 2
+* https://blog.axway.com/industries/banking-insurance/the-pensions-dashboard
+* Dave to reach out to Justin. 
 
-Agreed to put some text about recommending not to rotate refresh tokens. 
 
-Stuart was assigned the issue. 
-
-
-
-
-AOB (Dave)
+AOB (Nat)
 =================
+None.
 
 The call adjourned at 15:00 UTC
