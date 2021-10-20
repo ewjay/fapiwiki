@@ -21,7 +21,7 @@ Roll Call (Dave/Nat)
 
 Adoption of Agenda (Dave/Nat)
 ================================
-* N/A
+* Adopted as is. 
 
 Events (Dave/Nat)
 ======================
