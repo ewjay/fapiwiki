@@ -32,6 +32,7 @@ Agenda/notes:
 
 
 External Organizations 
+
 * FDX official adoption FAPI 1.0 Advance profile and CIBA 
 * Brazil and Berlin group
 * * Concern regulators are changing files often. 
