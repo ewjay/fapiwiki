@@ -26,7 +26,7 @@ Events (Dave/Nat)
 
 OIDF virtual workshop
 ------------------------------
-* Thursday, December 9th at 9am PT. 
+* Thursday, December 9th at 9 AM PT. 
 * Link with registration details: https://openid.net/2021/10/19/registration-open-for-openid-foundation-virtual-workshop-thursday-december-9-2021/
 
 Workshop with Berlin Group
@@ -37,15 +37,23 @@ Workshop with Berlin Group
 
 TODO: Reading Materials
 
+GSMA (Gail)
+---------------------
+* Nov. 17
+* Speakers tbd. 
 
 External Organizations (Dave/Nat)
 ===================================
-Australia (Dima/Joseph)
+Australia (Gail/Dima/Joseph)
 ------------------------------------
-N/A
+* Reaching out to Mark Sauvage if they need assistance in the assessment towards the certification. 
+* AU Std Body published a paper outlining the staged approach to converge to FAPI 1.0. 
+** LINK: https://github.com/ConsumerDataStandardsAustralia/standards/issues/209#issuecomment-945322753
 
-Brazil (Gail)
+Brazil (Gail/Joseph/Chris)
 ---------------------------
+* Published new DCM test 1.5 w ago. 
+* 
 
 
 Berlin Group (Francis)
