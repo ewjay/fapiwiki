@@ -118,6 +118,14 @@ There was a suggestion to Flatten the structure but it was pointed out that it m
 
 AOB (Nat)
 =================
-None.
+The FDX Blog Post (Gail)
+----------------------------
+WG discussed the blog post text to come. 
+
+Two Open Polls 
+-----------------------
+* Federation
+* eKYC & IDA
+
 
 The call adjourned at 15:00 UTC
