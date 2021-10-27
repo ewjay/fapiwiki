@@ -39,7 +39,7 @@ TODO: Reading Materials
 
 GSMA (Gail)
 ---------------------
-* Nov. 17
+* OIDF/GSMA Workshop is being planned towards the end of November to give them overview of OIDF projects. 
 * Speakers tbd. 
 
 External Organizations (Dave/Nat)
