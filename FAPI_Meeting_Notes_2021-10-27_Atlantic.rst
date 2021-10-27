@@ -58,21 +58,29 @@ Brazil (Gail/Joseph/Chris)
 
 Berlin Group (Francis)
 --------------------------------
-
+* Focused on Workshop
 
 Canada (Gail)
 ------------------
-No updates
+* n/a
+* Probably a good time to reach out as the election has passed. 
 
 
 FDX (Gail)
 ------------------
+* Good conversation with Don C. 
+* FDX API is covering a very wide range of use-cases, e.g., payment, insurance, investment, etc. 
+* Situation has changed from "there might be regulation" to "inevitable". 
+* Large banks and large TPPs are connected via screen scraping and covering a large population. 
 * FDX is preparing a blog post to be reviewed by OIDF. 
+* Press release: https://financialdataexchange.org/FDX/News/Press-Releases/Financial_Data_Exchange_Releases_FDX_API_5.0.aspx
+* Joint Whitepaper towards Govt may be possible. 
+* Certification: 
 
 
 The Middle East and North Africa (Ali)
 ---------------------------------------
-* Nov. 4 DIFC Meeting. 
+* Nov. 4 Strategy team @ DIFC Meeting. 
 * Putting together a team for local WG including banks. 
 
 Russia (Dima/Mike)
@@ -82,7 +90,7 @@ Russia (Dima/Mike)
 
 UK (Chris)
 --------------------
-* 
+* n/a
 
 PRs (Dave)
 =================
