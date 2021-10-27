@@ -98,7 +98,22 @@ n/a
 
 Issues (Dave/Nat)
 =====================
+#443: Missing Discovery Metadata (Dave)
+-----------------------------------------
+Callers agreed to the approach - to add the metadata to FAPI CIBA. 
 
+
+#411: HTTP Signing Scheme for FAPI 2.0 Advanced (Dave)
+----------------------------------------------------------
+Three options: 
+
+* UK: Detached JWT
+* BG: Draft Cavage and Draft HTTP Singing @ IETF
+* DPoP: 
+
+#455: Impact of grant_management_action=update (Dima)
+-----------------------------------------------------------
+There was a suggestion to Flatten the structure but it was pointed out that it might be too much change introduced to the ecosystem. 
 
 
 AOB (Nat)
