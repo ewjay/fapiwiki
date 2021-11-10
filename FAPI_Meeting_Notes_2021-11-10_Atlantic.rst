@@ -41,7 +41,7 @@ Workshop with Berlin Group
 * WS - 2: Wed Nov 24th (1pm to 4pm or 2pm to 5pm)
 * WS - 3: Friday Dec 10th (2pm to 5pm)
 
-TODO: Reading Materials
+Reading Materials will be sent by Dave - target Close of Business Day today. 
 
 GSMA (Gail)
 ---------------------
@@ -52,70 +52,51 @@ External Organizations (Dave/Nat)
 ===================================
 Australia (Gail/Dima/Joseph)
 ------------------------------------
-* Australia government has declined to proceed with the study
-* Reaching out to Mark Savage if they need assistance in the assessment towards the certification. 
-* AU Std Body published a paper outlining the staged approach to converge to FAPI 1.0. 
-
-** LINK: https://github.com/ConsumerDataStandardsAustralia/standards/issues/209#issuecomment-945322753
-
-Brazil (Gail/Joseph/Chris)
+* No major updates. 
+* Transition from FAPI I.D.2 to FAPI 1.0 Final - public consultation going on. staged approach for transition from FAPI 1 ID2 to FAPI 1 final
+** Decision Proposal 209 - Transition to FAPI 1.0 Advanced Profile #209 https://github.com/ConsumerDataStandardsAustralia/standards/issues/209#issuecomment-964665004
+Brazil (Mike L.)
 ---------------------------
-* Published new DCM test 1.5 w ago. 
-* Some issues with the tests where instructions weren’t clear regarding client registration access tokens at the management endpoint
-* Waiting for clear instructions on how to proceed as it will impact RP and OP tests
-* Brazil will go live wit payments APIs on Friday
-* Maybe less than half of banks are prepared
-* Meeting to discuss how OIDF could discuss issues with Central Bank about moving goals
-
-
+* Test suites are stable now. 
+* Encouraging RP to take certification through community group. 
+* 130 certifications by now. 
+* Phase 2 live since Oct. 29. 
+* Receiving consistent flow of certification. 
 
 Berlin Group (Francis)
 --------------------------------
 * Focused on Workshop
 
-Canada (Gail)
+Canada (Mike)
 ------------------
 * n/a
-* Probably a good time to reach out as the election has passed. 
 
-
-FDX (Gail)
+FDX (Mike)
 ------------------
-* Good conversation with Don Cardinal 
-* FDX API is covering a very wide range of use-cases, e.g., checking, savings, mortgages, stocks payment, insurance, investment, etc. 
-* Situation has changed from "there might be regulation" to "inevitable". 
-* Some implementations of FAPI already in place in some major banks and RPs
-* Large banks and large TPPs are connected via screen scraping and covering a large population. 
-* ~110 millions accounts used for screen scraping.
-* Currently, able to cover 30% of those users
-* Certification to standards most likely 4-6 months away.
-* FDX is preparing a blog post to be reviewed by OIDF. 
-* Press release: https://financialdataexchange.org/FDX/News/Press-Releases/Financial_Data_Exchange_Releases_FDX_API_5.0.aspx
-* Joint Whitepaper towards Govt may be possible. 
-* Certification:
-
-  * Currently focused on other areas 
-  * Will get back to discuss in a couple of months on how to work together on certification
-
-
+* Draft blog received and responded to them. 
+* OIDF blog draft also sent. 
+* Gail is following up. 
 
 The Middle East and North Africa (Ali)
 ---------------------------------------
-* Nov. 4 Strategy team @ DIFC Meeting. 
-* Putting together a team for local WG including banks. 
+* n/a
 
 Russia (Dima/Mike)
 --------------------
-* Fintech association Russia/OIDF meeting this Friday
-
+* Had a call with the Russian Fintech Association on Oct. 29. 
+* Expecting feedback soon. 
 
 UK (Chris)
 --------------------
-* n/a
+* Some of the CMA 9 came through with Annual Certification Updates. 
+* Debates on whether "Brands" should be treated as a single system. 
+* They have different domains and configurations - different .well-known and issuer so they should be treated as different systems.  
 
 PRs (Dave)
 =================
-n/a
+PR289: Claims parameter clarification (Dima/Dave)
+-------------------------------------------------------
+https://bitbucket.org/openid/fapi/pull-requests/289
 
 Issues (Dave/Nat)
 =====================
