@@ -3,7 +3,7 @@ FAPI WG Meeting Notes (2021-11-10)
 ============================================
 * Date & Time: 2020-11-10 14:00 UTC
 * Location: GoToMeeting https://global.gotomeeting.com/join/321819862
-* Note URI: https://bitbucket.org/openid/fapi/wiki/edit/FAPI_Meeting_Notes_2021-10-13_Atlanti20
+* Note URI: https://bitbucket.org/openid/fapi/wiki/edit/FAPI_Meeting_Notes_2021-10-13_Atlantic
 .. sectnum:: 
    :suffix: .
 
@@ -105,6 +105,14 @@ Still some discussions on the wordings around claims.
 * * Brian Campbell: This still seems like it could be potentially interpreted as requiring OIDC scopes to be 'expanded' into claims.
 
 Taka pointed out that this is related to #450. 
+
+Discussion
+
+* Allow servers to expand the scope values into claim names, but not to require it. 
+* Adding some explanation on "clients" and "RPs". 
+* Claims parameters with values (like in UK) v.s. RAR. 
+
+Dima will be adding Notes explaining these. 
 
 
 Issues (Dave/Nat)
