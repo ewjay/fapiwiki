@@ -98,6 +98,15 @@ PR289: Claims parameter clarification (Dima/Dave)
 -------------------------------------------------------
 https://bitbucket.org/openid/fapi/pull-requests/289
 
+Still some discussions on the wordings around claims. 
+
+
+* `claims`: JSON array containing the names of all OpenID Connect claims (see [@!OIDC]) as requested by the client (acting as OpenID Connect RP) and consented by the End-User in one or more authorization requests associated with the respective grant.
+* * Brian Campbell: This still seems like it could be potentially interpreted as requiring OIDC scopes to be 'expanded' into claims.
+
+Taka pointed out that this is related to #450. 
+
+
 Issues (Dave/Nat)
 =====================
 #443: Missing Discovery Metadata (Dave)
