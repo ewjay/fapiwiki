@@ -36,7 +36,7 @@ Workshop with Berlin Group
 * WS -1 : Monday Nov 15th 1pm-4pm (CET)
 
   * Need to collect reading material
-  * Francis suggested using the Summary/Introductory document that the group wrote as starting point and send for feedback
+  * Francis suggested using the Summary/Introductory document that the group wrote as a starting point and send for feedback
 
 * WS - 2: Wed Nov 24th (1pm to 4pm or 2pm to 5pm)
 * WS - 3: Friday Dec 10th (2pm to 5pm)
@@ -114,6 +114,8 @@ Discussion
 
 Dima will be adding Notes explaining these. 
 
+* JSON Schema was proposed but several people pushed back. 
+
 
 Issues (Dave/Nat)
 =====================
@@ -153,21 +155,7 @@ Brian suggested that putting guards  at the data model or restricting what’s a
 
 AOB (Nat)
 =================
-The FDX Blog Post (Gail)
-----------------------------
-WG discussed the blog post text to come and made some edits to the text.
-
-Changed protocols to standards
-
-Put more emphasis on security and interoperability
-
-A modified sister blog will also be posted on OIDF website
 
 
-Two Open Polls 
------------------------
-* Federation
-* eKYC & IDA
 
-
-The call adjourned at 15:00 UTC
+The call adjourned at 15:__ UTC
