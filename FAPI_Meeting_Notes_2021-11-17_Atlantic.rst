@@ -25,17 +25,18 @@ Adoption of Agenda (Dave/Nat)
 Events (Dave/Nat)
 ======================
 
-OIDF virtual workshop
-------------------------------
+OIDF virtual workshop (Mike L.)
+--------------------------------
 * Thursday, December 9th at 9 AM PT. 
 * Link with registration details: https://openid.net/2021/10/19/registration-open-for-openid-foundation-virtual-workshop-thursday-december-9-2021/
 
-Workshop with Berlin Group
---------------------------------
+Workshop with Berlin Group (Dave)
+-----------------------------------
 * WS -1 : Monday Nov 15th 1pm-4pm (CET)
 
-  * Need to collect reading material
-  * Francis suggested using the Summary/Introductory document that the group wrote as a starting point and send for feedback
+  * Presented each other
+  * Potential roadmap
+  * Embeded mode
 
 * WS - 2: Wed Nov 24th (1pm to 4pm or 2pm to 5pm)
 * WS - 3: Friday Dec 10th (2pm to 5pm)
@@ -46,37 +47,54 @@ Share general summary of FAPI and then converging points with FAPI 2.0
 
 BG redirect approach is not complete, would be ideal to replace with FAPI
 
-GSMA (Gail)
+GSMA (Gail/Bjorn)
 ---------------------
-* OIDF/GSMA Workshop is being planned towards the end of November to give them overview of OIDF projects. 
-* Speakers tbd. 
+The second workshop is on Nov. 29 for deeper technical dive. 
+
+OAuth Security Workshop (Daniel)
+------------------------------------
+OAuth Security Workshop 2021 is coming up https://barcamps.eu/osw2021/
 
 External Organizations (Dave/Nat)
 ===================================
 Australia (Gail/Dima/Joseph)
 ------------------------------------
+n/a
 
 Brazil (Mike L.)
 ---------------------------
+OP certification coming in. 
+Slack channel for TPP/RP is becoming quite active. 
+Membership discount is helping there. 
 
+Chris asked if there is any plan for RP functional test -> No. 
 
 Berlin Group (Francis)
 --------------------------------
+See Events. 
+
+In addition, Francis is trying to find an editor from Berlin group to join FAPI WG. 
+
 
 Canada (Mike)
 ------------------
+Probably will be a month or two as new government has just been set up. 
 
 FDX (Mike)
 ------------------
+Blog post is coming up today or tomorrow. 
 
 The Middle East and North Africa (Ali)
 ---------------------------------------
+
 
 Russia (Dima/Mike)
 --------------------
 
 UK (Chris)
 --------------------
+CMA published an updated timetable for VRP. 
+January to implement was delayed for six months. 
 
 
 PRs (Dave)
