@@ -110,6 +110,8 @@ Result: Use the following text -
 
 The PAR endpoint URL MUST use the "https" scheme.
 
+Merged. 
+
 grant_id is given but grant_management_action is not specified (Dima)
 ------------------------------------------------------------------------
 * https://bitbucket.org/openid/fapi/pull-requests/290
