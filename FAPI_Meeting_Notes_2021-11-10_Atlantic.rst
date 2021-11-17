@@ -15,6 +15,28 @@ Roll Call (Dave/Nat)
 ======================
 * Attending: 
 
+  * Brian Campbell (Ping Identity)
+  * Daniel Fett (yes)
+  * Dave Tonge
+  * Dima Postnikov
+  * Francis Pouatcha (adorsys)
+  * Gail Hodges (OIDF, she/her)
+  * Joseph Heenan (Authlete / OpenID Foundation)
+  * Lukasz Jaromin (Cloudentity)
+  * Mike Leszcz
+  * Nat Sakimura
+  * Stephane Mouy
+  * Stuart Low (Biza.io)
+  * Takahiko Kawasaki (Authlete)
+  * Travis Spencer (Curity)
+  * AF
+  * Ayomi Igandan
+  * Daniel Fearns
+  * Don Thibeau
+  * Edmund Jay
+  * Kosuke Koiwai
+  * Michael Palage
+  * Ralph Bragg
 
 * Regrets: 
 * Guest: 
@@ -43,6 +65,10 @@ Workshop with Berlin Group
 
 Reading Materials will be sent by Dave - target Close of Business Day today. 
 
+Share general summary of FAPI and then converging points with FAPI 2.0
+
+BG redirect approach is not complete, would be ideal to replace with FAPI
+
 GSMA (Gail)
 ---------------------
 * OIDF/GSMA Workshop is being planned towards the end of November to give them overview of OIDF projects. 
@@ -55,12 +81,13 @@ Australia (Gail/Dima/Joseph)
 * No major updates. 
 * Transition from FAPI I.D.2 to FAPI 1.0 Final - public consultation going on. staged approach for transition from FAPI 1 ID2 to FAPI 1 final
 ** Decision Proposal 209 - Transition to FAPI 1.0 Advanced Profile #209 https://github.com/ConsumerDataStandardsAustralia/standards/issues/209#issuecomment-964665004
+
 Brazil (Mike L.)
 ---------------------------
 * Test suites are stable now. 
-* Encouraging RP to take certification through community group. 
+* Encouraging RP to take certification through RP community group Slack Channel. 
 * 130 certifications by now. 
-* Phase 2 live since Oct. 29. 
+* Phase 3 live since Oct. 29. 
 * Receiving consistent flow of certification. 
 
 Berlin Group (Francis)
@@ -92,6 +119,12 @@ UK (Chris)
 * Debates on whether "Brands" should be treated as a single system. 
 * They have different domains and configurations - different .well-known and issuer so they should be treated as different systems.  
 
+  * Australia has issues with case sensitivity of issuer well-known location
+  * Dave may create issue for discussion
+
+* Some banks have reconfigured systems resulting in non-compliance
+
+
 PRs (Dave)
 =================
 PR289: Claims parameter clarification (Dima/Dave)
@@ -108,13 +141,32 @@ Taka pointed out that this is related to #450.
 
 Discussion
 
+* Current wording isn’t clear that it’s implementation specific
 * Allow servers to expand the scope values into claim names, but not to require it. 
 * Adding some explanation on "clients" and "RPs". 
 * Claims parameters with values (like in UK) v.s. RAR. 
 
+
+Brian asked whether the problem is more complicated
+
+* Whether actual claims request content needs to be persisted
+* Should it distinguish consent to the release of claims through userinfo vs id token
+* Should it distinguish between consenting to release of claims with a specific value versus not a specific value
+
+Dave suggested adding note to clarify that expanding the claims or not is implementation specific
+
 Dima will be adding Notes explaining these. 
 
 * JSON Schema was proposed but several people pushed back. 
+
+
+Merging,update, replace has been discussed but no consistency implementation
+
+Should leave it up to implementers but need consistency for RPs
+
+Maybe simplify it  to allow replace only
+
+Is this a fruitful endeavor?
 
 
 Issues (Dave/Nat)
@@ -155,6 +207,9 @@ Brian suggested that putting guards  at the data model or restricting what’s a
 
 AOB (Nat)
 =================
+
+2 active polls still open but already at quorum but voting is still encouraged
+
 
 
 
