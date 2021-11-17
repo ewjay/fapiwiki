@@ -99,18 +99,45 @@ January to implement was delayed for six months.
 
 PRs (Dave)
 =================
+Introduce requirement for TLS, closes #446 (Stuart)
+------------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/293
+
+Long discussion on how to recommend cypher suite etc. 
+Both OIDC Core and TLS BCP is stale in this regard and there is even a proposal on https over QUIC which does not use TLS. 
+
+Result: Use the following text -
+
+The PAR endpoint URL MUST use the "https" scheme.
+
+grant_id is given but grant_management_action is not specified (Dima)
+------------------------------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/290
+
+Introduce notational conventions. Closes #438 (Stuart)
+------------------------------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/291
+
+As it is envisioned to go to IETF eventually, we will use IETF style. 
+
+Introduce additional examples and remove reference to incremental auth, progress towards #441 (Stuart)
+--------------------------------------------------------------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/292
 
 
 
 Issues (Dave/Nat)
 =====================
+What should the claims field hold?
+----------------------------------------
+* #450
 
 
 
 
 AOB (Nat)
 =================
+none
 
 
-
-The call adjourned at 15:__ UTC
+The call adjourned at 15:00 UTC
