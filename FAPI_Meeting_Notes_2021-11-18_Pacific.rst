@@ -22,7 +22,7 @@ Roll Call (Nat)
  Agenda/notes:
 
 * Review Atlantic notes
- 
+* Anoop on vacation 11/22 to Dec 12/5. Decide on next schedule call.
 
 External Organizations 
 ==============================
