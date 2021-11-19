@@ -13,7 +13,7 @@ Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 
 The meeting was called to order at 01:00 UTC. 
 
-Roll Call (Nat)
+Roll Call (Anoop)
 =====================
 
 * Attending:   
