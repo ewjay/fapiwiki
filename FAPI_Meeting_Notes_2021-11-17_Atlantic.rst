@@ -228,6 +228,10 @@ What should the claims field hold?
 ----------------------------------------
 * #450
 
+Clarify that the definition of consented claims is up to the implementation when special scopes are used.
+
+Dima will update PR.
+
 
 
 
