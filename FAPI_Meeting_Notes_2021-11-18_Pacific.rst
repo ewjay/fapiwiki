@@ -35,14 +35,12 @@ Roll Call (Anoop)
 * Anoop on vacation 11/22 to Dec 12/5. Decide on next schedule call.
 * * Nat will open call (12/2 5pm PST) for the team to continue discussion.
 
-External Organizations 
-==============================
 
 
-
- Next Call
------------------------
-Next call will be an Pacific Call. 
-Next Pacific call will be in two weeks (12-02-2021 @ 5pm PST) UTC - 12-03-2021 1:00 AM.  
 
 * The meeting was adjourned at 01:48 UTC.
+
+Next Call
+==============================
+Next call will be an Pacific Call. 
+Next Pacific call will be in two weeks (12-02-2021 @ 5pm PST) UTC - 12-03-2021 1:00 AM.
