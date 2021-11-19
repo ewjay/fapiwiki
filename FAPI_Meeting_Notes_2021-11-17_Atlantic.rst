@@ -15,6 +15,29 @@ Roll Call (Dave/Nat)
 ======================
 * Attending: 
 
+  * AF
+  * Ali Adnan
+  * Bjorn Hjelm
+  * Brian Campbell
+  * Chris Michael
+  * Daniel Fett
+  * Dave Tonge
+  * Dima Postnikov
+  * Domingos Creado
+  * Don Thibeau
+  * Francis Pouatcha
+  * Joseph Heenan
+  * Kosuke Koiwai
+  * Lukasz Jaromin
+  * Michael Palage
+  * Mike Leszcz
+  * Naohiro Fujie
+  * Nat Sakimura
+  * Stuart Low
+  * Takahiko Kawasaki
+  * Torsten Lodderstedt
+
+
 * Regrets: 
 * Guest: 
 
@@ -35,25 +58,52 @@ Workshop with Berlin Group (Dave)
 * WS -1 : Monday Nov 15th 1pm-4pm (CET)
 
   * Presented each other
-  * Potential roadmap
-  * Embeded mode
+
+    * Two areas to work on
+
+      * Potential roadmap moving towards FAPI2, PAR, RAR
+      * Embedded mode, still regulatory requirement in EU
 
 * WS - 2: Wed Nov 24th (1pm to 4pm or 2pm to 5pm)
 * WS - 3: Friday Dec 10th (2pm to 5pm)
 
-Reading Materials will be sent by Dave - target Close of Business Day today. 
+Task force Advisory meeting yesterday
 
-Share general summary of FAPI and then converging points with FAPI 2.0
+Will send feedback 
 
-BG redirect approach is not complete, would be ideal to replace with FAPI
+Will need more time to consider adopting FAPI 2.0 and PAR
+
+Dave will perform analysis of needed changes to PAR, RAR for BG
+
+BG supports non- pre-registration of redirect_uris, need migration path forward to PAR    
+
 
 GSMA (Gail/Bjorn)
 ---------------------
 The second workshop is on Nov. 29 for deeper technical dive. 
 
+Will present updates on FAPI, MODRNA,, eKYC, Shared Signals and Events WG and Grant Management
+
+Mike will create Workshop page on website for presentations and recordings.
+
 OAuth Security Workshop (Daniel)
 ------------------------------------
 OAuth Security Workshop 2021 is coming up https://barcamps.eu/osw2021/
+
+Nov 30 - Dec 1, 2021
+
+Free Virtual Event 
+
+Session proposals are still accepted are scheduling
+
+Nat will notify Connect WG members of requirement to pre-register 
+
+Session topics:
+
+* Browser interaction, third party cookies
+* SIOP cross-device security, risk mitigation
+* State of OAuth clients for modern security features
+
 
 External Organizations (Dave/Nat)
 ===================================
@@ -63,18 +113,24 @@ n/a
 
 Brazil (Mike L.)
 ---------------------------
-OP certification coming in. 
-Slack channel for TPP/RP is becoming quite active. 
-Membership discount is helping there. 
+OP certification still coming in. 
 
-Chris asked if there is any plan for RP functional test -> No. 
+Two new members were added to certification team.
+
+Slack channel for TPP/RP is becoming quite active. Membership discount is helping there.
+
+Anticipate RP certifications to be forthcoming.
+
+Chris asked if there is any plan for RP functional test -> No.
+
+Functional tests are outside of certification scope.
+
 
 Berlin Group (Francis)
 --------------------------------
 See Events. 
 
-In addition, Francis is trying to find an editor from Berlin group to join FAPI WG. 
-
+In addition, Francis will depart from Advisory boardis trying to find an editor from Berlin group to join FAPI WG. A colleague will also take over in the FAPI WG.
 
 Canada (Mike)
 ------------------
@@ -84,17 +140,42 @@ FDX (Mike)
 ------------------
 Blog post is coming up today or tomorrow. 
 
+OIDF will follow with blog on OIDF website
+
+
 The Middle East and North Africa (Ali)
 ---------------------------------------
+Met with the strategy team last week. Want an MOU in place between DIFC and OIDF to outline the relationship.
+
+Suggested an event in December to announce the partnership and start publicizing importance of standards (FAPI, CIBA) for open banking.
+
+Also want to establish a OIDF MENA for banks, regulatory bodies, fintechs, possibliy funded non-profit.
+
+Need to work on MOU.
+
+Ali received OIDF Chapter policies from Gail and will structure the relationship, funding  accordingly and will inform DIFC of details.
 
 
 Russia (Dima/Mike)
 --------------------
 
+Dima to follow up.
+
+
 UK (Chris)
 --------------------
 CMA published an updated timetable for VRP. 
-January to implement was delayed for six months. 
+
+
+CMA9 was to have implemented sweeping use cases by January 
+
+New deadline is to have testing finished with TPPs by June.
+
+Will publish a decision in January about the future of OBIE.
+
+Looks to align with FCA and PSR, regulators to define a roadmap for finance.
+
+Expectation is that more RPS will start to be implemented more widely by next year’s end.
 
 
 PRs (Dave)
@@ -108,7 +189,9 @@ Both OIDC Core and TLS BCP is stale in this regard and there is even a proposal 
 
 Result: Use the following text -
 
-The PAR endpoint URL MUST use the "https" scheme.
+Communication with the Grant Management API MUST use the "https" scheme.
+
+This avoids references to other documents that can be outdated and the statement itself will not be outdated. 
 
 Merged. 
 
@@ -116,16 +199,27 @@ grant_id is given but grant_management_action is not specified (Dima)
 ------------------------------------------------------------------------
 * https://bitbucket.org/openid/fapi/pull-requests/290
 
+Clarifies several scenarios where grant id is provided for create actions when it doesn’t make sense..
+
+AS will return invalid request.
+
+Merged
+
 Introduce notational conventions. Closes #438 (Stuart)
 ------------------------------------------------------------------------
 * https://bitbucket.org/openid/fapi/pull-requests/291
 
 As it is envisioned to go to IETF eventually, we will use IETF style. 
 
+Stuart will make corrections.
+
 Introduce additional examples and remove reference to incremental auth, progress towards #441 (Stuart)
 --------------------------------------------------------------------------------------------------------
 * https://bitbucket.org/openid/fapi/pull-requests/292
 
+Since incremental auth draft expired, it should be removed as an example.
+
+Items will be directly transferred.
 
 
 Issues (Dave/Nat)
