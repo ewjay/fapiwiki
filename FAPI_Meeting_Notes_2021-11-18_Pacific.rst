@@ -16,13 +16,20 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:   
+* Attending: Nat, Ben, Dima, Ed, Ivan, Mark, Stuart and Anoop
 * Regrets:   
 
  Agenda/notes:
 
-* Review Atlantic notes
+* Reviewed Atlantic notes
+* Reviewed items from last call
+* Transition to FAPI 1.x
+* * Easy to go to Hybrid Flow and then code flow Or Both
+* * Compliance Suite - Do we need PKCE for FAPI 1.x? [ AU needs it ] - Code + JARM 
+* * We will need to create a issue for tracking & document to address AU needs. Continue discussion on next call.
+
 * Anoop on vacation 11/22 to Dec 12/5. Decide on next schedule call.
+* * Nat will open call (12/2 5pm PST) for the team to continue discussion.
 
 External Organizations 
 ==============================
