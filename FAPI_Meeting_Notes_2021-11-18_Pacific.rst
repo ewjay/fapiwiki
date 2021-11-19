@@ -22,7 +22,11 @@ Roll Call (Anoop)
  Agenda/notes:
 
 * Reviewed Atlantic notes
+* * Most of the PRs were cosmetic changes or clarification.
+* * Berlin group ask - Embedded mode [ need more information on this topic ]
 * Reviewed items from last call
+* * #456 - Agreed on Language "Shall Not".
+* CIBA is not covered by fomal analysis at this time.
 * Transition to FAPI 1.x
 * * Easy to go to Hybrid Flow and then code flow Or Both
 * * Compliance Suite - Do we need PKCE for FAPI 1.x? [ AU needs it ] - Code + JARM 
