@@ -15,7 +15,7 @@ Roll Call (Dave/Nat)
 ======================
 * Attending: 
 
-* Regrets: 
+* Regrets: Dave
 * Guest: 
 
 Adoption of Agenda (Dave/Nat)
@@ -36,9 +36,7 @@ GSMA (Gail/Bjorn)
 ---------------------
 The second workshop is on Nov. 29 for deeper technical dive. 
 
-Will present updates on FAPI, MODRNA,, eKYC, Shared Signals and Events WG and Grant Management
-
-Mike will create Workshop page on website for presentations and recordings.
+Dave is presenting on behalf of FAPI WG. 
 
 OAuth Security Workshop (Daniel)
 ------------------------------------
@@ -50,7 +48,7 @@ Free Virtual Event
 
 Session proposals are still accepted are scheduling
 
-Nat will notify Connect WG members of requirement to pre-register 
+Nat will notify Connect WG members of the requirement to pre-register 
 
 Session topics:
 
@@ -67,6 +65,11 @@ n/a
 
 Brazil (Mike L.)
 ---------------------------
+Hosted RP workshop yesterday. Joseph walked through RP certifications. 
+Close to 200 participants. 
+Both Marks and Domingos participated. 
+
+It looks like RP Certification mandate is official for some participants. 
 
 
 Berlin Group (Francis)
@@ -79,21 +82,38 @@ Blog post now public.
 
 The Middle East and North Africa (Ali)
 ---------------------------------------
-
+MOU being developed. 
 
 
 Russia (Dima/Mike)
 --------------------
-
+They will get back later this week. 
 
 UK (Chris)
 --------------------
+Ongoing consultation on sweeping and vRP use cases and OBIE and OpenFinance future. 
+
 PayByLink http://lists.openid.net/pipermail/openid-specs-fapi/2021-November/002483.html
 
+Request to pay. No interest in the market and has not taken off. 
+Berlin group is also looking at something similar as a premium API. 
+
+There is more interest in confirmation to pay but the current regulatory framework is lacking account linking to identity and causing a lot of fraud (same in PayByLink). Confirmation to Pay has made the situation worse. 
+
+Mexico (Gail)
+------------------
+
+
+GAIN (Gail)
+---------------
+Legal agreement is being developed. 
+Target date likely shift to the beginning of January. 
 
 PRs (Nat)
 =================
-
+* https://bitbucket.org/openid/fapi/pull-requests/288
+* https://bitbucket.org/openid/fapi/pull-requests/295
+* https://bitbucket.org/openid/fapi/pull-requests/294
 
 Issues (Dave/Nat)
 =====================
@@ -103,7 +123,7 @@ Issues (Dave/Nat)
 
 AOB (Nat)
 =================
+none
 
 
-
-The call adjourned at 15:00 UTC
+The call adjourned at 15:02 UTC
