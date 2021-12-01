@@ -69,7 +69,7 @@ It is related to Phase 4 but not entirely.
 
 Berlin Group (Francis)
 --------------------------------
-
+n/a
 
 FDX (Mike)
 ------------------
@@ -107,16 +107,25 @@ Tom is working on the participation agreement to the GAIN POC.
 
 FAPI DCR/M (Dynamic client registration and Management) (Joseph)
 ====================================================================
+Joseph - WG interested in documenting the best practices? 
+
+Profile of RFC 7591, 7592. 
+
+Chris asked how much adoption/take up from the community is expected? 
+
+Scope and proposed TOC will be provided by Joseph to the WG list to solicit comments. 
+
+Brian pointed out that it could be harder than it may seem at the outset, esp. registry. 
+
+Travis pointed out that Brazil learning can be brought back to the WG to be shared with the World. 
+
 
 PRs (Nat)
 =================
-* https://bitbucket.org/openid/fapi/pull-requests/288
-* https://bitbucket.org/openid/fapi/pull-requests/295
-* https://bitbucket.org/openid/fapi/pull-requests/294
+Skipped. 
 
 Issues (Dave/Nat)
 =====================
-* issue #458: FAPI1 Part1: not clear as to which auth flows are supported
 * Issue #459: Should JARM be mandated for code flow with PAR and PKCE?
 
 
