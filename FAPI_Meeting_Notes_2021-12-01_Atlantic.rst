@@ -73,38 +73,39 @@ Berlin Group (Francis)
 
 FDX (Mike)
 ------------------
-Blog post now public. 
+n/a 
 
 The Middle East and North Africa (Ali)
 ---------------------------------------
-MOU being developed. 
+MOU being developed. Expected to be next week. 
 
 
 Russia (Dima/Mike)
 --------------------
-They will get back later this week. 
+n/a
 
 UK (Chris)
 --------------------
-Ongoing consultation on sweeping and vRP use cases and OBIE and OpenFinance future. 
+FCA published yesterday that they have revised the position on the 90 days authentication requirement. 
+TPPs has to re-obtain it but not notify the Banks. 
 
-PayByLink http://lists.openid.net/pipermail/openid-specs-fapi/2021-November/002483.html
+EBA is not in the same position. 
 
-Request to pay. No interest in the market and has not taken off. 
-Berlin group is also looking at something similar as a premium API. 
+FCA effectively mandating dedicated API for personal and SMB accounts ... 
 
-There is more interest in confirmation to pay but the current regulatory framework is lacking account linking to identity and causing a lot of fraud (same in PayByLink). Confirmation to Pay has made the situation worse. 
+https://www.fca.org.uk/publications/policy-statements/ps21-19-changes-sca-rts-and-guidance-approach-document-and-perimeter-guidance-manual
+
+Specifically see pages 14 and 17 here https://www.fca.org.uk/publication/policy/ps21-19.pdf
 
 Mexico (Gail)
 ------------------
-
+n/a
 
 GAIN (Gail)
 ---------------
-Legal agreement is being developed. 
-Target date likely shift to the beginning of January. 
+Tom is working on the participation agreement to the GAIN POC. 
 
-FAPI DCR/M (Dynamic client registration and Management)
+FAPI DCR/M (Dynamic client registration and Management) (Joseph)
 ====================================================================
 
 PRs (Nat)
