@@ -169,7 +169,6 @@ The new spec will allow generic FAPI DCR/M certifications.
 
 Certain attributes need to be taken from the Software statement to confirm that OPs can process Software statements as outlined in RFC7591
 
-
 Chris asked how much adoption/take up from the community is expected? 
 
 Won't’ affect current ecosystems but will help with new ones.
@@ -189,7 +188,7 @@ Issues (Dave/Nat)
 =====================
 * Issue #459: Should JARM be mandated for code flow with PAR and PKCE?
 
-Australia on transition to FAPI 1.0 and will be adopted code flow with PKCE and questions the value in adopting JARM which can potentially delay adoption.
+Australia on transition to FAPI 1.0 and will adopt code flow with PKCE but questions the value in adopting JARM which can potentially delay adoption.
 
 Alternative is to stay in Hybrid flow.
 
@@ -197,11 +196,11 @@ Dima asks if there is a way to change the spec or should we create new draft whi
 
 Just moving to code flow and PKCE lacks message authentication/integrity. Also have mixup attacks, etc…
 
-Invalidates formal security analysis 
+Invalidates formal security analysis.
 
-JARM is still in draft so it may have pushback by vendors
+JARM is still in draft so it may have pushback by vendors.
 
-WG should push JARM to final
+WG should push JARM to final.
 
 FAPI 1.0 is final so it can’t be changed.
 
