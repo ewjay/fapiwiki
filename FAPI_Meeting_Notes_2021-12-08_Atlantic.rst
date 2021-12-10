@@ -21,7 +21,7 @@ Roll Call (Dave/Nat)
 
 Adoption of Agenda (Dave/Nat)
 ================================
-* FAPI DCR/M (Dynamic client registration and Management)
+* 
 
 Events (Dave/Nat)
 ======================
@@ -30,6 +30,7 @@ OIDF virtual workshop (Mike L.)
 --------------------------------
 * Thursday, December 9th at 9 AM PT. 
 * Link with registration details: https://openid.net/2021/10/19/registration-open-for-openid-foundation-virtual-workshop-thursday-december-9-2021/
+* 
 
 GSMA (Gail/Bjorn)
 ---------------------
@@ -54,41 +55,31 @@ External Organizations (Dave/Nat)
 ===================================
 Australia (Gail/Dima/Joseph)
 ------------------------------------
-n/a
+Started in the certification group on what they might be able to do for FAPI 2.0 Baseline test. 
 
 Brazil (Mike L.)
 ---------------------------
-Recording from the RP Workshop is now available:
+Increase in RP certification. 
+Domingos and Markus had real positive impact. 
+Open Banking Brazil milestones are quite fluid. 
 
-* https://www.youtube.com/watch?v=o5-qTnZB1n8
 
-They banned Refresh Token rotation. 
-
-Lots of RP testing going on. (Banks and payment providers.) 
-
-Anyone initiating faster payment or PIX payment scheme has to join Open Banking and certify.
-
-Participants tend to use conformance test suite as reference instead of actual specs. Coding for the test suite. There were lots of retests/failures.
-
-120 Payment providers and expected to grow.
-
-Open Insurance 68 providers going live. Going faster. 
-It is related to Phase 4 but not entirely. 
-
-* https://openinsurance.susep.gov.br/documentos-de-referencia/
-* Looking to do FAPI conformance testing in the middle of next year.
-
-Berlin Group (Francis)
+Berlin Group (n/a)
 --------------------------------
 n/a
 
-FDX (Mike)
+FDX (Gail)
 ------------------
-n/a 
+Blog post on FAPI 1 v.s. 2. 
 
 The Middle East and North Africa (Ali)
 ---------------------------------------
-MOU being developed by DIFC. Expected to be next week.
+Received the draft MOU today.
+
+Mexico (Gail)
+------------------
+n/a
+
 
 
 Russia (Dima/Mike)
@@ -97,32 +88,26 @@ n/a
 
 UK (Chris)
 --------------------
-FCA published yesterday that they have revised the position on the 90 days re-authentication requirement. 
-
-TPPs have to re-conform consent every 90 days but not notify the Banks.
-
-TPPs don’t have to redirect the customers to the bank or use any bank authentication to re-confirm consent. It reduces a significant barrier to adoption.
-
-FCA ruled out use of modified custom interfaces for the majority of accounts.
-
-FCA effectively mandating dedicated API for personal and SMB accounts ... 
-
-Modified custom interfaces are still available for corporate accounts or high net worth individual accounts with lowTPP usage.
-
-https://www.fca.org.uk/publications/policy-statements/ps21-19-changes-sca-rts-and-guidance-approach-document-and-perimeter-guidance-manual
-
-Specifically see pages 14 and 17 here https://www.fca.org.uk/publication/policy/ps21-19.pdf
-
-EBA is not in the same position. May extend 90 days requirement to 180 days.
-
-
-Mexico (Gail)
-------------------
 n/a
 
 GAIN (Gail)
 ---------------
-Tom is working on the participation agreement to the GAIN POC. 
+Participation agreement
+~~~~~~~~~~~~~~~~~~~~~~~
+It is being worked on by Gail and Tom. 
+
+Don is now reviewing it. 
+
+G5
+~~~
+Consensus on MOU among the five. 
+Now socializing with their boards. 
+
+Roadmap (Don)
+~~~~~~~~~~~~~~~~
+Identifying participants. 
+
+
 
 FAPI DCR/M (Dynamic client registration and Management) (Joseph)
 ====================================================================
@@ -173,6 +158,11 @@ Security Analysis Planning (Nat)
 
 7.2. FAPI 2.0 Security Analysis (Nat)
 --------------------------------------------------------
+
+
+Budget (Gail)
+===============
+
 
 PRs (Nat)
 =================
