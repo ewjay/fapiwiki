@@ -108,8 +108,8 @@ AOB (Nat)
 =================
 Next Meeting (Nat)
 -------------------------
-* Should we have Dec 22 or skip it. 
-* Nat will not be available on Dec 29. 
+* We are cancelling Dec 22 and 29 meetings. 
+* The next meeting will be on January 5. 
 
 
-The call adjourned at 15:__ UTC
+The call adjourned at 14:55 UTC
