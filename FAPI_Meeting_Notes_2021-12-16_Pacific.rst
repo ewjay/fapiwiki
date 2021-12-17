@@ -16,13 +16,30 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:  
+* Attending:  Nat, Dima, Mark, Anoop
 * Regrets:   
 
  Agenda/notes:
 
 * Reviewed Atlantic notes 
-* December 30th Holiday (Cancellation) Next call Jan 13th 2022 ???
+* * PR review, closed and updates
+* * Budget (Gail) is following up for FAPI2.0
+* * Blog is available FAPI 1 vs FAPI 2
+
+* AU team Update
+* * Formerly approved timeframe for final version (FAPI V1) - Sept 2022
+* * Retiring the hybrid flow - April 2023
+* * Migration to FAPI 1 to FAPI 2 (Tbd)
+* * Sector includes payment, banking and energy to FAPI. 
+* * Formal Technical analysis is critical.
+* * CIBA is also on track to evaluate & Adoption. Need implementation guidance. 
+* * *  Nat will follow up with Certification group on CIBA implementation.
+
+
+
+
+* December 30th Holiday (Cancellation) Next call Jan 13th 2022
+
 
 
 * The meeting was adjourned at 01:48 UTC.
@@ -30,4 +47,4 @@ Roll Call (Anoop)
 Next Call
 ==============================
 Next call will be an Pacific Call. 
-Next Pacific call will be in two weeks (12-02-2021 @ 5pm PST) UTC - 12-03-2021 1:00 AM.
+Next Pacific call will be in two weeks (01-13-2022 @ 5pm PST) UTC - 01-14-2022 1:00 AM.
