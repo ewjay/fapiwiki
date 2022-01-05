@@ -59,6 +59,11 @@ Mexico (Gail)
 ------------------
 n/a
 
+NIST
+--------------
+NIST IR 8389 is now available for comments. 
+See http://lists.openid.net/pipermail/openid-specs-fapi/2022-January/002514.html for more details. 
+
 Russia (Dima/Mike)
 --------------------
 n/a
