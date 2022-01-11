@@ -145,24 +145,24 @@ Wrapping up issues and PRs
 PRs (Nat)
 =================
 
-* PR#301 - Editorial fixes
+* PR #301 - Editorial fixes
 
   * Fixes #462 - 
   * Deleted duplicate copyright notices
   * Change Spec working group from Connect to FAPI
   * Merged
 
-* PR#294 - Conditions for grant ID issuance
+* PR #294 - Conditions for grant ID issuance
 
   * Fixes #445
   * Merged 
 
-* PR#270 -  Compilable deployment advice updates
+* PR #270 -  Compilable deployment advice updates
 
   * Skipped since Stuart was not present
   * Awaiting some resolutions for comments by Nat
 
-* PR#297 - Clarify refresh token behaviour on replace and update.
+* PR #297 - Clarify refresh token behaviour on replace and update.
 
   * Fixes #454
   * Approved and merged
@@ -170,14 +170,14 @@ PRs (Nat)
   
     * Travis will create new issue 
 
-*PR#299 - First attempt at a pipeline
+* PR #299 - First attempt at a pipeline
 
   * Every push will trigger a build pipeline to generate the HTML
   * The master branch HTML will be published to bitbucket.io
   * Currently works for FAPI 2.0 Baseline. Other docs don’t work yet.
   * Merged
 
-* PR#300 - Remove/update various non-current documents
+* PR #300 - Remove/update various non-current documents
 
   * GM spec can’t be built yet. Dima/Torsten to investigate and add new instructions.
   * Will merge later after creating an associated issue for tracking.
