@@ -15,6 +15,26 @@ Roll Call (Dave/Nat)
 ======================
 * Attending: 
 
+  * Adrian Field
+  * Ali Adnan
+  * Bjorn Hjelm
+  * Brian Campbell
+  * Craig Borysowich
+  * Daniel Fett
+  * Dima Postnikov
+  * Joseph Heenan
+  * Kosuke Koiwai
+  * Lukasz Jaromin
+  * Manuela Sedvartaite
+  * Mike Leszcz
+  * Nat Sakimura
+  * Takahiko Kawasaki 
+  * Travis Spencer
+  * Ayomi Igandan
+  * Bjorn Hjelm
+  * Daniel Fearns
+  * Filip Skokan
+  * Michael Palage
 
 * Regrets: Dave
 * Guest: 
@@ -28,7 +48,16 @@ Events (Dave/Nat)
 
 Report on OIDF virtual workshop (Mike L.)
 -----------------------------------------------
-* Thursday, December 9th at 9 AM PT. 
+Thursday, December 9th at 9 AM PT. 
+
+Joseph present FAPI WG updates
+
+New board members from Cisco, Okta, and Visa
+
+Torsten updated on the GAIN POC
+
+Workshop presentations and recordings are on the OIDF website : 
+https://openid.net/workshops/oidf-virtual-workshop-thursday-december-9-2021/
 
 
 
@@ -41,21 +70,33 @@ Started in the certification group on what they might be able to do for FAPI 2.0
 Brazil (Mike L.)
 ---------------------------
 Increase in RP certification. 
-Domingos and Markus had real positive impact. 
+
+
+Domingos and Marcus had real positive impact. 
+
 Open Banking Brazil milestones are quite fluid. 
 
 
 Berlin Group (n/a)
 --------------------------------
-n/a
+OIDF does not have country standing liaison rep in the BG advisory group. 
+
+We should have one.
+
 
 FDX (Gail)
 ------------------
 Blog post on FAPI 1 v.s. 2. 
 
+https://openid.net/2021/12/14/what-are-the-differences-between-fapi-1-0-and-fapi-2-0-and-what-do-they-mean-to-you/
+
+
 The Middle East and North Africa (Ali)
 ---------------------------------------
 Received the draft MOU today.
+
+Gail suggested making an announcement in January 2022 instead of December 2021.
+
 
 Mexico (Gail)
 ------------------
@@ -63,7 +104,11 @@ n/a
 
 Russia (Dima/Mike)
 --------------------
-n/a
+MikeL followed up with people at the Fintech association in Russia.
+
+Shared the learning deck that Gail wrote, the workshop recordings from last week, and the blog post published yesterday.
+
+
 
 UK (Chris)
 --------------------
@@ -80,6 +125,7 @@ Don is now reviewing it.
 G5
 ~~~
 Consensus on MOU among the five. 
+
 Now socializing with their boards. 
 
 Roadmap (Don)
@@ -90,18 +136,81 @@ Identifying participants.
 
 FAPI DCR/M (Dynamic client registration and Management) (Joseph)
 ====================================================================
-
+No updates
 
 Grant Management (Dima)
 =============================
-
+Wrapping up issues and PRs
 
 PRs (Nat)
 =================
 
+* PR#301 - Editorial fixes
+
+  * Fixes #462 - 
+  * Deleted duplicate copyright notices
+  * Change Spec working group from Connect to FAPI
+  * Merged
+
+* PR#294 - Conditions for grant ID issuance
+
+  * Fixes #445
+  * Merged 
+
+* PR#270 -  Compilable deployment advice updates
+
+  * Skipped since Stuart was not present
+  * Awaiting some resolutions for comments by Nat
+
+* PR#297 - Clarify refresh token behaviour on replace and update.
+
+  * Fixes #454
+  * Approved and merged
+  * Whole document needs a review for proper keyword capitalization
+  
+    * Travis will create new issue 
+
+*PR#299 - First attempt at a pipeline
+
+  * Every push will trigger a build pipeline to generate the HTML
+  * The master branch HTML will be published to bitbucket.io
+  * Currently works for FAPI 2.0 Baseline. Other docs don’t work yet.
+  * Merged
+
+* PR#300 - Remove/update various non-current documents
+
+  * GM spec can’t be built yet. Dima/Torsten to investigate and add new instructions.
+  * Will merge later after creating an associated issue for tracking.
+  * Issue #463 created 
+
 
 Issues (Dave/Nat)
 =====================
+* #455 - Impact of grant_management_action=update on AT implementation and introspection
+
+  * Will create implementation advice which clarifies introspection response
+  * Dima has created a PR awaiting review
+
+* #461 - FAPI2-Baseline - has the time come to recommend/require TLS 1.3?
+
+  * Recommend FAPI 2.0 to use TLS 1.3
+  * Danile posted link https://caniuse.com/tls1-3  on browser support of TLS 1.3
+  * There are endpoints that don’t talk to browsers which may not support TLS 1.3
+  * Need to also survey support among programming platforms like Java, .NET, PHP, Ruby, Operating Systems,  Web servers (Apache, Nginx, Tomcat), toolkits (OpenSSL)  etc..
+  * No pressure to move away from TLS 1.2 yet. FAPI WG is not influential enough to create such pressure.
+  * Setting up secure TLS 1.2 is difficult
+  * Should reach out to other communities to find out their recommendations for TLS version for better understanding
+  * FAPI 1.0 refers to BCP195 and further constrain options if not using TLS 1.3
+  * Certification checks for BCP195 conformance are difficult
+  * Craig posted link https://csrc.nist.gov/publications/detail/sp/800-52/rev-2/final
+  * Recommending 1.3 would be useful but requiring support of it would be OK, but requiring only support of it would be premature.
+  * Should follow link from Craig and state a target date for transition to TLS 1.3
+  * Nat will summarize discussion in issue
+  * Needs further discussion
+
+* #460 - FAPI2-Baseline TLS restrictions are written as prose
+
+  * Related to #461
 
 
 AOB (Nat)
