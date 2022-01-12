@@ -116,6 +116,8 @@ Issues (Dave/Nat)
 
 AOB (Nat)
 =================
+The following was mentioned: 
+
 FDIC, FinCEN Announces Tech Sprint Focused on Digital Identity Proofing The FDIC and the Financial Crimes Enforcement Network yesterday announced a “tech sprint” to develop solutions for banks and regulators to help measure the effectiveness of digital identity proofing—the process used to collect, validate and verify information about a person. The agencies are asking participants—including banks, nonprofits, academic institutions, private sector firms and members of the public—to consider “what is a scalable, cost-efficient, risk-based solution to measure the effectiveness of digital identity proofing to ensure that individuals who remotely (i.e., not in person) present themselves for financial activities are who they claim to be?” ‌ Registration for the tech sprint will open by the end of January, and interested parties have will until mid-February to apply. The FDIC’s tech lab, FDITECH, and FinCEN will evaluate the submissions and select participants to further develop their proposed solutions and make short presentations to a panel of expert judges. Those presentations will take place in mid-March. https://www.fdic.gov/fditech/techsprints/measuring-effectiveness.html
 
 
