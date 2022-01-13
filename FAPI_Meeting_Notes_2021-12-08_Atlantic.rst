@@ -224,6 +224,7 @@ Budget (Gail)
 Strategic Task Force working on strategic direction of the Foundation and related budget for 2022 to ensure clear WG objectives, tactics, and priorities,  and funding requirements.
 
 **FAPI WG objectives:**
+
 * Maintain & evolve standard, close gaps as requirements evolve
 * Government/management entity outreach
 * Avert fragmentation, encourage profile management within OIDF
@@ -231,6 +232,7 @@ Strategic Task Force working on strategic direction of the Foundation and relate
 
 
 **Tactics**
+
 * Standard presentation - standardized presentation of OIDF work, Working groups chairs to work on initial version
 * Support FAPI markets
 * FAPI Whitepaper and learnings to date for governments considering open banking, open finance, or open data ($12K)
