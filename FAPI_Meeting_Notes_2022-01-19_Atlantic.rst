@@ -92,8 +92,10 @@ Gail heard some potential additional requirements for other channels , e.g. exte
 
 Need to keep this in mind.
 
+
 Nigeria (Gail)
 —---------------
+
 Nigeria is looking into Open Banking.
 
 Started to compile legislation and API requirements.
