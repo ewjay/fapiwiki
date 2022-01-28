@@ -47,7 +47,7 @@ Events (Dave/Nat)
 ======================
 
 Identiverse
-—----------
+------------------------------------
 June 21, 2022 
 
 Denver, Colorado
@@ -55,7 +55,7 @@ Denver, Colorado
 Mike and Gail had call regarding OIDF submissions and will follow up with sponsorship of Identiverse.
 
 EIC
-—--
+------------------------------------
 Deadline for submissions is Feb 28, 2022
 
 Contact Gail if interested in submitting a presentation.
@@ -94,7 +94,7 @@ Need to keep this in mind.
 
 
 Nigeria (Gail)
-—---------------
+------------------------------------
 
 Nigeria is looking into Open Banking.
 
