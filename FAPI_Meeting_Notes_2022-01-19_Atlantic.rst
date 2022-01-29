@@ -234,6 +234,39 @@ PRs (Dave/Nat)
 
 Issues (Dave/Nat)
 =====================
+
+* #456 - Proposal - should we remove support for refresh token rotation from FAPI 2.0 (one of the drafts)
+
+Is there value in refresh token cycling with confidential clients?
+
+One use case is for migrating between competitor’s identity server, but it is questionable whether it should be considered a factor for supporting refresh token rotation.
+
+OP must not support refresh token rotation and RPs must support it.
+
+What is the user expectation when the existing refresh token expires? If a confidential client’s secret is compromised, do all users must go through reauthentication? 
+
+User’s will need to go through the whole flow again to get a new refresh token.
+
+It might be OK if we’re banning refresh token recycling not because of a security issue but because of a user experience issue.
+
+As a TPP, if a bank has a communication problem and throws away a client’s refresh tokens, TPP customer’s will lose access to the resources which may be critical. This will become a security issue.
+
+Users will need to reauthenticate to get access, but as a TPP, the user’s might not be present at the time.
+
+This creates risk but may not be a security problem.
+
+The current mechanisms available to support refresh token recycling do not have necessary resilience to support it. 
+
+Therefore, the protocol should prohibit it or add a security consideration to recommend against support due to resiliency risk.
+
+We should recommend against support but not ban it.
+
+Perhaps some wording to say must not rotate refresh tokens unless the implementation has some mechanism for the client to recover from failed refresh tokens easily.,
+
+CDR has mechanism for issuing refresh token where old refresh tokens are valid until the new one has been used.
+
+Will need more discussion.
+
 AOB (Nat)
 =================
 
