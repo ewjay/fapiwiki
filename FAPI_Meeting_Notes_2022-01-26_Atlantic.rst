@@ -206,9 +206,6 @@ PRs (Dave/Nat)
 Issues (Dave/Nat)
 =====================
 
-The Strategic Task Force, a subset of the Board, is keen to learn more about how OIDF might support healthcare and IoT use cases. At least one market is considering FAPI for healthcare. IoT is another area where our standards might find traction. If you or one of your colleagues have experience and relationships in those domains please contact Gail (gail@oidf.org) and/or Mike Lescz(mike.leszcz@oidf.org), as we’re keen to see how we might add value to those domains.
-
-
 
 
 AOB (Nat)
@@ -216,6 +213,8 @@ AOB (Nat)
 The following was mentioned: 
 
 The Strategic Task Force, a subset of the Board, is keen to learn more about how OIDF might support healthcare and IoT use cases. At least one market is considering FAPI for healthcare. IoT is another area where our standards might find traction. If you or one of your colleagues have experience and relationships in those domains please contact Gail (gail@oidf.org) and/or Mike Lescz(mike.leszcz@oidf.org), as we’re keen to see how we might add value to those domains.
+
+
 
 
 
