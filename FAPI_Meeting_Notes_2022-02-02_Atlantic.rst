@@ -107,7 +107,7 @@ The Strategic Task Force, a subset of the Board, is keen to learn more about how
 Specs
 ================
 FAPI DCR/M (Dynamic client registration and Management) (Joseph)
------------------------------------------------------ --------------------
+-------------------------------------------------------------------------
 * https://bitbucket.org/openid/fapi/issues/466/proposal-for-fapi-dcr-dcm-dynamic-client
 
 
