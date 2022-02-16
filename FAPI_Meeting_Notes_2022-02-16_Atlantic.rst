@@ -68,7 +68,7 @@ ISO/TC68 (Nat/Dave)
 * ISO　24366  Natural Person Identifier (NPI): Published Nov 2021. 
 * ISO NP 24377 Natural person identifier (NPI) -- authentication, issuance
 and identification: Starting
-* ISO 5009　Official organizational roles — Scheme for official organizational roles: Published. MA is being set up. 
+* ISO 5009　Official organizational roles — Scheme for official organizational roles: Published Feb 2022. MA is being set up. 
 
 The Middle East and North Africa (Ali)
 ---------------------------------------
