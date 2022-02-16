@@ -14,7 +14,7 @@ The meeting was called to order at 14:__ UTC.
 Roll Call (Nat)
 ======================
 * Attending: 
-* Regrets:
+* Regrets: Dave Tonge
 * Guest: 
 
 Adoption of Agenda (Nat)
