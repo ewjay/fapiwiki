@@ -165,9 +165,9 @@ PRs (Dave/Nat)
   * Referencing external sources might be better but currently there is no such reference for TLS 1.2.
   * IETF will replace it with TLS 1.3 instead of updating BCP for TLS 1.2.
   * Consultation/collaboration with other groups (FDX) might be needed for appropriate requirements.
-What happens when legislation weakens allowed ciphers? How would OIDF handle certifications for ecosystems that are contradictory to specs? 
+  * What happens when legislation weakens allowed ciphers? How would OIDF handle certifications for ecosystems that are contradictory to specs? 
   * Language allowing for jurisdiction specific flexibility will maintain compliance but is it something we want to do?
-Need clause requiring clients to support TLS 1.3 because server may only support TLS 1.3.
+  * Need clause requiring clients to support TLS 1.3 because server may only support TLS 1.3.
   * Change text to allow the 4 mentioned ciphers or stronger.
   * If spec allows stronger ciphers, why not move to TLS 1.3 instead of adding to TLS 1.2?
   * Limit TLS 1.2 ciphers to keep backwards compatibility otherwise use TLS 1.3.
