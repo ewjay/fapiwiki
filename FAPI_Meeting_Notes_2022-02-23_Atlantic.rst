@@ -15,13 +15,32 @@ Roll Call (Nat)
 ======================
 * Attending: 
 
+  * Brian Campbell
+  * Chris Michael
+  * Daniel Fett
+  * Dave Tonge
+  * Dima Postnikov
+  * Joseph Heenan
+  * Lukasz Jaromin
+  * Michael Palage
+  * Mike Leszcz
+  * Nat Sakimura
+  * Rifaat Shekh-Yusef
+  * Stuart Low
+  * Kosuke Koiwai
+  * Sunpreet
+
 
 * Regrets: Dave Tonge
 * Guest: 
 
 Adoption of Agenda (Nat)
 ================================
-* 
+* Security Analysis
+* IETF
+* FAPI 2.0 Timeline
+* Issues
+
 
 Events (Nat)
 ======================
@@ -36,19 +55,96 @@ OAuth Security Workshop (Daniel)
 * Submissions can be done through calls for sessions page. 
 
 
+IETF
+-----------------------------------
+https://www.ietf.org/how/meetings/113/
+
+19 Mar 2022 - 25 Mar 2022
+
+Hybrid model with virtual and in-person in Vienna at the end of March.
+
+OAuth WG will host 2 sessions. Interested parties are encouraged to attend.
+
+
+OIDF IIW Workshop
+-----------------------------------
+End of April
+
+Looking for presenters
+
+
+EIC
+-----------------------------------
+May
+
+
+
+Security Analysis
+======================
+The purpose of security analysis is make sure security mechanisms are correct and to answer remaining questions :
+* ID token in front channel
+
+Will be conducted in 2 parts
+* OIDF will sponson first half  to be conducted by University of Stuttgart
+* The Australian government will sponsor the second half.
+
+Scope will involve 
+* Formalizing the current specification and dependent specs( DPoP, etc..)
+* Formal definition of security properties
+* Conduct proof to show FAPI 2.0 is secure
+
+Security analysis on FAPI 2.0 Baseline first and then Advanced will come later.
+
+WG needs to set an expectation of scope of the analysis.
+* Baseline
+* Dynamic client registration (Australia is interested but not required in Baseline)
+* Questions that need to be answered by analysis.
+
+Daniel has written a document describing the project.
+https://docs.google.com/document/d/1ygOFAylABXmQe65SMx1KifqA2Te0d_rrppO0hxByUnI/edit?usp=sharing
+
+WG members should review the  document and comment regarding scope, identify potential questions, and areas in specification that need focus.
+
+Feedback requested by the end of the week.
+
+Australia uses a  version of Dynamic Client Registration that is compatible with IETF RFC.
+
+Should we still perform analysis on such? 
+
+OIDC DCR has only a small portion relevant to security. Maybe the model is still the same or requires a small change.
+
+DCR by itself may not be complicated, but establishing trust in relation to the registers will be complicated.                                     
+
+Trust questions are out of scope for security analysis but the Australian university may consider it as part of their work scope.
+
+Other points to consider :
+* RAR
+* Grant Management
+
+Getting analysis on Baseline and non-jurisdiction based parts will be a good start.
+
+FAPI 1.0 analysis included OIDC and OAuth.
+
+FAPI 2.0 model will be based on FAPI 1.0 model and so will include OIDC and OAuth.
+
+
+FAPI 2.0 Timeline
+================================
+Possible timelines:
+
+ID2 end of March
+
+FAPI 2.0 Baseline conformance suite beta in March
+
+FAPI 2.0 Baseline Conformance certification around June
+
+
+
+
 Internal Liaison (Nat)
 ================================
 iGov WG (Nat)
 -----------------
-* PassKey proposal by Apple (Nat)
-    * There are discussions going on in W3C, and Microsoft and Google are likely to follow Apple.
-https://github.com/w3c/webauthn/wiki/Explainer:-broadening-the-user-base-of-WebAuthn#device-key-extension
-
-There seems to be some security implications. It may not be classified or assigned AAL in terms with current SP-800-63-4 drafts.
-
-Interested parties should join the discussions.
-
-NIST SP-8-00-63-4 was supposed to be released at the end of January but will be delayed until April due to biometrics discussions.
 
 Modrna WG 
 -------------------------
@@ -58,47 +154,28 @@ External Organizations (Nat)
 ===================================
 Australia (Gail/Mike L.)
 ------------------------------------
-Continued to collaborate with DSB to find academic partner in Australia to perform security analysis with U. Stuttgart.
-
-DSB timeline schedule is quite challenging and U. Stuttgart is evaluating the feasibility.
-
-Deadline is late summer/late fall this year.
 
 
 Brazil (Mike L.)
 ---------------------------
-Meeting with open insurance brazil yesterday. 
 
-Very early on but they probably adopt OBB Security (FAPI) and certification.
-
-70 institutions for OIB.
-
-Outreach workshops will probably help.
-
-Phase 1 certifications are expected this summer.
 
 Berlin Group (Dave)
 --------------------------------
-* skipped
+
 
 FDX (Mike L.)
 ------------------
-* n/a
+
 
 GAIN (Gail/Mike L.)
 ---------------------
-OIDF BOD approved MOU and participation agreements.
 
-The latter will be sent out this morning for signatures.
-
-GAIN PoC Community Group will be published on the OIDF site.
-
-A separate page will list executed participation agreements.
 
 
 GOFCOE (Don)
 -------------------
-* n/a
+
 
 ISO/TC68 (Nat/Dave)
 ----------------------
@@ -117,22 +194,17 @@ The Middle East and North Africa (Ali)
 
 Nigeria (Mike)
 ---------------
-Had the first call this monday. 
-
-Strong need for USSD support for feature phones. Will setup deeper technical dive into FAPI and MODRNA to understand USSD requirements.
 
 Mexico (Gail)
 ------------------
-n/a
+
 
 Russia (Dima/Mike)
 --------------------
-n/a
+
 
 UK (Chris)
 --------------------
-* 3.1.0 is out for consultations including. Variable Recurring Payments. 
-* Link: https://www.openbanking.org.uk/news/your-chance-to-have-your-say-on-version-3-1-10-of-the-obie-standard/
 
 USA (Gail)
 ----------------
@@ -168,7 +240,31 @@ FAPI DCR/M (Dynamic client registration and Management) (Joseph)
 
 Grant Management (Dima)
 ----------------------------------------
-* Working on some PRs and issues
+
+JARM
+----------------------------------------
+JARM is still in implementer’s spec and is referenced by FAPI 1.0 final which is problematic.
+
+Needs to be finalized.
+
+Need to update FAPI 1.0 references.
+
+Not mentioned in FAPI 2.0 Baseline and not much used in the market, so should we still put significant effort into it?
+
+It’s referenced in FAPI 1.0 final and FAPI 2.0 advanced so we should continue it to finalization.
+
+Depending on the results of security analysis, we may need to bring JARM back into Baseline.
+
+Are there current market implementations of it? Authlete, Filip’s Node, IdP, Key Cloak, various implementations passed JARM certification listed at https://openid.net/certification/#FAPI_OPs
+
+Also mandated in Australia with code flow and PKCE/JARM. 
+
+Members to review JARM to see if there are any open issues.
+
+JARM tests are included in the FAPI 1.0 conformance suite and are included in certification results.
+
+WG to  finalize JARM, hopefully without breaking changes.
+
 
 
 PRs (Dave/Nat)
@@ -179,52 +275,22 @@ PRs (Dave/Nat)
 Issues (Nat)
 =====================
 
-#475 - certification: FAPI2-Baseline - is OpenID Connect support optional?
+#411- http-signing
 ------------------------------------------------------------------------------------
-* #475 
-Discussed in detail last week.
+* #411 
+
+Need decision on HTTP signing and DPoP.
+
+Cavage spec is now on the standards track but still far from final.
+
+The new draft is also dependent on a new digest headers draft for digesting payload content.
+
+The HTTP signing spec is only a toolkit/framework. FAPI WG will need to profile it to specify what is signed in the request and response.
+
+Update issue with current relevant information to facilitate discussion.
 
 
-#469 - Add protocol version and variant identifier
-------------------------------------------------------------------------------------
-* #469 
 
-Allows AS to determine which protocol version the request is for without analyzing the request.
-
-Keep open until security analysis is done.
-
-Mixing up two protocols might have some consequences if using same endpoint for 2 protocol versions.
-
-Might be useful in multi-tenant situations and migration from FAPI 1.0 to 2.0.
-
-
-#476 - is response_type=code id_token permitted in FAPI2 Baseline? (Joseph)
-------------------------------------------------------------------------------------
-* #476
-
-Dynamic client registration spec explicitly says that clients using hybrid must request the implicit grant.
-
-Might impact OAuth 2.1
-
-The assumption of “token returned from the front channel” is an access token.
-
-May need to update OIDC Core Errata also.
-
-FAPI 2.0 Advance allows ID Token in the front channel for backwards compatibility.
-
-Prohibiting would have ramifications on various specs.
-
-ID Tokens in the front-channel can be modified so RP cannot be certain if ID Token has not been compromised.
-
-Attacker can intercept  request and fetch new ID Token for the same nonce.
-
-If using PAR, the attacker cannot get nonce to switch ID Tokens.
-
-Is there any material exploit if the ID Token is attacked?
-
-FAPI 1.0 supported this response type. Disallowing it would question the work of FAPI 1.0.
-
-Daniel will double check formal analysis of FAPI 1.0 / 2.0 to make sure this is not a problem.
 
 
 AOB (Nat)
