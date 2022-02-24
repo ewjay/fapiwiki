@@ -82,13 +82,16 @@ May
 Security Analysis
 ======================
 The purpose of security analysis is make sure security mechanisms are correct and to answer remaining questions :
+
 * ID token in front channel
 
 Will be conducted in 2 parts
+
 * OIDF will sponson first half  to be conducted by University of Stuttgart
 * The Australian government will sponsor the second half.
 
 Scope will involve 
+
 * Formalizing the current specification and dependent specs( DPoP, etc..)
 * Formal definition of security properties
 * Conduct proof to show FAPI 2.0 is secure
@@ -96,6 +99,7 @@ Scope will involve
 Security analysis on FAPI 2.0 Baseline first and then Advanced will come later.
 
 WG needs to set an expectation of scope of the analysis.
+
 * Baseline
 * Dynamic client registration (Australia is interested but not required in Baseline)
 * Questions that need to be answered by analysis.
@@ -118,6 +122,7 @@ DCR by itself may not be complicated, but establishing trust in relation to the 
 Trust questions are out of scope for security analysis but the Australian university may consider it as part of their work scope.
 
 Other points to consider :
+
 * RAR
 * Grant Management
 
