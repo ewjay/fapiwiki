@@ -16,12 +16,17 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:  
+* Attending:  Mark, Ivan, Nat(passively), Anoop
 * Regrets:   
  
  Agenda/notes:
 
 * Reviewed Atlantic notes 
+* Security Analysis - Review block of work documented 
+https://bitbucket.org/openid/fapi/wiki/FAPI_Meeting_Notes_2022-02-23_Atlantic#rst-header-fapi-2-0-timeline
+* Grant Management - Good to come up with plan of timeline for grant management. (Dima)
+
+
  
 
 
