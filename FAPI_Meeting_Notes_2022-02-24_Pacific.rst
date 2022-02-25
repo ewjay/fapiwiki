@@ -17,7 +17,7 @@ Roll Call (Anoop)
 =====================
 
 * Attending:  Mark, Ivan, Nat(passively), Anoop
-* Regrets:   
+* Regrets:   Nat, Dima, Stuart
  
  Agenda/notes:
 
@@ -25,7 +25,6 @@ Roll Call (Anoop)
 * Security Analysis - Review block of work documented 
 https://bitbucket.org/openid/fapi/wiki/FAPI_Meeting_Notes_2022-02-23_Atlantic#rst-header-fapi-2-0-timeline
 * Grant Management - Good to come up with plan of timeline for grant management. (Dima)
-
 
  
 
