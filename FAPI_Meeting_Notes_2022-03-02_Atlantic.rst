@@ -9,7 +9,7 @@ FAPI WG Meeting Notes (2022-03-02)
 
 .. contents:: Agenda
 
-The meeting was called to order at 14:__ UTC. 
+The meeting was called to order at 14:05 UTC. 
 
 Roll Call (Nat)
 ======================
