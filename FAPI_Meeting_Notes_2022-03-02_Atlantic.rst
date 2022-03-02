@@ -136,7 +136,8 @@ Specs
 FAPI DCR/M (Dynamic client registration and Management) (Joseph)
 -------------------------------------------------------------------------
 * https://bitbucket.org/openid/fapi/issues/466/proposal-for-fapi-dcr-dcm-dynamic-client
-* Joseph to work on it
+* Joseph to work on it but is currently preoccupied with FAPI 2.0 tests. 
+* Nat pointed out that now that additional ecosystems are coming in, it is important to get at least something out as a guidance. 
 
 Grant Management (Dima)
 ----------------------------------------
@@ -144,7 +145,7 @@ Grant Management (Dima)
 
 JARM
 ----------------------------------------
-* n/a 
+* Need to move forward to get it finalized. 
 
 PRs (Dave)
 =================
