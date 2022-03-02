@@ -70,16 +70,6 @@ FDX (Mike L.)
 GAIN (Gail/Mike L.)
 ---------------------
 
-
-
-GOFCOE (Don)
--------------------
-
-
-ISO/TC68 (Nat/Dave)
-----------------------
-* 
-
 The Middle East and North Africa (Ali)
 ---------------------------------------
 
@@ -102,7 +92,7 @@ Draft NISTIR8389 Cybersecurity Considerations for Open Banking Technology and Em
 
 Due: March 3
 
-Purpose and audience of paper unclear. Dima will reach out to authors.
+Purpose and audience of paper unclear. Dima will reach out to the authors.
 
 API security section is paltry.
 
