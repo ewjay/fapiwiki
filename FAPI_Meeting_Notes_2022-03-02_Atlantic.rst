@@ -120,12 +120,12 @@ JARM
 
 
 
-PRs (Dave/Nat)
+PRs (Dave)
 =================
 
 
 
-Issues (Nat)
+Issues (Dave)
 =====================
 
 
