@@ -149,11 +149,12 @@ JARM
 
 PRs (Dave)
 =================
-n/a
-
+All the PRs are Dave's apart from the initial draft still being worked on by Dima, and Dave had to leave the meeting today early, we skipped the discussion. 
 
 Issues (Dave)
 =====================
+Following new issues were discussed and opened. 
+
 * #473 FAPI2 JWS alg choices are much wider than FAPI1
 * #470 Are unsigned id_tokens permitted in FAPI2 baseline?
 * #471 Resolve '?' in FAPI1 vs FAPI2 differences table
@@ -166,4 +167,4 @@ AOB (Nat)
 n/a
 
 
-The call adjourned at 14:02 UTC
+The call adjourned at 15:02 UTC
