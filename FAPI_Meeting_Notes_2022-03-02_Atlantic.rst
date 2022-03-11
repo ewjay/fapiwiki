@@ -13,7 +13,27 @@ The meeting was called to order at 14:05 UTC.
 
 Roll Call (Nat)
 ======================
-* Attending: 
+Attending
+------------------
+* David Januchowski (Okta)
+* Joseph Heenan (Authlete / OpenID Foundation)
+* Takahiko Kawasaki
+* Michael Palage
+* Nat Sakimura
+* Dima Postnikov
+* Daniel Fett (Yes)
+* Mike Leszcz
+* Adrian Field
+* Rifaat Shekh-Yusef (Okta)
+* Kosuke Koiwai
+* Elizabeth Garber
+* Chris Michael
+* George Fletcher
+* Dave Tonge
+* Travis Spencer (Curity)
+* Brian Campbell
+* Ralph Bragg
+
 * Regrets: 
 * Guest: 
 
