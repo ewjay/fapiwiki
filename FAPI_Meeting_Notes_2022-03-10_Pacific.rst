@@ -34,11 +34,11 @@ Roll Call (Anoop)
 * * White paper published https://gainforum.org/GAINWhitePaper.pdf last year focussing on global identity . Part of eKYC to get more details.
 * Google Privacy SandBox - May have an impact on FAPI. It essentially may disable re-direct protocols. It is going to affect many other groups work.
 
-    W3C Federated ID CG:https://www.w3.org/community/fed-id/
-    W3C Privacy CG: https://www.w3.org/community/privacycg/
-    https://privacysandbox.com/open-web/#the-privacy-sandbox-timeline
-    https://github.com/fedidcg/meetings/blob/main/2022/2022-02-14-notes.md
-    https://github.com/whatwg/html/issues/6364
+* * W3C Federated ID CG:https://www.w3.org/community/fed-id/
+* *     W3C Privacy CG: https://www.w3.org/community/privacycg/
+* *     https://privacysandbox.com/open-web/#the-privacy-sandbox-timeline
+* *     https://github.com/fedidcg/meetings/blob/main/2022/2022-02-14-notes.md
+* *     https://github.com/whatwg/html/issues/6364
 * Consider reviewing FAPI _ "Financial-Grade" - Fortified #479 - https://bitbucket.org/openid/fapi/issues/479/change-to-the-naming-of-fapi 
 
 * Time Change ??? - DST (No change)
