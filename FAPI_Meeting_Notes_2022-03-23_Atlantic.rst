@@ -103,6 +103,9 @@ The second session was rescheduled.
 
 OECD (Nat)
 -------------
+Data Portability/Open Banking workshop was held for two days last week. 
+FAPI was mentioned a couple of times there. 
+It will be an input to the respective committees to be held in April and expected to influence the report/legal instruments that are to be published later. 
 
 UK (Chris)
 --------------------
