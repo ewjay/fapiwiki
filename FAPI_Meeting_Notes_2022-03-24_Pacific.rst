@@ -16,12 +16,15 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:  
+* Attending:  Mark, Anoop, Ed, Dima, Nat
 * Regrets:    
  
  Agenda/notes:
 
 * Reviewed Atlantic notes 
+* * Follow up on JARM reference - Keyword/ISO topic from Atlantic call. @Nat. We can cover in next call.
+* NIST response sent and waiting on response.
+* OECD Workshop reported oN AU Open Banking. 
  
 
 
