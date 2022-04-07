@@ -100,7 +100,7 @@ ISO/TC68 (Nat/Dave)
 
 The Middle East and North Africa (Chris)
 -----------------------------------------
-In process to schedule call with Open Banking Saudi Arabia to focus on technical aspects specification and certification.
+In process to schedule call with Open Banking Saudi Arabia to focus on technical aspects of specifications and certification.
 
 Dubai International Center asked Mayer Brown law firm (UK) to help update the laws to support advancement of digitalization of financial services businesses in the region.
 
@@ -211,14 +211,11 @@ Issues (Dave)
 * #480  - Baseline: shall support authorization details if scope is not expressive enough needs enhancement to cover standard oidc claims.
 
   * Currently, there is text that
-  * 
-.. sourcecode:: text
-
-    AS shall support the `authorization_details` parameter according to RAR to convey the authorization clients want to obtain if the `scope` parameter is not expressive enough for that purpose
+  * AS shall support the `authorization_details` parameter according to RAR to convey the authorization clients want to obtain if the `scope` parameter is not expressive enough for that purpose
   * There was prior discussion to create a separate profile for advance authorization protocol that provides guidance for these use cases and grant management..
   * Text has been removed from Grant management but is still present in Baseline.
   * Separate the advanced authorization requirements from the security profile.
-  * Action to emove  clause from Baseline.
+  * Action to remove  clause from Baseline.
 
 * #336 - FAPI 2 Baseline - Client types
 
