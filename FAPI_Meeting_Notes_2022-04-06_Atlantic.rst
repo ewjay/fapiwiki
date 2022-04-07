@@ -211,7 +211,7 @@ Issues (Dave)
 * #480  - Baseline: shall support authorization details if scope is not expressive enough needs enhancement to cover standard oidc claims.
 
   * Currently, there is text that
-  * AS shall support the `authorization_details` parameter according to RAR to convey the authorization clients want to obtain if the `scope` parameter is not expressive enough for that purpose
+  * AS shall support the *authorization_details* parameter according to RAR to convey the authorization clients want to obtain if the *scope* parameter is not expressive enough for that purpose
   * There was prior discussion to create a separate profile for advance authorization protocol that provides guidance for these use cases and grant management..
   * Text has been removed from Grant management but is still present in Baseline.
   * Separate the advanced authorization requirements from the security profile.
