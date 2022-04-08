@@ -16,14 +16,17 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:   
+* Attending:   Nat, Dima, Ed, Vikram, Anoop.
 * Regrets:    
  
  Agenda/notes:
 
 * Reviewed Atlantic notes 
-* * Follow up on JARM reference - Keyword/ISO topic from Atlantic call. @Nat. We can cover in next call.
-*   
+* Follow up on JARM reference - Keyword/ISO topic from Atlantic call. @Nat. We can cover in next call.
+* * AU & Brazil are using JARM. 
+* * 
+* https://bitbucket.org/openid/fapi/issues/479/change-to-the-naming-of-fapi 
+* https://bitbucket.org/openid/fapi/issues/469/add-protocol-version-and-variant
  
 
 
