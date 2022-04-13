@@ -14,7 +14,7 @@ The meeting was called to order at 14:__ UTC.
 Roll Call (Nat/Dave)
 ======================
 * Attending: 
-* Regrets: 
+* Regrets: Mike L. 
 * Guest: 
 
 Adoption of Agenda (Nat)
@@ -25,11 +25,12 @@ Events (Nat)
 ======================
 OpenID Foundation Mountainview Workshop (Mike)
 ----------------------------------------------------
-April 25 @ Google. 
+* April 25 @ Google. 
+* Link: https://openid.net/2022/03/22/registration-open-for-openid-foundation-workshop-at-google-monday-april-25-2022/
+* Hybrid 
+* Registration needed and is closing in a few days: https://openid.net/2022/03/22/registration-open-for-openid-foundation-workshop-at-google-monday-april-25-2022/
 
-https://openid.net/2022/03/22/registration-open-for-openid-foundation-workshop-at-google-monday-april-25-2022/
 
-Hybrid 
 
 OpenID Foundation Berlin Workshop (Mike)
 ------------------------------------------
@@ -37,9 +38,20 @@ May 10, Tue.
 
 https://www.kuppingercole.com/sessions/5048/1
 
+OSW 2022 (Daniel)
+--------------------
+* May 4 - 6 @ Trondheim
+* In-person only
+* https://oauth.secworkshop.events/osw2022
+
+OIDF and Microsoft sponsored the event. 
+ 
+Tickets are still available. 
+
 
 Internal Liaison (Nat)
 ================================
+n/a
 
 
 External Organizations (Nat)
@@ -50,16 +62,41 @@ n/a
 
 Brazil (Mike L.)
 ---------------------------
-Mike, Gail, Joseph had call with Open Insurance Brazil
+n/a
 
-Will do follow up call today regarding certification process and requirements 
-
-Plan to start certifications in June 2022
-
-Mike will give update next week
-
-Berlin Group (Dave)
+Berlin Group (Daniel)
 --------------------------------
+Follow up meeting has not happened but wrote that certain technical items. 
+
+Regulators in Israel asked BG to a localised version of the 1st phase of OB implementation. 
+(Account info)
+
+Payment initiation hoping to align both BG and FAPI. 
+
+Global Open Finance Technical Working Group has a plan to meet on May 5. 
+Dave and Gail will be presenting on behalf of OIDF. 
+
+Global Open Finance Technical Standards Work Group Meeting- Member Presentation: OpenID Foundation presentation on Open Banking, Open Data and Financial-grade APIs
+OpenID Foundation Whitepaper on Open Banking
+International movement towards Open Banking, Open Finance, and secure, consent driven access to all user data.
+Financial-Grade API (FAPI) Working Group’s experience with Open Banking ecosystems internationally
+Process of standards development, user experience, consent flow, security research
+Attack and threat model, mathematical proofs, testing implementations
+The role of conformance testing in driving out inefficiency and improving security
+Selected studies in implementation (UK, Australia, Brazil). What did we learn?
+Questions and comments
+Member Presentation: Berlin Group
+Story of Berlin Group and PSD2
+Structure, Governance, standards development,
+Specifications rather than implementation
+From PSD2 to Open Finance - scope of thinking
+Exploring relationship with FAPI
+Questions and Comments
+
+Brian.Costello@ed.ac.uk
+
+5 May from 11:00 AM – 13:00 PM BST.
+
 
 FDX (Mike L.)
 ------------------
@@ -67,37 +104,26 @@ FDX (Mike L.)
 
 GAIN (Mike L.)
 ---------------------
+* CG meeting is going well. 
+* Speaking at EIC, Identiverse, etc. 
 
 ISO/TC68 (Nat/Dave)
 ----------------------
-* ISO/TS 14742　Recommendations on cryptographic algorithms and their use: Started
-* ISO 11568　Key management (retail) -- Principles, symmetric ciphers and asymmetric cryptosystems, their key management and life cycle: DIS
-* ISO 23195 Security objectives of information systems of third-party payment services: Published June 2021
-* ISO/NP TS 9546 Guidelines for security framework of information systems of TPP services: Starting
-* ISO/AWI 5158  Customer identification guidelines: KYC related spec. DIS. 
-* ISO/AWI 5201  customer identification guidelines: QRcode/Barcode payment security. WD. 
-* ISO　24366  Natural Person Identifier (NPI): Published Nov 2021. 
-* ISO NP 24377 Natural person identifier (NPI) -- authentication, issuance and identification: Starting
-* ISO 5009　Official organizational roles — Scheme for official organizational roles: Published Feb 2022. MA is being set up. 
+* n/a
 
 The Middle East and North Africa (Chris)
 -----------------------------------------
-In process to schedule call with Open Banking Saudi Arabia to focus on technical aspects of specifications and certification.
-
-Dubai International Center asked Mayer Brown law firm (UK) to help update the laws to support advancement of digitalization of financial services businesses in the region.
-
-Ali Had discussion with them regarding what needs to be regulated, what needs to be market driven, security and conformance testing.
-
-Ali asked them to speak with OIDF and will coordinate meeting with Gail.
-
+* Israel: see BG. 
+* Saudi: Waiting for project to officially kick off. 1st standard to come in June. Very strong regime of certification. 
+* UAE etc. would be following soon. 
 
 Mexico (Gail)
 ------------------
-n/a
+* n/a
 
 Nigeria (Mike)
 ---------------
-In process to schedule second call.
+In the process to schedule a second call.
 
 OECD (Nat)
 -------------
@@ -105,47 +131,80 @@ OECD (Nat)
 
 UK (Chris)
 --------------------
+* Published ver. 3.1.10 -- final version to be published under CMA order. 
+* What happens to OBIE, Open Finance, etc. is not known yet. 
+
 
 USA (Gail)
 ----------------
 n/a 
 
 
-Specs (Dave)
+Specs (Nat)
 ================
 Grant Management (Dima)
 ----------------------------------------
-
+n/a
 
 
 FAPI DCR/M (Dynamic client registration and Management) (Joseph)
 -------------------------------------------------------------------------
-
+* No updates in spec. 
+* Brazil is using subject dn in DCR but changing CA later this year. 
 
 Advanced authorization (Dima)
 ----------------------------------
-To be addressed after Grant Management. 
+n/a
 
-FAPI 2 Attack, Baseline and Advanced (Dave)
+FAPI 2 Attack, Baseline and Advanced (Daniel)
 ----------------------------------------------
-Aiming to get to the first implementer's draft for the end of April. 
+* Perhaps look at the open issues at OSW. 
 
-JARM (Dave)
+JARM (Brian)
 ----------------------------------------
-
+* PR is being prepared. 
 
 PRs (Dave)
 =================
-N/A
+PR323 (Brian)
+-------------------
+* To be merged. 
+
+PR315 
+-------------------
+* Change to a note. 
+* Move to "advanced" as there is no JARM in baseline anymore. 
+
+PR324 Remove reference to RAR in FAPI 2 baseline (Dave)
+---------------------------------------------------------
+* Brian asked if it is wise to push all the authorization stuff to advanced. 
+* Joseph seconded. 
+* Perhaps call for an additional co-editor? 
+
+PR325 
+---------------------------------------------------------
+
+PR322 Pull-in key management clauses
+---------------------------------------------------------
+* Build error needs to be fixed. 
+* Joseph pointed out that we technically require jwks_uri - we require OIDC discovery, and jwks_uri is required in Final: OpenID Connect Discovery 1.0 incorporating errata set 1. 
+* Will continue discussing. 
+
+PR326 FAPI2Base: Disallow dpop nonces
+---------------------------------------------------------
+* WG agreed to remove dpop nonces on the condition that if the FV finds it to be needed we add it back. 
+* We need to have a new issue around the OIDC nonce. 
 
 Issues (Dave)
 =====================
+We were not able to cover it. 
 
 
 
 AOB (Nat)
 =================
-n/a
+* Please review https://bitbucket.org/openid/fapi/issues/492/eddsa-in-fapi-20
+
 
 
 The call adjourned at 15:00 UTC
