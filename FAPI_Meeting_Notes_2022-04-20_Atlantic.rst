@@ -181,11 +181,26 @@ JARM (Brian)
 
 PRs (Dave)
 =================
+PR327
+-------------------
+* Linked to #492. 
+* There was general support for EdDSA to be added as an option. 
+* Support for EdDSA was introduced in Nimbus JOSE+JWT 6.0. Note that for EdDSA you need to include the optional Tink dependency in your project. For Nimbus JOSE+JWT 6.0 that would be
+* Joseph expressed concern from the point of view of the interoperability guarantee that certification currently markets itself. 
+
+PR325
+--------------
 
 
 Issues (Dave)
 =====================
-We were not able to cover it. 
+
+
+#494 FAPI1Adv: Apparent inconsistency in RP tests compared to OP tests
+--------------------------------------------------------------------------
+
+
+
 
 
 
