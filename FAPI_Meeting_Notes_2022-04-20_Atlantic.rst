@@ -282,16 +282,16 @@ PRs (Dave)
   * Support for EdDSA was introduced in Nimbus JOSE+JWT 6.0. Note that for EdDSA you need to include the optional Tink dependency in your project. For Nimbus JOSE+JWT 6.0 that would be
   * Joseph expressed concern from the point of view of the interoperability guarantee that certification currently markets itself. 
 
-  * There are no requirements for signature algorithms at the moment (ID tokens, private key JWT, DPoP, etc..)
-  * Do we need to tighten the specs?
-  * Previously, not much issue with library support of PS256, ES256. But EdDSA may not have the same support.
-  * Might be worthwhile to add EdDSA as an option in light of Java vulnerability, but not require it
-  * Adding it does not mean all RPs and OPs must support all of them
-  * But we should make sure a certified RP will always work with a certified OP
-  * OPs can choose supported algorithms, RPs need to support chosen algorithms of the OP.
-  * Tests can issue failures for RPs that don’t support all of them?? This will be considered as a separate issue
+    * There are no requirements for signature algorithms at the moment (ID tokens, private key JWT, DPoP, etc..)
+    * Do we need to tighten the specs?
+    * Previously, not much issue with library support of PS256, ES256. But EdDSA may not have the same support.
+    * Might be worthwhile to add EdDSA as an option in light of Java vulnerability, but not require it
+    * Adding it does not mean all RPs and OPs must support all of them
+    * But we should make sure a certified RP will always work with a certified OP
+    * OPs can choose supported algorithms, RPs need to support chosen algorithms of the OP.
+    * Tests can issue failures for RPs that don’t support all of them?? This will be considered as a separate issue
 
-* Will merge if no objections
+  * Will merge if no objections
 
 * PR #325 - Add Scope and terms
 
