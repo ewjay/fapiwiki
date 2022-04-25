@@ -27,7 +27,7 @@ Roll Call (Anoop)
 * Issue #469. Version profile. In Atlandtic call this has been discussed there is a different point of view. If there is different POV then we should update the issue.
 * * How is transition between supporting FAPI profiles? Mark to review and provide input.
 * * https://bitbucket.org/openid/fapi/issues/469/add-protocol-version-and-variant
-* Change name of FAPI Issue #479. - There is push back on nameing . The concern/sentiment was - it already provides a level of financial grade even a finanacial entity can implement. They did not want yet another name change. More constructive was explaination of financial grade level. Fortified means something but not concrete as Financial Grade - which explain as fianancial grade level.
+* Change name of FAPI Issue #479. - There is push back on name proposal . The concern/sentiment was - it already provides a level of financial grade even a finanacial entity can implement. They did not want yet another name change. More constructive was explaination of financial grade level. Fortified means something but not concrete as Financial Grade - which explain as fianancial grade level.
 * FAPI1Adv - Issue # 494
 * * It may cause interoperability issue, Not prohibited in spec to return only the subset it could expand the scope at its indescretion. 
 * * Expected : The spec should generate an error when subset is returned. Not to return scope that has not been asked.
