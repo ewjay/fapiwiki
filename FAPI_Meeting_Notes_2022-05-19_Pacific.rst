@@ -21,7 +21,7 @@ Roll Call (Anoop)
  
 
  Agenda/notes:
-* Not enough quorum - Ending call Early
+* Not enough quorum - **Ending call Early**
 * Add next meeting agenda - Ivan has question Dynamic Registration for Dima
 
 * * Issues Review
