@@ -16,15 +16,18 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:    
+* Attending:    Ivan, Anoop 
 * Regrets:    
  
- Agenda/notes:
 
-* Issues Review
-* Liaisons updates
+ Agenda/notes:
+* Not enough quorum - Ending call Early
+* Add next meeting agenda - Ivan has question Dynamic Registration for Dima
+
+* * Issues Review
+* * Liaisons updates
  
-* The meeting was adjourned at 01:48 UTC.
+* The meeting was adjourned at 01:05 UTC.
 
 Next Call
 ==============================
