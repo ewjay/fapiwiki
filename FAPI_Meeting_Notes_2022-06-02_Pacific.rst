@@ -23,7 +23,7 @@ Roll Call (Anoop)
  Agenda/notes:
 *  Ivan has question Dynamic Registration for Dima
 * Issues Reviewed
-* * https://bitbucket.org/openid/fapi/issues/479/change-to-the-naming-of-fapi (Updated)
+* * https://bitbucket.org/openid/fapi/issues/479/change-to-the-naming-of-fapi (Updates)
 * Liaisons updates
 * Need Alternate Host - Anoop is out on vacation time (6/8 - 6/22) 
 
