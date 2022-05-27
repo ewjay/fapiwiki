@@ -164,7 +164,7 @@ PRs (Dave)
 Issues (Dave)
 =====================
 
-493 - certification query: supply of TLS client certs & use of mtls_endpoint_aliases
+#493 - certification query: supply of TLS client certs & use of mtls_endpoint_aliases
 --------------------------------------------------------------------------------------
 
 #493 - certification query: supply of TLS client certs & use of mtls_endpoint_aliases
@@ -199,7 +199,7 @@ Joseph will summarize the issue and draft a PR with note.
 
 
 
-495 - Certification: Requirements for alg support in RPs/OPs
+#495 - Certification: Requirements for alg support in RPs/OPs
 -------------------------------------------------------------
 #495 - Certification: Requirements for alg support in RPs/OPs
 
