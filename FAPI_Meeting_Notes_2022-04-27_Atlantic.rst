@@ -42,7 +42,7 @@ Events (Nat)
 ======================
 
 OSW 2022 (Daniel)
-------------------
+--------------------
 May 4 - 6 @ Trondheim
 In-person only
 
@@ -51,14 +51,14 @@ https://oauth.secworkshop.events/osw2022
 Event is now sold out
 
 EIC/OpenID Foundation Berlin Workshop (Mike)
---------------------------------------------
+----------------------------------------------
 May 10, Tue.
 
 https://www.kuppingercole.com/sessions/5048/1
 
 
 Identiverse
-—----------
+—------------
 Denver, Colorado  June 21-24, 2022
 
 https://identiverse.com/
