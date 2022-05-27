@@ -15,6 +15,14 @@ Roll Call (Nat/Dave)
 ======================
 * Attending: 
 
+  * Brian Campbell
+  * Dave Tonge
+  * Filip Skokan
+  * Kosuke Koiwai
+  * Nat Sakimura
+  * Ralph Bragg
+  * Takahiko Kawasaki
+
  
 
 * Regrets: 
@@ -26,11 +34,68 @@ Adoption of Agenda (Nat)
 
 Events (Nat)
 ======================
-Open Banking World Congress (Mike)
----------------------------------------
+EIC
+----------------------
+Happening this week
 
-Money 2020 
----------------
+
+Identiverse
+----------------------
+https://identiverse.com/
+
+Denver, Colorado
+
+June 21-24, 2022
+
+
+
+
+OSW 2022
+----------------------
+May 4 - 6 @ Trondheim
+
+Had WG meetings regarding FAPI 2.0 and Grant Management
+
+Resolved many issues with Grant Management and will update next draft
+
+Had discussion about RAR and it is now removed from Baseline to simplify it
+
+Have pointers to components of FAPI 2 Framework mentioned 
+
+Another idea was potentially changing FAPI 2 Advanced to FAPI 2.0 Message Signing since currently it only contains various mechanism to do message signing on authorization request/response, HTTP messages
+
+Talked about stripping CIBA out to make it work with Baseline
+
+Also Baseline will mention RAR in the introduction so it’s not normative but will reduce need for another spec
+
+Name changes will affect Australia which has 2 ecosystems.
+
+It’s using FAPI 2.0 Advanced 
+
+Not being prescriptive in specs will cause fragmentation
+
+Adopted specs should not allow picking of various components which will cause fragmentation like Australia Consumer Data Rights
+
+OIDF needs to manage the messaging of FAPI 2.0 name change
+
+Different ecosystems will have different options which will cause fragmentation leading to global interoperability problems.
+
+FAPI 2.0 Baseline will only have minimum components  needed to achieve security goals and protect against the attacker model.
+
+Ralph stated that WG needs to make global interoperability a priority rather than just certification.
+
+Keep Baseline as is but OIDF should work with various certification bodies to agree on a single security profile.
+
+Look at commonality used across ecosystems and create a profile suitable for interoperability.
+
+There seems to be confusion regarding removing the Advance profile and the creation of an Advance Authorization profile.
+
+The WG actually discussed stopping work on Advance Authorization and put pointers to RAR, Grant Management, etc. into Baseline instead. Advanced profile will remain unchanged with the possibility of a rename.
+
+Instead of requirements in a spec, it might be better to have a named set of specs and call it the Global Interoperability Profile.
+
+Dave will create/update issue and solicit feedback from WG.
+
 
 
 Internal Liaison (Nat)
@@ -117,20 +182,49 @@ JARM (Dave)
 PRs (Dave)
 =================
 
-* PR #337
-    * https://bitbucket.org/openid/fapi/pull-requests/337
+PR #315 - FAPI2 iss + JARM
+"""""""""""""""""""""""""""
+Related to #478  - FAPI2 Baseline + jarm & iss draft
 
-* PR #334
-    * https://bitbucket.org/openid/fapi/pull-requests/334
+JARM requires all parameters to be inside the JWT
 
-* PR #333
-    * https://bitbucket.org/openid/fapi/pull-requests/334
+Adds note that Iss should be in the JWT
 
-* PR #338 change user to resource owner
-    * https://bitbucket.org/openid/fapi/pull-requests/338
+Wait for Daniel’s approval before merge
 
-* PR #336 Grant Management - rename update to merge
-    * https://bitbucket.org/openid/fapi/pull-requests/336
+
+PR #333 - Link advanced profile and attacker model
+Adds attacker model and definition of non-repudiation to Advanced profile
+Leave open for comments
+
+
+PR #331 - Add clauses for dpop nonce
+AS MAY use DPoP nonce and requires SHALL for clients for interoperability reasons
+
+PR #332 - Simplify RS access token guidance
+Simplified the language requiring the AS to verify the entity associated with the access token has sufficient access for the resource
+
+
+PR #322 - Pull in key management clauses
+Related to #484 -  Key management in FAPI2 Advanced
+Still work in progress
+AddsDate header for HTTP message signing
+Added note regarding keys since HTTP Signatures does not mention them 
+RS can retrieve keys from AS, third-party, or other means.
+Adds jwks_uri as requirement for discovery
+Clients shall use jwks_uri or jwks
+
+PR #335 - Add "may" clause for client credentials grant
+Listing only client credentials grant but not others may cause confusion that it is the only accepted grant type
+Need to add note to allow other appropriate grant types
+Leave open for comments
+
+PR #334 - Restructure FAPI2 baseline
+Adds client credentials and links CIBA and other grant types
+Should separate the authorization flow and the generic clauses
+Groups authorization code flow requirements to improve readability
+Dima will double check
+
 
 Issues (Dave)
 =====================
