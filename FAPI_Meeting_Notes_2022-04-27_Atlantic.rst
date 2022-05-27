@@ -58,7 +58,7 @@ https://www.kuppingercole.com/sessions/5048/1
 
 
 Identiverse
-—------------
+—-------------
 Denver, Colorado  June 21-24, 2022
 
 https://identiverse.com/
