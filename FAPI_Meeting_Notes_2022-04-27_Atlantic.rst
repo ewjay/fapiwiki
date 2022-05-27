@@ -164,8 +164,11 @@ PRs (Dave)
 Issues (Dave)
 =====================
 
-`#493 - certification query: supply of TLS client certs & use of mtls_endpoint_aliases <#493>`
+493 - certification query: supply of TLS client certs & use of mtls_endpoint_aliases
 --------------------------------------------------------------------------------------
+
+#493 - certification query: supply of TLS client certs & use of mtls_endpoint_aliases
+
 It’s about mtls_endpoint_aliases and how that works and certification
 
 It’s problematic when used with ecosystems and PAR
@@ -196,8 +199,10 @@ Joseph will summarize the issue and draft a PR with note.
 
 
 
-#495 - Certification: Requirements for alg support in RPs/OPs
+495 - Certification: Requirements for alg support in RPs/OPs
 -------------------------------------------------------------
+#495 - Certification: Requirements for alg support in RPs/OPs
+
 Should certification reflect support for the various algs? Doing so will allow discovery of problems with various algs but will make certification tables unwieldy. There will be a presentation problem.
 
 If certifying for Eddsa, will have to support DPOP, private_key_jwt and OpenID
