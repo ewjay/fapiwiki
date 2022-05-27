@@ -164,7 +164,7 @@ PRs (Dave)
 Issues (Dave)
 =====================
 
-#493 - certification query: supply of TLS client certs & use of mtls_endpoint_aliases
+`#493 - certification query: supply of TLS client certs & use of mtls_endpoint_aliases <#493>`
 --------------------------------------------------------------------------------------
 It’s about mtls_endpoint_aliases and how that works and certification
 
