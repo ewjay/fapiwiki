@@ -238,6 +238,8 @@ Issues (Dave)
 
 #499 - Re structure FAPI2 baseline
 ----------------------------------
+#499 - Re structure FAPI2 baseline
+
 Restructure Baseline to link in other specs.
 
 Separate authorization code flow from general requirements
@@ -279,6 +281,8 @@ Grant management is about grant lifecycle management
 
 #496 - clock sync and FAPI2 baseline
 ------------------------------------
+#496 - clock sync and FAPI2 baseline
+
 DPoP nonce is supported to get around clock sync issues
 
 Are other parts of spec affected by clock sync issues like private key JWT
