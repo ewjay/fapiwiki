@@ -110,8 +110,9 @@ USA (Gail)
 
 Specs (Dave)
 ================
-Addressing "User Interface Hijack attack" in FAPI 2?
--------------------------------------------------------
+Addressing "User Interface Hijack attack" in FAPI 2? (Nat)
+-----------------------------------------------------------
+
 Grant Management (Dima)
 ----------------------------------------
 * Still updating on the updates from OSW. 
