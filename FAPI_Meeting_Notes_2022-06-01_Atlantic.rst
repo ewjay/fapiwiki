@@ -26,17 +26,18 @@ Adoption of Agenda (Nat)
 
 Events (Nat)
 ======================
-
+Identiverse (Mike)
+------------------------------
+* F2F FAPI meeting. 
+* Remote attending available. 
 
 
 Internal Liaison (Nat)
 ================================
 Certification (Joseph/Mike)
 ----------------------------
-* Working on the proposal which is shared with Chris Michael, too. 
-* Have not yet seen the concrete direction. 
-* Feedback from Radium/Ozone received. 
-* Document will be distributed for review in the FAPI ml. 
+* Norway Health Group testing FAPI 2.
+* Paypal. 
 
 
 External Organizations (Nat)
@@ -44,18 +45,20 @@ External Organizations (Nat)
 Australia (Mike L.)
 ------------------------------------
 * Work of FAPI 2.0 security analysis on the way @ U. Stuttgart. 
+* New SW Uni. 
 
 Brazil (Mike L.)
 ---------------------------
-* Call yesterday to finalize CIBA for Brazil. 
-* Certification test to be built on it. 
+* Still trying to finalize CIBA for Open Banking. 
+* Workshop for Open Insurance in July and August. 
 
 Berlin Group (Daniel)
 --------------------------------
-* Dave and Daniel had a call re: technical aspects -- steps towards FAPI adoption. 
-* Seems to be a long way. 
-* Talked about PAR and CIBA. 
-* Authorization process is tied to their API. 
+* N/A
+
+Canada (Gail)
+-----------------
+* https://docs.google.com/document/d/1-99-DU_B24NjywHpD_zS-Ga5FLoXgghRaL0DB91PvB0/edit
 
 EU DIW ARF (Gail)
 ------------------
