@@ -39,6 +39,11 @@ Certification (Joseph/Mike)
 * Norway Health Group testing FAPI 2.
 * Paypal. 
 
+Security Analysis
+---------------------------
+* Which commit to analysing? 
+* Contact points? 
+
 
 External Organizations (Nat)
 ===================================
@@ -92,9 +97,7 @@ Mexico (Gail)
 
 Nigeria (Mike)
 ---------------
-* Central bank of Nigeria published the guidance. 
-* New team members put in place. 
-* Follow up conversation is to be had. Mike has reached out this week. 
+* June 15 or 16. 
 
 OECD (Nat)
 -------------
@@ -118,43 +121,44 @@ Addressing "User Interface Hijack attack" in FAPI 2? (Nat)
 
 Grant Management (Dima)
 ----------------------------------------
-* Still updating on the updates from OSW. 
+* Please respond to https://bitbucket.org/openid/fapi/issues/439/grant-management-api-query-response
 
 
 FAPI DCR/M (Dynamic client registration and Management) (Joseph)
 -------------------------------------------------------------------------
 * N/A 
 
-Advanced authorization (Dima)
-----------------------------------
-* Decided to postpone the spec.
-
 FAPI 2 Attack, Baseline and Advanced (Daniel)
 ----------------------------------------------
-* N/A
+* Name change PR. 
 
 JARM (Dave)
 ----------------------------------------
-* Dave will start WG last call on https://openid.bitbucket.io/fapi/openid-fapi-jarm.html
+* https://openid.bitbucket.io/fapi/openid-fapi-jarm.html
  
 
 PRs (Dave)
 =================
 
-* PR #337
-    * https://bitbucket.org/openid/fapi/pull-requests/337
+To be merged
+----------------
 
 * PR #334
-    * https://bitbucket.org/openid/fapi/pull-requests/334
+    * https://bitbucket.org/openid/fapi/pull-requests/334 
 
-* PR #333
-    * https://bitbucket.org/openid/fapi/pull-requests/334
+* PE #339
+    * https://bitbucket.org/openid/fapi/pull-requests/339 
 
 * PR #338 change user to resource owner
     * https://bitbucket.org/openid/fapi/pull-requests/338
 
+Under discussion
+----------------------
 * PR #336 Grant Management - rename update to merge
     * https://bitbucket.org/openid/fapi/pull-requests/336
+
+* PR #337
+    * https://bitbucket.org/openid/fapi/pull-requests/337
 
 Issues (Dave)
 =====================
