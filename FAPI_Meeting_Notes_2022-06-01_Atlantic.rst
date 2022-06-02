@@ -113,7 +113,7 @@ Canada (Gail)
 
   * Specs are formally verified
   * Certification program verifies implementations 
-  * Serves as an informal, global defense against the global threat of criminal networks and rogue nation states…
+  * Serves as an ***informal***, global defense against the global threat of criminal networks and rogue nation states…
 
 * Capable of evolving with technological change to keep pace with the rapidly evolving sector
 
