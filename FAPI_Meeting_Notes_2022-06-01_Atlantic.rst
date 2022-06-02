@@ -15,20 +15,37 @@ Roll Call (Nat/Dave)
 ======================
 * Attending: 
 
+  * Bjorn Hjelm
+  * Dave Tonge
+  * David Januchowski
+  * Dima
+  * Gail Hodges
+  * Joseph Heenan
+  * Kosuke Koiwai
+  * Lukasz Jaromin
+  * Mike Leszcz
+  * Nat Sakimura
+  * Takahiko Kawasaki
+  * Brian Campbell
+  * Danillo Branco
+  * Don Thibeau
+  * Filip Skokan
  
-
 * Regrets: 
 * Guest: 
 
 Adoption of Agenda (Nat)
 ================================
+Added potential FAPI 2 value add
+
+Feedback on Canadian OB comments
 
 
 Events (Nat)
 ======================
 Identiverse (Mike)
 ------------------------------
-* F2F FAPI meeting. 
+* F2F FAPI meeting Wednesday 6/22 normal meeting time
 * Remote attending available. 
 
 
@@ -37,12 +54,22 @@ Internal Liaison (Nat)
 Certification (Joseph/Mike)
 ----------------------------
 * Norway Health Group testing FAPI 2.
-* Paypal. 
+* Paypal
+
+  * Discussed interoperability challenges in implementing FAPI in various jurisdictions
+  * Indicated they will move onto FAPI 2
+  * Testing FAPI 2 tests
+  * Will have meeting later
+
 
 Security Analysis
 ---------------------------
-* Which commit to analysing? 
-* Contact points? 
+* Questions from analysis team:
+
+  * Which commit to analysing? 
+  * Contact points? 
+
+    * Use Mailing list
 
 
 External Organizations (Nat)
@@ -50,12 +77,18 @@ External Organizations (Nat)
 Australia (Mike L.)
 ------------------------------------
 * Work of FAPI 2.0 security analysis on the way @ U. Stuttgart. 
-* New SW Uni. 
+* Gail was introduced to South Wales University of Australia who will help with the analysis
 
 Brazil (Mike L.)
 ---------------------------
-* Still trying to finalize CIBA for Open Banking. 
-* Workshop for Open Insurance in July and August. 
+* Still trying to finalize CIBA for Open Banking.
+* Outreach Workshops for Open Insurance in July and August
+
+  * Will cover specs and conformance testing and submission
+
+* Phase 2 certifications to start in September 2022
+* Working on finalizing recommendation changes to certification program requested by Brazil and Saudi 
+
 
 Berlin Group (Daniel)
 --------------------------------
@@ -63,7 +96,44 @@ Berlin Group (Daniel)
 
 Canada (Gail)
 -----------------
+* Discussed Feedback response for FAPI 2 on Canadian OB policy requirements
 * https://docs.google.com/document/d/1-99-DU_B24NjywHpD_zS-Ga5FLoXgghRaL0DB91PvB0/edit
+* Accessible and inclusive for all accredited system participants without requiring additional arrangements (such as bilateral contracts)
+
+  * FAPI specs are open and do not require contracts for usage
+  * Add that specs are IPR protected to protect implementors from getting sued
+
+* Enable a positive consumer experience without overly onerous steps that the consumer must follow to realize the benefits of open banking
+
+  * FAPI only defines the wire protocol
+  * Ecosystems define the user experience guidelines
+  * FAPI supports a range of user experiences 
+
+* Enable the safe and efficient transfer of data among system participants
+
+  * Specs are formally verified
+  * Certification program verifies implementations 
+  * Serves as an informal, global defense against the global threat of criminal networks and rogue nation states…
+
+* Capable of evolving with technological change to keep pace with the rapidly evolving sector
+
+  * Add that FAPI is expanding breath of capabilities (e.g. Grant Management, CIBA, Dynamic Client Registration)
+  * Mention various OIDF work (GAIN, Open Data/Health, Verifiable Credentials, etc…)
+  * Canadian Participants can join OIDF to participate in work
+
+* Sufficiently flexible to enable the development of new and innovative products
+
+  * FAPI specs do not only apply to OB and Finance but to others (Insurance, telecom, health, etc…)
+  * Can explore options for others applications
+
+* Compatible and interoperable with international approaches
+
+  * Specs are inherently compatible
+  * Leading security profile selected by most markets
+  * Core specs enable cross border use cases  
+
+* Add links to OpenID for Identity Assurance
+
 
 EU DIW ARF (Gail)
 ------------------
@@ -97,7 +167,7 @@ Mexico (Gail)
 
 Nigeria (Mike)
 ---------------
-* June 15 or 16. 
+* Follow up call to be scheduled for June 15 or 16.
 
 OECD (Nat)
 -------------
@@ -118,6 +188,10 @@ Specs (Dave)
 ================
 Addressing "User Interface Hijack attack" in FAPI 2? (Nat)
 -----------------------------------------------------------
+* https://lists.openid.net/pipermail/openid-specs-fapi/2022-May/002619.html
+* Provide incentives for ecosystems to adopt FAPI 2 if addressed
+* Discuss on list and next call
+
 
 Grant Management (Dima)
 ----------------------------------------
@@ -135,6 +209,7 @@ FAPI 2 Attack, Baseline and Advanced (Daniel)
 JARM (Dave)
 ----------------------------------------
 * https://openid.bitbucket.io/fapi/openid-fapi-jarm.html
+* Need feedback before last call for final draft.
  
 
 PRs (Dave)
@@ -143,22 +218,28 @@ PRs (Dave)
 To be merged
 ----------------
 
-* PR #334
-    * https://bitbucket.org/openid/fapi/pull-requests/334 
+* PR #334 - Restructure FAPI2 baseline
 
-* PE #339
-    * https://bitbucket.org/openid/fapi/pull-requests/339 
+  * https://bitbucket.org/openid/fapi/pull-requests/334 
 
-* PR #338 change user to resource owner
-    * https://bitbucket.org/openid/fapi/pull-requests/338
+* PE #339 - Issue 499c
+
+  * https://bitbucket.org/openid/fapi/pull-requests/339 
+  * Add references in introduction to Messsage Signing, CIBA, Grant Mangement and RAR
+
+* PR #338 - change user to resource owner
+
+  * https://bitbucket.org/openid/fapi/pull-requests/338
 
 Under discussion
 ----------------------
 * PR #336 Grant Management - rename update to merge
-    * https://bitbucket.org/openid/fapi/pull-requests/336
-
-* PR #337
-    * https://bitbucket.org/openid/fapi/pull-requests/337
+    
+  * https://bitbucket.org/openid/fapi/pull-requests/336
+  
+* PR #337 - Add note referring to client credentials grant
+  
+  * https://bitbucket.org/openid/fapi/pull-requests/337
 
 Issues (Dave)
 =====================
