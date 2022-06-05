@@ -22,23 +22,27 @@ Roll Call (Anoop)
 
  Agenda/notes:
 *  Ivan has question Dynamic Client Registration for Dima
-* * Challenge Change management. Ivan to create an issue tracker. 
+* * One of the challenge - Change management within consumer data rights. What constitutes registration and what is valid/invalid registration?. 
+* * Challenge Change management. Is this specific to AU region or Have these use cases have been considered somewhere else.  So it can be looked at by other region.
+* * Ivan to create an issue tracker and present back to the group with use cases/scenarios.
 * Issues Reviewed
 * * https://bitbucket.org/openid/fapi/issues/479/change-to-the-naming-of-fapi (Updates)
 
 Only below name change :
-    Just moving to "FAPI"
+    Just moving to "FAPI" - Not acronym usage and it is up to own interpretation.  
     FAPI 2 Baseline ==> FAPI 2 Security Profile
     FAPI 2 Advanced ==> FAPI 2 Message Signing
 * UI - https://lists.openid.net/pipermail/openid-specs-fapi/2022-May/002619.html (RBC)
 * Liaisons updates
 * * Certification group is proposing 3rd party certification.   
 * * * Hosted by Accreditation certification body. 
-* * * Explore FDX certification in addition to others. (Anoop to reach out to Gail)
+* * * Explore FDX certification in addition to others. (Anoop to reach out to Gail) - FDX is doesn't have plan to certification of OpenId at this time. So no follow up was needed with Gail.
+* * Canada open banking regulatory is looking at the OpenID/FAPI and FAPI is responding inquiries. - https://docs.google.com/document/d/1-99-DU_B24NjywHpD_zS-Ga5FLoXgghRaL0DB91PvB0/edit
+* * Nat sent a email on UI high jacking - "User interface Hijack Attack" - https://lists.openid.net/pipermail/openid-specs-fapi/2022-May/002619.html. FAPI2 have better solve and motivation to move to FAPI2.
 * * Identiverse in 2 weeks (22nd June) . Colorado USA. also remote options available.
 
 
-* Need Alternate Host - Anoop is out on vacation time (6/8 - 6/22) 
+* Need Alternate Host - Anoop is out on vacation time (6/8 - 6/22). Nat will host the next meeting
 
 
 * The meeting was adjourned at 01:05 UTC.
