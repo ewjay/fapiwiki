@@ -26,31 +26,33 @@ Events (Dave)
 ======================
 Identiverse (Mike)
 ------------------------------
-* F2F FAPI meeting Wednesday 6/22 normal meeting time
+* F2F FAPI meeting Wednesday 6/22 normal meeting time (8AM local time)
 * Remote attending available. 
+* Nat, Joseph, Mike, Riffat, Dave, Brian
 
 
 Internal Liaison (Dave)
 ================================
 Security Analysis
 ---------------------------
-* Australian university awarded contract so that the second part of the security analysis can go ahead. 
+* Neet to get an update offline from Gail.  
 
 Certification (Joseph/Mike)
 ----------------------------
-* Brazil – certificate issues. 
-
-
-
+* n/a
 
 
 External Organizations (Nat)
 ===================================
 Australia (Mike L.)
 ------------------------------------
+* N/A
 
 Brazil (Mike L.)
 ---------------------------
+* Outreach workshop to support Open Insurance certifications. 66 to be certified by Sept 1. 
+* Open Banking Brazil finalizing CIBA spec. Early-Mid July to finalize it. Certification to work on it then. 
+* Coordinating with Chicago Advisory Partners to re-certify 200 by Dec. 15, starting in Sept. 
 
 
 Berlin Group (Daniel)
@@ -59,24 +61,27 @@ Berlin Group (Daniel)
 
 Canada (Gail)
 -----------------
+* Two sessions with Dept. of Finance. 
 
 
 EU DIW ARF (Gail)
 ------------------
-* n/a
+* June 9 meeting. 
 
-FDX (Rifaat)
-------------------
+FDX (Rifaat/Joseph)
+--------------------
+* Started a process on adopting FAPI 1.0 Part 1. 
 
-
-GAIN (Dima)
+GAIN (Dima/Joseph)
 ---------------------
-* 
+* Next call on Thursday. 
+* Listening tour on trust management going on. 
 
 IETF OAuth WG (Rifaat)
 -------------------------
-* JWK thumbprint was approved by IESG.
-* DPoP – Brian is addressing the issues collected. After that, Rifaat will do the shepherd write-up.  
+* Meeting in six weeks - two official sessions and two side sessions. 
+* Agenda being finalized. 
+ 
 
 ISO/TC68 (Nat/Dave)
 ----------------------
@@ -84,11 +89,15 @@ ISO/TC68 (Nat/Dave)
 
 The Middle East and North Africa (Chris)
 -----------------------------------------
-* Meeting with Open Banking Saudi Arabia during Identiverse. 
+* Meeting with Open Banking Saudi Arabia (SAMA) during Identiverse. 
 
 Mexico (Gail)
 ------------------
 * n/a
+
+New Zealand (Mike) 
+------------------------------
+* 18:30 Pacific 
 
 Nigeria (Mike)
 ---------------
@@ -98,11 +107,9 @@ OECD (Nat)
 -------------
 * n/a
 
-
 UK (Chris)
 --------------------
 * n/a
-
 
 USA (Gail)
 ----------------
