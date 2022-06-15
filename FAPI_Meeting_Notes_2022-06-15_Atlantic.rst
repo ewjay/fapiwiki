@@ -20,7 +20,7 @@ Roll Call (Nat/Dave)
 
 Adoption of Agenda (Dave)
 ================================
-
+* Whitepaper feedback. 
 
 Events (Dave)
 ======================
@@ -108,6 +108,8 @@ USA (Gail)
 ----------------
 * n/a 
 
+Whitepaper (Dima)
+=========================
 
 Specs (Dave)
 ================
