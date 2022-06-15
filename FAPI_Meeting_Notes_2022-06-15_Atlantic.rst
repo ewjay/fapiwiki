@@ -26,7 +26,7 @@ Events (Dave)
 ======================
 Identiverse (Mike)
 ------------------------------
-* F2F FAPI meeting Wednesday 6/22 normal meeting time (8AM local time)
+* F2F FAPI meeting Wednesday 6/22 normal meeting time (8AM local time) in Summit 2 room. 
 * Remote attending available. 
 * Nat, Joseph, Mike, Riffat, Dave, Brian
 
@@ -117,19 +117,17 @@ USA (Gail)
 
 Whitepaper (Dima)
 =========================
+* Dima provided an overview of the whitepaper that he is working on. 
+* Open Banking and Open Data go Global – 
+ https://docs.google.com/document/d/176au5lZcR0vHbQG43wE7pZr7PBgVd7O7AqAzb6rqDzU/edit
+* Perhaps publish it in Identiverse? 
 
 Specs (Dave)
 ================
-Addressing "User Interface Hijack attack" in FAPI 2? (Nat)
------------------------------------------------------------
-* https://lists.openid.net/pipermail/openid-specs-fapi/2022-May/002619.html
-* Provide incentives for ecosystems to adopt FAPI 2 if addressed
-* Discuss on list and next call
-
-
 Grant Management (Dima)
 ----------------------------------------
 * There are now a couple of PRs and Issues. 
+* Couple of issues left before going to implementer's draft. 
 
 FAPI DCR/M (Dynamic client registration and Management) (Joseph)
 -------------------------------------------------------------------------
@@ -144,22 +142,23 @@ JARM (Dave)
 * https://openid.bitbucket.io/fapi/openid-fapi-jarm.html
 * Need feedback before last call for final draft.
  
+Addressing "User Interface Hijack attack" in FAPI 2? (Nat)
+-----------------------------------------------------------
+* https://lists.openid.net/pipermail/openid-specs-fapi/2022-May/002619.html
+* Provide incentives for ecosystems to adopt FAPI 2 if addressed
+* Discuss on list and next call
 
 PRs (Dave)
 =================
 
 To be merged
 ----------------
-* PR 341 – Grant Management
-* PR 340 – JARM security properties
-    * No protocol changes but to be honest about the security properties of JARM. 
-    * More editorial changes like removing references that are not used. 
-    * It is possible to tidy up more but perhaps it is not worth investing the time. 
-    * Dave is going to send out the last call email after merging it. 
 
 
 Under discussion
 ----------------------
+* PR 342 – No Authorization Response encryption is required
+  
 
 Issues (Dave)
 =====================
