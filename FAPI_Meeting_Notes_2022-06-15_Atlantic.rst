@@ -14,6 +14,16 @@ The meeting was called to order at 14:__ UTC.
 Roll Call (Nat/Dave)
 ======================
 * Attending: 
+
+  * Brian Campbell
+  * Daniel Fett
+  * Dave Tonge
+  * Dima Postnikov
+  * Joseph Heenan
+  * Lukasz Jaromin
+  * Mike Leszcz
+  * Nat Sakimura
+  * Rifaat Shekh-Yusef
  
 * Regrets: 
 * Guest: 
@@ -27,15 +37,21 @@ Events (Dave)
 Identiverse (Mike)
 ------------------------------
 * F2F FAPI meeting Wednesday 6/22 normal meeting time (8AM local time) in Summit 2 room. 
-* Remote attending available. 
+* Remote attending available via normal GotoMeeting conference link. 
 * Nat, Joseph, Mike, Riffat, Dave, Brian
+
+IETF 114
+------------------------------
+July 23-29, 2022. Philadelphia, USA
+
+https://www.ietf.org/how/meetings/114/
 
 
 Internal Liaison (Dave)
 ================================
 Security Analysis
 ---------------------------
-* Neet to get an update offline from Gail.  
+* Need to get an update offline from Gail.  
 
 Certification (Joseph/Mike)
 ----------------------------
@@ -61,12 +77,19 @@ Berlin Group (Daniel)
 
 Canada (Gail)
 -----------------
-* Two sessions with Dept. of Finance. 
+* Two sessions with Dept. of Finance.  (Abraham Tachjian & others)
+* Abraham is the open banking lead (https://www.canada.ca/en/department-finance/news/2022/03/government-moves-forward-with-open-banking-and-names-a-lead.html)
+* Mostly Q and A on OIDF response
+* Doing due diligence on standards and organizations
+* Will hold discussions with members in both FDX and FAPI
+
 
 
 EU DIW ARF (Gail)
 ------------------
-* June 9 meeting. 
+* Torsten, Gail and Nat had meeting on June 9 with European Commission member
+* Discussed how OIDF work can fit into architecture
+ 
 
 FDX (Rifaat/Joseph)
 --------------------
@@ -76,6 +99,8 @@ GAIN (Dima/Joseph)
 ---------------------
 * Next call on Thursday. 
 * Listening tour on trust management going on. 
+* Trying to address global trust management
+
 
 IETF OAuth WG (Rifaat)
 -------------------------
@@ -97,7 +122,7 @@ Mexico (Gail)
 
 New Zealand (Mike) 
 ------------------------------
-* 18:30 Pacific 
+* Will have call at 18:30 Pacific on June 15
 
 Nigeria (Mike)
 ---------------
@@ -120,7 +145,56 @@ Whitepaper (Dima)
 * Dima provided an overview of the whitepaper that he is working on. 
 * Open Banking and Open Data go Global – 
  https://docs.google.com/document/d/176au5lZcR0vHbQG43wE7pZr7PBgVd7O7AqAzb6rqDzU/edit
-* Perhaps publish it in Identiverse? 
+* Perhaps publish it at Identiverse if it's ready?
+* Building on a previous paper by WG which focused on FAPI security profile and it’s global adoption.
+* This paper looks at the wider scope of open data banking, open data and the next steps of global interoperability. 
+* Focused on use cases and not technical aspects.
+
+
+WhitePaper Structure
+
+* API Ecosystems
+
+  * Private ecosystems
+  * Open banking ecosystems
+  * Expansion of open banking into open finance and open data
+
+* Learnings
+
+  * Use cases
+  * Building blocks
+
+    * Identity
+    * API security profile
+    * Trust Management
+    * API specifications 
+
+* What’s next
+
+  * Global interoperability
+
+* Global use cases
+
+  * Global RPs
+  * Sharing economy
+  * Social networks
+  * Cross border payments
+  * Credit card schements
+
+* Solutions
+
+  * Intermediary providers (True Layer, Plaid, Stripe)
+
+    * Different APIs for different jurisdictions
+
+  * Interoperability Layers
+
+    * Identity
+    * API Security Profile
+    * Trust Management
+    * API Specifications
+
+* Collaboration with others (SWIFT, STET, Berlin Group, FSB, DGX, etc…)
 
 Specs (Dave)
 ================
@@ -158,7 +232,21 @@ To be merged
 Under discussion
 ----------------------
 * PR 342 – No Authorization Response encryption is required
-  
+
+  * Encryption does not add much value, PKCE prevents use if leaked
+  * Nothing in the code that needs encryption
+  * The section seems disorganized and the statement regarding encryption semms out of place.
+  * Will need a full description on why encryption is not needed.
+  * Need to make a clear statement so there is a reference point for various ecosystems.
+  * Main point is to make it clear that encryption does not add much value.
+  * Suggestion to add it in security considerations instead of a note
+  * Reference 5.4  of JARM to require additional protections even if encryption is used.
+
+* PR #343 - Change name from baseline to security profile
+
+  * Remove Financial-grade from the name and just use FAPI
+  * Change the Baseline name to Security Profile and add references to other specs.
+  * The text “we recommend” feels informal.
 
 Issues (Dave)
 =====================
