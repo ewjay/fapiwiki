@@ -231,7 +231,7 @@ To be merged
 
 Under discussion
 ----------------------
-* PR 342 – No Authorization Response encryption is required
+* PR #342 – No Authorization Response encryption is required
 
   * Encryption does not add much value, PKCE prevents use if leaked
   * Nothing in the code that needs encryption
