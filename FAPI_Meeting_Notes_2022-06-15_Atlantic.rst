@@ -235,7 +235,7 @@ Under discussion
 
   * Encryption does not add much value, PKCE prevents use if leaked
   * Nothing in the code that needs encryption
-  * The section seems disorganized and the statement regarding encryption semms out of place.
+  * The section seems disorganized and the statement regarding encryption seems out of place.
   * Will need a full description on why encryption is not needed.
   * Need to make a clear statement so there is a reference point for various ecosystems.
   * Main point is to make it clear that encryption does not add much value.
