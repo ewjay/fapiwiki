@@ -13,14 +13,17 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call (Nat/Dave)
 ======================
-* Attending: 
+* Attending: Nat Sakimura Dave Tonge Riifaat Shekh-Yusef Domingos Creado Don Thibeau Mike Leszcz Tatsuo Kudo Joseph Heenan (In the room)
+** Remotely: 
+
+
 
 * Regrets: 
 * Guest: 
 
 Adoption of Agenda (Dave)
 ================================
-* Whitepaper feedback. 
+* N/A
 
 Events (Dave)
 ======================
@@ -35,6 +38,30 @@ IETF 114
 July 23-29, 2022. Philadelphia, USA
 
 https://www.ietf.org/how/meetings/114/
+
+IIW
+------
+Nov. 15 - 17
+
+OIDF Workshop
+---------------
+Nov. 14
+
+Authenticate Seattle
+-----------------------
+Oct. 17 - 20
+
+FDX Meeting
+--------------
+oct. 17 -19 @ Dallas
+
+IETF 115 London 
+------------------
+5 Nov 2022 - 11 Nov 2022
+
+Money 2020 Las Vegas
+--------------------------
+
 
 
 Internal Liaison (Dave)
@@ -52,14 +79,12 @@ External Organizations (Nat)
 ===================================
 Australia (Mike L.)
 ------------------------------------
-* N/A
+* Sorting out contractual issues for security analysis. 
 
 Brazil (Mike L.)
 ---------------------------
-* Outreach workshop to support Open Insurance certifications. 66 to be certified by Sept 1. 
-* Open Banking Brazil finalizing CIBA spec. Early-Mid July to finalize it. Certification to work on it then. 
-* Coordinating with Chicago Advisory Partners to re-certify 200 by Dec. 15, starting in Sept. 
-
+* Open Insurance certification in August. 
+* Open Banking recertification (approx 200) from Sept. till Dec. 13. DCR certification required. 
 
 Berlin Group (Daniel)
 --------------------------------
@@ -67,56 +92,61 @@ Berlin Group (Daniel)
 
 Canada (Gail)
 -----------------
-* Two sessions with Dept. of Finance.  (Abraham Tachjian & others)
-* Abraham is the open banking lead (https://www.canada.ca/en/department-finance/news/2022/03/government-moves-forward-with-open-banking-and-names-a-lead.html)
-* Mostly Q and A on OIDF response
-* Doing due diligence on standards and organizations
-* Will hold discussions with members in both FDX and FAPI
-
-
+* Three calls by now. 
+* Making an introduction to thought leaders. 
+* Vittorio and Riffaat meeting next Monday. 
 
 EU DIW ARF (Gail)
 ------------------
-* Torsten, Gail and Nat had meeting on June 9 with European Commission member
-* Discussed how OIDF work can fit into architecture
- 
+* N/A
 
 FDX (Rifaat/Joseph)
 --------------------
-* Started a process on adopting FAPI 1.0 Part 1. 
+* Process of reviewing FAPI security profile internally going on. 
+* Some documents they want to work on security and step-up authentication.  
 
 GAIN (Dima/Joseph)
 ---------------------
-* Next call on Thursday. 
-* Listening tour on trust management going on. 
-* Trying to address global trust management
+* GAIN presentation / meeting 11 AM and 1 PM today at Summit 2. 
 
 
 IETF OAuth WG (Rifaat)
 -------------------------
-* Meeting in six weeks - two official sessions and two side sessions. 
-* Agenda being finalized. 
- 
+Current draft agenda ideas
 
+* OAuth 2.1
+* Browser-based application
+* Step up authentication
+* GitHub and token theft
+* Multi-subject JWT
+* SD-JWT
+* Security BCP
+* DPoP 
+ 
 ISO/TC68 (Nat/Dave)
 ----------------------
 * n/a
 
-The Middle East and North Africa (Chris)
------------------------------------------
-* Meeting with Open Banking Saudi Arabia (SAMA) during Identiverse. 
+The Middle East and North Africa (Mike L.)
+--------------------------------------------
+* Meeting with Open Banking Saudi Arabia (SAMA/Central bank) on June 21 at Identiverse.
+* 9 AM tomorrow @ Summit 2. 
+* DMC next week.  
 
 Mexico (Gail)
 ------------------
 * n/a
 
-New Zealand (Mike) 
+New Zealand (Gail) 
 ------------------------------
-* Will have call at 18:30 Pacific on June 15
+* Call on June 15. FAPI and 3rd party certification. 
+* NZ Gov working towards consumer rights legislation. 
+* After that, 3PC could come in. 
 
 Nigeria (Mike)
 ---------------
-* Follow-up call is scheduled for June 16.
+* They were not prepared to review USSD use cases at this time. 
+* Having a follow-up in July. 
 
 OECD (Nat)
 -------------
@@ -132,59 +162,7 @@ USA (Gail)
 
 Whitepaper (Dima)
 =========================
-* Dima provided an overview of the whitepaper that he is working on. 
-* Open Banking and Open Data go Global – 
- https://docs.google.com/document/d/176au5lZcR0vHbQG43wE7pZr7PBgVd7O7AqAzb6rqDzU/edit
-* Perhaps publish it at Identiverse if it's ready?
-* Building on a previous paper by WG which focused on FAPI security profile and it’s global adoption.
-* This paper looks at the wider scope of open data banking, open data and the next steps of global interoperability. 
-* Focused on use cases and not technical aspects.
 
-
-WhitePaper Structure
-
-* API Ecosystems
-
-  * Private ecosystems
-  * Open banking ecosystems
-  * Expansion of open banking into open finance and open data
-
-* Learnings
-
-  * Use cases
-  * Building blocks
-
-    * Identity
-    * API security profile
-    * Trust Management
-    * API specifications 
-
-* What’s next
-
-  * Global interoperability
-
-* Global use cases
-
-  * Global RPs
-  * Sharing economy
-  * Social networks
-  * Cross border payments
-  * Credit card schements
-
-* Solutions
-
-  * Intermediary providers (True Layer, Plaid, Stripe)
-
-    * Different APIs for different jurisdictions
-
-  * Interoperability Layers
-
-    * Identity
-    * API Security Profile
-    * Trust Management
-    * API Specifications
-
-* Collaboration with others (SWIFT, STET, Berlin Group, FSB, DGX, etc…)
 
 Specs (Dave)
 ================
