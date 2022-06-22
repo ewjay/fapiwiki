@@ -195,20 +195,16 @@ PRs (Dave)
 
 To be merged
 ----------------
-
+* PR 341 
 
 Under discussion
 ----------------------
+* PR 322 – 
+* PR #315 https://bitbucket.org/openid/fapi/pull-requests/315
+* PR 
 * PR #342 – No Authorization Response encryption is required
 
-  * Encryption does not add much value, PKCE prevents use if leaked
-  * Nothing in the code that needs encryption
-  * The section seems disorganized and the statement regarding encryption seems out of place.
-  * Will need a full description on why encryption is not needed.
-  * Need to make a clear statement so there is a reference point for various ecosystems.
-  * Main point is to make it clear that encryption does not add much value.
-  * Suggestion to add it in security considerations instead of a note
-  * Reference 5.4  of JARM to require additional protections even if encryption is used.
+  * Need feedback from Ralph. 
 
 * PR #343 - Change name from baseline to security profile
 
@@ -219,6 +215,13 @@ Under discussion
 Issues (Dave)
 =====================
 
+#496 clock sync and FAPI2 baseline (Jacob/Dave)
+----------------------------------------------------
+Three Options: 1) jti, 2) challenge, 3) HTTP date header. 
+
+Challenge is the most secure but needs a new spec. 
+HTTP header may be good. 
+jti approach will introduce large skew. 
 
 AOB (Dave)
 =================
