@@ -13,9 +13,8 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call (Nat/Dave)
 ======================
-* Attending: Nat Sakimura Dave Tonge Riifaat Shekh-Yusef Domingos Creado Don Thibeau Mike Leszcz Tatsuo Kudo Joseph Heenan (In the room)
-** Remotely: 
-
+* Attending: (In the room) Nat Sakimura, Dave Tonge, Riifaat Shekh-Yusef, Domingos Creado, Don Thibeau, Mike Leszcz, Tatsuo Kudo, Joseph Heenan 
+** Remotely: Ali Adnan, Daniel Fett, Dima, Gail Hodges, Jacob Ideskog, Takahiko Kawasaki, Bjorn Hjelm
 
 
 * Regrets: 
@@ -32,12 +31,18 @@ Identiverse (Mike)
 * F2F FAPI meeting Wednesday 6/22 normal meeting time (8AM local time) in Summit 2 room. 
 * Remote attending available via normal GotoMeeting conference link. 
 * Nat, Joseph, Mike, Riffat, Dave, Brian
+* There will be an Open Banking Discussion Panel
 
 IETF 114
 ------------------------------
 July 23-29, 2022. Philadelphia, USA
 
 https://www.ietf.org/how/meetings/114/
+
+Some works being discussed :
+* SD-JWT (selective disclosure JWTs)
+* Multi-subject JWTs
+
 
 IIW
 ------
@@ -51,9 +56,11 @@ Authenticate Seattle
 -----------------------
 Oct. 17 - 20
 
+Mike and Gail will attend
+
 FDX Meeting
 --------------
-oct. 17 -19 @ Dallas
+Oct. 17 -19 @ Dallas
 
 IETF 115 London 
 ------------------
@@ -61,6 +68,18 @@ IETF 115 London
 
 Money 2020 Las Vegas
 --------------------------
+End of October in Las Vegas
+
+Big Payments conference
+
+
+Identity Week Asia
+--------------------------
+September 6-7 2022
+
+https://www.terrapinn.com/exhibition/identity-week-asia/index.stm
+
+Nat will be speaking about Open Banking
 
 
 
@@ -80,11 +99,16 @@ External Organizations (Nat)
 Australia (Mike L.)
 ------------------------------------
 * Sorting out contractual issues for security analysis. 
+* Australia will fund their part of their security proof work from July to end of Sept
+* Review of model approach in mid-July to share concerns/issues with proof work
+
 
 Brazil (Mike L.)
 ---------------------------
-* Open Insurance certification in August. 
-* Open Banking recertification (approx 200) from Sept. till Dec. 13. DCR certification required. 
+* Open Insurance (66 orgs) certification in August. 
+* Open Banking recertification (approx 200) from Sept. till Dec. 13. 
+
+  * DCR certification required. 
 
 Berlin Group (Daniel)
 --------------------------------
@@ -92,7 +116,7 @@ Berlin Group (Daniel)
 
 Canada (Gail)
 -----------------
-* Three calls by now. 
+* Three calls by now to address their questions. 
 * Making an introduction to thought leaders. 
 * Vittorio and Riffaat meeting next Monday. 
 
@@ -125,13 +149,18 @@ Current draft agenda ideas
  
 ISO/TC68 (Nat/Dave)
 ----------------------
-* n/a
+* New working group is setup for Natural Person Identifier convened by Patrick Curry, maybe relevant to eKYC group
 
 The Middle East and North Africa (Mike L.)
 --------------------------------------------
 * Meeting with Open Banking Saudi Arabia (SAMA/Central bank) on June 21 at Identiverse.
-* 9 AM tomorrow @ Summit 2. 
-* DMC next week.  
+
+  * Discussed FAPI 1 vs 2.0
+  * Conformance and certification
+  * Exploring different certification models
+
+* Another meeting is scheduled for 9 AM tomorrow @ Summit 2. 
+* DFC call next week to discuss SAMA progress.  
 
 Mexico (Gail)
 ------------------
@@ -139,14 +168,16 @@ Mexico (Gail)
 
 New Zealand (Gail) 
 ------------------------------
-* Call on June 15. FAPI and 3rd party certification. 
-* NZ Gov working towards consumer rights legislation. 
-* After that, 3PC could come in. 
+* Call on June 15. to discuss FAPI and 3rd party certification. 
+* NZ Gov working towards consumer data rights legislation to be published later this year. 
+* After that, third-party certifications could come in. 
 
 Nigeria (Mike)
 ---------------
 * They were not prepared to review USSD use cases at this time. 
 * Having a follow-up in July. 
+* They have legislation policy from the central bank but it’s not very detailed yet.
+
 
 OECD (Nat)
 -------------
@@ -162,6 +193,13 @@ USA (Gail)
 
 Whitepaper (Dima)
 =========================
+* White paper (draft) https://docs.google.com/document/d/176au5lZcR0vHbQG43wE7pZr7PBgVd7O7AqAzb6rqDzU/edit
+* Would like more feedback
+* Health and Global Interoperability Paper will take same approach
+* The goal is to get the papers into a Implementer’s draft via community feedback
+* Work on the English phrasing so points are clear
+* Use whitepaper to invite a wider community for feedback discussions
+* Papers will be presented at the Identiverse panel for comments
 
 
 Specs (Dave)
@@ -195,13 +233,21 @@ PRs (Dave)
 
 To be merged
 ----------------
-* PR 341 
+* PR #341 - clarify scopes
+
+  * Related issue #441
 
 Under discussion
 ----------------------
-* PR 322 – 
-* PR #315 https://bitbucket.org/openid/fapi/pull-requests/315
-* PR 
+* PR #322 – Pull in key management clauses
+
+  * Pull in language from FAPI 1 regarding jwks_uris
+
+
+* PR #315 - FAPI2 iss + JARM
+
+  * Added clarifying text for returning iss when using JARM
+
 * PR #342 – No Authorization Response encryption is required
 
   * Need feedback from Ralph. 
@@ -217,11 +263,21 @@ Issues (Dave)
 
 #496 clock sync and FAPI2 baseline (Jacob/Dave)
 ----------------------------------------------------
-Three Options: 1) jti, 2) challenge, 3) HTTP date header. 
+Three Options: 
 
-Challenge is the most secure but needs a new spec. 
-HTTP header may be good. 
-jti approach will introduce large skew. 
+1) jti
+
+   *  jti approach will introduce a large skew.
+
+2) challenge
+
+   * Challenge is the most secure but needs a new spec.
+
+3) HTTP date header
+
+   * HTTP header may be good but will need to explicitly mention that it wont prevent pre-generation of assertions
+   * Client resends assertion after seeing error and checking the date header
+
 
 AOB (Dave)
 =================
