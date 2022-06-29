@@ -67,30 +67,35 @@ Issues (Nat)
 =====================
 #436: Change grant_management_action "update" to "add" or "append"
 ------------------------------------------------------------------------------------
-Reopened as the PR 344 is still not merged. 
+Issue #436 was reopened as the PR 344 is still not merged. 
 To be resolved after the merge. 
 
 #496: clock sync and FAPI2 baseline
 --------------------------------------
+#496
 Last week, we agreed that HTTP date header would work, but we still need a text. 
 
 #505: Create security and privacy consideration for FAPI 2.0 Security Profile
 -----------------------------------------------------------------------------------
+#505 
 The section is empty and needed to be filled before going to the next implementer's draft. 
 Any contributions are welcome and please write them to this ticket. 
 
 #506: Explicit security target
 --------------------------------------
+#506
 The attacker model states common requirements for all the FAPI 2.0 specs 
 but each document lacks its specific ones. 
 
 #507: FAPI2S 4.5 Differences to FAPI 1.0
 ---------------------------------------------
+#507
 Some of the text is misplaced, missing, and inaccurate. 
 They need to be fixed. 
 
 #478: FAPI2 Baseline + jarm & iss draft
 ---------------------------------------------
+#478
 It was reopened 5 days ago by Dave. Check with Dave to see why. 
 
 
