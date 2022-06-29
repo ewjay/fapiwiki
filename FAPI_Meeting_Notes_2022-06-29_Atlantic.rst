@@ -40,7 +40,7 @@ External Organizations (Nat)
 ===================================
 
 
-Specs (Dave)
+Specs (Nat)
 ================
 Grant Management (Dima)
 ----------------------------------------
