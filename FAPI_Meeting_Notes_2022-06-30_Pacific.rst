@@ -25,9 +25,10 @@ Roll Call (Anoop)
 
 * Security Analysis update
 * Whitepaper -?? Dima
+* * `https://docs.google.com/document/d/176au5lZcR0vHbQG43wE7pZr7PBgVd7O7AqAzb6rqDzU/edit#heading=h.pnzh6b52kc0a`
 * PR reviews
-* * https://bitbucket.org/openid/fapi/pull-requests/343/change-name-from-baseline-to-security
-* * https://bitbucket.org/openid/fapi/issues/496/clock-sync-and-fapi2-baseline
+* * `https://bitbucket.org/openid/fapi/pull-requests/343/change-name-from-baseline-to-security`
+* * `https://bitbucket.org/openid/fapi/issues/496/clock-sync-and-fapi2-baseline`
 * Regional & workshop update
 * * AU region
 * * FDX
