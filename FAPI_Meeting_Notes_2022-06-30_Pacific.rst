@@ -29,7 +29,7 @@ Roll Call (Anoop)
 * PR reviews
 * * `https://bitbucket.org/openid/fapi/pull-requests/343/change-name-from-baseline-to-security`
 * * `https://bitbucket.org/openid/fapi/issues/496/clock-sync-and-fapi2-baseline`
-* Regional & workshop update
+* Regional update
 * * AU region
 * * FDX
 * * Others
