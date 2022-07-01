@@ -16,16 +16,19 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:  
+* Attending:  Nat, Dima, Ed and Anoop
 * Regrets:    
  
 
  Agenda/notes:
 
-
 * Security Analysis update
-* Whitepaper -?? Dima
+* * Phase1 (security modeling) end of July
+* * Contract has been with University.
+* Whitepaper - Open Banking & Open Data -  Dima
 * * `https://docs.google.com/document/d/176au5lZcR0vHbQG43wE7pZr7PBgVd7O7AqAzb6rqDzU/edit#heading=h.pnzh6b52kc0a`
+* * Next stage of open banking.
+* * Need of global Interoperability - Data API specification.
 * PR reviews
 * * `https://bitbucket.org/openid/fapi/pull-requests/343/change-name-from-baseline-to-security`
 * * `https://bitbucket.org/openid/fapi/issues/496/clock-sync-and-fapi2-baseline`
