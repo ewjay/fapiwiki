@@ -22,7 +22,7 @@ Roll Call (Anoop)
 
  Agenda/notes:
 
-* Security Analysis update - Uni Stuttgart (Tim, Pedram)
+* Security Analysis update - Stuttgart Uni (Tim, Pedram)
 
 
 
