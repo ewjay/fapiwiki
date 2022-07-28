@@ -69,67 +69,107 @@ American Association of Motor Administration Conference
 
 
 
-Events & Liaisons (Joseph on behalf of Mike L.)
+External Orgs & Liaisons
 ====================================================
 Brazil
 -----------------
-preparing for OPIN (open insurance) certifications in August. And then open banking recertifications September through December that will also require DCR certs.
+NA
 
 SAMA
---------------
-positive meeting in Denver with SAMA representative confirming that 3rd party certification model works best for them. SAMA has requested formal communication/validation from WG regarding best practices for adopting FAPI 1 that will allow SAMA to most efficiently and effectively transition to FAPI 2 once it becomes a final spec.
+-----------------
+Will start consultation regarding which version of FAPI to use
+
+Chris has drafted a paper to provide general guidance for markets to avoid fragmentation.
+
+There are 3 or 4 markets in MENA region and 3 or 4 in Latin America looking to start open banking.
+
+The goal is to recommend ecosystems to use FAPI 2 and encourage regulators to strongly enforce conformance or certification.
+
+It proposes that ecosystems and standards bodies adopt FAPI 1 Advanced  with PAR for now and move to FAPI 2 when it is ready.
+
+Chris inquired about whether the paper can be published by OIDF on the website or as a note pointed to by OIDF and the process for doing so.
+
+Torsten is concerned that the paper recommends FAPI 1 with PAR for now since it is more complex than FAPI 2 mainly due to the reason that FAPI 2 is not finalized. FAPI 2 Baseline has been stable for a long time.
+
+Chris : The main concern is that banks are reluctant to adopt specifications that are still drafts, especially for regulated ecosystems and mandates.
+
+Torsten : FAPI 2 is much simpler using PAR, PKCE and MTLS which are all published standards and Baseline is stable.Why isn’t Baseline finalized?
+
+Waiting for Security analysis to complete before publishing FAPI 2 Baseline.
+
+There are precedents for adopting non-final specs. E.g. FAPI 1 references JARM, OP-UK required draft-cavage-http-signatures which was not on the standards track.
+
+SAMA is issuing lots of mandates and is not comfortable with draft specs.
+
+Security analysis is expected to be done by Sept 30.
+
+Torsten : We should aim to widely recommend FAPI 2 instead and work with SAMA regarding FAPI 1.
+
+Chris - The paper's summary recommends that ecosystems move to FAPI 2 as soon as it’s ready so it is only temporary.
+
+We can use a softer tone and adjust the message for different markets.
+
+This paper attempts to recommend a smooth migration path to FAPI 2 for ecosystems that must use finalized specs.
+
+Gail suggested sending the paper attached to a letter from the OIDF to SAMA.
+
+SAMA also would like to finalize the certification model. They would like to be the certifying body.
+
+FAPI 2 certification tests have been developed and are being beta-tested currently.
+
+Gail and the chairs will review the document and decide how to forward it to SAMA.
+
+
+
+Global Open Finance Center of Excellence
+-----------------
+UK based GOFCoE may potentially be migrated to OIDF to form a Community Group adjacent to FAPI WG comprised of academics and gov.
+
 
 Nigeria
 -----------------
-recent meeting highlighted central bank's guidance on open banking was more focused on policy and process than technology so there's more work to do there. We'll reconvene at the end of July to get an update from Open Banking Nigeria.
+NA
+
 
 PRs (Nat)
 =================
-PR #342 – No Authorization Response encryption is required
-------------------------------------------------------------------
-Although it was acknowledged that "no confidential ... wording" had a push back as it is not correct, 
-now the same words are in this PR (Security consideration). It should be revisited. 
 
-PR #344 – Rename update action to merge
--------------------------------------------
-Fixing #436. 
-Lukasz expressed that he likes it and approved it during the call. 
+
 
 
 Issues (Nat)
 =====================
-#436: Change grant_management_action "update" to "add" or "append"
-------------------------------------------------------------------------------------
-Issue #436 was reopened as the PR 344 is still not merged. 
-To be resolved after the merge. 
 
-#496: clock sync and FAPI2 baseline
---------------------------------------
-#496
-Last week, we agreed that HTTP date header would work, but we still need a text. 
 
-#505: Create security and privacy consideration for FAPI 2.0 Security Profile
------------------------------------------------------------------------------------
-#505 
-The section is empty and needed to be filled before going to the next implementer's draft. 
-Any contributions are welcome and please write them to this ticket. 
+#525 - Decide on what to do for A. Cuckoo’s Token Attack
+--------------------------------------------------------
+#525 - Decide on what to do for A. Cuckoo’s Token Attack
 
-#506: Explicit security target
---------------------------------------
-#506
-The attacker model states common requirements for all the FAPI 2.0 specs 
-but each document lacks its specific ones. 
+Add security  consideration for this attack. Requires a malicious AS which is unlikely to happen in many regulated ecosystems, but may be a problem for open ecosystems.
 
-#507: FAPI2S 4.5 Differences to FAPI 1.0
----------------------------------------------
-#507
-Some of the text is misplaced, missing, and inaccurate. 
-They need to be fixed. 
+FAPI 1 has text regarding this attack.
 
-#478: FAPI2 Baseline + jarm & iss draft
----------------------------------------------
-#478
-It was reopened 5 days ago by Dave. Check with Dave to see why. 
+Bad AS could advertise endpoints for honest RS. Assumes that the trust anchor for the ecosystem fails.
+
+Mostly affects clients that support dynamic registration so should put some security consideration around that.
+
+#526 - Decide on B. Access Token Injection with ID Token Replay
+--------------------------------------------------------
+#526 - Decide on B. Access Token Injection with ID Token Replay
+The security analysis https://arxiv.org/pdf/1901.11520.pdf recommends ID Token from the Token Endpoint to include the hash of the access token for FAPI 1.0.
+
+What should we do for FAPI 2? FAPI 2 does not require ID Token which acted as a detached signature.
+
+We need to decide whether we want to rely on server authentication or use a model where all communication is authenticated at the message level. FAPI 2 relies on server authentication so if we need to introduce it on the application level, we will need to reintroduce all the signed request and response of FAPI 1.
+
+Need to decide whether we modify the attacker model or cope with the attack.
+
+#528 - PKCE Chosen Challenge Attack
+--------------------------------------------------------
+
+#528 - PKCE Chosen Challenge Attack
+Out of time to discuss 
+
 
 
 AOB (Nat)
