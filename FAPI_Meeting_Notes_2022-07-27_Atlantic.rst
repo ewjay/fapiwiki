@@ -15,6 +15,17 @@ Roll Call (Nat)
 ======================
 * Attending: 
 
+  * Chris Michael
+  * Dave Tonge
+  * Gail Hodges
+  * Giuseppe De Marco
+  * Joseph Heenan
+  * Mike Leszcz
+  * Nat Sakimura
+  * Torsten Lodderstedt
+  * Dima
+  * Takahiko Kawasa
+
 
 * Regrets: 
 
@@ -22,7 +33,41 @@ Roll Call (Nat)
 
 Adoption of Agenda (Nat)
 ================================
-Adopted as is
+
+* Events and External Organizaions
+* Whitepaper proposal by Chris
+* PR & Issues
+* Security Analysis Issues
+
+
+Events & Liaisons (Joseph on behalf of Mike L.)
+====================================================
+
+Events happening in parallel to FAPI WG meeting
+-----------------------------------------------
+* OAuth WG side meetings
+* Blockchain governance discussing central backed digital currencies and financial internet
+
+
+FIDO 
+-----------------------------------------------
+* Asked OIDF to speak at Authenticate and plenary about FAPI 
+* Authenticate Oct 17-19 Seattle (FIDO) followed by the plenary for members 20-22. 
+* https://authenticatecon.com
+
+FedID conference
+-----------------------------------------------
+* Gail will speak about mDL and digital identity standards
+* Sept 7 
+* https://events.afcea.org/FedID22/Public/enter.aspx
+
+
+American Association of Motor Administration Conference
+-----------------------------------------------
+* Sep 13-15. https://www.aamva.org/events-education/conferences-meetings/conferences/2022-annual-international-conference
+* Gail will speak about mDL and issuance
+
+
 
 Events & Liaisons (Joseph on behalf of Mike L.)
 ====================================================
