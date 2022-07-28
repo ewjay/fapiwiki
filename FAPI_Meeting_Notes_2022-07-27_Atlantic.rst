@@ -141,7 +141,7 @@ Issues (Nat)
 =====================
 
 
-#525 - Decide on what to do for A. Cuckoo’s Token Attack
+525 - Decide on what to do for A. Cuckoo’s Token Attack
 --------------------------------------------------------
 #525 - Decide on what to do for A. Cuckoo’s Token Attack
 
@@ -151,9 +151,9 @@ FAPI 1 has text regarding this attack.
 
 Bad AS could advertise endpoints for honest RS. Assumes that the trust anchor for the ecosystem fails.
 
-Mostly affects clients that support dynamic registration so should put some security consideration around that.
+Mostly affects clients that support dynamic registration so we should put some security consideration around that.
 
-#526 - Decide on B. Access Token Injection with ID Token Replay
+526 - Decide on B. Access Token Injection with ID Token Replay
 --------------------------------------------------------
 #526 - Decide on B. Access Token Injection with ID Token Replay
 
@@ -165,7 +165,7 @@ We need to decide whether we want to rely on server authentication or use a mode
 
 Need to decide whether we modify the attacker model or cope with the attack.
 
-#528 - PKCE Chosen Challenge Attack
+528 - PKCE Chosen Challenge Attack
 --------------------------------------------------------
 #528 - PKCE Chosen Challenge Attack
 
