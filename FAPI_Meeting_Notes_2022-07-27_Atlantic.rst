@@ -156,6 +156,7 @@ Mostly affects clients that support dynamic registration so should put some secu
 #526 - Decide on B. Access Token Injection with ID Token Replay
 --------------------------------------------------------
 #526 - Decide on B. Access Token Injection with ID Token Replay
+
 The security analysis https://arxiv.org/pdf/1901.11520.pdf recommends ID Token from the Token Endpoint to include the hash of the access token for FAPI 1.0.
 
 What should we do for FAPI 2? FAPI 2 does not require ID Token which acted as a detached signature.
@@ -166,15 +167,13 @@ Need to decide whether we modify the attacker model or cope with the attack.
 
 #528 - PKCE Chosen Challenge Attack
 --------------------------------------------------------
-
 #528 - PKCE Chosen Challenge Attack
+
 Out of time to discuss 
 
 
 
 AOB (Nat)
 =================
-* Gail reported that contact between U of NSW and U Stuttgart is being completed for the security analysis. 
-* Joseph is planning to make some recommendations to the Executive Committee next Thursday on the relying party developer support. Essentially trying to encourage open source libraries across a variety of different languages, the ones that we identified in the ticket last year. He had a reasonable amount of interest in that proposal from various different parties. Multiple different parties helping to fund, will probably work out to about six to $7000 per code base, 50K to 60K in total cost, various parties offsetting the cost.
 
 The call adjourned at 15:03 UTC
