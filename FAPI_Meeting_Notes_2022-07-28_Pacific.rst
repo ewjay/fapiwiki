@@ -16,31 +16,33 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
 
-* Attending:  
+* Attending:  Nat, Ed, Mark, Dima and anoop
 * Regrets:    
  
 
+
  Agenda/notes:
 
-* Security Analysis update - Stuttgart Uni (Tim, Pedram)  - We will setup a one off call 
-
-* Atalantic call Notes review
+* Security Analysis update - Follow up
+* * https://bitbucket.org/openid/fapi/issues/523/rotation-of-refresh-token-compromised
 * * Issues 525 & 526 is Work in Progress and Plan is to review & close next Atlantic call.
+* * 523
+* * * Decided to not use refresh token rotation in AU CDR. 
+* * * We still need a follow with DSB - Report to get their feedback.
+* * * Question for the team : Is refresh token time matters? Instead of 12 month to 5 yrs.
+* * * Nat : Timing may not matter. 
+* * * Overlapping refresh token 
+* * * The refresh token includes a configurable grace period: "leeway": 30
 
-* Events & Regional updates
-* * FDX Fall Summit - Dallas Oct 18 – 20
-* * FAPI 2.0 Pitch and Differences. (Security group).
-* * Brazil 
-Brazil -- preparing for OPIN (open insurance) certifications in August. And then open banking recertifications September through December that will also require DCR certs.
-
-SAMA -- positive meeting in Denver with SAMA representative confirming that 3rd party certification model works best for them. SAMA has requested formal communication/validation from WG regarding best practices for adopting FAPI 1 that will allow SAMA to most efficiently and effectively transition to FAPI 2 once it becomes a final spec. 
-
-Nigeria -- recent meeting highlighted central bank's guidance on open banking was more focused on policy and process than technology so there's more work to do there. We'll reconvene at the end of July to get an update from Open Banking Nigeria.
 
 * * AU (CDR)
 * * Independent review fro AU CDR 
 https://github.com/ConsumerDataStandardsAustralia/standards/issues/258 
 [ Open for Feedback ]
+ 
+
+
+
 
 
 
@@ -50,4 +52,4 @@ https://github.com/ConsumerDataStandardsAustralia/standards/issues/258
 Next Call
 ==============================
 Next call will be an Pacific Call. 
-Next Pacific call will be in two weeks (07-28-2022 @ 5pm PST) UTC - 07-29-2022 1:00 AM.
+Next Pacific call will be in two weeks (08-11-2022 @ 5pm PST) UTC - 08-12-2022 1:00 AM.
