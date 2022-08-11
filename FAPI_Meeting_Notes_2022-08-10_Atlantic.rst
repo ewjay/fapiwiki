@@ -100,7 +100,7 @@ PRs (Nat)
   * Joseph will add text regarding the unlikelihood of the attack
   * Another possible way is to make short lived access tokens
 
-* PR # 365 - FAPI2SP: Document DPoP proof leaks
+* PR #365 - FAPI2SP: Document DPoP proof leaks
 
   * Attacker obtains DPoP proof that can be replayed
   * Added mitigations
