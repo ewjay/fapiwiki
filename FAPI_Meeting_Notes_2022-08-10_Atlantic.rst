@@ -55,9 +55,6 @@ Events & Liaisons (Joseph on behalf of Mike L.)
 
 External Orgs & Liaisons
 ====================================================
-Brazil
------------------
-NA
 
 SAMA
 -----------------
@@ -67,13 +64,6 @@ Letter to SAMA has been published to OIDF website
 https://openid.net/wordpress-content/uploads/2022/08/OIDF_FAPI-Profiles-Comparisons_2022-07-27.pdf
 
 
-Global Open Finance Center of Excellence
------------------
-
-
-Nigeria
------------------
-NA
 
 
 PRs (Nat)
