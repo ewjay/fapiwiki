@@ -15,15 +15,17 @@ The meeting was called to order at 01:00 UTC.
 
 Roll Call (Anoop)
 =====================
+Nat and Anoop
   
 * Regrets:    
  
-
+****** **Meeting cancelled due low turnout. Will move item to next meeting** **** 
 
  Agenda/notes:
 
 *  Atlantic call updates
 *  Issues to review
+* * Issue 523
 
 * Regional Updates
 
