@@ -19,6 +19,7 @@ Roll Call (Nat)
 
 Adoption of Agenda (Dave/Nat)
 ================================
+Adopted as is. 
 
 External Orgs & Liaisons (Dave/Nat)
 ====================================================
@@ -42,8 +43,10 @@ Brazil (Mike/Joseph)
 * Open Finance BR anticipate 108 institutions to be re-certified towards the end of the year. 
 * Open Insurance deadline pushed to Dec.  Phase 1 (66 institutions) to be finished by Dec.31. Dates are still fluid.  
 
-SC27
---------- 
+ISO SC27 (Nat)
+-------------------
+Nat is sending out the liaison statement imminently. 
+Please send the text to be sent ASAP if you have one regarding our activities. 
 
 
 PRs (Dave/Nat)
