@@ -1,7 +1,7 @@
 ===========================================
 FAPI WG Agenda & Meeting Notes (2022-09-14) 
 ===========================================
-Date & Time: 2020-09-14T14:00Z
+* Date & Time: 2020-09-14T14:00Z
 * Location: GoToMeeting https://global.gotomeeting.com/join/321819862
 * Self: https://bitbucket.org/openid/fapi/wiki/edit/FAPI_Meeting_Notes_2022-07-10_Atlantic
 .. sectnum:: 
