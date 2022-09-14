@@ -24,7 +24,7 @@ External Orgs & Liaisons (Dave/Nat)
 ====================================================
 Secure Identity Foundation Webiner (Mike)
 ---------------------------------------------
-* https://www.idsalliance.org/webinar/a-guide-to-securing-cloud-access-with-caep/
+For those interested in the CAEP (Continuous Access and Evaluation Profile) topic, the Foundation and the Identity Defined Security Alliance (IDSE) are hosting a joint webinar on October 5th with Atul from the SSE WG presenting. Registration is required: https://www.idsalliance.org/webinar/a-guide-to-securing-cloud-access-with-caep/
 
 OIDF Workshop (Mike)
 -------------------------
