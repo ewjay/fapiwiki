@@ -14,6 +14,28 @@ The meeting was called to order at 14:__ UTC.
 Roll Call (Nat)
 ======================
 * Attending: 
+
+  * Brian Campbell
+  * Daniel Fett
+  * Dave Tonge
+  * Dima Postnikov
+  * Filip Skokan
+  * Jonik
+  * Joseph Heenan
+  * Justin Richer
+  * Lukasz Jaromin
+  * Mike Leszcz
+  * Nat Sakimura
+  * Pieter Kasselman
+  * Ralph Bragg
+  * Takahiko Kawasaki
+  * Ali Adnan
+  * Bjorn Hjelm
+  * Dima Postnikov
+  * Domingos Creado
+  * Kosuke Koiwai
+  * Rifaat Shekh-Yusef
+
 * Regrets: 
 * Guest: 
 
@@ -25,46 +47,125 @@ External Orgs & Liaisons (Dave/Nat)
 ====================================================
 Secure Identity Foundation Webiner (Mike)
 ---------------------------------------------
-For those interested in the CAEP (Continuous Access and Evaluation Profile) topic, the Foundation and the Identity Defined Security Alliance (IDSE) are hosting a joint webinar on October 5th with Atul from the SSE WG presenting. Registration is required: https://www.idsalliance.org/webinar/a-guide-to-securing-cloud-access-with-caep/
+For those interested in the CAEP (Continuous Access and Evaluation Profile) topic, the Foundation and the Identity Defined Security Alliance (IDSE) are hosting a joint webinar on October 5th with Atul from the SSE WG presenting. 
+
+Registration is required: 
+
+https://www.idsalliance.org/webinar/a-guide-to-securing-cloud-access-with-caep/
 
 OIDF Workshop (Mike)
 -------------------------
-* Monday Nov 14 @ San Jose
+Monday Nov 14 @ San Jose
+
+Mike will send the Registration link to the mailing list when it’s ready
 
 Saudi Central Bank
 -------------------------
 * Received internal approval to join OIDF and FAPI WG. 
 * Finalizing FAPI Adoption with FAPI 1.0 with PAR to ensure migration to FAPI 2.0. 
+* Now in the process of responding to various proposed certification models by Saudi.
+
 
 Brazil (Mike/Joseph)
 ----------------------
 * Received CIBA specification for BR. 
 * Joseph has done the review of it. Nine issues were raised in the BR issue tracker. 
 * Open Finance BR anticipate 108 institutions to be re-certified towards the end of the year. 
-* Open Insurance deadline pushed to Dec.  Phase 1 (66 institutions) to be finished by Dec.31. Dates are still fluid.  
+* Open Insurance deadline pushed to Dec.  
+
+  * Phase 1 (66 institutions) to be finished by Dec.31. 
+  * Dates are still fluid.  
 
 ISO SC27 (Nat)
 -------------------
+SC27 meeting is in 2 weeks.
+
 Nat is sending out the liaison statement imminently. 
+
 Please send the text to be sent ASAP if you have one regarding our activities. 
 
 
 PRs (Dave/Nat)
 =================
-PR369 Proposal to improve PR for Issue #534 (Daniel)
-------------------------------------------------------
-Incorporating the remarks that Tim made. 
+
+* PR #369 Proposal to improve PR for Issue #534 (Daniel)
+
+  * Related to #534 - Authorization Request Leaks lead to CSRF
+  * PR to another PR.  Changed order of sentences and points out that this is an issue only with redirect based flows.
+  * Incorporating the remarks that Tim made.
+  * Ralph asked what is the conformance program expecting from the 3  potential mitigations?
+  * There are no checks planned since they are not normative.
+  * Some of the attacks require a strong attacker model and mitigations across all ecosystems may be too complex for normative text to be added.
+  * Proposed mitigation #3 for reduced authorization code lifetime is filed as #538 - Lifetime of authorization codes
+
+* PR # 368 - Add mentions of Authorization Code Binding to DPoP key
+
+  * The word “may” discourages usage but is permitted. “Should” is suggested. 
+  * The original intent was to raise the possibility of such a binding. Will change to a note and remove normative language. 
+  * The AS is required to support it but not the client.
+  * Joseph will update.
+
+* PR #358 - Improve description of attacker model
+
+  * Changed wording from “access resources belonging to a user” to “access protected resources”
+  * Changed “obtain and use an access token belonging to a user” to “obtain and use an access token”
+  * Suggested to change “to access protected resources that they should not have access to”
+  * Support for non-repudiation
+
+    * PAR - yes
+    * Response to PAR - no
+    * Authorization request front channel - Implied via PAR
+    * Authorization Response - JARM
+    * ID Token content, introspection responses - yes
+    * Userinfo - out of scope for OAuth but it’s a protected resource and it’s covered under the signing responses for resource servers.
+
+  * Dave will update.
+
+* PR #308 - Add login hint token type registry values to CIBA
+
+  * Added the backchannel_endpoint_login_hint_token_types_supported and backchannel_endpoint_login_hint_token_types to discovery metadata
+  * Might need to make a FAPI 1 CIBA and FAPI 2 CIBA
+
+* PR #369 Proposal to improve PR for Issue #534 (Daniel)
+
+  * Incorporating the remarks that Tim made. 
 
 Issues (Dave/Nat))
 =====================
 * #541 HTTP Signatures (Justin)
+
+  * Suggested to split sections into “requests from the client to the RS” and “responses from the RS to the client” and make requirements more explicit
+  * Made some recommendations for what is required in the signature
+  * Don’t sign the date header 
+  * Better to sign the created parameter.
+
 * #538 Lifetime of authorization codes
+
+  * This is a issue for one of the mitigations for #534 - Authorization Request Leaks lead to CSRF
+  * Shorter authorization code lifetimes reduce the attack surface. 
+  * WG is in favor to change lifetime to 60 seconds. Will align with the OAuth WG discussion outcome.
+
 * #522 optional ID Token signature validation for code flow {to be discussed next week)
 
 
 
 AOB (Dave/Nat))
 =================
+
+
+Cross device flows and threats and mitigations (Peter Kasselman)
+----------------
+Discussion in IETF Vienna regarding Cross device flows and threats and mitigations.
+
+Created a document with Daniel and Filip that described the attacks and mitigations.
+
+https://docs.google.com/document/d/1Cka4ZZvi4z-nf55UbW4nmtgzlfAZSLLR4CRkvv3xVKc/edit?usp=sharing
+
+Peter requested interested parties to review and provide feedback.
+
+Also in what form the final document should be and whether it is valuable enough to continue pursuing the issue.
+
+
 
 
 The call adjourned at 15:00 UTC
