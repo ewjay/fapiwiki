@@ -45,8 +45,8 @@ Adopted as is.
 External Orgs & Liaisons (Dave/Nat)
 ====================================================
 
- FIDO Authenticate Conference
----------------------------------------------
+FIDO Authenticate Conference
+-------------------------------
 October 19, 2022 - FAPI presentation
 
 OIDF Workshop (Mike)
