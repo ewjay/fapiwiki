@@ -1,9 +1,9 @@
 ============================================
-FAPI WG Meeting Notes (2022-08-24) 
+FAPI WG Meeting Notes (2022-08-17) 
 ============================================
-* Date & Time: 2022-08-24T14:00Z
+* Date & Time: 2022-08-17T14:00Z
 * Location: GoToMeeting https://global.gotomeeting.com/join/321819862
-* Self: https://bitbucket.org/openid/fapi/wiki/edit/FAPI_Meeting_Notes_2022-08-24_Atlantic
+* Self: https://bitbucket.org/openid/fapi/wiki/edit/FAPI_Meeting_Notes_2022-08-17_Atlantic
 .. sectnum:: 
    :suffix: .
 
