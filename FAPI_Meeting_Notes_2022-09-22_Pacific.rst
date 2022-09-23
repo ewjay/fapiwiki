@@ -15,17 +15,18 @@ The meeting was called to order at 01:00 UTC.
 
 Roll Call (Anoop)
 =====================
- 
+ Anoop, Dima & Ed
   
 * Regrets:    
+ Nat
  
- 
-
+****** Meeting ended early due low turnout & no topics in agenda. ** **** 
  Agenda/notes:
 
-*  Atlantic call updates
-*  Issues to review
-* * Issue 523
+*  Gail & Anoop is preparing presentation for FIDO-Authenticate conference (Seattle)
+* Atlantic call updates
+*  Issues/PRs to review
+
 
 * Regional Updates
 
