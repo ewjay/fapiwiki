@@ -84,6 +84,11 @@ It can be characterised as an attack tricking the honest user into following the
 
 The issue came up only in the current analysis as the attacker is slightly stronger than what was presumed in the previous analysis. 
 
+During the discussion, the following was mentioned as being useful
+
+* Cross-Device Flows (Draft) - https://docs.google.com/document/d/1Cka4ZZvi4z-nf55UbW4nmtgzlfAZSLLR4CRkvv3xVKc/edit?pli=1#heading=h.ej62mrgnmec6
+* Trust Tokens - https://developer.chrome.com/en/docs/privacy-sandbox/trust-tokens/
+
 Daniel and Pedram will discuss the matter again tomorrow morning and report back to the WG. 
 
 The call adjourned at 15:15
