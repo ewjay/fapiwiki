@@ -38,34 +38,35 @@ o   OIDF Strategy and FAPI Panel – 1:45-2:40pm PT – Gail Hodges & Anoop Sa
 FIDO Member Plenary
 -----------------------
 Wednesday, October 19th – OIDF Sessions at FIDO Member Plenary
-o   9:00-9:10 -- Welcome & Opening Remarks
-o   Presenter: Gail Hodges - OpenID Foundation Executive Director
-o   9:10-9:45 -- Shared Signals & Events: A Secure Webhooks Framework
-o   Presenter:  Atul Tulshibagwale - SGNL
-o   9:45-10:20 -- OpenID for Verifiable Credentials (OpenID4VC): Addressing Self-Sovereign Identity, Decentralized Identity, or User-Centric Identity
-o   Presenter: Kristina Yasuda – Microsoft
-o   10:20-10:55 -- "A Review of the Global Assured Identity Network (GAIN): One Year On"
-o   Presenter:  Elizabeth Garber - Co-Chair GAIN Proof of Concept
-o   10:55-11:30 -- OIDF Government Whitepaper Listening Session: "Citizen-Centric Identity Systems"
-o   Presenter: Elizabeth Garber – Whitepaper Co-Author
-o   11:30-12:05 -- OIDF Privacy Whitepaper Listening Session: “Help Design a Scalable Future for Personal Privacy”
-o   Presenter: Heather Flanagan - Principal at Spherical Cow Consulting
-o   12:05-12:30 -- Closing Remarks, Open Q&A and Networking
-o   Presenter: Gail Hodges – OpenID Foundation Executive Director
+
+*   9:00-9:10 -- Welcome & Opening Remarks
+*   Presenter: Gail Hodges - OpenID Foundation Executive Director
+*   9:10-9:45 -- Shared Signals & Events: A Secure Webhooks Framework
+*   Presenter:  Atul Tulshibagwale - SGNL
+*   9:45-10:20 -- OpenID for Verifiable Credentials (OpenID4VC): Addressing Self-Sovereign Identity, Decentralized Identity, or User-Centric Identity
+*   Presenter: Kristina Yasuda – Microsoft
+*   10:20-10:55 -- "A Review of the Global Assured Identity Network (GAIN): One Year On"
+*   Presenter:  Elizabeth Garber - Co-Chair GAIN Proof of Concept
+*   10:55-11:30 -- OIDF Government Whitepaper Listening Session: "Citizen-Centric Identity Systems"
+*   Presenter: Elizabeth Garber – Whitepaper Co-Author
+*   11:30-12:05 -- OIDF Privacy Whitepaper Listening Session: “Help Design a Scalable Future for Personal Privacy”
+*   Presenter: Heather Flanagan - Principal at Spherical Cow Consulting
+*   12:05-12:30 -- Closing Remarks, Open Q&A and Networking
+*   Presenter: Gail Hodges – OpenID Foundation Executive Director
 
 FDX Global Summit Fall 2022
 ----------------------------------
 October 18th – 19th – FDX Global Summit Fall 2022
-o   Wes Dunnington & Joseph Heenan will be presenting “he journey from OAuth to FAPI: Why should I do this and what do I need to know?” (reference final agenda for date and time TBC)
+
+Wes Dunnington & Joseph Heenan will be presenting “he journey from OAuth to FAPI: Why should I do this and what do I need to know?” (reference final agenda for date and time TBC)
 
 OIDF Workshop prior to IIW Fall 2022
 ----------------------------------------
 Monday, November 14th – OIDF Workshop prior to IIW Fall 2022
-o   Finalizing host location in the Mountain View area.
-o   Details including registration link will be published to the OIDF website.
 
-MIKE LESZCZ : PROGRAM MANAGER : OPENID FOUNDATION
-mike.leszcz@oidf.org : +1 803.239.7750
+* Finalizing host location in the Mountain View area.
+* Details including registration link will be published to the OIDF website.
+
 
 External Orgs & Liaisons (Mike L./Chris)
 ============================================
