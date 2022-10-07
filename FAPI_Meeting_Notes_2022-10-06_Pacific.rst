@@ -15,6 +15,7 @@ The meeting was called to order at 01:00 UTC.
 
 Roll Call (Anoop)
 =====================
+Nat,Ed, Dima and Anoop
  
 * Regrets:    
   
@@ -22,7 +23,13 @@ Roll Call (Anoop)
 
 *  Gail & Anoop is preparing presentation for FIDO-Authenticate conference (Seattle)
 *  Issues/PRs to review
-* Regional Updates
+https://bitbucket.org/openid/fapi/issues/543/browser-swap-attack-explained-on-2022-09 
+* Tentative plan
+* * Implementation Draft End of winter session
+* * Final spec Spring next year
+
+*  Regional Updates
+* * No Updates
 
 
 
