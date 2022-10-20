@@ -56,31 +56,32 @@ Wednesday, October 19th – OIDF Sessions at FIDO Member Plenary
 
 * 9:00-9:10 -- Welcome & Opening Remarks
 
-* Presenter: Gail Hodges - OpenID Foundation Executive Director
+  * Presenter: Gail Hodges - OpenID Foundation Executive Director
 
 * 9:10-9:45 -- Shared Signals & Events: A Secure Webhooks Framework
 
-* Presenter:  Atul Tulshibagwale - SGNL
+  * Presenter:  Atul Tulshibagwale - SGNL
 
 * 9:45-10:20 -- OpenID for Verifiable Credentials (OpenID4VC): Addressing Self-Sovereign Identity, Decentralized Identity, or User-Centric Identity
 
-* Presenter: Kristina Yasuda – Microsoft
+  * Presenter: Kristina Yasuda – Microsoft
 
 * 10:20-10:55 -- "A Review of the Global Assured Identity Network (GAIN): One Year On"
 
-* Presenter:  Elizabeth Garber - Co-Chair GAIN Proof of Concept
+  * Presenter:  Elizabeth Garber - Co-Chair GAIN Proof of Concept
 
 * 10:55-11:30 -- OIDF Government Whitepaper Listening Session: "Citizen-Centric Identity Systems"
 
-* Presenter: Elizabeth Garber – Whitepaper Co-Author
+  * Presenter: Elizabeth Garber – Whitepaper Co-Author
 
 * 11:30-12:05 -- OIDF Privacy Whitepaper Listening Session: “Help Design a Scalable Future for Personal Privacy”
 
-* Presenter: Heather Flanagan - Principal at Spherical Cow Consulting
+  * Presenter: Heather Flanagan - Principal at Spherical Cow Consulting
 
 * 12:05-12:30 -- Closing Remarks, Open Q&A and Networking
 
-* Presenter: Gail Hodges – OpenID Foundation Executive Director
+  * Presenter: Gail Hodges – OpenID Foundation Executive Director
+
 
 FDX Global Summit Fall 2022
 ----------------------------------
