@@ -23,7 +23,7 @@ Roll Call (Anoop)
 
 *  Conference Update FIDO-Authenticate conference (Seattle)
 *  Issues/PRs to review
-https://bitbucket.org/openid/fapi/issues/543/browser-swap-attack-explained-on-2022-09 
+* * https://bitbucket.org/openid/fapi/issues/543/browser-swap-attack-explained-on-2022-09 
 * Roadmap Alignment 
 
  
