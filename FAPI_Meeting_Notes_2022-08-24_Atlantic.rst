@@ -91,6 +91,33 @@ Issues (Nat)
   * Dave will create issue about authorization code lifetime and raise the issue in OAuth WG
   * For this scope, no specific authorization code lifetime value is prescribed. The value should be prescribed elsewhere. Perhaps consider the issue of code lifetime separately.
 
+* #526 - Decide on B. Access Token Injection with ID Token Replay
+
+  * In this scenario, an attacker is able to get the client to use an incorrect token endpoint.
+  * Client should validate that discovery metadata matches the issuer identifier
+  * Cuckoo’s token attack mitigations don’t work for this attack.
+  * Only short lived access tokens can mitigate this attack.
+  * There is no normative text regarding access token lifetimes at the moment but actual value is difficult to determine due to differing use cases and conditions.
+  * If access token is time bound, it should be used with a refresh token.
+  * Joseph to come up with some guidance regarding access token lifetime and another for token injection.
+
+* #523 -  Rotation of Refresh token - Compromised client highlighted by AU - CDR Independent review.
+
+  * Waiting for feedback from Australia
+
+
+* #503 -  DPoP, PAR and Authorization Code binding
+
+  * Need to be consistent on what needs to be mandatory for FAPI
+  * 
+.. sourcecode:: text
+
+    "DPoP Authorization Code Binding. Section 10 of the DPoP draft [7] defines an optional dpop_jkt authorization parameter. Section 10.1, however, can be read as if an AS supporting PAR [20] and DPoP is required to also support the dpop_jkt authorization parameter. As FAPI 2.0 ASs will, in some cases, support both PAR and DPoP, it may be helpful to clarify this."
+
+  * FAPI 2 requires PAR so dpop_jkt is mandatory for AS
+  * May need to create tests for the AS in conformance test
+  * Dave will create PR
+
 
 AOB (Nat)
 =================
