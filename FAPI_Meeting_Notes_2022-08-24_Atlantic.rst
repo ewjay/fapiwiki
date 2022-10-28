@@ -109,11 +109,7 @@ Issues (Nat)
 * #503 -  DPoP, PAR and Authorization Code binding
 
   * Need to be consistent on what needs to be mandatory for FAPI
-  * 
-.. sourcecode:: text
-
-    "DPoP Authorization Code Binding. Section 10 of the DPoP draft [7] defines an optional dpop_jkt authorization parameter. Section 10.1, however, can be read as if an AS supporting PAR [20] and DPoP is required to also support the dpop_jkt authorization parameter. As FAPI 2.0 ASs will, in some cases, support both PAR and DPoP, it may be helpful to clarify this."
-
+  * *"DPoP Authorization Code Binding. Section 10 of the DPoP draft [7] defines an optional dpop_jkt authorization parameter. Section 10.1, however, can be read as if an AS supporting PAR [20] and DPoP is required to also support the dpop_jkt authorization parameter. As FAPI 2.0 ASs will, in some cases, support both PAR and DPoP, it may be helpful to clarify this."*
   * FAPI 2 requires PAR so dpop_jkt is mandatory for AS
   * May need to create tests for the AS in conformance test
   * Dave will create PR
