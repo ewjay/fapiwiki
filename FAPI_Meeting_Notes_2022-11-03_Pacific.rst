@@ -30,10 +30,10 @@ Agenda/notes:
 * https://bitbucket.org/openid/fapi/issues/551/extra-security-considerations-for-clients
 * https://bitbucket.org/openid/fapi/issues/550/should-network-layer-protections-be-made
 * Couple of Grant management Issues is tracked by Dima and looking for feedback from AS.
-* Gail reviewed read out summary of report. 
+* Gail reviewed current state of Security analysis report. 
 * one last minor pending PR - https://bitbucket.org/openid/fapi/pull-requests/383 then impl draft 2.0 to go into 45 notice period to public. Week of voting. 
 * Gail shared Certification status, benefits. 
-* 
+* Gail to share information on certification to AICC. Internally AICC will review with more folks and have formal discussion to align.
 
 * Atlantic Call update
 * * Only presentation. 
