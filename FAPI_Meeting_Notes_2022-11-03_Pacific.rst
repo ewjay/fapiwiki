@@ -16,14 +16,23 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
  
- 
+ David, Andrew, Dima, Ed and Anoop
 * Regrets:    
   Nat
  
 
 Agenda/notes:
 
+* Formal Security analysis 
+* * Pacific call review or recording.
+* Three issue open for latest Security analysis report
+* https://bitbucket.org/openid/fapi/issues/550/should-network-layer-protections-be-made
+* https://bitbucket.org/openid/fapi/issues/551/extra-security-considerations-for-clients
+* https://bitbucket.org/openid/fapi/issues/550/should-network-layer-protections-be-made
+* Couple of Grant management Issues is tracked by Dima and looking for feedback from AS.
+
 * Atlantic Call update
+* * Only presentation. 
 
 *  Regional Updates
  
