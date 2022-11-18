@@ -15,20 +15,26 @@ The meeting was called to order at 01:00 UTC.
 
 Roll Call (Anoop)
 =====================
- 
+Nat, Ed, Anoop and Dima
   
 * Regrets:    
    
- 
 
 Agenda/notes:
 
+* Events update
+* * OpenID workshop @Visa  - https://openid.net/2022/10/24/workshop-at-visa-monday-november-14-2022/ 
+* * * Whitepaper reviews (Governments, open banking and IoT)
+* * * Few Updates on FAPI 
+
+* * IIW events
+* * * Few sessions conducted from openID. 
  
 * Atlantic Call update
-* * Only presentation. 
-
+* * PRs & Issues
 
 *  Regional Updates
+* * Open banking Brazil join OpenId foundation board. 
  
 
  
