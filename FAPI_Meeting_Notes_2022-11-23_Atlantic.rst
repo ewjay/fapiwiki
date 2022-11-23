@@ -51,15 +51,15 @@ External Orgs & Liaisons (Mike L./Chris)
 ============================================
 SAMA
 ----------------
-still awaiting their final KSA FAPI Profile specification and hope to receive the end of this week. This is impacting Joseph and the team developing the conformance test. We communicated to SAMA that it would likely be the end of December or early January before the production tests and certification is available.
+OIDF is still awaiting their final KSA FAPI Profile specification and hope to receive the end of this week. This is impacting Joseph and the team developing the conformance test. We communicated to SAMA that it would likely be the end of December or early January before the production tests and certification is available.
 
 Open Finance Brazil
 ---------------------------
-continue to process a large volume of re-certification requests. We are also receiving quite a few new FAPI certification requests from Brazil as well.
+The certification team continue to process a large volume of re-certification requests. We are also receiving quite a few new FAPI certification requests from Brazil as well.
 
 OPIN
 ------ 
-starting to see initial FAPI certification requests. OIDF and OPIN hosted a second FAPI outreach workshop recently for the OPIN ecosystem. Domingos Creado, with the certification team, delivered the workshop in Portuguese, which was very well received. I will be posting both OPIN workshop recordings to the OIDF website.
+The certification team is starting to see initial FAPI certification requests. OIDF and OPIN hosted a second FAPI outreach workshop recently for the OPIN ecosystem. Domingos Creado, with the certification team, delivered the workshop in Portuguese, which was very well received. I will be posting both OPIN workshop recordings to the OIDF website.
 
 Open Banking Nigeria
 ----------------------------
