@@ -22,7 +22,7 @@ Roll Call (Dave/Nat)
 
 Adoption of Agenda (Dave/Nat)
 ================================
-* Daniel asked if ... 
+* Daniel asked if it is possible to provide the Stuttgart team with the number of implementations for FAPI 1 and 2. Nat replied that the number for FAPI 1 can be drawn from the certification results, but FAPI 2 is more challenging. It was decided to track it in the ticket that Daniel is going to make. 
 * Peter reported ... 
 
 
