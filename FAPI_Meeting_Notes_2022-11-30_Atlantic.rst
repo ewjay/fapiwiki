@@ -199,9 +199,33 @@ PRs (Dave)
 
 Issues (Dave)
 ==================
+* #554 - Mention U of Stuttgart researchers in Acknowledgements
+
+  * Will take names from Paper and add to Attacker Model and Security Profile
+  * Dave will create PR
+
+* #557 - [FAPI 2.0] Move "MTLS Protection of all endpoints" from [Message Signing] to [Security Profile]
+
+  * WG decided it should be removed from Message Signing and moved to Security Profile
+  * Will perform change after Message Signing is in ID
+
+* #555 - Tracking: Implementers of FAPI 1.0 and FAPI 2.0
+
+  * WG members are asked to add known implementations 
+  * Some banks in Japan use FAPI but it is not required by regulator
+
+* #553 - More details on obtaining tokens for existing grant use case
+
+  * Provides more details about using existing grants
+  * It is unclear about the grant action to use
+  * Client should tell AS what action to use otherwise result may depend on AS
+  * Refresh token rotation is discouraged for FAPI 
+  * User must go through full authorization flow to get a new token
+  * For this use case, clients should specify Merge as the action
+  * Many implementations refresh refresh tokens upon use during validity period
 
 
-AOB (Dave)0000000
+AOB (Dave)
 =============
 
 The call adjourned at 15:__
