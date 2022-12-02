@@ -100,7 +100,7 @@ Open Finance Brazil
 The certification team continue to receive re-certification requests. 
 
 OPIN
------- 
+--------------------------
 The certification team is starting to see initial FAPI certification requests and requests may increase throughout Dec.
 
 
