@@ -20,7 +20,6 @@ Roll Call (Dave/Nat)
   * Brian Campbell
   * Daniel Fett
   * Dave Tonge
-  * Dexter Awoyemi
   * Dima
   * Domingos Creado
   * Filip Skokan
@@ -28,12 +27,9 @@ Roll Call (Dave/Nat)
   * Justin Richer
   * Kosuke Koiwai
   * Lukasz Jaromin
-  * Luyllie Freitas
-  * Manoj
   * Mike Leszcz
   * Nik Kramaric
   * Pieter Kasselman
-  * Reinaldo Matukuma
   * Takahiko Kawasaki
 
 
@@ -223,6 +219,11 @@ Issues (Dave)
   * User must go through full authorization flow to get a new token
   * For this use case, clients should specify Merge as the action
   * Many implementations refresh refresh tokens upon use during validity period
+  * UK-OB refresh tokens are tied to lifetime of consent
+  * The semantics differences between the grant and the refresh token is not clear adding to the confusion
+  * Refresh token is independent of grant
+  * Further discussion is needed
+
 
 
 AOB (Dave)
