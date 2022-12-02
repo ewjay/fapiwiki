@@ -75,7 +75,7 @@ To be held end of Feb 2023 in Riyadh
 Don Thibeau may attend
 
 Open Banking for Latin America Regulators
------------------------------
+---------------------------------------------
 To be held March 2023 in Rio
 
 Details TBD
@@ -96,7 +96,7 @@ Chicago Advisory Partners, Administrator of Open Finance Brazil,  has joined the
 
 
 Open Finance Brazil
----------------------------
+-------------------------
 The certification team continue to receive re-certification requests. 
 
 OPIN
@@ -105,7 +105,7 @@ The certification team is starting to see initial FAPI certification requests an
 
 
 Australia
-—---------------------
+—---------
 Stuttgart has completed work package 1.
 
 Need to create blogs to communicate completion.
