@@ -15,8 +15,11 @@ The meeting was called to order at 01:00 UTC.
 
 Roll Call (Anoop)
 =====================
- 
+Anoop and Dima. 
   
+***Cancelled meeting due low turnout.***
+
+
 * Regrets:    
    
 
