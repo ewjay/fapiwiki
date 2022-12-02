@@ -228,4 +228,18 @@ Issues (Dave)
 AOB (Dave)
 =============
 
+
+Chat Transcripts
+=============
+
+Mike:
+
+US I assume FAPI WG has discussed the CFPB announcements from Money 20/20 on open banking regulation. If anyone has heard about comment periods being open or anything please keep WG updated including Gail.
+
+
+Canada Open banking lead Abraham made public comments at a conference the Thursday before thanksgiving on their plans. https://www.theglobeandmail.com/events/article-mapping-canadas-path-to-open-banking/
+
+Open Banking Implementation Website is hosting all the results of the working group meeting materials and conclusions for last 6 moths. They plan to move to data sharing in 2023 (not payment). I have not read all information, but they are closed analysing UK, Australia and other models around consumer data rights, and specifically mention that OBIE uses OIDF to certify and Australia does not. https://www.canada.ca/en/department-finance/programs/financial-sector-policy/open-banking-implementation.html
+
+
 The call adjourned at 15:__
