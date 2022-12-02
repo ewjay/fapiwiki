@@ -91,21 +91,21 @@ OIDF is still awaiting their final KSA FAPI Profile specification and to develop
 Other regional regulators are watching SAMA’s approach to Open Banking.
 
 Brazil 
-—-------
+----------------
 Chicago Advisory Partners, Administrator of Open Finance Brazil,  has joined the OIDF board and attended the board meeting on Nov 14.
 
 
 Open Finance Brazil
--------------------------
+----------------
 The certification team continue to receive re-certification requests. 
 
 OPIN
---------------------------
+----------------
 The certification team is starting to see initial FAPI certification requests and requests may increase throughout Dec.
 
 
 Australia
-—---------
+----------------
 Stuttgart has completed work package 1.
 
 Need to create blogs to communicate completion.
@@ -116,7 +116,7 @@ Australia asked questions regarding JARM and encrypted JARM
 
 
 Open Banking Cross Borders Paper
-—----------------------------------------
+----------------
 https://docs.google.com/document/d/176au5lZcR0vHbQG43wE7pZr7PBgVd7O7AqAzb6rqDzU/edit
 
 Last call for comments will be sent
@@ -124,7 +124,7 @@ Last call for comments will be sent
 
 
 Open Banking Nigeria
-----------------------------
+----------------
 The Central Bank of Nigeria has stalled on open banking since they released the draft guidance last May. It may be that their priorities have shifted from Open Banking to fighting inflation, releasing new currency designs, and pushing the e-Naira CBDC. Open Banking Nigeria have decided it wouldn’t be easy to pull off auth and authorization over USSD with OAuth2 and FAPI at this time however, the team is still exploring some ideas to see how to make this work.
 
 
