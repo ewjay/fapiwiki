@@ -10,7 +10,7 @@ FAPI WG Agenda & Meeting Notes (2022-12-07)
 
 .. contents:: Agenda
 
-The meeting was called to order at 14:05 UTC. 
+The meeting was called to order at 14:03 UTC. 
 
 Roll Call (Dave/Nat)
 ======================
@@ -23,90 +23,45 @@ Roll Call (Dave/Nat)
 
 Adoption of Agenda (Dave/Nat)
 ================================
-* Daniel asked if it is possible to provide the Stuttgart team with the number of implementations for FAPI 1 and 2. Nat replied that the number for FAPI 1 can be drawn from the certification results, but FAPI 2 is more challenging. It was decided to track it in the ticket that Daniel is going to make. 
-* Peter reported ... 
+
+Message Signing
+=====================
+It should be ready to go for I-D. 
+
+Grant Management (Dima)
+============================
+PR 391 Dima Postnikov clarification re new tokens
+------------------------------------------------------
+s/either/e.g./
+
+Proceeding for Implementer's Draft
+---------------------------------------
+* Last Call was Oct. 23. Now all the issues came up are addressed. 
 
 
 Events (Mike L.)
 ====================================================
-
-OIDF Workshop at Visa
------------------------------
-The presentation deck has been published
-
-https://openid.net/workshops/openid-foundation-workshop-at-visa-monday-november-14-2022/
-
-Identiverse 2023
------------------------------
-The call for presentations is open until January 6, 2023: https://www.abstractscorecard.com/cfp/submit/login.asp?EventKey=RDBGWULG 
-
-EIC 2023
------------------------------
-The call for presentations is open until February 28, 2023: https://www.kuppingercole.com/events/eic2023/callforspeakers
-
-Mike will be developing a spreadsheet for Gail and Mike to track OIDF submissions for both conferences.
-Mike will communicate the above to all WG co-chairs via email. 
-
-Joseph noted that it seems the earlier you submit for EIC, the better your chances of getting submitted. 
-
-Open Banking World Congress
------------------------------
-To be held end of Feb 2023 in Riyadh
-
-Don Thibeau may attend
-
-Open Banking for Latin America Regulators
----------------------------------------------
-To be held March 2023 in Rio
-
-Details TBD
-
+n/a
 
 
 External Orgs & Liaisons (Mike L./Chris)
 ============================================
-SAMA
+
+
+Brazil (Mike)
 ----------------
-OIDF is still awaiting their final KSA FAPI Profile specification and to develop the conformance tests. We communicated to SAMA that it would likely be the end of December or early January before the production tests and certification is available.
+* A steady flow of re-certification from Open Finance Brazil
+* Open Insurance BR certification request has started to come in. 
 
-Other regional regulators are watching SAMA’s approach to Open Banking.
+SAMA (Mike/Chris)
+---------------------
+* Call on Monday this week. Clarified KSA profile. 
+* Model Bank will be available on Dec. 15. 
+* KSA profile testing to start Jan. 16. Three banks agreed to test the test. 
+* Expected to be in production in February. 
 
-Brazil 
-----------------
-Chicago Advisory Partners, Administrator of Open Finance Brazil,  has joined the OIDF board and attended the board meeting on Nov 14.
-
-
-Open Finance Brazil
-----------------
-The certification team continue to receive re-certification requests. 
-
-OPIN
-----------------
-The certification team is starting to see initial FAPI certification requests and requests may increase throughout Dec.
-
-
-Australia
-----------------
-Stuttgart has completed work package 1.
-
-Need to create blogs to communicate completion.
-
-Work package 2 is pending funding approval and contract release by Australian Treasury by the end of the week
-
-Australia asked questions regarding JARM and encrypted JARM
-
-
-Open Banking Cross Borders Paper
-----------------
-https://docs.google.com/document/d/176au5lZcR0vHbQG43wE7pZr7PBgVd7O7AqAzb6rqDzU/edit
-
-Last call for comments will be sent
-
-
-
-Open Banking Nigeria
-----------------
-The Central Bank of Nigeria has stalled on open banking since they released the draft guidance last May. It may be that their priorities have shifted from Open Banking to fighting inflation, releasing new currency designs, and pushing the e-Naira CBDC. Open Banking Nigeria have decided it wouldn’t be easy to pull off auth and authorization over USSD with OAuth2 and FAPI at this time however, the team is still exploring some ideas to see how to make this work.
+* OIDF email was out due to the Rackspace outage from Friday to Sunday. Please re-send. 
+* Please vote for Mobile SSO. 
 
 
 
