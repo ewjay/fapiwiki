@@ -140,7 +140,7 @@ Needs update for Jacob’s comment
 
   * Changed wording ‘Financial-grade API’ to FAPI
 
-* PR # 395 - FAPI2MS: Create acknowledgements section
+* PR #395 - FAPI2MS: Create acknowledgements section
 
   * Added acknowledgements
   * Anyone left out should add their name
