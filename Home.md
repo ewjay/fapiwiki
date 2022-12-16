@@ -48,6 +48,8 @@ This page is not always updated so it is better to go to the above link to find 
 
 ### 2018
 
+* [[FAPI_Meeting_Notes_2018]] <-- Go here for the archive of all the meetings in 2017. 
+
 * [[FAPI_Meeting_Notes_2018-01-09]]
 * [[FAPI_Meeting_Notes_2018-01-17]]
 * [[FAPI_Meeting_Notes_2018-01-23]]
