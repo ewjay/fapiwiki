@@ -15,10 +15,25 @@ The meeting was called to order at 14:03 UTC.
 Roll Call (Dave/Nat)
 ======================
 * Attending: 
+#. Chris Michael
+#. Daniel Fett (yes.com)
+#. Dima
+#. George Fletcher
+#. Joseph Heenan (OIDF/Authlete)
+#. Kosuke Koiwai
+#. Lukasz Jaromin (Cloudentity)
+#. Mike Leszcz - (OpenID Foundation)
+#. Nat Sakimura
+#. Bjorn Hjelm
+#. Brian Campbell
+#. Daniel Lindau (Curity)
+#. Domingos Creado - OIDF/Authlete
+#. Joao Rodolfo - Itau Unibanco
+#. Justin Richer
+#. Nik Kramaric
+#. Ralph Bragg
 
-
-
-* Regrets: 
+* Regrets: Dave
 * Guest: 
 
 Adoption of Agenda (Dave/Nat)
@@ -32,11 +47,11 @@ Grant Management (Dima)
 ============================
 PR 391 Dima Postnikov clarification re new tokens
 ------------------------------------------------------
-s/either/e.g./
+* WG agreed to replace "either" with "e.g."
 
 Proceeding for Implementer's Draft
 ---------------------------------------
-* Last Call was Oct. 23. Now all the issues came up are addressed. 
+* Last Call was Oct. 23. Now all the issues that came up are addressed. 
 
 
 Events (Mike L.)
@@ -46,8 +61,6 @@ n/a
 
 External Orgs & Liaisons (Mike L./Chris)
 ============================================
-
-
 Brazil (Mike)
 ----------------
 * A steady flow of re-certification from Open Finance Brazil
@@ -63,6 +76,19 @@ SAMA (Mike/Chris)
 * OIDF email was out due to the Rackspace outage from Friday to Sunday. Please re-send. 
 * Please vote for Mobile SSO. 
 
+US
+---
+* There were the CFPB announcements from Money 20/20 on open banking regulation. If anyone has heard about comment periods being open or anything, please keep WG updated, including Gail.
+
+
+Canada
+----------
+* Open banking lead Abraham made public comments at a conference the Thursday before thanksgiving on their plans. https://www.theglobeandmail.com/events/article-mapping-canadas-path-to-open-banking/
+
+UK
+--------------
+* Open Banking Implementation Website is hosting all the results of the working group meeting materials and conclusions for last 6 moths. They plan to move to data sharing in 2023 (not payment). I have not read all information, but they are closed analysing UK, Australia and other models around consumer data rights, and specifically mention that OBIE uses OIDF to certify and Australia does not. 
+* https://www.canada.ca/en/department-finance/programs/financial-sector-policy/open-banking-implementation.html
 
 
 FAPI Specs
@@ -183,4 +209,4 @@ Canada Open banking lead Abraham made public comments at a conference the Thursd
 Open Banking Implementation Website is hosting all the results of the working group meeting materials and conclusions for last 6 moths. They plan to move to data sharing in 2023 (not payment). I have not read all information, but they are closed analysing UK, Australia and other models around consumer data rights, and specifically mention that OBIE uses OIDF to certify and Australia does not. https://www.canada.ca/en/department-finance/programs/financial-sector-policy/open-banking-implementation.html
 
 
-The call adjourned at 15:__
+The call adjourned at 15:00
