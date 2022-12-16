@@ -31,6 +31,7 @@
 * [[FAPI_Meeting_Notes_2020-06-25_Pacific ** Cancelled]]
 * [[FAPI_Meeting_Notes_2020-07-01_Atlantic]]
 * [[FAPI_Meeting_Notes_2020-07-15_Atlantic]]
+* [[FAPI_Meeting_Notes_2020-07-23_Pacific]]
 * [[FAPI_Meeting_Notes_2020-07-29_Atlantic]]
 * [[FAPI_Meeting_Notes_2020-08-05_Atlantic]]
 * [[FAPI_Meeting_Notes_2020-08-06_Pacific]]
