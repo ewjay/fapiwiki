@@ -27,16 +27,13 @@ We really recommend you to join by GoToMeeting App, but if you absolutely have t
 
 ## Current Drafts
 
-* [Implementer's Draft for Part 1: Read Only APIs security](https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md)
-* [Implementer's Draft for Part 2: Read and Write APIs security](https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_002.md)
-* [Implementer's Draft for JARM](https://bitbucket.org/openid/fapi/src/master/Financial_API_JWT_Secured_Authorization_Response_Mode.md)
-* [Implementer's Draft for Client Initiated Backchannel Authentication Profile](https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_CIBA.md?at=master) 
+Please go to the [Source section](https://bitbucket.org/openid/fapi/src)
 
 ## Meeting Notes
 
 To see all items, please go to https://bitbucket.org/openid/fapi/wiki/browse/. 
 
-This page is not always updated so it is better to go to the above link to find out the latest notes. 
+This page is not always updated, so it is better to go to the above link to find out the latest notes. 
 
 ### 2016
 
@@ -54,8 +51,6 @@ This page is not always updated so it is better to go to the above link to find 
 ### 2019
 
 * [[FAPI Meeting Notes 2019]] <-- Go here for the archive of all the meetings in 2019. 
-
-
 
 
 ### 2020
