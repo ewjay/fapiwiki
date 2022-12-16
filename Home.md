@@ -40,7 +40,7 @@ This page is not always updated so it is better to go to the above link to find 
 
 ### 2016
 
-* [[FAPI_Meeting_Notes_2016]] <-- Go here for the archive of all the meetings in 2016. 
+* [[FAPI Meeting Notes 2016]] <-- Go here for the archive of all the meetings in 2016. 
 
 ### 2017 
 
@@ -48,49 +48,8 @@ This page is not always updated so it is better to go to the above link to find 
 
 ### 2018
 
-* [[FAPI_Meeting_Notes_2018]] <-- Go here for the archive of all the meetings in 2017. 
+* [[FAPI Meeting Notes 2018]] <-- Go here for the archive of all the meetings in 2017. 
 
-* [[FAPI_Meeting_Notes_2018-01-09]]
-* [[FAPI_Meeting_Notes_2018-01-17]]
-* [[FAPI_Meeting_Notes_2018-01-23]]
-* [[FAPI_Meeting_Notes_2018-01-31]]
-* [[FAPI_Meeting_Notes_2018-02-06]]
-* [[FAPI_Meeting_Notes_2018-02-14]]
-* [[FAPI_Meeting_Notes_2018-02-20]]
-* [[FAPI_Meeting_Notes_2018-02-28]]
-* [[FAPI_Meeting_Notes_2018-03-06]]
-* [[FAPI_Meeting_Notes_2018-03-28]]
-* [[FAPI_Meeting_Notes_2018-04-03]]
-* [[FAPI_Meeting_Notes_2018-04-11]]
-* [[FAPI_Meeting_Notes_2018-04-25]]
-* [[FAPI_Meeting_Notes_2018-05-01]]
-* [[FAPI_Meeting_Notes_2018-05-09]]
-* [[FAPI_Meeting_Notes_2018-05-23]]
-* [[FAPI_Meeting_Notes_2018-05-29]]
-* [[FAPI_Meeting_Notes_2018-06-06]]
-* [[FAPI_Meeting_Notes_2018-06-13]]
-* [[FAPI_Meeting_Notes_2018-06-20]]
-* [[FAPI_Meeting_Notes_2018-06-27]]
-* [[FAPI_Meeting_Notes_2018-07-04]]
-* [[FAPI_Meeting_Notes_2018-07-10]]
-* [[FAPI_Meeting_Notes_2018-07-24-2]]
-* [[FAPI_Meeting_Notes_2018-07-24_F2F]]
-* [[FAPI_Meeting_Notes_2018-08-01]]
-* [[FAPI_Meeting_Notes_2018-08-07]]
-* [FAPI_Meeting_Notes_2018-08-15 (Atlantic)](https://bitbucket.org/openid/fapi/wiki/FAPI_Meeting_Notes_2018-08-15%20(Atlantic))
-* [[FAPI_Meeting_Notes_2018-08-21]]
-* [FAPI_Meeting_Notes_2018-08-22 (Atlantic)](https://bitbucket.org/openid/fapi/wiki/FAPI_Meeting_Notes_2018-08-22%20(Atlantic))
-* [FAPI_Meeting_Notes_2018-08-29 (Atlantic)](https://bitbucket.org/openid/fapi/wiki/FAPI_Meeting_Notes_2018-08-29%20(Atlantic))
-* [FAPI_Meeting_Notes_2018-009-18 (Pacific)](https://bitbucket.org/openid/fapi/wiki/FAPI_Meeting_Notes_2018-09-18%20Pacific)
-* [[FAPI_Meeting_Notes_2018-09-26_Atlantic]]
-* [[FAPI_Meeting_Notes_2018-10-10_Atlantic]]
-* [[FAPI_Meeting_Notes_2018-10-16_Pacific]]
-* [[FAPI_Meeting_Notes_2018-10-24_Atlantic]]
-* [[FAPI_Meeting_Notes_2018-11-07_Atlantic]]
-* [[FAPI_Meeting_Notes_2018-11-27_Pacific]]
-* [[FAPI_Meeting_Notes_2018-12-05_Atlantic]] 
-* [[FAPI_Meeting_Notes_2018-12-11_Pacific]] 
-* [[FAPI_Meeting_Notes_2018-12-19_Atlantic]] 
 
 ### 2019
 
