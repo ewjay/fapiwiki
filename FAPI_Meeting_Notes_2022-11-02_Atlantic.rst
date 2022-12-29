@@ -98,19 +98,6 @@ https://openid.net/2022/10/13/notice-of-vote-for-proposed-final-jwt-secured-auth
 
 
 
-PRs
-========
-
-* PR #308 - Add login hint token type registry values to CIBA
-
-  * Awaiting confirmation from Ralph
-
-* PR #347  - scope and resource clarifications
-
-  * Needs review
-
-
-
 Security Analysis
 ========================
 
