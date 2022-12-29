@@ -153,7 +153,7 @@ Need to align it with FAPI 2
 PRs
 ========
 
-* PR # 387 - Fix typo in DPoP Proof Replay Security Considerations
+* PR #387 - Fix typo in DPoP Proof Replay Security Considerations
 
   * Fixes some typos
   * Will be merged
