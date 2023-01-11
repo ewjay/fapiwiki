@@ -126,8 +126,9 @@ n/a
 
 CIBA
 --------
-* Dave will investigate possibility of making it compatible with FAPI 1 and 2
-* A joint call with Modrna WG is being planned. 
+* Dave will investigate the possibility of making it compatible with FAPI 1 and 2
+* A joint call with Modrna WG is being planned. Tracked as issue #559 - Co-ordinate a joint call with Modrna WG on claims parameter for CIBA
+
 
 Implementation and Deployment Advice
 ----------------------------------------------
@@ -141,119 +142,126 @@ n/a
 
 PRs (Dave)
 ===============
+401 - FAPI2MS: Reword section about testing
+------------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/401
 
+400 - FAPI2MS: Make [security profile] a real reference
+-------------------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/400
 
+309 - Remove old specs
+-------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/398
 
+397 - FAPI-CIBA: Remove FAPILI from normative references
+---------------------------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/397
+
+396 - FAPI2MS: Make security considerations a top level section
+--------------------------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/396
+
+399 - Update JARM ref in message signing
+----------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/399
+
+393 - use ticks so it doesn't end up as privatekeyjwt - fapi-2_0-message-signing.md edited online with Bitbucket
+------------------------------------------------------------------------------------------------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/393
+
+394 - FAPI2MS: Make normative references normative
+-----------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/394
 
 Issues (Nat)
 ==================
-* #561- Intro need to be fixed
+Message signing issues: https://bitbucket.org/openid/fapi/issues?component=FAPI2%3A+Message+Signing&status=new&status=open
 
-  * Need to create text 
-  * Suggestions are welcome
+* #565 - Add privacy consideration
 
-* #559 - Co-ordinate a joint call with Modrna WG on claims parameter for CIBA
+  * Nat to own the ticket. 
 
-  * Joseph will check with Bjorn regarding status
+* #561 - Intro need to be fixed
 
-* #420 - Multi Party Consents
+  * Dave to own the ticket. 
 
-  * Waiting for use case
+* #479 - Change to the naming of FAPI
 
-* #537 - Document trade-offs between DPoP and MTLS
+  * To be closed
 
-  * Will put in Implementation and Deployment Advice document
-  * Joseph will provide text
+* #487 - RS must check x-fapi-interaction-id is an UUID or IP address
+
+  * Implementation notes to include clarified text. 
+
+* #558 - update filenames for grant management and CIBA
+
+  * Dima to clarify with Mike Jones. 
 
 * #104 - User friendly names and registration of providers
 
-  * Most likely related to Federation or Dynamic Client Registration
-  * Propose to close if no feedback from Tom
+  * Closing the ticket. 
 
-* #229 - FAPI CIBA and ID Tokens
+* 567 - Clause 20" does not exist any longer...
 
-  * Was postponed to 2nd implementer’s draft
-  * CIBA Core requires “openid” scope
-  * Suggest Modrna WG adjust text. Joseph will check if there are anything is affected.
-
-* #242 - Missing Bibliography Reference to FAPILI
-
-  * References have been removed
-  * Closed
-
-* #273 - Security considerations re large access tokens
-
-  * Remind Dave to update status
-
-* #288 - FAPI WG & Specs pages are woefully out of date
-
-  * Mike will make the changes as part of transition to new site
-
-* #212 - FAPI-CIBA; should id_token tie itself to the auth request?
-
-  * Need to know the attacker model for CIBA before proceeding.
-
-* #295 - Possible support for "embedded" SCA mode
-
-  * Will leave for the moment
-
-* #260 - Add section in the "Implementation Advice" document about supporting Mobile Apps
-
-  * Put app2app documentation into Implementation Advice
-  * Joseph and Dima may have some text
-  * George pointed out that Android’s app link is not as secure as IOS universal links and may be possible to impersonate.  App attestation comes into play.
-  * Joseph pointed out that in the latest Android, it is fixed, but it will take a long time for Android deployments to catch up.
-
-* #197 - New Document Proposal: FAPI Implementation Guide
-
-  * Will need to add text to document
-
-
-* #153 - Add level of assurance to scope
-
-  * Will add to Implementation Advice
-
-
-* #291 - Remove older specs from master
-
-  * PR #398 to remove old specs
-  * Will close
-
+  * Closing as resolved. 
 
 
 AOB (Nat)
 =============
-* Happy holidays and new year! 
+* GNAP going through WGLC. 
 
 The call adjourned at 15:00
 
 Chat Transcripts
 ========================
+Me to Everyone	11:03 PM	Draft Agenda
 
-Mike Leszcz - (OpenID Foundation) to Everyone	11:04 PM	https://openid.net/foundation/calendar-of-events/
-Mike Leszcz - (OpenID Foundation) to Everyone	11:04 PM	mike.leszcz@oidf.org
-Me to Everyone	11:08 PM	https://lists.openid.net/pipermail/openid-specs-fapi/2022-December/002764.html
-Joseph Heenan (OIDF/Authlete) to Everyone	11:08 PM	https://bitbucket.org/openid/mobile/issues/210/use-of-ekyc-ida-spec-with-ciba-fapi-ciba
-Me to Everyone	11:27 PM	https://bitbucket.org/openid/fapi/pull-requests/392
-Me to Everyone	11:28 PM	https://bitbucket.org/openid/fapi/pull-requests/394
-Me to Everyone	11:29 PM	https://bitbucket.org/openid/fapi/pull-requests/393
-Me to Everyone	11:29 PM	https://bitbucket.org/openid/fapi/pull-requests/391
-Me to Everyone	11:31 PM	https://bitbucket.org/openid/fapi/pull-requests/385
-Me to Everyone	11:34 PM	https://bitbucket.org/openid/fapi/issues/561/intro-need-to-be-fixed
-Me to Everyone	11:36 PM	https://bitbucket.org/openid/fapi/issues/559/co-ordinate-a-joint-call-with-modrna-wg-on
-Me to Everyone	11:37 PM	https://bitbucket.org/openid/fapi/issues/537/document-trade-offs-between-dpop-and-mtls
-Joseph Heenan (OIDF/Authlete) to Everyone	11:37 PM	https://bitbucket.org/openid/fapi/pull-requests/395
-Me to Everyone	11:40 PM	https://bitbucket.org/openid/fapi/issues/104/user-friendly-names-and-registration-of
-Me to Everyone	11:42 PM	https://bitbucket.org/openid/fapi/issues/229/fapi-ciba-and-id-tokens
-Me to Everyone	11:45 PM	https://bitbucket.org/openid/fapi/issues/242/missing-bibliography-reference-to-fapili
-Me to Everyone	11:46 PM	https://bitbucket.org/openid/fapi/issues/273/security-considerations-re-large-access
-Me to Everyone	11:47 PM	https://bitbucket.org/openid/fapi/issues/288/fapi-wg-specs-pages-are-woefully-out-of
-Me to Everyone	11:49 PM	https://bitbucket.org/openid/fapi/issues/212/fapi-ciba-should-id_token-tie-itself-to
-Me to Everyone	11:51 PM	https://bitbucket.org/openid/fapi/issues/295/possible-support-for-embedded-sca-mode
-Me to Everyone	11:52 PM	https://bitbucket.org/openid/fapi/issues/260/add-section-in-the-implementation-advice
-Me to Everyone	11:56 PM	https://bitbucket.org/openid/fapi/issues/197/new-document-proposal-fapi-implementation
-Me to Everyone	11:57 PM	https://bitbucket.org/openid/fapi/issues/153/add-level-of-assurance-to-scope
-Me to Everyone	11:58 PM	https://bitbucket.org/openid/fapi/issues/291/remove-older-specs-from-master
-Craig Borysowich (Payments Canada) to Everyone	11:59 PM	Happy holidays folks!!
-Mike Leszcz - (OpenID Foundation) to Everyone	12:00 AM	Happy Holidays!
-Mike Leszcz - (OpenID Foundation) to Everyone	12:03 AM	https://openid.net/foundation/calendar-of-events/
+1.   Roll Call (Dave/Nat)
+2.   Adoption of Agenda (Nat)
+3.   Second Implementer’s Drafts of Two FAPI 2.0 Specifications
+4.   Events (Mike L.)
+5.   Internal Liaisons
+5.1.   Modrna WG
+5.2.   iGov WG
+6.   External Orgs & Liaisons (Mike L./Chris)
+6.1.   Brazil (Mike)
+6.2.   SAMA (Mike)
+7.   Drafts Updates (Nat)
+7.1.   Security Profile
+7.2.   Message Signing
+7.3.   Grant Management
+7.4.   CIBA
+7.5.   Implementation and Deployment Advice
+7.6.   Advanced Authorization
+8.   PRs (Nat)
+9.   Issues (Nat)
+10.   AOB (Nat)
+Mike Leszcz - (OpenID Foundation) to Everyone	11:05 PM	https://openid.net/2023/01/08/notice-of-vote-for-proposed-second-implementers-drafts-of-two-fapi-2-0-specifications/
+Me to Everyone	11:05 PM	https://openid.net/2023/01/08/notice-of-vote-for-proposed-second-implementers-drafts-of-two-fapi-2-0-specifications/
+Mike Leszcz - (OpenID Foundation) to Everyone	11:06 PM	https://openid.net/foundation/calendar-of-events/
+Mike Leszcz - (OpenID Foundation) to Everyone	11:16 PM	https://docs.google.com/document/d/1mjmqPzfRI1l0ki9qnyaSz2YwAkH54gfG8A4lJtzA0WI/edit?usp=sharing
+Me to Everyone	11:17 PM	https://files.consumerfinance.gov/f/documents/cfpb_data-rights-rulemaking-1033-SBREFA_outline_2022-10.pdf 
+
+https://files.consumerfinance.gov/f/documents/cfpb_data-rights-rulemaking-1033-SBREFA-high-level-summary-discussion-guide_2022-10.pdf 
+
+Joseph Heenan (OIDF/Authlete) to Everyone	11:18 PM	This was the announcement from CPFB: https://www.consumerfinance.gov/about-us/newsroom/cfpb-kicks-off-personal-financial-data-rights-rulemaking/
+Kosuke Koiwai to Everyone	11:30 PM	more than 50 registerd to attend on site, 330 people registered to watch online
+Dave Tonge (Moneyhub) to Everyone	11:35 PM	https://bitbucket.org/openid/fapi/pull-requests/401
+Dave Tonge (Moneyhub) to Everyone	11:36 PM	https://bitbucket.org/openid/fapi/pull-requests/400
+Dave Tonge (Moneyhub) to Everyone	11:36 PM	https://bitbucket.org/openid/fapi/pull-requests/398
+Dave Tonge (Moneyhub) to Everyone	11:37 PM	https://bitbucket.org/openid/fapi/pull-requests/397
+Dave Tonge (Moneyhub) to Everyone	11:38 PM	https://bitbucket.org/openid/fapi/pull-requests/396
+Dave Tonge (Moneyhub) to Everyone	11:38 PM	https://bitbucket.org/openid/fapi/pull-requests/395
+Dave Tonge (Moneyhub) to Everyone	11:39 PM	https://bitbucket.org/openid/fapi/pull-requests/399
+Dave Tonge (Moneyhub) to Everyone	11:39 PM	https://bitbucket.org/openid/fapi/pull-requests/393
+Dave Tonge (Moneyhub) to Everyone	11:39 PM	https://bitbucket.org/openid/fapi/pull-requests/394
+Joseph Heenan (OIDF/Authlete) to Everyone	11:41 PM	https://bitbucket.org/openid/fapi/issues?component=FAPI2%3A+Message+Signing&status=new&status=open
+Dave Tonge (Moneyhub) to Everyone	11:41 PM	https://bitbucket.org/openid/fapi/issues/565/add-privacy-consideration
+Dave Tonge (Moneyhub) to Everyone	11:43 PM	https://bitbucket.org/openid/fapi/issues/561/intro-need-to-be-fixed
+Chris Michael to Everyone	11:46 PM	Hi all - sorry have to jump off now
+Dave Tonge (Moneyhub) to Everyone	11:46 PM	https://bitbucket.org/openid/fapi/issues/479/change-to-the-naming-of-fapi
+Dave Tonge (Moneyhub) to Everyone	11:48 PM	https://bitbucket.org/openid/fapi/issues/487/rs-must-check-x-fapi-interaction-id-is-an
+Dave Tonge (Moneyhub) to Everyone	11:53 PM	https://bitbucket.org/openid/fapi/issues/558
+Dave Tonge (Moneyhub) to Everyone	11:55 PM	https://bitbucket.org/openid/fapi/issues/104/user-friendly-names-and-registration-of
+Dave Tonge (Moneyhub) to Everyone	11:56 PM	https://bitbucket.org/openid/fapi/issues/567/clause-20-does-not-exist-any-longer
