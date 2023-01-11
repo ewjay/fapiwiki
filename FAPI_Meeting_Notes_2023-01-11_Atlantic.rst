@@ -24,6 +24,9 @@ Roll Call (Dave/Nat)
 Adoption of Agenda (Nat)
 ================================
 
+Second Implementer’s Drafts of Two FAPI 2.0 Specifications
+===========================================================
+
 
 Events (Mike L.)
 ====================================================
