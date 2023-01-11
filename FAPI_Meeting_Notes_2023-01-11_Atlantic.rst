@@ -237,31 +237,32 @@ Me to Everyone	11:03 PM	Draft Agenda
 8.   PRs (Nat)
 9.   Issues (Nat)
 10.   AOB (Nat)
-Mike Leszcz - (OpenID Foundation) to Everyone	11:05 PM	https://openid.net/2023/01/08/notice-of-vote-for-proposed-second-implementers-drafts-of-two-fapi-2-0-specifications/
-Me to Everyone	11:05 PM	https://openid.net/2023/01/08/notice-of-vote-for-proposed-second-implementers-drafts-of-two-fapi-2-0-specifications/
-Mike Leszcz - (OpenID Foundation) to Everyone	11:06 PM	https://openid.net/foundation/calendar-of-events/
-Mike Leszcz - (OpenID Foundation) to Everyone	11:16 PM	https://docs.google.com/document/d/1mjmqPzfRI1l0ki9qnyaSz2YwAkH54gfG8A4lJtzA0WI/edit?usp=sharing
-Me to Everyone	11:17 PM	https://files.consumerfinance.gov/f/documents/cfpb_data-rights-rulemaking-1033-SBREFA_outline_2022-10.pdf 
 
-https://files.consumerfinance.gov/f/documents/cfpb_data-rights-rulemaking-1033-SBREFA-high-level-summary-discussion-guide_2022-10.pdf 
-
-Joseph Heenan (OIDF/Authlete) to Everyone	11:18 PM	This was the announcement from CPFB: https://www.consumerfinance.gov/about-us/newsroom/cfpb-kicks-off-personal-financial-data-rights-rulemaking/
-Kosuke Koiwai to Everyone	11:30 PM	more than 50 registerd to attend on site, 330 people registered to watch online
-Dave Tonge (Moneyhub) to Everyone	11:35 PM	https://bitbucket.org/openid/fapi/pull-requests/401
-Dave Tonge (Moneyhub) to Everyone	11:36 PM	https://bitbucket.org/openid/fapi/pull-requests/400
-Dave Tonge (Moneyhub) to Everyone	11:36 PM	https://bitbucket.org/openid/fapi/pull-requests/398
-Dave Tonge (Moneyhub) to Everyone	11:37 PM	https://bitbucket.org/openid/fapi/pull-requests/397
-Dave Tonge (Moneyhub) to Everyone	11:38 PM	https://bitbucket.org/openid/fapi/pull-requests/396
-Dave Tonge (Moneyhub) to Everyone	11:38 PM	https://bitbucket.org/openid/fapi/pull-requests/395
-Dave Tonge (Moneyhub) to Everyone	11:39 PM	https://bitbucket.org/openid/fapi/pull-requests/399
-Dave Tonge (Moneyhub) to Everyone	11:39 PM	https://bitbucket.org/openid/fapi/pull-requests/393
-Dave Tonge (Moneyhub) to Everyone	11:39 PM	https://bitbucket.org/openid/fapi/pull-requests/394
-Joseph Heenan (OIDF/Authlete) to Everyone	11:41 PM	https://bitbucket.org/openid/fapi/issues?component=FAPI2%3A+Message+Signing&status=new&status=open
-Dave Tonge (Moneyhub) to Everyone	11:41 PM	https://bitbucket.org/openid/fapi/issues/565/add-privacy-consideration
-Dave Tonge (Moneyhub) to Everyone	11:43 PM	https://bitbucket.org/openid/fapi/issues/561/intro-need-to-be-fixed
-Chris Michael to Everyone	11:46 PM	Hi all - sorry have to jump off now
-Dave Tonge (Moneyhub) to Everyone	11:46 PM	https://bitbucket.org/openid/fapi/issues/479/change-to-the-naming-of-fapi
-Dave Tonge (Moneyhub) to Everyone	11:48 PM	https://bitbucket.org/openid/fapi/issues/487/rs-must-check-x-fapi-interaction-id-is-an
-Dave Tonge (Moneyhub) to Everyone	11:53 PM	https://bitbucket.org/openid/fapi/issues/558
-Dave Tonge (Moneyhub) to Everyone	11:55 PM	https://bitbucket.org/openid/fapi/issues/104/user-friendly-names-and-registration-of
-Dave Tonge (Moneyhub) to Everyone	11:56 PM	https://bitbucket.org/openid/fapi/issues/567/clause-20-does-not-exist-any-longer
+#. Mike Leszcz - (OpenID Foundation) to Everyone	11:05 PM	https://openid.net/2023/01/08/notice-of-vote-for-proposed-second-implementers-drafts-of-two-fapi-2-0-specifications/
+#. Me to Everyone	11:05 PM	https://openid.net/2023/01/08/notice-of-vote-for-proposed-second-implementers-drafts-of-two-fapi-2-0-specifications/
+#. Mike Leszcz - (OpenID Foundation) to Everyone	11:06 PM	https://openid.net/foundation/calendar-of-events/
+#. Mike Leszcz - (OpenID Foundation) to Everyone	11:16 PM	https://docs.google.com/document/d/1mjmqPzfRI1l0ki9qnyaSz2YwAkH54gfG8A4lJtzA0WI/edit?usp=sharing
+#. Me to Everyone	11:17 PM	https://files.consumerfinance.gov/f/documents/cfpb_data-rights-rulemaking-1033-SBREFA_outline_2022-10.pdf 
+#. 
+#. https://files.consumerfinance.gov/f/documents/cfpb_data-rights-rulemaking-1033-SBREFA-high-level-summary-discussion-guide_2022-10.pdf 
+#. 
+#. Joseph Heenan (OIDF/Authlete) to Everyone	11:18 PM	This was the announcement from CPFB: https://www.consumerfinance.gov/about-us/newsroom/cfpb-kicks-off-personal-financial-data-rights-rulemaking/
+#. Kosuke Koiwai to Everyone	11:30 PM	more than 50 registerd to attend on site, 330 people registered to watch online
+#. Dave Tonge (Moneyhub) to Everyone	11:35 PM	https://bitbucket.org/openid/fapi/pull-requests/401
+#. Dave Tonge (Moneyhub) to Everyone	11:36 PM	https://bitbucket.org/openid/fapi/pull-requests/400
+#. Dave Tonge (Moneyhub) to Everyone	11:36 PM	https://bitbucket.org/openid/fapi/pull-requests/398
+#. Dave Tonge (Moneyhub) to Everyone	11:37 PM	https://bitbucket.org/openid/fapi/pull-requests/397
+#. Dave Tonge (Moneyhub) to Everyone	11:38 PM	https://bitbucket.org/openid/fapi/pull-requests/396
+#. Dave Tonge (Moneyhub) to Everyone	11:38 PM	https://bitbucket.org/openid/fapi/pull-requests/395
+#. Dave Tonge (Moneyhub) to Everyone	11:39 PM	https://bitbucket.org/openid/fapi/pull-requests/399
+#. Dave Tonge (Moneyhub) to Everyone	11:39 PM	https://bitbucket.org/openid/fapi/pull-requests/393
+#. Dave Tonge (Moneyhub) to Everyone	11:39 PM	https://bitbucket.org/openid/fapi/pull-requests/394
+#. Joseph Heenan (OIDF/Authlete) to Everyone	11:41 PM	https://bitbucket.org/openid/fapi/issues?component=FAPI2%3A+Message+Signing&status=new&status=open
+#. Dave Tonge (Moneyhub) to Everyone	11:41 PM	https://bitbucket.org/openid/fapi/issues/565/add-privacy-consideration
+#. Dave Tonge (Moneyhub) to Everyone	11:43 PM	https://bitbucket.org/openid/fapi/issues/561/intro-need-to-be-fixed
+#. Chris Michael to Everyone	11:46 PM	Hi all - sorry have to jump off now
+#. Dave Tonge (Moneyhub) to Everyone	11:46 PM	https://bitbucket.org/openid/fapi/issues/479/change-to-the-naming-of-fapi
+#. Dave Tonge (Moneyhub) to Everyone	11:48 PM	https://bitbucket.org/openid/fapi/issues/487/rs-must-check-x-fapi-interaction-id-is-an
+#. Dave Tonge (Moneyhub) to Everyone	11:53 PM	https://bitbucket.org/openid/fapi/issues/558
+#. Dave Tonge (Moneyhub) to Everyone	11:55 PM	https://bitbucket.org/openid/fapi/issues/104/user-friendly-names-and-registration-of
+#. Dave Tonge (Moneyhub) to Everyone	11:56 PM	https://bitbucket.org/openid/fapi/issues/567/clause-20-does-not-exist-any-longer
