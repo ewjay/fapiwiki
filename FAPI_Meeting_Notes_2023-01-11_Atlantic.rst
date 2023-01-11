@@ -26,14 +26,33 @@ Adoption of Agenda (Nat)
 
 Second Implementer’s Drafts of Two FAPI 2.0 Specifications
 ===========================================================
+* https://openid.net/2023/01/08/notice-of-vote-for-proposed-second-implementers-drafts-of-two-fapi-2-0-specifications/
 
 
 Events (Mike L.)
 ====================================================
+OIDF Calendar
+------------------
 * https://openid.net/foundation/calendar-of-events/ has been updated. 
+
+Identiverse submissions 
+----------------------------
+
+EIC Submission due Feb. 8
+-----------------------------
+
+Open Banking Latin America
+------------------------------
+Gavin Littlejohn organising. 
+May or June. 
+Likely to be in Rio
+
 
 Internal Liaisons
 ======================
+Open Banking Paper
+---------------------
+
 Modrna WG
 -----------------
 Bjorn gave a report about claims parameter support for CIBA to organize a call for interested parties to work on it.
@@ -55,21 +74,39 @@ iGov WG
 
 * The WG is to consider creating a profile so that it can be tested. 
 
+CFPB Comments
+------------------------
+https://files.consumerfinance.gov/f/documents/cfpb_data-rights-rulemaking-1033-SBREFA_outline_2022-10.pdf 
+
+https://files.consumerfinance.gov/f/documents/cfpb_data-rights-rulemaking-1033-SBREFA-high-level-summary-discussion-guide_2022-10.pdf 
+
+
 External Orgs & Liaisons (Mike L./Chris)
 ============================================
 Brazil (Mike)
 ----------------
-Continuing to receive recertification requests.
+* Continuing to receive high volume of recertification requests.
+* CIBA spec certification is coming up. 
+* Open Finance (Insurance) conforming coming. Domingo etc. had an event this Monday. 
 
-Open Finance Brazil if finalizing CIBA profile which may be available next year
-
-OPIN certifications are slow. Seems like many organization won’t be able to meet the end of year deadline.
 
 SAMA (Mike)
 ---------------
 * Finalized KSA FAPI Profile. We expect access to the mock bank to create a certification test. 
 * New milestone - initial KSA FAPI profile January 16. Three banks agreed to test the test. Feb. 1 for the production target for 12 banks to certify then. 
 
+Security Analysis
+----------------------
+* Next phase contract is done. Kicking off. 
+
+OIDF-J Event: BizDay
+-------------------------
+* 
+
+IETF
+-----------
+* DPoP is in IETF last call. 
+* Step up authentication WG finished. AD/IESG stage. 
 
 Drafts Updates (Nat)
 ============================================
@@ -102,39 +139,9 @@ n/a
 
 
 
-PRs (Nat)
+PRs (Dave)
 ===============
 
-* PR # 392 - FAPI 2.0 sec profile: there is no 20, which seems to be 9 now
-Wrong clause number
-Merged
-
-* PR #394 - FAPI 2.0 sec profile: there is no 20, which seems to be 9 now
-
-  * Moved “Shall” References to normative references section
-
-
-* PR #393 - use ticks so it doesn't end up as privatekeyjwt - fapi-2_0-message-signing.md edited online with Bitbucket
-
-  * Editorial change to preserve spacing for the keyword private_key_jwt
-
-* PR #391 - clarification re new tokens
-
-  * Clarifies using ‘merge’ action for obtaining new tokens for existing grants
-Needs update for Jacob’s comment
-
-* PR #385 - Remove Financial from CIBA in line with FAPI?
-
-  * Changed wording ‘Financial-grade API’ to FAPI
-
-* PR #395 - FAPI2MS: Create acknowledgements section
-
-  * Added acknowledgements
-  * Anyone left out should add their name
-  * Merged
-
-
-Closed a few. 
 
 
 
