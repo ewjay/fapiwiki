@@ -215,37 +215,12 @@ The call adjourned at 15:00
 
 Chat Transcripts
 ========================
-Me to Everyone	11:03 PM	Draft Agenda
-
-1.   Roll Call (Dave/Nat)
-2.   Adoption of Agenda (Nat)
-3.   Second Implementer’s Drafts of Two FAPI 2.0 Specifications
-4.   Events (Mike L.)
-5.   Internal Liaisons
-5.1.   Modrna WG
-5.2.   iGov WG
-6.   External Orgs & Liaisons (Mike L./Chris)
-6.1.   Brazil (Mike)
-6.2.   SAMA (Mike)
-7.   Drafts Updates (Nat)
-7.1.   Security Profile
-7.2.   Message Signing
-7.3.   Grant Management
-7.4.   CIBA
-7.5.   Implementation and Deployment Advice
-7.6.   Advanced Authorization
-8.   PRs (Nat)
-9.   Issues (Nat)
-10.   AOB (Nat)
-
 #. Mike Leszcz - (OpenID Foundation) to Everyone	11:05 PM	https://openid.net/2023/01/08/notice-of-vote-for-proposed-second-implementers-drafts-of-two-fapi-2-0-specifications/
 #. Me to Everyone	11:05 PM	https://openid.net/2023/01/08/notice-of-vote-for-proposed-second-implementers-drafts-of-two-fapi-2-0-specifications/
 #. Mike Leszcz - (OpenID Foundation) to Everyone	11:06 PM	https://openid.net/foundation/calendar-of-events/
 #. Mike Leszcz - (OpenID Foundation) to Everyone	11:16 PM	https://docs.google.com/document/d/1mjmqPzfRI1l0ki9qnyaSz2YwAkH54gfG8A4lJtzA0WI/edit?usp=sharing
 #. Me to Everyone	11:17 PM	https://files.consumerfinance.gov/f/documents/cfpb_data-rights-rulemaking-1033-SBREFA_outline_2022-10.pdf 
-#. 
 #. https://files.consumerfinance.gov/f/documents/cfpb_data-rights-rulemaking-1033-SBREFA-high-level-summary-discussion-guide_2022-10.pdf 
-#. 
 #. Joseph Heenan (OIDF/Authlete) to Everyone	11:18 PM	This was the announcement from CPFB: https://www.consumerfinance.gov/about-us/newsroom/cfpb-kicks-off-personal-financial-data-rights-rulemaking/
 #. Kosuke Koiwai to Everyone	11:30 PM	more than 50 registerd to attend on site, 330 people registered to watch online
 #. Dave Tonge (Moneyhub) to Everyone	11:35 PM	https://bitbucket.org/openid/fapi/pull-requests/401
