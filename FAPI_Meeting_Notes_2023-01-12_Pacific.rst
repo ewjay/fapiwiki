@@ -15,7 +15,7 @@ The meeting was called to order at 01:00 UTC.
 
 Roll Call (Anoop)
 =====================
- Nat, Dima, Ralph
+ Nat, Dima, Ralph and Anoop
  
 
 * Regrets:    
