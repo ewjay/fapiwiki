@@ -23,7 +23,12 @@ Adoption of Agenda (Dave/Nat)
 
 Events (Mike L.)
 ====================================================
-OIDF Calendar: https://openid.net/foundation/calendar-of-events/ has been updated. 
+* 2023 OIDF Calendar. OIDF Calendar: https://openid.net/foundation/calendar-of-events/ has been updated. 
+* Currently coordinating OIDF Workshops April 17 Mountain View Microsoft. 
+* OIDF WS Tues May 9. Any special topics to be sent to Mike L. 
+
+* FIDO Event next week in Taipei. 
+* 
 
 EIC Submission due Feb. 8
 -----------------------------
@@ -37,31 +42,31 @@ FIDO Taipei
 
 Internal Liaisons
 ======================
-FAPI Objectives for this year (Dave)
---------------------------------------
-* Dave mentioned the candidate roadmap. 
-* Joseph added Grant Management. 
-* Conformance test: 
-    * Message signing
-    * DPoP
-    * Grant Management
-    * CIBA (for FAPI 1 and 2? or just 2?)
-    * Funding needs to be sought. 
+Modrna WG (Nat/Joseph)
+---------------------------
 
 
 External Orgs & Liaisons (Mike L./Chris)
 ============================================
-SAMA
------------
-* FAPI 1 advanced profile and test rolled out. Had a workshop
-* Certification to be formally rolled out in Feb. 
+Brazil
+--------------
+* Recertification with Open Finance Brazil
+* Certification for Insurance. 
+
+Saudi Arabia
+---------------
+* Quite an active testing on KSA profile. 
+* Domingos creating RP tests. 
+* Another FAPI WS on next Wednesday. 
+* Chris asked about the optionality on the KSA profile. Private Key JWT and MTLS? Are they mandated to both? 
+* It is up to AS to choose. 
+* This would cause problems. 
 
 PRs (Dave)
 ===============
-PR 402 
------------
-* https://bitbucket.org/openid/fapi/pull-requests/402
-* Just three typos. 
+404 add intro and rework initial section for message signing
+------------------------------------------------------------------
+* Approved
 
 Issues (Nat)
 ==================
