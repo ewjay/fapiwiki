@@ -34,6 +34,16 @@ Agenda/notes:
 * * Global advocacy / support in existing and new markets, particularly expansion in Latin, Africa, Asia (new tech lead) 
 * * Publication of “Open Banking, Open Data: Ready to Cross Borders” whitepaper. (January, Dima) 
 
+
+
+OIDF blog: https://openid.net/2023/02/06/final-version-of-open-banking-and-open-data-ready-to-cross-borders-whitepaper-published/
+
+White paper direct link: https://openid.net/wordpress-content/uploads/2023/01/OIDF-Whitepaper_Open-Banking-and-Open-Data-Ready-to-Cross-Borders_Final.pdf  
+
+Linkedin post: https://www.linkedin.com/posts/dimapostnikov_open-banking-and-open-data-ready-to-cross-activity-7029341898565701633-tw3W 
+
+
+
 * * Potential Formation of Community Group adjacent to FAPI for advocacy of latest whitepaper, and evaluation of governance options for ongoing support. (Dima, Gail, others TBC 1H 2023)
 * * Grant management to final and conformance tests for grant mgmt . request to start review process. (Dima)
 * * tests for fapi2 security and message signing to be completed
