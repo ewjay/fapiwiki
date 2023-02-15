@@ -2,7 +2,7 @@
 FAPI WG Agenda & Meeting Notes (2023-02-15) 
 ===========================================
 * Date & Time: 2023-02-15T14:00Z
-* Location: GoToMeeting https://global.gotomeeting.com/join/321819862
+* Location: https://zoom.us/j/97456084642?pwd=bTRFVzk4ZmlRK1M3bEprRlN5c3JFZz09
 * Self: https://bitbucket.org/openid/fapi/wiki/edit/FAPI_Meeting_Notes_2023-02-15_Atlantic
 
 .. sectnum:: 
