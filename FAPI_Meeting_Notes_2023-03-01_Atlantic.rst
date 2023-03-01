@@ -20,19 +20,11 @@ Roll Call (Dave/Nat)
 
 Adoption of Agenda (Dave/Nat)
 ================================
-* 
+* Adopted as is. 
 
 Events (Mike)
 ====================================================
-OIDF Workshop Apr. 17
--------------------------------
-* @Microsoft
-* Co-chair
-* WG F2F
-
-EIC Workshop (May 9)
---------------------------
-* Pre-conference during the morning. 
+n/a
 
 Internal Liaisons
 ======================
@@ -41,58 +33,59 @@ n/a
 
 External Orgs & Liaisons (Mike L.)
 ============================================
-NIST SP800-63-4 Commenting
-------------------------------
-* Shared Spreadsheet: https://docs.google.com/spreadsheets/d/1JHDypzbKg8x2AMfC_z4pzDBk4waVJBp2/edit#gid=970969394
-* We will have a series of calls. 
+Canada (Gail via email)
+---------------------------
+* https://lists.openid.net/pipermail/openid-specs-fapi/2023-February/002835.html
+* Callers agreed to advise in the same line as we did for Saudi. 
+* Joseph to discuss with Gail on the implementation of the wording. 
+
+NIST (Mark)
+----------------------
+* https://lists.openid.net/pipermail/openid-specs-fapi/2023-February/002835.html
+* NISTIR 8389 
+* SP800-63-4ipd - * Shared Spreadsheet: https://docs.google.com/spreadsheets/d/1JHDypzbKg8x2AMfC_z4pzDBk4waVJBp2/edit#gid=970969394
+* Mark is creating a plan to cope with them and he will keep the WG updated. 
+
+Saudi (Chris/Mike L.)
+-----------------------
+1. Expect to see 10 more KSA banks certified in next few weeks
+2. C500 TPPs expected to enter KSA market in next few years and probably c20-30 other banks 
+3. Massive thanks to everyone who’s helped drive this
+4. We hosted an RP conformance test and certification workshop for SAMA yesterday with approximately 50 participants. Domingos Creado did an excellent job walking the participants through the RP conformance suite and certification. 
+5. We opened SAMA RP certifications after the workshop with the 1st SAMA RP certification listed.
 
 Brazil (Mike L.)
 ----------------------
-Open Finance Brazil
-~~~~~~~~~~~~~~~~~~~~~~
-*   Continue to receive certification and recertification requests on a regular basis
-*   Still awaiting feedback on the final CIBA spec for OFBR
-
-Open Insurance Brazil
-~~~~~~~~~~~~~~~~~~~~~~
-*   Continue to receive a steady stream of both OP & RP certification requests
-*   Certification team recently provided guidance to OPIN on RP spec/testing
-*   First one came in
-
-Saudi Arabia (Mike L.)
----------------------------
-* OP certification is now open. 
-* 11 or 12 banks coming. 
-* KSA RP testing. 
-* Hosting a WS next week focusing on the KSA RP certification framework. 
-* SAMA KSA FAPI Profile RP Workshop - Wednesday, February 28th at 1100 UTC — workshop link: https://zoom.us/j/95838096330?pwd=TTVNcTFwdkM3NUxveGZETSt2cEJhQT09
-
-OBIE (Joseph)
--------------------
-* Discussion to retire I-D 2 test started. 
+* Open Finance Brazil — we continue to receive FAPI recertification requests 
+* Open Insurance Brazil — we continue to receive FAPI OP and RP certification requests
 
 PRs (Dave/Nat)
 ===============
-request parameters via front channel clarification
+
+411 - attempt at clarifying request-response binding
+-----------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/411
+* Callers agreed to replace the text with a "nice place holder" for the next implementer's draft. 
+* Joseph and Dave to discuss how to implement it. 
+
+
+406 - initial work on privacy for message signing
+------------------------------------------------
+* https://bitbucket.org/openid/fapi/pull-requests/406
+* Kosuke to suggest a concrete wording on the correlation issues. 
+
+407 request parameters via front channel clarification
 -------------------------------------------------------
 * https://bitbucket.org/openid/fapi/pull-requests/407
-* Agreed to only required to clients
-* According to RFC9101, client is allowed. 
-
-Proposal to fix Issue #551
------------------------------------
-* https://bitbucket.org/openid/fapi/pull-requests/410
+* Server-side text to be done in another PR. 
+* Dima just need to resolve the conflict before getting it merged. 
 
 Issues (Dave/Nat)
 ==================
-#575 Issue with http sig request/response binding
-------------------------------------------------------------
-* https://bitbucket.org/openid/fapi/issues/575/issue-with-http-sig-request-response
-* Justin informed the WG that all necessary parameters to be signed instead of the signature of the request, 
-  and there is no need to wait for the IETF process. 
+n/a
 
 AOB (Nat)
 =============
-* WG agreed to proceed with the implementer's draft process for the Grant Management spec. 
+n/a
 
 The call adjourned at 14:57
