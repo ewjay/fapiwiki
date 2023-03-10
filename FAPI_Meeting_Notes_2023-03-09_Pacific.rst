@@ -16,7 +16,7 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
  
-*  Attendees:  Mark, Ed, David and Anoop
+*  Attendees:  Mark, Ed, David, Dima and Anoop
 
 * Regrets:   Nat
    
@@ -61,7 +61,7 @@ Agenda/notes:
 
 * * PR 407 - request parameters via front channel clarification
 * * * Server-side text to be done in another PR.
-* * * Dima just need to resolve the conflict before getting it merged.
+* * * Dima just need to resolve the conflict before getting it merged.  ( Update from Dima - this is resolved)
  
 * NIST (March 24th 2023)
 * *    https://lists.openid.net/pipermail/openid-specs-fapi/2023-February/002835.html
