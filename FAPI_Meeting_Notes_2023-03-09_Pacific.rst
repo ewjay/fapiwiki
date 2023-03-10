@@ -34,6 +34,12 @@ Agenda/notes:
 * * *     Callers agreed to advise in the same line as we did for Saudi.
 * * *     Joseph to discuss with Gail on the implementation of the wording.
 
+* * * Small group checkpoint held at their request 2/27
+* * * No decisions on spec selection yet, but it sounds like they are getting close to making decisions. They are also moving at pace towards a rapid market launch.
+* * * Timely support of questions like those above in (1) is important) to support their due process
+* * * They confirmed they had read all of our whitepapers (drafts and finals) and found them to be very valuable documents. This is a great tribute to the lead editors and contributors—your work is appreciated and seems to be resonating!
+
+
 * * SAMA/Saudi
 * * * We hosted an RP conformance test and certification workshop for SAMA yesterday with approximately 50 participants. Domingos Creado did an excellent job walking the participants through the RP conformance suite and certification
 * * * Expect to see 10 more KSA banks certified in next few weeks
