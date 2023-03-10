@@ -16,9 +16,9 @@ The meeting was called to order at 01:00 UTC.
 Roll Call (Anoop)
 =====================
  
-*  Attendees:  
+*  Attendees:  Mark, Ed, David and Anoop
 
-* Regrets:    
+* Regrets:   Nat
    
 
 Agenda/notes:
@@ -39,17 +39,21 @@ Agenda/notes:
 * * * Timely support of questions like those above in (1) is important) to support their due process
 * * * They confirmed they had read all of our whitepapers (drafts and finals) and found them to be very valuable documents. This is a great tribute to the lead editors and contributors—your work is appreciated and seems to be resonating!
 
-
 * * SAMA/Saudi
 * * * We hosted an RP conformance test and certification workshop for SAMA yesterday with approximately 50 participants. Domingos Creado did an excellent job walking the participants through the RP conformance suite and certification
 * * * Expect to see 10 more KSA banks certified in next few weeks
+
+* *  AU Update
+* Work package 2 - security attacker model
+* * Discuss scope in Atlantic call next week
  
 * Atlantic Call update
 
 * *  PR 411 - Attempt at clarifying request-response binding 
 * * * https://bitbucket.org/openid/fapi/pull-requests/411
 * * *  Callers agreed to replace the text with a "nice place holder" for the next implementer's draft.
-* * *  Joseph and Dave to discuss how to implement it.
+* * *  Joseph and Dave to discuss how to implement it. 
+* * * Need to get more clarity on this from Nat.
 
 * *  PR 406 - initial work on privacy for message signing
 * * * https://bitbucket.org/openid/fapi/pull-requests/406
@@ -65,6 +69,7 @@ Agenda/notes:
 * *     SP800-63-4ipd 
 * Shared Spreadsheet: https://docs.google.com/spreadsheets/d/1JHDypzbKg8x2AMfC_z4pzDBk4waVJBp2/edit#gid=970969394
 * *     Mark is creating a plan to cope with them and he will keep the WG updated.
+
 
 * Anoop is traveling 3/19 to 3/24 for an offsite,  
 * * Next Call : keep it (need volunteer) or cancel it?
