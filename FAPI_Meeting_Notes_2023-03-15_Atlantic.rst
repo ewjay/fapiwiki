@@ -20,7 +20,7 @@ Roll Call (Dave/Nat)
 
 Adoption of Agenda (Dave/Nat)
 ================================
-* 
+* Adopted as presented as draft agenda. 
 
 Mini-kick off of FAPI2 Workpackage 2 project (Gail/Marcus)
 =============================================================
