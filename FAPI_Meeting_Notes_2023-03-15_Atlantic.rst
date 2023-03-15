@@ -34,7 +34,7 @@ Events (Mike L)
 
 Internal Liaisons
 ======================
-n/a
+* n/a
 
 External Orgs & Liaisons (Mike L.)
 ============================================
@@ -46,8 +46,8 @@ Brazil
 Saudi
 -----------
 * KSA FAPI Profile Framework is not publicly available yet. Quality control is being performed. 
-* Publishing FAPI-specific component at openid.net. It will be confirmed shortly. 
-
+* This caused problems for parties that wanted to comply with the profile. 
+* Good news is that it seems it is possible to publish FAPI-specific components at openid.net. It will be confirmed shortly. 
 
 Draft Updates
 ====================
@@ -58,6 +58,8 @@ FAPI 2 Msg Signing (Dave)
 * Question was raised whether the title should have "Draft" or "Implementer's draft"
 
   * It should be "Draft" because it has not been voted on. 
+
+* The draft will be updated and sent to the foundation secretary again. 
 
 All other drafts: Put "draft" in the title (Nat)
 ----------------------------------------------------
