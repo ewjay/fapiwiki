@@ -56,7 +56,8 @@ FAPI 2 Msg Signing (Dave)
 ----------------------------
 * Package was sent to the foundation secretary. 
 * Question was raised whether the title should have "Draft" or "Implementer's draft"
-** It should be "Draft" because it has not been voted on. 
+
+  * It should be "Draft" because it has not been voted on. 
 
 All other drafts: Put "draft" in the title (Nat)
 ----------------------------------------------------
@@ -66,7 +67,7 @@ Also, please make sure to put warning text.
 
 PRs (Dave)
 ===============
-n/a
+Apart from one PR that we are parking until HTTP signature is settled, there is no standing PR. 
 
 
 Issues (Dave)
@@ -80,6 +81,7 @@ FAPI2SP: Note about client assertion audience looks misleading
 
 FAPI2SP appears to permit response_types "id_token", "id_token token" and "none"
 ------------------------------------------------------------------------------
+* #577
 * https://bitbucket.org/openid/fapi/issues/577/fapi2sp-appears-to-permit-response_types
 
 Brian's wording was discussed. It was pointed out that while it is rejecting the response types quoted, it does not others. Adding parameters (esp. tokens) would create a new authentication protocol and nullify the security analysis. In view of this, it was suggested to lock it down to response_type=code while making it conditional that future extensions, such as CIBA, can be made. (They need a fresh security analysis and we are doing that in FAPI2 Workpackate 2 sponsored by the AU government.) 
