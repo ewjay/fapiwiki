@@ -61,13 +61,12 @@ FAPI 2 Msg Signing (Dave)
 
 All other drafts: Put "draft" in the title (Nat)
 ----------------------------------------------------
-Editors, please make sure that your draft has "draft" or "Implementers draft #" in the title. 
-
-Also, please make sure to put warning text. 
+* Editors, please make sure that your draft has "draft" or "Implementers draft #" in the title. 
+* Also, please make sure to put warning text. 
 
 PRs (Dave)
 ===============
-Apart from one PR that we are parking until HTTP signature is settled, there is no standing PR. 
+* Apart from one PR that we are parking until HTTP signature is settled, there is no standing PR. 
 
 
 Issues (Dave)
@@ -83,13 +82,14 @@ FAPI2SP appears to permit response_types "id_token", "id_token token" and "none"
 ------------------------------------------------------------------------------
 * #577
 * https://bitbucket.org/openid/fapi/issues/577/fapi2sp-appears-to-permit-response_types
-
-Brian's wording was discussed. It was pointed out that while it is rejecting the response types quoted, it does not others. Adding parameters (esp. tokens) would create a new authentication protocol and nullify the security analysis. In view of this, it was suggested to lock it down to response_type=code while making it conditional that future extensions, such as CIBA, can be made. (They need a fresh security analysis and we are doing that in FAPI2 Workpackate 2 sponsored by the AU government.) 
-
-Filip came up with wording that sounded reasonable. He will put it in this ticket. 
+* Brian's wording was discussed. 
+* It was pointed out that while it is rejecting the response types quoted, it does not others. 
+* Adding parameters (esp. tokens) would create a new authentication protocol and nullify the security analysis. 
+* In view of this, it was suggested to lock it down to response_type=code while making it conditional that future extensions, such as CIBA, can be made. (They need a fresh security analysis and we are doing that in FAPI2 Workpackate 2 sponsored by the AU government.) 
+* Filip came up with wording that sounded reasonable. He will put it in this ticket. 
 
 AOB (Nat)
 =============
-none
+* none
 
 The call adjourned at 14:59
