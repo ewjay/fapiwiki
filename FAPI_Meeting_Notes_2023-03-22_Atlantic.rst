@@ -25,23 +25,49 @@ Adoption of Agenda (Dave/Nat)
 
 Events (Mike L)
 ====================================================
-* Workshop on 1 PM Apr. 17. Details to be published this week. 
+OpenID Foundation Workshop (Mike)
+---------------------------------------
+* Registration page is now open. 
+  * https://openid.net/2023/03/17/registration-workshop-at-microsoft/
+
+Events are now in the Foundation Google Calendar (Mike)
+------------------------------------------------------------
+* In the new website, it is going to be a single source. 
 
 Internal Liaisons
 ======================
-* n/a
+NIST SP800-63-4ipd Comments
+------------------------------
+* Mark is leading the discussion. Several meetings. 
+* Deadlines were postponed to April 14. 
+* Nat has provided a few comments pointing to FAPI as a good practice for security - security is typically not composable and has to take the protocol as a whole with an appropriate security model and analysis to go with. 
+
+FAPI2 Conformance test is now available (Mike)
+-------------------------------------------------
+* https://openid.net/2023/03/21/fapi-2-conformance-tests-available/
 
 External Orgs & Liaisons (Mike L.)
 ============================================
-
+Saudi Arabia (Mike)
+-----------------------
+* KSA
+  * OP Testing: https://openid.net/certification/fapi_op_testing/
+  * RP Testing: https://openid.net/certification/fapi_rp_testing/
 
 Draft Updates
 ====================
+Message Signing (Dave)
+--------------------------
+* Dave has sent the fixed Implementer's draft documents to Mike J. 
 
+Grant Management (Dima)
+--------------------------
+* Dima is applying the fix and is sending the draft out. 
 
 PRs (Dave)
 ===============
 * Apart from one PR that we are parking until HTTP signature is settled, there is no standing PR. 
+* Request/Response binding fix is waiting for IETF result next week. 
 
 
 Issues (Dave)
