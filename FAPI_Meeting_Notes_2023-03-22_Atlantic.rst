@@ -14,7 +14,7 @@ The meeting was called to order at 14:02 UTC.
 
 Roll Call (Dave/Nat)
 ======================
-* Attending: 
+* Attending: Dave, Nat, Chris, Takahiko, Michael, Mike L. Dima, Daniel, Justin, Kelly, Brian, Filip, Bjorn
 * Regrets: 
 * Guest: 
 
