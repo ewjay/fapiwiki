@@ -14,8 +14,8 @@ The meeting was called to order at 14:02 UTC.
 
 Roll Call (Dave/Nat)
 ======================
-* Attending: Dave, Nat, Chris, Takahiko, Michael, Mike L. Dima, Daniel, Justin, Kelly, Brian, Filip, Bjorn
-* Regrets: 
+* Attending: Dave, Nat, Chris, Takahiko, Michael, Mike L. Dima, Daniel, Justin, Kelly, Brian, Filip, Bjorn, Lukasz, Kosuke, Gail
+* Regrets: Joseph
 * Guest: 
 
 Adoption of Agenda (Dave/Nat)
@@ -41,6 +41,8 @@ NIST SP800-63-4ipd Comments
 * Mark is leading the discussion. Several meetings. 
 * Deadlines were postponed to April 14. 
 * Nat has provided a few comments pointing to FAPI as a good practice for security - security is typically not composable and has to take the protocol as a whole with an appropriate security model and analysis to go with. 
+* Link to the comment sheet that OIDF is compiling: 
+  * https://docs.google.com/spreadsheets/d/1JHDypzbKg8x2AMfC_z4pzDBk4waVJBp2/edit#gid=571622526
 
 FAPI2 Conformance test is now available (Mike)
 -------------------------------------------------
@@ -72,6 +74,13 @@ PRs (Dave)
 
 Issues (Dave)
 ==================
+Proposed new FAPI certification test: private_key_jwt client authentication assertion where aud contains multiple values (Filip)
+------------------------------------------------------------------------------------------------------------------------------------------------
+* https://bitbucket.org/openid/fapi/issues/403/proposed-new-fapi-certification-test
+* related to #501
+* see https://bitbucket.org/openid/fapi/issues/403/proposed-new-fapi-certification-test as well. 
+* Filip is going to record the result of the discussion in the ticket. 
+
 
 
 AOB (Nat)
