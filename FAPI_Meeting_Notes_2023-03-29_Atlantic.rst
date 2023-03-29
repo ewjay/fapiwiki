@@ -28,7 +28,7 @@ Events (Mike L)
 OpenID Foundation Workshop (Mike)
 ---------------------------------------
 * Registration page is now open. 
-  * https://openid.net/2023/03/17/registration-workshop-at-microsoft/
+    * https://openid.net/2023/03/17/registration-workshop-at-microsoft/
 
 Events are now in the Foundation Google Calendar (Mike)
 ------------------------------------------------------------
@@ -42,7 +42,7 @@ NIST SP800-63-4ipd Comments
 * Deadlines were postponed to April 14. 
 * Nat has provided a few comments pointing to FAPI as a good practice for security - security is typically not composable and has to take the protocol as a whole with an appropriate security model and analysis to go with. 
 * Link to the comment sheet that OIDF is compiling: 
-  * https://docs.google.com/spreadsheets/d/1JHDypzbKg8x2AMfC_z4pzDBk4waVJBp2/edit#gid=571622526
+    * https://docs.google.com/spreadsheets/d/1JHDypzbKg8x2AMfC_z4pzDBk4waVJBp2/edit#gid=571622526
 
 FAPI2 Conformance test is now available (Mike)
 -------------------------------------------------
@@ -61,19 +61,19 @@ Open Insurance Brazil
 Saudi Arabia (Mike)
 -----------------------
 * Increase on testing activities
-  * Six KSA fintech are FAPI RP certified
-  * Eight KSA Server testing (6 banks + alpha)
+    * Six KSA fintech are FAPI RP certified
+    * Eight KSA Server testing (6 banks + alpha)
 
 * KSA
-  * OP Testing: https://openid.net/certification/fapi_op_testing/
-  * RP Testing: https://openid.net/certification/fapi_rp_testing/
+    * OP Testing: https://openid.net/certification/fapi_op_testing/
+    * RP Testing: https://openid.net/certification/fapi_rp_testing/
 
 OECD
 ---------
 * Online public consultation on the draft OECD Recommendation on the Governance of Digital Identity
-  * https://www.oecd.org/fr/gouvernance/gouvernement-numerique/online-public-consultation-draft-oecd-recommendation-on-the-governance-of-digital-identity.htm
+    * https://www.oecd.org/fr/gouvernance/gouvernement-numerique/online-public-consultation-draft-oecd-recommendation-on-the-governance-of-digital-identity.htm
 * Gail created a draft letter: 
-  * https://docs.google.com/document/d/1Vu-5Pt6K-4nPccNZ_0eC4RLavifUZntnGgBLKBEYsv0/edit
+    * https://docs.google.com/document/d/1Vu-5Pt6K-4nPccNZ_0eC4RLavifUZntnGgBLKBEYsv0/edit
 
 Draft Updates
 ====================
@@ -127,7 +127,7 @@ Network Layer Protections restrict use of more recent TLS 1.2 cyphers
 ----------------------------------------------------------------------------
 * Moving to TLS 1.3 removes the restrictions on the cyphers. 
 * However, the certification suite does not support TLS 1.3. 
-  * Nat to create an issue on the tracker regarding this. 
+    * Nat to create an issue on the tracker regarding this. 
 
 AOB (Nat)
 =============
