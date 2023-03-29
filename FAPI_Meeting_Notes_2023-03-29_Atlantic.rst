@@ -50,11 +50,30 @@ FAPI2 Conformance test is now available (Mike)
 
 External Orgs & Liaisons (Mike L.)
 ============================================
+Open Finance Brazil 
+----------------------------
+* They have seen some progress on CIBA spec. 
+
+Open Insurance Brazil
+------------------------
+* Recertification - good progress. 
+
 Saudi Arabia (Mike)
 -----------------------
+* Increase on testing activities
+  * Six KSA fintech are FAPI RP certified
+  * Eight KSA Server testing (6 banks + alpha)
+
 * KSA
   * OP Testing: https://openid.net/certification/fapi_op_testing/
   * RP Testing: https://openid.net/certification/fapi_rp_testing/
+
+OECD
+---------
+* Online public consultation on the draft OECD Recommendation on the Governance of Digital Identity
+  * https://www.oecd.org/fr/gouvernance/gouvernement-numerique/online-public-consultation-draft-oecd-recommendation-on-the-governance-of-digital-identity.htm
+* Gail created a draft letter: 
+  * https://docs.google.com/document/d/1Vu-5Pt6K-4nPccNZ_0eC4RLavifUZntnGgBLKBEYsv0/edit
 
 Draft Updates
 ====================
@@ -64,7 +83,7 @@ Message Signing (Dave)
 
 Grant Management (Dima)
 --------------------------
-* Dima is applying the fix and is sending the draft out. 
+* Dave is creating a submission package now. 
 
 PRs (Dave)
 ===============
@@ -81,6 +100,15 @@ Proposed new FAPI certification test: private_key_jwt client authentication asse
 * see https://bitbucket.org/openid/fapi/issues/403/proposed-new-fapi-certification-test as well. 
 * Filip is going to record the result of the discussion in the ticket. 
 
+private_key_jwt audience requirements (Filip)
+-----------------------------------------------
+* https://bitbucket.org/openid/fapi/issues/581/private_key_jwt-audience-requirements
+* Agreed that the PR is OK. 
+* Nat to confirm with Torsten. 
+
+FAPI2SP appears to permit response_types "id_token", "id_token token" and "none"
+----------------------------------------------------------------------------------------
+* https://bitbucket.org/openid/fapi/issues/577/fapi2sp-appears-to-permit-response_types
 
 
 AOB (Nat)
