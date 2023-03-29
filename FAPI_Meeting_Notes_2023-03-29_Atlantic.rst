@@ -14,8 +14,8 @@ The meeting was called to order at 14:02 UTC.
 
 Roll Call (Dave/Nat)
 ======================
-* Attending: Dave, Nat, Chris, Takahiko, Michael, Mike L. Dima, Daniel, Justin, Kelly, Brian, Filip, Bjorn, Lukasz, Kosuke, Gail
-* Regrets: Joseph
+* Attending: Nat Gail, Mike, Dave, Bjorn, Craig, Dima, Domingos, Filip, George, Kelley, Kosuke, Takahiko
+* Regrets:
 * Guest: 
 
 Adoption of Agenda (Dave/Nat)
@@ -117,7 +117,17 @@ FAPI CIBA (Dave)
 * Discussed the changes it needs for supporting FAPI2. 
 * Whether signing is required or not should be based on whether the base profile requires signing (e.g., FAPI2 Message Signing + CIBA should require it, while FAPI2 Security Profile + CIBA should not.)
 * 5.2.2.6
+* Assigned to Filip. 
 
+FAPI2MS: Rejection of non-JAR/non-JARM requests (Filip)
+------------------------------------------------------------
+* https://bitbucket.org/openid/fapi/issues/576/fapi2ms-rejection-of-non-jar-non-jarm
+
+Network Layer Protections restrict use of more recent TLS 1.2 cyphers
+----------------------------------------------------------------------------
+* Moving to TLS 1.3 removes the restrictions on the cyphers. 
+* However, the certification suite does not support TLS 1.3. 
+  * Nat to create an issue on the tracker regarding this. 
 
 AOB (Nat)
 =============
