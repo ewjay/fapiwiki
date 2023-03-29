@@ -106,9 +106,17 @@ private_key_jwt audience requirements (Filip)
 * Agreed that the PR is OK. 
 * Nat to confirm with Torsten. 
 
-FAPI2SP appears to permit response_types "id_token", "id_token token" and "none"
+FAPI2SP appears to permit response_types "id_token", "id_token token" and "none" (Dave)
 ----------------------------------------------------------------------------------------
 * https://bitbucket.org/openid/fapi/issues/577/fapi2sp-appears-to-permit-response_types
+* Dave to create a PR. 
+
+FAPI CIBA (Dave)
+---------------------
+* https://bitbucket.org/openid/fapi/issues/580/fapi-ciba
+* Discussed the changes it needs for supporting FAPI2. 
+* Whether signing is required or not should be based on whether the base profile requires signing (e.g., FAPI2 Message Signing + CIBA should require it, while FAPI2 Security Profile + CIBA should not.)
+* 5.2.2.6
 
 
 AOB (Nat)
