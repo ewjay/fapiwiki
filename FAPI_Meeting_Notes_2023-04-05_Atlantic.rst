@@ -50,25 +50,25 @@ NIST SP800-63-4ipd Comments
 It is now open for comment: https://openid.net/2023/04/05/open-for-comment-privacy-landscape-whitepaper/ 
 Please comment. 
 
-External Orgs & Liaisons (Mike L.)
+External Orgs & Liaisons (Nat/Mike L.)
 ============================================
-Open Finance Brazil 
-----------------------------
+Open Finance Brazil (Nat/Mike)
+--------------------------------
 * OIDF continue to receive FAPI recertification requests as mandated by OFBR. 
 
-Open Insurance Brazil
-------------------------
-* We continue to receive OP and RP cert requests. OPIN is considering mandating FAPI recerts and we’re engaged in the conversation and working to clarify OPINs recent requirements. 
+Open Insurance Brazil (Nat/Mike)
+--------------------------------------
+* We continue to receive OP and RP cert requests. OPIN is considering mandating FAPI recertification and we are engaged in the conversation and working to clarify OPINs recent requirements. 
 
-Saudi Arabia (Mike)
------------------------
+Saudi Arabia (Mike/Chris/Nat)
+------------------------------------
 * We continue to receive OP and RP cert requests from SAMA participants.
 * Recertification is likely to be on FAPI2. 
 
 SmartData Foundry (Chris)
 --------------------------
 A standards comparison table is being compiled. 
-Volunteers to review / add content is sought. 
+Volunteers to review / add content are sought. 
 
 Currently, it includes: 
 
