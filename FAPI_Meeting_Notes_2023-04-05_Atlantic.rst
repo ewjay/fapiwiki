@@ -14,8 +14,8 @@ The meeting was called to order at 14:02 UTC.
 
 Roll Call (Dave/Nat)
 ======================
-* Attending: Filip, Nat, Brian, Chris, Dima, Dazve, Kosuke
-* Regrets: Mike Lszcz, Joseph Heenan, 
+* Attending: Filip, Nat, Brian, Chris, Dima, Dave, Kosuke, Reinaldo, Craig, Takahiko
+* Regrets: Mike Leszcz, Joseph Heenan, 
 * Guest: 
 
 Adoption of Agenda (Dave/Nat)
