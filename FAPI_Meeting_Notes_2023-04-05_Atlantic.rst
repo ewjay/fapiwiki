@@ -14,13 +14,14 @@ The meeting was called to order at 14:02 UTC.
 
 Roll Call (Dave/Nat)
 ======================
-* Attending: Nat Gail, Mike, Dave, Bjorn, Craig, Dima, Domingos, Filip, George, Kelley, Kosuke, Takahiko
-* Regrets:
+* Attending: Filip, Nat, Brian, Chris, Dima, Dazve, Kosuke
+* Regrets: Mike Lszcz, Joseph Heenan, 
 * Guest: 
 
 Adoption of Agenda (Dave/Nat)
 ================================
 * Adopted as presented as draft agenda. 
+  * SmartData Foundry. 
 
 
 Events (Mike L)
@@ -44,36 +45,57 @@ NIST SP800-63-4ipd Comments
 * Link to the comment sheet that OIDF is compiling: 
     * https://docs.google.com/spreadsheets/d/1JHDypzbKg8x2AMfC_z4pzDBk4waVJBp2/edit#gid=571622526
 
-FAPI2 Conformance test is now available (Mike)
--------------------------------------------------
-* https://openid.net/2023/03/21/fapi-2-conformance-tests-available/
+“Government-issued Digital Credentials and the Privacy Landscape” whitepaper 
+----------------------------------------------------------------------------------
+It is now open for comment: https://openid.net/2023/04/05/open-for-comment-privacy-landscape-whitepaper/ 
+Please comment. 
 
 External Orgs & Liaisons (Mike L.)
 ============================================
 Open Finance Brazil 
 ----------------------------
-* They have seen some progress on CIBA spec. 
+* OIDF continue to receive FAPI recertification requests as mandated by OFBR. 
 
 Open Insurance Brazil
 ------------------------
-* Recertification - good progress. 
+* We continue to receive OP and RP cert requests. OPIN is considering mandating FAPI recerts and we’re engaged in the conversation and working to clarify OPINs recent requirements. 
 
 Saudi Arabia (Mike)
 -----------------------
-* Increase on testing activities
-    * Six KSA fintech are FAPI RP certified
-    * Eight KSA Server testing (6 banks + alpha)
+* We continue to receive OP and RP cert requests from SAMA participants.
+* Recertification is likely to be on FAPI2. 
 
-* KSA
-    * OP Testing: https://openid.net/certification/fapi_op_testing/
-    * RP Testing: https://openid.net/certification/fapi_rp_testing/
+SmartData Foundry (Chris)
+--------------------------
+A standards comparison table is being compiled. 
+Volunteers to review / add content is sought. 
 
-OECD
----------
-* Online public consultation on the draft OECD Recommendation on the Governance of Digital Identity
-    * https://www.oecd.org/fr/gouvernance/gouvernement-numerique/online-public-consultation-draft-oecd-recommendation-on-the-governance-of-digital-identity.htm
-* Gail created a draft letter: 
-    * https://docs.google.com/document/d/1Vu-5Pt6K-4nPccNZ_0eC4RLavifUZntnGgBLKBEYsv0/edit
+Currently, it includes: 
+
+* Bahrain Open Banking Framework - Bahrain OBF
+* Bank Interfaces for Standardized Payments - BISTRA
+* Consumer Data Standards - CDR
+* Czech Standard for Open Banking - COBS
+* Financial Data Exchange API - FDX
+* Open API Framework for Hong Kong
+* India Stack
+* Japan Open Banking Framework
+* NextGenPSD2
+* Open Banking In Nigeria (draft)
+* API Centre standards
+* Open Banking Brasil
+* PolishAPI
+* STET PSD2 API
+* Singapore Financial Data Exchange - SGFinDex
+* Slovak Banking API Standard
+* SNAP
+* KSA Open Banking Standard
+* Open Banking Platform
+* Swiss NextGen API
+* UK Open Banking Standard
+
+Also, we need to find out what is the best way of crediting individuals and the foundation of the work. 
+Chris will ping Gail and Nat on this. 
 
 Draft Updates
 ====================
