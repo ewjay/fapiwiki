@@ -58,27 +58,27 @@ Link to the comment sheet that OIDF is compiling:
 
 Currently, it includes:
 
-    Bahrain Open Banking Framework - Bahrain OBF
-    Bank Interfaces for Standardized Payments - BISTRA
-    Consumer Data Standards - CDR
-    Czech Standard for Open Banking - COBS
-    Financial Data Exchange API - FDX
-    Open API Framework for Hong Kong
-    India Stack
-    Japan Open Banking Framework
-    NextGenPSD2
-    Open Banking In Nigeria (draft)
-    API Centre standards
-    Open Banking Brasil
-    PolishAPI
-    STET PSD2 API
-    Singapore Financial Data Exchange - SGFinDex
-    Slovak Banking API Standard
-    SNAP
-    KSA Open Banking Standard
-    Open Banking Platform
-    Swiss NextGen API
-    UK Open Banking Standard
+   * Bahrain Open Banking Framework - Bahrain OBF
+* Bank Interfaces for Standardized Payments - BISTRA
+* Consumer Data Standards - CDR
+* Czech Standard for Open Banking - COBS
+* Financial Data Exchange API - FDX
+* Open API Framework for Hong Kong
+* India Stack
+* Japan Open Banking Framework
+* NextGenPSD2
+* Open Banking In Nigeria (draft)
+* API Centre standards
+* Open Banking Brasil
+* PolishAPI
+* STET PSD2 API
+* Singapore Financial Data Exchange - SGFinDex
+* Slovak Banking API Standard
+* SNAP
+* KSA Open Banking Standard
+* Open Banking Platform
+* Swiss NextGen API
+* UK Open Banking Standard
 
 Also, we need to find out what is the best way of crediting individuals and the foundation of the work. Chris will ping Gail and Nat on this.
 
