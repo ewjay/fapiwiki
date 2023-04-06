@@ -19,8 +19,9 @@ Roll Call (Anoop)
 
 Agenda
 
-Events Update:
-* Workshop at Microsoft – Monday, April 17, 2023
+* Events Update
+
+* * Workshop at Microsoft – Monday, April 17, 2023
     https://openid.net/2023/03/17/registration-workshop-at-microsoft/ 
 
 * Liaison
