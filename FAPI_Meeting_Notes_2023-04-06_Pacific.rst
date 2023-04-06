@@ -36,8 +36,22 @@ Link to the comment sheet that OIDF is compiling:
 * *  It is now open for comment: https://openid.net/2023/04/05/open-for-comment-privacy-landscape-whitepaper
 * * Please review and comment.
 
+* * OECD
+
+* * * Online public consultation on the draft OECD Recommendation on the Governance of Digital Identity
+            https://www.oecd.org/fr/gouvernance/gouvernement-numerique/online-public-consultation-draft-oecd-recommendation-on-the-governance-of-digital-identity.htm
+
+* * * Gail created a draft letter:
+            https://docs.google.com/document/d/1Vu-5Pt6K-4nPccNZ_0eC4RLavifUZntnGgBLKBEYsv0/edit
+
+
+
+
 * Certifications
 * * Continue to get new request for certification from Brazil (OpenFinance) & Saudi Arabia (Open Insurance)
+* *  FAPI2 Conformance test is now available (Mike) 
+
+    https://openid.net/2023/03/21/fapi-2-conformance-tests-available/
 
 * A standards comparison table is being compiled. Volunteers to review / add content are sought.
 
@@ -67,8 +81,28 @@ Currently, it includes:
 
 Also, we need to find out what is the best way of crediting individuals and the foundation of the work. Chris will ping Gail and Nat on this.
 
+* Draft Updates
+* * Dave has sent the fixed Implementer's draft documents to Mike J [related to message signing]
+* * Dave is creating a submission package now. [ Grants Management ]
 
-* Recap of Atlantic Call 
+* PR Updates
+* * Apart from one PR that we are parking until HTTP signature is settled, there is no standing PR.
+* * Request/Response binding fix is waiting for IETF result next week.
+
+* Issue Updates
+* * CIBA
+* * *  https://bitbucket.org/openid/fapi/issues/580/fapi-ciba
+* * *  Discussed the changes it needs for supporting FAPI2.
+* * *  Whether signing is required or not should be based on whether the base profile requires signing (e.g., FAPI2 Message Signing + CIBA should require it, while FAPI2 Security Profile + CIBA should not.)
+* * *  5.2.2.6
+* * *  Assigned to Filip.
+* * Network Layer Protections restrict use of more recent TLS 1.2 ciphers
+* * * Moving to TLS 1.3 removes the restrictions on the ciphers.
+* * * However, the certification suite does not support TLS 1.3.
+* * * Nat to create an issue on the tracker regarding this.
+
+
+
 
 ================================
 
