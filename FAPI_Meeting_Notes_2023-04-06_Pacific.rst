@@ -55,10 +55,9 @@ Link to the comment sheet that OIDF is compiling:
     https://openid.net/2023/03/21/fapi-2-conformance-tests-available/
 
 * A standards comparison table is being compiled. Volunteers to review / add content are sought.
-
 Currently, it includes:
 
-   * Bahrain Open Banking Framework - Bahrain OBF
+* Bahrain Open Banking Framework - Bahrain OBF
 * Bank Interfaces for Standardized Payments - BISTRA
 * Consumer Data Standards - CDR
 * Czech Standard for Open Banking - COBS
