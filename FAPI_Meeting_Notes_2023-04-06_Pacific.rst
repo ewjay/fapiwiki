@@ -110,4 +110,4 @@ Also, we need to find out what is the best way of crediting individuals and the 
 Next Call
 ==============================
 Next call will be an Pacific Call. 
-Next Pacific call will be in two weeks (03-23-2023 @ 5pm PST) UTC - 03-24-2023 1:00 AM.
+Next Pacific call will be in two weeks (04-20-2023 @ 5pm PST) UTC - 04-21-2023 1:00 AM.
