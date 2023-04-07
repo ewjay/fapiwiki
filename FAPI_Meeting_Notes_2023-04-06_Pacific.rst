@@ -14,7 +14,7 @@ The meeting was called to order at 00:00 UTC.
 
 Roll Call (Anoop)
 =====================
-* Attendees:   
+* Attendees: Nat, Dima and Anoop  
 * Regrets:    
 
 Agenda
