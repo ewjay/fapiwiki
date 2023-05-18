@@ -71,19 +71,19 @@ Issues (Dave)
   * Name is being updated in new OIDF website design
   * Just be persistent to call it FAPI  and not associate it with Financial-grade.
 
-#570 - Deprecation & removal of FAPI 1 Implementer's Draft conformance certification tests/programme
+* #570 - Deprecation & removal of FAPI 1 Implementer's Draft conformance certification tests/programme
 
   * OBIE getting ready to transition to FAPI1 final sometime next year
   * Joseph is in discussions with them regarding implications
 
-#598 - Version identifier for FAPI 2.0
+* #598 - Version identifier for FAPI 2.0
 
   * To avoid mix-up of protocol versions, it’s good practice to put version number in the protocol
   * Discussed before regarding where the version will go, e.g. client registration
   * It was decided that it’s difficult to work with older version and various profiles
   * Duplicate of #469 - Add protocol version and variant identifier
 
-#597 - Add text about conformance testing to FAPI2
+* #597 - Add text about conformance testing to FAPI2
 
   * Awaiting PR
 
