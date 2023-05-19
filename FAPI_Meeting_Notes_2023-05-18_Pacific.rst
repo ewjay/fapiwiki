@@ -14,14 +14,13 @@ The meeting was called to order at 00:00 UTC.
 
 Roll Call (Anoop)
 =====================
-* Attendees:  
+* Attendees:  Nat, Ed and Anoop
 * Regrets:    
 
 Agenda
 
 * Events Update
 * * OpenID workshop recording is available now.
-* * EIC Workshop 9th May
 * * Implemnter's Draft of FAPI 2.0 Message Signing approved (Dave/Nat)
 * * * 65 members voted with 0 objections so it has been quorate and approved. Congratulations to the team. 
 * Liaison/Ext Org
@@ -38,6 +37,7 @@ Agenda
 
 * Issues
 
+* * #306 Updated to include implementation advice. Explore from other jurisdictions such Brazil, SAMA. Check with Dima & Joseph for input.
 * * #594 - https://bitbucket.org/openid/fapi/issues/594/value-of-jarm-for-non-repudiation 
 * * #595 - https://bitbucket.org/openid/fapi/issues/595/using-oidc-federation-and-fapi-together
 * * #596 - https://bitbucket.org/openid/fapi/issues/596/non-repudiation
