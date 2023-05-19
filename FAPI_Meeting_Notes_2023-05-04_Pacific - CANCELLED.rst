@@ -19,26 +19,6 @@ Roll Call (Anoop)
 
 Agenda
 
-* Events Update
-* * OpenID workshop recording is available now.
-* * EIC Workshop 9th May
-
-* Liaison/Ext Org
-* * Saudi
-* * Brazil
-* * AU
-* * * Security Analysis sponsored by AU team  - WP2 is proceeding. Everything should be on track. The team to brief the WG.
-* *  US/Canada - FDX
-* * OAUTH WG
-* * * DPoP was approved. It is now in RFC editor's queue.
-
-* Issues
-
-* * #594 - https://bitbucket.org/openid/fapi/issues/594/value-of-jarm-for-non-repudiation 
-* * #595 - https://bitbucket.org/openid/fapi/issues/595/using-oidc-federation-and-fapi-together
-* * #596 - https://bitbucket.org/openid/fapi/issues/596/non-repudiation
-
- 
 
 
 
