@@ -14,13 +14,13 @@ The meeting was called to order at 14:__ UTC.
 
 Roll Call (Dave/Nat)
 ======================
-* Attending: 
+* Attending: Kosuke, Nat, Brian, Takahiko, Domingos, Peter Stanley, Lukasz, Bjorn, Victor Lu, Dima
 * Regrets: 
 * Guest: 
 
 Adoption of Agenda (Dave/Nat)
 ================================
-* Default agenda used. 
+* Added Camara Project. 
 
 
 Events (Mike L)
@@ -38,22 +38,33 @@ OAuth Security Workshop (Daniel)
 External Orgs & Liaisons (Nat/Mike L.)
 ============================================
 
-Open Finance Brazil
----------------------- 
-* continue to receive both new FAPI certs as well as FAPI reverts
+OFBR
+-----------
+continue to process FAPI recertification requests. CIBA Squad recently sent updated OFBR CIBA spec which is still to be reviewed. Elcio Calefi joined us at Identiverse in Las Vegas last week where we had meaningful conversations regarding FAPI adoption and certification.
 
-Open Insurance Brazil 
-------------------------------
-* working to confirm their FAPI recertification requirements. We anticipate hearing back from OPIN in May 26th. 
-* FAPI reverts would begin in Q3 2024, and we anticipate approximately 70 OP and 70 RP reverts
+OPIN
+---------
+Phase 1 is finished for the most part. OPIN are now considering FAPI recertification requirements that will begin Q3 2023.
 
 SAMA
----------
-* continue to receive and process Phase 1 OP and RP certifications. We’ve had a number of Saudi fintech join the Foundation.
+------------
+Phase 1 almost completed with final bank and fintechs to be certified. Coordinating call with SAMA to discuss next steps including Phase 2.
 
-ConnectID/AU
+FDX
+----------
+met with FDX leadership at Identiverse last week in Las Vegas to discuss updating our liaison relationship. We also discussed FAPI certification and what that may look like in the overall FDX certification stack. Joseph provided detailed update on FAPI WG efforts.
+
+ConnectID
 ------------------
-* continue to work through certification bundled pricing options
+ongoing conversation regarding OID adoption, certification and certification pricing.
+
+Camara Project (Bjorn)
+-------------------------
+* API 
+* June 1 meeting. 
+* https://camaraproject.org/
+* https://github.com/camaraproject
+
 
 Spec Status
 ====================
@@ -62,12 +73,12 @@ Grant Management
 * Vote has been announced. 
 
 
-PRs (Dave)
+PRs (Nat)
 ===============
+N/A
 
 
-
-Issues (Dave)
+Issues (Nat)
 ==================
 
 
