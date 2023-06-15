@@ -39,9 +39,12 @@ Agenda
     Priority dropped since Australia decided not to use DCR, no other ecosystem waiting for DCR
     Priority given to using Federation with FAPI (OPIN and Open Finance Brazil is considering using 
 Federation) - https://bitbucket.org/openid/fapi/issues/466/proposal-for-fapi-dcr-dcm-dynamic-client 
+
 * * 487 - RS must check x-fapi-interaction-id is an UUID or IP address
     Interaction ID was removed but is mentioned in implementation advice.
     May need to add additional clause  https://bitbucket.org/openid/fapi/issues/487/rs-must-check-x-fapi-interaction-id-is-an
+
+
 
 
 
